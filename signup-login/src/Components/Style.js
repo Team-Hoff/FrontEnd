@@ -21,13 +21,14 @@ export const colors = {
 //Styled components
 export const StyledContainer = styled.div`
     margin: 0;
+    padding: 0;
     min-height:100vh;
     display: flex;
     justify-content: center;
     align-items: center;
     background: linear-gradient(0deg, rgba(0,0,0,0.5), rgba(0,0,0,0.5)), url(${background});
-    background-size: cover;
-    background-attachment: fixed;
+    background-size: 100% 100%;
+    background-attachment: fixed; 
 `;
 
 export const StyledTitle = styled.h2`
@@ -86,6 +87,28 @@ export const ButtonGroup = styled.div`
 
 //input
 export const StyledTextInput =  styled.input`
+    width: 330px;
+    padding: 15px;
+    padding-left: 50px;
+    font-size: 17px;
+    letter-spacing: 1px;
+    color: ${colors.dark1};
+    background-color: ${colors.light2};
+    border: 0;
+    outline: 0;
+    display: block;
+    margin: 5px auto 10px auto;
+    transition: ease-in-out 0.3s;
+    
+    ${(props)=>props.invalid && `background-color: ${colors.red}; color: ${colors.primary};`}
+
+    &:focus{
+        background-color: ${colors.dark2};
+        color: ${colors.primary};
+    }
+`;
+
+export const StyledSelect =  styled.select`
     width: 330px;
     padding: 15px;
     padding-left: 50px;

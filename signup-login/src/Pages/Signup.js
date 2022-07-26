@@ -1,18 +1,24 @@
-import { StyledTextInput, StyledFormArea, StyledFormButton, StyledLabel, Avatar, StyledTitle, colors, ButtonGroup, ExtraText, TextLink, CopyrightText } from "../Components/Style";
+import { StyledFormArea, StyledFormButton, Avatar, StyledTitle, colors, ButtonGroup, ExtraText, TextLink, CopyrightText, StyledIcon } from "../Components/Style";
 
 import Logo from './../Assets/Klogo.png';
 
 import { Form, Formik } from "formik";
 
-import { TextInput } from "../Components/Form";
+import { TextInput, CustomSelect} from "../Components/Form";
 
-import {FiUser, FiLock, FiMail} from 'react-icons/fi';
+import {FiUser, FiLock, FiMail, FiBook} from 'react-icons/fi';
 
 import  * as Yup from 'yup';
 
 import { ThreeDots} from 'react-loader-spinner';
+import styled from "styled-components";
+
+
+
+
 
 const Signup = () => {
+  
   return (
     <div>
       <StyledFormArea>
@@ -27,6 +33,8 @@ const Signup = () => {
               email: "",
               password : "",
               repeatPassword: "",
+              yearselect: "",
+              programmeselect: "",
             }}
             validationSchema={
               Yup.object({
@@ -41,11 +49,17 @@ const Signup = () => {
                 .email("Invalid email address"),
                 password: Yup.string()
                 .required("Please enter a password")
-                .min(6, "Password is too short")
-                .max(20, "Password is too long"),
+                .min(5, "Password is too short")
+                .required("Please enter a password"),
                 repeatPassword: Yup.string()
                 .required("Confirm Password")
-                .oneOf([Yup.ref("password")], "Password is not the same")
+                .oneOf([Yup.ref("password")], "Password is not the same"),
+                yearselect: Yup.string()
+                .oneOf(["Level 100", "Level 200", "Level 300", "Level 400"], "Select your Year")
+                .required("Select your Year"),
+                programmeselect: Yup.string()
+                .oneOf(["Agricultural Engineering", "Chemical Engineering", "Civil Engineering", "Geomatic Engineering (Geodetic Engineering)", "Materials Engineering", "Mechanical Engineering", "Electrical & Electronic Engineering", "Computer Engineering", "Aerospace Engineering", "Petroleum Engineering", "Telecommunication Engineering", "Geological Engineering", "Biomedical Engineering", "Petrochemical Engineering", "Metallurgical Engineering"], "Select your Programme")
+                .required("Select your Programme"),
               })
             }
             onSubmit={(values, {setSubmitting})=>{
@@ -53,6 +67,7 @@ const Signup = () => {
             }}
           
           >
+            
             {({isSubmitting })=>(
               <Form>
                 <TextInput
@@ -79,6 +94,46 @@ const Signup = () => {
                  icon={<FiMail/>}
                 />
 
+                <CustomSelect
+                  name="yearselect"
+                  type="dropdown"
+                  label="Level"
+                  placeholder="Select your year"
+                
+                >
+                  <option>-- Select your Level --</option>
+                  <option>Level 100</option>
+                  <option>Level 200</option>
+                  <option>Level 300</option>
+                  <option>Level 400</option>
+
+                </CustomSelect>
+
+                <CustomSelect
+                  name="programmeselect"
+                  type="dropdown"
+                  label="Programme"
+                  placeholder="Select your year"               
+                >
+                  <option>-- Select your Programme --</option>
+                  <option>Agricultural Engineering</option>
+                  <option>Chemical Engineering</option>
+                  <option>Civil Engineering</option>
+                  <option>Geomatic Engineering (Geodetic Engineering)</option>
+                  <option>Materials Engineering</option>
+                  <option>Mechanical Engineering</option>
+                  <option>Electrical & Electronic Engineering</option>
+                  <option>Computer Engineering</option>
+                  <option>Aerospace Engineering</option>
+                  <option>Petroleum Engineering</option>
+                  <option>Telecommunication Engineering</option>
+                  <option>Geological Engineering</option>
+                  <option>Biomedical Engineering</option>
+                  <option>Petrochemical Engineering</option>
+                  <option>Metallurgical Engineering</option>
+                  
+                </CustomSelect>
+
                             
                <TextInput
                  name="password" 
@@ -92,10 +147,10 @@ const Signup = () => {
                  name="repeatPassword" 
                  type="password"
                  label="Confirm Password"
-                 placeholder="Enter your confirm password" 
+                 placeholder="Confirm password" 
                  icon={<FiLock/>}
                 />
-
+                                                            
               <ButtonGroup>
                 {!isSubmitting && (
                  <StyledFormButton type="submit">
@@ -110,12 +165,13 @@ const Signup = () => {
                   width = {100}
                 />
               )}
-              </ButtonGroup>
+              </ButtonGroup>       
+
               </Form>
             )}
           </Formik>
           <ExtraText>
-            Already have an account? Click <TextLink to="/">Login</TextLink> to sign in
+            Already have an account? Click <TextLink to="/login">Login</TextLink> to sign in
           </ExtraText>
       </StyledFormArea>
       <CopyrightText>All rights reserved &copy;2022</CopyrightText>

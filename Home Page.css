@@ -1,0 +1,135 @@
+*{
+    box-sizing:border-box;
+    margin: 0;
+    padding: 0;
+}   
+
+body{
+    background-color: #242526 ;
+}
+
+li .a .button{
+    font-family:'Courier New', Courier, monospace;
+    font-weight: 500;
+    font-size: 16px;
+    color: #ecf0f1
+}
+
+header{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 30px, 10%;
+    min-height: 8vh;
+    background-color: #242526;
+}
+
+.search_bar{
+    width: 100%;
+    min-height: 100%;
+    padding: 5%;
+    background-color:  rgba(255, 223, 0, 1);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.search_bar .y{
+    width: 50%;
+    min-height: 50px; 
+    display: flex; 
+    align-items: center; 
+    border-radius: 60px; 
+    padding-left: 80px;
+    backdrop-filter: blur(4px) saturate(180%);
+
+}
+
+.search_bar .y input{
+    background-color: #242526;
+    background: transparent;
+    flex: 1;
+    border: 0;
+    outline: none;
+    padding: 24px, 20px;
+    font-size: 20px;
+    color: white;
+}
+
+.nav_link{
+    list-style: none;
+}
+
+
+.nav_link .nav_a button{
+    margin-right: 50px;
+    background-color: rgba(255, 223, 0, 1);
+    border: none;
+    border-radius: 50px;
+    cursor: pointer;
+    transition: all 0.3s ease 0s;
+    padding-left: 10px;
+    padding-right: 10px;
+    padding-top: 15px;
+    padding-bottom: 15px;
+}
+
+
+.nav_link .nav_a button:hover{
+    background-color: rgba(255, 223, 0, 0.8);
+}
+
+.search_bar .y button{
+    margin-right: 10px;
+    background-color: rgba(255, 223, 0, 1);
+    border: none;
+    border-radius: 50px;
+    cursor: pointer;
+    transition: all 0.3s ease 0s;
+    padding-left: 10px;
+    padding-right: 10px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+
+.search_bar .y button:hover{
+    background-color: rgba(255, 223, 0, 0.8);
+}
+
+.carousel{
+    overflow: hidden;
+    max-width: 200px;
+    position: relative;
+}
+
+.carousel .carousel_item, 
+.carousel .carousel_item--hidden{
+    display: none;   
+}
+
+.carousel .carousel_item img{
+    width: 100%;
+    max-width: 200px;
+    height: auto;
+}
+
+.carousel .carousel_item--visible{
+    display: block;
+    
+}
+
+.carousel .carousel_action{
+    display: flex;
+    width:100%;
+    justify-content: space-between;
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+}
+
+.carousel .carousel_action button{
+    border-radius: 50px;
+    border: 0;
+    font-weight: bold;
+    background: transparent;
+}

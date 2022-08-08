@@ -75,7 +75,7 @@ const Signup = () => {
                  type="text"
                  label="Full Name"
                  placeholder="Enter your full name" 
-                 icon={<FiUser/>}
+                //  icon={<FiUser/>}
                 />
 
                 <TextInput
@@ -83,7 +83,7 @@ const Signup = () => {
                  type="text"
                  label="Username"
                  placeholder="Enter your username" 
-                 icon={<FiUser/>}
+                //  icon={<FiUser/>}
                 />
 
                 <TextInput
@@ -91,7 +91,7 @@ const Signup = () => {
                  type="text"
                  label="Email Address"
                  placeholder="Enter your email" 
-                 icon={<FiMail/>}
+                //  icon={<FiMail/>}
                 />
 
                 <CustomSelect
@@ -140,7 +140,7 @@ const Signup = () => {
                  type="password"
                  label="Password"
                  placeholder="Enter your password" 
-                 icon={<FiLock/>}
+                //  icon={<FiLock/>}
                 />
 
                 <TextInput
@@ -148,7 +148,7 @@ const Signup = () => {
                  type="password"
                  label="Confirm Password"
                  placeholder="Confirm password" 
-                 icon={<FiLock/>}
+                //  icon={<FiLock/>}
                 />
                                                             
               <ButtonGroup>

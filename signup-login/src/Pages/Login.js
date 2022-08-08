@@ -45,14 +45,14 @@ const Login = () => {
                  type="text"
                  label="Username"
                  placeholder="Enter your username" 
-                 icon={<FiUser/>}
+                //  icon={<FiUser/>}
               />
                <TextInput
                  name="password" 
                  type="password"
                  label="Password"
                  placeholder="Enter your password" 
-                 icon={<FiLock/>}
+                //  icon={<FiLock/>}
               />
 
               <ButtonGroup>

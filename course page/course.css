@@ -1,0 +1,175 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+/* body{
+    background-color: green;
+} */
+
+/**************** NavBar **************/
+.nav-main{
+    background-color: black;
+}
+.navbar{
+    width:80vw;
+    margin: 0 auto;
+    height: 10vh;
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+span{
+    background-color: white;
+    color:black;
+    border-radius: 5px;
+    padding: 3px;
+}
+.my_logo{
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+.nav_list{
+    display: flex;
+    gap:2em;
+    height: 10vh;
+    align-items: center;
+}
+.nav-links{
+    list-style-type: none;
+    text-transform: uppercase;
+    font-size: 0.9em;
+    font-family:Arial, Helvetica, sans-serif;
+}
+
+/************ Hero Section **************/
+.hero{
+    display: flex;
+    /* background-color: rgb(121, 189, 249); */
+    background: linear-gradient(rgba(0,0,0,0.7),rgba(0,0,0,0.7)),
+    url("./anne-nygard-cA8VTQeHU0c-unsplash.jpg");
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+    height: 75vh;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    color: blue;
+}
+.primary{
+    height: 42px;
+    width: 150px;
+    text-transform: uppercase;
+    background-color: rgb(81, 39, 220);
+    border-radius: 25px;
+    border: none;
+    outline: none;
+    color:white;
+    margin-right: 10px;
+    transition: all 0.5s;
+}
+.primary:hover{
+    cursor: pointer;
+    background-color: blue;
+}
+.secondary{
+    height: 42px;
+    width: 150px;
+    background: transparent;
+    text-transform: uppercase;
+    border-radius: 25px;
+    border: 1px solid rgb(255, 255, 255);
+    color: white;
+    transition: all 0.5s;
+}
+.secondary:hover{
+    cursor: pointer;
+    background-color: black;
+    border: 1px solid black;
+}
+.hero_head{
+    text-transform: uppercase;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+.buttons{
+    padding-top: 1em;
+}
+.butt_link{
+    text-decoration: none;
+    color: white;
+}
+
+/************* Lecture Slides *****************/
+.container{
+    background-color: rgba(181, 181, 181, 0.57);
+}
+.slides{
+    margin: 0 auto 2em ;
+    width:75vw;
+    padding: 3em;
+}
+.lect_head, .ref_book_head{
+    text-align: center;
+    font-family: Arial, Helvetica, sans-serif;
+    text-transform: uppercase;
+    /* border: 2px solid black; */
+    width: 200px;
+    margin: 20px auto;
+    border-radius: 25px;
+    background: transparent;
+}
+.lect_slides{
+    display: flex;
+    height: 30px;
+    gap:0.8em;
+    align-items: center;
+    margin-top: 10px;
+    justify-content: space-between;
+
+}
+.doc_icon_50x50{
+    /* background-color: brown; */
+    width: 30px;
+    height: 30px;
+}
+.left_lect_block_4{
+    display: flex;
+    height: 30px;
+    align-items: center;
+    gap:0.5em;
+}
+
+/*****************Reference Books******************/
+.ref_books{
+    width: 90vw;
+    margin:2em auto;
+}
+.ref_bookss{
+    display: flex;
+    gap:2em;
+    justify-content: center;
+}
+.ref_book_head{
+    width: 400px;
+    display: block;
+}
+
+/**************Video Links****************/
+.first_link{
+    display: flex;
+    gap:1em;
+    height: 30px;
+    align-items: center;
+}
+.vid_icons{
+    height: 30px;
+}
+.first_links{
+    text-decoration: none;
+}
+.first_links:hover{
+    text-decoration: underline;
+}
+

@@ -100,3 +100,76 @@ span{
     text-decoration: none;
     color: white;
 }
+
+/************* Lecture Slides *****************/
+.container{
+    background-color: rgba(181, 181, 181, 0.57);
+}
+.slides{
+    margin: 0 auto 2em ;
+    width:75vw;
+    padding: 3em;
+}
+.lect_head, .ref_book_head{
+    text-align: center;
+    font-family: Arial, Helvetica, sans-serif;
+    text-transform: uppercase;
+    /* border: 2px solid black; */
+    width: 200px;
+    margin: 20px auto;
+    border-radius: 25px;
+    background: transparent;
+}
+.lect_slides{
+    display: flex;
+    height: 30px;
+    gap:0.8em;
+    align-items: center;
+    margin-top: 10px;
+    justify-content: space-between;
+
+}
+.doc_icon_50x50{
+    /* background-color: brown; */
+    width: 30px;
+    height: 30px;
+}
+.left_lect_block_4{
+    display: flex;
+    height: 30px;
+    align-items: center;
+    gap:0.5em;
+}
+
+/*****************Reference Books******************/
+.ref_books{
+    width: 90vw;
+    margin:2em auto;
+}
+.ref_bookss{
+    display: flex;
+    gap:2em;
+    justify-content: center;
+}
+.ref_book_head{
+    width: 400px;
+    display: block;
+}
+
+/**************Video Links****************/
+.first_link{
+    display: flex;
+    gap:1em;
+    height: 30px;
+    align-items: center;
+}
+.vid_icons{
+    height: 30px;
+}
+.first_links{
+    text-decoration: none;
+}
+.first_links:hover{
+    text-decoration: underline;
+}
+

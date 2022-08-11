@@ -1,0 +1,9 @@
+* {
+    box-sizing: border-box;
+    background: #333;
+}
+
+.container{
+    justify-content: space-between;
+}
+

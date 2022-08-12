@@ -1,10 +1,10 @@
-import Home from './Home';
+import Course from './Course';
 
 
 function App() {
   return (
     <div>
-      <Home/>
+      <Course/>
     </div>
 
   );

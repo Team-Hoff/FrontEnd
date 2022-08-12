@@ -1,6 +1,7 @@
-import React, {useState} from 'react'
-import './Searchbar.css'
-import SearchIcon from '@mui/icons-material/Search';
+import React, {useState} from 'react';
+import './Searchbar.css';
+import {FcSearch} from 'react-icons/fc';
+// import SearchIcon from '@mui/icons-material/Search';
 //import CloseIcon from '@mui/icons-material/Close';
 
 function Searchbar({placeholder, data}) {
@@ -23,9 +24,9 @@ function Searchbar({placeholder, data}) {
   return (
     <div className='search'>
         <div className='search_input'>
-            <input type="text" placeholder={placeholder}/>
+            <input type="text" placeholder="Search for material"/>
             <div className='search_icon'>
-                <SearchIcon id/>
+                <FcSearch/>
             </div>
         </div>
         <div className='search_result'>

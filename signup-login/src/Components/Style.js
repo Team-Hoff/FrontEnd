@@ -37,6 +37,10 @@ export const StyledTitle = styled.h2`
     color: ${(props)=>props.color?props.color:colors.primary};
     padding: 5px;
     margin-bottom: 20px;
+    position: relative;
+    top: 30px;
+    
+    
 `;
 
 export const StyledSubTitle = styled.p`
@@ -54,7 +58,11 @@ export const Avatar = styled.div`
     background-image: url(${props => props.image});
     background-size: cover;
     background-position: center; 
-    margin: auto; 
+    /* margin: auto;  */
+    
+    /* position: relative;
+    left: -140px;
+    top: -30px; */
 `;
 
 export const StyledButton = styled(Link)`
@@ -147,7 +155,7 @@ export const StyledFormButton = styled.button`
     width: 150px;
     background-color: transparent;
     font-size: 16px;
-    border: 2px solid ${colors.theme};
+    border: 2px solid blue;
     border-radius: 25px;
     color: ${colors.theme}
     transition: ease-in-out 0.3s;
@@ -155,7 +163,7 @@ export const StyledFormButton = styled.button`
 
 
     &:hover{
-        background-color: ${colors.theme};
+        background-color: blue;
         color: ${colors.primary};
         cursor: pointer;
     }
@@ -179,13 +187,13 @@ export const ExtraText = styled.p`
 `;
 
 export const TextLink = styled(Link)`
-    text-decoration:none;
-    color: ${colors.theme};
+    text-decoration: none;
+    color: blue;
     transition: ease-in-out 0.3s;
 
     &:hover{
         text-decoration: underline;
-        letter-spacing: 2px;
+        letter-spacing: 1px;
         font-weight: bold;
     }
 

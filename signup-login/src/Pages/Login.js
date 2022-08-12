@@ -1,4 +1,4 @@
-import { StyledFormArea, StyledFormButton, Avatar, StyledTitle, colors, ButtonGroup, ExtraText, TextLink, CopyrightText } from "../Components/Style";
+import { StyledFormArea, StyledFormButton, Avatar, StyledTitle, colors, ButtonGroup, ExtraText, TextLink, CopyrightText, StyledLabel} from "../Components/Style";
 
 import Logo from './../Assets/Klogo.png';
 
@@ -16,10 +16,11 @@ const Login = () => {
   return (
     <div>
       <StyledFormArea>
+        <div style={{display:'flex'}}>
         <Avatar image={Logo}/>
-          <StyledTitle color={colors.theme} size={30}>
-            Login
-          </StyledTitle>
+          <StyledTitle color='black' size={40}>
+            Virtual Library
+          </StyledTitle></div>
           <Formik
             initialValues={{
               username : "",
@@ -54,6 +55,11 @@ const Login = () => {
                  placeholder="Enter your password" 
                 //  icon={<FiLock/>}
               />
+
+              
+               <TextLink to="/forgotpassword" style={{}}>
+                Forgot Password?
+              </TextLink> 
 
               <ButtonGroup>
                 {!isSubmitting && (

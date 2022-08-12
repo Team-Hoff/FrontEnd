@@ -22,10 +22,11 @@ const Signup = () => {
   return (
     <div>
       <StyledFormArea>
+        <div style={{display:'flex'}}>
         <Avatar image={Logo}/>
-          <StyledTitle color={colors.theme} size={30}>
-            Signup
-          </StyledTitle>
+          <StyledTitle color='black' size={40}>
+            Virtual Library
+          </StyledTitle></div>
           <Formik
             initialValues={{
               fullname : "",

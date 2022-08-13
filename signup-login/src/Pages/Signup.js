@@ -2,6 +2,10 @@ import { StyledFormArea, StyledFormButton, Avatar, StyledTitle, colors, ButtonGr
 
 import Logo from './../Assets/Klogo.png';
 
+import { useState } from "react";
+
+import Axios from 'axios';
+
 import { Form, Formik } from "formik";
 
 import { TextInput, CustomSelect} from "../Components/Form";
@@ -9,6 +13,7 @@ import { TextInput, CustomSelect} from "../Components/Form";
 import {FiUser, FiLock, FiMail, FiBook} from 'react-icons/fi';
 
 import  * as Yup from 'yup';
+
 
 import { ThreeDots} from 'react-loader-spinner';
 import styled from "styled-components";
@@ -18,6 +23,32 @@ import styled from "styled-components";
 
 
 const Signup = () => {
+  const [inputs, setInput] = useState("");
+
+  const handleChange = (event) => {
+    const name = event.target.name
+    const value = event.target.value
+    setInput(values => ({...values, [name]: value}))
+  }
+
+  
+  const handleSubmit = (e) => {
+    console.log(inputs.yearselect)
+    Axios.post('http://localhost:3500/signup',
+     {username: inputs.username, 
+      email: inputs.email, 
+      password: inputs.password, 
+      programme: inputs.programmeselect, 
+      fullname: inputs.fullname,
+      year: inputs.yearselect})
+      .then( ()=>{
+        window.location.href="/login"
+        alert("Succesful")
+      }).catch( ()=> {
+        console.log(`Error for User:${inputs.username}`)
+      })
+  }
+  
   
   return (
     <div>
@@ -63,14 +94,13 @@ const Signup = () => {
                 .required("Select your Programme"),
               })
             }
-            onSubmit={(values, {setSubmitting})=>{
-              console.log(values)
-            }}
+            
+            onSubmit={handleSubmit}
           
           >
             
             {({isSubmitting })=>(
-              <Form>
+              <Form name="userdetails" onChange={handleChange}>
                 <TextInput
                  name="fullname" 
                  type="text"
@@ -172,7 +202,7 @@ const Signup = () => {
             )}
           </Formik>
           <ExtraText>
-            Already have an account? Click <TextLink to="/login">Login</TextLink> to sign in
+            Already have an account? Click <TextLink to="/login" onClick={()=>{window.location.href="/login"}}>Login</TextLink> to sign in
           </ExtraText>
       </StyledFormArea>
       <CopyrightText>All rights reserved &copy;2022</CopyrightText>

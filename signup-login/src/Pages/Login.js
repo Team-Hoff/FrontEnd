@@ -80,7 +80,7 @@ const Login = () => {
             )}
           </Formik>
           <ExtraText>
-            Don't have an account? Click <TextLink to="/signup">Signup</TextLink> to register
+            Don't have an account? Click <TextLink to="/signup" onClick={()=>{window.location.href="/signup"}}>Signup</TextLink> to register
           </ExtraText>
       </StyledFormArea>
       <CopyrightText>All rights reserved &copy;2022</CopyrightText>

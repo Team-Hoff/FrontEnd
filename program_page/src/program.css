@@ -244,4 +244,39 @@
 .first_links:hover{
     text-decoration: underline;
 }
+.footer-programmes, .footer-info{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+
+}
+.footer-programmes{
+    margin-bottom: 30px;
+}
+.footer-programmes div div a{
+    text-decoration: none;
+}
+.footer-info > div> a{
+    transition: 0.6s;
+    text-decoration: none;
+    color: rgba(230, 230, 244, 0.4);;
+
+}
+.footer-info>div >a:hover{
+    color: white
+
+}
+footer{
+    background-color: rgb(0, 0, 0, 0.8);
+    color: white;
+    width: 100vw;
+    margin-left: -75px;
+    padding: 20px;
+    
+}
+footer > h3{
+     text-align: center;
+}
+
 

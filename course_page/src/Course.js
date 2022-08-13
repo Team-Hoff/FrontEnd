@@ -138,12 +138,12 @@ const Course = () => {
     
 
 
-   <footer>
+  {/* <footer>
     <div class="footer-top bg-dark footer-dark py-2"  style={{minWidth:'100vw'}}>
       <div>
         <div class="row">
           <div class="col-md-4">
-            {/* <img src={Logo} alt="" class="logo" style={{width: '20', height: '20'}}></img> */}
+            {/* <img src={Logo} alt="" class="logo" style={{width: '20', height: '20'}}></img> *
           </div>
           <div class="col-md-4">
             <h5 class="text-white">For more information</h5>
@@ -167,6 +167,36 @@ const Course = () => {
         </div>
       </div>
     </div>
+  </footer>
+  */}
+
+<footer className='footer-container'>
+          <div className='footer-content'>
+              <div class = "footer-col">
+                  <h1>other courses</h1>
+                  <ul className='footer-links'>
+                      <li><a href = "#" > digital systems</a></li>
+                      <li><a href = "#" >differntial equations</a></li>
+                      <li><a href = "#" >data structures</a></li>
+                      <li><a href = "#" >discrete structures</a></li>
+                      <li><a href = "#" >electromagnetic fields</a></li>
+                  </ul>
+              </div>
+              
+              <div class = "footer-col">
+                  <h4>Questions</h4>
+                  <ul>
+                      <li><a href = "#" >what is pn junction?</a></li>
+                      <li><a href = "#" >list examples of p-type semiconductor?</a></li>
+                      <li><a href = "#" >what is referred to as pinch off?</a></li>
+                      <li><a href = "#" >list examples of the n-type semiconductor</a></li>
+                      <li><a href = "#" >what is referred to as the barrier?</a></li>
+                  </ul>
+              </div>
+          </div>
+          <div className='about-us'>
+                <a href = "#" >ABOUT US</a>
+           </div>
   </footer>
     
     

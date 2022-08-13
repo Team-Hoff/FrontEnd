@@ -243,3 +243,32 @@ body{
     text-decoration: underline;
 }
 
+.footer-content{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-around;
+}
+.about-us{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.footer-container{
+    background-color: black;
+    color: white;
+    width: 100%;
+}
+.footer-links> li> a{
+    text-decoration: none;
+    transition: 0.5s;
+    border-bottom: 5px;
+}
+.footer-links> li> a:hover{
+    text-decoration: underline;
+    color: white;
+}
+.right_lect_block_4 a{
+    text-decoration: none;
+     
+}

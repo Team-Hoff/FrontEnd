@@ -1,39 +1,48 @@
 import React, {useState} from 'react';
 import './Searchbar.css';
-import {FcSearch} from 'react-icons/fc';
-// import SearchIcon from '@mui/icons-material/Search';
-//import CloseIcon from '@mui/icons-material/Close';
+import SearchIcon from '@mui/icons-material/Search';
+import ClosedIcon  from '@mui/icons-material/Close';
 
 function Searchbar({placeholder, data}) {
-    //const [filterData, setFiltrData] = useState([])
+    const [filteredData, setFilteredData] = useState([]);
+    const [wordEntered, setwordEntered] = useState("");
 
-   // const handleFilter = (event) => {
-     //   const searchWord = event.target.value;
-     //   const newFilter = data.filter((value) => {
-     //       return value.title.toLowerCase().includes(searchWord.toLowerCase())
-     // })
-    
+    const handleFilter=(event)=>{
+        const searchWord = event.target.value;
+        setwordEntered(searchWord);
+        const newFilter = data.filter((value)=>{
+            return value.title.toLowerCase().includes(searchWord.toLowerCase());
+        });
+        if (searchWord === ""){
+            setFilteredData([]); 
+        }
+        else{
+        setFilteredData(newFilter);}
+    }
 
-    //if (searchWord === ""){
-    //    setFiltrData([]);
-    //} else{
-    //    setFiltrData(newFilter)
-    //}
-    //};
-    
+    const clearInput = () => {
+        setFilteredData([]);
+        setwordEntered("");
+    }
   return (
-    <div className='search'>
-        <div className='search_input'>
-            <input type="text" placeholder="Search for material"/>
-            <div className='search_icon'>
-                <FcSearch/>
+    <div className='Appss'>
+        <div className='search'>
+            <div className='searchInputs'>
+                <input type="text" placeholder={placeholder} value={wordEntered} onChange={handleFilter}/>
+                <div className='searchIcon'>
+                   {filteredData.length === 0 ? <SearchIcon/> : <ClosedIcon id="clearBtn" onClick={clearInput}/>} 
+                </div>
             </div>
-        </div>
-        <div className='search_result'>
-           
+            {filteredData.length !==0 && (
+            <div className='dataResult'>
+                {filteredData.slice(0,15).map((value,key)=>{
+                    return <a className='dataItem' href={value.link} target="_blank"><p>{value.title}</p></a>
+                })}
+            </div>
+)}
         </div>
     </div>
   )
 }
 
-export default Searchbar
+export default Searchbar;

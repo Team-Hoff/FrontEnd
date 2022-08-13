@@ -2,6 +2,9 @@ import { StyledFormArea, StyledFormButton, Avatar, StyledTitle, colors, ButtonGr
 
 import Logo from './../Assets/Klogo.png';
 
+import { useState } from "react";
+import Axios from "axios";
+
 import { Form, Formik } from "formik";
 
 import { TextInput } from "../Components/Form";
@@ -13,6 +16,31 @@ import  * as Yup from 'yup';
 import { ThreeDots} from 'react-loader-spinner';
 
 const Login = () => {
+
+  const [inputs, setInputs] = useState("");
+
+  const handleChange = (event) => {
+    const name = event.target.name
+    const value = event.target.value
+    setInputs(values => ({...values, [name]: value}))
+  }
+
+  const handleSubmit = (event) => {
+    Axios.post("http://localhost:3500/login",
+      { username: inputs.username,
+        password: inputs.password
+      }
+    ).then( response => {
+      
+      if (response.status == 200){
+        alert("Logged In")
+      }else{
+        alert("Incorrect credentials")
+      }
+    })
+  }
+
+
   return (
     <div>
       <StyledFormArea>
@@ -34,13 +62,11 @@ const Login = () => {
                 .required("Password is required"),
               })
             }
-            onSubmit={(values, {setSubmitting})=>{
-              console.log(values)
-            }}
+            onSubmit= {handleSubmit}
           
           >
             {({isSubmitting })=>(
-              <Form>
+              <Form onChange={handleChange}>
                 <TextInput
                  name="username" 
                  type="text"

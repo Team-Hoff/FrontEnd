@@ -23,17 +23,16 @@ import styled from "styled-components";
 
 
 const Signup = () => {
-  const [inputs, setInput] = useState("");
+  const [inputs, setInputs] = useState("");
 
   const handleChange = (event) => {
     const name = event.target.name
     const value = event.target.value
-    setInput(values => ({...values, [name]: value}))
+    setInputs(values => ({...values, [name]: value}))
   }
 
   
-  const handleSubmit = (e) => {
-    console.log(inputs.yearselect)
+  const handleSubmit = (event) => {
     Axios.post('http://localhost:3500/signup',
      {username: inputs.username, 
       email: inputs.email, 

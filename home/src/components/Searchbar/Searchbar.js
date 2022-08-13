@@ -28,7 +28,7 @@ function Searchbar({placeholder, data}) {
     <div className='Appss'>
         <div className='search'>
             <div className='searchInputs'>
-                <input type="text" placeholder={placeholder} value={wordEntered} onChange={handleFilter}/>
+                <input class  type="text" placeholder={placeholder} value={wordEntered} onChange={handleFilter}/>
                 <div className='searchIcon'>
                    {filteredData.length === 0 ? <SearchIcon/> : <ClosedIcon id="clearBtn" onClick={clearInput}/>} 
                 </div>

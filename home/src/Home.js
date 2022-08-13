@@ -19,7 +19,7 @@ const Home = () => {
         </div>
       </nav>
 
-      <section style={{backgroundColor:'black'}}>
+      <section class="below_nav">
         <div class="container">
             <div class="d-sm-flex align-items-center 
             justify-content-between">
@@ -28,7 +28,7 @@ const Home = () => {
                         WELCOME TO THE CoE VIRTUAL LIBRARY
                     </span></h1>
                     <p style={{color:'white', textAlign:'center'}}>You don't need to go through  the stress of asking your colleagues for your course materials. Get all your engineering  course materials and tutorial video links right here !!</p>      
-                    <div><Searchbar placeholder="Enter a Book Name..." data={BookData}/></div>
+                    <div class="searchb"><Searchbar placeholder="Enter a Book Name..." data={BookData}/></div>
                 </div>              
             </div>
         </div>

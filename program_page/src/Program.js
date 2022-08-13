@@ -96,12 +96,12 @@ const Program = () => {
 
 
   
-  <footer>
+ {/* <footer>
     <div class="footer-top bg-dark footer-dark py-2 " style={{minWidth:'100vw', position:'relative', left:'-117px'}}>
       <div class="container">
         <div class="row">
           <div class="col-md-4">
-            {/* <img src={Logo} alt="" class="logo" style={{width: '20', height: '20'}}></img> */}
+            {/* <img src={Logo} alt="" class="logo" style={{width: '20', height: '20'}}></img> *
           </div>
           <div class="col-md-4">
             <h5 class="text-white">For more information</h5>
@@ -119,12 +119,49 @@ const Program = () => {
         </div>
       </div>
     </div>
-  </footer>
+  </footer>*/}
                   
                   
     {/* <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0/dist/js/bootstrap.bundle.min.js" integrity="sha384-A3rJD856KowSb7dwlZdYEkO39Gagi7vIsF0jrRAoQmDKKtQBHUuLZ9AsSv4jD4Xa" crossorigin="anonymous"></script> */}
 
+    <footer>
+      <h3>Engineering Programmes</h3>
+     <div className='footer-programmes'>
+      <div>
+        <div><a href='#'>Computer engineering</a></div>
+        <div><a href='#'>Biomedical engineering</a></div>
+        <div><a href='#'>Telecommunication engineering</a></div>
+        <div><a href='#'>Electrical engineering</a></div>
+        <div><a href='#'>Civil engineering</a></div>
+      </div>
+      <div>
+        <div><a href='#'>Metallurgical engineering</a></div>
+        <div><a href='#'>Mechanical engineering</a></div>
+        <div><a href='#'>Geological engineering</a></div>
+        <div><a href='#'> Geomatic engineering</a></div>
+        <div><a href='#'>Automobile engineering</a></div>
+      </div>
+      <div>
+        <div><a href='#'>Aerospace engineering</a></div>
+        <div><a href='#'>Materials engineering</a></div>
+        <div><a href='#'>Petrochemical engineering</a></div>
+        <div><a href='#'>Petroleum engineering</a></div>
+        <div><a href='#'>Industrial engineering</a></div>
+      </div>
+    </div>
+    <div className='footer-info'>
+      <div>
+        <a href="#">About us </a>
+      </div>
+      <div>
+        <a href="#">Contact</a>
+      </div>
+      <div>
+        <a href="#">Questions</a>
+      </div>
 
+    </div>
+  </footer>
 
     </div>
     </div>

@@ -1,0 +1,309 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+     /* min-width: 50vw;  */
+     /* min-height: 100vh;  */
+}
+
+ body{
+    overflow-x: hidden;
+}
+
+.Everything{
+    /* min-width: 100vw; */
+    /* min-height: 100vh; */
+    
+}
+
+/**************** NavBar **************/
+.nav-main{
+    background-color: rgba(6, 6, 6, 0.8);
+    background-attachment: fixed;
+}
+.navbar{
+    width:90vw;
+    margin: 0 auto;
+    /* padding: 0; */
+    height: 70px;
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.below_nav{
+    min-height: 40vh;
+    width: 100vw;
+    background: linear-gradient(0deg, rgba(0,0,0,0.5),rgba(0,0,0,0.5)), url("../Assets/image.png");
+    background-repeat: no-repeat;
+    /* background-attachment: fixed; */
+    background-size: 100% 100%;
+    
+}
+
+.library{
+    background-color: orange;
+    border-radius: 8px;
+    padding-bottom: 8px;
+    padding-top: 8px;
+    padding: 1px 1px;
+    font-size: 30px;
+}
+
+
+
+.my_logo{
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    padding-bottom: 20px;
+    position: absolute;
+    left: 55px;
+    top: 10px;
+}
+
+.logo-image{
+    width: 3em;
+    height: 3em;
+    border-radius: 50px;
+    background-image: url('../Assets/Klogo.png');
+    background-size: cover;
+    background-position: center; 
+    margin-bottom: 20px;
+    /* mix-blend-mode: hard-light; */
+    
+}
+.nav_list{
+    display: flex;
+    gap: 2em;
+    padding-right: 20px ;
+    border-right: 0.5px solid grey;
+    height: 10vh;
+    align-items: center;
+    position: relative;
+    left: -60px;
+}
+.nav-links{
+    list-style-type: none;
+    text-transform: uppercase;
+    font-size: 0.9em;
+    font-family:Arial, Helvetica, sans-serif;
+}
+
+.nav-links a{
+    display: inline-block;
+    text-decoration: none;
+    color: #555;
+    font-weight: 500;
+    transition: 0.5s;
+}
+
+.nav-links:hover a{
+    color: yellow;
+}
+
+.logos{
+    width: 120px;
+    height: 120px;
+    mix-blend-mode: color-burn;
+}
+
+.folders{
+    width: 30px;
+    height: 30px;
+    display: inline-block;
+    margin-right: 20px;
+}
+
+.links a {
+    text-decoration: none;
+}
+
+/************ Hero Section **************/
+.hero{
+    display: flex;
+    /* background-color: rgb(121, 189, 249); */
+    background: linear-gradient(rgba(0,0,0,0.7),rgba(0,0,0,0.7));
+    /* url("./Asset/anne-nygard-cA8VTQeHU0c-unsplash.jpg"); */
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+    height: 50vh;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    color: blue;
+}
+.primary{
+    height: 42px;
+    width: 150px;
+    text-transform: uppercase;
+    background-color: rgb(81, 39, 220);
+    border-radius: 25px;
+    border: none;
+    outline: none;
+    color:white;
+    margin-right: 10px;
+    transition: all 0.5s;
+}
+.primary:hover{
+    cursor: pointer;
+    background-color: blue;
+}
+.secondary{
+    height: 42px;
+    width: 150px;
+    background: transparent;
+    text-transform: uppercase;
+    border-radius: 25px;
+    border: 1px solid rgb(255, 255, 255);
+    color: white;
+    transition: all 0.5s;
+}
+.secondary:hover{
+    cursor: pointer;
+    background-color: black;
+    border: 1px solid black;
+}
+.hero_head{
+    text-transform: uppercase;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+.buttons{
+    padding-top: 1em;
+}
+.butt_link{
+    text-decoration: none;
+    color: white;
+}
+
+
+
+/************* Lecture Slides *****************/
+.containers{
+    background-color: rgba(181, 181, 181, 0.57);
+    min-height: 100vh;
+    min-width: 100vw;
+
+    
+}
+.slides{
+    margin: 0 auto 2em ;
+    width:75vw;
+    padding: 3em;
+    
+}
+.lect_head, .ref_book_head{
+    text-align: center;
+    font-family: Arial, Helvetica, sans-serif;
+    text-transform: uppercase;
+    border: 2px solid black;
+    width: 200px;
+    /* min-width: 50vw; */
+    margin: 20px auto;
+    border-radius: 25px;
+    background: transparent;
+}
+.lect_slides{
+    display: flex;
+    height: 30px;
+    gap:0.8em;
+    align-items: center;
+    margin-top: 10px;
+    justify-content: space-between;
+    font-size: 25px;
+    padding-top: 15px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif ;
+
+
+}
+
+.lect_one{
+    font-size: 25px;
+    display: flex;
+    height: 30px;
+    gap:0.8em;
+    align-items: center;
+    margin-top: 10px;
+    justify-content: space-between;
+    padding-top: 15px;
+}
+.doc_icon_50x50{
+    /* background-color: brown; */
+    width: 30px;
+    height: 30px;
+}
+.left_lect_block_4{
+    display: flex;
+    height: 30px;
+    align-items: center;
+    gap:0.5em;
+}
+
+/*****************Reference Books******************/
+.ref_books{
+    min-width: 100vw;
+    margin:2em auto;
+}
+.ref_bookss{
+    display: flex;
+    gap:2em;
+    justify-content: center;
+   
+}
+.ref_book_head{
+    width: 400px;
+    display: block;
+}
+
+/**************Video Links****************/
+.first_link{
+    display: flex;
+    gap:1em;
+    height: 30px;
+    align-items: center;
+}
+.vid_icons{
+    height: 30px;
+}
+.first_links{
+    text-decoration: none;
+}
+.first_links:hover{
+    text-decoration: underline;
+}
+.footer-programmes, .footer-info{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+
+}
+.footer-programmes{
+    margin-bottom: 30px;
+}
+.footer-programmes div div a{
+    text-decoration: none;
+}
+.footer-info > div> a{
+    transition: 0.6s;
+    text-decoration: none;
+    color: rgba(230, 230, 244, 0.4);;
+
+}
+.footer-info>div >a:hover{
+    color: white
+
+}
+footer{
+    background-color: rgb(0, 0, 0, 0.8);
+    color: white;
+    width: 100vw;
+    margin-left: -75px;
+    padding: 20px;
+    
+}
+footer > h3{
+     text-align: center;
+}
+
+

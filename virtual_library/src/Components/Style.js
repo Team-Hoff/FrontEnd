@@ -21,7 +21,7 @@ export const colors = {
 //Styled components
 export const StyledContainer = styled.div`
     margin: 0;
-    padding: 0;
+    padding-top: 30px;
     min-height:100vh;
     display: flex;
     justify-content: center;
@@ -38,7 +38,7 @@ export const StyledTitle = styled.h2`
     padding: 5px;
     margin-bottom: 20px;
     position: relative;
-    top: 30px;
+    /* top: 30px; */
     
     
 `;
@@ -52,8 +52,8 @@ export const StyledSubTitle = styled.p`
 `;
 
 export const Avatar = styled.div`
-    width: 85px;
-    height: 85px;
+    width: 55px;
+    height: 55px;
     border-radius: 50px;
     background-image: url(${props => props.image});
     background-size: cover;

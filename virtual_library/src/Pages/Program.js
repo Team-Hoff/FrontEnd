@@ -5,9 +5,11 @@ import Logo from '../Assets/Programs/ACES2.png';
 import '../Components/program.css';
 import Profiledp from '../Components/Profiledropdown/profiledp';
 import Folder from '../Components/Profiledropdown/folder.png';
-import { AllCourses } from '../Components/coursesdata/coursesData';
+import { firstSem, secondSem } from '../Components/coursesdata/coursesData';
+
 
 const Program = () => {
+  
   return (
     <div>
       <nav class="nav-main">
@@ -83,16 +85,16 @@ const Program = () => {
             </div>
            
             <ul class="list-group list-group-flush">
-            {/* {
-              AllCourses.map((cor) => (
+            {
+              firstSem.map((cor) => (
                 <li key={cor.id} class="list-group-item"><img class="folders" src={Folder} alt=""></img><a href="#"> {cor.name}</a> </li>
               ))
-            } */}
-              <li class="list-group-item"><img class="folders" src={Folder} alt=""></img><a href="#"> Applied Electricity</a> </li>
+            }
+              {/* <li class="list-group-item"><img class="folders" src={Folder} alt=""></img><a href="#"> Applied Electricity</a> </li>
               <li class="list-group-item"><img class="folders" src={Folder} alt=""></img><a href="#"> Algebra</a> </li>
               <li class="list-group-item"><img class="folders" src={Folder} alt=""></img><a href="#"> Communication Skills</a> </li>
               <li class="list-group-item"><img class="folders" src={Folder} alt=""></img><a href="#"> Information </a> </li>
-              <li class="list-group-item"><img class="folders" src={Folder} alt=""></img><a href="#"> Ethics</a> </li>
+              <li class="list-group-item"><img class="folders" src={Folder} alt=""></img><a href="#"> Ethics</a> </li> */}
 
             </ul>
           </div>
@@ -102,12 +104,17 @@ const Program = () => {
               <h3>Second Semester</h3>
             </div>
             <ul class="list-group list-group-flush">
-              <li class="list-group-item"><img class="folders" src={Folder} alt=""></img><a href="#"> Applied Thermodynamics</a> </li>
+            {
+              secondSem.map((cor) => (
+                <li key={cor.id} class="list-group-item"><img class="folders" src={Folder} alt=""></img><a href="#"> {cor.name}</a> </li>
+              ))
+            }
+              {/* <li class="list-group-item"><img class="folders" src={Folder} alt=""></img><a href="#"> Applied Thermodynamics</a> </li>
               <li class="list-group-item"><img class="folders" src={Folder} alt=""></img><a href="#"> Electrical Machines</a> </li>
               <li class="list-group-item"><img class="folders" src={Folder} alt=""></img><a href="#"> Calculus with Several Variables</a> </li>
               <li class="list-group-item"><img class="folders" src={Folder} alt=""></img><a href="#"> C Programming</a> </li>
               <li class="list-group-item"><img class="folders" src={Folder} alt=""></img><a href="#"> CENG</a> </li>
-              <li class="list-group-item"><img class="folders" src={Folder} alt=""></img><a href="/home/program/course"> Semiconductor Devices</a> </li>
+              <li class="list-group-item"><img class="folders" src={Folder} alt=""></img><a href="/home/program/course"> Semiconductor Devices</a> </li> */}
             </ul>
           </div>
         </div>

@@ -17,11 +17,14 @@ function App() {
     <div>
     <Router>
       <Switch>
-      <Route path="/home/program/:id">
+      <Route path="/home/electrical/:id">
             <Course/>
       </Route>
       <Route path="/home/electrical">
             <Electrical/>
+      </Route>
+      <Route path="/home/computer/:id">
+            <Course/>
       </Route>
       <Route path="/home/computer">
             <Computer/>

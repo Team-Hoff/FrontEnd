@@ -96,7 +96,7 @@ const Program = () => {
                   if (Number(course.year) === Number(courseQuery) && (Number(course.semester=== 1))) return course
                   return ''
                 }).map((course) => (
-                  <li key={course.id} className="list-group-item"><img className="folders" src={Folder} alt=""></img> <Link to={`/home/program/${course.id}`} onClick={()=>{window.location.href=`/home/program/${course.id}`}}>{course.name}</Link> </li>
+                  <li key={course.id} className="list-group-item"><img className="folders" src={Folder} alt=""></img> <Link to={`/home/electrical/${course.id}`} onClick={()=>{window.location.href=`/home/electrical/${course.id}`}}>{course.name}</Link> </li>
                 ))
               }
             </ul>
@@ -112,7 +112,7 @@ const Program = () => {
                   if (Number(course.year) === Number(courseQuery) && (Number(course.semester=== 2))) return course
                   return ''
                 }).map((course) => (
-                  <li key={course.id} className="list-group-item"><img className="folders" src={Folder} alt=""></img> <Link to={`/home/program/${course.id}`} onClick={()=>{window.location.href=`/home/program/${course.id}`}}>{course.name}</Link> </li>
+                  <li key={course.id} className="list-group-item"><img className="folders" src={Folder} alt=""></img> <Link to={`/home/electrical/${course.id}`} onClick={()=>{window.location.href=`/home/electrical/${course.id}`}}>{course.name}</Link> </li>
                 ))
               }
             </ul>

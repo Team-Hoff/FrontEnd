@@ -13,9 +13,9 @@ const Home = () => {
             <div class="logo"><h1 class="my_logo">
                 <span style={{fontSize:'20px'}}>Virtual</span> <span class="library">Library</span>
             </h1></div>
-            {/* <ul class="nav_list">
+            <ul class="nav_list">
                 <li class="nav-links"><a href='#'>Help</a></li>
-            </ul> */}
+            </ul>
         </div>
       </nav>
 
@@ -33,15 +33,53 @@ const Home = () => {
             </div>
         </div>
     </section>
-
-    <div>
-
+    <footer>
+      <h3>Engineering Programmes</h3>
+     <div className='footer-programmes'>
+      <div>
+        <div><a href='#'>Computer engineering</a></div>
+        <div><a href='#'>Biomedical engineering</a></div>
+        <div><a href='#'>Telecommunication engineering</a></div>
+        <div><a href='#'>Electrical engineering</a></div>
+        <div><a href='#'>Civil engineering</a></div>
+      </div>
+      <div>
+        <div><a href='#'>Metallurgical engineering</a></div>
+        <div><a href='#'>Mechanical engineering</a></div>
+        <div><a href='#'>Geological engineering</a></div>
+        <div><a href='#'> Geomatic engineering</a></div>
+        <div><a href='#'>Automobile engineering</a></div>
+      </div>
+      <div>
+        <div><a href='#'>Aerospace engineering</a></div>
+        <div><a href='#'>Materials engineering</a></div>
+        <div><a href='#'>Petrochemical engineering</a></div>
+        <div><a href='#'>Petroleum engineering</a></div>
+        <div><a href='#'>Industrial engineering</a></div>
+      </div>
+    </div>
+    <div className='footer-info'>
+      <div>
+        <a href="#">About us </a>
+      </div>
+      <div>
+        <a href="#">Contact</a>
+      </div>
+      <div>
+        <a href="#">Questions</a>
+      </div>
 
     </div>
+  </footer>
+    
+    
+   
+  </div>
+
+    
 
       
 
-  </div>
   )
 }
 

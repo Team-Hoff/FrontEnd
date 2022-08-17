@@ -55,8 +55,8 @@ const Signup = () => {
       <StyledFormArea>
         <div style={{display:'flex'}}>
         <Avatar image={Logo}/>
-          <StyledTitle color='black' size={40}>
-            Virtual Library
+        <StyledTitle color='Light black' size={40}>
+            Virtual<span style={{color:'#e0ac1c'}}>Library</span>s
           </StyledTitle></div>
           <Formik
             initialValues={{

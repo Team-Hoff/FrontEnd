@@ -1,9 +1,5 @@
 import styled from 'styled-components';
-
-// background
 import background from './../Assets/KNUST.jpeg';
-
-// React router
 import {Link} from 'react-router-dom';
 
 export const colors = {
@@ -18,7 +14,6 @@ export const colors = {
 
 }
 
-//Styled components
 export const StyledContainer = styled.div`
     margin: 0;
     padding-top: 30px;
@@ -38,9 +33,6 @@ export const StyledTitle = styled.h2`
     padding: 5px;
     margin-bottom: 20px;
     position: relative;
-    /* top: 30px; */
-    
-    
 `;
 
 export const StyledSubTitle = styled.p`
@@ -58,11 +50,6 @@ export const Avatar = styled.div`
     background-image: url(${props => props.image});
     background-size: cover;
     background-position: center; 
-    /* margin: auto;  */
-    
-    /* position: relative;
-    left: -140px;
-    top: -30px; */
 `;
 
 export const StyledButton = styled(Link)`

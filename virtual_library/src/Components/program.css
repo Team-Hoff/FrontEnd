@@ -1,43 +1,3 @@
-*{
-    padding: 0;
-    margin: 0;
-    box-sizing: border-box;
-     /* min-width: 50vw;  */
-     /* min-height: 100vh;  */
-     font-family: 'Poppins';
-
-}
-
- body{
-    overflow-x: hidden;
-    min-height: 100vh;
-    /* font-family: 'Poppins'; */
-}
-
-/* .Everything{
-    min-width: 100vw;
-    min-height: 100vh;
-    
-} */
-
-/**************** NavBar **************/
-.nav-main{
-    background-color: rgba(6, 6, 6, 0.8);
-    /* background-color: black; */
-    /* background-attachment: fixed; */
-    /* height: 70px; */
-}
-
-.navbars{
-    width:100vw;
-    margin: 0 auto;
-    padding-top: 23px ;
-    height: 70px;
-    color: white;
-    display: flex;
-    align-items: center;
-    justify-content: space-between;
-}
 
 .below_navs{
     display: flex;
@@ -49,71 +9,6 @@
     color: white;
     
     
-}
-
-.library{
-    background-color: orange;
-    border-radius: 8px;
-    padding-bottom: 8px;
-    padding-top: 8px;
-    padding: 1px 1px;
-    font-size: 30px;
-}
-
-
-
-.my_logo{
-    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
-    padding-bottom: 20px;
-    /* position: absolute; */
-    /* left: 55px; */
-    /* top: 10px; */
-}
-
-.logo-image{
-    width: 3em;
-    height: 3em;
-    border-radius: 50px;
-    background-image: url('../Assets/Klogo.png');
-    background-size: cover;
-    background-position: center; 
-    margin-bottom: 20px;
-    /* mix-blend-mode: hard-light; */
-    
-}
-.nav_list{
-    display: flex;
-    gap: 2em;
-    padding-right: 20px ;
-    height: 10vh;
-    align-items: center;
-    position: relative;
-    left: -60px;
-}
-.nav-links{
-    list-style-type: none;
-    text-transform: uppercase;
-    font-size: 0.9em;
-    font-family:Arial, Helvetica, sans-serif;
-}
-
-.nav-links a{
-    display: inline-block;
-    text-decoration: none;
-    color: #555;
-    font-weight: 500;
-    transition: 0.5s;
-}
-
-.nav-links:hover a{
-    color: yellow;
-}
-
-.logos{
-    width: 120px;
-    height: 120px;
-    mix-blend-mode: color-burn;
-    margin-right: 320px;
 }
 
 select{
@@ -139,42 +34,5 @@ select{
 .links a {
     text-decoration: none;
 }
-
-
-.footer-programmes, .footer-info{
-    display: flex;
-    flex-direction: row;
-    justify-content: space-around;
-    align-items: center;
-
-}
-.footer-programmes{
-    margin-bottom: 30px;
-}
-.footer-programmes div div a{
-    text-decoration: none;
-}
-.footer-info > div> a{
-    transition: 0.6s;
-    text-decoration: none;
-    color: rgba(230, 230, 244, 0.4);
-
-}
-.footer-info>div >a:hover{
-    color: white
-
-}
-.foot{
-    background-color: rgb(0, 0, 0, 0.8);
-    color: white;
-    width: 100vw;
-    padding: 10px;
-    
-}
-footer h3{
-     text-align: center;
-}
-
-
 
 

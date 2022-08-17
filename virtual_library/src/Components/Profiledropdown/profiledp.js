@@ -23,7 +23,7 @@ function profiledp() {
                 <li><img src={user} alt="" class="resize"></img><a href="#">My Profile</a></li>
                 <li><img src={edit} alt="" class="resize"></img><a href="#">Edit Profile</a></li>
                 <li><img src={settings} alt="" class="resize"></img><a href="#">Settings</a></li>
-                <li><img src={logout} alt="" class="resize" style={{marginBottom:'10px'}}></img><a href="#">Log out</a></li>
+                <li><img src={logout} alt="" class="resize" style={{marginBottom:'10px'}}></img><a href="/" onClick={()=>{window.location.href="/"}}>Log out</a></li>
             </ul>
         </div>
     </div>

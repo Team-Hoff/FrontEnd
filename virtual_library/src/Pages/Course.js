@@ -4,29 +4,13 @@ import book from '../Assets/Asset/book.jpg';
 import {HiDownload} from 'react-icons/hi';
 import bgImg from "../Assets/Asset/anne-nygard-cA8VTQeHU0c-unsplash.jpg";
 import Profiledp from '../Components/Profiledropdown/profiledp';
+import Footer from '../Components/Footer/Footer';
+import Navbar from '../Components/Navbar/Navbar';
 
 const Course = () => {
   return (
     <div>
-       <nav className="nav-main">
-        <div className="navbars">
-          <div style={{display:'flex'}}>
-          <div className="logo-image"></div>
-            <div className="logo"><h1 className="my_logos">
-                <span style={{fontSize:'20px'}}>Virtual</span> <span className="library">Library</span>
-            </h1></div>
-            </div>
-              <ul className="nav_list">
-                  <li className="nav-links"><a href='/home'>Home</a></li>
-                  <li className="nav-links"><a href='#'>About</a></li>
-                  <li className="nav-links"><a href='#'>Help</a></li>
-                  <Profiledp/>
-              </ul>
-            
-          </div>
-       </nav>
-
-
+        <Navbar/>
 
     <div className="hero" style={{background: `linear-gradient(rgba(0,0,0,0.7),rgba(0,0,0,0.7)),
     url(${bgImg})`, backgroundRepeat: 'no-repeat', backgroundSize: '100% 100%'}}>
@@ -140,48 +124,52 @@ const Course = () => {
 
     <h1 className="ref_book_head">Recommended videos</h1>
     
-    <div className="foots">
-    <footer>
-      <h3>Engineering Programmes</h3>
-     <div className='footer-programmes'>
-      <div>
-        <div><a href='#'>Computer engineering</a></div>
-        <div><a href='#'>Biomedical engineering</a></div>
-        <div><a href='#'>Telecommunication engineering</a></div>
-        <div><a href='#'>Electrical engineering</a></div>
-        <div><a href='#'>Civil engineering</a></div>
-      </div>
-      <div>
-        <div><a href='#'>Metallurgical engineering</a></div>
-        <div><a href='#'>Mechanical engineering</a></div>
-        <div><a href='#'>Geological engineering</a></div>
-        <div><a href='#'> Geomatic engineering</a></div>
-        <div><a href='#'>Automobile engineering</a></div>
-      </div>
-      <div>
-        <div><a href='#'>Aerospace engineering</a></div>
-        <div><a href='#'>Materials engineering</a></div>
-        <div><a href='#'>Petrochemical engineering</a></div>
-        <div><a href='#'>Petroleum engineering</a></div>
-        <div><a href='#'>Industrial engineering</a></div>
-      </div>
-    </div>
-    <hr/>
-    <div className='footer-info'>
-      <div>
-        <a href="#">About us </a>
-      </div>
-      <div>
-        <a href="#">Contact</a>
-      </div>
-      <div>
-        <a href="#">Questions</a>
-      </div>
+    <Footer/>
+    {/* <div className='fo'>
+    <footer class="footer-display">
 
-    </div>
-  </footer>
-  </div>  
+      <div class="footer-left">
+      <h3 >Virtual<span>library</span></h3>
 
+    <p class="footer-links">
+        
+    </p>
+
+    <p class="footer-library-name">Copyright © 2022 <strong>Team Hoff</strong> All rights reserved</p>
+</div>
+
+<div class="footer-center">
+    <div>
+        <i class="fa fa-map-marker"></i>
+        <p><span>KNUST</span>
+            KUMASI</p>
+    </div>
+
+    <div>
+        <i class="fa fa-phone"></i>
+        <p>+233 552726588</p>
+    </div>
+    <div>
+        <i class="fa fa-envelope"></i>
+        <p><a href="teamHoff@gmail.com">teamHoff@gmail.com</a></p>
+    </div>
+</div>
+<div class="footer-right">
+    <br/>
+    <br/>
+    <div class="footer-icons">
+        <a href="#"><i class="fa fa-facebook"></i></a>
+        <a href="#"><i class="fa fa-instagram"></i></a>
+        <a href="#"><i class="fa fa-linkedin"></i></a>
+        <a href="#"><i class="fa fa-twitter"></i></a>
+        <a href="#"><i class="fa fa-youtube"></i></a>
+    </div>
+    
+</div>
+
+</footer>
+
+</div> */}
 
   
   

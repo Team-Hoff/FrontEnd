@@ -2,6 +2,7 @@ export const COE=[
     {
         id:"algebra",
         name:"Algebra",
+        code:"",
         year: 1,
         semester:1
     }, 
@@ -782,12 +783,13 @@ export const ELEESA=[
         semester:2
     },
     {
-        id:"Mobileandsatellitecommsystem",
+        id:"mobileandsatellitecommsystem",
         name:"Mobile and Satellite Comm. System",
         year: 4,
         semester:2
     },
 ]
-    
+
+
 
 

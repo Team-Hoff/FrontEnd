@@ -2,9 +2,9 @@ import React from 'react';
 import '../Components/home.css';
 import Searchbar from '../Components/Searchbar/Searchbar';
 import BookData from '../Components/Searchbar/Data.json';
-import Profiledp from '../Components/Profiledropdown/profiledp';
 import Programcard from '../Components/Programcard';
-// import '../style.css';
+import Navbar from '../Components/Navbar/Navbar';
+import Footer from '../Components/Footer/Footer';
 
 
 
@@ -12,13 +12,16 @@ const Home = () => {
 
   return (
     <div className="Everything">
+
+        <Navbar/>
       
-      <nav className="nav-main">
+      {/* <nav className="nav-main">
         <div className="navbar">
           <div style={{display:'flex'}}>
           <div className="logo-image"></div>
-            <div className="logo"><h1 className="my_logo">
-                <span style={{fontSize:'20px'}}>Virtual</span> <span className="library">Library</span>
+            <div className="logo"><h1 className="my_logos">
+                <span>Virtual</span><span className="librarys">Library</span>
+                
             </h1></div>
             </div>
               <ul className="nav_list">
@@ -28,7 +31,7 @@ const Home = () => {
               </ul>
             
           </div>
-       </nav>
+       </nav> */}
 
 
       <section className="below_nav">
@@ -53,20 +56,14 @@ const Home = () => {
 
     </div>
 
-    <div className='fo'>
+    {/* <div className='fo'>
     <footer class="footer-display">
 
       <div class="footer-left">
-      <h3>Virtual<span>library</span></h3>
+      <h1>Virtual<span>Library</span></h1>
 
     <p class="footer-links">
-        <a href="#">Home</a>
-        |
-        <a href="#">About</a>
-        |
-        <a href="#">Contact</a>
-        |
-        <a href="#">Questions</a>
+        
     </p>
 
     <p class="footer-library-name">Copyright © 2022 <strong>Team Hoff</strong> All rights reserved</p>
@@ -89,14 +86,8 @@ const Home = () => {
     </div>
 </div>
 <div class="footer-right">
-    <p class="footer-find-course">
-        <span>Find a course</span>
-        <p><a href="" style={{textDecoration:'none'}}>Algebra</a></p>
-        <p><a href="" style={{textDecoration:'none'}}>English</a></p>
-        <p> <a href="" style={{textDecoration:'none'}}>Applied Electricity</a></p>
-    </p>
-</div>
-    <hr style={{color:'black'}}/>
+    <br/>
+    <br/>
     <div class="footer-icons">
         <a href="#"><i class="fa fa-facebook"></i></a>
         <a href="#"><i class="fa fa-instagram"></i></a>
@@ -104,9 +95,13 @@ const Home = () => {
         <a href="#"><i class="fa fa-twitter"></i></a>
         <a href="#"><i class="fa fa-youtube"></i></a>
     </div>
+    
+</div>
+
 </footer>
 
-</div>
+</div> */}
+    <Footer/>
 
   </div>
   )

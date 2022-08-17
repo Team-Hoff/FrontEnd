@@ -16,24 +16,23 @@ import Metallurgical from '../Assets/Programs/Metallurgical.png';
 import Petrochem from '../Assets/Programs/Petrochem.png';
 import Petroleum from '../Assets/Programs/Petroleum.png';
 import Telecom from '../Assets/Programs/Telecom.png';
-import './programcard.css';
 
 function Programcard() {
   return (
     <div>
-    <Card style={{ width: '18rem', float: 'left', marginLeft: 110, marginTop: 30 }}>
+    <Card style={{ width: '18rem', float: 'left', marginLeft: 110, marginTop: 30, textAlign:'center' }}>
       <Card.Img variant="top" src={ACES} style={{height: 180}} />
       <Card.Body>
       <Card.Title>Computer Engineering</Card.Title>
         <Card.Text>
             Department of Computer Engineering all course materials available
         </Card.Text>
-        <Button variant="primary" style={{background: 'orange', borderColor: 'orange'}}><a href='/home/program' style={{color: 'white', textDecoration: 'none'}}>Computer Engineering</a></Button>
+        <Button variant="primary" style={{background: 'orange', borderColor: 'orange'}}><a href='/home/computer' onClick={()=>{window.location.href="/home/computer"}} style={{color: 'white', textDecoration: 'none'}}>Computer Engineering</a></Button>
       </Card.Body>
     </Card>
     
     <div>
-    <Card style={{ width: '18rem', marginLeft: 110, float: 'left', justifyContent: 'space-around', display: 'flex', marginTop: 30 }}>
+    <Card style={{ width: '18rem', marginLeft: 110, float: 'left', justifyContent: 'space-around', display: 'flex', marginTop: 30, textAlign:'center' }}>
       <Card.Img variant="top" src={Aerospace} style={{height: 180}} />
       <Card.Body>
         <Card.Title>Aerospace Engineering</Card.Title>
@@ -46,7 +45,7 @@ function Programcard() {
     </div>
 
     <div>
-    <Card style={{ width: '18rem', marginLeft: 110, float: 'left', marginRight: 20, justifyContent: 'space-around', display: 'flex', marginTop: 30 }}>
+    <Card style={{ width: '18rem', marginLeft: 110, float: 'left', marginRight: 20, justifyContent: 'space-around', display: 'flex', marginTop: 30, textAlign:'center' }}>
       <Card.Img variant="top" src={Agricultural} style={{height: 180}} />
       <Card.Body>
       <Card.Title>Agricultural Engineering</Card.Title>
@@ -58,7 +57,7 @@ function Programcard() {
     </Card>
     </div>
 
-    <Card style={{ width: '18rem', float: 'left', marginLeft: 110, marginTop: 30 }}>
+    <Card style={{ width: '18rem', float: 'left', marginLeft: 110, marginTop: 30, textAlign:'center' }}>
       <Card.Img variant="top" src={BMES} style={{height: 180}} />
       <Card.Body>
       <Card.Title>Biomedical Engineering</Card.Title>
@@ -69,8 +68,8 @@ function Programcard() {
       </Card.Body>
     </Card>
     
-    <div>
-    <Card style={{ width: '18rem', marginLeft: 110, float: 'left', justifyContent: 'space-around', display: 'flex', marginTop: 30 }}>
+  
+    <Card style={{ width: '18rem', marginLeft: 110, float: 'left', justifyContent: 'space-around', display: 'flex', marginTop: 30, textAlign:'center' }}>
       <Card.Img variant="top" src={Chemical} style={{height: 180}} />
       <Card.Body>
         <Card.Title>Chemical Engineering</Card.Title>
@@ -80,7 +79,7 @@ function Programcard() {
         <Button variant="primary" style={{background: 'orange', borderColor: 'orange'}}><a href='/' style={{color: 'white', textDecoration: 'none'}}>Chemical Engineering</a></Button>
       </Card.Body>
     </Card>
-    </div>
+    
 
     
     
@@ -88,19 +87,19 @@ function Programcard() {
     
     
 
-    <Card style={{ width: '18rem', float: 'left', marginLeft: 110, marginTop: 30 }}>
+    <Card style={{ width: '18rem', float: 'left', marginLeft: 110, marginTop: 30, textAlign:'center' }}>
       <Card.Img variant="top" src={ELEESA} style={{height: 180}} />
       <Card.Body>
       <Card.Title>Electrical Engineering</Card.Title>
         <Card.Text>
             Department of Electrical Engineering all course materials available
         </Card.Text>
-        <Button variant="primary" style={{background: 'orange', borderColor: 'orange'}}><a href='/' style={{color: 'white', textDecoration: 'none'}}>Electrical Engineering</a></Button>
+        <Button variant="primary" style={{background: 'orange', borderColor: 'orange'}}><a href='/home/electrical' onClick={()=>{window.location.href="/home/electrical"}} style={{color: 'white', textDecoration: 'none'}}>Electrical Engineering</a></Button>
       </Card.Body>
     </Card>
     
     
-    <Card style={{ width: '18rem', marginLeft: 110, float: 'left', justifyContent: 'space-around', display: 'flex', marginTop: 30 }}>
+    <Card style={{ width: '18rem', marginLeft: 110, float: 'left', justifyContent: 'space-around', display: 'flex', marginTop: 30, textAlign:'center' }}>
       <Card.Img variant="top" src={geological} style={{height: 180}} />
       <Card.Body>
         <Card.Title>Geological Engineering</Card.Title>
@@ -113,7 +112,7 @@ function Programcard() {
     
 
    
-    <Card style={{ width: '18rem', marginLeft: 110, float: 'left', marginRight: 20, justifyContent: 'space-around', display: 'flex', marginTop: 30 }}>
+    <Card style={{ width: '18rem', marginLeft: 110, float: 'left', marginRight: 20, justifyContent: 'space-around', display: 'flex', marginTop: 30, textAlign:'center' }}>
       <Card.Img variant="top" src={geomatic} style={{height: 180}} />
       <Card.Body>
       <Card.Title>Geomatic Engineering</Card.Title>
@@ -125,7 +124,7 @@ function Programcard() {
     </Card>
     
 
-    <Card style={{ width: '18rem', float: 'left', marginLeft: 90, marginTop: 30 }}>
+    <Card style={{ width: '18rem', float: 'left', marginLeft: 90, marginTop: 30, textAlign:'center' }}>
       <Card.Img variant="top" src={Materials} style={{height: 180}} />
       <Card.Body>
       <Card.Title>Materials Engineering</Card.Title>
@@ -137,7 +136,7 @@ function Programcard() {
     </Card>
     
     
-    <Card style={{ width: '18rem', marginLeft: 110, float: 'left', justifyContent: 'space-around', display: 'flex', marginTop: 30 }}>
+    <Card style={{ width: '18rem', marginLeft: 110, float: 'left', justifyContent: 'space-around', display: 'flex', marginTop: 30, textAlign:'center' }}>
       <Card.Img variant="top" src={Mechanical} style={{height: 180}} />
       <Card.Body>
         <Card.Title>Mechanical Engineering</Card.Title>
@@ -150,7 +149,7 @@ function Programcard() {
    
 
     
-    <Card style={{ width: '18rem', marginLeft: 110, float: 'left', marginRight: 20, justifyContent: 'space-around', display: 'flex', marginTop: 30 }}>
+    <Card style={{ width: '18rem', marginLeft: 110, float: 'left', marginRight: 20, justifyContent: 'space-around', display: 'flex', marginTop: 30, textAlign:'center' }}>
       <Card.Img variant="top" src={Metallurgical} style={{height: 180}} />
       <Card.Body>
       <Card.Title>Metallurgical Engineering</Card.Title>
@@ -163,7 +162,7 @@ function Programcard() {
     
 
     
-    <Card style={{ width: '18rem', float: 'left', marginLeft: 90, marginTop: 30 }}>
+    <Card style={{ width: '18rem', float: 'left', marginLeft: 90, marginTop: 30, textAlign:'center' }}>
       <Card.Img variant="top" src={Petrochem} style={{height: 180}} />
       <Card.Body>
       <Card.Title>Petrochemical Engineering</Card.Title>
@@ -175,7 +174,7 @@ function Programcard() {
     </Card>
     
     
-    <Card style={{ width: '18rem', marginLeft: 110, float: 'left', justifyContent: 'space-around', display: 'flex', marginTop: 30 }}>
+    <Card style={{ width: '18rem', marginLeft: 110, float: 'left', justifyContent: 'space-around', display: 'flex', marginTop: 30, textAlign:'center' }}>
       <Card.Img variant="top" src={Petroleum} style={{height: 180}} />
       <Card.Body>
         <Card.Title>Petroleum  Engineering</Card.Title>
@@ -188,8 +187,8 @@ function Programcard() {
     
 
     
-    <Card style={{ width: '18rem', marginLeft: 110, float: 'left', marginRight: 20, justifyContent: 'space-around', display: 'flex', marginTop: 30 }}>
-      <Card.Img variant="top" src={Telecom} style={{height: 157}} />
+    <Card style={{ width: '18rem', marginLeft: 110, float: 'left', marginRight: 20, justifyContent: 'space-around', display: 'flex', marginTop: 30, textAlign:'center' }}>
+      <Card.Img variant="top" src={Telecom} style={{height: 180}} />
       <Card.Body>
       <Card.Title>Telecommunication  Engineering</Card.Title>
         <Card.Text>
@@ -199,8 +198,8 @@ function Programcard() {
       </Card.Body>
     </Card>
 
-    <Card style={{ width: '18rem', marginLeft: 90, float: 'left', marginRight: 20, justifyContent: 'space-around', display: 'flex', marginTop: 30 }}>
-      <Card.Img variant="top" src={Civil} style={{height: 205}} />
+    <Card style={{ width: '18rem', marginLeft: 90, float: 'left', marginRight: 20, justifyContent: 'space-around', display: 'flex', marginTop: 30, textAlign:'center' }}>
+      <Card.Img variant="top" src={Civil} style={{height: 180}} />
       <Card.Body>
       <Card.Title>Civil Engineering</Card.Title>
         <Card.Text>

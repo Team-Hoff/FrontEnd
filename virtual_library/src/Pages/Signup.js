@@ -1,4 +1,4 @@
-import { StyledFormArea, StyledFormButton, Avatar, StyledTitle, colors, ButtonGroup, ExtraText, TextLink, CopyrightText, StyledIcon } from "../Components/Style";
+import { StyledContainer,StyledFormArea, StyledFormButton, Avatar, StyledTitle, colors, ButtonGroup, ExtraText, TextLink, CopyrightText } from "../Components/Style";
 
 import Logo from './../Assets/Klogo.png';
 
@@ -10,13 +10,13 @@ import { Form, Formik } from "formik";
 
 import { TextInput, CustomSelect} from "../Components/Form";
 
-import {FiUser, FiLock, FiMail, FiBook} from 'react-icons/fi';
+import {FiUser, FiLock, FiMail} from 'react-icons/fi';
 
 import  * as Yup from 'yup';
 
 
 import { ThreeDots} from 'react-loader-spinner';
-import styled from "styled-components";
+
 
 
 
@@ -50,6 +50,7 @@ const Signup = () => {
   
   
   return (
+    <StyledContainer>
     <div>
       <StyledFormArea>
         <div style={{display:'flex'}}>
@@ -201,11 +202,12 @@ const Signup = () => {
             )}
           </Formik>
           <ExtraText>
-            Already have an account? Click <TextLink to="/login" onClick={()=>{window.location.href="/login"}}>Login</TextLink> to sign in
+            Already have an account? Click <TextLink to="/" onClick={()=>{window.location.href="/"}} >Login</TextLink> to sign in
           </ExtraText>
       </StyledFormArea>
       <CopyrightText>All rights reserved &copy;2022</CopyrightText>
     </div>
+    </StyledContainer>
   )
 }
 

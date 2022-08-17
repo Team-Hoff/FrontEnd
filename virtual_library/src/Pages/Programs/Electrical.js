@@ -1,11 +1,11 @@
 /* eslint-disable jsx-a11y/anchor-is-valid */
 import React, { useState } from 'react';
-import Logo from '../Assets/Programs/ACES2.png';
-import bgimg from '../Assets/BackgroundPics/comp.png';
-import '../Components/program.css';
-import Profiledp from '../Components/Profiledropdown/profiledp';
-import Folder from '../Components/Profiledropdown/folder.png';
-import { COE } from '../Components/coursesdata/coursesData';
+import Logo from '../../Assets/Programs/ACES2.png';
+import bgimg from '../../Assets/BackgroundPics/elec.png';
+import '../../Components/program.css';
+import Profiledp from '../../Components/Profiledropdown/profiledp';
+import Folder from '../../Components/Profiledropdown/folder.png';
+import {ELEESA} from '../../Components/coursesdata/coursesData';
 import { Link } from 'react-router-dom';
 
 
@@ -41,7 +41,7 @@ const Program = () => {
             justify-content-between" style={{ minHeight: '20vw' }}>
             <div>
               <h1> <span style={{fontSize:'80px'}}>
-                COMPUTER ENGINEERING
+                ELECTRICAL ENGINEERING
               </span></h1>
               {/* <p style={{color:'white'}}>You don't need to go through  the stress of asking your colleagues for your course materials. Get all your engineering  course materials and tutorial video links right here !!   </p> */}
 
@@ -92,7 +92,7 @@ const Program = () => {
             <ul className="list-group list-group-flush">
 
               {
-                COE.filter((course) => {
+                ELEESA.filter((course) => {
                   if (Number(course.year) === Number(courseQuery) && (Number(course.semester=== 1))) return course
                   return ''
                 }).map((course) => (
@@ -108,7 +108,7 @@ const Program = () => {
             </div>
             <ul className="list-group list-group-flush">
             {
-                COE.filter((course) => {
+                ELEESA.filter((course) => {
                   if (Number(course.year) === Number(courseQuery) && (Number(course.semester=== 2))) return course
                   return ''
                 }).map((course) => (

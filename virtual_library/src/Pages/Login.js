@@ -1,4 +1,4 @@
-import { StyledFormArea, StyledFormButton, Avatar, StyledTitle, colors, ButtonGroup, ExtraText, TextLink, CopyrightText, StyledLabel} from "../Components/Style";
+import { StyledContainer,StyledFormArea, StyledFormButton, Avatar, StyledTitle, colors, ButtonGroup, ExtraText, TextLink, CopyrightText} from "../Components/Style";
 
 import Logo from './../Assets/Klogo.png';
 
@@ -14,7 +14,7 @@ import {FiUser, FiLock} from 'react-icons/fi';
 import  * as Yup from 'yup';
 
 import { ThreeDots} from 'react-loader-spinner';
-import { Link } from "react-router-dom";
+
 
 const Login = () => {
 
@@ -33,7 +33,7 @@ const Login = () => {
       }
     ).then( response => {
       
-      if (response.status == 200){
+      if (response.status === 200){
         alert("Logged In")
       }else{
         alert("Incorrect credentials")
@@ -43,6 +43,8 @@ const Login = () => {
 
 
   return (
+    <StyledContainer>
+
     <div>
       <StyledFormArea>
         <div style={{display:'flex'}}>
@@ -107,12 +109,14 @@ const Login = () => {
             )}
           </Formik>
           <ExtraText>
-            Don't have an account? Click <TextLink to="/signup" onClick={()=>{window.location.href="/signup"}}>Signup</TextLink> to register
+            Don't have an account? Click <TextLink to="signup" onClick={()=>{window.location.href="/signup"}} >Signup</TextLink> to register
           </ExtraText>
-          {/* <TextLink to="/home" onClick={()=>{window.location.href="/home"}}>Home</TextLink> */}
+          
       </StyledFormArea>
       <CopyrightText>All rights reserved &copy;2022</CopyrightText>
     </div>
+    </StyledContainer>
+
   )
 }
 

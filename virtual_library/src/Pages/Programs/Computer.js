@@ -1,11 +1,11 @@
 /* eslint-disable jsx-a11y/anchor-is-valid */
 import React, { useState } from 'react';
-import Logo from '../Assets/Programs/ACES2.png';
-import bgimg from '../Assets/BackgroundPics/comp.png';
-import '../Components/program.css';
-import Profiledp from '../Components/Profiledropdown/profiledp';
-import Folder from '../Components/Profiledropdown/folder.png';
-import { COE } from '../Components/coursesdata/coursesData';
+import Logo from '../../Assets/Programs/ACES2.png';
+import bgimg from '../../Assets/BackgroundPics/comp.png';
+import '../../Components/program.css';
+import Profiledp from '../../Components/Profiledropdown/profiledp';
+import Folder from '../../Components/Profiledropdown/folder.png';
+import { COE } from '../../Components/coursesdata/coursesData';
 import { Link } from 'react-router-dom';
 
 

@@ -10,9 +10,8 @@ function Navbar() {
         <div className="navbar">
           <div style={{display:'flex'}}>
           <div className="logo-image"></div>
-            <div className="logo"><h1 className="my_logos">
-                <span>Virtual</span><span className="librarys">Library</span>
-                
+            <div><h1>
+                <span className='virtual'>Virtual</span><span className="librarys">Library</span>
             </h1></div>
             </div>
               <ul className="nav_list">

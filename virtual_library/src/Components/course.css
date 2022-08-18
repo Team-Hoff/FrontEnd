@@ -1,17 +1,16 @@
 .hero{
     display: flex;
-    /* background-color: rgb(121, 189, 249); */
     height: 52vh;
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    color: blue;
+    color: white;
 }
 
 .hero_head{
     text-transform: uppercase;
     font-family: 'Poppins';
-    font-size: 50px;
+    font-size: 80px;
 }
 .buttons{
     padding-top: 1em;
@@ -129,6 +128,17 @@
 .right_lect_block_4 a{
     text-decoration: none;
      
+}
+
+.recvid{
+    display: flex;
+    padding-left: 210px;
+    justify-content: space-around;
+}
+
+.recvid iframe{
+    height: 40vh;
+    width: 60vh;
 }
 .fo {
     position: relative;

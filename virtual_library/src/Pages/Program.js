@@ -1,7 +1,7 @@
 /* eslint-disable jsx-a11y/anchor-is-valid */
 import React, { useState } from 'react';
 import Logo from '../Assets/Programs/ACES2.png';
-import bgimg from '../Assets/BackgroundPics/comp.png';
+import bgimg from '../Assets/BackgroundPics/coe.png';
 import '../Components/program.css';
 import Profiledp from '../Components/Profiledropdown/profiledp';
 import Folder from '../Components/Profiledropdown/folder.png';
@@ -26,7 +26,7 @@ const Program = () => {
           <div className="d-sm-flex align-items-center 
             justify-content-between" style={{ minHeight: '20vw' }}>
             <div>
-              <h1> <span style={{fontSize:'80px'}}>
+              <h1> <span style={{fontSize:'80px', fontFamily:'Poppins'}}>
                 COMPUTER ENGINEERING
               </span></h1>
             </div>
@@ -38,28 +38,28 @@ const Program = () => {
 
       <div className="container">
         <div className="d-sm-flex align-items-center 
-        justify-content-between ">
+        justify-content-between " style={{paddingTop:'30px'}}>
           <div>
             <h2>{
-              Number(courseQuery) === 1 ? "YEAR ONE" : Number(courseQuery) === 2 ? "YEAR TWO" : Number(courseQuery) === 3 ? "YEAR THREE" : Number(courseQuery) === 4 ? "YEAR FOUR" :""
+              Number(courseQuery) === 1 ? "LEVEL 100" : Number(courseQuery) === 2 ? "LEVEL 200" : Number(courseQuery) === 3 ? "LEVEL 300" : Number(courseQuery) === 4 ? "LEVEL 400" :""
               }</h2> </div>
 
           <div>
           <select onChange={(event) => setcourseQuery(event.target.value)}>
             <option value='' hidden >
-              Select year
+              SELECT YEAR
             </option>
             <option value={1}>
-              YEAR ONE
+              LEVEL 100
             </option>
             <option value={2}>
-              YEAR TWO
+              LEVEL 200
             </option>
             <option value={3} >
-              YEAR THREE
+              LEVEL 300
             </option>
             <option value={4} >
-              YEAR FOUR
+              LEVEL 400
             </option>
           </select>
           </div>

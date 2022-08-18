@@ -22,8 +22,7 @@ function Footer() {
 <div class="footer-center">
     <div>
         <FaMapMarked style={{backgroundColor:'white'}}/>
-        <p><span>KNUST</span>
-            KUMASI</p>
+        <p>KNUST, KUMASI</p>
     </div>
 
     <div>

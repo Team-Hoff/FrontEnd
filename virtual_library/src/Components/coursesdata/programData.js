@@ -81,7 +81,7 @@ export const ProgramData=[
         img: `${Petroleum}`
     },
     {
-        id: 'Telecom',
+        id: 'telecom',
         name: 'Telecommunication Engineering',
         img: `${Telecom}`,
     },

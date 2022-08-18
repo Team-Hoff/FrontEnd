@@ -1,13 +1,11 @@
 .nav-main{
-    /* background-color: rgba(6, 6, 6, 0.8);
-    background-attachment: fixed; */
+    display: inline-flex;
     background-color: #2d2a30;
     box-sizing: border-box;
     width: 100%;
     text-align: center;
     font: bold 16px 'Poppins';
     padding: 10px 10px 10px 10px;
-    /* margin-top: 80px; */
 }
 .navbar{
     width:100vw;
@@ -22,27 +20,15 @@
 
 .librarys{
     color: #e0ac1c;
-    border-radius: 8px;
-    padding-bottom: 8px;
-    padding-top: 8px;
-    padding: 1px 1px;
-    /* font-size: 30px; */
-    /* font-style: italic; */
+    font-family: 'Poppins';
 }
 
-
-
-.my_logos{
-    /* font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif; */
-    /* padding-bottom: 20px; */
-    /* position: absolute;
-    left: 55px;
-    top: 10px; */
+.virtual{
     color: #ffffff;
-    /* font: normal 36px 'Cookie', cursive; */
-    /* margin: 0; */
-    /* font-family: 'Poppins'; */
+    font: normal 36px 'Cookie', cursive;
+    margin: 0;
 }
+
 
 .logo-image{
     width: 3em;

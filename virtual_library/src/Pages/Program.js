@@ -7,6 +7,8 @@ import Profiledp from '../Components/Profiledropdown/profiledp';
 import Folder from '../Components/Profiledropdown/folder.png';
 import { COE } from '../Components/coursesdata/coursesData';
 import { Link } from 'react-router-dom';
+import Footer from '../Components/Footer/Footer';
+import Navbar from '../Components/Navbar/Navbar';
 
 
 const Program = () => {
@@ -14,23 +16,7 @@ const Program = () => {
   console.log(courseQuery)
   return (
     <div>
-      <nav className="nav-main">
-        <div className="navbars">
-          <div style={{ display: 'flex' }}>
-            <div className="logo-image"></div>
-            <div className="logo"><h1 className="my_logos">
-              <span style={{ fontSize: '20px' }}>Virtual</span> <span className="library">Library</span>
-            </h1></div>
-          </div>
-          <ul className="nav_list">
-            <li className="nav-links"><a href='/home'>Home</a></li>
-            <li className="nav-links"><a href='#'>About</a></li>
-            <li className="nav-links"><a href='#'>Help</a></li>
-            <Profiledp />
-          </ul>
-
-        </div>
-      </nav>
+      <Navbar/>
 
 
 
@@ -43,10 +29,7 @@ const Program = () => {
               <h1> <span style={{fontSize:'80px'}}>
                 COMPUTER ENGINEERING
               </span></h1>
-              {/* <p style={{color:'white'}}>You don't need to go through  the stress of asking your colleagues for your course materials. Get all your engineering  course materials and tutorial video links right here !!   </p> */}
-
             </div>
-            {/* <img className="img-fluid d-none d-sm-block " src={Logo} alt=""></img> */}
             {/* <img className="logos" src={Logo} alt=""></img> */}
 
           </div>
@@ -96,7 +79,7 @@ const Program = () => {
                   if (Number(course.year) === Number(courseQuery) && (Number(course.semester=== 1))) return course
                   return ''
                 }).map((course) => (
-                  <li key={course.id} className="list-group-item"><img className="folders" src={Folder} alt=""></img> <Link to={`/home/program/${course.id}`} onClick={()=>{window.location.href=`/home/program/${course.id}`}}>{course.name}</Link> </li>
+                  <li key={course.id} className="list-group-item"><img className="folders" src={Folder} alt=""></img> <Link to={`/home/program/${course.id}`} >{course.name}</Link> </li>
                 ))
               }
             </ul>
@@ -121,46 +104,7 @@ const Program = () => {
 
 
       </div>
-      <div className="foot">
-        <footer>
-          <h3>Engineering Programmes</h3>
-          <div className='footer-programmes'>
-            <div>
-              <div><a href='#'>Computer engineering</a></div>
-              <div><a href='#'>Biomedical engineering</a></div>
-              <div><a href='#'>Telecommunication engineering</a></div>
-              <div><a href='#'>Electrical engineering</a></div>
-              <div><a href='#'>Civil engineering</a></div>
-            </div>
-            <div>
-              <div><a href='#'>Metallurgical engineering</a></div>
-              <div><a href='#'>Mechanical engineering</a></div>
-              <div><a href='#'>Geological engineering</a></div>
-              <div><a href='#'> Geomatic engineering</a></div>
-              <div><a href='#'>Automobile engineering</a></div>
-            </div>
-            <div>
-              <div><a href='#'>Aerospace engineering</a></div>
-              <div><a href='#'>Materials engineering</a></div>
-              <div><a href='#'>Petrochemical engineering</a></div>
-              <div><a href='#'>Petroleum engineering</a></div>
-              <div><a href='#'>Industrial engineering</a></div>
-            </div>
-          </div><hr />
-          <div className='footer-info'>
-            <div>
-              <a href="#">About us </a>
-            </div>
-            <div>
-              <a href="#">Contact</a>
-            </div>
-            <div>
-              <a href="#">Questions</a>
-            </div>
-
-          </div>
-        </footer>
-      </div>
+      <Footer/>
     </div>
   )
 }

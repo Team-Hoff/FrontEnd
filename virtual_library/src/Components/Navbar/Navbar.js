@@ -1,6 +1,7 @@
 import React from 'react';
 import './Navbar.css';
 import Profiledp from '../Profiledropdown/profiledp';
+import { Link } from 'react-router-dom';
 
 function Navbar() {
   return (
@@ -15,9 +16,9 @@ function Navbar() {
             </h1></div>
             </div>
               <ul className="nav_list">
-                  <li className="nav-links"><a href='/home'>Home</a></li>
-                  <li className="nav-links"><a href='#'>About</a></li>
-                  <li className="nav-links"><a href='#'>Help</a></li>
+                  <li className="nav-links"><Link to='/home'>Home</Link></li>
+                  <li className="nav-links"><Link to='#'>About</Link></li>
+                  <li className="nav-links"><Link to='#'>Help</Link></li>
                   <Profiledp/>
               </ul>
             

@@ -1,5 +1,7 @@
 import React from 'react';
 import './Footer.css';
+import {FaEnvelopeSquare, FaFacebookSquare, FaInstagramSquare, FaLinkedin, FaMapMarked, FaPhone, FaTwitterSquare, FaYoutubeSquare} from 'react-icons/fa';
+
 
 function Footer() {
   return (
@@ -19,29 +21,29 @@ function Footer() {
 
 <div class="footer-center">
     <div>
-        <i class="fa fa-map-marker"></i>
+        <FaMapMarked style={{backgroundColor:'white'}}/>
         <p><span>KNUST</span>
             KUMASI</p>
     </div>
 
     <div>
-        <i class="fa fa-phone"></i>
+        <FaPhone style={{backgroundColor:'white'}}/>
         <p>+233 552726588</p>
     </div>
     <div>
-        <i class="fa fa-envelope"></i>
-        <p><a href="teamHoff@gmail.com">teamHoff@gmail.com</a></p>
+        <FaEnvelopeSquare style={{backgroundColor:'white'}}/>
+        <p><a href="#" target='_blank'>teamHoff@gmail.com</a></p>
     </div>
 </div>
 <div class="footer-right">
     <br/>
     <br/>
     <div class="footer-icons">
-        <a href="#"><i class="fa fa-facebook"></i></a>
-        <a href="#"><i class="fa fa-instagram"></i></a>
-        <a href="#"><i class="fa fa-linkedin"></i></a>
-        <a href="#"><i class="fa fa-twitter"></i></a>
-        <a href="#"><i class="fa fa-youtube"></i></a>
+        <a href="https://www.facebook.com/" target='_blank'><FaFacebookSquare/></a>
+        <a href="https://www.instagram.com/" target='_blank'><FaInstagramSquare/></a>
+        <a href="https://www.linkedin.com/" target='_blank'><FaLinkedin/></a>
+        <a href="https://twitter.com/" target='_blank'><FaTwitterSquare/></a>
+        <a href="https://www.youtube.com/" target='_blank'><FaYoutubeSquare/></a>
     </div>
     
 </div>

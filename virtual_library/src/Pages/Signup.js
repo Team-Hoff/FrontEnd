@@ -202,7 +202,7 @@ const Signup = () => {
             )}
           </Formik>
           <ExtraText>
-            Already have an account? Click <TextLink to="/" onClick={()=>{window.location.href="/"}} >Login</TextLink> to sign in
+            Already have an account? Click <TextLink to="/">Login</TextLink> to sign in
           </ExtraText>
       </StyledFormArea>
       <CopyrightText>All rights reserved &copy;2022</CopyrightText>

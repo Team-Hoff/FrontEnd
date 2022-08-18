@@ -5,6 +5,7 @@ import logout from './logout.png';
 import settings from './settings.jpg';
 import user from './user.png';
 import user2 from './f2.png';
+import { Link } from 'react-router-dom';
 
 function profiledp() {
 
@@ -20,10 +21,10 @@ function profiledp() {
         <div class="menu">
             <h3>Welcome<br/><span>SINE</span></h3>
             <ul>
-                <li><img src={user} alt="" class="resize"></img><a href="#">My Profile</a></li>
-                <li><img src={edit} alt="" class="resize"></img><a href="#">Edit Profile</a></li>
-                <li><img src={settings} alt="" class="resize"></img><a href="#">Settings</a></li>
-                <li><img src={logout} alt="" class="resize" style={{marginBottom:'10px'}}></img><a href="/" onClick={()=>{window.location.href="/"}}>Log out</a></li>
+                <li><img src={user} alt="" class="resize"></img><Link to="#">My Profile</Link></li>
+                <li><img src={edit} alt="" class="resize"></img><Link to="#">Edit Profile</Link></li>
+                <li><img src={settings} alt="" class="resize"></img><Link to="#">Settings</Link></li>
+                <li><img src={logout} alt="" class="resize" style={{marginBottom:'10px'}}></img><Link to="/">Log out</Link></li>
             </ul>
         </div>
     </div>

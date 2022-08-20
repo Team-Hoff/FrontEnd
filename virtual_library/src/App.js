@@ -14,21 +14,22 @@ function App() {
 
     <div>
 
-    <Router>
-      <Routes>
-        <Route exact path='/' element={<Login/>}/>
-        <Route path='/signup' element={<Signup/>}/>
-        <Route path="/home" element={<Home/>}/>
-        <Route path="/home/:id" element={<Program/>}/>
-        <Route path="/home/:id/:id" element={<Course/>}/>
-      </Routes>
-    </Router>
+      <Router>
+        <Routes>
+          <Route exact path='/' element={<Login />} />
+          <Route path='/signup' element={<Signup />} />
+          <Route path="/home" element={<Home />} />
+          <Route path="/home/:id" element={<Program />}/>
+          <Route path="/home/:id/:id" element={<Course />} />
 
-    
+        </Routes>
+      </Router>
+
+
     </div>
 
 
- )
+  )
 }
 
 export default App;

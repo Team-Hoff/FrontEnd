@@ -13,81 +13,99 @@ import Metallurgical from '../../Assets/Programs/Metallurgical.png';
 import Petrochem from '../../Assets/Programs/Petrochem.png';
 import Petroleum from '../../Assets/Programs/Petroleum.png';
 import Telecom from '../../Assets/Programs/Telecom.png';
+import comp from '../../Assets/BackgroundPics/coe.png';
+import elec from '../../Assets/BackgroundPics/elec.png';
 
 export const ProgramData=[
     {
         id: 'computer',
         name: 'Computer Engineering',
-        img: `${ACES}`
+        img: `${ACES}`,
+        pic: `${comp}`
     },
     {
         id: 'aerospace',
         name: 'Aerospace Engineering',
-        img: `${Aerospace}`
+        img: `${Aerospace}`,
+        pic: `${elec}`
     },
     {
         id: 'agricultural',
         name: 'Agricultural Engineering',
-        img: `${Agricultural}`
+        img: `${Agricultural}`,
+        pic: `${elec}`
     },
     {
-        id: 'Biomedical',
+        id: 'biomedical',
         name: 'Biomedical Engineering',
-        img: `${BMES}`
+        img: `${BMES}`,
+        pic: `${elec}`
     },
     {
         id: 'chemical',
         name: 'Chemical Engineering',
-        img: `${Chemical}`
+        img: `${Chemical}`,
+        pic: `${elec}`
     },
     {
         id: 'electrical',
         name: 'Electrical Engineering',
-        img: `${ELEESA}`
+        img: `${ELEESA}`,
+        pic: `${elec}`
     },
     {
         id: 'geological',
         name: 'Geological Engineering',
-        img: `${geological}`
+        img: `${geological}`,
+        pic: `${elec}`
     },
     {
         id: 'geomatic',
         name: 'Geomatic Engineering',
-        img: `${geomatic}`
+        img: `${geomatic}`,
+        pic: `${elec}`
     },
     {
         id: 'materials',
         name: 'Materials Engineering',
-        img: `${Materials}`
+        img: `${Materials}`,
+        pic: `${elec}`
     },
     {
         id: 'mechanical',
         name: 'Mechanical Engineering',
-        img: `${Mechanical}`
+        img: `${Mechanical}`,
+        pic: ''
     },
     {
-        id: 'metallurgical',
-        name: 'Metallurgical Engineering',
-        img: `${Metallurgical}`
-    },
-    {
-        id: 'petrochemical',
-        name: 'Petrochemical Engineering',
-        img: `${Petrochem}`
-    },
-    {
-        id: 'petroleum',
-        name: 'Petroleum Engineering',
-        img: `${Petroleum}`
+        id: 'civil',
+        name: 'Civil Engineering',
+        img: `${Civil}`,
+        pic: `${elec}`
     },
     {
         id: 'telecom',
         name: 'Telecommunication Engineering',
         img: `${Telecom}`,
+        pic: `${elec}`
+    }, 
+    {
+        id: 'petrochemical',
+        name: 'Petrochemical Engineering',
+        img: `${Petrochem}`,
+        pic: `${elec}`
     },
     {
-        id: 'civil',
-        name: 'Civil Engineering',
-        img: `${Civil}`
-    }
+        id: 'petroleum',
+        name: 'Petroleum Engineering',
+        img: `${Petroleum}`,
+        pic: `${elec}`
+    },
+    {
+        id: 'metallurgical',
+        name: 'Metallurgical Engineering',
+        img: `${Metallurgical}`,
+        pic: `${elec}`
+    },
+    
 ]

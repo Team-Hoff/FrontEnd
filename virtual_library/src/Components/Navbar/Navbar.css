@@ -1,16 +1,18 @@
 .nav-main{
-    display: inline-flex;
+    /* display: inline-flex; */
     background-color: #2d2a30;
     box-sizing: border-box;
     width: 100%;
     text-align: center;
     font: bold 16px 'Poppins';
     padding: 10px 10px 10px 10px;
+    /* position: relative; */
+    /* left:19px; */
 }
 .navbar{
     width:100vw;
     margin: 0 auto;
-    padding: 0;
+    /* padding: 0; */
     height: 70px;
     color: white;
     display: flex;

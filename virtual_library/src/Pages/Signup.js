@@ -56,7 +56,7 @@ const Signup = () => {
         <div style={{display:'flex'}}>
         <Avatar image={Logo}/>
         <StyledTitle color='Light black' size={40}>
-            Virtual<span style={{color:'#e0ac1c'}}>Library</span>
+        <span style={{font: "normal 36px 'Cookie' cursive", margin: 0}}>Virtual</span><span style={{color:'#e0ac1c',fontFamily: 'Poppins'}}>Library</span>
           </StyledTitle></div>
           <Formik
             initialValues={{

@@ -7,7 +7,7 @@ import Background from '../../Assets/image.png';
 function ProgramCard() {
   return (
     <div>
-        <div style={{position:'relative', left:'-40px', backgroundImage: `url${Background}`}}>
+        <div /*style={{position:'relative', left:'-40px'}}*/>
         {
                 ProgramData.map((program) => (
                     <Card key={program.id} style={{ width: '18rem', float: 'left', marginLeft: 110, marginTop: 30, textAlign:'center', alignContent:'left' }}>
@@ -17,7 +17,7 @@ function ProgramCard() {
                         <Card.Text>
                             Department of {program.name}. All course materials are available.
                         </Card.Text>
-                        <Button variant="primary" style={{background: 'orange', borderColor: 'orange'}}><Link to={`/home/${program.id}`}  style={{color: 'white', textDecoration: 'none'}}>{program.name}</Link></Button>
+                        <Link to={`/home/${program.id}`}  style={{color: 'white', textDecoration: 'none'}}><Button variant="primary" style={{background: 'grey', borderColor: 'grey'}}>{program.name}</Button></Link>
                     </Card.Body>
                     </Card>
                 ))        

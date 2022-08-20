@@ -50,7 +50,7 @@ const Login = () => {
         <div style={{display:'flex'}}>
         <Avatar image={Logo}/>
           <StyledTitle color='Light black' size={40}>
-            Virtual<span style={{color:'#e0ac1c'}}>Library</span>
+            <span style={{font: "normal 36px 'Cookie' cursive", margin: 0}}>Virtual</span><span style={{color:'#e0ac1c',fontFamily: 'Poppins'}}>Library</span>
           </StyledTitle></div>
           <Formik
             initialValues={{
@@ -86,7 +86,7 @@ const Login = () => {
               />
 
               
-               <TextLink to="/forgotpassword" style={{}}>
+               <TextLink to="#" style={{}}>
                 Forgot Password?
               </TextLink> 
 
@@ -109,8 +109,9 @@ const Login = () => {
             )}
           </Formik>
           <ExtraText>
-            Don't have an account? Click <TextLink to="signup">Signup</TextLink> to register
+            Don't have an account? Click <TextLink to="/signup">Signup</TextLink> to register
           </ExtraText>
+          <TextLink to="/home">Home</TextLink>
           
       </StyledFormArea>
       <CopyrightText>All rights reserved &copy;2022</CopyrightText>

@@ -7,19 +7,19 @@ function Footer() {
   return (
     <div>
         <div className='fo'>
-    <footer class="footer-display">
+    <footer className="footer-display">
 
-      <div class="footer-left">
+      <div className="footer-left">
       <h1>Virtual<span>Library</span></h1>
 
-    <p class="footer-links">
+    <p className="footer-links">
         
     </p>
 
-    <p class="footer-library-name">Copyright © 2022 <strong>Team Hoff</strong> All rights reserved</p>
+    <p className="footer-library-name">Copyright © 2022 <strong>Team Hoff</strong> All rights reserved</p>
 </div>
 
-<div class="footer-center">
+<div className="footer-center">
     <div>
         <FaMapMarked style={{backgroundColor:'white'}}/>
         <p>KNUST, KUMASI</p>
@@ -34,10 +34,10 @@ function Footer() {
         <p><a href="#" target='_blank'>teamHoff@gmail.com</a></p>
     </div>
 </div>
-<div class="footer-right">
+<div className="footer-right">
     <br/>
     <br/>
-    <div class="footer-icons">
+    <div className="footer-icons">
         <a href="https://www.facebook.com/" target='_blank'><FaFacebookSquare/></a>
         <a href="https://www.instagram.com/" target='_blank'><FaInstagramSquare/></a>
         <a href="https://www.linkedin.com/" target='_blank'><FaLinkedin/></a>

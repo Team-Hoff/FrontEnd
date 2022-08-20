@@ -1,20 +1,42 @@
-import React from 'react';
+import React, {useState, useEffect} from 'react';
 import '../Components/course.css';
 import book from '../Assets/Asset/book.jpg';
 import {HiDownload} from 'react-icons/hi';
 import bgImg from "../Assets/Asset/anne-nygard-cA8VTQeHU0c-unsplash.jpg";
-import Profiledp from '../Components/Profiledropdown/profiledp';
 import Footer from '../Components/Footer/Footer';
 import Navbar from '../Components/Navbar/Navbar';
+import {useParams } from 'react-router-dom';
+import { COE, ELEESA } from '../Components/coursesdata/coursesData';
 
 const Course = () => {
+    const [acor, setacor] = useState([]);
+
+    const { id } = useParams()
+    useEffect(()=>{
+        var cour;
+         cour = COE.filter((cor) => cor.id === id)
+                  setacor(cour)
+                  
+         cour = ELEESA.filter((cors) => cors.id === id)
+                  setacor(cour)
+                       
+        return () => {
+          setacor('')
+        }
+      }, [id])
+
   return (
     <div>
         <Navbar/>
 
     <div className="hero" style={{background: `linear-gradient(rgba(0,0,0,0.7),rgba(0,0,0,0.7)),
     url(${bgImg})`, backgroundRepeat: 'no-repeat', backgroundSize: '100% 100%'}}>
-        <h1 className="hero_head">Semi-Conductor Devices</h1>
+        {/* <h1 className="hero_head">Semi-Conductor Devices</h1> */}
+        {
+                acor.length !== 0 ? <h1> <span style={{ fontSize: '80px', fontFamily: 'Poppins' }}>
+                  {acor[0].name.toUpperCase()}
+                </span></h1> : ""
+              }
     </div>
     
     <div className="containers">

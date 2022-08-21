@@ -1012,6 +1012,1394 @@ export const ELEESA=[
     },
 ]
 
+export const BMESS=[
+    {
+        ID:"biomedical",
+        id:"cellbiology",
+        name:"Cell Biology",
+        code:"BME 161",
+        year: 1,
+        semester:1
+    }, 
+    {
+        ID:"biomedical",
+        id:"engineeringtechnology",
+        name:"Engineering Technology",
+        code:"COE 153",
+        year: 1,
+        semester:1
+    }, 
+    {
+        ID:"biomedical",
+        id:"appliedelectricity",
+        name:"Applied Electricity",
+        code:"EE 151",
+        year: 1,
+        semester:1
+    }, 
+    {
+        ID:"biomedical",
+        id:"communicationskillsI",
+        name:"Communication Skills",
+        code:"ENGL 157",
+        year: 1,
+        semester:1
+    }, 
+    {
+        ID:"biomedical",
+        id:"algebra",
+        name:"Algebra",
+        code:"MATH 151",
+        year: 1,
+        semester:1
+    }, 
+    {
+        ID:"biomedical",
+        id:"technicaldrawing",
+        name:"Technical Drawing",
+        code:"ME 159",
+        year: 1,
+        semester:1
+    }, 
+    {
+        ID:"biomedical",
+        id:"basicmechanics",
+        name:"Basic Mechanics",
+        code:"ME 161",
+        year: 1,
+        semester:1
+    }, 
+    {
+        ID:"biomedical",
+        id:"introductiontoethicsandmorality",
+        name:"Introductio to Ethics and Morality",
+        code:"ETIC 161",
+        year: 1,
+        semester:1
+    }, 
+    {
+        ID:"biomedical",
+        id:"basicelectronics",
+        name:"Basic Electronics",
+        code:"COE 152",
+        year: 1,
+        semester:2
+    }, 
+    {
+        ID:"biomedical",
+        id:"introductiontoinformationtechnology",
+        name:"Information to Information Technology",
+        code:"COE 158",
+        year: 1,
+        semester:2
+    }, 
+    {
+        ID:"biomedical",
+        id:"electricalengineeringdrawing",
+        name:"Electical E ngineering Drawing",
+        code:"EE 156",
+        year: 1,
+        semester:2
+    }, 
+    {
+        ID:"biomedical",
+        id:"communicationskillsII",
+        name:"Communication Skills",
+        code:"ENGL 158",
+        year: 1,
+        semester:2
+    }, 
+    {
+        ID:"biomedical",
+        id:"calculuswithanalysis",
+        name:"Calculus with Analysis",
+        code:"MATH 152",
+        year: 1,
+        semester:2
+    }, 
+    {
+        ID:"biomedical",
+        id:"propertiesofmatter",
+        name:"Properties of Matter",
+        code:"PHY 154",
+        year: 1,
+        semester:2
+    }, 
+    {
+        ID:"biomedical",
+        id:"introductiontosociology",
+        name:"Introduction to Sociology",
+        code:"SOC 152",
+        year: 1,
+        semester:2
+    }, 
+    {
+        ID:"biomedical",
+        id:"biochemistry",
+        name:"Biochemistry",
+        code:"SSN 166",
+        year: 1,
+        semester:2
+    }, 
+    {
+        ID:"biomedical",
+        id:"biomedicalengineeringdesign",
+        name:"Biomedical Engineering Design",
+        code:"BME 251",
+        year: 2,
+        semester:1
+    }, 
+    {
+        ID:"biomedical",
+        id:"cprogramming",
+        name:"C Programming",
+        code:"BME 253",
+        year: 2,
+        semester:1
+    }, 
+    {
+        ID:"biomedical",
+        id:"anatomyandphysiologyforengineersI",
+        name:"Anatomy and Physiology for Engineers I",
+        code:"BME 285",
+        year: 2,
+        semester:1
+    }, 
+    {
+        ID:"biomedical",
+        id:"engineeringinsociety",
+        name:"Engineering in Society",
+        code:"CENG 291",
+        year: 2,
+        semester:1
+    }, 
+    {
+        ID:"biomedical",
+        id:"semiconductordevices",
+        name:"Semiconductor Devices",
+        code:"COE 271",
+        year: 2,
+        semester:1
+    }, 
+    {
+        ID:"biomedical",
+        id:"literatureinenglishI",
+        name:"Literature in English I",
+        code:"ENGL 263",
+        year: 2,
+        semester:1
+    }, 
+    {
+        ID:"biomedical",
+        id:"differentialequations",
+        name:"Differential Equations",
+        code:"MATH 251",
+        year: 2,
+        semester:1
+    }, 
+    {
+        ID:"biomedical",
+        id:"frenchforcommunicationpurposesI",
+        name:"French for Communication Purposes I",
+        code:"FC 181",
+        year: 2,
+        semester:1
+    }, 
+    {
+        ID:"biomedical",
+        id:"calculuswithseveralvariables",
+        name:"Calculus with Several Variables",
+        code:"MATH 252",
+        year: 2,
+        semester:2
+    }, 
+    {
+        ID:"biomedical",
+        id:"digitalsystems",
+        name:"Digital Systems",
+        code:"COE 272",
+        year: 2,
+        semester:2
+    }, 
+    {
+        ID:"biomedical",
+        id:"biomedicalengineeringdesignII",
+        name:"Biomedical Engineering Design II",
+        code:"BME 252",
+        year: 2,
+        semester:2
+    }, 
+    {
+        ID:"biomedical",
+        id:"chemicalpathology",
+        name:"Chemical Pathology",
+        code:"BME 288",
+        year: 2,
+        semester:2
+    }, 
+    {
+        ID:"biomedical",
+        id:"frenchforcommunicationII",
+        name:"French for Communication II",
+        code:"",
+        year: 2,
+        semester:2
+    }, 
+    {
+        ID:"biomedical",
+        id:"literatureinenglishII",
+        name:"Literature in English II",
+        code:"ENGL 264",
+        year: 2,
+        semester:2
+    }, 
+    {
+        ID:"biomedical",
+        id:"anatomyandphysiologyforengineersII",
+        name:"Anatomy and Physiology for Engineers II",
+        code:"BME 286",
+        year: 2,
+        semester:2
+    }, 
+    {
+        ID:"biomedical",
+        id:"linearelectroniccircuits",
+        name:"Linear Electronic Circuits",
+        code:"COE 371",
+        year: 3,
+        semester:1
+    }, 
+    {
+        ID:"biomedical",
+        id:"signalsandsystems",
+        name:"Signals and Systems",
+        code:"TE 385",
+        year: 3,
+        semester:1
+    }, 
+    {
+        ID:"biomedical",
+        id:"probabiltyandstatics",
+        name:"Probabilty and Statics",
+        code:"MATH 353",
+        year: 3,
+        semester:1
+    }, 
+    {
+        ID:"biomedical",
+        id:"numericalmethods",
+        name:"Numerical Methods",
+        code:"MATH 351",
+        year: 3,
+        semester:1
+    }, 
+    {
+        ID:"biomedical",
+        id:"microprocessors",
+        name:"Microprocessors",
+        code:"COE 381",
+        year: 3,
+        semester:1
+    }, 
+    {
+        ID:"biomedical",
+        id:"researchmethods",
+        name:"Research Methods",
+        code:"BME 397",
+        year: 3,
+        semester:1
+    }, 
+    {
+        ID:"biomedical",
+        id:"objectorientedprogramming",
+        name:"Object Oriented Programming",
+        code:"COE 351",
+        year: 3,
+        semester:1
+    }, 
+    {
+        ID:"biomedical",
+        id:"biomedicaloptics",
+        name:"Biomedical Optics",
+        code:"BME 374",
+        year: 3,
+        semester:2
+    }, 
+    {
+        ID:"biomedical",
+        id:"biomaterials I",
+        name:"Biomaterials I",
+        code:"BME 362",
+        year: 3,
+        semester:2
+    }, 
+    {
+        ID:"biomedical",
+        id:"bioinstrumentationI",
+        name:"Bioinstrumentation I",
+        code:"BME 372",
+        year: 3,
+        semester:2
+    }, 
+    {
+        ID:"biomedical",
+        id:"biosignalprocessesandanalysis",
+        name:"Biosignal Processes and Analysis ",
+        code:"BME 366",
+        year: 3,
+        semester:2
+    }, 
+    {
+        ID:"biomedical",
+        id:"embeddedsystems",
+        name:"Embedded Systems",
+        code:"COE 358",
+        year: 3,
+        semester:2
+    }, 
+    {
+        ID:"biomedical",
+        id:"medicalimagingI",
+        name:"Medical Imaging I",
+        code:"BME 364",
+        year: 3,
+        semester:2
+    }, 
+    {
+        ID:"biomedical",
+        id:"projectI",
+        name:"Project I",
+        code:"BME 497",
+        year: 4,
+        semester:1
+    }, 
+    {
+        ID:"biomedical",
+        id:"biomaterialsII",
+        name:"Biomaterials II",
+        code:"BME 463",
+        year: 4,
+        semester:1
+    }, 
+    {
+        ID:"biomedical",
+        id:"bioinstrumentationII",
+        name:"Bioinstrumentation II",
+        code:"BME 471",
+        year: 4,
+        semester:1
+    }, 
+    {
+        ID:"biomedical",
+        id:"vacationtraining",
+        name:"Vacation Training",
+        code:"BME 499",
+        year: 4,
+        semester:1
+    }, 
+    {
+        ID:"biomedical",
+        id:"engineeringeconomicsandmanagement",
+        name:"Engineering Economics and Management",
+        code:"ME 491",
+        year: 4,
+        semester:1
+    }, 
+    {
+        ID:"biomedical",
+        id:"biomechanicsI",
+        name:"Biomechanics I",
+        code:"BME 461",
+        year: 4,
+        semester:1
+    }, 
+    {
+        ID:"biomedical",
+        id:"medicalimagingII",
+        name:"Medical Imaging II",
+        code:"BME 451",
+        year: 4,
+        semester:1
+    }, 
+    {
+        ID:"biomedical",
+        id:"biomechanicsII",
+        name:"Biomechanics II",
+        code:"BME 462",
+        year: 4,
+        semester:2
+    }, 
+    {
+        ID:"biomedical",
+        id:"medicaldeviceregulation",
+        name:"Medical Device Regulation",
+        code:"BME 454",
+        year: 4,
+        semester:2
+    }, 
+    {
+        ID:"biomedical",
+        id:"projectII",
+        name:"Project II",
+        code:"BME 498",
+        year: 4,
+        semester:2
+    }, 
+    {
+        ID:"biomedical",
+        id:"entrepreneurshipdevelopment",
+        name:"Entrepreneurship Development",
+        code:"ME 492",
+        year: 4,
+        semester:2
+    }, 
+    {
+        ID:"biomedical",
+        id:"digitalpignalprocessing",
+        name:"Digital Signal Processing",
+        code:"COE 472",
+        year: 4,
+        semester:2
+    }, 
+]
 
-
-
+export const GMESS= [
+    {
+        ID:"geomatic",
+        id:"communicationskillsI",
+        name:"Communication Skills I",
+        code:"ENGL 157",
+        year: 1,
+        semester:1
+    }, 
+    {
+        ID:"geomatic",
+        id:"cartographyI",
+        name:"Cartography I",
+        code:"GE 151",
+        year: 1,
+        semester:1
+    }, 
+    {
+        ID:"geomatic",
+        id:"basicsurveyprinciplesI",
+        name:"Basic Survey Principles I",
+        code:"GE 161",
+        year: 1,
+        semester:1
+    }, 
+    {
+        ID:"geomatic",
+        id:"appliedoPtics",
+        name:"Applied OPtics",
+        code:"GE 171",
+        year: 1,
+        semester:1
+    }, 
+    {
+        ID:"geomatic",
+        id:"algebra",
+        name:"Algebra",
+        code:"MATH 151",
+        year: 1,
+        semester:1
+    }, 
+    {
+        ID:"geomatic",
+        id:"technicaldrawing",
+        name:"Technical Drawing",
+        code:"ME 159",
+        year: 1,
+        semester:1
+    }, 
+    {
+        ID:"geomatic",
+        id:"basicmechanics",
+        name:"Basic Mechanics",
+        code:"ME 161",
+        year: 1,
+        semester:1
+    }, 
+    {
+        ID:"geomatic",
+        id:"introductiontoethicsandmorality",
+        name:"Introduction to Ethics and Morality",
+        code:"ETIC 161",
+        year: 1,
+        semester:1
+    }, 
+    {
+        ID:"geomatic",
+        id:"practicaltaskI",
+        name:"Practical Task I",
+        code:"GE 192",
+        year: 1,
+        semester:2
+    }, 
+    {
+        ID:"geomatic",
+        id:"calculuswithseveralvariables",
+        name:"Calculus with Several Variables",
+        code:"MATH 152",
+        year: 1,
+        semester:2
+    }, 
+    {
+        ID:"geomatic",
+        id:"basicelectronics",
+        name:"Basic Electronics",
+        code:"EE 152",
+        year: 1,
+        semester:2
+    }, 
+    {
+        ID:"geomatic",
+        id:"communicationskillsII",
+        name:"Communication Skills II",
+        code:"ENGL 158",
+        year: 1,
+        semester:2
+    }, 
+    {
+        ID:"geomatic",
+        id:"cartographyII",
+        name:"Cartography II",
+        code:"GE 152",
+        year: 1,
+        semester:2
+    }, 
+    {
+        ID:"geomatic",
+        id:"introductiontoinformationtechnology",
+        name:"Introduction to Information Technology",
+        code:"GE 158",
+        year: 1,
+        semester:2
+    }, 
+    {
+        ID:"geomatic",
+        id:"basicsurveyprinciplesII",
+        name:"Basic Survey Principles II",
+        code:"GE 162",
+        year: 1,
+        semester:2
+    }, 
+    {
+        ID:"geomatic",
+        id:"engineeringinsociety",
+        name:"Engineering in Society",
+        code:"CENG 291",
+        year: 2,
+        semester:1
+    }, 
+    {
+        ID:"geomatic",
+        id:"literatureinenglishI",
+        name:"Literature in English I",
+        code:"ENGL 263",
+        year: 2,
+        semester:1
+    }, 
+    {
+        ID:"geomatic",
+        id:"principlesofphotogrammetry",
+        name:"Principles of Photogrammetry",
+        code:"GE 251",
+        year: 2,
+        semester:1
+    }, 
+    {
+        ID:"geomatic",
+        id:"fieldandgeodeticastronomy",
+        name:"Field and Geodetic Astronomy",
+        code:"GE 261",
+        year: 2,
+        semester:1
+    }, 
+    {
+        ID:"geomatic",
+        id:"informationscienceandprogramming",
+        name:"Information Science and Programming",
+        code:"GE 263",
+        year: 2,
+        semester:1
+    }, 
+    {
+        ID:"geomatic",
+        id:"engineeringsurveying",
+        name:"Engineering Surveying",
+        code:"GE 271",
+        year: 2,
+        semester:1
+    }, 
+    {
+        ID:"geomatic",
+        id:"basicphysicalgeodesy",
+        name:"Basic Physical Geodesy",
+        code:"GE 281",
+        year: 2,
+        semester:1
+    }, 
+    {
+        ID:"geomatic",
+        id:"differentialequations",
+        name:"Differential Equations",
+        code:"MATH 251",
+        year: 2,
+        semester:1
+    }, 
+    {
+        ID:"geomatic",
+        id:"soilandrockmechanics",
+        name:"Soil and Rock Mechanics",
+        code:"CE 260",
+        year: 2,
+        semester:2
+    }, 
+    {
+        ID:"geomatic",
+        id:"literatureinenglishII",
+        name:"Literature in English II",
+        code:"ENGL 264",
+        year: 2,
+        semester:2
+    }, 
+    {
+        ID:"geomatic",
+        id:"principlesofremotesensing",
+        name:"Principles of Remote Sensing",
+        code:"GE 262",
+        year: 2,
+        semester:2
+    }, 
+    {
+        ID:"geomatic",
+        id:"engineeringsurveyII",
+        name:"Engineering Survey II",
+        code:"GE 272",
+        year: 2,
+        semester:2
+    }, 
+    {
+        ID:"geomatic",
+        id:"practicaltaskII",
+        name:"Practical Task II",
+        code:"GE 292",
+        year: 2,
+        semester:2
+    }, 
+    {
+        ID:"geomatic",
+        id:"hydrographicsurveyandmarinescience",
+        name:"Hydrographic Survey and Marine Science",
+        code:"GE 284",
+        year: 2,
+        semester:2
+    }, 
+    
+    {
+        ID:"geomatic",
+        id:"calculuswithseveralvariables",
+        name:"Calculus with Several Variables",
+        code:"MATH 252",
+        year: 2,
+        semester:2
+    }, 
+    {
+        ID:"geomatic",
+        id:"highwayandtransportationengineeringI",
+        name:"Highway and Transportation Engineering I",
+        code:"CE 367",
+        year: 3,
+        semester:1
+    }, 
+    {
+        ID:"geomatic",
+        id:"geometricalgeodesy",
+        name:"Geometrical Geodesy",
+        code:"GE 353",
+        year: 3,
+        semester:1
+    }, 
+    {
+        ID:"geomatic",
+        id:"surveyadjustmentI",
+        name:"Survey Adjustment I",
+        code:"GE 371",
+        year: 3,
+        semester:1
+    }, 
+    {
+        ID:"geomatic",
+        id:"stereophotogrammetry",
+        name:"Stereo Photogrammetry",
+        code:"GE 351",
+        year: 3,
+        semester:1
+    }, 
+    {
+        ID:"geomatic",
+        id:"imageprocessingandinterpretation",
+        name:"Image Processing and Interpretation",
+        code:"GE 361",
+        year: 3,
+        semester:1
+    }, 
+    {
+        ID:"geomatic",
+        id:"probabilityandstatistics",
+        name:"Probability and Statistics",
+        code:"STAT 253",
+        year: 3,
+        semester:1
+    }, 
+    {
+        ID:"geomatic",
+        id:"frenchforCommunicationI",
+        name:"French for Communication I",
+        code:"FC 181",
+        year: 3,
+        semester:1
+    }, 
+    {
+        ID:"geomatic",
+        id:"accountingII",
+        name:"Accounting II",
+        code:"CSM 158",
+        year: 3,
+        semester:2
+    }, 
+    {
+        ID:"geomatic",
+        id:"satellitegeodesy",
+        name:"Satellite Geodesy",
+        code:"GE 354",
+        year: 3,
+        semester:2
+    }, 
+    {
+        ID:"geomatic",
+        id:"principlesofgis",
+        name:"Principles of GIS",
+        code:"GE 362",
+        year: 3,
+        semester:2
+    }, 
+    {
+        ID:"geomatic",
+        id:"analysisoferrors",
+        name:"Analysis of Errors",
+        code:"GE 372",
+        year: 3,
+        semester:2
+    }, 
+    {
+        ID:"geomatic",
+        id:"transportationandhighwayII",
+        name:"Transportation and Highway II",
+        code:"CE 368",
+        year: 3,
+        semester:2
+    }, 
+    {
+        ID:"geomatic",
+        id:"practicaltaskIII",
+        name:"Practical Task III",
+        code:"GE 392",
+        year: 3,
+        semester:2
+    }, 
+    {
+        ID:"geomatic",
+        id:"planningandphysicalenvironment",
+        name:"Planning and Physical Environment",
+        code:"PL 251/2",
+        year: 3,
+        semester:2
+    }, 
+    {
+        ID:"geomatic",
+        id:"",
+        name:"",
+        code:"",
+        year: 3,
+        semester:1
+    }, 
+    {
+        ID:"geomatic",
+        id:"",
+        name:"",
+        code:"",
+        year: 3,
+        semester:1
+    }, 
+    {
+        ID:"geomatic",
+        id:"",
+        name:"",
+        code:"",
+        year: 3,
+        semester:1
+    }, 
+    {
+        ID:"geomatic",
+        id:"",
+        name:"",
+        code:"",
+        year: 3,
+        semester:1
+    }, 
+    {
+        ID:"geomatic",
+        id:"",
+        name:"",
+        code:"",
+        year: 3,
+        semester:1
+    }, 
+    {
+        ID:"geomatic",
+        id:"",
+        name:"",
+        code:"",
+        year: 3,
+        semester:1
+    }, 
+    {
+        ID:"geomatic",
+        id:"",
+        name:"",
+        code:"",
+        year: 3,
+        semester:1
+    }, 
+    {
+        ID:"geomatic",
+        id:"",
+        name:"",
+        code:"",
+        year: 3,
+        semester:1
+    }, 
+    {
+        ID:"geomatic",
+        id:"",
+        name:"",
+        code:"",
+        year: 3,
+        semester:1
+    }, 
+    {
+        ID:"geomatic",
+        id:"",
+        name:"",
+        code:"",
+        year: 3,
+        semester:1
+    }, 
+    {
+        ID:"geomatic",
+        id:"",
+        name:"",
+        code:"",
+        year: 3,
+        semester:1
+    }, 
+    {
+        ID:"geomatic",
+        id:"",
+        name:"",
+        code:"",
+        year: 3,
+        semester:1
+    }, 
+    {
+        ID:"geomatic",
+        id:"",
+        name:"",
+        code:"",
+        year: 3,
+        semester:1
+    }, 
+    {
+        ID:"geomatic",
+        id:"",
+        name:"",
+        code:"",
+        year: 3,
+        semester:1
+    }, 
+    {
+        ID:"geomatic",
+        id:"",
+        name:"",
+        code:"",
+        year: 3,
+        semester:1
+    }, 
+    {
+        ID:"geomatic",
+        id:"",
+        name:"",
+        code:"",
+        year: 3,
+        semester:1
+    }, 
+    {
+        ID:"geomatic",
+        id:"",
+        name:"",
+        code:"",
+        year: 3,
+        semester:1
+    }, 
+    {
+        ID:"geomatic",
+        id:"",
+        name:"",
+        code:"",
+        year: 3,
+        semester:1
+    }, 
+]
+export const GESS=[
+    {
+        ID:"geological",
+        id:"elementarystructures",
+        name:"Elementary Structures",
+        code:"CE 151",
+        year: 1,
+        semester:1
+    }, 
+    {
+        ID:"geological",
+        id:"introductiontoeconomicsI",
+        name:"Introduction to Economics I",
+        code:"ECON 151",
+        year: 1,
+        semester:1
+    }, 
+    {
+        ID:"geological",
+        id:"basicgeology",
+        name:"Basic Geology",
+        code:"GED 151",
+        year: 1,
+        semester:1
+    }, 
+    {
+        ID:"geological",
+        id:"communicationskillsI",
+        name:"Communication Skills I",
+        code:"ENGL 157",
+        year: 1,
+        semester:1
+    }, 
+    {
+        ID:"geological",
+        id:"engineeringtechnology",
+        name:"Engineering Technology",
+        code:"GED 153",
+        year: 1,
+        semester:1
+    }, 
+    {
+        ID:"geological",
+        id:"algebra",
+        name:"Algebra",
+        code:"MATH 151",
+        year: 1,
+        semester:1
+    }, 
+    {
+        ID:"geological",
+        id:"technicaldrawing",
+        name:"Technical Drawing",
+        code:"ME 151",
+        year: 1,
+        semester:1
+    }, 
+    {
+        ID:"geological",
+        id:"basicmechanics",
+        name:"Basic Mechanics",
+        code:"ME 161",
+        year: 1,
+        semester:1
+    }, 
+    {
+        ID:"geological",
+        id:"",
+        name:"",
+        code:"",
+        year: 1,
+        semester:2
+    }, 
+    {
+        ID:"geological",
+        id:"",
+        name:"",
+        code:"",
+        year: 1,
+        semester:2
+    }, 
+    {
+        ID:"geological",
+        id:"",
+        name:"",
+        code:"",
+        year: 1,
+        semester:2
+    }, 
+    {
+        ID:"geological",
+        id:"",
+        name:"",
+        code:"",
+        year: 1,
+        semester:1
+    }, 
+    {
+        ID:"geological",
+        id:"",
+        name:"",
+        code:"",
+        year: 1,
+        semester:1
+    }, 
+    {
+        ID:"geological",
+        id:"",
+        name:"",
+        code:"",
+        year: 1,
+        semester:1
+    }, 
+    {
+        ID:"geological",
+        id:"",
+        name:"",
+        code:"",
+        year: 1,
+        semester:1
+    }, 
+    {
+        ID:"geological",
+        id:"",
+        name:"",
+        code:"",
+        year: 1,
+        semester:1
+    }, 
+    {
+        ID:"geological",
+        id:"",
+        name:"",
+        code:"",
+        year: 1,
+        semester:1
+    }, 
+    {
+        ID:"geological",
+        id:"theoryofstructures",
+        name:"Theory of Structures",
+        code:"CE 255",
+        year: 2,
+        semester:1
+    }, 
+    {
+        ID:"geological",
+        id:"strenghtofmaterials",
+        name:"Strenght of Materials",
+        code:"CE 251",
+        year: 2,
+        semester:1
+    }, 
+    {
+        ID:"geological",
+        id:"physicalgeology",
+        name:"Physical Geology",
+        code:"GED 253",
+        year: 2,
+        semester:1
+    }, 
+    {
+        ID:"geological",
+        id:"mineralogy",
+        name:"Mineralogy",
+        code:"GED 251",
+        year: 2,
+        semester:1
+    }, 
+    {
+        ID:"geological",
+        id:"computerprogramming",
+        name:"Computer Programming",
+        code:"GED 267",
+        year: 2,
+        semester:1
+    }, 
+    {
+        ID:"geological",
+        id:"differentialequations",
+        name:"Differential Equations",
+        code:"MATH 251",
+        year: 2,
+        semester:1
+    }, 
+    {
+        ID:"geological",
+        id:"engineeringinsociety",
+        name:"Engineering in Society",
+        code:"CENG 291",
+        year: 2,
+        semester:1
+    }, 
+    {
+        ID:"geological",
+        id:"fluidmechanics",
+        name:"Fluid Mechanics",
+        code:"CE 256",
+        year: 2,
+        semester:2
+    }, 
+    {
+        ID:"geological",
+        id:"largescalesurveying",
+        name:"Large Scale Surveying",
+        code:"GE 282",
+        year: 2,
+        semester:2
+    },  {
+        ID:"geological",
+        id:"stratigraphy",
+        name:"Stratigraphy",
+        code:"GEED 252",
+        year: 2,
+        semester:2
+    }, 
+    {
+        ID:"geological",
+        id:"rockengineering",
+        name:"Rock Engineering",
+        code:"GED 254",
+        year: 2,
+        semester:2
+    }, 
+    {
+        ID:"geological",
+        id:"opticalmineralogy",
+        name:"Optical Mineralogy",
+        code:"GED 258",
+        year: 2,
+        semester:2
+    }, 
+    {
+        ID:"geological",
+        id:"introductiontosoilmechanics",
+        name:"Introduction to Soil Mechanics",
+        code:"GED 258",
+        year: 2,
+        semester:2
+    }, 
+    {
+        ID:"geological",
+        id:"analysis",
+        name:"Analysis",
+        code:"MATH 252",
+        year: 2,
+        semester:2
+    }, 
+    {
+        ID:"geological",
+        id:"soilmechanics",
+        name:"Soil Mechanics",
+        code:"CE 359",
+        year: 3,
+        semester:1
+    }, 
+    {
+        ID:"geological",
+        id:"petrology",
+        name:"Petrology",
+        code:"GED 351",
+        year: 3,
+        semester:1
+    }, 
+    {
+        ID:"geological",
+        id:"basichydrology",
+        name:"Basic Hydrology",
+        code:"GED 357",
+        year: 3,
+        semester:1
+    }, 
+    {
+        ID:"geological",
+        id:"geologicalfieldmapping",
+        name:"Geological Field Mapping",
+        code:"GED 365",
+        year: 3,
+        semester:1
+    }, 
+    {
+        ID:"geological",
+        id:"photogeologyandremotesensing",
+        name:"Photogeology and Remote Sensing",
+        code:"GED 369",
+        year: 3,
+        semester:1
+    }, 
+    {
+        ID:"geological",
+        id:"principlesofengineeringgeology",
+        name:"Principles of Engineering Geology",
+        code:"GED 375",
+        year: 3,
+        semester:1
+    }, 
+    {
+        ID:"geological",
+        id:"numericalanalysis",
+        name:"Numerical Analysis",
+        code:"MATH 351",
+        year: 3,
+        semester:1
+    }, 
+    {
+        ID:"geological",
+        id:"probabilityandstatistics",
+        name:"Probability and Statistics",
+        code:"MATH 353",
+        year: 3,
+        semester:1
+    }, 
+    {
+        ID:"geological",
+        id:"foundationengineering",
+        name:"Foundation Engineering",
+        code:"CE 360",
+        year: 3,
+        semester:2
+    }, 
+    {
+        ID:"geological",
+        id:"miningprinciples",
+        name:"Mining Principles",
+        code:"GED 342",
+        year: 3,
+        semester:2
+    }, 
+    {
+        ID:"geological",
+        id:"principlesofgeochemistry",
+        name:"Principles of Geochemistry",
+        code:"GED 352",
+        year: 3,
+        semester:2
+    }, 
+    {
+        ID:"geological",
+        id:"principlesofgeophysics",
+        name:"Principles of Geophysics",
+        code:"GED 354",
+        year: 3,
+        semester:2
+    }, 
+    {
+        ID:"geological",
+        id:"structuralgeology",
+        name:"Structural Geology",
+        code:"GED 364",
+        year: 3,
+        semester:2
+    }, 
+    {
+        ID:"geological",
+        id:"mineraleconomicsandevaluation",
+        name:"Mineral Economics and Evaluation",
+        code:"GED 366",
+        year: 3,
+        semester:2
+    }, 
+    {
+        ID:"geological",
+        id:"gisapplications",
+        name:"GIS Applications",
+        code:"GED 368",
+        year: 3,
+        semester:2
+    }, 
+    {
+        ID:"geological",
+        id:"",
+        name:"",
+        code:"",
+        year: 1,
+        semester:1
+    }, 
+    {
+        ID:"geological",
+        id:"",
+        name:"",
+        code:"",
+        year: 1,
+        semester:1
+    }, 
+    {
+        ID:"geological",
+        id:"",
+        name:"",
+        code:"",
+        year: 1,
+        semester:1
+    }, 
+    {
+        ID:"geological",
+        id:"",
+        name:"",
+        code:"",
+        year: 1,
+        semester:1
+    }, 
+    {
+        ID:"geological",
+        id:"",
+        name:"",
+        code:"",
+        year: 1,
+        semester:1
+    }, 
+    {
+        ID:"geological",
+        id:"",
+        name:"",
+        code:"",
+        year: 1,
+        semester:1
+    }, 
+    {
+        ID:"geological",
+        id:"",
+        name:"",
+        code:"",
+        year: 1,
+        semester:1
+    }, 
+    {
+        ID:"geological",
+        id:"",
+        name:"",
+        code:"",
+        year: 1,
+        semester:1
+    }, 
+    {
+        ID:"geological",
+        id:"",
+        name:"",
+        code:"",
+        year: 1,
+        semester:1
+    }, 
+]

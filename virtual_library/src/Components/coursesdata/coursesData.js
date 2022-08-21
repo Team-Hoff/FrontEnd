@@ -1527,7 +1527,7 @@ export const TELECOM = [
 
 export const PETROCHEM = [
     {
-        ID:"petrochem",
+        ID:"petrochemical",
         id:"inorganicchemistryforengineers",
         name:"Inorganic Chemistry for Engineers",
         code:"CHE 151",
@@ -1536,7 +1536,7 @@ export const PETROCHEM = [
 
     },
     {
-        ID:"petrochem",
+        ID:"petrochemical",
         id:"organicchemistryforengineers",
         name:"Organic Chemistry for Engineers",
         code:"CHE 153",
@@ -1545,7 +1545,7 @@ export const PETROCHEM = [
 
     },
     {
-        ID:"petrochem",
+        ID:"petrochemical",
         id:"chemistrypracticalI",
         name:"chemistry Practical I",
         code:"CHEM 179",
@@ -1554,7 +1554,7 @@ export const PETROCHEM = [
 
     },
     {
-        ID:"petrochem",
+        ID:"petrochemical",
         id:"appliedelectricity",
         name:"Applied Electricity",
         code:"EE 151",
@@ -1563,7 +1563,7 @@ export const PETROCHEM = [
 
     },
     {
-        ID:"petrochem",
+        ID:"petrochemical",
         id:"communicationkillsI",
         name:"Communications Skills I",
         code:"ENGL 157",
@@ -1572,7 +1572,7 @@ export const PETROCHEM = [
 
     },
     {
-        ID:"petrochem",
+        ID:"petrochemical",
         id:"algebra",
         name:"Algebra",
         code:"MATH 151",
@@ -1581,7 +1581,7 @@ export const PETROCHEM = [
 
     },
     {
-        ID:"petrochem",
+        ID:"petrochemical",
         id:"technicaldrawing",
         name:"Tehnical Drawing",
         code:"ME 159",
@@ -1590,7 +1590,7 @@ export const PETROCHEM = [
 
     },
     {
-        ID:"petrochem",
+        ID:"petrochemical",
         id:"physicalchemistryforengineers",
         name:"Physical Chemistry for Engineers",
         code:"CHE 156",
@@ -1599,7 +1599,7 @@ export const PETROCHEM = [
 
     },
     {
-        ID:"petrochem",
+        ID:"petrochemical",
         id:"basicelectronics",
         name:"Basic electronics",
         code:"EE 152",
@@ -1608,7 +1608,7 @@ export const PETROCHEM = [
 
     },
     {
-        ID:"petrochem",
+        ID:"petrochemical",
         id:"communicationskillsII",
         name:"Communication Skills II",
         code:"ENGL 158",
@@ -1617,7 +1617,7 @@ export const PETROCHEM = [
 
     },
     {
-        ID:"petrochem",
+        ID:"petrochemical",
         id:"calculuswithanalysis",
         name:"Calculus with Analysis",
         code:"MATH 152",
@@ -1626,7 +1626,7 @@ export const PETROCHEM = [
 
     },
     {
-        ID:"petrochem",
+        ID:"petrochemial",
         id:"basicmechanics",
         name:"Basic Mechanics",
         code:"ME 162",
@@ -1635,7 +1635,7 @@ export const PETROCHEM = [
 
     },
     {
-        ID:"petrochem",
+        ID:"petrochemial",
         id:"introductiontoinformationtechnology",
         name:"Introduction to Information Technology",
         code:"COE 158",
@@ -1644,7 +1644,7 @@ export const PETROCHEM = [
 
     },
     {
-        ID:"petrochem",
+        ID:"petrochemial",
         id:"generalphysics",
         name:"General Physics",
         code:"PHY 170",
@@ -1653,7 +1653,7 @@ export const PETROCHEM = [
 
     },
     {
-        ID:"petrochem",
+        ID:"petrochemical",
         id:"engineeringinsociety",
         name:"Engineering in Society",
         code:"CENG 291",
@@ -1662,7 +1662,7 @@ export const PETROCHEM = [
 
     },
     {
-        ID:"petrochem",
+        ID:"petrochemical",
         id:"chemicalprocesscalculationI",
         name:"Chemical Process Calculation I",
         code:"CHE 251",
@@ -1671,7 +1671,7 @@ export const PETROCHEM = [
 
     },
     {
-        ID:"petrochem",
+        ID:"petrochemical",
         id:"chemicalengineeringthermodynamicI",
         name:"Chemical Engineering Thermodynamic I",
         code:"CHE 253",
@@ -1680,7 +1680,7 @@ export const PETROCHEM = [
 
     },
     {
-        ID:"petrochem",
+        ID:"petrochemical",
         id:"fluidtransport",
         name:"Fluid Transport",
         code:"CHE 255",
@@ -1689,7 +1689,7 @@ export const PETROCHEM = [
 
     },
     {
-        ID:"petrochem",
+        ID:"petrochemical",
         id:"analyticalchemistryforengineers",
         name:"Analytical Chemistry for Engineers",
         code:" CHE 257",
@@ -1698,7 +1698,7 @@ export const PETROCHEM = [
 
     },
     {
-        ID:"petrochem",
+        ID:"petrochemical",
         id:"computerapplicationsforengineers",
         name:"Computer Applications for Engineers",
         code:"CHE 261",
@@ -1707,7 +1707,7 @@ export const PETROCHEM = [
 
     },
     {
-        ID:"petrochem",
+        ID:"petrochemical",
         id:"differntialequations",
         name:"Differential Equations",
         code:"MATH 251",
@@ -1716,7 +1716,7 @@ export const PETROCHEM = [
 
     },
     {
-        ID:"petrochem",
+        ID:"petrochemical",
         id:"introductiontopetrochemicalindustries",
         name:"Introduction to Petrochemical Indutries",
         code:"PCE 253",
@@ -1725,7 +1725,7 @@ export const PETROCHEM = [
 
     },
     {
-        ID:"petrochem",
+        ID:"petrochemical",
         id:"strengthofmaterialsforchem.engineers",
         name:"Strength of Materials for Chem. Engineers  ",
         code:"CHE 250",
@@ -1752,7 +1752,7 @@ export const PETROCHEM = [
 
     },
     {
-        ID:"petrochem",
+        ID:"petrochemical",
         id:"heattransportprocesses",
         name:"Heat Transport Processes",
         code:"CHE 256",
@@ -1761,7 +1761,7 @@ export const PETROCHEM = [
 
     },
     {
-        ID:"petrochem",
+        ID:"petrochemical",
         id:"drawingforengineers",
         name:"Drawing for Engineers",
         code:"CHE 258",
@@ -1770,7 +1770,7 @@ export const PETROCHEM = [
 
     },
     {
-        ID:"petrochem",
+        ID:"petrochemical",
         id:"chemistrypracticalII",
         name:"Chemistry Practical II",
         code:"CHEM 280",
@@ -1779,7 +1779,7 @@ export const PETROCHEM = [
 
     },
     {
-        ID:"petrochem",
+        ID:"petrochemical",
         id:"calculuswithseveralvariables",
         name:"Calculus with Several Variables",
         code:"MATH 252",
@@ -1788,7 +1788,7 @@ export const PETROCHEM = [
 
     },
     {
-        ID:"petrochem",
+        ID:"petrochemical",
         id:"expeimentaldataanalysis",
         name:"Experimental Data Analysis",
         code:"CHE 357",
@@ -1797,7 +1797,7 @@ export const PETROCHEM = [
 
     },
     {
-        ID:"petrochem",
+        ID:"petrochemical",
         id:"separationprocessesI",
         name:"Separation Processes I",
         code:"PCE 351",
@@ -1806,7 +1806,7 @@ export const PETROCHEM = [
 
     },
     {
-        ID:"petrochem",
+        ID:"petrochemical",
         id:"petrochemicalengineeringlaboratoryI",
         name:"Petrochemical Engineering Laboratory I",
         code:"PCE 353",
@@ -1815,7 +1815,7 @@ export const PETROCHEM = [
 
     },
     {
-        ID:"petrochem",
+        ID:"petrochemical",
         id:"fireandsafetyengineering",
         name:"Fire and safety Engineering",
         code:"PCE 355",
@@ -1824,7 +1824,7 @@ export const PETROCHEM = [
 
     },
     {
-        ID:"petrochem",
+        ID:"petrochemical",
         id:"organicandpetrochemicalsynthesis",
         name:"Organic and Petrchemical Synthesis",
         code:"PCE 357",
@@ -1833,7 +1833,7 @@ export const PETROCHEM = [
 
     },
     {
-        ID:"petrochem",
+        ID:"petrochemical",
         id:"petrochemialfluidproperties",
         name:"Petrochemical Fluid Properties",
         code:"PCE 359",
@@ -1842,7 +1842,7 @@ export const PETROCHEM = [
 
     },
     {
-        ID:"petrochem",
+        ID:"petrochemical",
         id:"petrochemialeng.electiveoptionI",
         name:"Petrochemical Eng. elective Option I",
         code:"PCE xxx",
@@ -1851,7 +1851,7 @@ export const PETROCHEM = [
 
     },
     {
-        ID:"petrochem",
+        ID:"petrochemical",
         id:"generalelective",
         name:"General Elective",
         code:"XXX xxx",
@@ -1860,7 +1860,7 @@ export const PETROCHEM = [
 
     },
     {
-        ID:"petrochem",
+        ID:"petrochemical",
         id:"materialscience",
         name:"Material Science",
         code:"CHE 350",
@@ -1869,7 +1869,7 @@ export const PETROCHEM = [
 
     },
     {
-        ID:"petrochem",
+        ID:"petrochemical",
         id:"numericalmethodsforchem.engineers",
         name:"Numerical Methods for Chem. Engineers",
         code:"CHE 358",
@@ -1878,7 +1878,7 @@ export const PETROCHEM = [
 
     },
     {
-        ID:"petrochem",
+        ID:"petrochemical",
         id:"kineticsandreactionengineering",
         name:"Kinetics and Reaction Engineering",
         code:"PCE 350",
@@ -1887,7 +1887,7 @@ export const PETROCHEM = [
 
     },
     {
-        ID:"petrochem",
+        ID:"petrochemical",
         id:"separationprocessesII",
         name:"Separation Processes II",
         code:"PCE 352",
@@ -1905,7 +1905,7 @@ export const PETROCHEM = [
 
     },
     {
-        ID:"petrochem",
+        ID:"petrochemical",
         id:"petrochemicaleng.electiveoptionII",
         name:"Petrochemical Eng. Elective option II",
         code:"PCE xxx",
@@ -1915,7 +1915,7 @@ export const PETROCHEM = [
     },
 
     {
-        ID:"petrochem",
+        ID:"petrochemical",
         id:"petroleumprodutionengineering",
         name:"Petroleum Production Engineering",
         code:"PETE 354",
@@ -1923,7 +1923,7 @@ export const PETROCHEM = [
         semester:2
     },
     {
-    ID:"petrochem",
+    ID:"petrochemical",
     id:"naturalgasengineering",
     name:"Natural Gas Engineering",
     code:"PETE 450",
@@ -1933,7 +1933,7 @@ export const PETROCHEM = [
     },
 
     {
-    ID:"petrochem",
+    ID:"petrochemical",
     id:"chemicalprocessdesignandeconomics",
     name:"Chemical Process Design and Economics",
     code:"CHE 451",
@@ -1942,7 +1942,7 @@ export const PETROCHEM = [
 
     },
     {
-        ID:"petrochem",
+        ID:"petrochemical",
         id:"processcontrolandinstumentation",
         name:"Process Control and Instrumentation",
         code:"CHE 455",
@@ -1951,7 +1951,7 @@ export const PETROCHEM = [
 
     },
     {
-        ID:"petrochem",
+        ID:"petrochemical",
         id:"catalysis",
         name:"Catalysis",
         code:"PCE 451",
@@ -1960,7 +1960,7 @@ export const PETROCHEM = [
 
     },
     {
-        ID:"petrochem",
+        ID:"petrochemical",
         id:"projectI",
         name:"Project I",
         code:"PCE 453",
@@ -1969,7 +1969,7 @@ export const PETROCHEM = [
 
     },
     {
-        ID:"petrochem",
+        ID:"petrochemical",
         id:"pollutioncontrolinthepetrochemicalind.",
         name:"Pollution Control in the Petrochemical Ind",
         code:"PCE 455",
@@ -1978,7 +1978,7 @@ export const PETROCHEM = [
 
     },
     {
-        ID:"petrochem",
+        ID:"petrochemical",
         id:"corrosionengineering",
         name:"Corrosion Engineering",
         code:"PCE 457",
@@ -1987,7 +1987,7 @@ export const PETROCHEM = [
 
     },
     {
-        ID:"petrochem",
+        ID:"petrochemical",
         id:"petrochemicaleng.electiveoptionIII",
         name:"Petrochemical Eng. Elective Option III",
         code:"PCE xxx",
@@ -1996,7 +1996,7 @@ export const PETROCHEM = [
 
     },
     {
-        ID:"petrochem",
+        ID:"petrochemical",
         id:"openelective",
         name:"Open Elective",
         code:"XXX xxx",
@@ -2005,7 +2005,7 @@ export const PETROCHEM = [
 
     },
     {
-        ID:"petrochem",
+        ID:"petrochemical",
         id:"processcontrolandsimulation",
         name:"Process Control and Simulation",
         code:"CHE 452",
@@ -2014,7 +2014,7 @@ export const PETROCHEM = [
 
     },
     {
-        ID:"petrochem",
+        ID:"petrochemical",
         id:"enterpreneuship&businessdevelopment",
         name:"Enterpreneuship & Business Development",
         code:"CHE 458",
@@ -2023,7 +2023,7 @@ export const PETROCHEM = [
 
     },
     {
-        ID:"petrochem",
+        ID:"petrochemical",
         id:"petroleumrefiningengineering",
         name:"Petroleum Refining Engineering",
         code:"PCE 450",
@@ -2032,7 +2032,7 @@ export const PETROCHEM = [
 
     },
     {
-        ID:"petrochem",
+        ID:"petrochemical",
         id:"fieldtripandindusrtrialattachment",
         name:"Field Trip and industrial Attachment",
         code:"PCE 452",
@@ -2041,7 +2041,7 @@ export const PETROCHEM = [
 
     },
     {
-        ID:"petrochem",
+        ID:"petrochemical",
         id:"projectII",
         name:"Project II",
         code:"PCE 454",
@@ -2050,7 +2050,7 @@ export const PETROCHEM = [
 
     },
     {
-        ID:"petrochem",
+        ID:"petrochemical",
         id:"petrochemicaleng.electiveoptionIV",
         name:"Petrochemica Eng.Elective Option IV",
         code:"PCE xxx",
@@ -2064,6 +2064,548 @@ export const PETROCHEM = [
 
 
 ]
+export const MATERIALS =[
+    {
+        ID:"materials",
+        id:"introductiontoethics&morality",
+        name:"Introduction to Ethics & Morality",
+        code:"ETIC 161",
+        year:1,
+        semester:1
+
+    },
+    {
+        ID:"materials",
+        id:"appliedelectricity",
+        name:"Applied Electricity",
+        code:"EE 151",
+        year:1,
+        semester:1
+
+    },
+    {
+        ID:"materials",
+        id:"communicationskillsI",
+        name:"Communication Skills I",
+        code:"ENGL 157",
+        year:1,
+        semester:1
+
+    },
+    {
+        ID:"materials",
+        id:"algebra",
+        name:"Algebra",
+        code:"MATH 151",
+        year:1,
+        semester:1
+
+    },
+    {
+        ID:"materials",
+        id:"technicaldrawing",
+        name:"Technical Drawing",
+        code:"ME 159",
+        year:1,
+        semester:1
+
+    },
+    {
+        ID:"materials",
+        id:"engineeringtechnologyI",
+        name:"Engineering Technology I",
+        code:"ME 195",
+        year:1,
+        semester:1
+
+    },
+    {
+        ID:"materials",
+        id:"introductiontothermodynamics",
+        name:"Introduction to Thermodynamics",
+        code:"MSE 151",
+        year:1,
+        semester:1
+
+    },
+    {
+        ID:"materials",
+        id:"introductiontoinformationtechnology",
+        name:"Introduction to Information technology",
+        code:"MSE 153",
+        year:1,
+        semester:1
+
+    },
+    {
+        ID:"materials",
+        id:"basicelectronics",
+        name:"Basic Electronics",
+        code:"EE 152",
+        year:1,
+        semester:2
+
+    },
+    {
+        ID:"materials",
+        id:"communicationskillsII",
+        name:"Communication Skills II",
+        code:"ENGL 158",
+        year:1,
+        semester:2
+
+    },
+    {
+        ID:"materials",
+        id:"calculuswithanalysis",
+        name:"Calculus with Analysis",
+        code:"MATH 152",
+        year:1,
+        semester:2
+
+    },
+    {
+        ID:"materials",
+        id:"engineeringdrawing",
+        name:"engineeing Drawing",
+        code:"ME 160",
+        year:1,
+        semester:2
+
+    },
+    {
+        ID:"materials",
+        id:"basicmechanics",
+        name:"Basic Mechanics",
+        code:"ME 162",
+        year:1,
+        semester:2
+
+    },
+    {
+        ID:"materials",
+        id:"kinecticsofchemicalreaction",
+        name:"Kinectics of Chemical Reaction",
+        code:"MSE 152",
+        year:1,
+        semester:2
+
+    },
+    {
+        ID:"materials",
+        id:"principlesofmaterialscience",
+        name:"Priciples of Material Science",
+        code:"MSE 154",
+        year:1,
+        semester:2
+
+    },
+    {
+        ID:"materials",
+        id:"frenchforcommunicationpurposesI",
+        name:"French for Communication Purposes I",
+        code:"FC 181",
+        year:2,
+        semester:1
+
+    },
+    {
+        ID:"materials",
+        id:"engineeringinsociety",
+        name:"Engineering in Society",
+        code:"CENG 291",
+        year:2,
+        semester:1
+
+    },
+    {
+        ID:"materials",
+        id:"propertiesofengineeringmaterials",
+        name:"Properties of Engineering Materials",
+        code:"MSE 255",
+        year:2,
+        semester:1
+
+    },
+    {
+        ID:"materials",
+        id:"indigenousprocessing",
+        name:"Indigenous Processing",
+        code:"MSE 257",
+        year:2,
+        semester:1
+
+    },
+    {
+        ID:"materials",
+        id:"differntialequations",
+        name:"Differential Equations",
+        code:"MATH 251",
+        year:2,
+        semester:1
+
+    },
+    {
+        ID:"materials",
+        id:"mechanicalbehaviourofmaterials",
+        name:"Mechanical Behaviour of Materials",
+        code:"MSE 253",
+        year:2,
+        semester:1
+
+    },
+    {
+        ID:"materials",
+        id:"momentumtransport",
+        name:"Moment Transport",
+        code:"MSE 251",
+        year:2,
+        semester:1
+
+    },
+    {
+        ID:"materials",
+        id:"calculuswithseveralvariables",
+        name:"Calculus With Several Variables",
+        code:"MATH 252",
+        year:2,
+        semester:2
+
+    },
+    {
+        ID:"materials",
+        id:"physicalmetallurgyofnonferrousmetals",
+        name:"Physical Meatallurgy of Non-Ferrous Metals",
+        code:"MSE 258",
+        year:2,
+        semester:2
+
+    },
+    {
+        ID:"materials",
+        id:"heatandmasstransport",
+        name:"Heat and Mass Transport",
+        code:"MSE 252",
+        year:2,
+        semester:2
+
+    },
+    {
+        ID:"materials",
+        id:"computerprogrammingandapplications",
+        name:"Computer Programming and Applications",
+        code:"MSE 262",
+        year:2,
+        semester:2
+
+    },
+    {
+        ID:"materials",
+        id:"environmentalscience",
+        name:"Environmental Science",
+        code:"MSE 256",
+        year:2,
+        semester:2
+
+    },
+    {
+        ID:"materials",
+        id:"phasetransformations",
+        name:"Phase Transformations",
+        code:"MSE 260",
+        year:2,
+        semester:2
+
+    },
+    {
+        ID:"materials",
+        id:"materialsprocessing",
+        name:"Materials Processing",
+        code:"MSE 254 ",
+        year:2,
+        semester:2
+
+    },
+    {
+        ID:"materials",
+        id:"stressandstrainanalysisofrigidbodies",
+        name:"Stress and Strain Analysis of rigid Bodies",
+        code:"MSE 361",
+        year:3,
+        semester:1
+
+    },
+    {
+        ID:"materials",
+        id:"engineeringceramics",
+        name:"Engineering Ceramics",
+        code:"MSE 351",
+        year:3,
+        semester:1
+
+    },
+    {
+        ID:"materials",
+        id:"probabilityandstatistics",
+        name:"Probability and Statistics",
+        code:"MATH 353",
+        year:3,
+        semester:1
+
+    },
+    {
+        ID:"materials",
+        id:"pyrometallurgy",
+        name:"Pyrometallurgy",
+        code:"MSE 353",
+        year:3,
+        semester:1
+
+    },
+    {
+        ID:"materials",
+        id:"foundrytechnology",
+        name:"Foundry Technology",
+        code:"MSE 357",
+        year:3,
+        semester:1
+
+    },
+    {
+        ID:"materials",
+        id:"materialcharacterization",
+        name:"Material Characterization",
+        code:"MSE 363",
+        year:3,
+        semester:1
+
+    },
+    {
+        ID:"materials",
+        id:"polymerprocessing",
+        name:"Polymer Processing",
+        code:"MSE 355",
+        year:3,
+        semester:1
+
+    },
+    {
+        ID:"materials",
+        id:"materialprocessinglaboratory",
+        name:"Material Processing Laboratory",
+        code:"MSE 359",
+        year:3,
+        semester:1
+
+    },
+    {
+        ID:"materials",
+        id:"mechanicsofmaterials",
+        name:"Mechanics of Materials",
+        code:"MSE 362",
+        year:3,
+        semester:2
+
+    },
+    {
+        ID:"materials",
+        id:"engineeringpropertiesofpolymer",
+        name:"Engineering Properties of Polymer",
+        code:"MSE 356",
+        year:3,
+        semester:2
+
+    },
+    {
+        ID:"materials",
+        id:"materialjoiningprocess",
+        name:"Material Joining Process",
+        code:"MSE 362",
+        year:3,
+        semester:2
+
+    },
+    {
+        ID:"materials",
+        id:"physicalmetallurgyofferrousmetals",
+        name:"Physical Metallurgy of Ferrous Metals",
+        code:"MSE 354",
+        year:3,
+        semester:2
+
+    },
+    {
+        ID:"materials",
+        id:"numericalmethodsforengineers",
+        name:"Numerical Methods for Engineers",
+        code:"MSE 358",
+        year:3,
+        semester:2
+
+    },
+    {
+        ID:"materials",
+        id:"glassandcementtechnology",
+        name:"Glass and Cement Technology",
+        code:"MSE 352",
+        year:3,
+        semester:2
+
+    },
+    {
+        ID:"materials",
+        id:"materialcharacterizationlaboratory",
+        name:"Material Characterization Laboratory",
+        code:"MSE 364",
+        year:3,
+        semester:2
+
+    },
+    {
+        ID:"materials",
+        id:"3rdyeardesignproject",
+        name:"3rd Year Design Project",
+        code:"MSE 396",
+        year:3,
+        semester:2
+
+    },
+    {
+        ID:"materials",
+        id:"engineeringeconomicsandmanagement",
+        name:"Engineering Economics and Management",
+        code:"ME 491",
+        year:4,
+        semester:1
+
+    },
+    {
+        ID:"materials",
+        id:"compositematerials",
+        name:"Composite Materials",
+        code:"MSE 451",
+        year:4,
+        semester:1
+
+    },
+    {
+        ID:"materials",
+        id:"corrosionofengineeringmaterials",
+        name:"Corrosion and Engineering Materials",
+        code:"MSE 453",
+        year:4,
+        semester:1
+
+    },
+    {
+        ID:"materials",
+        id:"electrical/magneticpropertiesofmaterials",
+        name:"Electrical/Magnetic Properties of Materials",
+        code:"MSE 455",
+        year:4,
+        semester:1
+
+    },
+    {
+        ID:"materials",
+        id:"metalworkingprocessess",
+        name:"Metal Working Processes",
+        code:"MSE 457",
+        year:4,
+        semester:1
+
+    },
+    {
+        ID:"materials",
+        id:"vacationtraining",
+        name:"Vacation Training",
+        code:"MSE 459",
+        year:4,
+        semester:1
+
+    },
+    {
+        ID:"materials",
+        id:"projectI",
+        name:"Project I",
+        code:"MSE 497",
+        year:4,
+        semester:1
+
+    },
+    {
+        ID:"materials",
+        id:"processcontrol/simulation",
+        name:"Process Control/Simulation",
+        code:"CHE 452",
+        year:4,
+        semester:2
+
+    },
+    {
+        ID:"materials",
+        id:"wastemangement",
+        name:"Waste Management",
+        code:"MSE 452",
+        year:4,
+        semester:2
+
+    },
+    {
+        ID:"materials",
+        id:"projectII",
+        name:"Project II",
+        code:"MSE 498",
+        year:4,
+        semester:2
+
+    },
+    {
+        ID:"materials",
+        id:"managementandenterpreneurshipdevelopment",
+        name:"Management and Enterpreneurship Development",
+        code:"ME 492",
+        year:4,
+        semester:2
+
+    },
+    {
+        ID:"materials",
+        id:"surfacetreatmentofmaterials",
+        name:"Surface Treatment of Materials",
+        code:"MSE 454",
+        year:4,
+        semester:2
+
+    },
+    {
+        ID:"materials",
+        id:"materialsqualitycontrol,assuranceandselection",
+        name:"Materials Quality Control,Assurance and Selection",
+        code:"MSE 456",
+        year:4,
+        semester:2
+
+    },
+    {
+        ID:"computer",
+        id:"economicsII",
+        name:"Introductory Economics II",
+        year: 2,
+        semester:2
+    },
+    {
+        ID:"computer",
+        id:"accountingII",
+        name:"Accounting II",
+        year: 2,
+        semester:2
+    }
+
+    
+]
+
+
 
 
 

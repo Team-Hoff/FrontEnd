@@ -2588,24 +2588,383 @@ export const MATERIALS =[
 
     },
     {
-        ID:"computer",
+        ID:"materials",
         id:"economicsII",
         name:"Introductory Economics II",
-        year: 2,
+        year: 4,
         semester:2
     },
     {
-        ID:"computer",
+        ID:"materials",
         id:"accountingII",
         name:"Accounting II",
-        year: 2,
+        year: 4,
         semester:2
     }
 
     
 ]
 
+export const CHEMICAL =[
+       
+    {
+        ID:"chemical",
+        id:"inorganicchemistryforengineers",
+        name:"Inorganic Chemistry for Engineers",
+        code:"CHE 151",
+        year: 1,
+        semester:1
+    },
+    {
+        ID:"chemical",
+        id:"organicchemistryforengineers",
+        name:"Organic Chemistry for Engineers",
+        code :"CHE 153",
+        year: 1,
+        semester:1
+    },
+    {
+        ID:"chemical",
+        id:"practicalchemistryI",
+        name:"Pratical Chemistry I",
+        code :"CHEM 169",
+        year: 1,
+        semester:1
+    },
+    {
+        ID:"chemical",
+        id:"appliedelectricity",
+        name:"Applied Electricity",
+        code : "EE 151",
+        year: 1,
+        semester:1
+    },
+    {
+        ID:"chemical",
+        id:"communicationskillsI",
+        name:"Communication Skills I",
+        code :"ENGL 157",
+        year: 1,
+        semester:1
+    },
+    {
+        ID:"chemical",
+        id:"algebra",
+        name:"Algebra",
+        code :"MATH 151",
+        year: 1,
+        semester:1
+    },{
+        ID:"chemical",
+        id:"technicaldrawing",
+        name:"Technical Drawing",
+        code :"ME 159",
+        year: 1,
+        semester:1
+    },
+    {
+        ID:"chemical",
+        id:"communicationskillsII",
+        name:"Communications Skills II",
+        code :"ENGL 158",
+        year: 1,
+        semester:2
+    },
+    {
+        ID:"chemical",
+        id:"calculuswithanalysis",
+        name:"Calculus with Analysis",
+        code :"MATH 152",
+        year: 1,
+        semester:2
+    },
+    {
+        ID:"chemical",
+        id:"basicmechanics",
+        name:"Basic Mechanics",
+        code :"ME 162",
+        year: 1,
+        semester:2
+    },
+    {
+        ID:"chemical",
+        id:"physicalchemistryforengineers",
+        name:"Physical Chemistry for Engineers",
+        code :"CHE 156",
+        year: 1,
+        semester:2
+    },
+    {
+        ID:"chemical",
+        id:"generalphysics",
+        name:"General Physics",
+        code :"PHY 170",
+        year: 1,
+        semester:2
+    },
+    {
+        ID:"chemical",
+        id:"introdutiontoinformationtechnology",
+        name:"Introduction to Information Technology",
+        code :"COE 158",
+        year: 1,
+        semester:2
+    },
+    {
+        ID:"chemical",
+        id:"basicelectronics",
+        name:"Basic Electronics",
+        code :"EE 152",
+        year: 1,
+        semester:2
+    },
 
+    {
+        ID:"chemical",
+        id:"engineeringinsociety",
+        name:"Engineering in Society",
+        code :"CENG 291",
+        year: 2,
+        semester:1
+    },
+    {
+        ID:"chemical",
+        id:"chemicalprocesscalculationsI",
+        name:"Chemical Process Calculations I",
+        code :"CHE 251",
+        year: 2,
+        semester:1
+    },
+    {
+        ID:"chemical",
+        id:"chemicalengineeringthrmodynamicsI",
+        name:"Chemical Engineering Thermodynamics I",
+        code :"CHE 253",
+        year: 2,
+        semester:1
+    },
+    {
+        ID:"chemical",
+        id:"fluidtransport",
+        name:"Fluid Transport",
+        code :"CHE 255",
+        year: 2,
+        semester:1
+    },
+    {
+        ID:"chemical",
+        id:"analyticalchemistryforchemicalengineers",
+        name:"Analytical Chemistry for Chemical Engineers",
+        code :"CHE 257",
+        year: 2,
+        semester:1
+    },
+    {
+        ID:"chemical",
+        id:"chemicalprocessindustries",
+        name:"Chemical Process Industries",
+        code :"CHE 259",
+        year: 2,
+        semester:1
+    },
+    {
+        ID:"chemical",
+        id:"computerapplicationsforengineers",
+        name:"Computer Applications for Engineers",
+        code :"CHE 261",
+        year: 2,
+        semester:1
+    },
+    {
+        ID:"chemical",
+        id:"differentialequations",
+        name:"Differntial Equations",
+        code :"MATH 251",
+        year: 2,
+        semester:1
+    },
+    {
+        ID:"chemical",
+        id:"strengthofmaterialforchem.engineers",
+        name:"Strength of Materials for Chem.Engineers",
+        code :"CHE 250",
+        year: 2,
+        semester:2
+    },
+    {
+        ID:"chemical",
+        id:"chemicalprocesscalculationII",
+        name:"Chemical Process Calculations II ",
+        code :"CHE 252",
+        year: 2,
+        semester:2
+    },
+    {
+        ID:"chemical",
+        id:"chemicalengineeringthermodynamics",
+        name:"Chemical Engineering Thermodynamics",
+        code :"CHE 254",
+        year: 2,
+        semester:2
+    },
+    {
+        ID:"chemical",
+        id:"heattransportprocesses",
+        name:"Heat Transport Processes",
+        code :"cCHE 256",
+        year: 2,
+        semester:2
+    },
+    {
+        ID:"chemical",
+        id:"drawingforengineers",
+        name:"Drawing for Engineers",
+        code :"CHE 258",
+        year: 2,
+        semester:2
+    },
+    {
+        ID:"chemical",
+        id:"chemistrypracticalII",
+        name:"Chemistry Practical II",
+        code :"CHEM 280",
+        year: 2,
+        semester:2
+    },
+    {
+        ID:"chemical",
+        id:"calculusofseveralvariables",
+        name:"Calculus of Several Variables",
+        code :"",
+        year: 2,
+        semester:2
+    },
+    {
+        ID:"chemical",
+        id:"chemicalengineeringlaboratoryI",
+        name:"Chemical Engineering Laboratory I ",
+        code :"CHE 353",
+        year: 3,
+        semester:1
+    },
+    {
+        ID:"chemical",
+        id:"processengineeringprojectI",
+        name:"Process Engineering Project I",
+        code :"CHE 355",
+        year: 3,
+        semester:1
+    },
+    {
+        ID:"chemical",
+        id:"experimentaldataanalysis",
+        name:"Experimental Data Analysis",
+        code :"CHE 357 ",
+        year: 3,
+        semester:1
+    },
+    {
+        ID:"chemical",
+        id:"mechanicalseparationprocess",
+        name:"Mechanical Separation Process",
+        code :"CHE 359",
+        year: 3,
+        semester:1
+    },
+    {
+        ID:"chemical",
+        id:"polymertechnology",
+        name:"Polymer Technology",
+        code :"CHE 363",
+        year: 3,
+        semester:1
+    },
+    {
+        ID:"chemical",
+        id:"introductoryeconomicsI",
+        name:"Introductory Economics I",
+        code :"Econ 151",
+        year: 3,
+        semester:1
+    },
+    {
+        ID:"chemical",
+        id:"masstranferprocess",
+        name:"Mass Transfer Process",
+        code :"CHE 351",
+        year: 3,
+        semester:1
+    },
+
+    {
+        ID:"chemical",
+        id:"foodprocessingtechnology",
+        name:"Food Processing Technology",
+        code :"CHE 368",
+        year: 3,
+        semester:2
+    },
+    {
+
+        ID:"chemical",
+        id:"materialsscience",
+        name:"Materials Science",
+        code :"CHE 350",
+        year: 3,
+        semester:2
+    },
+    {
+        ID:"chemical",
+        id:"chemicalreactionengineering",
+        name:"Chemical Reaction Engineering",
+        code :"CHE 352",
+        year: 3,
+        semester:2
+    },
+    {
+        ID:"chemical",
+        id:"simultaneousheat/masstransfer",
+        name:"Simultaneous Heat/Mass Transfer",
+        code :"CHE 354",
+        year: 3,
+        semester:2
+    },
+    {
+        ID:"chemical",
+        id:"processengineeringprojectII",
+        name:"Process Engineering Project II",
+        code :"CHE 356",
+        year: 3,
+        semester:2
+    },
+    {
+        ID:"chemical",
+        id:"numericalmethodsforchemicalengigineers",
+        name:"Numerical Methods For Chemical Engineers",
+        code :"CHE 358",
+        year: 3,
+        semester:2
+    },
+    {
+        ID:"chemical",
+        id:"introductoryeconomicsII",
+        name:"Introductory Economics II",
+        code :"ECON 152",
+        year: 3,
+        semester:2
+    },
+    {
+        ID:"chemical",
+        id:"",
+        name:"",
+        code :"",
+        year: 3,
+        semester:2
+    },
+
+
+
+]
 
 
 

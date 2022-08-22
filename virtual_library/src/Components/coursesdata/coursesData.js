@@ -4357,3 +4357,590 @@ export const GESS=[
         semester:1
     }, 
 ]
+
+export const AERO=[
+    {
+        ID:"aerospace",
+        id:"algebra",
+        name:"Algebra",
+        code:"MATH 151",
+        year: 1,
+        semester:1
+    }, 
+    {
+        ID:"aerospace",
+        id:"appliedelectricity",
+        name:"Applied Electricity",
+        code:"EE 151",
+        year:1,
+        semester:1
+    }, 
+    {
+        ID:"aerospace",
+        id:"communicationskills",
+        name:"Communication Skills",
+        code:"ENGL 157",
+        year: 1,
+        semester:1
+    }, 
+    {
+        ID:"aerospace",
+        id:"",
+        name:"Basic Mechanics",
+        code:"ME 161",
+        year: 1,
+        semester:1
+    }, 
+    {
+        ID:"aerospace",
+        id:"technicaldrawing",
+        name:"Technical Drawing",
+        code:"ME 159",
+        year: 1,
+        semester:1
+    },  
+    {
+        ID:"aerospace",
+        id:"introductiontoaviationtechnology",
+        name:"Introduction to Aviation Technology",
+        code:"AERO 157",
+        year: 1,
+        semester:1
+    },
+    {
+        ID:"aerospace",
+        id:"environmentalstudies",
+        name:"Environmental Studies",
+        code:"CE 155",
+        year: 1,
+        semester:1
+    },
+    {
+        ID:"",
+        id:"informationinliteracyskillsI",
+        name:"Information in Literacy Skills",
+        code:"ILS 151",
+        year: 1,
+        semester:1
+    },
+    {
+        ID:"aerospace",
+        id:"engineeringgraphics",
+        name:"Engineering Graphics",
+        code:"ME 158",
+        year: 1,
+        semester:2
+    },{
+        ID:"aerospace",
+        id:"communicationskillsII",
+        name:"Communication Skills II",
+        code:"ENGL 158",
+        year: 1,
+        semester:2
+    },
+    {
+        ID:"=aerospace",
+        id:"basicelectronics",
+        name:"Basic Electronics",
+        code:"EE 152",
+        year: 1,
+        semester:2
+    },
+    {
+        ID:"aerospace",
+        id:"calculus",
+        name:"Calculus With Analysis",
+        code:"MATH 152",
+        year: 1,
+        semester:2
+    },
+    {
+        ID:"aerospace",
+        id:"staticsofsolidmechanics",
+        name:"Statics of Solid Mechanics",
+        code:"ME 164",
+        year: 1,
+        semester:2
+    },
+    {
+        ID:"aerospace",
+        id:"computerprogrammingforengineers",
+        name:"Computer Programming for Engineers",
+        code:"ME 158",
+        year: 1,
+        semester:2
+    },
+    {
+        ID:"aerospace",
+        id:"aerospacedesignprojectI",
+        name:"Aerospace Design Project I",
+        code:"AERO 174",
+        year: 1,
+        semester:2
+    },
+    {
+        ID:"aerospace",
+        id:"informationinliteracyskillsII",
+        name:"Information in Literacy Skills II",
+        code:"ILS 152",
+        year: 1,
+        semester:2
+    },
+    {
+        ID:"aerospace",
+        id:"literatureinenglishI",
+        name:"Literature in English I",
+        code:"ENGL 263",
+        year: 2,
+        semester:1
+    },
+    {
+        ID:"aerospace",
+        id:"dynamicsofsolidmechanics",
+        name:"Dynamics of Solid Mechanics",
+        code:"ME 261",
+        year: 2,
+        semester:1
+    },
+    {
+        ID:"aerospace",
+        id:"introductiontofluidmechanics",
+        name:"Introduction to Fluid Mechanics",
+        code:"ME 251",
+        year: 2,
+        semester:1
+    },
+    {
+        ID:"aerospace",
+        id:"engineeringmaterialsI",
+        name:"Engineeering Materials I",
+        code:"ME 281",
+        year: 2,
+        semester:1
+    },
+    {
+        ID:"aerospace",
+        id:"strengthofmaterialsI",
+        name:"Strength of Materials I",
+        code:"ME 255",
+        year: 2,
+        semester:1
+    },
+    {
+        ID:"aerospace",
+        id:"differentialequations",
+        name:"Differential Equations",
+        code:"MATH 251",
+        year: 2,
+        semester:1
+    },
+    {
+        ID:"aerospace",
+        id:"aerospaceengineeringvacationtrainingI",
+        name:"Aerospace Engineering Vacation Training I",
+        code:"AERO 293",
+        year: 2,
+        semester:1
+    },
+    {
+        ID:"aerospace",
+        id:"engineeringinsociety",
+        name:"Engineering in Society",
+        code: "CENG 291",
+        year: 2,
+        semester:1
+    },
+    {
+        ID:"aerospace",
+        id:"calculuswithseveralvariables",
+        name:"Calculus with Several Variables",
+        code: "MATH 252",
+        year: 2,
+        semester:2
+    },
+    {
+        ID:"aerospace",
+        id:"computer-aideddesignandmodelling",
+        name:"Computer-Aided Design and Modelling",
+        code: "ME 258",
+        year: 2,
+        semester:2
+    },
+    {
+        ID:"aerospace",
+        id:"mechanismssynthesisandanalysisI",
+        name:"Mechanisms Synthesis and Analysis I",
+        code: "ME 264",
+        year: 2,
+        semester:2
+    },
+    {
+        ID:"aerospace",
+        id:"aerospacestructures",
+        name:"Aerospace Structures",
+        code: "AERO 256",
+        year: 2,
+        semester:2
+    },
+    {
+        ID:"computer",
+        id:"literatureinenglishII",
+        name:"Literature in English II",
+        code:"ENGL 264",
+        year: 2,
+        semester:2
+    },
+    {
+        ID:"aerospace",
+        id:"thermodynamics I",
+        name:"Thermodynamics I",
+        code:"ME 266",
+        year: 2,
+        semester:2
+    },
+    {
+        ID:"aerospace",
+        id:"aerospacedesignprojectII",
+        name:"Aerospace Design Project II",
+        code:"AERO 274",
+        year: 2,
+        semester:2
+    },
+    {
+        ID:"aerospace",
+        id:"probabilityandstatistics",
+        name:"Probability and Statistics",
+        code:"MATH 353",
+        year: 3,
+        semester:1
+    },
+    {
+        ID:"aerospace",
+        id:"numericalmethods",
+        name:"Numerical Methods",
+        code:"MATH 351",
+        year: 3,
+        semester:1
+    },
+    {
+        ID:"aerospace",
+        id:"automaticcontrol I",
+        name:"Automatic Control I",
+        code:"ME 363",
+        year: 3,
+        semester:1
+    },
+    {
+        ID:"aerospace",
+        id:"aerospaceengineeringlaboratoryI",
+        name:"Aerospace Engineering Laboratory I",
+        code:"AERO 395",
+        year: 3,
+        semester:1
+    },
+    {
+        ID:"aerospace",
+        id:"aerospaceindustryandengineering",
+        name:"Aerospace Industry and Engineering",
+        code:"AERO 391",
+        year: 3,
+        semester:1
+    },
+    {
+        ID:"aerospace",
+        id:"aerodynamicsI",
+        name:"Aerodynamics I",
+        code:"AERO 351",
+        year: 3,
+        semester:1
+    },
+    {
+        ID:"aerospace",
+        id:"aerospaceengineeringandvacationtrainingII",
+        name:"Aerospace Engineering and Vacation Training II",
+        code:"AERO 393",
+        year: 3,
+        semester:1
+    }, 
+    {
+        ID:"aerospace",
+        id:"introductiontoeconomicsI",
+        name:"Introduction to Economics",
+        code:"ECON 151",
+        year: 3,
+        semester:1
+    },
+    {
+        ID:"aerospace",
+        id:"airvehiclestabilityandcontrol",
+        name:"Air Vehicle Stability and Control",
+        code:"AERO 362",
+        year: 3,
+        semester:2
+    },
+    {   
+        ID:"aerospace",
+        id:"industrialengineeringandergonomics",
+        name:"Industrial Engineering and Ergonomics",
+        code:"ME 392",
+        year: 3,
+        semester:2
+    },
+    {
+        ID:"aerospace",
+        id:"aircraftperformanceanddesign",
+        name:"Aircraft Performance and Design",
+        code:"AERO 374",
+        year: 3,
+        semester:2
+    },
+    {
+        ID:"aerospace",
+        id:"propulsion",
+        name:"Propulsion",
+        code:"AERO 368",
+        year: 3,
+        semester:2
+    },
+    {
+        ID:"aerospace",
+        id:"heattransfer",
+        name:"Heat Transfer",
+        code:"ME 366",
+        year: 3,
+        semester:2
+    },
+    {
+        ID:"aerospace",
+        id:"vibrationsI",
+        name:"Vibrations I",
+        code:"ME 362",
+        year: 3,
+        semester:2
+    },
+    {
+        ID:"aerospace",
+        id:"aerospaceengineeringlaboratoryII",
+        name:"Aerospace Engineering Laboratory II",
+        code:"AERO 396",
+        year: 3,
+        semester:2
+    },
+    {
+        ID:"aerospace",
+        id:"avionics",
+        name:"Avionics",
+        code:"AERO 483",
+        year: 4,
+        semester:1
+    },
+    {
+        ID:"aerospace",
+        id:"aviationbusinessmanagement",
+        name:"Aviation Business Management",
+        code:"AERO 491",
+        year: 4,
+        semester:1
+    },
+    {
+        ID:"aerospace",
+        id:"finalyearprojectI",
+        name:"Final Year Project I",
+        code:"AERO 497",
+        year: 4,
+        semester:1
+    },
+    {
+        ID:"aerospace",
+        id:"aircraftmaintenanceengineering",
+        name:"Aircraft Maintenance Engineering",
+        code:"AERO 495",
+        year: 4,
+        semester:1
+    },
+    {
+        ID:"aerospace",
+        id:"aerospacevehicledesign",
+        name:"Aerospace Vehicle Design",
+        code:"AERO 473",
+        year: 4,
+        semester:1
+    },
+    {
+        ID:"aerospace",
+        id:"aerospaceengineeringvacationtrainingIII",
+        name:"Aerospace Engineering Vacation Training III",
+        code:"AERO 493",
+        year: 4,
+        semester:1
+    },
+    {
+        ID:"aerospace",
+        id:"vibrationsII",
+        name:"Vibrations II",
+        code:"ME 461",
+        year: 4,
+        semester:1
+    },
+    {
+        ID:"aerospace",
+        id:"automaticcontrolII",
+        name:"Automatic Control II",
+        code:"ME 463",
+        year: 4,
+        semester:1
+    },
+    {
+        ID:"aerospace",
+        id:"mechatronics",
+        name:"Mechatronics",
+        code:"ME 483",
+        year: 4,
+        semester:1
+    },
+    {
+        ID:"aerospace",
+        id:"compositematerials",
+        name:"Composite Materials",
+        code:"MSE 451",
+        year: 4,
+        semester:1
+    },
+    {
+        ID:"aerospace",
+        id:"computeraideddesignandmanufacturing",
+        name:"Computer Aided Design and Manufacturing",
+        code:"ME 473",
+        year: 4,
+        semester:1
+    },
+    {
+        ID:"aerospace",
+        id:"facilitiesdesign",
+        name:"Facilities Design",
+        code:"ME 469",
+        year: 4,
+        semester:1
+    },
+    {
+        ID:"aerospace",
+        id:"operationsresearch",
+        name:"Operations Research",
+        code:"ME 499",
+        year: 4,
+        semester:1
+    },
+    {
+        ID:"aerospace",
+        id:"behaviourofrealfluids",
+        name:"Behaviour of Real Fluids",
+        code:"ME 451",
+        year: 4,
+        semester:1
+    },
+    {
+        ID:"aerospace",
+        id:"strengthofmaterialsIII",
+        name:"Stregth of Materials III",
+        code:"ME 455",
+        year: 4,
+        semester:1
+    },
+    {
+        ID:"aerospace",
+        id:"enterpreneurshipdevelopmentandmanagement",
+        name:"Enterpreneurship Development and Management",
+        code:"ME 492",
+        year: 4,
+        semester:2
+    },
+    {
+        ID:"aerospace",
+        id:"aerodynamicsII",
+        name:"Aerodynamics II",
+        code:"AERO 452",
+        year: 4,
+        semester:2
+    },
+    {
+        ID:"aerospace",
+        id:"finalyearprojectII",
+        name:"Final Year Project II",
+        code:"AERO 498",
+        year: 4,
+        semester:2
+    },
+    {
+        ID:"aerospace",
+        id:"appliedmeteorology",
+        name:"Applied Meteorology",
+        code:"AERO 456",
+        year: 4,
+        semester:2
+    },
+    {
+        ID:"aerospace",
+        id:"aerospacesafetyandairsecurity",
+        name:"Aerospace Safety and Air Security",
+        code:"AERO 492",
+        year: 4,
+        semester:2
+    },
+    {
+        ID:"aerospace",
+        id:"mechanismssynthesisandanalysisII",
+        name:"Mechanisms Synthesis and Analysis",
+        code:"ME 462",
+        year: 4,
+        semester:2
+    },
+    {
+        ID:"aerospace",
+        id:"finiteelementmethods",
+        name:"Finite Element Methods",
+        code:"ME 456",
+        year: 4,
+        semester:2
+    },
+    {
+        ID:"aerospace",
+        id:"internalcombustionengines",
+        name:"Internal Combustion Engines",
+        code:"ME 468",
+        year: 4,
+        semester:2
+    },
+    {
+        ID:"aerospace",
+        id:"productionplanningandcontrol",
+        name:"Production Planning and Control",
+        code:"ME 474",
+        year: 4,
+        semester:2
+    },
+    {
+        ID:"aerospace",
+        id:"machineshopandfactorydesign",
+        name:"Machine Shop and Factory Design",
+        code:"ME 472",
+        year: 4,
+        semester:2
+    } 
+    {
+        ID:"aerospace",
+        id:"humanfactorsandergonomics",
+        name:"Human Factors and Ergonomics",
+        code:"ME 494",
+        year: 4,
+        semester:2
+    } 
+]
+
+
+
+
+
+
+
+
+

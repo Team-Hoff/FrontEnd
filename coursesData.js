@@ -1,6 +1,6 @@
 export const COE=[
     {
-        ID:"agric",
+        ID:"agricultural",
         id:"algebra",
         name:"Algebra",
         code:"MATH 151",

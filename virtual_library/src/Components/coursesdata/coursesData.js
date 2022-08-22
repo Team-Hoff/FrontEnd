@@ -4385,6 +4385,7 @@ export const AERO=[
     }, 
     {
         ID:"aerospace",
+        id:"basicmechanics",
         name:"Basic Mechanics",
         code:"ME 161",
         year: 1,
@@ -4415,7 +4416,7 @@ export const AERO=[
         semester:1
     },
     {
-        ID:"",
+        ID:"aerospace",
         id:"informationinliteracyskillsI",
         name:"Information in Literacy Skills",
         code:"ILS 151",
@@ -4924,7 +4925,7 @@ export const AERO=[
         code:"ME 472",
         year: 4,
         semester:2
-    } 
+    },
     {
         ID:"aerospace",
         id:"humanfactorsandergonomics",

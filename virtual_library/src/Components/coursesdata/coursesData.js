@@ -4385,7 +4385,6 @@ export const AERO=[
     }, 
     {
         ID:"aerospace",
-        id:"",
         name:"Basic Mechanics",
         code:"ME 161",
         year: 1,
@@ -4439,7 +4438,7 @@ export const AERO=[
         semester:2
     },
     {
-        ID:"=aerospace",
+        ID:"aerospace",
         id:"basicelectronics",
         name:"Basic Electronics",
         code:"EE 152",
@@ -4583,7 +4582,7 @@ export const AERO=[
         semester:2
     },
     {
-        ID:"computer",
+        ID:"aerospace",
         id:"literatureinenglishII",
         name:"Literature in English II",
         code:"ENGL 264",

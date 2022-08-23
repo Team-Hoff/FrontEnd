@@ -4936,6 +4936,970 @@ export const AERO=[
     } 
 ]
 
+export const METE=[
+    {
+        ID:"metallurgical",
+        id:"algebra",
+        name:"Algebra",
+        code:"MATH 151",
+        year: 1,
+        semester:1
+    }, 
+    {
+        ID:"metallurgical",
+        id:"appliedelectricity",
+        name:"Applied Electricity",
+        code:"EE 151",
+        year:1,
+        semester:1
+    }, 
+    {
+        ID:"metallurgical",
+        id:"communicationskills",
+        name:"Communication Skills",
+        code:"ENGL 157",
+        year: 1,
+        semester:1
+    }, 
+    {
+        ID:"metallurgical",
+        id:"basicgeology",
+        name:"Basic Geology",
+        code:"GED 151",
+        year: 1,
+        semester:1
+    }, 
+    {
+        ID:"metallurgical",
+        id:"technicaldrawing",
+        name:"Technical Drawing",
+        code:"ME 159",
+        year: 1,
+        semester:1
+    },  
+    {
+        ID:"metallurgical",
+        id:"engineeringtechnology",
+        name:"Engineering Technology",
+        code:"ME 195",
+        year: 1,
+        semester:1
+    },
+    {
+        ID:"metallurgical",
+        id:"introductiontoinformationtechnology",
+        name:"Introduction to Information Technology",
+        code:"METE 151",
+        year: 1,
+        semester:1
+    },
+    {
+        ID:"metallurgical",
+        id:"introductiontoethicsandmorality",
+        name:"Introduction to Ethics and Morality",
+        code:"ETIC 161",
+        year: 1,
+        semester:1
+    },
+    {
+        ID:"metallurgical",
+        id:"chemistryformetallurgicalengineers",
+        name:"Chemistry for Metallurgical Engineers",
+        code:"METE 152",
+        year: 1,
+        semester:2
+    },{
+        ID:"metallurgical",
+        id:"communicationskillsII",
+        name:"Communication Skills II",
+        code:"ENGL 158",
+        year: 1,
+        semester:2
+    },
+    {
+        ID:"metallurgical",
+        id:"basicmechanics",
+        name:"Basic Mechanics",
+        code:"ME 162",
+        year: 1,
+        semester:2
+    },
+    {
+        ID:"metallurgical",
+        id:"calculus",
+        name:"Calculus With Analysis",
+        code:"MATH 152",
+        year: 1,
+        semester:2
+    },
+    {
+        ID:"metallurgical",
+        id:"principlesofmaterialscience",
+        name:"Principles of Material Science",
+        code:"MSE 154",
+        year: 1,
+        semester:2
+    },
+    {
+        ID:"metallurgical",
+        id:"environmentalscience",
+        name:"Environmental Science",
+        code:"METE 154",
+        year: 1,
+        semester:2
+    },
+    {
+        ID:"metallurgical",
+        id:"engineeringdrawing",
+        name:" Engineering Drawing",
+        code:"ME 160",
+        year: 1,
+        semester:2
+    },
+    {
+        ID:"metallurgical",
+        id:"mineralogy",
+        name:"Mineralogy",
+        code:"GED 251",
+        year: 2,
+        semester:1
+    },
+    {
+        ID:"metallurgical",
+        id:"metallurgicalthermodynamics",
+        name:"Metallurgical Thermodynamics",
+        code:"METE 251",
+        year: 2,
+        semester:1
+    },
+    {
+        ID:"metallurgical",
+        id:"momentumtransport",
+        name:"Momentum Transport",
+        code:"MSE 251",
+        year: 2,
+        semester:1
+    },
+    {
+        ID:"metallurgical",
+        id:"propertiesofengineeringmaterialsI",
+        name:"Properties of Engineeering Materials I",
+        code:"MSE 255",
+        year: 2,
+        semester:1
+    },
+    {
+        ID:"metallurgical",
+        id:"mechanicalbehaviourofmaterialsI",
+        name:"Mechanical Behaviour of Materials I",
+        code:"MSE 253",
+        year: 2,
+        semester:1
+    },
+    {
+        ID:"metallurgical",
+        id:"differentialequations",
+        name:"Differential Equations",
+        code:"MATH 251",
+        year: 2,
+        semester:1
+    },
+    {
+        ID:"metallurgical",
+        id:"indigenousprocessing",
+        name:"Indigenous Processing",
+        code:"MSE 257",
+        year: 2,
+        semester:1
+    },
+    {
+        ID:"metallurgical",
+        id:"engineeringinsociety",
+        name:"Engineering in Society",
+        code: "CENG 291",
+        year: 2,
+        semester:1
+    },
+    {
+        ID:"metallurgical",
+        id:"calculuswithseveralvariables",
+        name:"Calculus with Several Variables",
+        code: "MATH 252",
+        year: 2,
+        semester:2
+    },
+    {
+        ID:"metallurgical",
+        id:"metallurgicalrateprocesses/surfacephenomena",
+        name:"Metallurgical Rate Processes/ Surface Phenomena",
+        code: "METE 252",
+        year: 2,
+        semester:2
+    },
+    {
+        ID:"metallurgical",
+        id:"orebeneficiation",
+        name:"Ore Beneficiation",
+        code: "METE 254",
+        year: 2,
+        semester:2
+    },
+    {
+        ID:"metallurgical",
+        id:"assaying",
+        name:"Assaying",
+        code: "METE 256",
+        year: 2,
+        semester:2
+    },
+    {
+        ID:"metallurgical",
+        id:"computerprogrammingandapplications",
+        name:"Computer Programming and Applications",
+        code:"METE 258",
+        year: 2,
+        semester:2
+    },
+    {
+        ID:"metallurgical",
+        id:"heatandmasstransport",
+        name:"Heat and Mass Transport",
+        code:"MSE 252",
+        year: 2,
+        semester:2
+    },
+    {
+        ID:"metallurgical",
+        id:"phasetransformations",
+        name:"Phase Transformations",
+        code:"MSE 260",
+        year: 2,
+        semester:2
+    },
+    {
+        ID:"metallurgical",
+        id:"probabilityandstatistics",
+        name:"Probability and Statistics",
+        code:"MATH 353",
+        year: 3,
+        semester:1
+    },
+    {
+        ID:"metallurgical",
+        id:"pyrometallurgy",
+        name:"Pyrometallurgy",
+        code:"MSE 353",
+        year: 3,
+        semester:1
+    },
+    {
+        ID:"metallurgical",
+        id:"materialscharacterizationtechnique",
+        name:"Materials Characterization Technique",
+        code:"MSE 363",
+        year: 3,
+        semester:1
+    },
+    {
+        ID:"metallurgical",
+        id:"metallurgicalprocessinglaboratory",
+        name:"Metallurgical Processing Laboratory",
+        code:"METE 355",
+        year: 3,
+        semester:1
+    },
+    {
+        ID:"metallurgical",
+        id:"foundrytechnology",
+        name:"Foundry Technology",
+        code:"MSE 357",
+        year: 3,
+        semester:1
+    },
+    {
+        ID:"metallurgical",
+        id:"strengthofmaterials",
+        name:"Strength of Materials",
+        code:"METE 353",
+        year: 3,
+        semester:1
+    }, 
+    {
+        ID:"metallurgical",
+        id:"introductiontoeconomicsI",
+        name:"Introduction to Economics I",
+        code:"ECON 151",
+        year: 3,
+        semester:1
+    },
+    {
+        ID:"metallurgical",
+        id:"principlesofhydrometallurgy",
+        name:"Principles of Hydrometallurgy",
+        code:"METE 351",
+        year: 3,
+        semester:1
+    },
+    {
+        ID:"metallurgical",
+        id:"accountingI",
+        name:"Accounting I",
+        code:"CSM 157",
+        year: 3,
+        semester:1
+    },
+    {
+        ID:"metallurgical",
+        id:"frenchforcommunicationI",
+        name:"French for Communication I",
+        code:"FREN 181",
+        year: 3,
+        semester:1
+    },
+    {   
+        ID:"metallurgical",
+        id:"thirdyeardesignproject",
+        name:"Third Year Design Project",
+        code:"METE 356",
+        year: 3,
+        semester:2
+    },
+    {
+        ID:"metallurgical",
+        id:"materialsjoiningprocesses",
+        name:"Materials Joining Processes",
+        code:"MSE 362",
+        year: 3,
+        semester:2
+    },
+    {
+        ID:"metallurgical",
+        id:"physicalmetallurgyofferrousmetals",
+        name:"Physical Metallurgy of Ferrous Metals",
+        code:"METE 362",
+        year: 3,
+        semester:2
+    },
+    {
+        ID:"metallurgical",
+        id:"physicalmetallurgyofnon-ferrousmetals",
+        name:"Physical Metallurgy of Non-Ferrous Metals",
+        code:"METE 354",
+        year: 3,
+        semester:2
+    },
+    {
+        ID:"metallurgical",
+        id:"metallurgicalcharacterizationlaboratory",
+        name:"Metallurgical Characterization Laboratory",
+        code:"METE 358",
+        year: 3,
+        semester:2
+    },
+    {
+        ID:"metallurgical",
+        id:"numericalmethodsforengineers",
+        name:"Numerical Methods for Engineers",
+        code:"MSE 358",
+        year: 3,
+        semester:2
+    },
+    {
+        ID:"metallurgical",
+        id:"hydrometallurgicalapplications",
+        name:"Hydrometallurgical Applications",
+        code:"METE 352",
+        year: 3,
+        semester:2
+    },
+    {
+        ID:"metallurgical",
+        id:"compositematerials",
+        name:"Composite Materials",
+        code:"",
+        year: 4,
+        semester:1
+    },
+    {
+        ID:"metallurgical",
+        id:"vacationtraining",
+        name:"Vacation Training",
+        code:"",
+        year: 4,
+        semester:1
+    },
+    {
+        ID:"metallurgical",
+        id:"metalworkingprocesses",
+        name:"Metal Working Processes",
+        code:"",
+        year: 4,
+        semester:1
+    },
+    {
+        ID:"metallurgical",
+        id:"project1",
+        name:"Project 1",
+        code:"",
+        year: 4,
+        semester:1
+    },
+    {
+        ID:"metallurgical",
+        id:"corrosionofengineeringmaterials",
+        name:"Corrosion of Engineering Materials",
+        code:"",
+        year: 4,
+        semester:1
+    },
+    {
+        ID:"metallurgical",
+        id:"processcontrolandsimulation",
+        name:"Process Control and Simulation",
+        code:"",
+        year: 4,
+        semester:2
+    },
+    {
+        ID:"metallurgical",
+        id:"managementandenterpreneurship",
+        name:"Management and Enterpreneurship",
+        code:"",
+        year: 4,
+        semester:2
+    },
+    {
+        ID:"metallurgical",
+        id:"wastemanagement",
+        name:"Waste Management",
+        code:"",
+        year: 4,
+        semester:2
+    },
+    {
+        ID:"metallurgical",
+        id:"surfacetreatmentofmaterials",
+        name:"Surface Treatment of Materials",
+        code:"",
+        year: 4,
+        semester:2
+    },
+    {
+        ID:"metallurgical",
+        id:"materialqualitycontrol",
+        name:"Material Quality Control",
+        code:"",
+        year: 4,
+        semester:2
+    }
+]
+
+export const CE=[
+    {
+        ID:"civil",
+        id:"algebra",
+        name:"Algebra",
+        code:"MATH 151",
+        year: 1,
+        semester:1
+    }, 
+    {
+        ID:"civil",
+        id:"elementarystructures",
+        name:"Elementary Structures",
+        code:"CE 151",
+        year:1,
+        semester:1
+    }, 
+    {
+        ID:"civil",
+        id:"communicationskillsI",
+        name:"Communication Skills I",
+        code:"ENGL 157",
+        year: 1,
+        semester:1
+    }, 
+    {
+        ID:"civil",
+        id:"basicmechanics",
+        name:"Basic Mechanics",
+        code:"ME 161",
+        year: 1,
+        semester:1
+    }, 
+    {
+        ID:"civil",
+        id:"technicaldrawing",
+        name:"Technical Drawing",
+        code:"ME 159",
+        year: 1,
+        semester:1
+    },  
+    {
+        ID:"civil",
+        id:"engineeringtechnology",
+        name:"Engineering Technology",
+        code:"CE 153",
+        year: 1,
+        semester:1
+    },
+    {
+        ID:"civil",
+        id:"frenchforcommunicationpurposesI",
+        name:"French for Communication Purposes I",
+        code:"FREN 181",
+        year: 1,
+        semester:1
+    },
+    {
+        ID:"civil",
+        id:"introductiontoeconomicsI",
+        name:"Introduction to Economics I",
+        code:"ECON 151",
+        year: 1,
+        semester:1
+    },
+    {
+        ID:"civil",
+        id:"musicI",
+        name:"Music I",
+        code:"",
+        year: 1,
+        semester:1
+    },
+    {
+        ID:"civil",
+        id:"introductiontoethicsandmorality",
+        name:"Introduction to Ethics and Morality",
+        code:"ETIC 161",
+        year: 1,
+        semester:1
+    },
+    {
+        ID:"civil",
+        id:"introductiontoinformationtechnology",
+        name:"Introduction to Information Technology",
+        code:"CE 157",
+        year: 1,
+        semester:1
+    },
+    {
+        ID:"civil",
+        id:"propertiesofcivilengineeringmaterial",
+        name:"Properties of Civil Engineering Material",
+        code:"CE 154",
+        year: 1,
+        semester:2
+    },{
+        ID:"civil",
+        id:"communicationskillsII",
+        name:"Communication Skills II",
+        code:"ENGL 158",
+        year: 1,
+        semester:2
+    },
+    {
+        ID:"civil",
+        id:"elementaryfluidsmechanics",
+        name:"Elementary Fluids Mechanics",
+        code:"CE 156",
+        year: 1,
+        semester:2
+    },
+    {
+        ID:"civil",
+        id:"calculus",
+        name:"Calculus With Several Variables",
+        code:"MATH 152",
+        year: 1,
+        semester:2
+    },
+    {
+        ID:"civil",
+        id:"introductiontoeconomicsII",
+        name:"Introduction to Economics II",
+        code:"ECON 151",
+        year: 1,
+        semester:2
+    },
+    {
+        ID:"civil",
+        id:"frenchforcommunicationpurposesII",
+        name:"French for Communication Purposes II",
+        code:"FREN 182",
+        year: 1,
+        semester:2
+    },
+    {
+        ID:"civil",
+        id:"music",
+        name:"Music II",
+        code:"",
+        year: 1,
+        semester:2
+    },
+    {
+        ID:"civil",
+        id:"basicelectronics",
+        name:"Basic Electronics",
+        code:"EE 152",
+        year: 1,
+        semester:2
+    },
+    {
+        ID:"civil",
+        id:"civilengineeringdrawing",
+        name:"Civil Engineering Drawing",
+        code:"CE 164",
+        year: 1,
+        semester:2
+    },
+    {
+        ID:"civil",
+        id:"strengthofmaterials",
+        name:"Strength of Materials",
+        code:"CE 251",
+        year: 2,
+        semester:1
+    },
+    {
+        ID:"civil",
+        id:"theoryofstructures",
+        name:"Theory of Structures",
+        code:"CE 255",
+        year: 2,
+        semester:1
+    },
+    {
+        ID:"civil",
+        id:"computerprogramming",
+        name:"Computer Programming",
+        code:"CE 257",
+        year: 2,
+        semester:1
+    },
+    {
+        ID:"civil",
+        id:"engineeringgeology",
+        name:"Engineering Geology",
+        code:"CE 259",
+        year: 2,
+        semester:1
+    },
+    {
+        ID:"civil",
+        id:"principlesofdesign",
+        name:"Principes of Design",
+        code:"CE 261",
+        year: 2,
+        semester:1
+    },
+    {
+        ID:"civil",
+        id:"mathematicsIII",
+        name:"Mathematics III",
+        code:"MATH 251",
+        year: 2,
+        semester:1
+    },
+    {
+        ID:"civil",
+        id:"computeraideddesign",
+        name:"Computer Aided Design",
+        code:"CE 263",
+        year: 2,
+        semester:1
+    },
+    {
+        ID:"civil",
+        id:"engineeringinsociety",
+        name:"Engineering in Society",
+        code: "CENG 291",
+        year: 2,
+        semester:1
+    },
+    {
+        ID:"civil",
+        id:"literatureinenglish",
+        name:"Literature in English",
+        code:"ENGL 263",
+        year: 2,
+        semester:1
+    },
+    {
+        ID:"civil",
+        id:"fluidmechanics",
+        name:"Fluid Mechanics",
+        code: "CE 256",
+        year: 2,
+        semester:2
+    },
+    {
+        ID:"civil",
+        id:"soilandrockmechanics",
+        name:"Soil and Rock Mechanics",
+        code: "CE 260",
+        year: 2,
+        semester:2
+    },
+    {
+        ID:"civil",
+        id:"introductiontoenvironmentalengineering",
+        name:"Introduction to Environment Engineering",
+        code: "CE 264",
+        year: 2,
+        semester:2
+    },
+    {
+        ID:"civil",
+        id:"largescalesurveying",
+        name:"Large Scale Surveying",
+        code: "GE 282",
+        year: 2,
+        semester:2
+    },
+    {
+        ID:"civil",
+        id:"literatureinenglish",
+        name:"Literature in English",
+        code:"ENGL 264",
+        year: 2,
+        semester:2
+    },
+    {
+        ID:"civil",
+        id:"calculuswithanalysis",
+        name:"Calculus with Analysis",
+        code:"MATH 252",
+        year: 2,
+        semester:2
+    },
+    {
+        ID:"civil",
+        id:"probabilityandstatistics",
+        name:"Probability and Statistics",
+        code:"MATH 353",
+        year: 3,
+        semester:1
+    },
+    {
+        ID:"civil",
+        id:"structuralanalysis",
+        name:"Structural Analysis",
+        code:"CE 351",
+        year: 3,
+        semester:1
+    },
+    {
+        ID:"civil",
+        id:"reinforcedconcretedesign",
+        name:"Reinforced Concrete Design",
+        code:"CE 353",
+        year: 3,
+        semester:1
+    },
+    {
+        ID:"civil",
+        id:"hydrology",
+        name:"Hydrology",
+        code:"CE 355",
+        year: 3,
+        semester:1
+    },
+    {
+        ID:"civil",
+        id:"soilmechanics",
+        name:"Soil Mechanics",
+        code:"CE 359",
+        year: 3,
+        semester:1
+    },
+    {
+        ID:"civil",
+        id:"highwayandtransportationengineeringI",
+        name:"Highway and Transportation Engineering I",
+        code:"CE 367",
+        year: 3,
+        semester:1
+    },
+    {
+        ID:"civil",
+        id:"engineeringsurveying",
+        name:"Engineering Surveying",
+        code:"GE 381",
+        year: 3,
+        semester:1
+    }, 
+    {
+        ID:"civil",
+        id:"numericalanalysis",
+        name:"Numerical Analysis",
+        code:"MATH 353",
+        year: 3,
+        semester:1
+    },
+    {   
+        ID:"civil",
+        id:"foundationengineering",
+        name:"Foundation Engineering",
+        code:"CE 360",
+        year: 3,
+        semester:2
+    },
+    {
+        ID:"civil",
+        id:"hydraulicengineering",
+        name:"Hydraulic Engineering",
+        code:"CE 356",
+        year: 3,
+        semester:2
+    },
+    {
+        ID:"civil",
+        id:"civilengineeringquantities",
+        name:"Civil Engineering Quantities",
+        code:"CE 376",
+        year: 3,
+        semester:2
+    },
+    {
+        ID:"civil",
+        id:"integrateddesign",
+        name:"Integrated Design",
+        code:"CE 378",
+        year: 3,
+        semester:2
+    },
+    {
+        ID:"civil",
+        id:"highwayengineering",
+        name:"Highway Engineering",
+        code:"CE 368",
+        year: 3,
+        semester:2
+    },
+    {
+        ID:"metallurgical",
+        id:"numericalmethodsforengineers",
+        name:"Numerical Methods for Engineers",
+        code:"MSE 358",
+        year: 3,
+        semester:2
+    },
+    {
+        ID:"civil",
+        id:"steelandtimberdesign",
+        name:"Steel and Timber Design",
+        code:"CE 352",
+        year: 3,
+        semester:2
+    },
+    {
+        ID:"civil",
+        id:"environmentalqualityengineering",
+        name:"Environmental Quality Engineering",
+        code:"CE 364",
+        year: 3,
+        semester:2
+    },
+    {
+        ID:"civil",
+        id:"drainagesystems",
+        name:"Drainage Systems",
+        code:"CE 457",
+        year: 4,
+        semester:1
+    },
+    {
+        ID:"civil",
+        id:"engineeringeconomyandenterpreneurship",
+        name:"Engineering Economy and Enterpreneurship",
+        code:"CE 461",
+        year: 4,
+        semester:1
+    },
+    {
+        ID:"civil",
+        id:"highwayengineering",
+        name:"Highway Engineering",
+        code:"CE 467",
+        year: 4,
+        semester:1
+    },
+    {
+        ID:"civil",
+        id:"irrigationanddrainageengineering",
+        name:"Irrigation an Drainage Engineering",
+        code:"CE 471",
+        year: 4,
+        semester:1
+    },
+    {
+        ID:"civil",
+        id:"systemsengineeringI",
+        name:"Systems Engineering I",
+        code:"CE 475",
+        year: 4,
+        semester:1
+    },
+    {
+        ID:"civil",
+        id:"industrialtrainingreport",
+        name:"Industrial Training Report",
+        code:"CE 481",
+        year: 4,
+        semester:1
+    },
+    {
+        ID:"civil",
+        id:"civilengineeringdesign",
+        name:"Civil Engineering Design",
+        code:"CE 497",
+        year: 4,
+        semester:1
+    },
+    {
+        ID:"civil",
+        id:"waterresourcesengineeringII",
+        name:"Water Resources Engineering II",
+        code:"CE 458",
+        year: 4,
+        semester:2
+    },
+    {
+        ID:"civil",
+        id:"transportationengineering",
+        name:"Transportation Engineering",
+        code:"CE 468",
+        year: 4,
+        semester:2
+    },
+    {
+        ID:"civil",
+        id:"environmentalqualityengineeringII",
+        name:"Environmental Quality Engineering",
+        code:"CE 464",
+        year: 4,
+        semester:2
+    },
+    {
+        ID:"civil",
+        id:"project",
+        name:"Project",
+        code:"CE 498",
+        year: 4,
+        semester:2
+    },
+    {
+        ID:"civil",
+        id:"constructionmanagement",
+        name:"Construction Management",
+        code:"CE 462",
+        year: 4,
+        semester:2
+    }
+]
+
 
 
 

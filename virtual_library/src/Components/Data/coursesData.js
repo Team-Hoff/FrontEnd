@@ -4265,6 +4265,94 @@ export const CourseData=[
         semester:2
     },
     {
+        ID:"geomatic",
+        id: "geomaticmethods",
+        name:"Geomatic Methods",
+        code:"GE 451",
+        year: 4,
+        semester:1
+    },
+    {
+        ID:"geomatic",
+        id:"geodeticsurveyingII",
+        name:"Geodetic Surveying II",
+        code:"GE 451",
+        year: 4,
+        semester:1
+    },
+    {
+        ID:"geomatic",
+        id: "Engeconomyandentrepreneurshipdevelopment",
+        name:"Eng Economy and Entrepreneurship Development",
+        code:"CE 461",
+        year: 4,
+        semester:1
+    },
+    {
+        ID:"geomatic",
+        id:"LandandgeographicinformationsystemI",
+        name:"Land And Geographic Information System I",
+        code:"GE 463",
+        year: 4,
+        semester:1
+    },
+    {
+        ID:"geomatic",
+        id:"projectI",
+        name:"Project I",
+        code:"GE 491",
+        year: 4,
+        semester:1
+    },
+    {
+        ID:"geomatic",
+        id:"cadastralsurveying",
+        name:"Cadastral Surveying",
+        code:"GE 461",
+        year: 4,
+        semester:1
+    },
+    {
+        ID:"geomatic",
+        id:"landlawandregistration",
+        name:"Land Law and Registration",
+        code:"GE 472",
+        year: 4,
+        semester:2
+    },
+    {
+        ID:"geomatic",
+        id:"projectII",
+        name:"Project II",
+        code:"GE 492",
+        year: 4,
+        semester:2
+    },
+    {
+        ID:"geomatic",
+        id:"databasesystems",
+        name:"Database Systems",
+        code:"GE 464",
+        year: 4,
+        semester:2
+    },
+    {
+        ID:"geomatic",
+        id:"principlesofvaluationoflandandbuilding",
+        name:"Principles Of Valuation of Land and Building",
+        code:"GE 474",
+        year: 4,
+        semester:2
+    },
+    {
+        ID:"geomatic",
+        id:"professionalstudiesanddevelopment",
+        name:"Professional Studies and Development",
+        code:"GE 474",
+        year: 4,
+        semester:2
+    },
+    {
         ID:"aerospace",
         id:"algebra",
         name:"Algebra",
@@ -6268,18 +6356,9 @@ export const CourseData=[
         year: 4,
         semester:1
     },
-   
     {
         ID:"mechanical",
-        id:"",
-        name:"Crop Processing",
-        code:"AE 457",
-        year: 4,
-        semester:1
-    },
-    {
-        ID:"mechanical",
-        id:"",
+        id:"cropprocessing",
         name:"Crop Processing",
         code:"AE 457",
         year: 4,
@@ -7135,6 +7214,70 @@ export const CourseData=[
         code:"ME 161",
         year: 1,
         semester:1
+    }, 
+    {
+        ID:"geological",
+        id:"elementaryfluidsmechanics",
+        name:"Elementary Fluids Mechanics",
+        code:"CE 156",
+        year: 1,
+        semester:2
+    },
+    {
+        ID:"geological",
+        id:"civilengineeringdrawing",
+        name:"Civil Engineering Drawing",
+        code:"CE 164",
+        year: 1,
+        semester:2
+    },
+    {
+        ID:"geological",
+        id:"inductoryeconomicsII",
+        name:"Inductory Economics II",
+        code:"ECON 152",
+        year: 1,
+        semester:2
+    },
+    {
+        ID:"geological",
+        id:"basicelectronics",
+        name:"Basic Electronics",
+        code:"EE 152",
+        year: 1,
+        semester:2
+    },
+    {
+        ID:"geological",
+        id:"communicationskillsII",
+        name:"Communication Skills II",
+        code:"ENGL 158",
+        year: 1,
+        semester:2
+    },
+    {
+        ID:"geological",
+        id:"basicmineralscience",
+        name:"Basic Mineral Science",
+        code:"GED 152",
+        year: 1,
+        semester:2
+    },
+    {
+        ID:"geological",
+        id:"computerapplications",
+        name:"Computer Applications",
+        code:"GED 164",
+        year: 1,
+        semester:2
+    },
+    {
+        ID:"geological",
+        id:"calculuswithseveralvariables",
+        name:"Calculus with Several Variables",
+        code:"MATH 152",
+        year: 1,
+        semester:2
     },  
     {
         ID:"geological",

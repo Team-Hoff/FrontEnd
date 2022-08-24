@@ -15,7 +15,7 @@ function ProgramCard() {
                     <Card.Body>
                     <Card.Title>{program.name}</Card.Title>
                         <Card.Text>
-                            Department of {program.name}. All course materials are available.
+                            Department of {program.name}.<br/> All course materials are available.
                         </Card.Text>
                         <Link to={`/home/${program.id}`}  style={{color: 'white', textDecoration: 'none'}}><Button variant="primary" style={{background: 'grey', borderColor: 'grey'}}>{program.name}</Button></Link>
                     </Card.Body>

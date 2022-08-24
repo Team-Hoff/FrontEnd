@@ -85,12 +85,6 @@ export const ProgramData=[
         pic: `${mat}`
     },
     {
-        id: 'mechanical',
-        name: 'Mechanical Engineering',
-        img: `${Mechanical}`,
-        pic: `${mech}`
-    },
-    {
         id: 'civil',
         name: 'Civil Engineering',
         img: `${Civil}`,
@@ -98,9 +92,15 @@ export const ProgramData=[
     },
     {
         id: 'telecom',
-        name: 'Telecommunication Engineering',
+        name: 'Telecom Engineering',
         img: `${Telecom}`,
         pic: `${telecom}`
+    },
+    {
+        id: 'petroleum',
+        name: 'Petroleum Engineering',
+        img: `${Petroleum}`,
+        pic: `${petroleum}`
     }, 
     {
         id: 'petrochemical',
@@ -109,16 +109,16 @@ export const ProgramData=[
         pic: `${petrochem}`
     },
     {
-        id: 'petroleum',
-        name: 'Petroleum Engineering',
-        img: `${Petroleum}`,
-        pic: `${petroleum}`
-    },
-    {
         id: 'metallurgical',
         name: 'Metallurgical Engineering',
         img: `${Metallurgical}`,
         pic: `${metall}`
     },
+    {
+        id: 'mechanical',
+        name: 'Mechanical Engineering',
+        img: `${Mechanical}`,
+        pic: `${mech}`
+    }
     
 ]

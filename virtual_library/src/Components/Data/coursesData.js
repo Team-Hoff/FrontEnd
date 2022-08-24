@@ -7509,7 +7509,73 @@ export const CourseData=[
         code:"GED 368",
         year: 3,
         semester:2
-    } 
+    },
+    {
+        ID:"geological",
+        id:"geotechnicalengineering",
+        name:"GeoTechnical Engineering",
+        code:"CE 477",
+        year: 4,
+        semester:1
+    },
+    {
+        ID:"geological",
+        id:"industrialtraining",
+        name:"Industrial Training",
+        code:"GED 471",
+        year: 4,
+        semester:1
+    },
+    {
+        ID:"geological",
+        id:"regionalgeology",
+        name:"Regional Geology",
+        code:"GED 451",
+        year: 4,
+        semester:1
+    },
+    {
+        ID:"geological",
+        id:"projectI",
+        name:"Project I",
+        code:"GED 457",
+        year: 4,
+        semester:1
+    },
+    {
+        ID:"geological",
+        id:"engineeringgeologyinvestigation",
+        name:"Engineering Geology Investigation",
+        code:"GED 465",
+        year: 4,
+        semester:1
+    },
+    {
+        ID:"geological",
+        id:"principleofhyrdrogeology",
+        name:"Principle of Hyrdrogeology",
+        code:"GED 475",
+        year: 4,
+        semester:1
+    },
+    {
+        ID:"geological",
+        id:"explorationgeophysics",
+        name:"Exploration GeoPhysics",
+        code:"GED 461",
+        year: 4,
+        semester:1
+    },
+    {
+        ID:"geological",
+        id:"explorationgeochemistry",
+        name:"Exploration GeoChemistry",
+        code:"GED 459",
+        year: 4,
+        semester:1
+    },
+      
+
     
     
 ]

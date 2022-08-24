@@ -1,6 +1,6 @@
-export const COE=[
+export const Mechanical=[
     {
-        ID:"agricultural",
+        ID:"mechanical",
         id:"algebra",
         name:"Algebra",
         code:"MATH 151",
@@ -8,7 +8,7 @@ export const COE=[
         semester:1
     }, 
     {
-        ID:"agricultural",
+        ID:"mechanical",
         id:"appliedelectricity",
         name:"Applied Electricity",
         code:"EE 151",
@@ -16,31 +16,23 @@ export const COE=[
         semester:1
     }, 
     {
-        ID:"agricultural",
+        ID:"mechanical",
         id:"communicationskills",
         name:"Communication Skills",
         code:"ENGL 157",
         year: 1,
         semester:1
     }, 
-    {
-        ID:"agricultural",
-        id:"agriculturalmeteorology",
-        name:"Agricultural Meteorology",
-        code:"AE 153",
-        year:1,
-        semester:1
-    },
    
-    // {
-    //     id:"informationtechnology",
-    //     name:"Introduction to Information Technology",
-    //     code:"COE 158",
-    //     year: 1,
-    //     semester:1
-    // },
+     {
+         id:"informationtechnology",
+         name:"Introduction to Information Technology",
+         code:"ME 157",
+         year: 1,
+         semester:1
+     },
     {
-        ID:"agricultural",
+        ID:"mechanical",
         id:"technicaldrawing",
         name:"Technical Drawing",
         code:"ME 159",
@@ -48,7 +40,7 @@ export const COE=[
         semester:1
     },
     {
-        ID:"agricultural",
+        ID:"mechanical",
         id:"environmentalstudies",
         name:"Environmental Studies",
         code:"CE 155",
@@ -56,15 +48,15 @@ export const COE=[
         semester:1
     },
     {
-        ID:"agricultural",
+        ID:"mechanical",
         id:"enginetechnology",
         name:"Engine Technology",
-        code:"COE 153",
+        code:"ME 195",
         year: 1,
         semester:1
     },
    {
-        ID:"agricultural",
+        ID:"mechanical",
         id:"communicationskillsII",
         name:"Communication Skills II",
         code:"ENGL 158",
@@ -72,23 +64,23 @@ export const COE=[
         semester:2
     },
     {
-            id:"informationtechnology",
-            name:"Introduction to Information Technology",
-            code:"AE 158",
+            id:"programmingforengineers",
+            name:"Computer Programming for Engineers",
+            code:"ME 158",
             year: 1,
             semester:2
     },
 
     {
-        ID:"agricultural",
-        id:"basicmechanics",
-        name:"Basic Mechanics",
-        code:"ME 162",
+        ID:"mechanical",
+        id:"staticsandsolidmechanics",
+        name:"Statics and Solid Mechanics",
+        code:"ME 164",
         year: 1,
         semester:2
     }, 
     {
-        ID:"agricultural",
+        ID:"mechanical",
         id:"basicelectronics",
         name:"Basic Electronics",
         code:"EE 152",
@@ -96,56 +88,41 @@ export const COE=[
         semester:2
     },
     {
-        ID:"agricultural",
-        id:"basicagricultural",
-        name:"Basic Agriculture",
-        code:"EE 152",
+        ID:"mechanical",
+        id:"designproject",
+        name:"First Year Design Project",
+        code:"ME 174",
         year: 1,
         semester:2
     },
     {
-        ID:"agricultural",
-        id:"technicaldrawing",
+        ID:"mechanical",
+        id:"engineeringdrawing",
         name:"Engineering Drawing",
         code:"ME 160",
         year: 1,
-        semester:1
+        semester:2
     },
     {
-        ID:"agricultural",
+        ID:"mechanical",
         id:"calculus",
         name:"Calculus With Analysis",
         code:"MATH 152",
         year: 1,
         semester:2
     },
-    {
-        ID:"agricultural",
-        id:"engineeringworkshoppractice",
-        name:"Engineering Workshop Practice ",
-        code:"AE 196",
-        year: 1,
-        semester:2
-    },
    
     {
-        ID:"agricultural",
+        ID:"mechanical",
         id:"accountingI",
         name:"Accounting I",
         code:"CSM 157",
         year: 2,
         semester:1
     },
+   
     {
-        ID:"agricultural",
-        id:"thermodynamicsI",
-        name:" Thermodynamics I",
-        code:"ME 265",
-        year: 2,
-        semester:1
-    },
-    {
-        ID:"agricultural",
+        ID:"mechanical",
         id:"frenchI",
         name:"French for Communication I",
         code:"FREN 181",
@@ -153,539 +130,16 @@ export const COE=[
         semester:1
     },
     {
-        ID:"agricultural",
+        ID:"mechanical",
         id:"economicsI",
         name:"Introductory Economics I",
         code:"ECON 151",
         year: 2,
         semester:1
     },
+ 
     {
-        ID:"agricultural",
-        id:"fluidmechanicsI",
-        name:"Fluid Mechanics I",
-        code:"ME 251",
-        year: 2,
-        semester:1
-    },
-    {
-        ID:"agricultural",
-        id:"literatureinenglish",
-        name:"Literature in English",
-        code:"ENGL 263",
-        year: 2,
-        semester:1
-    },
-    {
-        ID:"agricultural",
-        id:"strengthofmaterials",
-        name:"Strength of Materials",
-        code:"ME 255",
-        year: 2,
-        semester:1
-    },
-    {
-        ID:"agricultural",
-        id:"engineeringinsociety",
-        name:"Engineering In Society",
-        code:"CENG 291",
-        year: 2,
-        semester:1
-    },
-    {
-        ID:"agricultural",
-        id:"differentialequations",
-        name:"Differential Equations",
-        code:"MATH 251",
-        year: 2,
-        semester:1
-    },
-    {
-        ID:"agricultural",
-        id:"applicationofagriculturalgraphics",
-        name:"Application of Agricultural Graphics",
-        code:"ME 259",
-        year: 2,
-        semester:1
-    },
-    {
-        ID:"agricultural",
-        id:"mechanicalengineeringlabI",
-        name:"Mechanical Engineering Lab I",
-        code:"ME 295",
-        year: 2,
-        semester:1
-    },
-    {
-        ID:"agricultural",
-        id:"principlesofsurveying",
-        name:"Principles of Surveying",
-        code:"GE 286",
-        year: 2,
-        semester:2
-    },
-    {
-        ID:"agricultural",
-        id:"multivariableanalysis",
-        name:"Multivariable Analysis",
-        code:"MATH 252",
-        year: 2,
-        semester:2
-    },
-    {
-        ID:"agricultural",
-        id:"electricmachines",
-        name:" Electrical Engineering Machines",
-        code:"EE 252",
-        year: 2,
-        semester:2
-    },
-    {
-        ID:"agricultural",
-        id:"theoryofmechanics",
-        name:"Theory of Mechanics",
-        code:"ME 262",
-        year: 2,
-        semester:2
-    },
-    {
-        ID:"agricultural",
-        id:"mechanicalengineeringmaterials",
-        name:"Mechanical Engineering Materials",
-        code:"ME 282",
-        year: 2,
-        semester:2
-    },
-    {
-        ID:"agricultural",
-        id:"literatureinenglishII",
-        name:"Literature in English II",
-        year: 2,
-        semester:2
-    },
-    //{
-        //ID:"agricultural",
-        //id:"partialdifferentials",
-        //name:"PartialDifferentials",
-        //year: 2,
-      //  semester:2
-    //},
-    {
-        ID:"agricultural",
-        id:"accountingII",
-        name:"Accounting II",
-        year: 2,
-        semester:2
-    },
-    {
-        ID:"agricultural",
-        id:"frenchII",
-        name:"French for Communication II",
-        year: 2,
-        semester:2
-    },
-    {
-        ID:"agricultural",
-        id:"economicsII",
-        name:"Introductory Economics II",
-        year: 2,
-        semester:2
-    },
-    {
-        ID:"agricultural",
-        id:"mechanicalengineeringlabII",
-        name:"Mechanical Engineering Lab II",
-        code:"ME 296",
-        year: 2,
-        semester:2
-    },
-    {
-        ID:"agricultural",
-        id:"soilandwaterengineering",
-        name:"Soil and Water Engineering",
-        code:"AE 351",
-        year: 3,
-        semester:1
-    },
-    {
-        ID:"agricultural",
-        id:"agriculturalulturalmaterialshandling",
-        name:"Agricultural Materials Handling & Processing",
-        code:"AE 353",
-        year: 3,
-        semester:1
-    },
-    {
-        ID:"agricultural",
-        id:"machinedesignI",
-        name:"Machine Design I",
-        code:"AE 373",
-        year: 3,
-        semester:1
-    },
-    {
-        ID:"agricultural",
-        id:"microprocessors",
-        name:"Strength of Materials II",
-        code:"ME 355",
-        year: 3,
-        semester:1
-    },
-    {
-        ID:"agricultural",
-        id:"numericalmethods",
-        name:"Numerical Analysis",
-        code:"MATH 351",
-        year: 3,
-        semester:1
-    },
-    {
-        ID:"agricultural",
-        id:"thermodynamicsII",
-        name:"Thermodynamics II",
-        code:"ME 365",
-        year: 3,
-        semester:1
-    },
-   
-    {   ID:"agricultural",
-        id:"applicationofsoilmechanics",
-        name:"Application of Soil Mechanics",
-        code:"AE 35",
-        year: 3,
-        semester:2
-    },
-    {
-        ID:"agricultural",
-        id:"farmpower",
-        name:"Farm Power and Machinery",
-        code:"AE 356",
-        year: 3,
-        semester:2
-    },
-    {
-        ID:"agricultural",
-        id:"renewableenergy",
-        name:"Renewable Energy",
-        code:"AE 358",
-        year: 3,
-        semester:2
-    },
-    {
-        ID:"agricultural",
-        id:"ruralengineering",
-        name:"Rural Engineering",
-        code:"AE 360",
-        year: 3,
-        semester:2
-    },
-    {
-        ID:"agricultural",
-        id:"heattransfer",
-        name:"Heat Transfer",
-        code:"ME 366",
-        year: 3,
-        semester:2
-    },
-    {
-        ID:"agricultural",
-        id:"introductiontoCAD/CAM",
-        name:"Introduction to CAD/CAM",
-        code:"ME 376",
-        year: 3,
-        semester:2
-    },
-    {
-        ID:"agricultural",
-        id:"machinedesign",
-        name:"Machine Design",
-        code:"ME 374",
-        year: 3,
-        semester:2
-    },
-    {
-        ID:"agricultural",
-        id:"projectI",
-        name:"Project I",
-        year: 4,
-        semester:1
-    },
-    {
-        ID:"agricultural",
-        id:"irrigationdrainage",
-        name:"Irrigation & Drainage",
-        code:"AE 451",
-        year: 4,
-        semester:1
-    },
-    {
-        ID:"agricultural",
-        id:"environmentalcontrol ",
-        name:"Environmental Control & Livestock Housing",
-        code:"AE 453",
-        year: 4,
-        semester:1
-    },
-    {
-        ID:"agricultural",
-        id:"cropprocessing",
-        name:"Crop Processing",
-        code:"AE 457",
-        year: 4,
-        semester:1
-    },
-    {
-        ID:"agricultural",
-        id:"advancedfarmpower",
-        name:"Advanced Farm Power & Machinery",
-        code:"AE 459",
-        year: 4,
-        semester:1
-    },
-    {
-        ID:"agricultural",
-        id:"farmstructures",
-        name:"Farm Structures",
-        code:"AE 471",
-        year: 4,
-        semester:1
-    },
-    {
-        ID:"agricultural",
-        id:"engineeringeconnomics",
-        name:"Engineering Econnomics & Management",
-        code:"AE 491",
-        year: 4,
-        semester:1
-    },
-    {
-        ID:"agricultural",
-        id:"soilandwaterengineeringII",
-        name:"Soil and Water Engineering II",
-        code:"AE 452",
-        year: 4,
-        semester:2
-    },
-    {
-        ID:"agricultural",
-        id:"croplossestheircontrol",
-        name:"Crop Losses & Their Control",
-        code:"AE 458",
-        year: 4,
-        semester:2
-    },
-    {
-        ID:"agricultural",
-        id:"Maintenancerepairs ",
-        name:"Maintenance & Repairs of Agricultural Machines",
-        code:"AE 460",
-        year: 4,
-        semester:2
-    },
-    {
-        ID:"agricultural",
-        id:"cropstorage",
-        name:"Crop Storage & Storage Structures",
-        code:"AE 464",
-        year: 4,
-        semester:2
-    },
-    {
-        ID:"agricultural",
-        id:"farmmachinerydesign",
-        name:"Farm Machinery Design",
-        code:"AE 482",
-        year: 4,
-        semester:2
-    },
-    {
-        ID:"agricultural",
-        id:"managemententrepreneurshipdevelopment",
-        name:"Management & Entrepreneurship Development",
-        code:"ME 492",
-        year: 4,
-        semester:2
-    },
-    {
-        ID:"agricultural",
-        id:"projectII",
-        name:"Project II",
-        code:"AE 498",
-        year: 4,
-        semester:2
-    },
-   // {
-     //   ID:"agricultural",
-       // id:"faultdiagnosisandfailuretolerance",
-        //name:"Fault Diagnosis and Failure Tolerance",
-        //year: 4,
-        //semester:2
-    //}
-]
-
-export const ELEESA=[
-    {
-        ID:"electrical",
-        id:"algebra",
-        name:"Algebra",
-        code:"151",
-        year: 1,
-        semester:1
-    }, 
-    {
-        ID:"electrical",
-        id:"appliedelectricity",
-        name:"Applied Electricity",
-        code:"EE 151",
-        year:1,
-        semester:1
-    }, 
-    {
-        ID:"electrical",
-        id:"communicationskills",
-        name:"Communication Skills",
-        code:"ENGL 157",
-        year: 1,
-        semester:1
-    }, 
-    {
-        ID:"electrical",
-        id:"basicmechanics",
-        name:"Basic Mechanics",
-        code:"ME 161",
-        year: 1,
-        semester:1
-    }, 
-    {
-        ID:"electrical",
-        id:"technicaldrawing",
-        name:"Technical Drawing",
-        code:"ME 159",
-        year: 1,
-        semester:1
-    },
-    {
-        ID:"electrical",
-        id:"environmentalstudies",
-        name:"Environmental Studies",
-        code:"CE 155",
-        year: 1,
-        semester:1
-    },
-    {
-        ID:"electrical",
-        id:"enginetechnology",
-        name:"Engineering Technology",
-        code:"EE 153",
-        year: 1,
-        semester:1
-    },
-    {
-        ID:"electrical",
-        id:"appliedthermodynamics",
-        name:"Applied Thermodynamics",
-        code:"ME 166",
-        year: 1,
-        semester:2
-    },
-    {
-        ID:"electrical",
-        id:"basicelectronics",
-        name:"Basic Electronics",
-        code:"EE 152",
-        year: 1,
-        semester:2
-    },
-    {
-        ID:"electrical",
-        id:"calculus",
-        name:"Calculus",
-        code:"MATH 152",
-        year: 1,
-        semester:2
-    },
-    {
-        ID:"electrical",
-        id:"electricmachines",
-        name:"Electric Machines",
-        code:"EE 172",
-        year: 1,
-        semester:2
-    },
-    {
-        ID:"electrical",
-        id:"introductiontoit",
-        name:"Introduction to IT",
-        code:"COE 158",
-        year: 1,
-        semester:2
-    },
-    {
-        ID:"electrical",
-        id:"electromechanicalEneryConverionandtransformers",
-        name:"Electromechanical Enery Converion and Transformers",
-        code:"EE 162",
-        year: 1,
-        semester:2
-    },
-    {
-        ID:"electrical",
-        id:"communicationskillsII",
-        name:"Communication Skills II",
-        code:"ENGL 158",
-        year: 1,
-        semester:2
-    },
-    {
-        ID:"electrical",
-        id:"differentialequations",
-        name:"Differential Equations",
-        code:"MATH 251",
-        year: 2,
-        semester:1
-    },
-    {
-        ID:"electrical",
-        id:"cprogramming",
-        name:"C Programming",
-        code:"COE 251",
-        year: 2,
-        semester:1
-    },
-    {
-        ID:"electrical",
-        id:"asynchronousanddcmachines",
-        name:"Asynchronous and DC machines",
-        code:"EE 261",
-        year: 2,
-        semester:1
-    },
-    {
-        ID:"electrical",
-        id:"semiconductordevices",
-        name:"Semiconductor Devices",
-        code:"EE 271",
-        year: 2,
-        semester:1
-    },
-    {
-        ID:"electrical",
-        id:"circuittheory",
-        name:"Circuit Theory",
-        code:"EE 287",
-        year: 2,
-        semester:1
-    },
-    {
-        ID:"electrical",
-        id:"electricalengineeringlabI",
-        name:"Electrical Engineering Lab I",
-        code:"EE 291",
-        year: 2,
-        semester:1
-    },
-    {
-        ID:"electrical",
+        ID:"mechanical",
         id:"literatureinenglishI",
         name:"Literature in English I",
         code:"ENGL 263",
@@ -693,7 +147,792 @@ export const ELEESA=[
         semester:1
     },
     {
-        ID:"electrical",
+        ID:"mechanical",
+        id:"strengthofmaterialsI",
+        name:"Strength of Materials I",
+        code:"ME 255",
+        year: 2,
+        semester:1
+    },
+    {
+        ID:"mechanical",
+        id:"fluidmechanics",
+        name:"Introduction To Fluid Mechanics",
+        code:"PE 255",
+        year: 2,
+        semester:1
+    },
+    {
+        ID:"mechanical",
+        id:"differentialequations",
+        name:"Differential Equations",
+        code:"MATH 251",
+        year: 2,
+        semester:1
+    },
+    {
+        ID:"mechanical",
+        id:"applicationofmechanicalgraphics",
+        name:"Application of Computer Graphics",
+        code:"ME 259",
+        year: 2,
+        semester:1
+    },
+    {
+        ID:"mechanical",
+        id:"mechanicalengineeringlabI",
+        name:"Mechanical Engineering Lab I",
+        code:"ME 295",
+        year: 2,
+        semester:1
+    },
+    {
+        ID:"mechanical",
+        id:"dynamicsofsolidmechanics",
+        name:"Dynamics of Solid Mechanics",
+        code:"ME 261",
+        year: 2,
+        semester:1
+    },
+    {
+        ID:"mechanical",
+        id:"thermodynamicsI",
+        name:" Thermodynamics I",
+        code:"ME 265",
+        year: 2,
+        semester:2
+    },
+    {
+        ID:"mechanical",
+        id:"mechanismssynthesisandanalysis",
+        name:"Mechanisms Synthesis and Analysis I",
+        code:"ME 262",
+        year: 2,
+        semester:2
+    },
+    {
+        ID:"mechanical",
+        id:"fluiddynamicsI",
+        name:"Fluid Dynamics I",
+        code:"ME 252",
+        year: 2,
+        semester:1
+    },
+    {
+        ID:"mechanical",
+        id:"calculuswithseveralvariables",
+        name:"Calculus with Several Variables",
+        code:"MATH 252",
+        year: 2,
+        semester:2
+    },
+    {
+        ID:"mechanical",
+        id:"manutech",
+        name:" Manufacturing Technology",
+        code:"EE 252",
+        year: 2,
+        semester:2
+    },
+    {
+        ID:"mechanical",
+        id:"mechanicalengineeringlabII",
+        name:"Mechanical Engineering Lab II",
+        code:"ME 296",
+        year: 2,
+        semester:2
+    },
+    {
+        ID:"mechanical",
+        id:"literatureinenglishII",
+        name:"Literature in English II",
+        year: 2,
+        semester:2
+    },
+    //{
+        //ID:"mechanical",
+        //id:"partialdifferentials",
+        //name:"PartialDifferentials",
+        //year: 2,
+      //  semester:2
+    //},
+    {
+        ID:"mechanical",
+        id:"accountingII",
+        name:"Accounting II",
+        year: 2,
+        semester:2
+    },
+    {
+        ID:"mechanical",
+        id:"frenchII",
+        name:"French for Communication II",
+        year: 2,
+        semester:2
+    },
+    {
+        ID:"mechanical",
+        id:"economicsII",
+        name:"Introductory Economics II",
+        year: 2,
+        semester:2
+    },
+    {
+        ID:"mechanical",
+        id:"mechanicalengineeringlabII",
+        name:"Mechanical Engineering Lab II",
+        code:"ME 296",
+        year: 2,
+        semester:2
+    },
+    {
+        ID:"mechanical",
+        id:"prob&stats",
+        name:"Probability and Statistics",
+        code:"MATH 353",
+        year: 3,
+        semester:1
+    },
+    {
+        ID:"mechanical",
+        id:"mechanicalulturalmaterialshandling",
+        name:"Dynamics of Machinery",
+        code:"ME 361",
+        year: 3,
+        semester:1
+    },
+    {
+        ID:"mechanical",
+        id:"machinedesign",
+        name:"Machine Element Design ",
+        code:"AE 373",
+        year: 3,
+        semester:1
+    },
+    {
+        ID:"mechanical",
+        id:"automaticcontrolI",
+        name:"Automatic Control I",
+        code:"ME 363",
+        year: 3,
+        semester:1
+    },
+    {
+        ID:"mechanical",
+        id:"numericalmethods",
+        name:"Numerical Methods",
+        code:"MATH 351",
+        year: 3,
+        semester:1
+    },
+    {
+        ID:"mechanical",
+        id:"thermodynamicsII",
+        name:"Thermodynamics II",
+        code:"ME 365",
+        year: 3,
+        semester:1
+    },
+    {
+        ID:"mechanical",
+        id:"mechanicalengineeringlabIII",
+        name:"Mechanical Engineering Lab III",
+        code:"ME 296",
+        year: 3,
+        semester:1
+    },
+    {
+        ID:"mechanical",
+        id:"keyboardskillsI",
+        name:"Keyboard Skills I",
+        code:"MUS 153",
+        year: 3,
+        semester:1
+    },
+    {
+        ID:"mechanical",
+        id:"Introductiontosoundeng",
+        name:"Introduction to Sound Engineering ",
+        code:"MUS 159",
+        year: 3,
+        semester:1
+    },
+    {
+        ID:"mechanical",
+        id:"traditionalafricandance",
+        name:"Traditional African Dance Forms",
+        code:"PAA 151",
+        year: 3,
+        semester:1
+    },
+    {
+        ID:"mechanical",
+        id:"fluiddynamicsII",
+        name:"Fluid Dynamics II",
+        code:"ME 252",
+        year: 3,
+        semester:2
+    },
+    {
+        ID:"mechanical",
+        id:"strengthofmaterialsII",
+        name:"Strength of Materials II",
+        code:"ME 255",
+        year: 3,
+        semester:2
+    },
+   
+    {
+        ID:"mechanical",
+        id:"heattransfer",
+        name:"Heat Transfer",
+        code:"ME 366",
+        year: 3,
+        semester:2
+    },
+    {
+        ID:"mechanical",
+        id:"machinedesign",
+        name:"Machine Design",
+        code:"ME 374",
+        year: 3,
+        semester:2
+    },
+    {
+        ID:"mechanical",
+        id:"mechanicalengineeringlabIV",
+        name:"Mechanical Engineering Lab IV",
+        code:"ME 396",
+        year: 3,
+        semester:2
+    },
+    {
+        ID:"mechanical",
+        id:"electricalmachines",
+        name:"Electrical Engineering Machines",
+        code:"EE 252",
+        year: 3,
+        semester:2
+    },
+    {
+        ID:"mechanical",
+        id:"vibrationI",
+        name:"Vibrations I",
+        code:"ME 376",
+        year: 3,
+        semester:2
+    },
+    {
+        ID:"mechanical",
+        id:"industrialengergonomics",
+        name:"Industrial Engineering and Ergonomics",
+        code:"ME 394",
+        year: 3,
+        semester:2
+    },
+    {
+        ID:"mechanical",
+        id:"hydraulicsandpneumatics",
+        name:"Hydraulics and Pneumatics",
+        year: 4,
+        semester:1
+    },
+    {
+        ID:"mechanical",
+        id:"automaticcontrolII",
+        name:"Automatic Control II",
+        code:"ME 463",
+        year: 4,
+        semester:1
+    },
+    {
+        ID:"mechanical",
+        id:"engeconomyandmanagement",
+        name:"Engineering Economy and Management",
+        code:"ME 491",
+        year: 4,
+        semester:1
+    },
+    {
+        ID:"mechanical",
+        id:"projectI",
+        name:"Final Year Project I",
+        code:"ME 491",
+        year: 4,
+        semester:1
+    },
+    {
+        ID:"mechanical",
+        id:"vibrationII",
+        name:"Vibrations II",
+        code:"ME 461",
+        year: 4,
+        semester:1
+    },
+    {
+        ID:"mechanical",
+        id:"strengthofmaterialsIII",
+        name:"Strength of Materials III",
+        code:"ME 455",
+        year: 4,
+        semester:1
+    },
+   
+    {
+        ID:"mechanical",
+        id:"",
+        name:"Crop Processing",
+        code:"AE 457",
+        year: 4,
+        semester:1
+    },
+    {
+        ID:"mechanical",
+        id:"",
+        name:"Crop Processing",
+        code:"AE 457",
+        year: 4,
+        semester:1
+    },
+    {
+        ID:"mechanical",
+        id:"designofvehiclestructure",
+        name:"Design of Vehicle Structures",
+        code:"ME 485",
+        year: 4,
+        semester:1
+    },
+    {
+        ID:"mechanical",
+        id:"maintenanaceandmanagementoftransport",
+        name:"Maintenance and Management of Transport ",
+        code:"ME 489",
+        year: 4,
+        semester:1
+    },
+    {
+        ID:"mechanical",
+        id:"vehiclepowertrainsystem",
+        name:"Vehicle Power Train System",
+        code:"ME 487",
+        year: 4,
+        semester:1
+    },
+    {
+        ID:"mechanical",
+        id:"machinetoolsdesign",
+        name:"Machine Tools Design",
+        code:"ME 471",
+        year: 4,
+        semester:1
+    },
+    {
+        ID:"mechanical",
+        id:"computerdesignmanufacturing",
+        name:"Computer Aided Design and Manufacturing",
+        code:"ME 473",
+        year: 4,
+        semester:1
+    },
+    {
+        ID:"mechanical",
+        id:"productionengineeringI",
+        name:"Production Engineering I",
+        code:"ME 477",
+        year: 4,
+        semester:1
+    },
+    {
+        ID:"mechanical",
+        id:"facilitiesdesign",
+        name:"Facilities Design",
+        code:"ME 469",
+        year: 4,
+        semester:1
+    },
+    {
+        ID:"mechanical",
+        id:"operationsresearch",
+        name:"Operations Research",
+        code:"ME 499",
+        year: 4,
+        semester:1
+    },
+    {
+        ID:"mechanical",
+        id:"behaviourofrealfluids",
+        name:"Behaviour of Real Fluids",
+        code:"ME 451",
+        year: 4,
+        semester:1
+    },
+    {
+        ID:"mechanical",
+        id:"airconditioning",
+        name:"Air Conditioning and Refrieration",
+        code:"ME 465",
+        year: 4,
+        semester:1
+    },
+    {
+        ID:"mechanical",
+        id:"renewableenergy",
+        name:"Renewable Energy Conversion",
+        code:"ME 467",
+        year: 4,
+        semester:1
+    },
+    {
+        ID:"mechanical",
+        id:"engineeringmaterialsII",
+        name:"Engineering Materials II",
+        code:"ME 481",
+        year: 4,
+        semester:1
+    },
+    {
+        ID:"mechanical",
+        id:"compositematerials",
+        name:"Composite Materials",
+        code:"MSE 451",
+        year: 4,
+        semester:1
+    },
+    {
+        ID:"mechanical",
+        id:"mechatronics",
+        name:"Mechatronics",
+        code:"ME 483",
+        year: 4,
+        semester:1
+    },
+    {
+        ID:"mechanical",
+        id:"mechanismssynthesisandanalysisII",
+        name:"Mechanisms Synthesis and Analysis II",
+        code:"ME 262",
+        year: 4,
+        semester:2
+    },
+    {
+        ID:"mechanical",
+        id:"entrepreneurshipdevelopment",
+        name:"Entrepreneurship Development and Management",
+        code:"ME 492",
+        year: 4,
+        semester:2
+    },
+    {
+        ID:"mechanical",
+        id:"projectI",
+        name:"Final Year Project II",
+        code:"ME 498",
+        year: 4,
+        semester:2
+    },
+    {
+        ID:"mechanical",
+        id:"instrumentation",
+        name:"Instrumentation",
+        code:"ME 464",
+        year: 4,
+        semester:2
+    },
+    {
+        ID:"mechanical",
+        id:"maintenanceengineering",
+        name:"Maintenance Engineering",
+        code:"ME 494",
+        year: 4,
+        semester:2
+    },
+    {
+        ID:"mechanical",
+        id:"finiteelementmethod",
+        name:"Finite Element Method",
+        code:"ME 456",
+        year: 4,
+        semester:2
+    },
+    {
+        ID:"mechanical",
+        id:"vehiclecontrol",
+        name:"Vehicle Control,Suspension and Stability",
+        code:"ME 486",
+        year: 4,
+        semester:2
+    },
+    {
+        ID:"mechanical",
+        id:"internalcombustionengine",
+        name:"Internal Combustion Engine",
+        code:"ME 468",
+        year: 4,
+        semester:2
+    },
+    {
+        ID:"mechanical",
+        id:"discreteeventsimulation",
+        name:"Discrete Event Simulation",
+        code:"457",
+        year: 4,
+        semester:1
+    },
+    {
+        ID:"mechanical",
+        id:"machineshopandfactorydesign",
+        name:"Machine Shop and Fatory Design",
+        code:"ME 472",
+        year: 4,
+        semester:2
+    },
+    {
+        ID:"mechanical",
+        id:"productionengineeringII",
+        name:"Production Engineering II",
+        code:"ME 478",
+        year: 4,
+        semester:2
+    },
+    {
+        ID:"mechanical",
+        id:"engineeringmaterialsprocess",
+        name:"Engineering Materials Processing",
+        code:"ME 481",
+        year: 4,
+        semester:1
+    },
+    {
+        ID:"mechanical",
+        id:"humanfactorsandergonomics",
+        name:"Human Factors & Ergonomics",
+        code:"ME 494",
+        year: 4,
+        semester:2
+    },
+    {
+        ID:"mechanical",
+        id:"productionplanningcontrol",
+        name:"Production Planning and Control",
+        code:"ME 474 ",
+        year: 4,
+        semester:2
+    },
+    {
+        ID:"mechanical",
+        id:"fluidmachinery",
+        name:"Fluid Machinery",
+        code:"ME 452",
+        year: 4,
+        semester:2
+    },
+    {
+        ID:"mechanical",
+        id:"automationandproductionsystem",
+        name:"Automation and Production Systems",
+        code:"ME 470",
+        year: 4,
+        semester:2
+    },
+    {
+        ID:"mechanical",
+        id:"automotiveelectrical",
+        name:"Automotive Electrical and Electronic Systems",
+        code:"ME 488",
+        year: 4,
+        semester:2
+    },
+]
+
+export const Petroleum=[
+    {
+        ID:"petroleum",
+        id:"algebra",
+        name:"Algebra",
+        code:"151",
+        year: 1,
+        semester:1
+    }, 
+    {
+        ID:"petroleum",
+        id:"appliedelectricity",
+        name:"Applied Electricity",
+        code:"EE 151",
+        year:1,
+        semester:1
+    }, 
+    {
+        ID:"petroleum",
+        id:"communicationskills",
+        name:"Communication Skills",
+        code:"ENGL 157",
+        year: 1,
+        semester:1
+    }, 
+   
+    {
+        ID:"petroleum",
+        id:"technicaldrawing",
+        name:"Technical Drawing",
+        code:"ME 159",
+        year: 1,
+        semester:1
+    },
+    {
+        ID:"petroleum",
+        id:"practicalchemistry I",
+        name:"Practical Chemistry I",
+        code:"CHEM 169",
+        year: 1,
+        semester:1
+    },
+    {
+        ID:"petroleum",
+        id:"inorganicchemistry",
+        name:"Inorganic Chemistry for Engineers",
+        code:"PE 151",
+        year: 1,
+        semester:1
+    },
+    {
+        ID:"petroleum",
+        id:"organicchemistry",
+        name:"Organic Chemistry for Engineers",
+        code:"",
+        year: 1,
+        semester:1
+    },
+    {
+        ID:"petroleum",
+        id:"introductiontoit",
+        name:"Introduction to IT",
+        code:"COE 158",
+        year: 1,
+        semester:1
+    },
+    {
+        ID:"petroleum",
+        id:"basicmechanics",
+        name:"Basic Mechanics",
+        code:"ME 161",
+        year: 1,
+        semester:2
+    }, 
+    {
+        ID:"petroleum",
+        id:"basicelectronics",
+        name:"Basic Electronics",
+        code:"EE 152",
+        year: 1,
+        semester:2
+    },
+    {
+        ID:"petroleum",
+        id:"calculus",
+        name:"Calculus",
+        code:"MATH 152",
+        year: 1,
+        semester:2
+    },
+    {
+        ID:"petroleum",
+        id:"physicalchemistryforengineers",
+        name:"Physical Chemistry for Engineers",
+        code:"PE 156",
+        year: 1,
+        semester:2
+    },
+  
+    {
+        ID:"petroleum",
+        id:"introductiontopetroleum",
+        name:"Introduction to Petroleum Engineering",
+        code:"PE 154",
+        year: 1,
+        semester:2
+    },
+    {
+        ID:"petroleum",
+        id:"communicationskillsII",
+        name:"Communication Skills II",
+        code:"ENGL 158",
+        year: 1,
+        semester:2
+    },
+    {
+        ID:"petroleum",
+        id:"generalphysics",
+        name:"General Physics",
+        code:"PE 155",
+        year: 1,
+        semester:2
+    },
+    {
+        ID:"petroleum",
+        id:"strengthofmaterialsI",
+        name:"Strength of Materials I",
+        code:"ME 255",
+        year: 2,
+        semester:1
+    },
+    {
+        ID:"petroleum",
+        id:"differentialequations",
+        name:"Differential Equations",
+        code:"MATH 251",
+        year: 2,
+        semester:1
+    },
+    {
+        ID:"petroleum",
+        id:"engineeringinsociety",
+        name:"Engineering in Society",
+        code:"CENG 291",
+        year: 2,
+        semester:1
+    },
+    {
+        ID:"petroleum",
+        id:"introtogeology",
+        name:"Intro to Geology",
+        code:"PE 253",
+        year: 2,
+        semester:1
+    },
+    {
+        ID:"petroleum",
+        id:"reservoirengineering I",
+        name:"Reservoir Engineering I",
+        code:"PE 251",
+        year: 2,
+        semester:1
+    },
+    {
+        ID:"petroleum",
+        id:"fluidmechanics",
+        name:" Fluid Mechanics",
+        code:"PE 255",
+        year: 2,
+        semester:1
+    },
+    {
+        ID:"petroleum",
+        id:"petroleumengineeringthermo I",
+        name:"Petroleum Engineering Thermodynamics I",
+        code:"PE 257",
+        year: 2,
+        semester:1
+    },
+    {
+        ID:"petroleum",
+        id:"swimmingtech",
+        name:"Survival Swimming Techniques",
+        code:"PE 259",
+        year: 2,
+        semester:1
+    },
+    {
+        ID:"petroleum",
         id:"accountingI",
         name:"Accounting I",
         code:"CSM 157",
@@ -701,7 +940,7 @@ export const ELEESA=[
         semester:1
     },
     {
-        ID:"electrical",
+        ID:"petroleum",
         id:"frenchI",
         name:"French I",
         code:"FREN 181",
@@ -709,7 +948,7 @@ export const ELEESA=[
         semester:1
     },
     {
-        ID:"electrical",
+        ID:"petroleum",
         id:"economicsI",
         name:"Economics I",
         code:"ECON 151",
@@ -717,63 +956,72 @@ export const ELEESA=[
         semester:1
     },
     {
-        ID:"electrical",
-        id:"partialdifferential",
-        name:"Partial Differential",
+        ID:"petroleum",
+        id:"calculuswithseveralvariables",
+        name:"Calculus with Several Variables",
         code:"MATH 252",
         year: 2,
         semester:2
     },
     {
-        ID:"electrical",
-        id:"synchronousmachines",
-        name:"Synchronous Machines",
-        code:"EE 262",
+        ID:"mechanical",
+        id:"heattransfer",
+        name:"Heat Transfer Processes",
+        code:"PE 252",
         year: 2,
         semester:2
     },
     {
-        ID:"electrical",
-        id:"digitalsystems",
-        name:"Digital Systems",
-        code:"EE 272",
+        ID:"petroleum",
+        id:"Drawingforengineers",
+        name:"Drawing for Engineers",
+        code:"PE 254",
         year: 2,
         semester:2
     },
     {
-        ID:"electrical",
-        id:"electromagneticfields",
-        name:"Electromagnetic Fields",
-        code:"TE 262",
+        ID:"petroleum",
+        id:"regionalgeology",
+        name:"Regional Geology",
+        code:"PE 256",
         year: 2,
         semester:2
     },
     {
-        ID:"electrical",
-        id:"electmeasurementandinstr",
-        name:"Elect. Measurement and Instr.",
-        code:"EE 288",
+        ID:"petroleum",
+        id:"petroleumthermodynamicsII",
+        name:"Petroleum Engineering Thermodynamics II",
+        code:"PE 258",
         year: 2,
         semester:2
     },
     {
-        ID:"electrical",
-        id:"electricalengineeringlabII",
-        name:"Electrical Engineering Lab II",
-        code:"EE 292",
+        ID:"petroleum",
+        id:"Reservoirfluidproperties",
+        name:"Reservoir Fluid Properties",
+        code:"PE 260",
         year: 2,
         semester:2
     },
     {
-        ID:"electrical",
-        id:"literatureinenglishII",
-        name:"Literature in English II",
-        code:"ENGL 264",
+        ID:"petroleum",
+        id:"computerprogramminginoilandgas",
+        name:"Computer Programming in Oil and Gas",
+        code:"PE 262",
         year: 2,
         semester:2
     },
     {
-        ID:"electrical",
+        ID:"petroleum",
+        id:"priciplesoflandsurvey",
+        name:"Principles of Land Surveying and Hydrogrphic Science",
+        code:"PE264",
+        year: 2,
+        semester:2
+    },
+  
+    {
+        ID:"petroleum",
         id:"accountingII",
         name:"Accounting II",
         code:"CSM 158",
@@ -781,7 +1029,7 @@ export const ELEESA=[
         semester:2
     },
     {
-        ID:"electrical",
+        ID:"petroleum",
         id:"frenchII",
         name:"French for Communication II",
         code:"FREN 182",
@@ -789,7 +1037,7 @@ export const ELEESA=[
         semester:2
     },
     {
-        ID:"electrical",
+        ID:"petroleum",
         id:"economicsII",
         name:"Introductory Economics II",
         code:"ECON 152",
@@ -797,151 +1045,143 @@ export const ELEESA=[
         semester:2
     },
     {
-        ID:"electrical",
-        id:"probabilityandstatistics",
-        name:"Probability and Statistics",
-        code:"MATH 353",
+        ID:"petroleum",
+        id:"petroleumengineeringlabI",
+        name:"Petroleum Engineering Lab I",
+        code:"PE 355",
+        year: 3,
+        semester:1
+    },  
+    {
+        ID:"petroleum",
+        id:"petroleumproengineeringI",
+        name:"Petroleum Production Engineering  I",
+        code:"PE 357",
+        year: 3,
+        semester:1
+    },  
+    {
+        ID:"petroleum",
+        id:"drillingengI",
+        name:"Drilling Engineering I",
+        code:"PE 353",
         year: 3,
         semester:1
     }, 
     {
-        ID:"electrical",
-        id:"numericalanalysis",
-        name:"Numerical Analysis",
-        code:"MATH 351",
+        ID:"petroleum",
+        id:"Petroleumrockmechanics",
+        name:"Petroleum Rock Mechanics",
+        code:"PE 351",
         year: 3,
         semester:1
     }, 
     {
-        ID:"electrical",
-        id:"powergenerationandsupply",
-        name:"Power Generation and Supply",
-        code:"EE 367",
-        year: 3,
-        semester:1
-    }, 
-    {
-        ID:"electrical",
-        id:"analoguecommunicationsystems",
-        name:"Analogue Communication Systems",
-        code:"TE 271",
-        year: 3,
-        semester:1
-    }, 
-    {
-        ID:"electrical",
-        id:"linearelectronicscircuits",
-        name:"Linear Electronics Circuits",
-        code:"EE 371",
-        year: 3,
-        semester:1
-    }, 
-    {
-        ID:"electrical",
-        id:"microprocessors",
-        name:"Microprocessors",
-        code:"COE 381",
-        year: 3,
-        semester:1
-    }, 
-    {
-        ID:"electrical",
-        id:"electricalservicesdesign",
-        name:"Electrical Services Design",
-        code:"EE 365",
-        year: 3,
-        semester:1
-    }, 
-    {
-        ID:"electrical",
-        id:"classicalcontrolsystem",
-        name:"Classical Control System",
-        code:"EE 387",
+        ID:"petroleum",
+        id:"reservoirengineering II",
+        name:"Reservoir Engineering II",
+        code:"PE 361",
         year: 3,
         semester:1
     },
     {
-        ID:"electrical",
-        id:"powerelectronics",
-        name:"Power Electronics",
-        code:"EE 366",
+        ID:"petroleum",
+        id:"reservoirpetrolphysics",
+        name:"Reservoir Petrolphysics",
+        code:"PE 359",
+        year: 3,
+        semester:1
+    }, 
+    {
+        ID:"petroleum",
+        id:"fomationevaluation",
+        name:"Formation Evaluation",
+        code:"PE 363",
+        year: 3,
+        semester:1
+    }, 
+    {
+        ID:"petroleum",
+        id:"statsforpetrolengineers",
+        name:"Statistics for Petroleum Engineers",
+        code:"PE 367",
+        year: 3,
+        semester:1
+    }, 
+    {
+        ID:"petroleum",
+        id:"numericalmethods",
+        name:"Numerical Methods for Petroleum Engineers",
+        code:"MATH 350",
+        year: 3,
+        semester:2
+    },
+    {
+        ID:"petroleum",
+        id:"petrolgeology",
+        name:"Petroleum GEology",
+        code:"PE 352",
         year: 3,
         semester:2
     }, 
     {
-        ID:"electrical",
-        id:"powersystemsanalysis",
-        name:"Power Systems Analysis",
-        code:"EE 368",
+        ID:"petroleum",
+        id:"petroleumproengineeringII",
+        name:"Petroleum Production Engineering  II",
+        code:"PE 357",
         year: 3,
         semester:2
     },  
     {
-        ID:"electrical",
-        id:"digitalcommunicationsystems",
-        name:"Digital Communication Systems",
-        code:"TE 386",
+        ID:"petroleum",
+        id:"drillingengII",
+        name:"Drilling Engineering II",
+        code:"PE 354",
+        year: 3,
+        semester:2
+    }, 
+    {
+        ID:"petroleum",
+        id:"welltesting",
+        name:"Well Testing",
+        code:"PE 360",
         year: 3,
         semester:2
     },  
     {
-        ID:"electrical",
-        id:"electricalengineeringlabIII",
-        name:"Electrical Engineering Lab III",
-        code:"EE 392",
+        ID:"petroleum",
+        id:"geostatistics",
+        name:"Geostatistics",
+        code:"PE 362",
         year: 3,
         semester:2
     },  
     {
-        ID:"electrical",
-        id:"substationandtransmissionlinedesign",
-        name:"Substation and Transmission Line Design",
-        code:"EE 362",
+        ID:"petroleum",
+        id:"oilandgasgeophysics",
+        name:"Oil and Gas Geophysics",
+        code:"PE 364",
         year: 3,
         semester:2
     },  
     {
-        ID:"electrical",
-        id:"digitalagricdesign",
-        name:"Digital Agric Design",
-        code:"COE 382",
+        ID:"petroleum",
+        id:"healthsafetyandenvironment",
+        name:"Health Safety & Environment",
+        code:"PE 366",
         year: 3,
         semester:2
     },  
     {
-        ID:"electrical",
-        id:"switchingengineeringincommunication",
-        name:"Switching Engineering in Communication",
-        code:"TE 384",
+        ID:"petroleum",
+        id:"petroleumengineeringlabII",
+        name:"petroleum Engineering Lab II",
+        code:"PE 356",
         year: 3,
         semester:2
     },  
     {
-        ID:"electrical",
-        id:"digitalcontrolsystems",
-        name:"Digital Control Systems",
-        code:"EE 380",
-        year: 3,
-        semester:2
-    },  
-    {
-        ID:"electrical",
-        id:"highvoltageengineering",
-        name:"High Voltage Engineering",
-        code:"EE 360",
-        year: 3,
-        semester:2
-    },  
-    {
-        ID:"electrical",
-        id:"antennasandpropagation",
-        name:"Antennas and Propagation",
-        code:"TE 372",
-        year: 3,
-        semester:2
-    },  
-    {
-        ID:"electrical",
+        ID:"petroleum",
         id:"engineeringeconomicsandmanagment",
         name:"Engineering Economics and Managment",
         code:"ME 491",
@@ -949,146 +1189,98 @@ export const ELEESA=[
         semester:1
     },       
     {
-        ID:"electrical",
-        id:"projectI",
-        name:"Project I",
-        code:"EE 497",
+        ID:"petroleum",
+        id:"designprojectI",
+        name:"Design Project I",
+        code:"PE 453",
         year: 4,
         semester:1
     },
     {
-        ID:"electrical",
-        id:"powersystemoperationandcontrol",
-        name:"Power System Operation and Control",
-        code:"EE 467",
+        ID:"petroleum",
+        id:"petrolecons",
+        name:"Petroleum Economics",
+        code:"PE 451",
         year: 4,
         semester:1
     },
     {
-        ID:"electrical",
-        id:"agricnetworking",
-        name:"agric Networking",
-        code:"COE 475",
+        ID:"petroleum",
+        id:"reservoirsimulation",
+        name:"Reservoir Simulation",
+        code:"PE 455",
         year: 4,
         semester:1
     },
     {
-        ID:"electrical",
-        id:"generalizedmachinetheory",
-        name:"Generalized Machine Theory",
-        code:"EE 461",
+        ID:"petroleum",
+        id:"integratedfielddesign",
+        name:"Integrated Field Design",
+        code:"PE 451",
         year: 4,
         semester:1
     },
     {
-        ID:"electrical",
-        id:"electricalheating/Cooling",
-        name:"Electrical Heating/Cooling",
-        code:"EE 469",
+        ID:"petroleum",
+        id:"naturalgaseng",
+        name:"Natural Gas Engineering",
+        code:"PE 459",
         year: 4,
         semester:1
     },
     {
-        ID:"electrical",
-        id:"specialelectricalmachines",
-        name:"Special Electrical Machines",
-        code:"EE 463",
+        ID:"petroleum",
+        id:"fieldtripandindustrialattachment",
+        name:"Field Trip & Industrial Attachment",
+        code:"PE 471",
         year: 4,
         semester:1
     },
     {
-        ID:"electrical",
-        id:"wirelessdatacommunicationsystems",
-        name:"Wireless Data Communication Systems",
-        code:"TE 481",
-        year: 4,
-        semester:1
-    },
-    {
-        ID:"electrical",
-        id:"principlesoflinearsystems",
-        name:"Principles of Linear Systems",
-        code:"EE 487",
-        year: 4,
-        semester:1
-    },
-    {
-        ID:"electrical",
-        id:"entrepreneurshipdevelopment",
-        name:"Entrepreneurship Development",
-        code:"ME 492",
+        ID:"petroleum",
+        id:"reservoirrecoverytech",
+        name:"Reservoir Recovery Techniques",
+        code:"PE 450",
         year: 4,
         semester:2
     },
     {
-        ID:"electrical",
-        id:"projectII",
-        name:"Project II",
-        code:"EE 498",
+        ID:"petroleum",
+        id:"petrolprojectevaluation",
+        name:"Petroleum Project Evaluation",
+        code:"PE 452",
         year: 4,
         semester:2
     },
     {
-        ID:"electrical",
-        id:"electricdrives",
-        name:"Electric Drives",
-        code:"EE 462",
+        ID:"petroleum",
+        id:"designprojectII",
+        name:"Design Project II",
+        code:"PE 454",
         year: 4,
         semester:2
     },
     {
-        ID:"electrical",
-        id:"powersystemprotection",
-        name:"Power System Protection",
-        code:"EE 468",
+        ID:"petroleum",
+        id:"wellcompletionandsimulation",
+        name:"Well COmpletion & Simulation",
+        code:"PE 456",
         year: 4,
         semester:2
     },
     {
-        ID:"electrical",
-        id:"powersystemplanandoptimization",
-        name:"Power System Plan and Optimization",
-        code:"EE 466",
+        ID:"petroleum",
+        id:"oilfieldgeochemistry",
+        name:"Oilfield Geochemistry",
+        code:"PE 458",
         year: 4,
         semester:2
     },
     {
-        ID:"electrical",
-        id:"digitalsignalprocessing",
-        name:"Digital Signal Processing",
-        code:"EE 472",
-        year: 4,
-        semester:2
-    },
-    {
-        ID:"electrical",
-        id:"systemprogramming",
-        name:"System Programming",
-        code:"EE 482",
-        year: 4,
-        semester:2
-    },
-    {
-        ID:"electrical",
-        id:"introductiontovlsi",
-        name:"Introduction to VLSI",
-        code:"COE 486",
-        year: 4,
-        semester:2
-    },
-    {
-        ID:"electrical",
-        id:"industrialautomaticcontrol",
-        name:"Industrial Automatic Control",
-        code:"COE 484",
-        year: 4,
-        semester:2
-    },
-    {
-        ID:"electrical",
-        id:"mobileandsatellitecommsystem",
-        name:"Mobile and Satellite Comm. System",
-        code:"TE 472",
+        ID:"petroleum",
+        id:"entrepreneurshipandleadership",
+        name:"Entrepreneurship and Leadership",
+        code:"PE 460",
         year: 4,
         semester:2
     },

@@ -1,10 +1,10 @@
 import React from 'react';
 import '../Components/home.css';
 import Searchbar from '../Components/Searchbar/Searchbar';
-import BookData from '../Components/Searchbar/Data.json';
 import Navbar from '../Components/Navbar/Navbar';
 import Footer from '../Components/Footer/Footer';
 import ProgramCard from '../Components/ProgramCard/ProgramCard';
+import {CourseData} from '../Components/Data/coursesData';
 
 
 const Home = () => {
@@ -23,7 +23,7 @@ const Home = () => {
                         WELCOME TO THE CoE VIRTUAL LIBRARY
                     </span></h1>
                     <p style={{color:'white', textAlign:'center'}}>You don't need to go through  the stress of asking your colleagues for your course materials. Get all your engineering  course materials and tutorial video links right here !!</p>      
-                    <div className="searchb"><Searchbar placeholder="Search for course..." data={BookData}/></div>
+                    <div className="searchb"><Searchbar placeholder="Search for course..." data={CourseData}/></div>
                 </div>              
             </div>
         </div>

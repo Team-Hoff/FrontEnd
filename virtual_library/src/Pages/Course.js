@@ -6,7 +6,7 @@ import bgImg from "../Assets/Asset/anne-nygard-cA8VTQeHU0c-unsplash.jpg";
 import Footer from '../Components/Footer/Footer';
 import Navbar from '../Components/Navbar/Navbar';
 import {useParams } from 'react-router-dom';
-import { COE, ELEESA } from '../Components/coursesdata/coursesData';
+import { CourseData} from '../Components/Data/coursesData';
 
 const Course = () => {
     const [acor, setacor] = useState([]);
@@ -14,10 +14,7 @@ const Course = () => {
     const { id } = useParams()
     useEffect(()=>{
         var cour;
-         cour = COE.filter((cor) => cor.id === id)
-                  setacor(cour)
-                  
-         cour = ELEESA.filter((cors) => cors.id === id)
+         cour = CourseData.filter((cor) => cor.id === id)
                   setacor(cour)
                        
         return () => {

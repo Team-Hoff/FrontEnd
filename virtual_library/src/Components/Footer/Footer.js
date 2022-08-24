@@ -20,18 +20,18 @@ function Footer() {
 </div>
 
 <div className="footer-center">
-    <div>
+    <div style={{paddingBottom:'5px'}}>
         <FaMapMarked style={{backgroundColor:'white'}}/>
         <p>KNUST, KUMASI</p>
     </div>
 
-    <div>
+    <div style={{paddingBottom:'5px'}}>
         <FaPhone style={{backgroundColor:'white'}}/>
         <p>+233 552726588</p>
     </div>
-    <div>
+    <div style={{paddingBottom:'5px'}}>
         <FaEnvelopeSquare style={{backgroundColor:'white'}}/>
-        <p><a href="#" target='_blank'>teamHoff@gmail.com</a></p>
+        <p><a href="#">teamHoff@gmail.com</a></p>
     </div>
 </div>
 <div className="footer-right">

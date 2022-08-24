@@ -1,10 +1,9 @@
 /* eslint-disable jsx-a11y/anchor-is-valid */
 import React, { useState } from 'react';
-import bgimg from '../Assets/BackgroundPics/coe.png';
 import '../Components/program.css';
 import Folder from '../Components/Profiledropdown/folder.png';
-import { COE, ELEESA } from '../Components/coursesdata/coursesData';
-import { ProgramData } from '../Components/coursesdata/programData';
+import { CourseData } from '../Components/Data/coursesData';
+import { ProgramData } from '../Components/Data/programData';
 import { Link, useParams } from 'react-router-dom';
 import Footer from '../Components/Footer/Footer';
 import Navbar from '../Components/Navbar/Navbar';
@@ -13,9 +12,9 @@ import { useEffect } from 'react';
 
 const Program = () => {
   const [courseQuery, setcourseQuery] = useState(Number(1));
-  const [apro, setapro] = useState('');
+  const [apro, setapro] = useState([]);
   const [acor, setacor] = useState([]);
-  
+
 
   const { id } = useParams()
   useEffect(() => {
@@ -26,31 +25,27 @@ const Program = () => {
     }
   }, [id])
 
-  useEffect(()=>{
-  var cour;
-   cour = COE.filter((cor) => cor.ID = id)
-            setacor(cour)
-            
-   cour = ELEESA.filter((cors) => cors.ID = id)
-            setacor(cour)
-                 
-  return () => {
-    setacor('')
-  }
-}, [id])
-  
+  useEffect(() => {
+    const cour = CourseData.filter((cor) => cor.ID === id)
+    setacor(cour);
+
+
+    return () => {
+      setacor('')
+    }
+  }, [id])
+
   return (
     <div>
       <Navbar />
 
       <section className='below_navs' style={{
-        
-        background: `linear-gradient(0deg, rgba(0,0,0,0.5),rgba(0,0,0,0.5)),  url(${bgimg})`,
-        backgroundRepeat: 'no-repeat',
-        backgroundSize: '100% 100%'
-        
+
+        background: `linear-gradient(0deg, rgba(0,0,0,0.5),rgba(0,0,0,0.5)), url(${apro.length !== 0 ? apro[0].pic: ""})`,
+        // backgroundRepeat: 'no-repeat',
+        // backgroundSize: '100% 100%'
       }}>
-      
+
 
         <div>
           <div className="d-sm-flex align-items-center 
@@ -62,8 +57,9 @@ const Program = () => {
                 </span></h1> : ""
               }
 
+
             </div>
-            {/* <img className="logos" src={Logo} alt=""></img> */}
+
 
           </div>
         </div>

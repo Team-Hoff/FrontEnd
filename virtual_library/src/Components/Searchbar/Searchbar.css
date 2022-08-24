@@ -25,7 +25,7 @@
     font-size: 18px;
     padding: 15px;
     height: 35px;
-    width: 250px;
+    width: 350px;
     
 }
 
@@ -53,8 +53,9 @@ input:focus{
 
 .dataResult{
     margin-top: 2px;
-    width: 250px;
+    width: 350px;
     height: 150px;
+    /* padding-top: 30px; */
     background-color: white;
     box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
     overflow: hidden;
@@ -70,6 +71,7 @@ input:focus{
 .dataResult .dataItem{
     width: 100%;
     height: 50px;
+    padding-top: 25px;
     display: flex;
     align-items: center;
     color: black;

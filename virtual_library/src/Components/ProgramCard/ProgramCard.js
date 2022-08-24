@@ -1,7 +1,7 @@
 import React from 'react';
 import {Card, Button} from 'react-bootstrap';
 import { Link } from 'react-router-dom';
-import { ProgramData } from '../coursesdata/programData';
+import { ProgramData } from '../Data/programData';
 import Background from '../../Assets/image.png';
 
 function ProgramCard() {

@@ -2,6 +2,7 @@ import React, {useState} from 'react';
 import './Searchbar.css';
 import SearchIcon from '@mui/icons-material/Search';
 import ClosedIcon  from '@mui/icons-material/Close';
+import { Link } from 'react-router-dom';
 
 function Searchbar({placeholder, data}) {
     const [filteredData, setFilteredData] = useState([]);
@@ -11,7 +12,7 @@ function Searchbar({placeholder, data}) {
         const searchWord = event.target.value;
         setwordEntered(searchWord);
         const newFilter = data.filter((value)=>{
-            return value.title.toLowerCase().includes(searchWord.toLowerCase());
+            return value.name.toLowerCase().includes(searchWord.toLowerCase());
         });
         if (searchWord === ""){
             setFilteredData([]); 
@@ -24,6 +25,8 @@ function Searchbar({placeholder, data}) {
         setFilteredData([]);
         setwordEntered("");
     }
+
+    
   return (
     <div className='Appss'>
         <div className='search'>
@@ -36,7 +39,7 @@ function Searchbar({placeholder, data}) {
             {filteredData.length !==0 && (
             <div className='dataResult'>
                 {filteredData.slice(0,15).map((value,key)=>{
-                    return <a className='dataItem' href={value.link} target="_blank"><p>{value.title}</p></a>
+                    return <Link className='dataItem' to={`/home/${value.ID}/${value.id}`}><p>{value.name}, {value.ID.toUpperCase()}</p></Link>
                 })}
             </div>
 )}

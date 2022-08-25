@@ -4,6 +4,9 @@ import Logo from './../Assets/Klogo.png';
 
 import { useState } from "react";
 import Axios from "axios";
+import {handleSubmit} from "./hooks/useLogin";
+ 
+
 
 import { Form, Formik } from "formik";
 
@@ -25,22 +28,6 @@ const Login = () => {
     const value = event.target.value
     setInputs(values => ({...values, [name]: value}))
   }
-
-  const handleSubmit = (event) => {
-    Axios.post("http://localhost:3500/login",
-      { username: inputs.username,
-        password: inputs.password
-      }
-    ).then( response => {
-      
-      if (response.status === 200){
-        alert("Logged In")
-      }else{
-        alert("Incorrect credentials")
-      }
-    })
-  }
-
 
   return (
     <StyledContainer>

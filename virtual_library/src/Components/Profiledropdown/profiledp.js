@@ -1,4 +1,4 @@
-import React from 'react';
+import React, {useState, useEffect, useRef} from 'react';
 import './profiledp.css';
 import edit from './edit.png'
 import logout from './logout.png';
@@ -7,22 +7,41 @@ import user from './user.png';
 import user2 from './f2.png';
 import { Link } from 'react-router-dom';
 
-function profiledp() {
+function Profiledp() {
+    const [isOpen, setisOpen] = useState(false)
 
-    const menuToggle=()=>{
-        const toggleMenu = document.querySelector('.menu');
-        toggleMenu.classList.toggle('active')}
+    let menuRef = useRef();
+
+    useEffect(()=>{
+        let handler = (e)=>{
+            if (!menuRef.current.contains(e.target)){
+                setisOpen(false);
+            }
+        }
+
+        document.addEventListener("mousedown", handler);
+
+        return () => {
+            document.removeEventListener("mousedown", handler)
+        }
+    })
+
+
+    const handleClick = event =>{
+        setisOpen(isOpen => !isOpen)
+    }
+    
   return (
     <div>
-        <div className="action">
-        <div className="profile" onClick={menuToggle}> 
+        <div ref={menuRef} className="action">
+        <div className="profile" onClick={handleClick}> 
             <img src={user2} alt=""></img>
         </div>
-        <div className="menu">
+        <div className={`menu ${isOpen?'open':'close'}`}>
             <h3>Welcome<br/><span>SINE</span></h3>
             <ul>
                 <li><img src={user} alt="" className="resize"></img><Link to="#">My Profile</Link></li>
-                <li><img src={edit} alt="" className="resize"></img><Link to="#">Edit Profile</Link></li>
+                {/* <li><img src={edit} alt="" className="resize"></img><Link to="#">Edit Profile</Link></li> */}
                 <li><img src={settings} alt="" className="resize"></img><Link to="#">Settings</Link></li>
                 <li><img src={logout} alt="" className="resize" style={{marginBottom:'10px'}}></img><Link to="/">Log out</Link></li>
             </ul>
@@ -33,4 +52,4 @@ function profiledp() {
   )
 }
 
-export default profiledp;
+export default Profiledp;

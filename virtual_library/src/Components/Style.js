@@ -144,7 +144,7 @@ export const StyledFormButton = styled.button`
     font-size: 16px;
     border: 2px solid blue;
     border-radius: 25px;
-    color: ${colors.theme}
+    color: ${colors.theme};
     transition: ease-in-out 0.3s;
     outline: 0; 
 
@@ -157,7 +157,7 @@ export const StyledFormButton = styled.button`
 `;
 
 export const Erromsg = styled.div`
-    font-size 11px;
+    font-size: 11px;
     color: ${colors.red};
     margin-top: -5px;
     margin-bottom: 10px;
@@ -165,9 +165,9 @@ export const Erromsg = styled.div`
 `;
 
 export const ExtraText = styled.p`
-    font-size: ${(props)=>props.size}px
+    font-size: ${(props)=>props.size}px;
     text-align: center;
-    color: ${(props)=> (props.color)? props.color: colors.dark2}
+    color: ${(props)=> (props.color)? props.color: colors.dark2};
     padding: 2px;
     margin-top: 10px;
 

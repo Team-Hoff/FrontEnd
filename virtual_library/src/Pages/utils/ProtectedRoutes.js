@@ -5,13 +5,13 @@ import Signup from '../Signup';
 import Home from '../Home';
 import Program from '../Program';
 import Course from '../Course';
-import Profile from "../Profilepage/Profilepage";
+// import Profile from "../Profilepage/Profilepage";
 import { Navigate } from 'react-router-dom';
 import { useRoutes } from "react-router-dom";
 
 
 const ProtectedRoutes = () => {
-    const user=false; // dpnt fprget to wrap inside a memo
+    const user=true; // don't forget to wrap inside a memo
     // console.log(useAuth())
 
     const routes = useRoutes([
@@ -43,10 +43,10 @@ const ProtectedRoutes = () => {
             path: "*",
             element: user?<Home />: <Navigate replace to="/" />
         },
-        {
-            path: "/profile",
-            element: <Profile />
-        }
+        // {
+        //     path: "/profile",
+        //     element: <Profile />
+        // }
 
 
     ])

@@ -6,11 +6,9 @@
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    color: white;
-    background-repeat: no-repeat;
-    background-size: 100% 100%;
-       
+    color: white;       
 }
+
 
 .below_navs h1{
     font-family: 'Poppins'; 

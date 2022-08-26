@@ -26,7 +26,7 @@ const Course = () => {
     <div>
         <Navbar/>
 
-    <div className="hero" style={{background: `linear-gradient(rgba(0,0,0,0.7),rgba(0,0,0,0.7)),
+    <div className="hero" style={{backgroundImage: `linear-gradient(rgba(0,0,0,0.6),rgba(0,0,0,0.6)),
     url(${bgImg})`, backgroundRepeat: 'no-repeat', backgroundSize: '100% 100%'}}>
         {/* <h1 className="hero_head">Semi-Conductor Devices</h1> */}
         {

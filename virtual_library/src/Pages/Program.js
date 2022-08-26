@@ -41,9 +41,9 @@ const Program = () => {
 
       <section className='below_navs' style={{
 
-        background: `linear-gradient(0deg, rgba(0,0,0,0.5),rgba(0,0,0,0.5)), url(${apro.length !== 0 ? apro[0].pic: ""})`,
-        // backgroundRepeat: 'no-repeat',
-        // backgroundSize: '100% 100%'
+        backgroundImage: `linear-gradient(0deg, rgba(0,0,0,0.6),rgba(0,0,0,0.6)), url(${apro.length !== 0 ? apro[0].pic: ""})`,
+        backgroundRepeat: 'no-repeat',
+        backgroundSize: '100% 100%'
       }}>
 
 

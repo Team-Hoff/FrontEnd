@@ -42,20 +42,26 @@
 
 .action .menu{
     position: absolute;
-    top: 200px;
-    right: 0px;
+    top: 60px;
+    right: -3px;
     background: #fff;
     width: 160px;
     box-sizing: 0 5px 25px rgba(0,0,0,0.1);
     border-radius: 25px;
-    transition: 0.5s;
-    visibility: hidden;
-    opacity: 0;
+    transition: 0.2s;
+    /* visibility: hidden; */
+    /* opacity: 1; */
 }
 
-.action .menu.active{
-    top: 80px;
+.active{
+    top: 60px;
     visibility: visible;
+    opacity: 1;
+}
+
+.close{
+    top: 60px;
+    visibility: hidden;
     opacity: 1;
 }
 
@@ -101,7 +107,7 @@
     max-width: 40px;
     margin-right: 10px;
     opacity: 0.5;
-    transition: 0.5s;
+    /* transition: 0.5s; */
 }
 
 .action .menu ul li:hover img{
@@ -113,7 +119,7 @@
     text-decoration: none;
     color: #555;
     font-weight: 500;
-    transition: 0.5s;
+    /* transition: 0.5s; */
 }
 
 .action .menu ul li:hover a{

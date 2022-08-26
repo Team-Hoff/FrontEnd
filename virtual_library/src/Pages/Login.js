@@ -73,8 +73,8 @@ const Login = () => {
               />
 
               
-               <TextLink to="#" style={{}}>
-                Forgot Password?
+               <TextLink to="#" style={{position:'relative', left:'-110px', top:'-20px', color:'red', fontSize:'13px',letterSpacing:'0px'}}>
+                Forget Password?
               </TextLink> 
 
               <ButtonGroup>

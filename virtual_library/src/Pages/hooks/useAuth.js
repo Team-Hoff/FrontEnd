@@ -1,34 +1,27 @@
 import { createContext, useContext, useMemo } from "react";
-import { useNavigate } from "react-router";
+import axios from "../utils/axios";
 import { useLocalStorage } from "./useLocalStorage";
 const AuthContext = createContext();
-const axios = require("axios").default;
-axios.defaults.baseURL = 'http://localhost:3500';
+
 
 
 export const AuthProvider = ({ children }) => {
   const [user, setUser] = useLocalStorage("user", null);
-  
-  
-
   // call this function when you want to authenticate the user
-  const login = () => {
-    axios.get("/auth")
-    .then( (response) => {
-      alert("here in get auth")
-     console.log(response.data);
-     setUser(response.data);
 
-    }).catch()
-    return
-    
+  //set the login function call in the Auth component and render the component
+  const login = async () => {
+      const response = await axios.get("/auth")
+      const user_details = JSON.stringify(response)
+      setUser(user_details)
+     
     };
 
   // call this function to sign out logged in user
-  const logout = () => {
-    alert("here")
+  const logout = async() => {
+    //Send request to backend to clear the session
+    await axios.get("/logout") //preferably axios.delete
     setUser(null);
-
   };
 
   const value = useMemo(

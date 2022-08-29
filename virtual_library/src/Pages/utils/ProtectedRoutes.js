@@ -5,23 +5,24 @@ import Signup from '../Signup';
 import Home from '../Home';
 import Program from '../Program';
 import Course from '../Course';
-// import Profile from "../Profilepage/Profilepage";
+import Logout from "./Logout";
+
+
 import { Navigate } from 'react-router-dom';
 import { useRoutes } from "react-router-dom";
 
 
-const ProtectedRoutes = () => {
-    const user=true; // don't forget to wrap inside a memo
-    // console.log(useAuth())
 
+const ProtectedRoutes = () => {
+    const {user} = useAuth();
     const routes = useRoutes([
         {
             path: "/",
             element: <Login />
         },
         {
-            path: "/auth/login",
-            element: <Auth />
+            path: "/auth",
+            element: !user ?<Auth />: <Navigate replace to="/home" />
         },
          {
             path: "/home",
@@ -40,14 +41,13 @@ const ProtectedRoutes = () => {
             element: <Signup />
         },
         {
+            path: "/logout",
+            element: user?<Logout />: <Navigate replace to="/" />
+        },
+        {
             path: "*",
             element: user?<Home />: <Navigate replace to="/" />
-        },
-        // {
-        //     path: "/profile",
-        //     element: <Profile />
-        // }
-
+        }
 
     ])
 

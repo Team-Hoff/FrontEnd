@@ -1,13 +1,15 @@
 import React, {useState, useEffect, useRef} from 'react';
 import './profiledp.css';
 import edit from './edit.png'
-import logout from './logout.png';
+import logouts from './logout.png';
 import settings from './settings.jpg';
 import user from './user.png';
 import user2 from './f2.png';
 import { Link } from 'react-router-dom';
+import { useAuth } from '../../Pages/hooks/useAuth';
 
 function Profiledp() {
+    const {logout} =useAuth();
     const [isOpen, setisOpen] = useState(false)
 
     let menuRef = useRef();
@@ -43,7 +45,8 @@ function Profiledp() {
                 <li><img src={user} alt="" className="resize"></img><Link to="#">My Profile</Link></li>
                 {/* <li><img src={edit} alt="" className="resize"></img><Link to="#">Edit Profile</Link></li> */}
                 <li><img src={settings} alt="" className="resize"></img><Link to="#">Settings</Link></li>
-                <li><img src={logout} alt="" className="resize" style={{marginBottom:'10px'}}></img><Link to="/">Log out</Link></li>
+                
+                <li><img src={logouts} alt="" className="resize" style={{marginBottom:'10px'}}></img><Link to="/logout" >Log out</Link></li>
             </ul>
         </div>
     </div>

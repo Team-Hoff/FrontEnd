@@ -6,6 +6,7 @@ import Home from '../Home';
 import Program from '../Program';
 import Course from '../Course';
 import Logout from "./Logout";
+import Profile from "../profilepage/profilepage";
 
 
 import { Navigate } from 'react-router-dom';
@@ -14,7 +15,8 @@ import { useRoutes } from "react-router-dom";
 
 
 const ProtectedRoutes = () => {
-    const {user} = useAuth();
+    // const {user} = useAuth();
+    const user = true;
     const routes = useRoutes([
         {
             path: "/",
@@ -43,6 +45,10 @@ const ProtectedRoutes = () => {
         {
             path: "/logout",
             element: user?<Logout />: <Navigate replace to="/" />
+        },
+        {
+            path: "/profile",
+            element: user?<Profile />: <Navigate replace to="/" />
         },
         {
             path: "*",

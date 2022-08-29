@@ -42,7 +42,7 @@ function Profiledp() {
         <div className={`menu ${isOpen?'open':'close'}`}>
             <h3>Welcome<br/><span>SINE</span></h3>
             <ul>
-                <li><img src={user} alt="" className="resize"></img><Link to="#">My Profile</Link></li>
+                <li><img src={user} alt="" className="resize"></img><Link to="/profile">My Profile</Link></li>
                 {/* <li><img src={edit} alt="" className="resize"></img><Link to="#">Edit Profile</Link></li> */}
                 <li><img src={settings} alt="" className="resize"></img><Link to="#">Settings</Link></li>
                 

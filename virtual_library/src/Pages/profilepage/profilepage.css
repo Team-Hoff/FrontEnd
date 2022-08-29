@@ -1,0 +1,54 @@
+*{
+    padding: 0;
+    margin:0;
+}
+.top-segment{
+    height: 45px;
+    width: px;
+    background-color: #008000;
+    align-items: right;
+    display: flex;
+    justify-content: flex-end;
+    gap: 2em;
+    
+}
+.top-segment a{
+    text-decoration: none;
+}
+.mini-container{
+    display: flex;
+    justify-content: space-between;
+}
+
+ 
+.left-card {
+    min-height: 100vh;
+}
+.left-card{
+    background-color: greenyellow;
+    width: 30%;
+    
+}
+ .right-card{ 
+     width: 68%;
+     margin-top: 5px;
+     
+     
+    
+ } 
+ .display{
+     margin-top: 60px;
+     border-bottom: 1px solid ;
+     display: flex;
+     justify-content: space-between;
+     
+ }
+
+
+.Name{
+    text-align: center;
+}
+.Name h5{
+    font-size: xx-large;
+    font-style: oblique;
+}

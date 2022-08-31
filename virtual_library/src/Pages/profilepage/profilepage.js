@@ -2,14 +2,12 @@ import React from "react"
 import "./profilepage.css"
 
 export default function Profile(){
-    
+
     return(
         <div className="container">
 
             <div className="Left-display">
-               <div>
-                 <img src="./profileIcon.webp" alt=""/>
-               </div>
+               
             </div>
 
             <div className="Right-display">

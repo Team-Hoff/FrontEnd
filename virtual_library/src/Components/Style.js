@@ -1,5 +1,5 @@
 import styled from 'styled-components';
-import background from './../Assets/KNUST.jpeg';
+// import background from './../Assets/KNUST.jpeg';
 import {Link} from 'react-router-dom';
 
 export const colors = {
@@ -21,7 +21,7 @@ export const StyledContainer = styled.div`
     display: flex;
     justify-content: center;
     align-items: center;
-    background: linear-gradient(0deg, rgba(0,0,0,0.5), rgba(0,0,0,0.5)), url(${background});
+    background: linear-gradient(0deg, rgba(0,0,0,0.5), rgba(0,0,0,0.5)), url('https://th.bing.com/th/id/OIP.m_8yGJPbQ_G0r5X7Yx_JeQHaE8?pid=ImgDet&rs=1');
     background-size: 100% 100%;
     background-attachment: fixed; 
 `;

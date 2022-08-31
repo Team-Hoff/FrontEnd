@@ -24,11 +24,15 @@ const Course = () => {
 
   return (
     <div>
+        
         <Navbar/>
 
-    <div className="hero" style={{backgroundImage: `linear-gradient(rgba(0,0,0,0.6),rgba(0,0,0,0.6)),
-    url(${bgImg})`, backgroundRepeat: 'no-repeat', backgroundSize: '100% 100%'}}>
-        {/* <h1 className="hero_head">Semi-Conductor Devices</h1> */}
+    <div className="hero" style={{ 
+        backgroundImage: `linear-gradient(0deg, rgba(0,0,0,0.6),rgba(0,0,0,0.6)), url(${acor.length !== 0 ? acor[0].img: ""})`, 
+        backgroundRepeat: 'no-repeat',
+        backgroundSize: '100% 100%'
+        }}>
+
         {
                 acor.length !== 0 ? <h1> <span style={{ fontSize: '80px', fontFamily: 'Poppins' }}>
                   {acor[0].name.toUpperCase()}

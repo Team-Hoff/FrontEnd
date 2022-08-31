@@ -73,7 +73,7 @@ const Login = () => {
               />
 
               
-               <TextLink to="#" style={{position:'relative', left:'-110px', top:'-20px', color:'red', fontSize:'13px',letterSpacing:'0px'}}>
+               <TextLink to="#" style={{position:'relative', left:'-100px', top:'0px', color:'red', fontSize:'17px',letterSpacing:'0px'}}>
                 Forget Password?
               </TextLink> 
 

@@ -1,3 +1,5 @@
+import comp from '../../Assets/com.jpg';
+
 export const CourseData=[
     {
         ID:"computer",
@@ -5,7 +7,8 @@ export const CourseData=[
         name:"Algebra",
         code:"MATH 151",
         year: 1,
-        semester:1
+        semester:1,
+        img: `https://img.freepik.com/free-vector/geometry-education-blue-background-vector-frame-disruptive-education-digital-remix_53876-114094.jpg?w=740&t=st=1661837216~exp=1661837816~hmac=5b40056780bebdeeb8bb5259612262507c80ddd5467b97f2ff299f6a2309d897`
     }, 
     {
         ID:"computer",
@@ -13,7 +16,8 @@ export const CourseData=[
         name:"Applied Electricity",
         code:"EE 151",
         year:1,
-        semester:1
+        semester:1,
+        img: "https://img.freepik.com/premium-photo/applying-thermal-paste-computer-s-central-processing-unit-computer-repair_131301-2395.jpg?w=740"
     }, 
     {
         ID:"computer",
@@ -21,7 +25,8 @@ export const CourseData=[
         name:"Communication Skills",
         code:"ENGL 157",
         year: 1,
-        semester:1
+        semester:1,
+        img: "https://th.bing.com/th/id/OIP.XpVGmqQBBp4g2tRqWXIAMwHaHa?pid=ImgDet&rs=1"
     }, 
     {
         ID:"computer",
@@ -29,7 +34,8 @@ export const CourseData=[
         name:"Basic Mechanics",
         code:"ME 161",
         year: 1,
-        semester:1
+        semester:1,
+        img: "https://1.bp.blogspot.com/-rja2B49-kJI/WtBnGNPqJdI/AAAAAAAAu6I/Q-vAmdDV7142PwlEs7bhIzGeC-G00Jf7wCK4BGAYYCw/s1600/picture-718945.jpg"
     }, 
     {
         ID:"computer",
@@ -37,7 +43,8 @@ export const CourseData=[
         name:"Technical Drawing",
         code:"ME 159",
         year: 1,
-        semester:1
+        semester:1,
+        img: "https://th.bing.com/th/id/R.7dbcb2d23d5fd682c081bd7a78f9f567?rik=7tn37NS2GFBEzw&pid=ImgRaw&r=0"
     },
     {
         ID:"computer",
@@ -45,15 +52,17 @@ export const CourseData=[
         name:"Environmental Studies",
         code:"CE 155",
         year: 1,
-        semester:1
+        semester:1,
+        img: "https://epi-rsc.rsc-cdn.org/globalassets/05-journals-books-databases/our-journals/environmental-science-advances/esa-hero_1920x1080.jpg?version=9160e883"
     },
     {
         ID:"computer",
-        id:"enginetechnology",
-        name:"Engine Technology",
+        id:"engineeringtechnology",
+        name:"Engineering Technology",
         code:"COE 153",
         year: 1,
-        semester:1
+        semester:1,
+        img: "https://th.bing.com/th/id/OIP.3zpjDLnBn_rkjMJlZeJQgAHaED?pid=ImgDet&rs=1"
     },
     {
         ID:"computer",
@@ -61,14 +70,17 @@ export const CourseData=[
         name:"Applied Thermodynamics",
         code:"ME 166",
         year: 1,
-        semester:2
-    },{
+        semester:2,
+        img: ""
+    },
+    {
         ID:"computer",
         id:"communicationskillsII",
         name:"Communication Skills II",
         code:"ENGL 158",
         year: 1,
-        semester:2
+        semester:2,
+        img: ""
     },
     {
         ID:"computer",
@@ -76,7 +88,8 @@ export const CourseData=[
         name:"Basic Electronics",
         code:"EE 152",
         year: 1,
-        semester:2
+        semester:2,
+        img: ""
     },
     {
         ID:"computer",
@@ -84,7 +97,8 @@ export const CourseData=[
         name:"Calculus With Analysis",
         code:"MATH 152",
         year: 1,
-        semester:2
+        semester:2,
+        img: ""
     },
     {
         ID:"computer",
@@ -92,7 +106,8 @@ export const CourseData=[
         name:"Electric Machines",
         code:"EE 172",
         year: 1,
-        semester:2
+        semester:2,
+        img: ""
     },
     {
         ID:"computer",
@@ -100,7 +115,8 @@ export const CourseData=[
         name:"Matlab",
         code:"COE 158",
         year: 1,
-        semester:2
+        semester:2,
+        img: ""
     },
     {
         ID:"computer",
@@ -108,7 +124,8 @@ export const CourseData=[
         name:"Programming and Problem Solving",
         code:"COE 251",
         year: 1,
-        semester:2
+        semester:2,
+        img: ""
     },
     {
         ID:"computer",
@@ -116,7 +133,8 @@ export const CourseData=[
         name:"Accounting I",
         code:"CSM 157",
         year: 2,
-        semester:1
+        semester:1,
+        img: ""
     },
     {
         ID:"computer",
@@ -124,7 +142,8 @@ export const CourseData=[
         name:"French for Communication I",
         code:"FREN 181",
         year: 2,
-        semester:1
+        semester:1,
+        img: ""
     },
     {
         ID:"computer",
@@ -132,7 +151,8 @@ export const CourseData=[
         name:"Introductory Economics I",
         code:"ECON 151",
         year: 2,
-        semester:1
+        semester:1,
+        img: ""
     },
     {
         ID:"computer",
@@ -140,7 +160,8 @@ export const CourseData=[
         name:"Circuit Theory",
         code:"EE 287",
         year: 2,
-        semester:1
+        semester:1,
+        img: ""
     },
     {
         ID:"computer",
@@ -148,7 +169,8 @@ export const CourseData=[
         name:"Communication Systems",
         code:"TE 271",
         year: 2,
-        semester:1
+        semester:1,
+        img: ""
     },
     {
         ID:"computer",
@@ -156,7 +178,8 @@ export const CourseData=[
         name:"Computer Organizations",
         code:"COE 273",
         year: 2,
-        semester:1
+        semester:1,
+        img: ""
     },
     {
         ID:"computer",
@@ -164,7 +187,8 @@ export const CourseData=[
         name:"Differential Equations",
         code:"MATH 251",
         year: 2,
-        semester:1
+        semester:1,
+        img: ""
     },
     {
         ID:"computer",
@@ -172,7 +196,8 @@ export const CourseData=[
         name:"Discrete Structures",
         code:"COE 251",
         year: 2,
-        semester:1
+        semester:1,
+        img: ""
     },
     {
         ID:"computer",
@@ -180,7 +205,8 @@ export const CourseData=[
         name:"Semiconductor Devices",
         code:"COE 271",
         year: 2,
-        semester:1
+        semester:1,
+        img: ""
     },
     {
         ID:"computer",
@@ -188,7 +214,8 @@ export const CourseData=[
         name:"Digital Systems",
         code:"COE 272",
         year: 2,
-        semester:2
+        semester:2,
+        img: ""
     },
     {
         ID:"computer",
@@ -196,7 +223,8 @@ export const CourseData=[
         name:"Data Structures and Algorithm",
         code:"COE 252",
         year: 2,
-        semester:2
+        semester:2,
+        img: ""
     },
     {
         ID:"computer",
@@ -204,7 +232,8 @@ export const CourseData=[
         name:"Electrical Measurements and Instrumentation",
         code:"COE 288",
         year: 2,
-        semester:2
+        semester:2,
+        img: ""
     },
     {
         ID:"computer",
@@ -212,7 +241,8 @@ export const CourseData=[
         name:"Electromagnetic Fields Theory",
         code:"TE 262",
         year: 2,
-        semester:2
+        semester:2,
+        img: ""
     },
     {
         ID:"computer",
@@ -220,7 +250,8 @@ export const CourseData=[
         name:"Literature in English II",
         code:"ENGL 264",
         year: 2,
-        semester:2
+        semester:2,
+        img: ""
     },
     {
         ID:"computer",
@@ -228,7 +259,8 @@ export const CourseData=[
         name:"Introduction to Accounting II",
         code:"CSM 158",
         year: 2,
-        semester:2
+        semester:2,
+        img: ""
     },
     {
         ID:"computer",
@@ -236,7 +268,8 @@ export const CourseData=[
         name:"French for Communication II",
         code:"FREN 182",
         year: 2,
-        semester:2
+        semester:2,
+        img: ""
     },
     {
         ID:"computer",
@@ -244,7 +277,8 @@ export const CourseData=[
         name:"Introductory Economics II",
         code:"ECON 152",
         year: 2,
-        semester:2
+        semester:2,
+        img: ""
     },
     {
         ID:"computer",
@@ -252,7 +286,8 @@ export const CourseData=[
         name:"Classical Control Systems",
         code:"COE 387",
         year: 3,
-        semester:1
+        semester:1,
+        img: ""
     },
     {
         ID:"computer",
@@ -260,7 +295,8 @@ export const CourseData=[
         name:"Information Theory",
         code:"COE 353",
         year: 3,
-        semester:1
+        semester:1,
+        img: ""
     },
     {
         ID:"computer",
@@ -268,7 +304,8 @@ export const CourseData=[
         name:"Linear Electronics Circuit",
         code:"COE 371",
         year: 3,
-        semester:1
+        semester:1,
+        img: ""
     },
     {
         ID:"computer",
@@ -276,7 +313,8 @@ export const CourseData=[
         name:"Microprocessors",
         code:"COE 381",
         year: 3,
-        semester:1
+        semester:1,
+        img: ""
     },
     {
         ID:"computer",
@@ -284,7 +322,8 @@ export const CourseData=[
         name:"Numerical Analysis",
         code:"MATH 351",
         year: 3,
-        semester:1
+        semester:1,
+        img: ""
     },
     {
         ID:"computer",
@@ -292,7 +331,8 @@ export const CourseData=[
         name:"Object Oriented Programming",
         code:"COE 351",
         year: 3,
-        semester:1
+        semester:1,
+        img: ""
     },
     {
         ID:"computer",
@@ -300,7 +340,8 @@ export const CourseData=[
         name:"Probability and Statistics",
         code:"MATH 353",
         year: 3,
-        semester:1
+        semester:1,
+        img: ""
     },
     {
         ID:"computer",
@@ -308,7 +349,8 @@ export const CourseData=[
         name:"Autotronics Lab",
         code:"COE 392",
         year: 3,
-        semester:2
+        semester:2,
+        img: ""
     },
     {
         ID: "computer",
@@ -316,7 +358,8 @@ export const CourseData=[
         name:"Database and Information Retrieval",
         code:"COE 368",
         year: 3,
-        semester:2
+        semester:2,
+        img: ""
     },
     {
         ID:"computer",
@@ -324,7 +367,8 @@ export const CourseData=[
         name:"Digital Computer Design",
         code:"COE 382",
         year: 3,
-        semester:2
+        semester:2,
+        img: ""
     },
     {
         ID:"computer",
@@ -332,7 +376,8 @@ export const CourseData=[
         name:"Embedded SystemS",
         code:"COE 358",
         year: 3,
-        semester:2
+        semester:2,
+        img: ""
     },
     {
         ID:"computer",
@@ -340,7 +385,8 @@ export const CourseData=[
         name:"Operating System",
         code:"COE 354",
         year: 3,
-        semester:2
+        semester:2,
+        img: ""
     },
     {
         ID:"computer",
@@ -348,7 +394,8 @@ export const CourseData=[
         name:"Introduction to Software Engineerng",
         code:"COE 356",
         year: 3,
-        semester:2
+        semester:2,
+        img: ""
     },
     {
         ID:"computer",
@@ -356,7 +403,8 @@ export const CourseData=[
         name:"Project I",
         code:"COE 497",
         year: 4,
-        semester:1
+        semester:1,
+        img: ""
     },
     {
         ID:"computer",
@@ -364,7 +412,8 @@ export const CourseData=[
         name:"Computer Networking",
         code:"COE 475",
         year: 4,
-        semester:1
+        semester:1,
+        img: ""
     },
     {
         ID:"computer",
@@ -372,7 +421,8 @@ export const CourseData=[
         name:"Computer Architecture",
         code:"COE 485",
         year: 4,
-        semester:1
+        semester:1,
+        img: ""
     },
     {
         ID:"computer",
@@ -380,7 +430,8 @@ export const CourseData=[
         name:"Computer Graphics",
         code:"COE 451",
         year: 4,
-        semester:1
+        semester:1,
+        img: ""
     },
     {
         ID:"computer",
@@ -388,7 +439,8 @@ export const CourseData=[
         name:"Distributed Computing",
         code:"COE 453",
         year: 4,
-        semester:1
+        semester:1,
+        img: ""
     },
     {
         ID:"computer",
@@ -396,7 +448,8 @@ export const CourseData=[
         name:"Artificial Intelligence",
         code:"COE 457",
         year: 4,
-        semester:1
+        semester:1,
+        img: ""
     },
     {
         ID:"computer",
@@ -404,7 +457,8 @@ export const CourseData=[
         name:"Entrepreneurship Development",
         code:"ME 492",
         year: 4,
-        semester:2
+        semester:2,
+        img: ""
     },
     {
         ID:"computer",
@@ -412,7 +466,8 @@ export const CourseData=[
         name:"Project II",
         code:"COE 498",
         year: 4,
-        semester:2
+        semester:2,
+        img: ""
     },
     {
         ID:"computer",
@@ -420,7 +475,8 @@ export const CourseData=[
         name:"Introduction to VLSI",
         code:"COE 486",
         year: 4,
-        semester:2
+        semester:2,
+        img: ""
     },
     {
         ID:"computer",
@@ -428,7 +484,8 @@ export const CourseData=[
         name:"Compiler Construction",
         code:"COE 452",
         year: 4,
-        semester:2
+        semester:2,
+        img: ""
     },
     {
         ID:"computer",
@@ -436,7 +493,8 @@ export const CourseData=[
         name:"Software Engineering",
         code:"COE 454",
         year: 4,
-        semester:2
+        semester:2,
+        img: ""
     },
     {
         ID:"computer",
@@ -444,7 +502,8 @@ export const CourseData=[
         name:"Secure Network Systems",
         code:"COE 456",
         year: 4,
-        semester:2
+        semester:2,
+        img: ""
     },
     {
         ID:"computer",
@@ -452,7 +511,8 @@ export const CourseData=[
         name:"Computer Vision and Robotics",
         code:"COE 458",
         year: 4,
-        semester:2
+        semester:2,
+        img: ""
     },
     {
         ID:"computer",
@@ -460,7 +520,8 @@ export const CourseData=[
         name:"Fault Diagnosis and Failure Tolerance",
         code:"COE 480",
         year: 4,
-        semester:2
+        semester:2,
+        img: ""
     },
     {
         ID:"electrical",
@@ -468,7 +529,8 @@ export const CourseData=[
         name:"Algebra",
         code:"MATH 151",
         year: 1,
-        semester:1
+        semester:1,
+        img: ""
     }, 
     {
         ID:"electrical",
@@ -476,7 +538,8 @@ export const CourseData=[
         name:"Applied Electricity",
         code:"EE 151",
         year:1,
-        semester:1
+        semester:1,
+        img: ""
     }, 
     {
         ID:"electrical",
@@ -484,7 +547,8 @@ export const CourseData=[
         name:"Communication Skills I",
         code:"ENGL 157",
         year: 1,
-        semester:1
+        semester:1,
+        img: ""
     }, 
     {
         ID:"electrical",
@@ -492,7 +556,8 @@ export const CourseData=[
         name:"Basic Mechanics",
         code:"ME 161",
         year: 1,
-        semester:1
+        semester:1,
+        img: ""
     }, 
     {
         ID:"electrical",
@@ -500,7 +565,8 @@ export const CourseData=[
         name:"Technical Drawing",
         code:"ME 159",
         year: 1,
-        semester:1
+        semester:1,
+        img: ""
     },
     {
         ID:"electrical",
@@ -508,7 +574,8 @@ export const CourseData=[
         name:"Environmental Studies",
         code:"CE 155",
         year: 1,
-        semester:1
+        semester:1,
+        img: ""
     },
     {
         ID:"electrical",
@@ -516,7 +583,8 @@ export const CourseData=[
         name:"Engineering Technology",
         code:"EE 153",
         year: 1,
-        semester:1
+        semester:1,
+        img: ""
     },
     {
         ID:"electrical",
@@ -524,7 +592,8 @@ export const CourseData=[
         name:"Applied Thermodynamics",
         code:"ME 166",
         year: 1,
-        semester:2
+        semester:2,
+        img: ""
     },
     {
         ID:"electrical",
@@ -532,7 +601,8 @@ export const CourseData=[
         name:"Basic Electronics",
         code:"EE 152",
         year: 1,
-        semester:2
+        semester:2,
+        img: ""
     },
     {
         ID:"electrical",
@@ -540,7 +610,8 @@ export const CourseData=[
         name:"Calculus with Analysis",
         code:"MATH 152",
         year: 1,
-        semester:2
+        semester:2,
+        img: ""
     },
     {
         ID:"electrical",
@@ -548,7 +619,8 @@ export const CourseData=[
         name:"Electric Machines",
         code:"EE 172",
         year: 1,
-        semester:2
+        semester:2,
+        img: ""
     },
     {
         ID:"electrical",
@@ -556,7 +628,8 @@ export const CourseData=[
         name:"Introduction to IT",
         code:"COE 158",
         year: 1,
-        semester:2
+        semester:2,
+        img: ""
     },
     {
         ID:"electrical",
@@ -564,7 +637,8 @@ export const CourseData=[
         name:"Electromechanical Enery Converion and Transformers",
         code:"EE 162",
         year: 1,
-        semester:2
+        semester:2,
+        img: ""
     },
     {
         ID:"electrical",
@@ -572,7 +646,8 @@ export const CourseData=[
         name:"Communication Skills II",
         code:"ENGL 158",
         year: 1,
-        semester:2
+        semester:2,
+        img: ""
     },
     {
         ID:"electrical",
@@ -580,7 +655,8 @@ export const CourseData=[
         name:"Differential Equations",
         code:"MATH 251",
         year: 2,
-        semester:1
+        semester:1,
+        img: ""
     },
     {
         ID:"electrical",
@@ -588,7 +664,8 @@ export const CourseData=[
         name:"C Programming",
         code:"COE 251",
         year: 2,
-        semester:1
+        semester:1,
+        img: ""
     },
     {
         ID:"electrical",
@@ -596,7 +673,8 @@ export const CourseData=[
         name:"Asynchronous and DC machines",
         code:"EE 261",
         year: 2,
-        semester:1
+        semester:1,
+        img: ""
     },
     {
         ID:"electrical",
@@ -604,7 +682,8 @@ export const CourseData=[
         name:"Semiconductor Devices",
         code:"EE 271",
         year: 2,
-        semester:1
+        semester:1,
+        img: ""
     },
     {
         ID:"electrical",
@@ -612,7 +691,8 @@ export const CourseData=[
         name:"Circuit Theory",
         code:"EE 287",
         year: 2,
-        semester:1
+        semester:1,
+        img: ""
     },
     {
         ID:"electrical",
@@ -620,7 +700,8 @@ export const CourseData=[
         name:"Electrical Engineering Lab I",
         code:"EE 291",
         year: 2,
-        semester:1
+        semester:1,
+        img: ""
     },
     {
         ID:"electrical",
@@ -628,7 +709,8 @@ export const CourseData=[
         name:"Literature in English I",
         code:"ENGL 263",
         year: 2,
-        semester:1
+        semester:1,
+        img: ""
     },
     {
         ID:"electrical",
@@ -636,7 +718,8 @@ export const CourseData=[
         name:"Introduction to Accounting I",
         code:"CSM 157",
         year: 2,
-        semester:1
+        semester:1,
+        img: ""
     },
     {
         ID:"electrical",
@@ -644,7 +727,8 @@ export const CourseData=[
         name:"French for Communication I",
         code:"FREN 181",
         year: 2,
-        semester:1
+        semester:1,
+        img: ""
     },
     {
         ID:"electrical",
@@ -652,7 +736,8 @@ export const CourseData=[
         name:"Introductory Economics I",
         code:"ECON 151",
         year: 2,
-        semester:1
+        semester:1,
+        img: ""
     },
     {
         ID:"electrical",
@@ -660,7 +745,8 @@ export const CourseData=[
         name:"Calculus with Several Variables",
         code:"MATH 252",
         year: 2,
-        semester:2
+        semester:2,
+        img: ""
     },
     {
         ID:"electrical",
@@ -668,7 +754,8 @@ export const CourseData=[
         name:"Synchronous Machines",
         code:"EE 262",
         year: 2,
-        semester:2
+        semester:2,
+        img: ""
     },
     {
         ID:"electrical",
@@ -676,7 +763,8 @@ export const CourseData=[
         name:"Digital Systems",
         code:"EE 272",
         year: 2,
-        semester:2
+        semester:2,
+        img: ""
     },
     {
         ID:"electrical",
@@ -684,7 +772,8 @@ export const CourseData=[
         name:"Electromagnetic Fields",
         code:"TE 262",
         year: 2,
-        semester:2
+        semester:2,
+        img: ""
     },
     {
         ID:"electrical",
@@ -692,7 +781,8 @@ export const CourseData=[
         name:"Electrical Measurement and Instrumentation",
         code:"EE 288",
         year: 2,
-        semester:2
+        semester:2,
+        img: ""
     },
     {
         ID:"electrical",
@@ -700,7 +790,8 @@ export const CourseData=[
         name:"Electrical Engineering Lab II",
         code:"EE 292",
         year: 2,
-        semester:2
+        semester:2,
+        img: ""
     },
     {
         ID:"electrical",
@@ -708,7 +799,8 @@ export const CourseData=[
         name:"Literature in English II",
         code:"ENGL 264",
         year: 2,
-        semester:2
+        semester:2,
+        img: ""
     },
     {
         ID:"electrical",
@@ -716,7 +808,8 @@ export const CourseData=[
         name:"Accounting II",
         code:"CSM 158",
         year: 2,
-        semester:2
+        semester:2,
+        img: ""
     },
     {
         ID:"electrical",
@@ -724,7 +817,8 @@ export const CourseData=[
         name:"French for Communication II",
         code:"FREN 182",
         year: 2,
-        semester:2
+        semester:2,
+        img: ""
     },
     {
         ID:"electrical",
@@ -732,7 +826,8 @@ export const CourseData=[
         name:"Introductory Economics II",
         code:"ECON 152",
         year: 2,
-        semester:2
+        semester:2,
+        img: ""
     },
     {
         ID:"electrical",
@@ -740,7 +835,8 @@ export const CourseData=[
         name:"Probability and Statistics",
         code:"MATH 353",
         year: 3,
-        semester:1
+        semester:1,
+        img: ""
     }, 
     {
         ID:"electrical",
@@ -748,7 +844,8 @@ export const CourseData=[
         name:"Numerical Analysis",
         code:"MATH 351",
         year: 3,
-        semester:1
+        semester:1,
+        img: ""
     }, 
     {
         ID:"electrical",
@@ -756,7 +853,8 @@ export const CourseData=[
         name:"Power Generation and Supply",
         code:"EE 367",
         year: 3,
-        semester:1
+        semester:1,
+        img: ""
     }, 
     {
         ID:"electrical",
@@ -764,7 +862,8 @@ export const CourseData=[
         name:"Analogue Communication Systems",
         code:"TE 271",
         year: 3,
-        semester:1
+        semester:1,
+        img: ""
     }, 
     {
         ID:"electrical",
@@ -772,7 +871,8 @@ export const CourseData=[
         name:"Linear Electronics Circuits",
         code:"EE 371",
         year: 3,
-        semester:1
+        semester:1,
+        img: ""
     }, 
     {
         ID:"electrical",
@@ -780,7 +880,8 @@ export const CourseData=[
         name:"Microprocessors",
         code:"COE 381",
         year: 3,
-        semester:1
+        semester:1,
+        img: ""
     }, 
     {
         ID:"electrical",
@@ -788,7 +889,8 @@ export const CourseData=[
         name:"Electrical Services Design",
         code:"EE 365",
         year: 3,
-        semester:1
+        semester:1,
+        img: ""
     }, 
     {
         ID:"electrical",
@@ -796,7 +898,8 @@ export const CourseData=[
         name:"Classical Control System",
         code:"EE 387",
         year: 3,
-        semester:1
+        semester:1,
+        img: ""
     },
     {
         ID:"electrical",
@@ -804,7 +907,8 @@ export const CourseData=[
         name:"Power Electronics",
         code:"EE 366",
         year: 3,
-        semester:2
+        semester:2,
+        img: ""
     }, 
     {
         ID:"electrical",
@@ -812,7 +916,8 @@ export const CourseData=[
         name:"Power Systems Analysis",
         code:"EE 368",
         year: 3,
-        semester:2
+        semester:2,
+        img: ""
     },  
     {
         ID:"electrical",
@@ -820,7 +925,8 @@ export const CourseData=[
         name:"Digital Communication Systems",
         code:"TE 386",
         year: 3,
-        semester:2
+        semester:2,
+        img: ""
     },  
     {
         ID:"electrical",
@@ -828,7 +934,8 @@ export const CourseData=[
         name:"Electrical Engineering Lab III",
         code:"EE 392",
         year: 3,
-        semester:2
+        semester:2,
+        img: ""
     },  
     {
         ID:"electrical",
@@ -836,7 +943,8 @@ export const CourseData=[
         name:"Substation and Transmission Line Design",
         code:"EE 362",
         year: 3,
-        semester:2
+        semester:2,
+        img: ""
     },  
     {
         ID:"electrical",
@@ -844,7 +952,8 @@ export const CourseData=[
         name:"Digital Computer Design",
         code:"COE 382",
         year: 3,
-        semester:2
+        semester:2,
+        img: ""
     },  
     {
         ID:"electrical",
@@ -852,7 +961,8 @@ export const CourseData=[
         name:"Switching Engineering in Communication",
         code:"TE 384",
         year: 3,
-        semester:2
+        semester:2,
+        img: ""
     },  
     {
         ID:"electrical",
@@ -860,7 +970,8 @@ export const CourseData=[
         name:"Digital Control Systems",
         code:"EE 380",
         year: 3,
-        semester:2
+        semester:2,
+        img: ""
     },  
     {
         ID:"electrical",
@@ -868,7 +979,8 @@ export const CourseData=[
         name:"High Voltage Engineering",
         code:"EE 360",
         year: 3,
-        semester:2
+        semester:2,
+        img: ""
     },  
     {
         ID:"electrical",
@@ -876,7 +988,8 @@ export const CourseData=[
         name:"Antennas and Propagation",
         code:"TE 372",
         year: 3,
-        semester:2
+        semester:2,
+        img: ""
     },  
     {
         ID:"electrical",
@@ -884,7 +997,8 @@ export const CourseData=[
         name:"Engineering Economics and Managment",
         code:"ME 491",
         year: 4,
-        semester:1
+        semester:1,
+        img: ""
     },       
     {
         ID:"electrical",
@@ -892,7 +1006,8 @@ export const CourseData=[
         name:"Project I",
         code:"EE 497",
         year: 4,
-        semester:1
+        semester:1,
+        img: ""
     },
     {
         ID:"electrical",
@@ -900,7 +1015,8 @@ export const CourseData=[
         name:"Power System Operation and Control",
         code:"EE 467",
         year: 4,
-        semester:1
+        semester:1,
+        img: ""
     },
     {
         ID:"electrical",
@@ -908,7 +1024,8 @@ export const CourseData=[
         name:"Computer Networking",
         code:"COE 475",
         year: 4,
-        semester:1
+        semester:1,
+        img: ""
     },
     {
         ID:"electrical",
@@ -916,7 +1033,8 @@ export const CourseData=[
         name:"Generalized Machine Theory",
         code:"EE 461",
         year: 4,
-        semester:1
+        semester:1,
+        img: ""
     },
     {
         ID:"electrical",
@@ -924,7 +1042,8 @@ export const CourseData=[
         name:"Electrical Heating/Cooling",
         code:"EE 469",
         year: 4,
-        semester:1
+        semester:1,
+        img: ""
     },
     {
         ID:"electrical",
@@ -932,7 +1051,8 @@ export const CourseData=[
         name:"Special Electrical Machines",
         code:"EE 463",
         year: 4,
-        semester:1
+        semester:1,
+        img: ""
     },
     {
         ID:"electrical",
@@ -940,7 +1060,8 @@ export const CourseData=[
         name:"Wireless Data Communication Systems",
         code:"TE 481",
         year: 4,
-        semester:1
+        semester:1,
+        img: ""
     },
     {
         ID:"electrical",
@@ -948,7 +1069,8 @@ export const CourseData=[
         name:"Principles of Linear Systems",
         code:"EE 487",
         year: 4,
-        semester:1
+        semester:1,
+        img: ""
     },
     {
         ID:"electrical",
@@ -956,7 +1078,8 @@ export const CourseData=[
         name:"Entrepreneurship Development",
         code:"ME 492",
         year: 4,
-        semester:2
+        semester:2,
+        img: ""
     },
     {
         ID:"electrical",
@@ -964,7 +1087,8 @@ export const CourseData=[
         name:"Project II",
         code:"EE 498",
         year: 4,
-        semester:2
+        semester:2,
+        img: ""
     },
     {
         ID:"electrical",
@@ -972,7 +1096,8 @@ export const CourseData=[
         name:"Electric Drives",
         code:"EE 462",
         year: 4,
-        semester:2
+        semester:2,
+        img: ""
     },
     {
         ID:"electrical",
@@ -980,7 +1105,8 @@ export const CourseData=[
         name:"Power System Protection",
         code:"EE 468",
         year: 4,
-        semester:2
+        semester:2,
+        img: ""
     },
     {
         ID:"electrical",
@@ -988,7 +1114,8 @@ export const CourseData=[
         name:"Power System Plan and Optimization",
         code:"EE 466",
         year: 4,
-        semester:2
+        semester:2,
+        img: ""
     },
     {
         ID:"electrical",
@@ -996,7 +1123,8 @@ export const CourseData=[
         name:"Digital Signal Processing",
         code:"EE 472",
         year: 4,
-        semester:2
+        semester:2,
+        img: ""
     },
     {
         ID:"electrical",
@@ -1004,7 +1132,8 @@ export const CourseData=[
         name:"System Programming",
         code:"EE 482",
         year: 4,
-        semester:2
+        semester:2,
+        img: ""
     },
     {
         ID:"electrical",
@@ -1012,7 +1141,8 @@ export const CourseData=[
         name:"Introduction to VLSI",
         code:"COE 486",
         year: 4,
-        semester:2
+        semester:2,
+        img: ""
     },
     {
         ID:"electrical",
@@ -1020,7 +1150,8 @@ export const CourseData=[
         name:"Industrial Automatic Control",
         code:"COE 484",
         year: 4,
-        semester:2
+        semester:2,
+        img: ""
     },
     {
         ID:"electrical",
@@ -1028,7 +1159,8 @@ export const CourseData=[
         name:"Mobile and Satellite Comm. System",
         code:"TE 472",
         year: 4,
-        semester:2
+        semester:2,
+        img: ""
     },
     {
         ID:"telecom",
@@ -1036,7 +1168,8 @@ export const CourseData=[
         name:"Algebra",
         code:"MATH 151",
         year:1,
-        semester:1
+        semester:1,
+        img: ""
 
     },
     {
@@ -1045,7 +1178,8 @@ export const CourseData=[
         name:"Communications Skills I",
         code:"ENGL 157",
         year:1,
-        semester:1
+        semester:1,
+        img: ""
 
     },
     {
@@ -1054,7 +1188,8 @@ export const CourseData=[
         name:"Environmental Studies",
         code:"CE 155",
         year:1,
-        semester:1
+        semester:1,
+        img: ""
 
     },
     {
@@ -1063,7 +1198,8 @@ export const CourseData=[
         name:"Technical drawing",
         code:"ME 159",
         year:1,
-        semester:1
+        semester:1,
+        img: ""
 
     },
     {
@@ -1072,7 +1208,8 @@ export const CourseData=[
         name:"Basic Mechanics",
         code:"ME 161",
         year:1,
-        semester:1
+        semester:1,
+        img: ""
 
     },
     {
@@ -1081,7 +1218,8 @@ export const CourseData=[
         name:"Applied Electricity",
         code:"EE 151",
         year:1,
-        semester:1
+        semester:1,
+        img: ""
 
     },
     {
@@ -1090,7 +1228,8 @@ export const CourseData=[
         name:"Electrical Engineering Drawing",
         code:"EE 153",
         year:1,
-        semester:1
+        semester:1,
+        img: ""
 
     },
     {
@@ -1099,7 +1238,8 @@ export const CourseData=[
         name:"Calculus with Analysis",
         code:"MATH 152",
         year:1,
-        semester:2
+        semester:2,
+        img: ""
 
     },
     {
@@ -1108,7 +1248,8 @@ export const CourseData=[
         name:"Communication Skills",
         code:"ENGL 158",
         year:1,
-        semester:2
+        semester:2,
+        img: ""
 
     },
     {
@@ -1117,7 +1258,8 @@ export const CourseData=[
         name:"Applied Thermodynamics",
         code:"ME 166",
         year:1,
-        semester:2
+        semester:2,
+        img: ""
 
     },
     {
@@ -1126,7 +1268,8 @@ export const CourseData=[
         name:"Basic Electronics",
         code:"EE 152",
         year:1,
-        semester:2
+        semester:2,
+        img: ""
 
     },
     {
@@ -1135,7 +1278,8 @@ export const CourseData=[
         name:"Electrical Engineering Drawing",
         code:"EE 156",
         year:1,
-        semester:2
+        semester:2,
+        img: ""
 
     },
     {
@@ -1144,7 +1288,8 @@ export const CourseData=[
         name:"Electrical Machines",
         code:"EE 172",
         year:1,
-        semester:2
+        semester:2,
+        img: ""
 
     },
     {
@@ -1153,7 +1298,8 @@ export const CourseData=[
         name:"Introduction To IT",
         code:"COE 158",
         year:1,
-        semester:2
+        semester:2,
+        img: ""
 
     },
     {
@@ -1162,7 +1308,8 @@ export const CourseData=[
         name:"Differential Equations",
         code:"MATH 251",
         year:2,
-        semester:1
+        semester:1,
+        img: ""
 
     },
     {
@@ -1171,7 +1318,8 @@ export const CourseData=[
         name:"C Programming",
         code:"COE 251",
         year:2,
-        semester:1
+        semester:1,
+        img: ""
 
     },
     {
@@ -1180,7 +1328,8 @@ export const CourseData=[
         name:"Semiconductor Devices",
         code:"EE 271",
         year:2,
-        semester:1
+        semester:1,
+        img: ""
 
     },
     {
@@ -1189,7 +1338,8 @@ export const CourseData=[
         name:"Circuit Theory",
         code:"EE 287",
         year:2,
-        semester:1
+        semester:1,
+        img: ""
 
     },
     {
@@ -1198,7 +1348,8 @@ export const CourseData=[
         name:"Analog Communications Systems",
         code:"TE 271",
         year:2,
-        semester:1
+        semester:1,
+        img: ""
 
     },
     {
@@ -1207,7 +1358,8 @@ export const CourseData=[
         name:"Telecommunications Lab I",
         code:"TE 291",
         year:2,
-        semester:1
+        semester:1,
+        img: ""
 
     },
     {
@@ -1216,7 +1368,8 @@ export const CourseData=[
         name:"Engineering In Society",
         code:"CENG 291",
         year:2,
-        semester:1
+        semester:1,
+        img: ""
 
     },
     {
@@ -1225,7 +1378,8 @@ export const CourseData=[
         name:"French for Commmunications",
         code:"FREN 181",
         year:2,
-        semester:1
+        semester:1,
+        img: ""
 
     },
     {
@@ -1234,7 +1388,8 @@ export const CourseData=[
         name:"Calculus with Several Variables",
         code:"MATH 252",
         year:2,
-        semester:2
+        semester:2,
+        img: ""
 
     },
     {
@@ -1243,7 +1398,8 @@ export const CourseData=[
         name:"Digital Systems",
         code:"EE 272",
         year:2,
-        semester:2
+        semester:2,
+        img: ""
 
     },
     {
@@ -1252,7 +1408,8 @@ export const CourseData=[
         name:"Electrical Measurement and Instrumentation",
         code:"EE 288",
         year:2,
-        semester:2
+        semester:2,
+        img: ""
 
     },
     {
@@ -1261,7 +1418,8 @@ export const CourseData=[
         name:"Electromagnetic Field",
         code:"TE 262",
         year:2,
-        semester:2
+        semester:2,
+        img: ""
 
     },
     {
@@ -1270,7 +1428,8 @@ export const CourseData=[
         name:"Telecommunication Lab II",
         code:"TE 292",
         year:2,
-        semester:2
+        semester:2,
+        img: ""
 
     },
     {
@@ -1279,7 +1438,8 @@ export const CourseData=[
         name:"French for Communication",
         code:"FREN 182",
         year:2,
-        semester:2
+        semester:2,
+        img: ""
 
     },
     {
@@ -1288,7 +1448,8 @@ export const CourseData=[
         name:"Numerical Methods",
         code:"MATH 351",
         year:3,
-        semester:1
+        semester:1,
+        img: ""
 
     },
     {
@@ -1297,7 +1458,8 @@ export const CourseData=[
         name:"Statistics",
         code:"MATH 353",
         year:3,
-        semester:1
+        semester:1,
+        img: ""
 
     },
     {
@@ -1306,7 +1468,8 @@ export const CourseData=[
         name:"Miroprocessor",
         code:"COE 381",
         year:3,
-        semester:1
+        semester:1,
+        img: ""
 
     },
     {
@@ -1315,7 +1478,8 @@ export const CourseData=[
         name:"Signal and Systems",
         code:"TE 385",
         year:3,
-        semester:1
+        semester:1,
+        img: ""
 
     },
     {
@@ -1324,7 +1488,8 @@ export const CourseData=[
         name:"Information Theory",
         code:"TE 361",
         year:3,
-        semester:1
+        semester:1,
+        img: ""
 
     },
     {
@@ -1333,7 +1498,8 @@ export const CourseData=[
         name:"Optical Communications",
         code:"TE 381",
         year:3,
-        semester:1
+        semester:1,
+        img: ""
 
     },
     {
@@ -1342,7 +1508,8 @@ export const CourseData=[
         name:"Linear Electronic Circuit",
         code:"EE 371",
         year:3,
-        semester:1
+        semester:1,
+        img: ""
 
     },
     {
@@ -1351,7 +1518,8 @@ export const CourseData=[
         name:"Telecommunications Lab III",
         code:"TE 391",
         year:3,
-        semester:1
+        semester:1,
+        img: ""
 
     },
     {
@@ -1360,7 +1528,8 @@ export const CourseData=[
         name:"Telecom Infrastructure",
         code:"TE 362",
         year:3,
-        semester:2
+        semester:2,
+        img: ""
 
     },
     {
@@ -1369,7 +1538,8 @@ export const CourseData=[
         name:"Communication Circuit",
         code:"TE 364",
         year:3,
-        semester:2
+        semester:2,
+        img: ""
 
     },
     {
@@ -1378,7 +1548,8 @@ export const CourseData=[
         name:"Antenna & Propagation",
         code:"TE 372",
         year:3,
-        semester:2
+        semester:2,
+        img: ""
 
     },
     {
@@ -1387,7 +1558,8 @@ export const CourseData=[
         name:"Data Communication Networks",
         code:"TE 382",
         year:3,
-        semester:2
+        semester:2,
+        img: ""
 
     },
     {
@@ -1396,7 +1568,8 @@ export const CourseData=[
         name:"Switching Engineering in Communication",
         code:"TE 384",
         year:3,
-        semester:2
+        semester:2,
+        img: ""
 
     },
     {
@@ -1405,7 +1578,8 @@ export const CourseData=[
         name:"Digital Communication Systems",
         code:"TE 386",
         year:3,
-        semester:2
+        semester:2,
+        img: ""
 
     },
     {
@@ -1414,7 +1588,8 @@ export const CourseData=[
         name:"Telecommunication Lab IV",
         code:"TE 392",
         year:3,
-        semester:2
+        semester:2,
+        img: ""
 
     },
     {
@@ -1423,7 +1598,8 @@ export const CourseData=[
         name:"Computer Application & Project Design",
         code:"TE 461",
         year:4,
-        semester:1
+        semester:1,
+        img: ""
 
     },
     {
@@ -1432,7 +1608,8 @@ export const CourseData=[
         name:"Electromagnetic Compatibility",
         code:"TE 471",
         year:4,
-        semester:1
+        semester:1,
+        img: ""
 
     },
     {
@@ -1441,7 +1618,8 @@ export const CourseData=[
         name:"Wireless Data Communications Networks",
         code:"TE 481",
         year:4,
-        semester:1
+        semester:1,
+        img: ""
 
     },
     {
@@ -1450,7 +1628,8 @@ export const CourseData=[
         name:"Project I",
         code:"TE 497",
         year:4,
-        semester:1
+        semester:1,
+        img: ""
 
     },
     {
@@ -1459,7 +1638,8 @@ export const CourseData=[
         name:"Engineering Econ & management",
         code:"ME 491",
         year:4,
-        semester:1
+        semester:1,
+        img: ""
 
     },
     {
@@ -1468,7 +1648,8 @@ export const CourseData=[
         name:"Computer Networking",
         code:"COE 475",
         year:4,
-        semester:1
+        semester:1,
+        img: ""
 
     },
     {
@@ -1477,7 +1658,8 @@ export const CourseData=[
         name:"Enterpreneurship Development",
         code:"ME 492",
         year:4,
-        semester:2
+        semester:2,
+        img: ""
 
     },
     {
@@ -1486,7 +1668,8 @@ export const CourseData=[
         name:"Telecom Policy",
         code:"TE 462",
         year:4,
-        semester:2
+        semester:2,
+        img: ""
 
     },
     {
@@ -1495,7 +1678,8 @@ export const CourseData=[
         name:"Digital Signal Processing",
         code:"TE 472",
         year:4,
-        semester:2
+        semester:2,
+        img: ""
 
     },
     {
@@ -1504,7 +1688,8 @@ export const CourseData=[
         name:"Microwave Engineering",
         code:"TE 474",
         year:4,
-        semester:2
+        semester:2,
+        img: ""
 
     },
     {
@@ -1513,7 +1698,8 @@ export const CourseData=[
         name:"Project II",
         code:"TE 498",
         year:4,
-        semester:2
+        semester:2,
+        img: ""
 
     },
     {
@@ -1522,7 +1708,8 @@ export const CourseData=[
         name:"Introduction to VLSI",
         code:"COE 486",
         year:4,
-        semester:2
+        semester:2,
+        img: ""
 
     },
     {
@@ -1531,7 +1718,8 @@ export const CourseData=[
         name:"Network Planning",
         code:"TE 484",
         year:4,
-        semester:2
+        semester:2,
+        img: ""
 
     },
     {
@@ -1540,7 +1728,8 @@ export const CourseData=[
         name:"Inorganic Chemistry for Engineers",
         code:"CHE 151",
         year:1,
-        semester:1
+        semester:1,
+        img: ""
 
     },
     {
@@ -1549,7 +1738,8 @@ export const CourseData=[
         name:"Organic Chemistry for Engineers",
         code:"CHE 153",
         year:1,
-        semester:1
+        semester:1,
+        img: ""
 
     },
     {
@@ -1558,7 +1748,8 @@ export const CourseData=[
         name:"chemistry Practical I",
         code:"CHEM 179",
         year:1,
-        semester:1
+        semester:1,
+        img: ""
 
     },
     {
@@ -1567,7 +1758,8 @@ export const CourseData=[
         name:"Applied Electricity",
         code:"EE 151",
         year:1,
-        semester:1
+        semester:1,
+        img: ""
 
     },
     {
@@ -1576,7 +1768,8 @@ export const CourseData=[
         name:"Communications Skills I",
         code:"ENGL 157",
         year:1,
-        semester:1
+        semester:1,
+        img: ""
 
     },
     {
@@ -1585,7 +1778,8 @@ export const CourseData=[
         name:"Algebra",
         code:"MATH 151",
         year:1,
-        semester:1
+        semester:1,
+        img: ""
 
     },
     {
@@ -1594,7 +1788,8 @@ export const CourseData=[
         name:"Tehnical Drawing",
         code:"ME 159",
         year:1,
-        semester:1
+        semester:1,
+        img: ""
 
     },
     {
@@ -1603,7 +1798,8 @@ export const CourseData=[
         name:"Physical Chemistry for Engineers",
         code:"CHE 156",
         year:1,
-        semester:2
+        semester:2,
+        img: ""
 
     },
     {
@@ -1612,7 +1808,8 @@ export const CourseData=[
         name:"Basic electronics",
         code:"EE 152",
         year:1,
-        semester:2
+        semester:2,
+        img: ""
 
     },
     {
@@ -1621,7 +1818,8 @@ export const CourseData=[
         name:"Communication Skills II",
         code:"ENGL 158",
         year:1,
-        semester:2
+        semester:2,
+        img: ""
 
     },
     {
@@ -1630,7 +1828,8 @@ export const CourseData=[
         name:"Calculus with Analysis",
         code:"MATH 152",
         year:1,
-        semester:2
+        semester:2,
+        img: ""
 
     },
     {
@@ -1639,7 +1838,8 @@ export const CourseData=[
         name:"Basic Mechanics",
         code:"ME 162",
         year:1,
-        semester:2
+        semester:2,
+        img: ""
 
     },
     {
@@ -1648,7 +1848,8 @@ export const CourseData=[
         name:"Introduction to Information Technology",
         code:"COE 158",
         year:1,
-        semester:2
+        semester:2,
+        img: ""
 
     },
     {
@@ -1657,7 +1858,8 @@ export const CourseData=[
         name:"General Physics",
         code:"PHY 170",
         year:1,
-        semester:2
+        semester:2,
+        img: ""
 
     },
     {
@@ -1666,7 +1868,8 @@ export const CourseData=[
         name:"Engineering in Society",
         code:"CENG 291",
         year:2,
-        semester:1
+        semester:1,
+        img: ""
 
     },
     {
@@ -1675,7 +1878,8 @@ export const CourseData=[
         name:"Chemical Process Calculation I",
         code:"CHE 251",
         year:2,
-        semester:1
+        semester:1,
+        img: ""
 
     },
     {
@@ -1684,7 +1888,8 @@ export const CourseData=[
         name:"Chemical Engineering Thermodynamic I",
         code:"CHE 253",
         year:2,
-        semester:1
+        semester:1,
+        img: ""
 
     },
     {
@@ -1693,7 +1898,8 @@ export const CourseData=[
         name:"Fluid Transport",
         code:"CHE 255",
         year:2,
-        semester:1
+        semester:1,
+        img: ""
 
     },
     {
@@ -1702,7 +1908,8 @@ export const CourseData=[
         name:"Analytical Chemistry for Engineers",
         code:" CHE 257",
         year:2,
-        semester:1
+        semester:1,
+        img: ""
 
     },
     {
@@ -1711,7 +1918,8 @@ export const CourseData=[
         name:"Computer Applications for Engineers",
         code:"CHE 261",
         year:2,
-        semester:1
+        semester:1,
+        img: ""
 
     },
     {
@@ -1720,7 +1928,8 @@ export const CourseData=[
         name:"Differential Equations",
         code:"MATH 251",
         year:2,
-        semester:1
+        semester:1,
+        img: ""
 
     },
     {
@@ -1729,7 +1938,8 @@ export const CourseData=[
         name:"Introduction to Petrochemical Indutries",
         code:"PCE 253",
         year:2,
-        semester:1
+        semester:1,
+        img: ""
 
     },
     {
@@ -1738,7 +1948,8 @@ export const CourseData=[
         name:"Strength of Materials for Chem. Engineers  ",
         code:"CHE 250",
         year:2,
-        semester:2
+        semester:2,
+        img: ""
 
     },
     {
@@ -1747,7 +1958,8 @@ export const CourseData=[
         name:"Chemical Process Calculations II",
         code:"CHE 252",
         year:2,
-        semester:2
+        semester:2,
+        img: ""
 
     },
     {
@@ -1756,7 +1968,8 @@ export const CourseData=[
         name:"Chemical Engineering Thermodynamics II",
         code:"CHE 254",
         year:2,
-        semester:2
+        semester:2,
+        img: ""
 
     },
     {
@@ -1765,7 +1978,8 @@ export const CourseData=[
         name:"Heat Transport Processes",
         code:"CHE 256",
         year:2,
-        semester:2
+        semester:2,
+        img: ""
 
     },
     {
@@ -1774,7 +1988,8 @@ export const CourseData=[
         name:"Drawing for Engineers",
         code:"CHE 258",
         year:2,
-        semester:2
+        semester:2,
+        img: ""
 
     },
     {
@@ -1783,7 +1998,8 @@ export const CourseData=[
         name:"Chemistry Practical II",
         code:"CHEM 280",
         year:2,
-        semester:2
+        semester:2,
+        img: ""
 
     },
     {
@@ -1792,7 +2008,8 @@ export const CourseData=[
         name:"Calculus with Several Variables",
         code:"MATH 252",
         year:2,
-        semester:2
+        semester:2,
+        img: ""
 
     },
     {
@@ -1801,7 +2018,8 @@ export const CourseData=[
         name:"Experimental Data Analysis",
         code:"CHE 357",
         year:3,
-        semester:1
+        semester:1,
+        img: ""
 
     },
     {
@@ -1810,7 +2028,8 @@ export const CourseData=[
         name:"Separation Processes I",
         code:"PCE 351",
         year:3,
-        semester:1
+        semester:1,
+        img: ""
 
     },
     {
@@ -1819,7 +2038,8 @@ export const CourseData=[
         name:"Petrochemical Engineering Laboratory I",
         code:"PCE 353",
         year:3,
-        semester:1
+        semester:1,
+        img: ""
 
     },
     {
@@ -1828,7 +2048,8 @@ export const CourseData=[
         name:"Fire and safety Engineering",
         code:"PCE 355",
         year:3,
-        semester:1
+        semester:1,
+        img: ""
 
     },
     {
@@ -1837,7 +2058,8 @@ export const CourseData=[
         name:"Organic and Petrchemical Synthesis",
         code:"PCE 357",
         year:3,
-        semester:1
+        semester:1,
+        img: ""
 
     },
     {
@@ -1846,7 +2068,8 @@ export const CourseData=[
         name:"Petrochemical Fluid Properties",
         code:"PCE 359",
         year:3,
-        semester:1
+        semester:1,
+        img: ""
 
     },
     {
@@ -1855,7 +2078,8 @@ export const CourseData=[
         name:"Petrochemical Eng. elective Option I",
         code:"PCE xxx",
         year:3,
-        semester:1
+        semester:1,
+        img: ""
 
     },
     {
@@ -1864,7 +2088,8 @@ export const CourseData=[
         name:"General Elective",
         code:"XXX xxx",
         year:3,
-        semester:1
+        semester:1,
+        img: ""
 
     },
     {
@@ -1873,7 +2098,8 @@ export const CourseData=[
         name:"Material Science",
         code:"CHE 350",
         year:3,
-        semester:2
+        semester:2,
+        img: ""
 
     },
     {
@@ -1882,7 +2108,8 @@ export const CourseData=[
         name:"Numerical Methods for Chem. Engineers",
         code:"CHE 358",
         year:3,
-        semester:2
+        semester:2,
+        img: ""
 
     },
     {
@@ -1891,7 +2118,8 @@ export const CourseData=[
         name:"Kinetics and Reaction Engineering",
         code:"PCE 350",
         year:3,
-        semester:2
+        semester:2,
+        img: ""
 
     },
     {
@@ -1900,7 +2128,8 @@ export const CourseData=[
         name:"Separation Processes II",
         code:"PCE 352",
         year:3,
-        semester:2
+        semester:2,
+        img: ""
 
     },
     {
@@ -1909,7 +2138,8 @@ export const CourseData=[
         name:"Petrochemical Engineering Laboratory II",
         code:"PCE 354",
         year:3,
-        semester:2
+        semester:2,
+        img: ""
 
     },
     {
@@ -1918,7 +2148,8 @@ export const CourseData=[
         name:"Petrochemical Eng. Elective option II",
         code:"PCE xxx",
         year:3,
-        semester:2
+        semester:2,
+        img: ""
 
     },
     {
@@ -1927,7 +2158,8 @@ export const CourseData=[
         name:"Petroleum Production Engineering",
         code:"PETE 354",
         year:3,
-        semester:2
+        semester:2,
+        img: ""
     },
     {
         ID:"petrochemical",
@@ -1935,7 +2167,8 @@ export const CourseData=[
         name:"Natural Gas Engineering",
         code:"PETE 450",
         year:3,
-        semester:2
+        semester:2,
+        img: ""
 
     },
     {
@@ -1944,7 +2177,8 @@ export const CourseData=[
         name:"Chemical Process Design and Economics",
         code:"CHE 451",
         year:4,
-        semester:1
+        semester:1,
+        img: ""
 
     },
     {
@@ -1953,7 +2187,8 @@ export const CourseData=[
         name:"Process Control and Instrumentation",
         code:"CHE 455",
         year:4,
-        semester:1
+        semester:1,
+        img: ""
 
     },
     {
@@ -1962,7 +2197,8 @@ export const CourseData=[
         name:"Catalysis",
         code:"PCE 451",
         year:4,
-        semester:1
+        semester:1,
+        img: ""
 
     },
     {
@@ -1971,7 +2207,8 @@ export const CourseData=[
         name:"Project I",
         code:"PCE 453",
         year:4,
-        semester:1
+        semester:1,
+        img: ""
 
     },
     {
@@ -1980,7 +2217,8 @@ export const CourseData=[
         name:"Pollution Control in the Petrochemical Ind",
         code:"PCE 455",
         year:4,
-        semester:1
+        semester:1,
+        img: ""
 
     },
     {
@@ -1989,7 +2227,8 @@ export const CourseData=[
         name:"Corrosion Engineering",
         code:"PCE 457",
         year:4,
-        semester:1
+        semester:1,
+        img: ""
 
     },
     {
@@ -1998,7 +2237,8 @@ export const CourseData=[
         name:"Petrochemical Eng. Elective Option III",
         code:"PCE xxx",
         year:4,
-        semester:1
+        semester:1,
+        img: ""
 
     },
     {
@@ -2007,7 +2247,8 @@ export const CourseData=[
         name:"Open Elective",
         code:"XXX xxx",
         year:4,
-        semester:1
+        semester:1,
+        img: ""
 
     },
     {
@@ -2016,7 +2257,8 @@ export const CourseData=[
         name:"Process Control and Simulation",
         code:"CHE 452",
         year:4,
-        semester:2
+        semester:2,
+        img: ""
 
     },
     {
@@ -2025,7 +2267,8 @@ export const CourseData=[
         name:"Enterpreneuship & Business Development",
         code:"CHE 458",
         year:4,
-        semester:2
+        semester:2,
+        img: ""
 
     },
     {
@@ -2034,7 +2277,8 @@ export const CourseData=[
         name:"Petroleum Refining Engineering",
         code:"PCE 450",
         year:4,
-        semester:2
+        semester:2,
+        img: ""
 
     },
     {
@@ -2043,7 +2287,8 @@ export const CourseData=[
         name:"Field Trip and industrial Attachment",
         code:"PCE 452",
         year:4,
-        semester:2
+        semester:2,
+        img: ""
 
     },
     {
@@ -2052,7 +2297,8 @@ export const CourseData=[
         name:"Project II",
         code:"PCE 454",
         year:4,
-        semester:2
+        semester:2,
+        img: ""
 
     },
     {
@@ -2061,7 +2307,8 @@ export const CourseData=[
         name:"Petrochemica Eng.Elective Option IV",
         code:"PCE xxx",
         year:4,
-        semester:2
+        semester:2,
+        img: ""
 
     },
     {
@@ -2070,7 +2317,8 @@ export const CourseData=[
         name:"Introduction to Ethics & Morality",
         code:"ETIC 161",
         year:1,
-        semester:1
+        semester:1,
+        img: ""
 
     },
     {
@@ -2079,7 +2327,8 @@ export const CourseData=[
         name:"Applied Electricity",
         code:"EE 151",
         year:1,
-        semester:1
+        semester:1,
+        img: ""
 
     },
     {
@@ -2088,7 +2337,8 @@ export const CourseData=[
         name:"Communication Skills I",
         code:"ENGL 157",
         year:1,
-        semester:1
+        semester:1,
+        img: ""
 
     },
     {
@@ -2097,7 +2347,8 @@ export const CourseData=[
         name:"Algebra",
         code:"MATH 151",
         year:1,
-        semester:1
+        semester:1,
+        img: ""
 
     },
     {
@@ -2106,7 +2357,8 @@ export const CourseData=[
         name:"Technical Drawing",
         code:"ME 159",
         year:1,
-        semester:1
+        semester:1,
+        img: ""
 
     },
     {
@@ -2115,7 +2367,8 @@ export const CourseData=[
         name:"Engineering Technology I",
         code:"ME 195",
         year:1,
-        semester:1
+        semester:1,
+        img: ""
 
     },
     {
@@ -2124,7 +2377,8 @@ export const CourseData=[
         name:"Introduction to Thermodynamics",
         code:"MSE 151",
         year:1,
-        semester:1
+        semester:1,
+        img: ""
 
     },
     {
@@ -2133,7 +2387,8 @@ export const CourseData=[
         name:"Introduction to Information technology",
         code:"MSE 153",
         year:1,
-        semester:1
+        semester:1,
+        img: ""
 
     },
     {
@@ -2142,7 +2397,8 @@ export const CourseData=[
         name:"Basic Electronics",
         code:"EE 152",
         year:1,
-        semester:2
+        semester:2,
+        img: ""
 
     },
     {
@@ -2151,7 +2407,8 @@ export const CourseData=[
         name:"Communication Skills II",
         code:"ENGL 158",
         year:1,
-        semester:2
+        semester:2,
+        img: ""
 
     },
     {
@@ -2160,7 +2417,8 @@ export const CourseData=[
         name:"Calculus with Analysis",
         code:"MATH 152",
         year:1,
-        semester:2
+        semester:2,
+        img: ""
 
     },
     {
@@ -2169,7 +2427,8 @@ export const CourseData=[
         name:"engineeing Drawing",
         code:"ME 160",
         year:1,
-        semester:2
+        semester:2,
+        img: ""
 
     },
     {
@@ -2178,7 +2437,8 @@ export const CourseData=[
         name:"Basic Mechanics",
         code:"ME 162",
         year:1,
-        semester:2
+        semester:2,
+        img: ""
 
     },
     {
@@ -2187,7 +2447,8 @@ export const CourseData=[
         name:"Kinectics of Chemical Reaction",
         code:"MSE 152",
         year:1,
-        semester:2
+        semester:2,
+        img: ""
 
     },
     {
@@ -2196,7 +2457,8 @@ export const CourseData=[
         name:"Priciples of Material Science",
         code:"MSE 154",
         year:1,
-        semester:2
+        semester:2,
+        img: ""
 
     },
     {
@@ -2205,7 +2467,8 @@ export const CourseData=[
         name:"French for Communication Purposes I",
         code:"FC 181",
         year:2,
-        semester:1
+        semester:1,
+        img: ""
 
     },
     {
@@ -2214,7 +2477,8 @@ export const CourseData=[
         name:"Engineering in Society",
         code:"CENG 291",
         year:2,
-        semester:1
+        semester:1,
+        img: ""
 
     },
     {
@@ -2223,7 +2487,8 @@ export const CourseData=[
         name:"Properties of Engineering Materials",
         code:"MSE 255",
         year:2,
-        semester:1
+        semester:1,
+        img: ""
 
     },
     {
@@ -2232,7 +2497,8 @@ export const CourseData=[
         name:"Indigenous Processing",
         code:"MSE 257",
         year:2,
-        semester:1
+        semester:1,
+        img: ""
 
     },
     {
@@ -2241,7 +2507,8 @@ export const CourseData=[
         name:"Differential Equations",
         code:"MATH 251",
         year:2,
-        semester:1
+        semester:1,
+        img: ""
 
     },
     {
@@ -2250,7 +2517,8 @@ export const CourseData=[
         name:"Mechanical Behaviour of Materials",
         code:"MSE 253",
         year:2,
-        semester:1
+        semester:1,
+        img: ""
 
     },
     {
@@ -2259,7 +2527,8 @@ export const CourseData=[
         name:"Moment Transport",
         code:"MSE 251",
         year:2,
-        semester:1
+        semester:1,
+        img: ""
 
     },
     {
@@ -2268,7 +2537,8 @@ export const CourseData=[
         name:"Calculus With Several Variables",
         code:"MATH 252",
         year:2,
-        semester:2
+        semester:2,
+        img: ""
 
     },
     {
@@ -2277,7 +2547,8 @@ export const CourseData=[
         name:"Physical Meatallurgy of Non-Ferrous Metals",
         code:"MSE 258",
         year:2,
-        semester:2
+        semester:2,
+        img: ""
 
     },
     {
@@ -2286,7 +2557,8 @@ export const CourseData=[
         name:"Heat and Mass Transport",
         code:"MSE 252",
         year:2,
-        semester:2
+        semester:2,
+        img: ""
 
     },
     {
@@ -2295,7 +2567,8 @@ export const CourseData=[
         name:"Computer Programming and Applications",
         code:"MSE 262",
         year:2,
-        semester:2
+        semester:2,
+        img: ""
 
     },
     {
@@ -2304,7 +2577,8 @@ export const CourseData=[
         name:"Environmental Science",
         code:"MSE 256",
         year:2,
-        semester:2
+        semester:2,
+        img: ""
 
     },
     {
@@ -2313,7 +2587,8 @@ export const CourseData=[
         name:"Phase Transformations",
         code:"MSE 260",
         year:2,
-        semester:2
+        semester:2,
+        img: ""
 
     },
     {
@@ -2322,7 +2597,8 @@ export const CourseData=[
         name:"Materials Processing",
         code:"MSE 254 ",
         year:2,
-        semester:2
+        semester:2,
+        img: ""
 
     },
     {
@@ -2331,7 +2607,8 @@ export const CourseData=[
         name:"Stress and Strain Analysis of rigid Bodies",
         code:"MSE 361",
         year:3,
-        semester:1
+        semester:1,
+        img: ""
 
     },
     {
@@ -2340,7 +2617,8 @@ export const CourseData=[
         name:"Engineering Ceramics",
         code:"MSE 351",
         year:3,
-        semester:1
+        semester:1,
+        img: ""
 
     },
     {
@@ -2349,7 +2627,8 @@ export const CourseData=[
         name:"Probability and Statistics",
         code:"MATH 353",
         year:3,
-        semester:1
+        semester:1,
+        img: ""
 
     },
     {
@@ -2358,7 +2637,8 @@ export const CourseData=[
         name:"Pyrometallurgy",
         code:"MSE 353",
         year:3,
-        semester:1
+        semester:1,
+        img: ""
 
     },
     {
@@ -2367,7 +2647,8 @@ export const CourseData=[
         name:"Foundry Technology",
         code:"MSE 357",
         year:3,
-        semester:1
+        semester:1,
+        img: ""
 
     },
     {
@@ -2376,7 +2657,8 @@ export const CourseData=[
         name:"Material Characterization",
         code:"MSE 363",
         year:3,
-        semester:1
+        semester:1,
+        img: ""
 
     },
     {
@@ -2385,7 +2667,8 @@ export const CourseData=[
         name:"Polymer Processing",
         code:"MSE 355",
         year:3,
-        semester:1
+        semester:1,
+        img: ""
 
     },
     {
@@ -2394,7 +2677,8 @@ export const CourseData=[
         name:"Material Processing Laboratory",
         code:"MSE 359",
         year:3,
-        semester:1
+        semester:1,
+        img: ""
 
     },
     {
@@ -2403,7 +2687,8 @@ export const CourseData=[
         name:"Mechanics of Materials",
         code:"MSE 362",
         year:3,
-        semester:2
+        semester:2,
+        img: ""
 
     },
     {
@@ -2412,7 +2697,8 @@ export const CourseData=[
         name:"Engineering Properties of Polymer",
         code:"MSE 356",
         year:3,
-        semester:2
+        semester:2,
+        img: ""
 
     },
     {
@@ -2421,7 +2707,8 @@ export const CourseData=[
         name:"Material Joining Process",
         code:"MSE 362",
         year:3,
-        semester:2
+        semester:2,
+        img: ""
 
     },
     {
@@ -2430,7 +2717,8 @@ export const CourseData=[
         name:"Physical Metallurgy of Ferrous Metals",
         code:"MSE 354",
         year:3,
-        semester:2
+        semester:2,
+        img: ""
 
     },
     {
@@ -2439,7 +2727,8 @@ export const CourseData=[
         name:"Numerical Methods for Engineers",
         code:"MSE 358",
         year:3,
-        semester:2
+        semester:2,
+        img: ""
 
     },
     {
@@ -2448,7 +2737,8 @@ export const CourseData=[
         name:"Glass and Cement Technology",
         code:"MSE 352",
         year:3,
-        semester:2
+        semester:2,
+        img: ""
 
     },
     {
@@ -2457,7 +2747,8 @@ export const CourseData=[
         name:"Material Characterization Laboratory",
         code:"MSE 364",
         year:3,
-        semester:2
+        semester:2,
+        img: ""
 
     },
     {
@@ -2466,7 +2757,8 @@ export const CourseData=[
         name:"3rd Year Design Project",
         code:"MSE 396",
         year:3,
-        semester:2
+        semester:2,
+        img: ""
 
     },
     {
@@ -2475,7 +2767,8 @@ export const CourseData=[
         name:"Engineering Economics and Management",
         code:"ME 491",
         year:4,
-        semester:1
+        semester:1,
+        img: ""
 
     },
     {
@@ -2484,7 +2777,8 @@ export const CourseData=[
         name:"Composite Materials",
         code:"MSE 451",
         year:4,
-        semester:1
+        semester:1,
+        img: ""
 
     },
     {
@@ -2493,7 +2787,8 @@ export const CourseData=[
         name:"Corrosion and Engineering Materials",
         code:"MSE 453",
         year:4,
-        semester:1
+        semester:1,
+        img: ""
 
     },
     {
@@ -2502,7 +2797,8 @@ export const CourseData=[
         name:"Electrical/Magnetic Properties of Materials",
         code:"MSE 455",
         year:4,
-        semester:1
+        semester:1,
+        img: ""
 
     },
     {
@@ -2511,7 +2807,8 @@ export const CourseData=[
         name:"Metal Working Processes",
         code:"MSE 457",
         year:4,
-        semester:1
+        semester:1,
+        img: ""
 
     },
     {
@@ -2520,7 +2817,8 @@ export const CourseData=[
         name:"Vacation Training",
         code:"MSE 459",
         year:4,
-        semester:1
+        semester:1,
+        img: ""
 
     },
     {
@@ -2529,7 +2827,8 @@ export const CourseData=[
         name:"Project I",
         code:"MSE 497",
         year:4,
-        semester:1
+        semester:1,
+        img: ""
 
     },
     {
@@ -2538,7 +2837,8 @@ export const CourseData=[
         name:"Process Control/Simulation",
         code:"CHE 452",
         year:4,
-        semester:2
+        semester:2,
+        img: ""
 
     },
     {
@@ -2547,7 +2847,8 @@ export const CourseData=[
         name:"Waste Management",
         code:"MSE 452",
         year:4,
-        semester:2
+        semester:2,
+        img: ""
 
     },
     {
@@ -2556,7 +2857,8 @@ export const CourseData=[
         name:"Project II",
         code:"MSE 498",
         year:4,
-        semester:2
+        semester:2,
+        img: ""
 
     },
     {
@@ -2565,7 +2867,8 @@ export const CourseData=[
         name:"Management and Enterpreneurship Development",
         code:"ME 492",
         year:4,
-        semester:2
+        semester:2,
+        img: ""
 
     },
     {
@@ -2574,7 +2877,8 @@ export const CourseData=[
         name:"Surface Treatment of Materials",
         code:"MSE 454",
         year:4,
-        semester:2
+        semester:2,
+        img: ""
 
     },
     {
@@ -2583,7 +2887,8 @@ export const CourseData=[
         name:"Materials Quality Control,Assurance and Selection",
         code:"MSE 456",
         year:4,
-        semester:2
+        semester:2,
+        img: ""
 
     },
     {
@@ -2591,14 +2896,16 @@ export const CourseData=[
         id:"economicsII",
         name:"Introductory Economics II",
         year: 4,
-        semester:2
+        semester:2,
+        img: ""
     },
     {
         ID:"materials",
         id:"accountingII",
         name:"Accounting II",
         year: 4,
-        semester:2
+        semester:2,
+        img: ""
     },
     {
         ID:"chemical",
@@ -2606,7 +2913,8 @@ export const CourseData=[
         name:"Inorganic Chemistry for Engineers",
         code:"CHE 151",
         year: 1,
-        semester:1
+        semester:1,
+        img: ""
     },
     {
         ID:"chemical",
@@ -2614,7 +2922,8 @@ export const CourseData=[
         name:"Organic Chemistry for Engineers",
         code :"CHE 153",
         year: 1,
-        semester:1
+        semester:1,
+        img: ""
     },
     {
         ID:"chemical",
@@ -2622,7 +2931,8 @@ export const CourseData=[
         name:"Practical Chemistry I",
         code :"CHEM 169",
         year: 1,
-        semester:1
+        semester:1,
+        img: ""
     },
     {
         ID:"chemical",
@@ -2630,7 +2940,8 @@ export const CourseData=[
         name:"Applied Electricity",
         code : "EE 151",
         year: 1,
-        semester:1
+        semester:1,
+        img: ""
     },
     {
         ID:"chemical",
@@ -2638,7 +2949,8 @@ export const CourseData=[
         name:"Communication Skills I",
         code :"ENGL 157",
         year: 1,
-        semester:1
+        semester:1,
+        img: ""
     },
     {
         ID:"chemical",
@@ -2646,14 +2958,16 @@ export const CourseData=[
         name:"Algebra",
         code :"MATH 151",
         year: 1,
-        semester:1
+        semester:1,
+        img: ""
     },{
         ID:"chemical",
         id:"technicaldrawing",
         name:"Technical Drawing",
         code :"ME 159",
         year: 1,
-        semester:1
+        semester:1,
+        img: ""
     },
     {
         ID:"chemical",
@@ -2661,7 +2975,8 @@ export const CourseData=[
         name:"Communications Skills II",
         code :"ENGL 158",
         year: 1,
-        semester:2
+        semester:2,
+        img: ""
     },
     {
         ID:"chemical",
@@ -2669,7 +2984,8 @@ export const CourseData=[
         name:"Calculus with Analysis",
         code :"MATH 152",
         year: 1,
-        semester:2
+        semester:2,
+        img: ""
     },
     {
         ID:"chemical",
@@ -2677,7 +2993,8 @@ export const CourseData=[
         name:"Basic Mechanics",
         code :"ME 162",
         year: 1,
-        semester:2
+        semester:2,
+        img: ""
     },
     {
         ID:"chemical",
@@ -2685,7 +3002,8 @@ export const CourseData=[
         name:"Physical Chemistry for Engineers",
         code :"CHE 156",
         year: 1,
-        semester:2
+        semester:2,
+        img: ""
     },
     {
         ID:"chemical",
@@ -2693,7 +3011,8 @@ export const CourseData=[
         name:"General Physics",
         code :"PHY 170",
         year: 1,
-        semester:2
+        semester:2,
+        img: ""
     },
     {
         ID:"chemical",
@@ -2701,7 +3020,8 @@ export const CourseData=[
         name:"Introduction to Information Technology",
         code :"COE 158",
         year: 1,
-        semester:2
+        semester:2,
+        img: ""
     },
     {
         ID:"chemical",
@@ -2709,7 +3029,8 @@ export const CourseData=[
         name:"Basic Electronics",
         code :"EE 152",
         year: 1,
-        semester:2
+        semester:2,
+        img: ""
     },
 
     {
@@ -2718,7 +3039,8 @@ export const CourseData=[
         name:"Engineering in Society",
         code :"CENG 291",
         year: 2,
-        semester:1
+        semester:1,
+        img: ""
     },
     {
         ID:"chemical",
@@ -2726,7 +3048,8 @@ export const CourseData=[
         name:"Chemical Process Calculations I",
         code :"CHE 251",
         year: 2,
-        semester:1
+        semester:1,
+        img: ""
     },
     {
         ID:"chemical",
@@ -2734,7 +3057,8 @@ export const CourseData=[
         name:"Chemical Engineering Thermodynamics I",
         code :"CHE 253",
         year: 2,
-        semester:1
+        semester:1,
+        img: ""
     },
     {
         ID:"chemical",
@@ -2742,7 +3066,8 @@ export const CourseData=[
         name:"Fluid Transport",
         code :"CHE 255",
         year: 2,
-        semester:1
+        semester:1,
+        img: ""
     },
     {
         ID:"chemical",
@@ -2750,7 +3075,8 @@ export const CourseData=[
         name:"Analytical Chemistry for Chemical Engineers",
         code :"CHE 257",
         year: 2,
-        semester:1
+        semester:1,
+        img: ""
     },
     {
         ID:"chemical",
@@ -2758,7 +3084,8 @@ export const CourseData=[
         name:"Chemical Process Industries",
         code :"CHE 259",
         year: 2,
-        semester:1
+        semester:1,
+        img: ""
     },
     {
         ID:"chemical",
@@ -2766,7 +3093,8 @@ export const CourseData=[
         name:"Computer Applications for Engineers",
         code :"CHE 261",
         year: 2,
-        semester:1
+        semester:1,
+        img: ""
     },
     {
         ID:"chemical",
@@ -2774,7 +3102,8 @@ export const CourseData=[
         name:"Differential Equations",
         code :"MATH 251",
         year: 2,
-        semester:1
+        semester:1,
+        img: ""
     },
     {
         ID:"chemical",
@@ -2782,7 +3111,8 @@ export const CourseData=[
         name:"Strength of Materials for Chem.Engineers",
         code :"CHE 250",
         year: 2,
-        semester:2
+        semester:2,
+        img: ""
     },
     {
         ID:"chemical",
@@ -2790,7 +3120,8 @@ export const CourseData=[
         name:"Chemical Process Calculations II ",
         code :"CHE 252",
         year: 2,
-        semester:2
+        semester:2,
+        img: ""
     },
     {
         ID:"chemical",
@@ -2798,7 +3129,8 @@ export const CourseData=[
         name:"Chemical Engineering Thermodynamics",
         code :"CHE 254",
         year: 2,
-        semester:2
+        semester:2,
+        img: ""
     },
     {
         ID:"chemical",
@@ -2806,7 +3138,8 @@ export const CourseData=[
         name:"Heat Transport Processes",
         code :"cCHE 256",
         year: 2,
-        semester:2
+        semester:2,
+        img: ""
     },
     {
         ID:"chemical",
@@ -2814,7 +3147,8 @@ export const CourseData=[
         name:"Drawing for Engineers",
         code :"CHE 258",
         year: 2,
-        semester:2
+        semester:2,
+        img: ""
     },
     {
         ID:"chemical",
@@ -2822,7 +3156,8 @@ export const CourseData=[
         name:"Chemistry Practical II",
         code :"CHEM 280",
         year: 2,
-        semester:2
+        semester:2,
+        img: ""
     },
     {
         ID:"chemical",
@@ -2830,7 +3165,8 @@ export const CourseData=[
         name:"Calculus of Several Variables",
         code :"",
         year: 2,
-        semester:2
+        semester:2,
+        img: ""
     },
     {
         ID:"chemical",
@@ -2838,7 +3174,8 @@ export const CourseData=[
         name:"Chemical Engineering Laboratory I ",
         code :"CHE 353",
         year: 3,
-        semester:1
+        semester:1,
+        img: ""
     },
     {
         ID:"chemical",
@@ -2846,7 +3183,8 @@ export const CourseData=[
         name:"Process Engineering Project I",
         code :"CHE 355",
         year: 3,
-        semester:1
+        semester:1,
+        img: ""
     },
     {
         ID:"chemical",
@@ -2854,7 +3192,8 @@ export const CourseData=[
         name:"Experimental Data Analysis",
         code :"CHE 357 ",
         year: 3,
-        semester:1
+        semester:1,
+        img: ""
     },
     {
         ID:"chemical",
@@ -2862,7 +3201,8 @@ export const CourseData=[
         name:"Mechanical Separation Process",
         code :"CHE 359",
         year: 3,
-        semester:1
+        semester:1,
+        img: ""
     },
     {
         ID:"chemical",
@@ -2870,7 +3210,8 @@ export const CourseData=[
         name:"Polymer Technology",
         code :"CHE 363",
         year: 3,
-        semester:1
+        semester:1,
+        img: ""
     },
     {
         ID:"chemical",
@@ -2878,7 +3219,8 @@ export const CourseData=[
         name:"Introductory Economics I",
         code :"Econ 151",
         year: 3,
-        semester:1
+        semester:1,
+        img: ""
     },
     {
         ID:"chemical",
@@ -2886,7 +3228,8 @@ export const CourseData=[
         name:"Mass Transfer Process",
         code :"CHE 351",
         year: 3,
-        semester:1
+        semester:1,
+        img: ""
     },
 
     {
@@ -2895,7 +3238,8 @@ export const CourseData=[
         name:"Food Processing Technology",
         code :"CHE 368",
         year: 3,
-        semester:2
+        semester:2,
+        img: ""
     },
     {
 
@@ -2904,7 +3248,8 @@ export const CourseData=[
         name:"Materials Science",
         code :"CHE 350",
         year: 3,
-        semester:2
+        semester:2,
+        img: ""
     },
     {
         ID:"chemical",
@@ -2912,7 +3257,8 @@ export const CourseData=[
         name:"Chemical Reaction Engineering",
         code :"CHE 352",
         year: 3,
-        semester:2
+        semester:2,
+        img: ""
     },
     {
         ID:"chemical",
@@ -2920,7 +3266,8 @@ export const CourseData=[
         name:"Simultaneous Heat/Mass Transfer",
         code :"CHE 354",
         year: 3,
-        semester:2
+        semester:2,
+        img: ""
     },
     {
         ID:"chemical",
@@ -2928,7 +3275,8 @@ export const CourseData=[
         name:"Process Engineering Project II",
         code :"CHE 356",
         year: 3,
-        semester:2
+        semester:2,
+        img: ""
     },
     {
         ID:"chemical",
@@ -2936,7 +3284,8 @@ export const CourseData=[
         name:"Numerical Methods For Chemical Engineers",
         code :"CHE 358",
         year: 3,
-        semester:2
+        semester:2,
+        img: ""
     },
     {
         ID:"chemical",
@@ -2944,23 +3293,17 @@ export const CourseData=[
         name:"Introductory Economics II",
         code :"ECON 152",
         year: 3,
-        semester:2
+        semester:2,
+        img: ""
     },
-    // {
-    //     ID:"chemical",
-    //     id:"",
-    //     name:"",
-    //     code :"",
-    //     year: 3,
-    //     semester:2
-    // },
     {
         ID:"agricultural",
         id:"algebra",
         name:"Algebra",
         code:"MATH 151",
         year: 1,
-        semester:1
+        semester:1,
+        img: ""
     }, 
     {
         ID:"agricultural",
@@ -2968,7 +3311,8 @@ export const CourseData=[
         name:"Applied Electricity",
         code:"EE 151",
         year:1,
-        semester:1
+        semester:1,
+        img: ""
     }, 
     {
         ID:"agricultural",
@@ -2976,7 +3320,8 @@ export const CourseData=[
         name:"Communication Skills",
         code:"ENGL 157",
         year: 1,
-        semester:1
+        semester:1,
+        img: ""
     }, 
     {
         ID:"agricultural",
@@ -2984,23 +3329,17 @@ export const CourseData=[
         name:"Agricultural Meteorology",
         code:"AE 153",
         year:1,
-        semester:1
+        semester:1,
+        img: ""
     },
-   
-    // {
-    //     id:"informationtechnology",
-    //     name:"Introduction to Information Technology",
-    //     code:"COE 158",
-    //     year: 1,
-    //     semester:1
-    // },
     {
         ID:"agricultural",
         id:"technicaldrawing",
         name:"Technical Drawing",
         code:"ME 159",
         year: 1,
-        semester:1
+        semester:1,
+        img: ""
     },
     {
         ID:"agricultural",
@@ -3008,7 +3347,8 @@ export const CourseData=[
         name:"Environmental Studies",
         code:"CE 155",
         year: 1,
-        semester:1
+        semester:1,
+        img: ""
     },
     {
         ID:"agricultural",
@@ -3016,7 +3356,8 @@ export const CourseData=[
         name:"Engine Technology",
         code:"COE 153",
         year: 1,
-        semester:1
+        semester:1,
+        img: ""
     },
    {
         ID:"agricultural",
@@ -3024,7 +3365,8 @@ export const CourseData=[
         name:"Communication Skills II",
         code:"ENGL 158",
         year: 1,
-        semester:2
+        semester:2,
+        img: ""
     },
     {
             ID:"agricultural",
@@ -3032,7 +3374,8 @@ export const CourseData=[
             name:"Introduction to Information Technology",
             code:"AE 158",
             year: 1,
-            semester:2
+            semester:2,
+            img: ""
     },
 
     {
@@ -3041,7 +3384,8 @@ export const CourseData=[
         name:"Basic Mechanics",
         code:"ME 162",
         year: 1,
-        semester:2
+        semester:2,
+        img: ""
     }, 
     {
         ID:"agricultural",
@@ -3049,7 +3393,8 @@ export const CourseData=[
         name:"Basic Electronics",
         code:"EE 152",
         year: 1,
-        semester:2
+        semester:2,
+        img: ""
     },
     {
         ID:"agricultural",
@@ -3057,7 +3402,8 @@ export const CourseData=[
         name:"Basic Agriculture",
         code:"EE 152",
         year: 1,
-        semester:2
+        semester:2,
+        img: ""
     },
     {
         ID:"agricultural",
@@ -3065,7 +3411,8 @@ export const CourseData=[
         name:"Engineering Drawing",
         code:"ME 160",
         year: 1,
-        semester:1
+        semester:1,
+        img: ""
     },
     {
         ID:"agricultural",
@@ -3073,7 +3420,8 @@ export const CourseData=[
         name:"Calculus With Analysis",
         code:"MATH 152",
         year: 1,
-        semester:2
+        semester:2,
+        img: ""
     },
     {
         ID:"agricultural",
@@ -3081,7 +3429,8 @@ export const CourseData=[
         name:"Engineering Workshop Practice ",
         code:"AE 196",
         year: 1,
-        semester:2
+        semester:2,
+        img: ""
     },
    
     {
@@ -3090,7 +3439,8 @@ export const CourseData=[
         name:"Accounting I",
         code:"CSM 157",
         year: 2,
-        semester:1
+        semester:1,
+        img: ""
     },
     {
         ID:"agricultural",
@@ -3098,7 +3448,8 @@ export const CourseData=[
         name:" Thermodynamics I",
         code:"ME 265",
         year: 2,
-        semester:1
+        semester:1,
+        img: ""
     },
     {
         ID:"agricultural",
@@ -3106,7 +3457,8 @@ export const CourseData=[
         name:"French for Communication I",
         code:"FREN 181",
         year: 2,
-        semester:1
+        semester:1,
+        img: ""
     },
     {
         ID:"agricultural",
@@ -3114,7 +3466,8 @@ export const CourseData=[
         name:"Introductory Economics I",
         code:"ECON 151",
         year: 2,
-        semester:1
+        semester:1,
+        img: ""
     },
     {
         ID:"agricultural",
@@ -3122,7 +3475,8 @@ export const CourseData=[
         name:"Fluid Mechanics I",
         code:"ME 251",
         year: 2,
-        semester:1
+        semester:1,
+        img: ""
     },
     {
         ID:"agricultural",
@@ -3130,7 +3484,8 @@ export const CourseData=[
         name:"Literature in English I",
         code:"ENGL 263",
         year: 2,
-        semester:1
+        semester:1,
+        img: ""
     },
     {
         ID:"agricultural",
@@ -3138,7 +3493,8 @@ export const CourseData=[
         name:"Strength of Materials",
         code:"ME 255",
         year: 2,
-        semester:1
+        semester:1,
+        img: ""
     },
     {
         ID:"agricultural",
@@ -3146,7 +3502,8 @@ export const CourseData=[
         name:"Engineering In Society",
         code:"CENG 291",
         year: 2,
-        semester:1
+        semester:1,
+        img: ""
     },
     {
         ID:"agricultural",
@@ -3154,7 +3511,8 @@ export const CourseData=[
         name:"Differential Equations",
         code:"MATH 251",
         year: 2,
-        semester:1
+        semester:1,
+        img: ""
     },
     {
         ID:"agricultural",
@@ -3162,7 +3520,8 @@ export const CourseData=[
         name:"Application of Agricultural Graphics",
         code:"ME 259",
         year: 2,
-        semester:1
+        semester:1,
+        img: ""
     },
     {
         ID:"agricultural",
@@ -3170,7 +3529,8 @@ export const CourseData=[
         name:"Mechanical Engineering Lab I",
         code:"ME 295",
         year: 2,
-        semester:1
+        semester:1,
+        img: ""
     },
     {
         ID:"agricultural",
@@ -3178,7 +3538,8 @@ export const CourseData=[
         name:"Principles of Surveying",
         code:"GE 286",
         year: 2,
-        semester:2
+        semester:2,
+        img: ""
     },
     {
         ID:"agricultural",
@@ -3186,7 +3547,8 @@ export const CourseData=[
         name:"Multivariable Analysis",
         code:"MATH 252",
         year: 2,
-        semester:2
+        semester:2,
+        img: ""
     },
     {
         ID:"agricultural",
@@ -3194,7 +3556,8 @@ export const CourseData=[
         name:" Electrical Engineering Machines",
         code:"EE 252",
         year: 2,
-        semester:2
+        semester:2,
+        img: ""
     },
     {
         ID:"agricultural",
@@ -3202,7 +3565,8 @@ export const CourseData=[
         name:"Theory of Mechanics",
         code:"ME 262",
         year: 2,
-        semester:2
+        semester:2,
+        img: ""
     },
     {
         ID:"agricultural",
@@ -3210,35 +3574,40 @@ export const CourseData=[
         name:"Mechanical Engineering Materials",
         code:"ME 282",
         year: 2,
-        semester:2
+        semester:2,
+        img: ""
     },
     {
         ID:"agricultural",
         id:"literatureinenglishII",
         name:"Literature in English II",
         year: 2,
-        semester:2
+        semester:2,
+        img: ""
     },
     {
         ID:"agricultural",
         id:"accountingII",
         name:"Accounting II",
         year: 2,
-        semester:2
+        semester:2,
+        img: ""
     },
     {
         ID:"agricultural",
         id:"frenchII",
         name:"French for Communication II",
         year: 2,
-        semester:2
+        semester:2,
+        img: ""
     },
     {
         ID:"agricultural",
         id:"economicsII",
         name:"Introductory Economics II",
         year: 2,
-        semester:2
+        semester:2,
+        img: ""
     },
     {
         ID:"agricultural",
@@ -3246,7 +3615,8 @@ export const CourseData=[
         name:"Mechanical Engineering Lab II",
         code:"ME 296",
         year: 2,
-        semester:2
+        semester:2,
+        img: ""
     },
     {
         ID:"agricultural",
@@ -3254,7 +3624,8 @@ export const CourseData=[
         name:"Soil and Water Engineering",
         code:"AE 351",
         year: 3,
-        semester:1
+        semester:1,
+        img: ""
     },
     {
         ID:"agricultural",
@@ -3262,7 +3633,8 @@ export const CourseData=[
         name:"Agricultural Materials Handling & Processing",
         code:"AE 353",
         year: 3,
-        semester:1
+        semester:1,
+        img: ""
     },
     {
         ID:"agricultural",
@@ -3270,7 +3642,8 @@ export const CourseData=[
         name:"Machine Design I",
         code:"AE 373",
         year: 3,
-        semester:1
+        semester:1,
+        img: ""
     },
     {
         ID:"agricultural",
@@ -3278,7 +3651,8 @@ export const CourseData=[
         name:"Strength of Materials II",
         code:"ME 355",
         year: 3,
-        semester:1
+        semester:1,
+        img: ""
     },
     {
         ID:"agricultural",
@@ -3286,7 +3660,8 @@ export const CourseData=[
         name:"Numerical Analysis",
         code:"MATH 351",
         year: 3,
-        semester:1
+        semester:1,
+        img: ""
     },
     {
         ID:"agricultural",
@@ -3294,7 +3669,8 @@ export const CourseData=[
         name:"Thermodynamics II",
         code:"ME 365",
         year: 3,
-        semester:1
+        semester:1,
+        img: ""
     },
    
     {   ID:"agricultural",
@@ -3302,7 +3678,8 @@ export const CourseData=[
         name:"Application of Soil Mechanics",
         code:"AE 35",
         year: 3,
-        semester:2
+        semester:2,
+        img: ""
     },
     {
         ID:"agricultural",
@@ -3310,7 +3687,8 @@ export const CourseData=[
         name:"Farm Power and Machinery",
         code:"AE 356",
         year: 3,
-        semester:2
+        semester:2,
+        img: ""
     },
     {
         ID:"agricultural",
@@ -3318,7 +3696,8 @@ export const CourseData=[
         name:"Renewable Energy",
         code:"AE 358",
         year: 3,
-        semester:2
+        semester:2,
+        img: ""
     },
     {
         ID:"agricultural",
@@ -3326,7 +3705,8 @@ export const CourseData=[
         name:"Rural Engineering",
         code:"AE 360",
         year: 3,
-        semester:2
+        semester:2,
+        img: ""
     },
     {
         ID:"agricultural",
@@ -3334,7 +3714,8 @@ export const CourseData=[
         name:"Heat Transfer",
         code:"ME 366",
         year: 3,
-        semester:2
+        semester:2,
+        img: ""
     },
     {
         ID:"agricultural",
@@ -3342,7 +3723,8 @@ export const CourseData=[
         name:"Introduction to CAD/CAM",
         code:"ME 376",
         year: 3,
-        semester:2
+        semester:2,
+        img: ""
     },
     {
         ID:"agricultural",
@@ -3350,14 +3732,16 @@ export const CourseData=[
         name:"Machine Design",
         code:"ME 374",
         year: 3,
-        semester:2
+        semester:2,
+        img: ""
     },
     {
         ID:"agricultural",
         id:"projectI",
         name:"Project I",
         year: 4,
-        semester:1
+        semester:1,
+        img: ""
     },
     {
         ID:"agricultural",
@@ -3365,7 +3749,8 @@ export const CourseData=[
         name:"Irrigation & Drainage",
         code:"AE 451",
         year: 4,
-        semester:1
+        semester:1,
+        img: ""
     },
     {
         ID:"agricultural",
@@ -3373,7 +3758,8 @@ export const CourseData=[
         name:"Environmental Control & Livestock Housing",
         code:"AE 453",
         year: 4,
-        semester:1
+        semester:1,
+        img: ""
     },
     {
         ID:"agricultural",
@@ -3381,7 +3767,8 @@ export const CourseData=[
         name:"Crop Processing",
         code:"AE 457",
         year: 4,
-        semester:1
+        semester:1,
+        img: ""
     },
     {
         ID:"agricultural",
@@ -3389,7 +3776,8 @@ export const CourseData=[
         name:"Advanced Farm Power & Machinery",
         code:"AE 459",
         year: 4,
-        semester:1
+        semester:1,
+        img: ""
     },
     {
         ID:"agricultural",
@@ -3397,7 +3785,8 @@ export const CourseData=[
         name:"Farm Structures",
         code:"AE 471",
         year: 4,
-        semester:1
+        semester:1,
+        img: ""
     },
     {
         ID:"agricultural",
@@ -3405,7 +3794,8 @@ export const CourseData=[
         name:"Engineering Econnomics & Management",
         code:"AE 491",
         year: 4,
-        semester:1
+        semester:1,
+        img: ""
     },
     {
         ID:"agricultural",
@@ -3413,7 +3803,8 @@ export const CourseData=[
         name:"Soil and Water Engineering II",
         code:"AE 452",
         year: 4,
-        semester:2
+        semester:2,
+        img: ""
     },
     {
         ID:"agricultural",
@@ -3421,7 +3812,8 @@ export const CourseData=[
         name:"Crop Losses & Their Control",
         code:"AE 458",
         year: 4,
-        semester:2
+        semester:2,
+        img: ""
     },
     {
         ID:"agricultural",
@@ -3429,7 +3821,8 @@ export const CourseData=[
         name:"Maintenance & Repairs of Agricultural Machines",
         code:"AE 460",
         year: 4,
-        semester:2
+        semester:2,
+        img: ""
     },
     {
         ID:"agricultural",
@@ -3437,7 +3830,8 @@ export const CourseData=[
         name:"Crop Storage & Storage Structures",
         code:"AE 464",
         year: 4,
-        semester:2
+        semester:2,
+        img: ""
     },
     {
         ID:"agricultural",
@@ -3445,7 +3839,8 @@ export const CourseData=[
         name:"Farm Machinery Design",
         code:"AE 482",
         year: 4,
-        semester:2
+        semester:2,
+        img: ""
     },
     {
         ID:"agricultural",
@@ -3453,7 +3848,8 @@ export const CourseData=[
         name:"Management & Entrepreneurship Development",
         code:"ME 492",
         year: 4,
-        semester:2
+        semester:2,
+        img: ""
     },
     {
         ID:"agricultural",
@@ -3461,7 +3857,8 @@ export const CourseData=[
         name:"Project II",
         code:"AE 498",
         year: 4,
-        semester:2
+        semester:2,
+        img: ""
     },
     {
         ID:"biomedical",
@@ -3469,7 +3866,8 @@ export const CourseData=[
         name:"Cell Biology",
         code:"BME 161",
         year: 1,
-        semester:1
+        semester:1,
+        img: ""
     }, 
     {
         ID:"biomedical",
@@ -3477,7 +3875,8 @@ export const CourseData=[
         name:"Engineering Technology",
         code:"COE 153",
         year: 1,
-        semester:1
+        semester:1,
+        img: ""
     }, 
     {
         ID:"biomedical",
@@ -3485,7 +3884,8 @@ export const CourseData=[
         name:"Applied Electricity",
         code:"EE 151",
         year: 1,
-        semester:1
+        semester:1,
+        img: ""
     }, 
     {
         ID:"biomedical",
@@ -3493,7 +3893,8 @@ export const CourseData=[
         name:"Communication Skills",
         code:"ENGL 157",
         year: 1,
-        semester:1
+        semester:1,
+        img: ""
     }, 
     {
         ID:"biomedical",
@@ -3501,7 +3902,8 @@ export const CourseData=[
         name:"Algebra",
         code:"MATH 151",
         year: 1,
-        semester:1
+        semester:1,
+        img: ""
     }, 
     {
         ID:"biomedical",
@@ -3509,7 +3911,8 @@ export const CourseData=[
         name:"Technical Drawing",
         code:"ME 159",
         year: 1,
-        semester:1
+        semester:1,
+        img: ""
     }, 
     {
         ID:"biomedical",
@@ -3517,7 +3920,8 @@ export const CourseData=[
         name:"Basic Mechanics",
         code:"ME 161",
         year: 1,
-        semester:1
+        semester:1,
+        img: ""
     }, 
     {
         ID:"biomedical",
@@ -3525,7 +3929,8 @@ export const CourseData=[
         name:"Introductio to Ethics and Morality",
         code:"ETIC 161",
         year: 1,
-        semester:1
+        semester:1,
+        img: ""
     }, 
     {
         ID:"biomedical",
@@ -3533,7 +3938,8 @@ export const CourseData=[
         name:"Basic Electronics",
         code:"COE 152",
         year: 1,
-        semester:2
+        semester:2,
+        img: ""
     }, 
     {
         ID:"biomedical",
@@ -3541,7 +3947,8 @@ export const CourseData=[
         name:"Information to Information Technology",
         code:"COE 158",
         year: 1,
-        semester:2
+        semester:2,
+        img: ""
     }, 
     {
         ID:"biomedical",
@@ -3549,7 +3956,8 @@ export const CourseData=[
         name:"Electical E ngineering Drawing",
         code:"EE 156",
         year: 1,
-        semester:2
+        semester:2,
+        img: ""
     }, 
     {
         ID:"biomedical",
@@ -3557,7 +3965,8 @@ export const CourseData=[
         name:"Communication Skills",
         code:"ENGL 158",
         year: 1,
-        semester:2
+        semester:2,
+        img: ""
     }, 
     {
         ID:"biomedical",
@@ -3565,7 +3974,8 @@ export const CourseData=[
         name:"Calculus with Analysis",
         code:"MATH 152",
         year: 1,
-        semester:2
+        semester:2,
+        img: ""
     }, 
     {
         ID:"biomedical",
@@ -3573,7 +3983,8 @@ export const CourseData=[
         name:"Properties of Matter",
         code:"PHY 154",
         year: 1,
-        semester:2
+        semester:2,
+        img: ""
     }, 
     {
         ID:"biomedical",
@@ -3581,7 +3992,8 @@ export const CourseData=[
         name:"Introduction to Sociology",
         code:"SOC 152",
         year: 1,
-        semester:2
+        semester:2,
+        img: ""
     }, 
     {
         ID:"biomedical",
@@ -3589,7 +4001,8 @@ export const CourseData=[
         name:"Biochemistry",
         code:"SSN 166",
         year: 1,
-        semester:2
+        semester:2,
+        img: ""
     }, 
     {
         ID:"biomedical",
@@ -3597,7 +4010,8 @@ export const CourseData=[
         name:"Biomedical Engineering Design",
         code:"BME 251",
         year: 2,
-        semester:1
+        semester:1,
+        img: ""
     }, 
     {
         ID:"biomedical",
@@ -3605,7 +4019,8 @@ export const CourseData=[
         name:"C Programming",
         code:"BME 253",
         year: 2,
-        semester:1
+        semester:1,
+        img: ""
     }, 
     {
         ID:"biomedical",
@@ -3613,7 +4028,8 @@ export const CourseData=[
         name:"Anatomy and Physiology for Engineers I",
         code:"BME 285",
         year: 2,
-        semester:1
+        semester:1,
+        img: ""
     }, 
     {
         ID:"biomedical",
@@ -3621,7 +4037,8 @@ export const CourseData=[
         name:"Engineering in Society",
         code:"CENG 291",
         year: 2,
-        semester:1
+        semester:1,
+        img: ""
     }, 
     {
         ID:"biomedical",
@@ -3629,7 +4046,8 @@ export const CourseData=[
         name:"Semiconductor Devices",
         code:"COE 271",
         year: 2,
-        semester:1
+        semester:1,
+        img: ""
     }, 
     {
         ID:"biomedical",
@@ -3637,7 +4055,8 @@ export const CourseData=[
         name:"Literature in English I",
         code:"ENGL 263",
         year: 2,
-        semester:1
+        semester:1,
+        img: ""
     }, 
     {
         ID:"biomedical",
@@ -3645,7 +4064,8 @@ export const CourseData=[
         name:"Differential Equations",
         code:"MATH 251",
         year: 2,
-        semester:1
+        semester:1,
+        img: ""
     }, 
     {
         ID:"biomedical",
@@ -3653,7 +4073,8 @@ export const CourseData=[
         name:"French for Communication Purposes I",
         code:"FC 181",
         year: 2,
-        semester:1
+        semester:1,
+        img: ""
     }, 
     {
         ID:"biomedical",
@@ -3661,7 +4082,8 @@ export const CourseData=[
         name:"Calculus with Several Variables",
         code:"MATH 252",
         year: 2,
-        semester:2
+        semester:2,
+        img: ""
     }, 
     {
         ID:"biomedical",
@@ -3669,7 +4091,8 @@ export const CourseData=[
         name:"Digital Systems",
         code:"COE 272",
         year: 2,
-        semester:2
+        semester:2,
+        img: ""
     }, 
     {
         ID:"biomedical",
@@ -3677,7 +4100,8 @@ export const CourseData=[
         name:"Biomedical Engineering Design II",
         code:"BME 252",
         year: 2,
-        semester:2
+        semester:2,
+        img: ""
     }, 
     {
         ID:"biomedical",
@@ -3685,7 +4109,8 @@ export const CourseData=[
         name:"Chemical Pathology",
         code:"BME 288",
         year: 2,
-        semester:2
+        semester:2,
+        img: ""
     }, 
     {
         ID:"biomedical",
@@ -3693,7 +4118,8 @@ export const CourseData=[
         name:"French for Communication II",
         code:"",
         year: 2,
-        semester:2
+        semester:2,
+        img: ""
     }, 
     {
         ID:"biomedical",
@@ -3701,7 +4127,8 @@ export const CourseData=[
         name:"Literature in English II",
         code:"ENGL 264",
         year: 2,
-        semester:2
+        semester:2,
+        img: ""
     }, 
     {
         ID:"biomedical",
@@ -3709,7 +4136,8 @@ export const CourseData=[
         name:"Anatomy and Physiology for Engineers II",
         code:"BME 286",
         year: 2,
-        semester:2
+        semester:2,
+        img: ""
     }, 
     {
         ID:"biomedical",
@@ -3717,7 +4145,8 @@ export const CourseData=[
         name:"Linear Electronic Circuits",
         code:"COE 371",
         year: 3,
-        semester:1
+        semester:1,
+        img: ""
     }, 
     {
         ID:"biomedical",
@@ -3725,7 +4154,8 @@ export const CourseData=[
         name:"Signals and Systems",
         code:"TE 385",
         year: 3,
-        semester:1
+        semester:1,
+        img: ""
     }, 
     {
         ID:"biomedical",
@@ -3733,7 +4163,8 @@ export const CourseData=[
         name:"Probabilty and Statics",
         code:"MATH 353",
         year: 3,
-        semester:1
+        semester:1,
+        img: ""
     }, 
     {
         ID:"biomedical",
@@ -3741,7 +4172,8 @@ export const CourseData=[
         name:"Numerical Methods",
         code:"MATH 351",
         year: 3,
-        semester:1
+        semester:1,
+        img: ""
     }, 
     {
         ID:"biomedical",
@@ -3749,7 +4181,8 @@ export const CourseData=[
         name:"Microprocessors",
         code:"COE 381",
         year: 3,
-        semester:1
+        semester:1,
+        img: ""
     }, 
     {
         ID:"biomedical",
@@ -3757,7 +4190,8 @@ export const CourseData=[
         name:"Research Methods",
         code:"BME 397",
         year: 3,
-        semester:1
+        semester:1,
+        img: ""
     }, 
     {
         ID:"biomedical",
@@ -3765,7 +4199,8 @@ export const CourseData=[
         name:"Object Oriented Programming",
         code:"COE 351",
         year: 3,
-        semester:1
+        semester:1,
+        img: ""
     }, 
     {
         ID:"biomedical",
@@ -3773,7 +4208,8 @@ export const CourseData=[
         name:"Biomedical Optics",
         code:"BME 374",
         year: 3,
-        semester:2
+        semester:2,
+        img: ""
     }, 
     {
         ID:"biomedical",
@@ -3781,7 +4217,8 @@ export const CourseData=[
         name:"Biomaterials I",
         code:"BME 362",
         year: 3,
-        semester:2
+        semester:2,
+        img: ""
     }, 
     {
         ID:"biomedical",
@@ -3789,7 +4226,8 @@ export const CourseData=[
         name:"Bioinstrumentation I",
         code:"BME 372",
         year: 3,
-        semester:2
+        semester:2,
+        img: ""
     }, 
     {
         ID:"biomedical",
@@ -3797,7 +4235,8 @@ export const CourseData=[
         name:"Biosignal Processes and Analysis ",
         code:"BME 366",
         year: 3,
-        semester:2
+        semester:2,
+        img: ""
     }, 
     {
         ID:"biomedical",
@@ -3805,7 +4244,8 @@ export const CourseData=[
         name:"Embedded Systems",
         code:"COE 358",
         year: 3,
-        semester:2
+        semester:2,
+        img: ""
     }, 
     {
         ID:"biomedical",
@@ -3813,7 +4253,8 @@ export const CourseData=[
         name:"Medical Imaging I",
         code:"BME 364",
         year: 3,
-        semester:2
+        semester:2,
+        img: ""
     }, 
     {
         ID:"biomedical",
@@ -3821,7 +4262,8 @@ export const CourseData=[
         name:"Project I",
         code:"BME 497",
         year: 4,
-        semester:1
+        semester:1,
+        img: ""
     }, 
     {
         ID:"biomedical",
@@ -3829,7 +4271,8 @@ export const CourseData=[
         name:"Biomaterials II",
         code:"BME 463",
         year: 4,
-        semester:1
+        semester:1,
+        img: ""
     }, 
     {
         ID:"biomedical",
@@ -3837,7 +4280,8 @@ export const CourseData=[
         name:"Bioinstrumentation II",
         code:"BME 471",
         year: 4,
-        semester:1
+        semester:1,
+        img: ""
     }, 
     {
         ID:"biomedical",
@@ -3845,7 +4289,8 @@ export const CourseData=[
         name:"Vacation Training",
         code:"BME 499",
         year: 4,
-        semester:1
+        semester:1,
+        img: ""
     }, 
     {
         ID:"biomedical",
@@ -3853,7 +4298,8 @@ export const CourseData=[
         name:"Engineering Economics and Management",
         code:"ME 491",
         year: 4,
-        semester:1
+        semester:1,
+        img: ""
     }, 
     {
         ID:"biomedical",
@@ -3861,7 +4307,8 @@ export const CourseData=[
         name:"Biomechanics I",
         code:"BME 461",
         year: 4,
-        semester:1
+        semester:1,
+        img: ""
     }, 
     {
         ID:"biomedical",
@@ -3869,7 +4316,8 @@ export const CourseData=[
         name:"Medical Imaging II",
         code:"BME 451",
         year: 4,
-        semester:1
+        semester:1,
+        img: ""
     }, 
     {
         ID:"biomedical",
@@ -3877,7 +4325,8 @@ export const CourseData=[
         name:"Biomechanics II",
         code:"BME 462",
         year: 4,
-        semester:2
+        semester:2,
+        img: ""
     }, 
     {
         ID:"biomedical",
@@ -3885,7 +4334,8 @@ export const CourseData=[
         name:"Medical Device Regulation",
         code:"BME 454",
         year: 4,
-        semester:2
+        semester:2,
+        img: ""
     }, 
     {
         ID:"biomedical",
@@ -3893,7 +4343,8 @@ export const CourseData=[
         name:"Project II",
         code:"BME 498",
         year: 4,
-        semester:2
+        semester:2,
+        img: ""
     }, 
     {
         ID:"biomedical",
@@ -3901,7 +4352,8 @@ export const CourseData=[
         name:"Entrepreneurship Development",
         code:"ME 492",
         year: 4,
-        semester:2
+        semester:2,
+        img: ""
     }, 
     {
         ID:"biomedical",
@@ -3909,7 +4361,8 @@ export const CourseData=[
         name:"Digital Signal Processing",
         code:"COE 472",
         year: 4,
-        semester:2
+        semester:2,
+        img: ""
     },
     {
         ID:"geomatic",
@@ -3917,7 +4370,8 @@ export const CourseData=[
         name:"Communication Skills I",
         code:"ENGL 157",
         year: 1,
-        semester:1
+        semester:1,
+        img: ""
     }, 
     {
         ID:"geomatic",
@@ -3925,7 +4379,8 @@ export const CourseData=[
         name:"Cartography I",
         code:"GE 151",
         year: 1,
-        semester:1
+        semester:1,
+        img: ""
     }, 
     {
         ID:"geomatic",
@@ -3933,7 +4388,8 @@ export const CourseData=[
         name:"Basic Survey Principles I",
         code:"GE 161",
         year: 1,
-        semester:1
+        semester:1,
+        img: ""
     }, 
     {
         ID:"geomatic",
@@ -3941,7 +4397,8 @@ export const CourseData=[
         name:"Applied OPtics",
         code:"GE 171",
         year: 1,
-        semester:1
+        semester:1,
+        img: ""
     }, 
     {
         ID:"geomatic",
@@ -3949,7 +4406,8 @@ export const CourseData=[
         name:"Algebra",
         code:"MATH 151",
         year: 1,
-        semester:1
+        semester:1,
+        img: ""
     }, 
     {
         ID:"geomatic",
@@ -3957,7 +4415,8 @@ export const CourseData=[
         name:"Technical Drawing",
         code:"ME 159",
         year: 1,
-        semester:1
+        semester:1,
+        img: ""
     }, 
     {
         ID:"geomatic",
@@ -3965,7 +4424,8 @@ export const CourseData=[
         name:"Basic Mechanics",
         code:"ME 161",
         year: 1,
-        semester:1
+        semester:1,
+        img: ""
     }, 
     {
         ID:"geomatic",
@@ -3973,7 +4433,8 @@ export const CourseData=[
         name:"Introduction to Ethics and Morality",
         code:"ETIC 161",
         year: 1,
-        semester:1
+        semester:1,
+        img: ""
     }, 
     {
         ID:"geomatic",
@@ -3981,7 +4442,8 @@ export const CourseData=[
         name:"Practical Task I",
         code:"GE 192",
         year: 1,
-        semester:2
+        semester:2,
+        img: ""
     }, 
     {
         ID:"geomatic",
@@ -3989,7 +4451,8 @@ export const CourseData=[
         name:"Calculus with Several Variables",
         code:"MATH 152",
         year: 1,
-        semester:2
+        semester:2,
+        img: ""
     }, 
     {
         ID:"geomatic",
@@ -3997,7 +4460,8 @@ export const CourseData=[
         name:"Basic Electronics",
         code:"EE 152",
         year: 1,
-        semester:2
+        semester:2,
+        img: ""
     }, 
     {
         ID:"geomatic",
@@ -4005,7 +4469,8 @@ export const CourseData=[
         name:"Communication Skills II",
         code:"ENGL 158",
         year: 1,
-        semester:2
+        semester:2,
+        img: ""
     }, 
     {
         ID:"geomatic",
@@ -4013,7 +4478,8 @@ export const CourseData=[
         name:"Cartography II",
         code:"GE 152",
         year: 1,
-        semester:2
+        semester:2,
+        img: ""
     }, 
     {
         ID:"geomatic",
@@ -4021,7 +4487,8 @@ export const CourseData=[
         name:"Introduction to Information Technology",
         code:"GE 158",
         year: 1,
-        semester:2
+        semester:2,
+        img: ""
     }, 
     {
         ID:"geomatic",
@@ -4029,7 +4496,8 @@ export const CourseData=[
         name:"Basic Survey Principles II",
         code:"GE 162",
         year: 1,
-        semester:2
+        semester:2,
+        img: ""
     }, 
     {
         ID:"geomatic",
@@ -4037,7 +4505,8 @@ export const CourseData=[
         name:"Engineering in Society",
         code:"CENG 291",
         year: 2,
-        semester:1
+        semester:1,
+        img: ""
     }, 
     {
         ID:"geomatic",
@@ -4045,7 +4514,8 @@ export const CourseData=[
         name:"Literature in English I",
         code:"ENGL 263",
         year: 2,
-        semester:1
+        semester:1,
+        img: ""
     }, 
     {
         ID:"geomatic",
@@ -4053,7 +4523,8 @@ export const CourseData=[
         name:"Principles of Photogrammetry",
         code:"GE 251",
         year: 2,
-        semester:1
+        semester:1,
+        img: ""
     }, 
     {
         ID:"geomatic",
@@ -4061,7 +4532,8 @@ export const CourseData=[
         name:"Field and Geodetic Astronomy",
         code:"GE 261",
         year: 2,
-        semester:1
+        semester:1,
+        img: ""
     }, 
     {
         ID:"geomatic",
@@ -4069,7 +4541,8 @@ export const CourseData=[
         name:"Information Science and Programming",
         code:"GE 263",
         year: 2,
-        semester:1
+        semester:1,
+        img: ""
     }, 
     {
         ID:"geomatic",
@@ -4077,7 +4550,8 @@ export const CourseData=[
         name:"Engineering Surveying",
         code:"GE 271",
         year: 2,
-        semester:1
+        semester:1,
+        img: ""
     }, 
     {
         ID:"geomatic",
@@ -4085,7 +4559,8 @@ export const CourseData=[
         name:"Basic Physical Geodesy",
         code:"GE 281",
         year: 2,
-        semester:1
+        semester:1,
+        img: ""
     }, 
     {
         ID:"geomatic",
@@ -4093,7 +4568,8 @@ export const CourseData=[
         name:"Differential Equations",
         code:"MATH 251",
         year: 2,
-        semester:1
+        semester:1,
+        img: ""
     }, 
     {
         ID:"geomatic",
@@ -4101,7 +4577,8 @@ export const CourseData=[
         name:"Soil and Rock Mechanics",
         code:"CE 260",
         year: 2,
-        semester:2
+        semester:2,
+        img: ""
     }, 
     {
         ID:"geomatic",
@@ -4109,7 +4586,8 @@ export const CourseData=[
         name:"Literature in English II",
         code:"ENGL 264",
         year: 2,
-        semester:2
+        semester:2,
+        img: ""
     }, 
     {
         ID:"geomatic",
@@ -4117,7 +4595,8 @@ export const CourseData=[
         name:"Principles of Remote Sensing",
         code:"GE 262",
         year: 2,
-        semester:2
+        semester:2,
+        img: ""
     }, 
     {
         ID:"geomatic",
@@ -4125,7 +4604,8 @@ export const CourseData=[
         name:"Engineering Survey II",
         code:"GE 272",
         year: 2,
-        semester:2
+        semester:2,
+        img: ""
     }, 
     {
         ID:"geomatic",
@@ -4133,7 +4613,8 @@ export const CourseData=[
         name:"Practical Task II",
         code:"GE 292",
         year: 2,
-        semester:2
+        semester:2,
+        img: ""
     }, 
     {
         ID:"geomatic",
@@ -4141,7 +4622,8 @@ export const CourseData=[
         name:"Hydrographic Survey and Marine Science",
         code:"GE 284",
         year: 2,
-        semester:2
+        semester:2,
+        img: ""
     }, 
     
     {
@@ -4150,7 +4632,8 @@ export const CourseData=[
         name:"Calculus with Several Variables",
         code:"MATH 252",
         year: 2,
-        semester:2
+        semester:2,
+        img: ""
     }, 
     {
         ID:"geomatic",
@@ -4158,7 +4641,8 @@ export const CourseData=[
         name:"Highway and Transportation Engineering I",
         code:"CE 367",
         year: 3,
-        semester:1
+        semester:1,
+        img: ""
     }, 
     {
         ID:"geomatic",
@@ -4166,7 +4650,8 @@ export const CourseData=[
         name:"Geometrical Geodesy",
         code:"GE 353",
         year: 3,
-        semester:1
+        semester:1,
+        img: ""
     }, 
     {
         ID:"geomatic",
@@ -4174,7 +4659,8 @@ export const CourseData=[
         name:"Survey Adjustment I",
         code:"GE 371",
         year: 3,
-        semester:1
+        semester:1,
+        img: ""
     }, 
     {
         ID:"geomatic",
@@ -4182,7 +4668,8 @@ export const CourseData=[
         name:"Stereo Photogrammetry",
         code:"GE 351",
         year: 3,
-        semester:1
+        semester:1,
+        img: ""
     }, 
     {
         ID:"geomatic",
@@ -4190,7 +4677,8 @@ export const CourseData=[
         name:"Image Processing and Interpretation",
         code:"GE 361",
         year: 3,
-        semester:1
+        semester:1,
+        img: ""
     }, 
     {
         ID:"geomatic",
@@ -4198,7 +4686,8 @@ export const CourseData=[
         name:"Probability and Statistics",
         code:"STAT 253",
         year: 3,
-        semester:1
+        semester:1,
+        img: ""
     }, 
     {
         ID:"geomatic",
@@ -4206,7 +4695,8 @@ export const CourseData=[
         name:"French for Communication I",
         code:"FC 181",
         year: 3,
-        semester:1
+        semester:1,
+        img: ""
     }, 
     {
         ID:"geomatic",
@@ -4214,7 +4704,8 @@ export const CourseData=[
         name:"Accounting II",
         code:"CSM 158",
         year: 3,
-        semester:2
+        semester:2,
+        img: ""
     }, 
     {
         ID:"geomatic",
@@ -4222,7 +4713,8 @@ export const CourseData=[
         name:"Satellite Geodesy",
         code:"GE 354",
         year: 3,
-        semester:2
+        semester:2,
+        img: ""
     }, 
     {
         ID:"geomatic",
@@ -4230,7 +4722,8 @@ export const CourseData=[
         name:"Principles of GIS",
         code:"GE 362",
         year: 3,
-        semester:2
+        semester:2,
+        img: ""
     }, 
     {
         ID:"geomatic",
@@ -4238,7 +4731,8 @@ export const CourseData=[
         name:"Analysis of Errors",
         code:"GE 372",
         year: 3,
-        semester:2
+        semester:2,
+        img: ""
     }, 
     {
         ID:"geomatic",
@@ -4246,7 +4740,8 @@ export const CourseData=[
         name:"Transportation and Highway II",
         code:"CE 368",
         year: 3,
-        semester:2
+        semester:2,
+        img: ""
     }, 
     {
         ID:"geomatic",
@@ -4254,7 +4749,8 @@ export const CourseData=[
         name:"Practical Task III",
         code:"GE 392",
         year: 3,
-        semester:2
+        semester:2,
+        img: ""
     }, 
     {
         ID:"geomatic",
@@ -4262,7 +4758,8 @@ export const CourseData=[
         name:"Planning and Physical Environment",
         code:"PL 251/2",
         year: 3,
-        semester:2
+        semester:2,
+        img: ""
     },
     {
         ID:"geomatic",
@@ -4270,7 +4767,8 @@ export const CourseData=[
         name:"Geomatic Methods",
         code:"GE 451",
         year: 4,
-        semester:1
+        semester:1,
+        img: ""
     },
     {
         ID:"geomatic",
@@ -4278,7 +4776,8 @@ export const CourseData=[
         name:"Geodetic Surveying II",
         code:"GE 451",
         year: 4,
-        semester:1
+        semester:1,
+        img: ""
     },
     {
         ID:"geomatic",
@@ -4286,7 +4785,8 @@ export const CourseData=[
         name:"Eng Economy and Entrepreneurship Development",
         code:"CE 461",
         year: 4,
-        semester:1
+        semester:1,
+        img: ""
     },
     {
         ID:"geomatic",
@@ -4294,7 +4794,8 @@ export const CourseData=[
         name:"Land And Geographic Information System I",
         code:"GE 463",
         year: 4,
-        semester:1
+        semester:1,
+        img: ""
     },
     {
         ID:"geomatic",
@@ -4302,7 +4803,8 @@ export const CourseData=[
         name:"Project I",
         code:"GE 491",
         year: 4,
-        semester:1
+        semester:1,
+        img: ""
     },
     {
         ID:"geomatic",
@@ -4310,7 +4812,8 @@ export const CourseData=[
         name:"Cadastral Surveying",
         code:"GE 461",
         year: 4,
-        semester:1
+        semester:1,
+        img: ""
     },
     {
         ID:"geomatic",
@@ -4318,7 +4821,8 @@ export const CourseData=[
         name:"Land Law and Registration",
         code:"GE 472",
         year: 4,
-        semester:2
+        semester:2,
+        img: ""
     },
     {
         ID:"geomatic",
@@ -4326,7 +4830,8 @@ export const CourseData=[
         name:"Project II",
         code:"GE 492",
         year: 4,
-        semester:2
+        semester:2,
+        img: ""
     },
     {
         ID:"geomatic",
@@ -4334,7 +4839,8 @@ export const CourseData=[
         name:"Database Systems",
         code:"GE 464",
         year: 4,
-        semester:2
+        semester:2,
+        img: ""
     },
     {
         ID:"geomatic",
@@ -4342,7 +4848,8 @@ export const CourseData=[
         name:"Principles Of Valuation of Land and Building",
         code:"GE 474",
         year: 4,
-        semester:2
+        semester:2,
+        img: ""
     },
     {
         ID:"geomatic",
@@ -4350,7 +4857,8 @@ export const CourseData=[
         name:"Professional Studies and Development",
         code:"GE 474",
         year: 4,
-        semester:2
+        semester:2,
+        img: ""
     },
     {
         ID:"aerospace",
@@ -4358,7 +4866,8 @@ export const CourseData=[
         name:"Algebra",
         code:"MATH 151",
         year: 1,
-        semester:1
+        semester:1,
+        img: ""
     }, 
     {
         ID:"aerospace",
@@ -4366,7 +4875,8 @@ export const CourseData=[
         name:"Applied Electricity",
         code:"EE 151",
         year:1,
-        semester:1
+        semester:1,
+        img: ""
     }, 
     {
         ID:"aerospace",
@@ -4374,7 +4884,8 @@ export const CourseData=[
         name:"Communication Skills",
         code:"ENGL 157",
         year: 1,
-        semester:1
+        semester:1,
+        img: ""
     }, 
     {
         ID:"aerospace",
@@ -4382,7 +4893,8 @@ export const CourseData=[
         name:"Basic Mechanics",
         code:"ME 161",
         year: 1,
-        semester:1
+        semester:1,
+        img: ""
     }, 
     {
         ID:"aerospace",
@@ -4390,7 +4902,8 @@ export const CourseData=[
         name:"Technical Drawing",
         code:"ME 159",
         year: 1,
-        semester:1
+        semester:1,
+        img: ""
     },  
     {
         ID:"aerospace",
@@ -4398,7 +4911,8 @@ export const CourseData=[
         name:"Introduction to Aviation Technology",
         code:"AERO 157",
         year: 1,
-        semester:1
+        semester:1,
+        img: ""
     },
     {
         ID:"aerospace",
@@ -4406,7 +4920,8 @@ export const CourseData=[
         name:"Environmental Studies",
         code:"CE 155",
         year: 1,
-        semester:1
+        semester:1,
+        img: ""
     },
     {
         ID:"aerospace",
@@ -4414,7 +4929,8 @@ export const CourseData=[
         name:"Information in Literacy Skills",
         code:"ILS 151",
         year: 1,
-        semester:1
+        semester:1,
+        img: ""
     },
     {
         ID:"aerospace",
@@ -4422,14 +4938,16 @@ export const CourseData=[
         name:"Engineering Graphics",
         code:"ME 158",
         year: 1,
-        semester:2
+        semester:2,
+        img: ""
     },{
         ID:"aerospace",
         id:"communicationskillsII",
         name:"Communication Skills II",
         code:"ENGL 158",
         year: 1,
-        semester:2
+        semester:2,
+        img: ""
     },
     {
         ID:"aerospace",
@@ -4437,7 +4955,8 @@ export const CourseData=[
         name:"Basic Electronics",
         code:"EE 152",
         year: 1,
-        semester:2
+        semester:2,
+        img: ""
     },
     {
         ID:"aerospace",
@@ -4445,7 +4964,8 @@ export const CourseData=[
         name:"Calculus With Analysis",
         code:"MATH 152",
         year: 1,
-        semester:2
+        semester:2,
+        img: ""
     },
     {
         ID:"aerospace",
@@ -4453,7 +4973,8 @@ export const CourseData=[
         name:"Statics of Solid Mechanics",
         code:"ME 164",
         year: 1,
-        semester:2
+        semester:2,
+        img: ""
     },
     {
         ID:"aerospace",
@@ -4461,7 +4982,8 @@ export const CourseData=[
         name:"Computer Programming for Engineers",
         code:"ME 158",
         year: 1,
-        semester:2
+        semester:2,
+        img: ""
     },
     {
         ID:"aerospace",
@@ -4469,7 +4991,8 @@ export const CourseData=[
         name:"Aerospace Design Project I",
         code:"AERO 174",
         year: 1,
-        semester:2
+        semester:2,
+        img: ""
     },
     {
         ID:"aerospace",
@@ -4477,7 +5000,8 @@ export const CourseData=[
         name:"Information in Literacy Skills II",
         code:"ILS 152",
         year: 1,
-        semester:2
+        semester:2,
+        img: ""
     },
     {
         ID:"aerospace",
@@ -4485,7 +5009,8 @@ export const CourseData=[
         name:"Literature in English I",
         code:"ENGL 263",
         year: 2,
-        semester:1
+        semester:1,
+        img: ""
     },
     {
         ID:"aerospace",
@@ -4493,7 +5018,8 @@ export const CourseData=[
         name:"Dynamics of Solid Mechanics",
         code:"ME 261",
         year: 2,
-        semester:1
+        semester:1,
+        img: ""
     },
     {
         ID:"aerospace",
@@ -4501,7 +5027,8 @@ export const CourseData=[
         name:"Introduction to Fluid Mechanics",
         code:"ME 251",
         year: 2,
-        semester:1
+        semester:1,
+        img: ""
     },
     {
         ID:"aerospace",
@@ -4509,7 +5036,8 @@ export const CourseData=[
         name:"Engineeering Materials I",
         code:"ME 281",
         year: 2,
-        semester:1
+        semester:1,
+        img: ""
     },
     {
         ID:"aerospace",
@@ -4517,7 +5045,8 @@ export const CourseData=[
         name:"Strength of Materials I",
         code:"ME 255",
         year: 2,
-        semester:1
+        semester:1,
+        img: ""
     },
     {
         ID:"aerospace",
@@ -4525,7 +5054,8 @@ export const CourseData=[
         name:"Differential Equations",
         code:"MATH 251",
         year: 2,
-        semester:1
+        semester:1,
+        img: ""
     },
     {
         ID:"aerospace",
@@ -4533,7 +5063,8 @@ export const CourseData=[
         name:"Aerospace Engineering Vacation Training I",
         code:"AERO 293",
         year: 2,
-        semester:1
+        semester:1,
+        img: ""
     },
     {
         ID:"aerospace",
@@ -4541,7 +5072,8 @@ export const CourseData=[
         name:"Engineering in Society",
         code: "CENG 291",
         year: 2,
-        semester:1
+        semester:1,
+        img: ""
     },
     {
         ID:"aerospace",
@@ -4549,7 +5081,8 @@ export const CourseData=[
         name:"Calculus with Several Variables",
         code: "MATH 252",
         year: 2,
-        semester:2
+        semester:2,
+        img: ""
     },
     {
         ID:"aerospace",
@@ -4557,7 +5090,8 @@ export const CourseData=[
         name:"Computer-Aided Design and Modelling",
         code: "ME 258",
         year: 2,
-        semester:2
+        semester:2,
+        img: ""
     },
     {
         ID:"aerospace",
@@ -4565,7 +5099,8 @@ export const CourseData=[
         name:"Mechanisms Synthesis and Analysis I",
         code: "ME 264",
         year: 2,
-        semester:2
+        semester:2,
+        img: ""
     },
     {
         ID:"aerospace",
@@ -4573,7 +5108,8 @@ export const CourseData=[
         name:"Aerospace Structures",
         code: "AERO 256",
         year: 2,
-        semester:2
+        semester:2,
+        img: ""
     },
     {
         ID:"aerospace",
@@ -4581,7 +5117,8 @@ export const CourseData=[
         name:"Literature in English II",
         code:"ENGL 264",
         year: 2,
-        semester:2
+        semester:2,
+        img: ""
     },
     {
         ID:"aerospace",
@@ -4589,7 +5126,8 @@ export const CourseData=[
         name:"Thermodynamics I",
         code:"ME 266",
         year: 2,
-        semester:2
+        semester:2,
+        img: ""
     },
     {
         ID:"aerospace",
@@ -4597,7 +5135,8 @@ export const CourseData=[
         name:"Aerospace Design Project II",
         code:"AERO 274",
         year: 2,
-        semester:2
+        semester:2,
+        img: ""
     },
     {
         ID:"aerospace",
@@ -4605,7 +5144,8 @@ export const CourseData=[
         name:"Probability and Statistics",
         code:"MATH 353",
         year: 3,
-        semester:1
+        semester:1,
+        img: ""
     },
     {
         ID:"aerospace",
@@ -4613,7 +5153,8 @@ export const CourseData=[
         name:"Numerical Methods",
         code:"MATH 351",
         year: 3,
-        semester:1
+        semester:1,
+        img: ""
     },
     {
         ID:"aerospace",
@@ -4621,7 +5162,8 @@ export const CourseData=[
         name:"Automatic Control I",
         code:"ME 363",
         year: 3,
-        semester:1
+        semester:1,
+        img: ""
     },
     {
         ID:"aerospace",
@@ -4629,7 +5171,8 @@ export const CourseData=[
         name:"Aerospace Engineering Laboratory I",
         code:"AERO 395",
         year: 3,
-        semester:1
+        semester:1,
+        img: ""
     },
     {
         ID:"aerospace",
@@ -4637,7 +5180,8 @@ export const CourseData=[
         name:"Aerospace Industry and Engineering",
         code:"AERO 391",
         year: 3,
-        semester:1
+        semester:1,
+        img: ""
     },
     {
         ID:"aerospace",
@@ -4645,7 +5189,8 @@ export const CourseData=[
         name:"Aerodynamics I",
         code:"AERO 351",
         year: 3,
-        semester:1
+        semester:1,
+        img: ""
     },
     {
         ID:"aerospace",
@@ -4653,7 +5198,8 @@ export const CourseData=[
         name:"Aerospace Engineering and Vacation Training II",
         code:"AERO 393",
         year: 3,
-        semester:1
+        semester:1,
+        img: ""
     }, 
     {
         ID:"aerospace",
@@ -4661,7 +5207,8 @@ export const CourseData=[
         name:"Introduction to Economics",
         code:"ECON 151",
         year: 3,
-        semester:1
+        semester:1,
+        img: ""
     },
     {
         ID:"aerospace",
@@ -4669,7 +5216,8 @@ export const CourseData=[
         name:"Air Vehicle Stability and Control",
         code:"AERO 362",
         year: 3,
-        semester:2
+        semester:2,
+        img: ""
     },
     {   
         ID:"aerospace",
@@ -4677,7 +5225,8 @@ export const CourseData=[
         name:"Industrial Engineering and Ergonomics",
         code:"ME 392",
         year: 3,
-        semester:2
+        semester:2,
+        img: ""
     },
     {
         ID:"aerospace",
@@ -4685,7 +5234,8 @@ export const CourseData=[
         name:"Aircraft Performance and Design",
         code:"AERO 374",
         year: 3,
-        semester:2
+        semester:2,
+        img: ""
     },
     {
         ID:"aerospace",
@@ -4693,7 +5243,8 @@ export const CourseData=[
         name:"Propulsion",
         code:"AERO 368",
         year: 3,
-        semester:2
+        semester:2,
+        img: ""
     },
     {
         ID:"aerospace",
@@ -4701,7 +5252,8 @@ export const CourseData=[
         name:"Heat Transfer",
         code:"ME 366",
         year: 3,
-        semester:2
+        semester:2,
+        img: ""
     },
     {
         ID:"aerospace",
@@ -4709,7 +5261,8 @@ export const CourseData=[
         name:"Vibrations I",
         code:"ME 362",
         year: 3,
-        semester:2
+        semester:2,
+        img: ""
     },
     {
         ID:"aerospace",
@@ -4717,7 +5270,8 @@ export const CourseData=[
         name:"Aerospace Engineering Laboratory II",
         code:"AERO 396",
         year: 3,
-        semester:2
+        semester:2,
+        img: ""
     },
     {
         ID:"aerospace",
@@ -4725,7 +5279,8 @@ export const CourseData=[
         name:"Avionics",
         code:"AERO 483",
         year: 4,
-        semester:1
+        semester:1,
+        img: ""
     },
     {
         ID:"aerospace",
@@ -4733,7 +5288,8 @@ export const CourseData=[
         name:"Aviation Business Management",
         code:"AERO 491",
         year: 4,
-        semester:1
+        semester:1,
+        img: ""
     },
     {
         ID:"aerospace",
@@ -4741,7 +5297,8 @@ export const CourseData=[
         name:"Final Year Project I",
         code:"AERO 497",
         year: 4,
-        semester:1
+        semester:1,
+        img: ""
     },
     {
         ID:"aerospace",
@@ -4749,7 +5306,8 @@ export const CourseData=[
         name:"Aircraft Maintenance Engineering",
         code:"AERO 495",
         year: 4,
-        semester:1
+        semester:1,
+        img: ""
     },
     {
         ID:"aerospace",
@@ -4757,7 +5315,8 @@ export const CourseData=[
         name:"Aerospace Vehicle Design",
         code:"AERO 473",
         year: 4,
-        semester:1
+        semester:1,
+        img: ""
     },
     {
         ID:"aerospace",
@@ -4765,7 +5324,8 @@ export const CourseData=[
         name:"Aerospace Engineering Vacation Training III",
         code:"AERO 493",
         year: 4,
-        semester:1
+        semester:1,
+        img: ""
     },
     {
         ID:"aerospace",
@@ -4773,7 +5333,8 @@ export const CourseData=[
         name:"Vibrations II",
         code:"ME 461",
         year: 4,
-        semester:1
+        semester:1,
+        img: ""
     },
     {
         ID:"aerospace",
@@ -4781,7 +5342,8 @@ export const CourseData=[
         name:"Automatic Control II",
         code:"ME 463",
         year: 4,
-        semester:1
+        semester:1,
+        img: ""
     },
     {
         ID:"aerospace",
@@ -4789,7 +5351,8 @@ export const CourseData=[
         name:"Mechatronics",
         code:"ME 483",
         year: 4,
-        semester:1
+        semester:1,
+        img: ""
     },
     {
         ID:"aerospace",
@@ -4797,7 +5360,8 @@ export const CourseData=[
         name:"Composite Materials",
         code:"MSE 451",
         year: 4,
-        semester:1
+        semester:1,
+        img: ""
     },
     {
         ID:"aerospace",
@@ -4805,7 +5369,8 @@ export const CourseData=[
         name:"Computer Aided Design and Manufacturing",
         code:"ME 473",
         year: 4,
-        semester:1
+        semester:1,
+        img: ""
     },
     {
         ID:"aerospace",
@@ -4813,7 +5378,8 @@ export const CourseData=[
         name:"Facilities Design",
         code:"ME 469",
         year: 4,
-        semester:1
+        semester:1,
+        img: ""
     },
     {
         ID:"aerospace",
@@ -4821,7 +5387,8 @@ export const CourseData=[
         name:"Operations Research",
         code:"ME 499",
         year: 4,
-        semester:1
+        semester:1,
+        img: ""
     },
     {
         ID:"aerospace",
@@ -4829,7 +5396,8 @@ export const CourseData=[
         name:"Behaviour of Real Fluids",
         code:"ME 451",
         year: 4,
-        semester:1
+        semester:1,
+        img: ""
     },
     {
         ID:"aerospace",
@@ -4837,7 +5405,8 @@ export const CourseData=[
         name:"Stregth of Materials III",
         code:"ME 455",
         year: 4,
-        semester:1
+        semester:1,
+        img: ""
     },
     {
         ID:"aerospace",
@@ -4845,7 +5414,8 @@ export const CourseData=[
         name:"Enterpreneurship Development and Management",
         code:"ME 492",
         year: 4,
-        semester:2
+        semester:2,
+        img: ""
     },
     {
         ID:"aerospace",
@@ -4853,7 +5423,8 @@ export const CourseData=[
         name:"Aerodynamics II",
         code:"AERO 452",
         year: 4,
-        semester:2
+        semester:2,
+        img: ""
     },
     {
         ID:"aerospace",
@@ -4861,7 +5432,8 @@ export const CourseData=[
         name:"Final Year Project II",
         code:"AERO 498",
         year: 4,
-        semester:2
+        semester:2,
+        img: ""
     },
     {
         ID:"aerospace",
@@ -4869,7 +5441,8 @@ export const CourseData=[
         name:"Applied Meteorology",
         code:"AERO 456",
         year: 4,
-        semester:2
+        semester:2,
+        img: ""
     },
     {
         ID:"aerospace",
@@ -4877,7 +5450,8 @@ export const CourseData=[
         name:"Aerospace Safety and Air Security",
         code:"AERO 492",
         year: 4,
-        semester:2
+        semester:2,
+        img: ""
     },
     {
         ID:"aerospace",
@@ -4885,7 +5459,8 @@ export const CourseData=[
         name:"Mechanisms Synthesis and Analysis",
         code:"ME 462",
         year: 4,
-        semester:2
+        semester:2,
+        img: ""
     },
     {
         ID:"aerospace",
@@ -4893,7 +5468,8 @@ export const CourseData=[
         name:"Finite Element Methods",
         code:"ME 456",
         year: 4,
-        semester:2
+        semester:2,
+        img: ""
     },
     {
         ID:"aerospace",
@@ -4901,7 +5477,8 @@ export const CourseData=[
         name:"Internal Combustion Engines",
         code:"ME 468",
         year: 4,
-        semester:2
+        semester:2,
+        img: ""
     },
     {
         ID:"aerospace",
@@ -4909,7 +5486,8 @@ export const CourseData=[
         name:"Production Planning and Control",
         code:"ME 474",
         year: 4,
-        semester:2
+        semester:2,
+        img: ""
     },
     {
         ID:"aerospace",
@@ -4917,7 +5495,8 @@ export const CourseData=[
         name:"Machine Shop and Factory Design",
         code:"ME 472",
         year: 4,
-        semester:2
+        semester:2,
+        img: ""
     },
     {
         ID:"aerospace",
@@ -4925,7 +5504,8 @@ export const CourseData=[
         name:"Human Factors and Ergonomics",
         code:"ME 494",
         year: 4,
-        semester:2
+        semester:2,
+        img: ""
     },
     {
         ID:"metallurgical",
@@ -4933,7 +5513,8 @@ export const CourseData=[
         name:"Algebra",
         code:"MATH 151",
         year: 1,
-        semester:1
+        semester:1,
+        img: ""
     }, 
     {
         ID:"metallurgical",
@@ -4941,7 +5522,8 @@ export const CourseData=[
         name:"Applied Electricity",
         code:"EE 151",
         year:1,
-        semester:1
+        semester:1,
+        img: ""
     }, 
     {
         ID:"metallurgical",
@@ -4949,7 +5531,8 @@ export const CourseData=[
         name:"Communication Skills",
         code:"ENGL 157",
         year: 1,
-        semester:1
+        semester:1,
+        img: ""
     }, 
     {
         ID:"metallurgical",
@@ -4957,7 +5540,8 @@ export const CourseData=[
         name:"Basic Geology",
         code:"GED 151",
         year: 1,
-        semester:1
+        semester:1,
+        img: ""
     }, 
     {
         ID:"metallurgical",
@@ -4965,7 +5549,8 @@ export const CourseData=[
         name:"Technical Drawing",
         code:"ME 159",
         year: 1,
-        semester:1
+        semester:1,
+        img: ""
     },  
     {
         ID:"metallurgical",
@@ -4973,7 +5558,8 @@ export const CourseData=[
         name:"Engineering Technology",
         code:"ME 195",
         year: 1,
-        semester:1
+        semester:1,
+        img: ""
     },
     {
         ID:"metallurgical",
@@ -4981,7 +5567,8 @@ export const CourseData=[
         name:"Introduction to Information Technology",
         code:"METE 151",
         year: 1,
-        semester:1
+        semester:1,
+        img: ""
     },
     {
         ID:"metallurgical",
@@ -4989,7 +5576,8 @@ export const CourseData=[
         name:"Introduction to Ethics and Morality",
         code:"ETIC 161",
         year: 1,
-        semester:1
+        semester:1,
+        img: ""
     },
     {
         ID:"metallurgical",
@@ -4997,14 +5585,16 @@ export const CourseData=[
         name:"Chemistry for Metallurgical Engineers",
         code:"METE 152",
         year: 1,
-        semester:2
+        semester:2,
+        img: ""
     },{
         ID:"metallurgical",
         id:"communicationskillsII",
         name:"Communication Skills II",
         code:"ENGL 158",
         year: 1,
-        semester:2
+        semester:2,
+        img: ""
     },
     {
         ID:"metallurgical",
@@ -5012,7 +5602,8 @@ export const CourseData=[
         name:"Basic Mechanics",
         code:"ME 162",
         year: 1,
-        semester:2
+        semester:2,
+        img: ""
     },
     {
         ID:"metallurgical",
@@ -5020,7 +5611,8 @@ export const CourseData=[
         name:"Calculus With Analysis",
         code:"MATH 152",
         year: 1,
-        semester:2
+        semester:2,
+        img: ""
     },
     {
         ID:"metallurgical",
@@ -5028,7 +5620,8 @@ export const CourseData=[
         name:"Principles of Material Science",
         code:"MSE 154",
         year: 1,
-        semester:2
+        semester:2,
+        img: ""
     },
     {
         ID:"metallurgical",
@@ -5036,7 +5629,8 @@ export const CourseData=[
         name:"Environmental Science",
         code:"METE 154",
         year: 1,
-        semester:2
+        semester:2,
+        img: ""
     },
     {
         ID:"metallurgical",
@@ -5044,7 +5638,8 @@ export const CourseData=[
         name:" Engineering Drawing",
         code:"ME 160",
         year: 1,
-        semester:2
+        semester:2,
+        img: ""
     },
     {
         ID:"metallurgical",
@@ -5052,7 +5647,8 @@ export const CourseData=[
         name:"Mineralogy",
         code:"GED 251",
         year: 2,
-        semester:1
+        semester:1,
+        img: ""
     },
     {
         ID:"metallurgical",
@@ -5060,7 +5656,8 @@ export const CourseData=[
         name:"Metallurgical Thermodynamics",
         code:"METE 251",
         year: 2,
-        semester:1
+        semester:1,
+        img: ""
     },
     {
         ID:"metallurgical",
@@ -5068,7 +5665,8 @@ export const CourseData=[
         name:"Momentum Transport",
         code:"MSE 251",
         year: 2,
-        semester:1
+        semester:1,
+        img: ""
     },
     {
         ID:"metallurgical",
@@ -5076,7 +5674,8 @@ export const CourseData=[
         name:"Properties of Engineeering Materials I",
         code:"MSE 255",
         year: 2,
-        semester:1
+        semester:1,
+        img: ""
     },
     {
         ID:"metallurgical",
@@ -5084,7 +5683,8 @@ export const CourseData=[
         name:"Mechanical Behaviour of Materials I",
         code:"MSE 253",
         year: 2,
-        semester:1
+        semester:1,
+        img: ""
     },
     {
         ID:"metallurgical",
@@ -5092,7 +5692,8 @@ export const CourseData=[
         name:"Differential Equations",
         code:"MATH 251",
         year: 2,
-        semester:1
+        semester:1,
+        img: ""
     },
     {
         ID:"metallurgical",
@@ -5100,7 +5701,8 @@ export const CourseData=[
         name:"Indigenous Processing",
         code:"MSE 257",
         year: 2,
-        semester:1
+        semester:1,
+        img: ""
     },
     {
         ID:"metallurgical",
@@ -5108,7 +5710,8 @@ export const CourseData=[
         name:"Engineering in Society",
         code: "CENG 291",
         year: 2,
-        semester:1
+        semester:1,
+        img: ""
     },
     {
         ID:"metallurgical",
@@ -5116,7 +5719,8 @@ export const CourseData=[
         name:"Calculus with Several Variables",
         code: "MATH 252",
         year: 2,
-        semester:2
+        semester:2,
+        img: ""
     },
     {
         ID:"metallurgical",
@@ -5124,7 +5728,8 @@ export const CourseData=[
         name:"Metallurgical Rate Processes/ Surface Phenomena",
         code: "METE 252",
         year: 2,
-        semester:2
+        semester:2,
+        img: ""
     },
     {
         ID:"metallurgical",
@@ -5132,7 +5737,8 @@ export const CourseData=[
         name:"Ore Beneficiation",
         code: "METE 254",
         year: 2,
-        semester:2
+        semester:2,
+        img: ""
     },
     {
         ID:"metallurgical",
@@ -5140,7 +5746,8 @@ export const CourseData=[
         name:"Assaying",
         code: "METE 256",
         year: 2,
-        semester:2
+        semester:2,
+        img: ""
     },
     {
         ID:"metallurgical",
@@ -5148,7 +5755,8 @@ export const CourseData=[
         name:"Computer Programming and Applications",
         code:"METE 258",
         year: 2,
-        semester:2
+        semester:2,
+        img: ""
     },
     {
         ID:"metallurgical",
@@ -5156,7 +5764,8 @@ export const CourseData=[
         name:"Heat and Mass Transport",
         code:"MSE 252",
         year: 2,
-        semester:2
+        semester:2,
+        img: ""
     },
     {
         ID:"metallurgical",
@@ -5164,7 +5773,8 @@ export const CourseData=[
         name:"Phase Transformations",
         code:"MSE 260",
         year: 2,
-        semester:2
+        semester:2,
+        img: ""
     },
     {
         ID:"metallurgical",
@@ -5172,7 +5782,8 @@ export const CourseData=[
         name:"Probability and Statistics",
         code:"MATH 353",
         year: 3,
-        semester:1
+        semester:1,
+        img: ""
     },
     {
         ID:"metallurgical",
@@ -5180,7 +5791,8 @@ export const CourseData=[
         name:"Pyrometallurgy",
         code:"MSE 353",
         year: 3,
-        semester:1
+        semester:1,
+        img: ""
     },
     {
         ID:"metallurgical",
@@ -5188,7 +5800,8 @@ export const CourseData=[
         name:"Materials Characterization Technique",
         code:"MSE 363",
         year: 3,
-        semester:1
+        semester:1,
+        img: ""
     },
     {
         ID:"metallurgical",
@@ -5196,7 +5809,8 @@ export const CourseData=[
         name:"Metallurgical Processing Laboratory",
         code:"METE 355",
         year: 3,
-        semester:1
+        semester:1,
+        img: ""
     },
     {
         ID:"metallurgical",
@@ -5204,7 +5818,8 @@ export const CourseData=[
         name:"Foundry Technology",
         code:"MSE 357",
         year: 3,
-        semester:1
+        semester:1,
+        img: ""
     },
     {
         ID:"metallurgical",
@@ -5212,7 +5827,8 @@ export const CourseData=[
         name:"Strength of Materials",
         code:"METE 353",
         year: 3,
-        semester:1
+        semester:1,
+        img: ""
     }, 
     {
         ID:"metallurgical",
@@ -5220,7 +5836,8 @@ export const CourseData=[
         name:"Introduction to Economics I",
         code:"ECON 151",
         year: 3,
-        semester:1
+        semester:1,
+        img: ""
     },
     {
         ID:"metallurgical",
@@ -5228,7 +5845,8 @@ export const CourseData=[
         name:"Principles of Hydrometallurgy",
         code:"METE 351",
         year: 3,
-        semester:1
+        semester:1,
+        img: ""
     },
     {
         ID:"metallurgical",
@@ -5236,7 +5854,8 @@ export const CourseData=[
         name:"Accounting I",
         code:"CSM 157",
         year: 3,
-        semester:1
+        semester:1,
+        img: ""
     },
     {
         ID:"metallurgical",
@@ -5244,7 +5863,8 @@ export const CourseData=[
         name:"French for Communication I",
         code:"FREN 181",
         year: 3,
-        semester:1
+        semester:1,
+        img: ""
     },
     {   
         ID:"metallurgical",
@@ -5252,7 +5872,8 @@ export const CourseData=[
         name:"Third Year Design Project",
         code:"METE 356",
         year: 3,
-        semester:2
+        semester:2,
+        img: ""
     },
     {
         ID:"metallurgical",
@@ -5260,7 +5881,8 @@ export const CourseData=[
         name:"Materials Joining Processes",
         code:"MSE 362",
         year: 3,
-        semester:2
+        semester:2,
+        img: ""
     },
     {
         ID:"metallurgical",
@@ -5268,7 +5890,8 @@ export const CourseData=[
         name:"Physical Metallurgy of Ferrous Metals",
         code:"METE 362",
         year: 3,
-        semester:2
+        semester:2,
+        img: ""
     },
     {
         ID:"metallurgical",
@@ -5276,7 +5899,8 @@ export const CourseData=[
         name:"Physical Metallurgy of Non-Ferrous Metals",
         code:"METE 354",
         year: 3,
-        semester:2
+        semester:2,
+        img: ""
     },
     {
         ID:"metallurgical",
@@ -5284,7 +5908,8 @@ export const CourseData=[
         name:"Metallurgical Characterization Laboratory",
         code:"METE 358",
         year: 3,
-        semester:2
+        semester:2,
+        img: ""
     },
     {
         ID:"metallurgical",
@@ -5292,7 +5917,8 @@ export const CourseData=[
         name:"Numerical Methods for Engineers",
         code:"MSE 358",
         year: 3,
-        semester:2
+        semester:2,
+        img: ""
     },
     {
         ID:"metallurgical",
@@ -5300,7 +5926,8 @@ export const CourseData=[
         name:"Hydrometallurgical Applications",
         code:"METE 352",
         year: 3,
-        semester:2
+        semester:2,
+        img: ""
     },
     {
         ID:"metallurgical",
@@ -5308,7 +5935,8 @@ export const CourseData=[
         name:"Composite Materials",
         code:"",
         year: 4,
-        semester:1
+        semester:1,
+        img: ""
     },
     {
         ID:"metallurgical",
@@ -5316,7 +5944,8 @@ export const CourseData=[
         name:"Vacation Training",
         code:"",
         year: 4,
-        semester:1
+        semester:1,
+        img: ""
     },
     {
         ID:"metallurgical",
@@ -5324,7 +5953,8 @@ export const CourseData=[
         name:"Metal Working Processes",
         code:"",
         year: 4,
-        semester:1
+        semester:1,
+        img: ""
     },
     {
         ID:"metallurgical",
@@ -5332,7 +5962,8 @@ export const CourseData=[
         name:"Project 1",
         code:"",
         year: 4,
-        semester:1
+        semester:1,
+        img: ""
     },
     {
         ID:"metallurgical",
@@ -5340,7 +5971,8 @@ export const CourseData=[
         name:"Corrosion of Engineering Materials",
         code:"",
         year: 4,
-        semester:1
+        semester:1,
+        img: ""
     },
     {
         ID:"metallurgical",
@@ -5348,7 +5980,8 @@ export const CourseData=[
         name:"Process Control and Simulation",
         code:"",
         year: 4,
-        semester:2
+        semester:2,
+        img: ""
     },
     {
         ID:"metallurgical",
@@ -5356,7 +5989,8 @@ export const CourseData=[
         name:"Management and Enterpreneurship",
         code:"",
         year: 4,
-        semester:2
+        semester:2,
+        img: ""
     },
     {
         ID:"metallurgical",
@@ -5364,7 +5998,8 @@ export const CourseData=[
         name:"Waste Management",
         code:"",
         year: 4,
-        semester:2
+        semester:2,
+        img: ""
     },
     {
         ID:"metallurgical",
@@ -5372,7 +6007,8 @@ export const CourseData=[
         name:"Surface Treatment of Materials",
         code:"",
         year: 4,
-        semester:2
+        semester:2,
+        img: ""
     },
     {
         ID:"metallurgical",
@@ -5380,7 +6016,8 @@ export const CourseData=[
         name:"Material Quality Control",
         code:"",
         year: 4,
-        semester:2
+        semester:2,
+        img: ""
     },
     {
         ID:"civil",
@@ -5388,7 +6025,8 @@ export const CourseData=[
         name:"Algebra",
         code:"MATH 151",
         year: 1,
-        semester:1
+        semester:1,
+        img: ""
     }, 
     {
         ID:"civil",
@@ -5396,7 +6034,8 @@ export const CourseData=[
         name:"Elementary Structures",
         code:"CE 151",
         year:1,
-        semester:1
+        semester:1,
+        img: ""
     }, 
     {
         ID:"civil",
@@ -5404,7 +6043,8 @@ export const CourseData=[
         name:"Communication Skills I",
         code:"ENGL 157",
         year: 1,
-        semester:1
+        semester:1,
+        img: ""
     }, 
     {
         ID:"civil",
@@ -5412,7 +6052,8 @@ export const CourseData=[
         name:"Basic Mechanics",
         code:"ME 161",
         year: 1,
-        semester:1
+        semester:1,
+        img: ""
     }, 
     {
         ID:"civil",
@@ -5420,7 +6061,8 @@ export const CourseData=[
         name:"Technical Drawing",
         code:"ME 159",
         year: 1,
-        semester:1
+        semester:1,
+        img: ""
     },  
     {
         ID:"civil",
@@ -5428,7 +6070,8 @@ export const CourseData=[
         name:"Engineering Technology",
         code:"CE 153",
         year: 1,
-        semester:1
+        semester:1,
+        img: ""
     },
     {
         ID:"civil",
@@ -5436,7 +6079,8 @@ export const CourseData=[
         name:"French for Communication Purposes I",
         code:"FREN 181",
         year: 1,
-        semester:1
+        semester:1,
+        img: ""
     },
     {
         ID:"civil",
@@ -5444,7 +6088,8 @@ export const CourseData=[
         name:"Introduction to Economics I",
         code:"ECON 151",
         year: 1,
-        semester:1
+        semester:1,
+        img: ""
     },
     {
         ID:"civil",
@@ -5452,7 +6097,8 @@ export const CourseData=[
         name:"Music I",
         code:"",
         year: 1,
-        semester:1
+        semester:1,
+        img: ""
     },
     {
         ID:"civil",
@@ -5460,7 +6106,8 @@ export const CourseData=[
         name:"Introduction to Ethics and Morality",
         code:"ETIC 161",
         year: 1,
-        semester:1
+        semester:1,
+        img: ""
     },
     {
         ID:"civil",
@@ -5468,7 +6115,8 @@ export const CourseData=[
         name:"Introduction to Information Technology",
         code:"CE 157",
         year: 1,
-        semester:1
+        semester:1,
+        img: ""
     },
     {
         ID:"civil",
@@ -5476,14 +6124,16 @@ export const CourseData=[
         name:"Properties of Civil Engineering Material",
         code:"CE 154",
         year: 1,
-        semester:2
+        semester:2,
+        img: ""
     },{
         ID:"civil",
         id:"communicationskillsII",
         name:"Communication Skills II",
         code:"ENGL 158",
         year: 1,
-        semester:2
+        semester:2,
+        img: ""
     },
     {
         ID:"civil",
@@ -5491,7 +6141,8 @@ export const CourseData=[
         name:"Elementary Fluids Mechanics",
         code:"CE 156",
         year: 1,
-        semester:2
+        semester:2,
+        img: ""
     },
     {
         ID:"civil",
@@ -5499,7 +6150,8 @@ export const CourseData=[
         name:"Calculus With Several Variables",
         code:"MATH 152",
         year: 1,
-        semester:2
+        semester:2,
+        img: ""
     },
     {
         ID:"civil",
@@ -5507,7 +6159,8 @@ export const CourseData=[
         name:"Introduction to Economics II",
         code:"ECON 151",
         year: 1,
-        semester:2
+        semester:2,
+        img: ""
     },
     {
         ID:"civil",
@@ -5515,7 +6168,8 @@ export const CourseData=[
         name:"French for Communication Purposes II",
         code:"FREN 182",
         year: 1,
-        semester:2
+        semester:2,
+        img: ""
     },
     {
         ID:"civil",
@@ -5523,7 +6177,8 @@ export const CourseData=[
         name:"Music II",
         code:"",
         year: 1,
-        semester:2
+        semester:2,
+        img: ""
     },
     {
         ID:"civil",
@@ -5531,7 +6186,8 @@ export const CourseData=[
         name:"Basic Electronics",
         code:"EE 152",
         year: 1,
-        semester:2
+        semester:2,
+        img: ""
     },
     {
         ID:"civil",
@@ -5539,7 +6195,8 @@ export const CourseData=[
         name:"Civil Engineering Drawing",
         code:"CE 164",
         year: 1,
-        semester:2
+        semester:2,
+        img: ""
     },
     {
         ID:"civil",
@@ -5547,7 +6204,8 @@ export const CourseData=[
         name:"Strength of Materials",
         code:"CE 251",
         year: 2,
-        semester:1
+        semester:1,
+        img: ""
     },
     {
         ID:"civil",
@@ -5555,7 +6213,8 @@ export const CourseData=[
         name:"Theory of Structures",
         code:"CE 255",
         year: 2,
-        semester:1
+        semester:1,
+        img: ""
     },
     {
         ID:"civil",
@@ -5563,7 +6222,8 @@ export const CourseData=[
         name:"Computer Programming",
         code:"CE 257",
         year: 2,
-        semester:1
+        semester:1,
+        img: ""
     },
     {
         ID:"civil",
@@ -5571,7 +6231,8 @@ export const CourseData=[
         name:"Engineering Geology",
         code:"CE 259",
         year: 2,
-        semester:1
+        semester:1,
+        img: ""
     },
     {
         ID:"civil",
@@ -5579,7 +6240,8 @@ export const CourseData=[
         name:"Principes of Design",
         code:"CE 261",
         year: 2,
-        semester:1
+        semester:1,
+        img: ""
     },
     {
         ID:"civil",
@@ -5587,7 +6249,8 @@ export const CourseData=[
         name:"Mathematics III",
         code:"MATH 251",
         year: 2,
-        semester:1
+        semester:1,
+        img: ""
     },
     {
         ID:"civil",
@@ -5595,7 +6258,8 @@ export const CourseData=[
         name:"Computer Aided Design",
         code:"CE 263",
         year: 2,
-        semester:1
+        semester:1,
+        img: ""
     },
     {
         ID:"civil",
@@ -5603,7 +6267,8 @@ export const CourseData=[
         name:"Engineering in Society",
         code: "CENG 291",
         year: 2,
-        semester:1
+        semester:1,
+        img: ""
     },
     {
         ID:"civil",
@@ -5611,7 +6276,8 @@ export const CourseData=[
         name:"Literature in English",
         code:"ENGL 263",
         year: 2,
-        semester:1
+        semester:1,
+        img: ""
     },
     {
         ID:"civil",
@@ -5619,7 +6285,8 @@ export const CourseData=[
         name:"Fluid Mechanics",
         code: "CE 256",
         year: 2,
-        semester:2
+        semester:2,
+        img: ""
     },
     {
         ID:"civil",
@@ -5627,7 +6294,8 @@ export const CourseData=[
         name:"Soil and Rock Mechanics",
         code: "CE 260",
         year: 2,
-        semester:2
+        semester:2,
+        img: ""
     },
     {
         ID:"civil",
@@ -5635,7 +6303,8 @@ export const CourseData=[
         name:"Introduction to Environment Engineering",
         code: "CE 264",
         year: 2,
-        semester:2
+        semester:2,
+        img: ""
     },
     {
         ID:"civil",
@@ -5643,7 +6312,8 @@ export const CourseData=[
         name:"Large Scale Surveying",
         code: "GE 282",
         year: 2,
-        semester:2
+        semester:2,
+        img: ""
     },
     {
         ID:"civil",
@@ -5651,7 +6321,8 @@ export const CourseData=[
         name:"Literature in English",
         code:"ENGL 264",
         year: 2,
-        semester:2
+        semester:2,
+        img: ""
     },
     {
         ID:"civil",
@@ -5659,7 +6330,8 @@ export const CourseData=[
         name:"Calculus with Analysis",
         code:"MATH 252",
         year: 2,
-        semester:2
+        semester:2,
+        img: ""
     },
     {
         ID:"civil",
@@ -5667,7 +6339,8 @@ export const CourseData=[
         name:"Probability and Statistics",
         code:"MATH 353",
         year: 3,
-        semester:1
+        semester:1,
+        img: ""
     },
     {
         ID:"civil",
@@ -5675,7 +6348,8 @@ export const CourseData=[
         name:"Structural Analysis",
         code:"CE 351",
         year: 3,
-        semester:1
+        semester:1,
+        img: ""
     },
     {
         ID:"civil",
@@ -5683,7 +6357,8 @@ export const CourseData=[
         name:"Reinforced Concrete Design",
         code:"CE 353",
         year: 3,
-        semester:1
+        semester:1,
+        img: ""
     },
     {
         ID:"civil",
@@ -5691,7 +6366,8 @@ export const CourseData=[
         name:"Hydrology",
         code:"CE 355",
         year: 3,
-        semester:1
+        semester:1,
+        img: ""
     },
     {
         ID:"civil",
@@ -5699,7 +6375,8 @@ export const CourseData=[
         name:"Soil Mechanics",
         code:"CE 359",
         year: 3,
-        semester:1
+        semester:1,
+        img: ""
     },
     {
         ID:"civil",
@@ -5707,7 +6384,8 @@ export const CourseData=[
         name:"Highway and Transportation Engineering I",
         code:"CE 367",
         year: 3,
-        semester:1
+        semester:1,
+        img: ""
     },
     {
         ID:"civil",
@@ -5715,7 +6393,8 @@ export const CourseData=[
         name:"Engineering Surveying",
         code:"GE 381",
         year: 3,
-        semester:1
+        semester:1,
+        img: ""
     }, 
     {
         ID:"civil",
@@ -5723,7 +6402,8 @@ export const CourseData=[
         name:"Numerical Analysis",
         code:"MATH 353",
         year: 3,
-        semester:1
+        semester:1,
+        img: ""
     },
     {   
         ID:"civil",
@@ -5731,7 +6411,8 @@ export const CourseData=[
         name:"Foundation Engineering",
         code:"CE 360",
         year: 3,
-        semester:2
+        semester:2,
+        img: ""
     },
     {
         ID:"civil",
@@ -5739,7 +6420,8 @@ export const CourseData=[
         name:"Hydraulic Engineering",
         code:"CE 356",
         year: 3,
-        semester:2
+        semester:2,
+        img: ""
     },
     {
         ID:"civil",
@@ -5747,7 +6429,8 @@ export const CourseData=[
         name:"Civil Engineering Quantities",
         code:"CE 376",
         year: 3,
-        semester:2
+        semester:2,
+        img: ""
     },
     {
         ID:"civil",
@@ -5755,7 +6438,8 @@ export const CourseData=[
         name:"Integrated Design",
         code:"CE 378",
         year: 3,
-        semester:2
+        semester:2,
+        img: ""
     },
     {
         ID:"civil",
@@ -5763,7 +6447,8 @@ export const CourseData=[
         name:"Highway Engineering",
         code:"CE 368",
         year: 3,
-        semester:2
+        semester:2,
+        img: ""
     },
     {
         ID:"metallurgical",
@@ -5771,7 +6456,8 @@ export const CourseData=[
         name:"Numerical Methods for Engineers",
         code:"MSE 358",
         year: 3,
-        semester:2
+        semester:2,
+        img: ""
     },
     {
         ID:"civil",
@@ -5779,7 +6465,8 @@ export const CourseData=[
         name:"Steel and Timber Design",
         code:"CE 352",
         year: 3,
-        semester:2
+        semester:2,
+        img: ""
     },
     {
         ID:"civil",
@@ -5787,7 +6474,8 @@ export const CourseData=[
         name:"Environmental Quality Engineering",
         code:"CE 364",
         year: 3,
-        semester:2
+        semester:2,
+        img: ""
     },
     {
         ID:"civil",
@@ -5795,7 +6483,8 @@ export const CourseData=[
         name:"Drainage Systems",
         code:"CE 457",
         year: 4,
-        semester:1
+        semester:1,
+        img: ""
     },
     {
         ID:"civil",
@@ -5803,7 +6492,8 @@ export const CourseData=[
         name:"Engineering Economy and Enterpreneurship",
         code:"CE 461",
         year: 4,
-        semester:1
+        semester:1,
+        img: ""
     },
     {
         ID:"civil",
@@ -5811,7 +6501,8 @@ export const CourseData=[
         name:"Highway Engineering",
         code:"CE 467",
         year: 4,
-        semester:1
+        semester:1,
+        img: ""
     },
     {
         ID:"civil",
@@ -5819,7 +6510,8 @@ export const CourseData=[
         name:"Irrigation an Drainage Engineering",
         code:"CE 471",
         year: 4,
-        semester:1
+        semester:1,
+        img: ""
     },
     {
         ID:"civil",
@@ -5827,7 +6519,8 @@ export const CourseData=[
         name:"Systems Engineering I",
         code:"CE 475",
         year: 4,
-        semester:1
+        semester:1,
+        img: ""
     },
     {
         ID:"civil",
@@ -5835,7 +6528,8 @@ export const CourseData=[
         name:"Industrial Training Report",
         code:"CE 481",
         year: 4,
-        semester:1
+        semester:1,
+        img: ""
     },
     {
         ID:"civil",
@@ -5843,7 +6537,8 @@ export const CourseData=[
         name:"Civil Engineering Design",
         code:"CE 497",
         year: 4,
-        semester:1
+        semester:1,
+        img: ""
     },
     {
         ID:"civil",
@@ -5851,7 +6546,8 @@ export const CourseData=[
         name:"Water Resources Engineering II",
         code:"CE 458",
         year: 4,
-        semester:2
+        semester:2,
+        img: ""
     },
     {
         ID:"civil",
@@ -5859,7 +6555,8 @@ export const CourseData=[
         name:"Transportation Engineering",
         code:"CE 468",
         year: 4,
-        semester:2
+        semester:2,
+        img: ""
     },
     {
         ID:"civil",
@@ -5867,7 +6564,8 @@ export const CourseData=[
         name:"Environmental Quality Engineering",
         code:"CE 464",
         year: 4,
-        semester:2
+        semester:2,
+        img: ""
     },
     {
         ID:"civil",
@@ -5875,7 +6573,8 @@ export const CourseData=[
         name:"Project",
         code:"CE 498",
         year: 4,
-        semester:2
+        semester:2,
+        img: ""
     },
     {
         ID:"civil",
@@ -5883,7 +6582,8 @@ export const CourseData=[
         name:"Construction Management",
         code:"CE 462",
         year: 4,
-        semester:2
+        semester:2,
+        img: ""
     },
     {
         ID:"mechanical",
@@ -5891,7 +6591,8 @@ export const CourseData=[
         name:"Algebra",
         code:"MATH 151",
         year: 1,
-        semester:1
+        semester:1,
+        img: ""
     }, 
     {
         ID:"mechanical",
@@ -5899,7 +6600,8 @@ export const CourseData=[
         name:"Applied Electricity",
         code:"EE 151",
         year:1,
-        semester:1
+        semester:1,
+        img: ""
     }, 
     {
         ID:"mechanical",
@@ -5907,7 +6609,8 @@ export const CourseData=[
         name:"Communication Skills",
         code:"ENGL 157",
         year: 1,
-        semester:1
+        semester:1,
+        img: ""
     }, 
    
      {
@@ -5915,7 +6618,8 @@ export const CourseData=[
          name:"Introduction to Information Technology",
          code:"ME 157",
          year: 1,
-         semester:1
+         semester:1,
+         img: ""
      },
     {
         ID:"mechanical",
@@ -5923,7 +6627,8 @@ export const CourseData=[
         name:"Technical Drawing",
         code:"ME 159",
         year: 1,
-        semester:1
+        semester:1,
+        img: ""
     },
     {
         ID:"mechanical",
@@ -5931,7 +6636,8 @@ export const CourseData=[
         name:"Environmental Studies",
         code:"CE 155",
         year: 1,
-        semester:1
+        semester:1,
+        img: ""
     },
     {
         ID:"mechanical",
@@ -5939,7 +6645,8 @@ export const CourseData=[
         name:"Engine Technology",
         code:"ME 195",
         year: 1,
-        semester:1
+        semester:1,
+        img: ""
     },
    {
         ID:"mechanical",
@@ -5947,14 +6654,16 @@ export const CourseData=[
         name:"Communication Skills II",
         code:"ENGL 158",
         year: 1,
-        semester:2
+        semester:2,
+        img: ""
     },
     {
         id:"programmingforengineers",
         name:"Computer Programming for Engineers",
         code:"ME 158",
         year: 1,
-        semester:2
+        semester:2,
+        img: ""
     },
 
     {
@@ -5963,7 +6672,8 @@ export const CourseData=[
         name:"Statics and Solid Mechanics",
         code:"ME 164",
         year: 1,
-        semester:2
+        semester:2,
+        img: ""
     }, 
     {
         ID:"mechanical",
@@ -5971,7 +6681,8 @@ export const CourseData=[
         name:"Basic Electronics",
         code:"EE 152",
         year: 1,
-        semester:2
+        semester:2,
+        img: ""
     },
     {
         ID:"mechanical",
@@ -5979,7 +6690,8 @@ export const CourseData=[
         name:"First Year Design Project",
         code:"ME 174",
         year: 1,
-        semester:2
+        semester:2,
+        img: ""
     },
     {
         ID:"mechanical",
@@ -5987,7 +6699,8 @@ export const CourseData=[
         name:"Engineering Drawing",
         code:"ME 160",
         year: 1,
-        semester:2
+        semester:2,
+        img: ""
     },
     {
         ID:"mechanical",
@@ -5995,7 +6708,8 @@ export const CourseData=[
         name:"Calculus With Analysis",
         code:"MATH 152",
         year: 1,
-        semester:2
+        semester:2,
+        img: ""
     },
    
     {
@@ -6004,7 +6718,8 @@ export const CourseData=[
         name:"Accounting I",
         code:"CSM 157",
         year: 2,
-        semester:1
+        semester:1,
+        img: ""
     },
    
     {
@@ -6013,7 +6728,8 @@ export const CourseData=[
         name:"French for Communication I",
         code:"FREN 181",
         year: 2,
-        semester:1
+        semester:1,
+        img: ""
     },
     {
         ID:"mechanical",
@@ -6021,7 +6737,8 @@ export const CourseData=[
         name:"Introductory Economics I",
         code:"ECON 151",
         year: 2,
-        semester:1
+        semester:1,
+        img: ""
     },
  
     {
@@ -6030,7 +6747,8 @@ export const CourseData=[
         name:"Literature in English I",
         code:"ENGL 263",
         year: 2,
-        semester:1
+        semester:1,
+        img: ""
     },
     {
         ID:"mechanical",
@@ -6038,7 +6756,8 @@ export const CourseData=[
         name:"Strength of Materials I",
         code:"ME 255",
         year: 2,
-        semester:1
+        semester:1,
+        img: ""
     },
     {
         ID:"mechanical",
@@ -6046,7 +6765,8 @@ export const CourseData=[
         name:"Introduction To Fluid Mechanics",
         code:"PE 255",
         year: 2,
-        semester:1
+        semester:1,
+        img: ""
     },
     {
         ID:"mechanical",
@@ -6054,7 +6774,8 @@ export const CourseData=[
         name:"Differential Equations",
         code:"MATH 251",
         year: 2,
-        semester:1
+        semester:1,
+        img: ""
     },
     {
         ID:"mechanical",
@@ -6062,7 +6783,8 @@ export const CourseData=[
         name:"Application of Computer Graphics",
         code:"ME 259",
         year: 2,
-        semester:1
+        semester:1,
+        img: ""
     },
     {
         ID:"mechanical",
@@ -6070,7 +6792,8 @@ export const CourseData=[
         name:"Mechanical Engineering Lab I",
         code:"ME 295",
         year: 2,
-        semester:1
+        semester:1,
+        img: ""
     },
     {
         ID:"mechanical",
@@ -6078,7 +6801,8 @@ export const CourseData=[
         name:"Dynamics of Solid Mechanics",
         code:"ME 261",
         year: 2,
-        semester:1
+        semester:1,
+        img: ""
     },
     {
         ID:"mechanical",
@@ -6086,7 +6810,8 @@ export const CourseData=[
         name:" Thermodynamics I",
         code:"ME 265",
         year: 2,
-        semester:2
+        semester:2,
+        img: ""
     },
     {
         ID:"mechanical",
@@ -6094,7 +6819,8 @@ export const CourseData=[
         name:"Mechanisms Synthesis and Analysis I",
         code:"ME 262",
         year: 2,
-        semester:2
+        semester:2,
+        img: ""
     },
     {
         ID:"mechanical",
@@ -6102,7 +6828,8 @@ export const CourseData=[
         name:"Fluid Dynamics I",
         code:"ME 252",
         year: 2,
-        semester:1
+        semester:1,
+        img: ""
     },
     {
         ID:"mechanical",
@@ -6110,7 +6837,8 @@ export const CourseData=[
         name:"Calculus with Several Variables",
         code:"MATH 252",
         year: 2,
-        semester:2
+        semester:2,
+        img: ""
     },
     {
         ID:"mechanical",
@@ -6118,7 +6846,8 @@ export const CourseData=[
         name:" Manufacturing Technology",
         code:"EE 252",
         year: 2,
-        semester:2
+        semester:2,
+        img: ""
     },
     {
         ID:"mechanical",
@@ -6126,35 +6855,40 @@ export const CourseData=[
         name:"Mechanical Engineering Lab II",
         code:"ME 296",
         year: 2,
-        semester:2
+        semester:2,
+        img: ""
     },
     {
         ID:"mechanical",
         id:"literatureinenglishII",
         name:"Literature in English II",
         year: 2,
-        semester:2
+        semester:2,
+        img: ""
     },
     {
         ID:"mechanical",
         id:"accountingII",
         name:"Accounting II",
         year: 2,
-        semester:2
+        semester:2,
+        img: ""
     },
     {
         ID:"mechanical",
         id:"frenchII",
         name:"French for Communication II",
         year: 2,
-        semester:2
+        semester:2,
+        img: ""
     },
     {
         ID:"mechanical",
         id:"economicsII",
         name:"Introductory Economics II",
         year: 2,
-        semester:2
+        semester:2,
+        img: ""
     },
     {
         ID:"mechanical",
@@ -6162,7 +6896,8 @@ export const CourseData=[
         name:"Mechanical Engineering Lab II",
         code:"ME 296",
         year: 2,
-        semester:2
+        semester:2,
+        img: ""
     },
     {
         ID:"mechanical",
@@ -6170,7 +6905,8 @@ export const CourseData=[
         name:"Probability and Statistics",
         code:"MATH 353",
         year: 3,
-        semester:1
+        semester:1,
+        img: ""
     },
     {
         ID:"mechanical",
@@ -6178,7 +6914,8 @@ export const CourseData=[
         name:"Dynamics of Machinery",
         code:"ME 361",
         year: 3,
-        semester:1
+        semester:1,
+        img: ""
     },
     {
         ID:"mechanical",
@@ -6186,7 +6923,8 @@ export const CourseData=[
         name:"Machine Element Design ",
         code:"AE 373",
         year: 3,
-        semester:1
+        semester:1,
+        img: ""
     },
     {
         ID:"mechanical",
@@ -6194,7 +6932,8 @@ export const CourseData=[
         name:"Automatic Control I",
         code:"ME 363",
         year: 3,
-        semester:1
+        semester:1,
+        img: ""
     },
     {
         ID:"mechanical",
@@ -6202,7 +6941,8 @@ export const CourseData=[
         name:"Numerical Methods",
         code:"MATH 351",
         year: 3,
-        semester:1
+        semester:1,
+        img: ""
     },
     {
         ID:"mechanical",
@@ -6210,7 +6950,8 @@ export const CourseData=[
         name:"Thermodynamics II",
         code:"ME 365",
         year: 3,
-        semester:1
+        semester:1,
+        img: ""
     },
     {
         ID:"mechanical",
@@ -6218,7 +6959,8 @@ export const CourseData=[
         name:"Mechanical Engineering Lab III",
         code:"ME 296",
         year: 3,
-        semester:1
+        semester:1,
+        img: ""
     },
     {
         ID:"mechanical",
@@ -6226,7 +6968,8 @@ export const CourseData=[
         name:"Keyboard Skills I",
         code:"MUS 153",
         year: 3,
-        semester:1
+        semester:1,
+        img: ""
     },
     {
         ID:"mechanical",
@@ -6234,7 +6977,8 @@ export const CourseData=[
         name:"Introduction to Sound Engineering ",
         code:"MUS 159",
         year: 3,
-        semester:1
+        semester:1,
+        img: ""
     },
     {
         ID:"mechanical",
@@ -6242,7 +6986,8 @@ export const CourseData=[
         name:"Traditional African Dance Forms",
         code:"PAA 151",
         year: 3,
-        semester:1
+        semester:1,
+        img: ""
     },
     {
         ID:"mechanical",
@@ -6250,7 +6995,8 @@ export const CourseData=[
         name:"Fluid Dynamics II",
         code:"ME 252",
         year: 3,
-        semester:2
+        semester:2,
+        img: ""
     },
     {
         ID:"mechanical",
@@ -6258,7 +7004,8 @@ export const CourseData=[
         name:"Strength of Materials II",
         code:"ME 255",
         year: 3,
-        semester:2
+        semester:2,
+        img: ""
     },
    
     {
@@ -6267,7 +7014,8 @@ export const CourseData=[
         name:"Heat Transfer",
         code:"ME 366",
         year: 3,
-        semester:2
+        semester:2,
+        img: ""
     },
     {
         ID:"mechanical",
@@ -6275,7 +7023,8 @@ export const CourseData=[
         name:"Machine Design",
         code:"ME 374",
         year: 3,
-        semester:2
+        semester:2,
+        img: ""
     },
     {
         ID:"mechanical",
@@ -6283,7 +7032,8 @@ export const CourseData=[
         name:"Mechanical Engineering Lab IV",
         code:"ME 396",
         year: 3,
-        semester:2
+        semester:2,
+        img: ""
     },
     {
         ID:"mechanical",
@@ -6291,7 +7041,8 @@ export const CourseData=[
         name:"Electrical Engineering Machines",
         code:"EE 252",
         year: 3,
-        semester:2
+        semester:2,
+        img: ""
     },
     {
         ID:"mechanical",
@@ -6299,7 +7050,8 @@ export const CourseData=[
         name:"Vibrations I",
         code:"ME 376",
         year: 3,
-        semester:2
+        semester:2,
+        img: ""
     },
     {
         ID:"mechanical",
@@ -6307,14 +7059,16 @@ export const CourseData=[
         name:"Industrial Engineering and Ergonomics",
         code:"ME 394",
         year: 3,
-        semester:2
+        semester:2,
+        img: ""
     },
     {
         ID:"mechanical",
         id:"hydraulicsandpneumatics",
         name:"Hydraulics and Pneumatics",
         year: 4,
-        semester:1
+        semester:1,
+        img: ""
     },
     {
         ID:"mechanical",
@@ -6322,7 +7076,8 @@ export const CourseData=[
         name:"Automatic Control II",
         code:"ME 463",
         year: 4,
-        semester:1
+        semester:1,
+        img: ""
     },
     {
         ID:"mechanical",
@@ -6330,7 +7085,8 @@ export const CourseData=[
         name:"Engineering Economy and Management",
         code:"ME 491",
         year: 4,
-        semester:1
+        semester:1,
+        img: ""
     },
     {
         ID:"mechanical",
@@ -6338,7 +7094,8 @@ export const CourseData=[
         name:"Final Year Project I",
         code:"ME 491",
         year: 4,
-        semester:1
+        semester:1,
+        img: ""
     },
     {
         ID:"mechanical",
@@ -6346,7 +7103,8 @@ export const CourseData=[
         name:"Vibrations II",
         code:"ME 461",
         year: 4,
-        semester:1
+        semester:1,
+        img: ""
     },
     {
         ID:"mechanical",
@@ -6354,7 +7112,8 @@ export const CourseData=[
         name:"Strength of Materials III",
         code:"ME 455",
         year: 4,
-        semester:1
+        semester:1,
+        img: ""
     },
     {
         ID:"mechanical",
@@ -6362,7 +7121,8 @@ export const CourseData=[
         name:"Crop Processing",
         code:"AE 457",
         year: 4,
-        semester:1
+        semester:1,
+        img: ""
     },
     {
         ID:"mechanical",
@@ -6370,7 +7130,8 @@ export const CourseData=[
         name:"Design of Vehicle Structures",
         code:"ME 485",
         year: 4,
-        semester:1
+        semester:1,
+        img: ""
     },
     {
         ID:"mechanical",
@@ -6378,7 +7139,8 @@ export const CourseData=[
         name:"Maintenance and Management of Transport ",
         code:"ME 489",
         year: 4,
-        semester:1
+        semester:1,
+        img: ""
     },
     {
         ID:"mechanical",
@@ -6386,7 +7148,8 @@ export const CourseData=[
         name:"Vehicle Power Train System",
         code:"ME 487",
         year: 4,
-        semester:1
+        semester:1,
+        img: ""
     },
     {
         ID:"mechanical",
@@ -6394,7 +7157,8 @@ export const CourseData=[
         name:"Machine Tools Design",
         code:"ME 471",
         year: 4,
-        semester:1
+        semester:1,
+        img: ""
     },
     {
         ID:"mechanical",
@@ -6402,7 +7166,8 @@ export const CourseData=[
         name:"Computer Aided Design and Manufacturing",
         code:"ME 473",
         year: 4,
-        semester:1
+        semester:1,
+        img: ""
     },
     {
         ID:"mechanical",
@@ -6410,7 +7175,8 @@ export const CourseData=[
         name:"Production Engineering I",
         code:"ME 477",
         year: 4,
-        semester:1
+        semester:1,
+        img: ""
     },
     {
         ID:"mechanical",
@@ -6418,7 +7184,8 @@ export const CourseData=[
         name:"Facilities Design",
         code:"ME 469",
         year: 4,
-        semester:1
+        semester:1,
+        img: ""
     },
     {
         ID:"mechanical",
@@ -6426,7 +7193,8 @@ export const CourseData=[
         name:"Operations Research",
         code:"ME 499",
         year: 4,
-        semester:1
+        semester:1,
+        img: ""
     },
     {
         ID:"mechanical",
@@ -6434,7 +7202,8 @@ export const CourseData=[
         name:"Behaviour of Real Fluids",
         code:"ME 451",
         year: 4,
-        semester:1
+        semester:1,
+        img: ""
     },
     {
         ID:"mechanical",
@@ -6442,7 +7211,8 @@ export const CourseData=[
         name:"Air Conditioning and Refrieration",
         code:"ME 465",
         year: 4,
-        semester:1
+        semester:1,
+        img: ""
     },
     {
         ID:"mechanical",
@@ -6450,7 +7220,8 @@ export const CourseData=[
         name:"Renewable Energy Conversion",
         code:"ME 467",
         year: 4,
-        semester:1
+        semester:1,
+        img: ""
     },
     {
         ID:"mechanical",
@@ -6458,7 +7229,8 @@ export const CourseData=[
         name:"Engineering Materials II",
         code:"ME 481",
         year: 4,
-        semester:1
+        semester:1,
+        img: ""
     },
     {
         ID:"mechanical",
@@ -6466,7 +7238,8 @@ export const CourseData=[
         name:"Composite Materials",
         code:"MSE 451",
         year: 4,
-        semester:1
+        semester:1,
+        img: ""
     },
     {
         ID:"mechanical",
@@ -6474,7 +7247,8 @@ export const CourseData=[
         name:"Mechatronics",
         code:"ME 483",
         year: 4,
-        semester:1
+        semester:1,
+        img: ""
     },
     {
         ID:"mechanical",
@@ -6482,7 +7256,8 @@ export const CourseData=[
         name:"Mechanisms Synthesis and Analysis II",
         code:"ME 262",
         year: 4,
-        semester:2
+        semester:2,
+        img: ""
     },
     {
         ID:"mechanical",
@@ -6490,7 +7265,8 @@ export const CourseData=[
         name:"Entrepreneurship Development and Management",
         code:"ME 492",
         year: 4,
-        semester:2
+        semester:2,
+        img: ""
     },
     {
         ID:"mechanical",
@@ -6498,7 +7274,8 @@ export const CourseData=[
         name:"Final Year Project II",
         code:"ME 498",
         year: 4,
-        semester:2
+        semester:2,
+        img: ""
     },
     {
         ID:"mechanical",
@@ -6506,7 +7283,8 @@ export const CourseData=[
         name:"Instrumentation",
         code:"ME 464",
         year: 4,
-        semester:2
+        semester:2,
+        img: ""
     },
     {
         ID:"mechanical",
@@ -6514,7 +7292,8 @@ export const CourseData=[
         name:"Maintenance Engineering",
         code:"ME 494",
         year: 4,
-        semester:2
+        semester:2,
+        img: ""
     },
     {
         ID:"mechanical",
@@ -6522,7 +7301,8 @@ export const CourseData=[
         name:"Finite Element Method",
         code:"ME 456",
         year: 4,
-        semester:2
+        semester:2,
+        img: ""
     },
     {
         ID:"mechanical",
@@ -6530,7 +7310,8 @@ export const CourseData=[
         name:"Vehicle Control,Suspension and Stability",
         code:"ME 486",
         year: 4,
-        semester:2
+        semester:2,
+        img: ""
     },
     {
         ID:"mechanical",
@@ -6538,7 +7319,8 @@ export const CourseData=[
         name:"Internal Combustion Engine",
         code:"ME 468",
         year: 4,
-        semester:2
+        semester:2,
+        img: ""
     },
     {
         ID:"mechanical",
@@ -6546,7 +7328,8 @@ export const CourseData=[
         name:"Discrete Event Simulation",
         code:"457",
         year: 4,
-        semester:1
+        semester:1,
+        img: ""
     },
     {
         ID:"mechanical",
@@ -6554,7 +7337,8 @@ export const CourseData=[
         name:"Machine Shop and Fatory Design",
         code:"ME 472",
         year: 4,
-        semester:2
+        semester:2,
+        img: ""
     },
     {
         ID:"mechanical",
@@ -6562,7 +7346,8 @@ export const CourseData=[
         name:"Production Engineering II",
         code:"ME 478",
         year: 4,
-        semester:2
+        semester:2,
+        img: ""
     },
     {
         ID:"mechanical",
@@ -6570,7 +7355,8 @@ export const CourseData=[
         name:"Engineering Materials Processing",
         code:"ME 481",
         year: 4,
-        semester:1
+        semester:1,
+        img: ""
     },
     {
         ID:"mechanical",
@@ -6578,7 +7364,8 @@ export const CourseData=[
         name:"Human Factors & Ergonomics",
         code:"ME 494",
         year: 4,
-        semester:2
+        semester:2,
+        img: ""
     },
     {
         ID:"mechanical",
@@ -6586,7 +7373,8 @@ export const CourseData=[
         name:"Production Planning and Control",
         code:"ME 474 ",
         year: 4,
-        semester:2
+        semester:2,
+        img: ""
     },
     {
         ID:"mechanical",
@@ -6594,7 +7382,8 @@ export const CourseData=[
         name:"Fluid Machinery",
         code:"ME 452",
         year: 4,
-        semester:2
+        semester:2,
+        img: ""
     },
     {
         ID:"mechanical",
@@ -6602,7 +7391,8 @@ export const CourseData=[
         name:"Automation and Production Systems",
         code:"ME 470",
         year: 4,
-        semester:2
+        semester:2,
+        img: ""
     },
     {
         ID:"mechanical",
@@ -6610,7 +7400,8 @@ export const CourseData=[
         name:"Automotive Electrical and Electronic Systems",
         code:"ME 488",
         year: 4,
-        semester:2
+        semester:2,
+        img: ""
     },
     {
         ID:"petroleum",
@@ -6618,7 +7409,8 @@ export const CourseData=[
         name:"Algebra",
         code:"151",
         year: 1,
-        semester:1
+        semester:1,
+        img: ""
     }, 
     {
         ID:"petroleum",
@@ -6626,7 +7418,8 @@ export const CourseData=[
         name:"Applied Electricity",
         code:"EE 151",
         year:1,
-        semester:1
+        semester:1,
+        img: ""
     }, 
     {
         ID:"petroleum",
@@ -6634,7 +7427,8 @@ export const CourseData=[
         name:"Communication Skills",
         code:"ENGL 157",
         year: 1,
-        semester:1
+        semester:1,
+        img: ""
     }, 
    
     {
@@ -6643,7 +7437,8 @@ export const CourseData=[
         name:"Technical Drawing",
         code:"ME 159",
         year: 1,
-        semester:1
+        semester:1,
+        img: ""
     },
     {
         ID:"petroleum",
@@ -6651,7 +7446,8 @@ export const CourseData=[
         name:"Practical Chemistry I",
         code:"CHEM 169",
         year: 1,
-        semester:1
+        semester:1,
+        img: ""
     },
     {
         ID:"petroleum",
@@ -6659,7 +7455,8 @@ export const CourseData=[
         name:"Inorganic Chemistry for Engineers",
         code:"PE 151",
         year: 1,
-        semester:1
+        semester:1,
+        img: ""
     },
     {
         ID:"petroleum",
@@ -6667,7 +7464,8 @@ export const CourseData=[
         name:"Organic Chemistry for Engineers",
         code:"",
         year: 1,
-        semester:1
+        semester:1,
+        img: ""
     },
     {
         ID:"petroleum",
@@ -6675,7 +7473,8 @@ export const CourseData=[
         name:"Introduction to IT",
         code:"COE 158",
         year: 1,
-        semester:1
+        semester:1,
+        img: ""
     },
     {
         ID:"petroleum",
@@ -6683,7 +7482,8 @@ export const CourseData=[
         name:"Basic Mechanics",
         code:"ME 161",
         year: 1,
-        semester:2
+        semester:2,
+        img: ""
     }, 
     {
         ID:"petroleum",
@@ -6691,7 +7491,8 @@ export const CourseData=[
         name:"Basic Electronics",
         code:"EE 152",
         year: 1,
-        semester:2
+        semester:2,
+        img: ""
     },
     {
         ID:"petroleum",
@@ -6699,7 +7500,8 @@ export const CourseData=[
         name:"Calculus",
         code:"MATH 152",
         year: 1,
-        semester:2
+        semester:2,
+        img: ""
     },
     {
         ID:"petroleum",
@@ -6707,7 +7509,8 @@ export const CourseData=[
         name:"Physical Chemistry for Engineers",
         code:"PE 156",
         year: 1,
-        semester:2
+        semester:2,
+        img: ""
     },
   
     {
@@ -6716,7 +7519,8 @@ export const CourseData=[
         name:"Introduction to Petroleum Engineering",
         code:"PE 154",
         year: 1,
-        semester:2
+        semester:2,
+        img: ""
     },
     {
         ID:"petroleum",
@@ -6724,7 +7528,8 @@ export const CourseData=[
         name:"Communication Skills II",
         code:"ENGL 158",
         year: 1,
-        semester:2
+        semester:2,
+        img: ""
     },
     {
         ID:"petroleum",
@@ -6732,7 +7537,8 @@ export const CourseData=[
         name:"General Physics",
         code:"PE 155",
         year: 1,
-        semester:2
+        semester:2,
+        img: ""
     },
     {
         ID:"petroleum",
@@ -6740,7 +7546,8 @@ export const CourseData=[
         name:"Strength of Materials I",
         code:"ME 255",
         year: 2,
-        semester:1
+        semester:1,
+        img: ""
     },
     {
         ID:"petroleum",
@@ -6748,7 +7555,8 @@ export const CourseData=[
         name:"Differential Equations",
         code:"MATH 251",
         year: 2,
-        semester:1
+        semester:1,
+        img: ""
     },
     {
         ID:"petroleum",
@@ -6756,7 +7564,8 @@ export const CourseData=[
         name:"Engineering in Society",
         code:"CENG 291",
         year: 2,
-        semester:1
+        semester:1,
+        img: ""
     },
     {
         ID:"petroleum",
@@ -6764,7 +7573,8 @@ export const CourseData=[
         name:"Intro to Geology",
         code:"PE 253",
         year: 2,
-        semester:1
+        semester:1,
+        img: ""
     },
     {
         ID:"petroleum",
@@ -6772,7 +7582,8 @@ export const CourseData=[
         name:"Reservoir Engineering I",
         code:"PE 251",
         year: 2,
-        semester:1
+        semester:1,
+        img: ""
     },
     {
         ID:"petroleum",
@@ -6780,7 +7591,8 @@ export const CourseData=[
         name:" Fluid Mechanics",
         code:"PE 255",
         year: 2,
-        semester:1
+        semester:1,
+        img: ""
     },
     {
         ID:"petroleum",
@@ -6788,7 +7600,8 @@ export const CourseData=[
         name:"Petroleum Engineering Thermodynamics I",
         code:"PE 257",
         year: 2,
-        semester:1
+        semester:1,
+        img: ""
     },
     {
         ID:"petroleum",
@@ -6796,7 +7609,8 @@ export const CourseData=[
         name:"Survival Swimming Techniques",
         code:"PE 259",
         year: 2,
-        semester:1
+        semester:1,
+        img: ""
     },
     {
         ID:"petroleum",
@@ -6804,7 +7618,8 @@ export const CourseData=[
         name:"Accounting I",
         code:"CSM 157",
         year: 2,
-        semester:1
+        semester:1,
+        img: ""
     },
     {
         ID:"petroleum",
@@ -6812,7 +7627,8 @@ export const CourseData=[
         name:"French I",
         code:"FREN 181",
         year: 2,
-        semester:1
+        semester:1,
+        img: ""
     },
     {
         ID:"petroleum",
@@ -6820,7 +7636,8 @@ export const CourseData=[
         name:"Economics I",
         code:"ECON 151",
         year: 2,
-        semester:1
+        semester:1,
+        img: ""
     },
     {
         ID:"petroleum",
@@ -6828,7 +7645,8 @@ export const CourseData=[
         name:"Calculus with Several Variables",
         code:"MATH 252",
         year: 2,
-        semester:2
+        semester:2,
+        img: ""
     },
     {
         ID:"mechanical",
@@ -6836,7 +7654,8 @@ export const CourseData=[
         name:"Heat Transfer Processes",
         code:"PE 252",
         year: 2,
-        semester:2
+        semester:2,
+        img: ""
     },
     {
         ID:"petroleum",
@@ -6844,7 +7663,8 @@ export const CourseData=[
         name:"Drawing for Engineers",
         code:"PE 254",
         year: 2,
-        semester:2
+        semester:2,
+        img: ""
     },
     {
         ID:"petroleum",
@@ -6852,7 +7672,8 @@ export const CourseData=[
         name:"Regional Geology",
         code:"PE 256",
         year: 2,
-        semester:2
+        semester:2,
+        img: ""
     },
     {
         ID:"petroleum",
@@ -6860,7 +7681,8 @@ export const CourseData=[
         name:"Petroleum Engineering Thermodynamics II",
         code:"PE 258",
         year: 2,
-        semester:2
+        semester:2,
+        img: ""
     },
     {
         ID:"petroleum",
@@ -6868,7 +7690,8 @@ export const CourseData=[
         name:"Reservoir Fluid Properties",
         code:"PE 260",
         year: 2,
-        semester:2
+        semester:2,
+        img: ""
     },
     {
         ID:"petroleum",
@@ -6876,7 +7699,8 @@ export const CourseData=[
         name:"Computer Programming in Oil and Gas",
         code:"PE 262",
         year: 2,
-        semester:2
+        semester:2,
+        img: ""
     },
     {
         ID:"petroleum",
@@ -6884,7 +7708,8 @@ export const CourseData=[
         name:"Principles of Land Surveying and Hydrogrphic Science",
         code:"PE264",
         year: 2,
-        semester:2
+        semester:2,
+        img: ""
     },
   
     {
@@ -6893,7 +7718,8 @@ export const CourseData=[
         name:"Accounting II",
         code:"CSM 158",
         year: 2,
-        semester:2
+        semester:2,
+        img: ""
     },
     {
         ID:"petroleum",
@@ -6901,7 +7727,8 @@ export const CourseData=[
         name:"French for Communication II",
         code:"FREN 182",
         year: 2,
-        semester:2
+        semester:2,
+        img: ""
     },
     {
         ID:"petroleum",
@@ -6909,7 +7736,8 @@ export const CourseData=[
         name:"Introductory Economics II",
         code:"ECON 152",
         year: 2,
-        semester:2
+        semester:2,
+        img: ""
     },
     {
         ID:"petroleum",
@@ -6917,7 +7745,8 @@ export const CourseData=[
         name:"Petroleum Engineering Lab I",
         code:"PE 355",
         year: 3,
-        semester:1
+        semester:1,
+        img: ""
     },  
     {
         ID:"petroleum",
@@ -6925,7 +7754,8 @@ export const CourseData=[
         name:"Petroleum Production Engineering  I",
         code:"PE 357",
         year: 3,
-        semester:1
+        semester:1,
+        img: ""
     },  
     {
         ID:"petroleum",
@@ -6933,7 +7763,8 @@ export const CourseData=[
         name:"Drilling Engineering I",
         code:"PE 353",
         year: 3,
-        semester:1
+        semester:1,
+        img: ""
     }, 
     {
         ID:"petroleum",
@@ -6941,7 +7772,8 @@ export const CourseData=[
         name:"Petroleum Rock Mechanics",
         code:"PE 351",
         year: 3,
-        semester:1
+        semester:1,
+        img: ""
     }, 
     {
         ID:"petroleum",
@@ -6949,7 +7781,8 @@ export const CourseData=[
         name:"Reservoir Engineering II",
         code:"PE 361",
         year: 3,
-        semester:1
+        semester:1,
+        img: ""
     },
     {
         ID:"petroleum",
@@ -6957,7 +7790,8 @@ export const CourseData=[
         name:"Reservoir Petrolphysics",
         code:"PE 359",
         year: 3,
-        semester:1
+        semester:1,
+        img: ""
     }, 
     {
         ID:"petroleum",
@@ -6965,7 +7799,8 @@ export const CourseData=[
         name:"Formation Evaluation",
         code:"PE 363",
         year: 3,
-        semester:1
+        semester:1,
+        img: ""
     }, 
     {
         ID:"petroleum",
@@ -6973,7 +7808,8 @@ export const CourseData=[
         name:"Statistics for Petroleum Engineers",
         code:"PE 367",
         year: 3,
-        semester:1
+        semester:1,
+        img: ""
     }, 
     {
         ID:"petroleum",
@@ -6981,7 +7817,8 @@ export const CourseData=[
         name:"Numerical Methods for Petroleum Engineers",
         code:"MATH 350",
         year: 3,
-        semester:2
+        semester:2,
+        img: ""
     },
     {
         ID:"petroleum",
@@ -6989,7 +7826,8 @@ export const CourseData=[
         name:"Petroleum GEology",
         code:"PE 352",
         year: 3,
-        semester:2
+        semester:2,
+        img: ""
     }, 
     {
         ID:"petroleum",
@@ -6997,7 +7835,8 @@ export const CourseData=[
         name:"Petroleum Production Engineering  II",
         code:"PE 357",
         year: 3,
-        semester:2
+        semester:2,
+        img: ""
     },  
     {
         ID:"petroleum",
@@ -7005,7 +7844,8 @@ export const CourseData=[
         name:"Drilling Engineering II",
         code:"PE 354",
         year: 3,
-        semester:2
+        semester:2,
+        img: ""
     }, 
     {
         ID:"petroleum",
@@ -7013,7 +7853,8 @@ export const CourseData=[
         name:"Well Testing",
         code:"PE 360",
         year: 3,
-        semester:2
+        semester:2,
+        img: ""
     },  
     {
         ID:"petroleum",
@@ -7021,7 +7862,8 @@ export const CourseData=[
         name:"Geostatistics",
         code:"PE 362",
         year: 3,
-        semester:2
+        semester:2,
+        img: ""
     },  
     {
         ID:"petroleum",
@@ -7029,7 +7871,8 @@ export const CourseData=[
         name:"Oil and Gas Geophysics",
         code:"PE 364",
         year: 3,
-        semester:2
+        semester:2,
+        img: ""
     },  
     {
         ID:"petroleum",
@@ -7037,7 +7880,8 @@ export const CourseData=[
         name:"Health Safety & Environment",
         code:"PE 366",
         year: 3,
-        semester:2
+        semester:2,
+        img: ""
     },  
     {
         ID:"petroleum",
@@ -7045,7 +7889,8 @@ export const CourseData=[
         name:"petroleum Engineering Lab II",
         code:"PE 356",
         year: 3,
-        semester:2
+        semester:2,
+        img: ""
     },  
     {
         ID:"petroleum",
@@ -7053,7 +7898,8 @@ export const CourseData=[
         name:"Engineering Economics and Managment",
         code:"ME 491",
         year: 4,
-        semester:1
+        semester:1,
+        img: ""
     },       
     {
         ID:"petroleum",
@@ -7061,7 +7907,8 @@ export const CourseData=[
         name:"Design Project I",
         code:"PE 453",
         year: 4,
-        semester:1
+        semester:1,
+        img: ""
     },
     {
         ID:"petroleum",
@@ -7069,7 +7916,8 @@ export const CourseData=[
         name:"Petroleum Economics",
         code:"PE 451",
         year: 4,
-        semester:1
+        semester:1,
+        img: ""
     },
     {
         ID:"petroleum",
@@ -7077,7 +7925,8 @@ export const CourseData=[
         name:"Reservoir Simulation",
         code:"PE 455",
         year: 4,
-        semester:1
+        semester:1,
+        img: ""
     },
     {
         ID:"petroleum",
@@ -7085,7 +7934,8 @@ export const CourseData=[
         name:"Integrated Field Design",
         code:"PE 451",
         year: 4,
-        semester:1
+        semester:1,
+        img: ""
     },
     {
         ID:"petroleum",
@@ -7093,7 +7943,8 @@ export const CourseData=[
         name:"Natural Gas Engineering",
         code:"PE 459",
         year: 4,
-        semester:1
+        semester:1,
+        img: ""
     },
     {
         ID:"petroleum",
@@ -7101,7 +7952,8 @@ export const CourseData=[
         name:"Field Trip & Industrial Attachment",
         code:"PE 471",
         year: 4,
-        semester:1
+        semester:1,
+        img: ""
     },
     {
         ID:"petroleum",
@@ -7109,7 +7961,8 @@ export const CourseData=[
         name:"Reservoir Recovery Techniques",
         code:"PE 450",
         year: 4,
-        semester:2
+        semester:2,
+        img: ""
     },
     {
         ID:"petroleum",
@@ -7117,7 +7970,8 @@ export const CourseData=[
         name:"Petroleum Project Evaluation",
         code:"PE 452",
         year: 4,
-        semester:2
+        semester:2,
+        img: ""
     },
     {
         ID:"petroleum",
@@ -7125,7 +7979,8 @@ export const CourseData=[
         name:"Design Project II",
         code:"PE 454",
         year: 4,
-        semester:2
+        semester:2,
+        img: ""
     },
     {
         ID:"petroleum",
@@ -7133,7 +7988,8 @@ export const CourseData=[
         name:"Well COmpletion & Simulation",
         code:"PE 456",
         year: 4,
-        semester:2
+        semester:2,
+        img: ""
     },
     {
         ID:"petroleum",
@@ -7141,7 +7997,8 @@ export const CourseData=[
         name:"Oilfield Geochemistry",
         code:"PE 458",
         year: 4,
-        semester:2
+        semester:2,
+        img: ""
     },
     {
         ID:"petroleum",
@@ -7149,7 +8006,8 @@ export const CourseData=[
         name:"Entrepreneurship and Leadership",
         code:"PE 460",
         year: 4,
-        semester:2
+        semester:2,
+        img: ""
     },
     {
         ID:"geological",
@@ -7157,7 +8015,8 @@ export const CourseData=[
         name:"Elementary Structures",
         code:"CE 151",
         year: 1,
-        semester:1
+        semester:1,
+        img: ""
     }, 
     {
         ID:"geological",
@@ -7165,7 +8024,8 @@ export const CourseData=[
         name:"Introduction to Economics I",
         code:"ECON 151",
         year: 1,
-        semester:1
+        semester:1,
+        img: ""
     }, 
     {
         ID:"geological",
@@ -7173,7 +8033,8 @@ export const CourseData=[
         name:"Basic Geology",
         code:"GED 151",
         year: 1,
-        semester:1
+        semester:1,
+        img: ""
     }, 
     {
         ID:"geological",
@@ -7181,7 +8042,8 @@ export const CourseData=[
         name:"Communication Skills I",
         code:"ENGL 157",
         year: 1,
-        semester:1
+        semester:1,
+        img: ""
     }, 
     {
         ID:"geological",
@@ -7189,7 +8051,8 @@ export const CourseData=[
         name:"Engineering Technology",
         code:"GED 153",
         year: 1,
-        semester:1
+        semester:1,
+        img: ""
     }, 
     {
         ID:"geological",
@@ -7197,7 +8060,8 @@ export const CourseData=[
         name:"Algebra",
         code:"MATH 151",
         year: 1,
-        semester:1
+        semester:1,
+        img: ""
     }, 
     {
         ID:"geological",
@@ -7205,7 +8069,8 @@ export const CourseData=[
         name:"Technical Drawing",
         code:"ME 151",
         year: 1,
-        semester:1
+        semester:1,
+        img: ""
     }, 
     {
         ID:"geological",
@@ -7213,7 +8078,8 @@ export const CourseData=[
         name:"Basic Mechanics",
         code:"ME 161",
         year: 1,
-        semester:1
+        semester:1,
+        img: ""
     }, 
     {
         ID:"geological",
@@ -7221,7 +8087,8 @@ export const CourseData=[
         name:"Elementary Fluids Mechanics",
         code:"CE 156",
         year: 1,
-        semester:2
+        semester:2,
+        img: ""
     },
     {
         ID:"geological",
@@ -7229,7 +8096,8 @@ export const CourseData=[
         name:"Civil Engineering Drawing",
         code:"CE 164",
         year: 1,
-        semester:2
+        semester:2,
+        img: ""
     },
     {
         ID:"geological",
@@ -7237,7 +8105,8 @@ export const CourseData=[
         name:"Inductory Economics II",
         code:"ECON 152",
         year: 1,
-        semester:2
+        semester:2,
+        img: ""
     },
     {
         ID:"geological",
@@ -7245,7 +8114,8 @@ export const CourseData=[
         name:"Basic Electronics",
         code:"EE 152",
         year: 1,
-        semester:2
+        semester:2,
+        img: ""
     },
     {
         ID:"geological",
@@ -7253,7 +8123,8 @@ export const CourseData=[
         name:"Communication Skills II",
         code:"ENGL 158",
         year: 1,
-        semester:2
+        semester:2,
+        img: ""
     },
     {
         ID:"geological",
@@ -7261,7 +8132,8 @@ export const CourseData=[
         name:"Basic Mineral Science",
         code:"GED 152",
         year: 1,
-        semester:2
+        semester:2,
+        img: ""
     },
     {
         ID:"geological",
@@ -7269,7 +8141,8 @@ export const CourseData=[
         name:"Computer Applications",
         code:"GED 164",
         year: 1,
-        semester:2
+        semester:2,
+        img: ""
     },
     {
         ID:"geological",
@@ -7277,7 +8150,8 @@ export const CourseData=[
         name:"Calculus with Several Variables",
         code:"MATH 152",
         year: 1,
-        semester:2
+        semester:2,
+        img: ""
     },  
     {
         ID:"geological",
@@ -7285,7 +8159,8 @@ export const CourseData=[
         name:"Theory of Structures",
         code:"CE 255",
         year: 2,
-        semester:1
+        semester:1,
+        img: ""
     }, 
     {
         ID:"geological",
@@ -7293,7 +8168,8 @@ export const CourseData=[
         name:"Strenght of Materials",
         code:"CE 251",
         year: 2,
-        semester:1
+        semester:1,
+        img: ""
     }, 
     {
         ID:"geological",
@@ -7301,7 +8177,8 @@ export const CourseData=[
         name:"Physical Geology",
         code:"GED 253",
         year: 2,
-        semester:1
+        semester:1,
+        img: ""
     }, 
     {
         ID:"geological",
@@ -7309,7 +8186,8 @@ export const CourseData=[
         name:"Mineralogy",
         code:"GED 251",
         year: 2,
-        semester:1
+        semester:1,
+        img: ""
     }, 
     {
         ID:"geological",
@@ -7317,7 +8195,8 @@ export const CourseData=[
         name:"Computer Programming",
         code:"GED 267",
         year: 2,
-        semester:1
+        semester:1,
+        img: ""
     }, 
     {
         ID:"geological",
@@ -7325,7 +8204,8 @@ export const CourseData=[
         name:"Differential Equations",
         code:"MATH 251",
         year: 2,
-        semester:1
+        semester:1,
+        img: ""
     }, 
     {
         ID:"geological",
@@ -7333,7 +8213,8 @@ export const CourseData=[
         name:"Engineering in Society",
         code:"CENG 291",
         year: 2,
-        semester:1
+        semester:1,
+        img: ""
     }, 
     {
         ID:"geological",
@@ -7341,7 +8222,8 @@ export const CourseData=[
         name:"Fluid Mechanics",
         code:"CE 256",
         year: 2,
-        semester:2
+        semester:2,
+        img: ""
     }, 
     {
         ID:"geological",
@@ -7349,14 +8231,16 @@ export const CourseData=[
         name:"Large Scale Surveying",
         code:"GE 282",
         year: 2,
-        semester:2
+        semester:2,
+        img: ""
     },  {
         ID:"geological",
         id:"stratigraphy",
         name:"Stratigraphy",
         code:"GEED 252",
         year: 2,
-        semester:2
+        semester:2,
+        img: ""
     }, 
     {
         ID:"geological",
@@ -7364,7 +8248,8 @@ export const CourseData=[
         name:"Rock Engineering",
         code:"GED 254",
         year: 2,
-        semester:2
+        semester:2,
+        img: ""
     }, 
     {
         ID:"geological",
@@ -7372,7 +8257,8 @@ export const CourseData=[
         name:"Optical Mineralogy",
         code:"GED 258",
         year: 2,
-        semester:2
+        semester:2,
+        img: ""
     }, 
     {
         ID:"geological",
@@ -7380,7 +8266,8 @@ export const CourseData=[
         name:"Introduction to Soil Mechanics",
         code:"GED 258",
         year: 2,
-        semester:2
+        semester:2,
+        img: ""
     }, 
     {
         ID:"geological",
@@ -7388,7 +8275,8 @@ export const CourseData=[
         name:"Analysis",
         code:"MATH 252",
         year: 2,
-        semester:2
+        semester:2,
+        img: ""
     }, 
     {
         ID:"geological",
@@ -7396,7 +8284,8 @@ export const CourseData=[
         name:"Soil Mechanics",
         code:"CE 359",
         year: 3,
-        semester:1
+        semester:1,
+        img: ""
     }, 
     {
         ID:"geological",
@@ -7404,7 +8293,8 @@ export const CourseData=[
         name:"Petrology",
         code:"GED 351",
         year: 3,
-        semester:1
+        semester:1,
+        img: ""
     }, 
     {
         ID:"geological",
@@ -7412,7 +8302,8 @@ export const CourseData=[
         name:"Basic Hydrology",
         code:"GED 357",
         year: 3,
-        semester:1
+        semester:1,
+        img: ""
     }, 
     {
         ID:"geological",
@@ -7420,7 +8311,8 @@ export const CourseData=[
         name:"Geological Field Mapping",
         code:"GED 365",
         year: 3,
-        semester:1
+        semester:1,
+        img: ""
     }, 
     {
         ID:"geological",
@@ -7428,7 +8320,8 @@ export const CourseData=[
         name:"Photogeology and Remote Sensing",
         code:"GED 369",
         year: 3,
-        semester:1
+        semester:1,
+        img: ""
     }, 
     {
         ID:"geological",
@@ -7436,7 +8329,8 @@ export const CourseData=[
         name:"Principles of Engineering Geology",
         code:"GED 375",
         year: 3,
-        semester:1
+        semester:1,
+        img: ""
     }, 
     {
         ID:"geological",
@@ -7444,7 +8338,8 @@ export const CourseData=[
         name:"Numerical Analysis",
         code:"MATH 351",
         year: 3,
-        semester:1
+        semester:1,
+        img: ""
     }, 
     {
         ID:"geological",
@@ -7452,7 +8347,8 @@ export const CourseData=[
         name:"Probability and Statistics",
         code:"MATH 353",
         year: 3,
-        semester:1
+        semester:1,
+        img: ""
     }, 
     {
         ID:"geological",
@@ -7460,7 +8356,8 @@ export const CourseData=[
         name:"Foundation Engineering",
         code:"CE 360",
         year: 3,
-        semester:2
+        semester:2,
+        img: ""
     }, 
     {
         ID:"geological",
@@ -7468,7 +8365,8 @@ export const CourseData=[
         name:"Mining Principles",
         code:"GED 342",
         year: 3,
-        semester:2
+        semester:2,
+        img: ""
     }, 
     {
         ID:"geological",
@@ -7476,7 +8374,8 @@ export const CourseData=[
         name:"Principles of Geochemistry",
         code:"GED 352",
         year: 3,
-        semester:2
+        semester:2,
+        img: ""
     }, 
     {
         ID:"geological",
@@ -7484,7 +8383,8 @@ export const CourseData=[
         name:"Principles of Geophysics",
         code:"GED 354",
         year: 3,
-        semester:2
+        semester:2,
+        img: ""
     }, 
     {
         ID:"geological",
@@ -7492,7 +8392,8 @@ export const CourseData=[
         name:"Structural Geology",
         code:"GED 364",
         year: 3,
-        semester:2
+        semester:2,
+        img: ""
     }, 
     {
         ID:"geological",
@@ -7500,7 +8401,8 @@ export const CourseData=[
         name:"Mineral Economics and Evaluation",
         code:"GED 366",
         year: 3,
-        semester:2
+        semester:2,
+        img: ""
     }, 
     {
         ID:"geological",
@@ -7508,7 +8410,8 @@ export const CourseData=[
         name:"GIS Applications",
         code:"GED 368",
         year: 3,
-        semester:2
+        semester:2,
+        img: ""
     },
     {
         ID:"geological",
@@ -7516,7 +8419,8 @@ export const CourseData=[
         name:"GeoTechnical Engineering",
         code:"CE 477",
         year: 4,
-        semester:1
+        semester:1,
+        img: ""
     },
     {
         ID:"geological",
@@ -7524,7 +8428,8 @@ export const CourseData=[
         name:"Industrial Training",
         code:"GED 471",
         year: 4,
-        semester:1
+        semester:1,
+        img: ""
     },
     {
         ID:"geological",
@@ -7532,7 +8437,8 @@ export const CourseData=[
         name:"Regional Geology",
         code:"GED 451",
         year: 4,
-        semester:1
+        semester:1,
+        img: ""
     },
     {
         ID:"geological",
@@ -7540,7 +8446,8 @@ export const CourseData=[
         name:"Project I",
         code:"GED 457",
         year: 4,
-        semester:1
+        semester:1,
+        img: ""
     },
     {
         ID:"geological",
@@ -7548,7 +8455,8 @@ export const CourseData=[
         name:"Engineering Geology Investigation",
         code:"GED 465",
         year: 4,
-        semester:1
+        semester:1,
+        img: ""
     },
     {
         ID:"geological",
@@ -7556,7 +8464,8 @@ export const CourseData=[
         name:"Principle of Hyrdrogeology",
         code:"GED 475",
         year: 4,
-        semester:1
+        semester:1,
+        img: ""
     },
     {
         ID:"geological",
@@ -7564,7 +8473,8 @@ export const CourseData=[
         name:"Exploration GeoPhysics",
         code:"GED 461",
         year: 4,
-        semester:1
+        semester:1,
+        img: ""
     },
     {
         ID:"geological",
@@ -7572,7 +8482,8 @@ export const CourseData=[
         name:"Exploration GeoChemistry",
         code:"GED 459",
         year: 4,
-        semester:1
+        semester:1,
+        img: ""
     },
       
 

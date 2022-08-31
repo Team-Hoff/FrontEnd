@@ -1,54 +1,68 @@
-*{
-    padding: 0;
-    margin:0;
-}
-.top-segment{
-    height: 45px;
-    width: px;
-    background-color: #008000;
-    align-items: right;
-    display: flex;
-    justify-content: flex-end;
-    gap: 2em;
-    
-}
-.top-segment a{
-    text-decoration: none;
-}
-.mini-container{
-    display: flex;
-    justify-content: space-between;
-}
+@import url('https://fonts.googleapis.com/css2?family=Rubik+Moonrocks&display=swap');
 
- 
-.left-card {
+.container{
+    display: flex;
+    gap: 1em;
+    
     min-height: 100vh;
 }
-.left-card{
-    background-color: greenyellow;
+.Left-display{
+    
     width: 30%;
+    height: 60vh;
+    margin-top: 20px;
+    margin-left: 20px;
+    background-image: url("../../Assets/ProfileIcon.jpg");
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
     
 }
- .right-card{ 
-     width: 68%;
-     margin-top: 5px;
-     
-     
+
+.Right-display{
+    color: white;
+    margin-top: 20px;
+    width: 60%;
+    height: 90vh;    
+    background-color: #E6B510;
+    padding: 20px;
+    font-family:  cursive;
+}
+.Right-display h2{
+    text-shadow: 2px 2px 8px rgba(0, 0, 0, 0.5);
+    font-size: 50px;
+}
+
+.Right-display h2:hover{
+    color: #F06F11;
+}
+
+.details div{
+    /* border-bottom: 1px solid white; */
+    margin-bottom: 40px;
+  
+     /* justify-content: space-around; */
     
- } 
- .display{
-     margin-top: 60px;
-     border-bottom: 1px solid ;
-     display: flex;
-     justify-content: space-between;
-     
- }
-
-
-.Name{
-    text-align: center;
 }
-.Name h5{
-    font-size: xx-large;
-    font-style: oblique;
+
+.det-1 div:hover{
+    color: #F06F11;
 }
+.det-1 div{
+ font-size: 20px;
+ 
+}
+.det-2 div{
+    margin-top: 5px;
+}
+
+.details-container{
+    display: flex;
+    gap: 50px;
+}
+
+ .info{
+
+   margin-left: 50px; 
+} 
+

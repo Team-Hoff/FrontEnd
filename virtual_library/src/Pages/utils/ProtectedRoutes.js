@@ -7,6 +7,7 @@ import Program from '../Program';
 import Course from '../Course';
 import Logout from "./Logout";
 import Profile from "../profilepage/profilepage";
+import PageNotFound from "../PageNotFound/PageNotFound";
 
 
 import { Navigate } from 'react-router-dom';
@@ -52,8 +53,10 @@ const ProtectedRoutes = () => {
         },
         {
             path: "*",
-            element: user?<Home />: <Navigate replace to="/" />
+            element: user?<PageNotFound />: <Navigate replace to="/" />
         }
+        
+        
 
     ])
 

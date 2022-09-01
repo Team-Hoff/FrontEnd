@@ -4,10 +4,11 @@ import '../Components/program.css';
 import Folder from '../Components/Profiledropdown/folder.png';
 import { CourseData } from '../Components/Data/coursesData';
 import { ProgramData } from '../Components/Data/programData';
-import { Link, useParams } from 'react-router-dom';
+import { Link, useParams, Navigate, parsePath } from 'react-router-dom';
 import Footer from '../Components/Footer/Footer';
 import Navbar from '../Components/Navbar/Navbar';
 import { useEffect } from 'react';
+import PageNotFound from './PageNotFound/PageNotFound';
 
 
 const Program = () => {
@@ -34,6 +35,14 @@ const Program = () => {
       setacor('')
     }
   }, [id])
+
+  // const goodId = parseInt(id);
+
+  // if (id === '*' ){
+  //   return (
+  //     <Navigate replace to={<PageNotFound/>}/>
+  //   )
+  // }
 
   return (
     <div>

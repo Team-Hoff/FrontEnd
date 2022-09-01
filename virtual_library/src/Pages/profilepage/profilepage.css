@@ -1,9 +1,8 @@
 @import url('https://fonts.googleapis.com/css2?family=Rubik+Moonrocks&display=swap');
 
-.container{
+.contain{
     display: flex;
     gap: 1em;
-    
     min-height: 100vh;
 }
 .Left-display{

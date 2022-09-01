@@ -4,11 +4,10 @@ import '../Components/program.css';
 import Folder from '../Components/Profiledropdown/folder.png';
 import { CourseData } from '../Components/Data/coursesData';
 import { ProgramData } from '../Components/Data/programData';
-import { Link, useParams, Navigate, parsePath } from 'react-router-dom';
+import { Link, useParams, Navigate} from 'react-router-dom';
 import Footer from '../Components/Footer/Footer';
 import Navbar from '../Components/Navbar/Navbar';
 import { useEffect } from 'react';
-import PageNotFound from './PageNotFound/PageNotFound';
 
 
 const Program = () => {
@@ -16,35 +15,29 @@ const Program = () => {
   const [apro, setapro] = useState([]);
   const [acor, setacor] = useState([]);
 
-
   const { id } = useParams()
+  const prog = ProgramData.filter((pro) => pro.id === id)
+
   useEffect(() => {
-    const prog = ProgramData.filter((pro) => pro.id === id)
     setapro(prog)
+
     return () => {
       setapro('')
     }
+  // eslint-disable-next-line react-hooks/exhaustive-deps
   }, [id])
 
   useEffect(() => {
     const cour = CourseData.filter((cor) => cor.ID === id)
     setacor(cour);
 
-
     return () => {
       setacor('')
     }
   }, [id])
 
-  // const goodId = parseInt(id);
-
-  // if (id === '*' ){
-  //   return (
-  //     <Navigate replace to={<PageNotFound/>}/>
-  //   )
-  // }
-
-  return (
+  // eslint-disable-next-line eqeqeq
+  return (prog != "") ? (
     <div>
       <Navbar />
 
@@ -144,6 +137,9 @@ const Program = () => {
       </div>
       <Footer />
     </div>
+  )
+  :(
+    <Navigate replace to="/404"/>
   )
 }
 

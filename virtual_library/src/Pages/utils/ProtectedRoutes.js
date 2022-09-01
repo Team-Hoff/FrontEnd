@@ -52,9 +52,13 @@ const ProtectedRoutes = () => {
             element: user?<Profile />: <Navigate replace to="/" />
         },
         {
-            path: "*",
+            path: "/*",
             element: user?<PageNotFound />: <Navigate replace to="/" />
-        }
+        },
+        {
+            path: "/404",
+            element: user?<PageNotFound />: <Navigate replace to="/" />
+        },
         
         
 

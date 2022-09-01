@@ -5,24 +5,25 @@ import {HiDownload} from 'react-icons/hi';
 import bgImg from "../Assets/Asset/anne-nygard-cA8VTQeHU0c-unsplash.jpg";
 import Footer from '../Components/Footer/Footer';
 import Navbar from '../Components/Navbar/Navbar';
-import {useParams } from 'react-router-dom';
+import {useParams, Navigate } from 'react-router-dom';
 import { CourseData} from '../Components/Data/coursesData';
 
 const Course = () => {
     const [acor, setacor] = useState([]);
 
     const { id } = useParams()
+    const cour = CourseData.filter((cor) => cor.id === id)
     useEffect(()=>{
-        var cour;
-         cour = CourseData.filter((cor) => cor.id === id)
-                  setacor(cour)
+        setacor(cour)
                        
         return () => {
           setacor('')
         }
+      // eslint-disable-next-line react-hooks/exhaustive-deps
       }, [id])
 
-  return (
+  // eslint-disable-next-line eqeqeq
+  return (cour != "") ? (
     <div>
         
         <Navbar/>
@@ -156,6 +157,9 @@ const Course = () => {
     
     
     </div>
+  )
+  :(
+    <Navigate replace to="/404"/>
   )
 }
 

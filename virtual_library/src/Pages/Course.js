@@ -1,17 +1,22 @@
+/* eslint-disable react-hooks/exhaustive-deps */
+/* eslint-disable eqeqeq */
 import React, {useState, useEffect} from 'react';
 import '../Components/course.css';
 import book from '../Assets/Asset/book.jpg';
 import {HiDownload} from 'react-icons/hi';
-import bgImg from "../Assets/Asset/anne-nygard-cA8VTQeHU0c-unsplash.jpg";
 import Footer from '../Components/Footer/Footer';
 import Navbar from '../Components/Navbar/Navbar';
 import {useParams, Navigate } from 'react-router-dom';
 import { CourseData} from '../Components/Data/coursesData';
+import {SlidesData} from '../Components/Data/slidesData';
 
 const Course = () => {
     const [acor, setacor] = useState([]);
-
+    const isAvailable = "No Course Material is available for this course";
+    const [acourse, setacourse] = useState([]);
+    
     const { id } = useParams()
+
     const cour = CourseData.filter((cor) => cor.id === id)
     useEffect(()=>{
         setacor(cour)
@@ -19,11 +24,22 @@ const Course = () => {
         return () => {
           setacor('')
         }
-      // eslint-disable-next-line react-hooks/exhaustive-deps
+   
       }, [id])
 
-  // eslint-disable-next-line eqeqeq
-  return (cour != "") ? (
+    const course = SlidesData.filter((cor) => cor.id === id) 
+    useEffect(()=>{
+        setacourse(course)
+                       
+        return () => {
+          setacourse('')
+        }
+      
+      }, [id]) 
+
+    
+  
+  return (cour != "") ?  (
     <div>
         
         <Navbar/>
@@ -40,7 +56,10 @@ const Course = () => {
                 </span></h1> : ""
               }
     </div>
-    
+    { (course == "") ? <div className="containers">
+                    <div className='Available'>{isAvailable}</div>
+                       </div> 
+    : (
     <div className="containers">
         <div className="slides">
             <h1 className="lect_head">Slides</h1>
@@ -125,9 +144,11 @@ const Course = () => {
             </div>
         </div>
     </div>
+    )
+   }
   
 
-    <div className="ref_books">
+    {/* <div className="ref_books">
         <h1 className="ref_book_head">Reference Books</h1>
         <div className="ref_bookss">
             <div className="ref_cov_page">
@@ -150,17 +171,18 @@ const Course = () => {
     
     <h1 className="ref_book_head">Recommended videos</h1>
     <div className='recvid'>
-    </div>
+    </div> */}
 
 
     <Footer/>
     
     
     </div>
-  )
-  :(
-    <Navigate replace to="/404"/>
-  )
+    )
+   :
+     (
+     <Navigate replace to="/404"/>
+     )
 }
 
 export default Course;

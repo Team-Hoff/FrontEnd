@@ -10,12 +10,14 @@ import Navbar from '../Components/Navbar/Navbar';
 import { useEffect } from 'react';
 
 
+// export const {pc} = useParams()
+
 const Program = () => {
   const [courseQuery, setcourseQuery] = useState(Number(1));
   const [apro, setapro] = useState([]);
   const [acor, setacor] = useState([]);
 
-  const { id } = useParams()
+  const  {id } = useParams()
   const prog = ProgramData.filter((pro) => pro.id === id)
 
   useEffect(() => {

@@ -1,5 +1,3 @@
-import comp from '../../Assets/com.jpg';
-
 export const CourseData=[
     {
         ID:"computer",

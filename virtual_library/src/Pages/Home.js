@@ -29,10 +29,9 @@ const Home = () => {
         </div>
     </section>
 
-      <ProgramCard/>
-    <div className='foom'>  
+      <ProgramCard/>  
     <Footer/>
-    </div>
+
   </div>
   )
 }

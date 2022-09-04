@@ -8,6 +8,7 @@ import Course from '../Course';
 import Logout from "./Logout";
 import Profile from "../profilepage/profilepage";
 import PageNotFound from "../PageNotFound/PageNotFound";
+import Display from "./Display";
 
 
 import { Navigate } from 'react-router-dom';
@@ -59,6 +60,10 @@ const ProtectedRoutes = () => {
             path: "*",
             element: <Navigate replace to="/404"/>
         },
+        {
+            path: "/test",
+            element: <Display/>   
+        }
         
         
 

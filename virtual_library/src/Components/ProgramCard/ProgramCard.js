@@ -2,15 +2,14 @@ import React from 'react';
 import {Card, Button} from 'react-bootstrap';
 import { Link } from 'react-router-dom';
 import { ProgramData } from '../Data/programData';
-import Background from '../../Assets/image.png';
 
 function ProgramCard() {
   return (
     <div>
-        <div /*style={{position:'relative', left:'-40px'}}*/>
+        <div /*style={{position:'relative', left:'-40px'}}*/ >
         {
                 ProgramData.map((program) => (
-                    <Card key={program.id} style={{ width: '18rem', float: 'left', marginLeft: 110, marginTop: 30, textAlign:'center', alignContent:'left' }}>
+                    <Card key={program.id} style={{ width: '18rem', float: 'left', marginLeft: 110, marginTop: 30, textAlign:'center', alignContent:'left'}}>
                     <Card.Img variant="top" src={program.img} style={{height: '180px'}} />
                     <Card.Body>
                     <Card.Title>{program.name}</Card.Title>

@@ -30,9 +30,9 @@ const Home = () => {
     </section>
 
       <ProgramCard/>
-      
+    <div className='foom'>  
     <Footer/>
-
+    </div>
   </div>
   )
 }

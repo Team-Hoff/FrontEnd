@@ -7,8 +7,10 @@ import {HiDownload} from 'react-icons/hi';
 import Footer from '../Components/Footer/Footer';
 import Navbar from '../Components/Navbar/Navbar';
 import {useParams, Navigate } from 'react-router-dom';
+
 import { CourseData} from '../Components/Data/coursesData';
 import {SlidesData} from '../Components/Data/slidesData';
+import { getFiles } from './utils/courseRequest';
 
 const Course = () => {
     const [acor, setacor] = useState([]);
@@ -56,10 +58,10 @@ const Course = () => {
                 </span></h1> : ""
               }
     </div>
-    { (course == "") ? <div className="containers">
+    {/* { (course == "") ? <div className="containers">
                     <div className='Available'>{isAvailable}</div>
                        </div> 
-    : (
+    : ( */}
     <div className="containers">
         <div className="slides">
             <h1 className="lect_head">Slides</h1>
@@ -69,7 +71,7 @@ const Course = () => {
                     <h3 className="lect_one">Lecture One</h3>
                 </div>
                <div className="right_lect_block_4">
-                    <a href="#"><HiDownload/></a>
+                    <a href='#' onClickCapture={ () =>{getFiles(cour, "Lecture One")}}><HiDownload/></a>
                </div>
             </div>
     
@@ -144,8 +146,8 @@ const Course = () => {
             </div>
         </div>
     </div>
-    )
-   }
+    
+   
   
 
     {/* <div className="ref_books">

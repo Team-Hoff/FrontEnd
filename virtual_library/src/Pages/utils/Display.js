@@ -6,14 +6,25 @@ const Display = ( ) => {
 const getFiles = async(path, lecture_name) => {
     // const {ID, id, name, year, semester} = path[0] ;
     
- const response = await axios.get(
-        // `/program/${ID}/${year}/${semester}/${name}/EE 387 UNIT 00.pptx`
-        // '/program/computer/Third Year/First Semester/Classical Control Systems/EE 387 UNIT 00.pptx'
-        '/program'
-        )
-    //  const book = response.data.toString("base64")
-    //  return book;
-    console.log(response);
+    axios({
+      url: `/program/computer/year/semester/course/${lecture_name}`, //your url
+      method: 'GET',
+      responseType: 'blob', // important
+  }).then((response) => {
+      // create file link in browser's memory
+      const href = URL.createObjectURL(response.data);
+  
+      // create "a" HTLM element with href to file & click
+      const link = document.createElement('a');
+      link.href = href;
+      link.setAttribute('download', `${lecture_name}.pptx`); //or any other extension
+      document.body.appendChild(link);
+      link.click();
+  
+      // clean up "a" element & remove ObjectURL
+      document.body.removeChild(link);
+      URL.revokeObjectURL("/program");
+  });
 
     
 }
@@ -22,7 +33,7 @@ const getFiles = async(path, lecture_name) => {
     <div>
       <p>
         This is your book
-      <button type="button" onClick={()=> getFiles()} >Get book</button>
+      <button type="button" onClick={()=> getFiles("", "Lecture One")} >Get book</button>
       </p>
     </div>
   )

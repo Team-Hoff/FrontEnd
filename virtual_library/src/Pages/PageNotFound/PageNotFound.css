@@ -1,0 +1,22 @@
+.whole{
+    background-image: url("../../Assets/404-Pages-1024x512.jpg");
+    height: 100vh;
+    background-repeat: no-repeat;
+    background-size: cover;
+    justify-items: flex-end;
+
+}
+.Button{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+}
+.Button button{
+    border-radius: 10px;
+    margin-top: 10px;
+    
+}
+.link {
+    text-decoration: none;
+}

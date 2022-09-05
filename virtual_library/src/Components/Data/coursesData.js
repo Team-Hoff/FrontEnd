@@ -1,3 +1,5 @@
+import geology from '../../Assets/BackgroundPics/aero.png';
+
 export const CourseData=[
     {
         ID:"computer",
@@ -69,7 +71,7 @@ export const CourseData=[
         code:"ME 166",
         year: 1,
         semester:2,
-        img: ""
+        img: "https://www.bing.com/th?id=OIP.c8D4FfI-xIbmvt1POHTELAHaF7&w=279&h=223&c=8&rs=1&qlt=90&o=6&pid=3.1&rm=2"
     },
     {
         ID:"computer",
@@ -3865,7 +3867,7 @@ export const CourseData=[
         code:"BME 161",
         year: 1,
         semester:1,
-        img: ""
+        img: "https://th.bing.com/th/id/R.7c8328248adb2962732f43fc468db0b2?rik=dRgkFCV2blnYTg&riu=http%3a%2f%2fgetwallpapers.com%2fwallpaper%2ffull%2f1%2f0%2fa%2f191921.jpg&ehk=cN7vzgtOBpe6N38ozzlOBGQLfuKjL2dBemXLEgTZgEU%3d&risl=&pid=ImgRaw&r=0"
     }, 
     {
         ID:"biomedical",
@@ -3901,7 +3903,7 @@ export const CourseData=[
         code:"MATH 151",
         year: 1,
         semester:1,
-        img: ""
+        img: " img: `https://img.freepik.com/free-vector/geometry-education-blue-background-vector-frame-disruptive-education-digital-remix_53876-114094.jpg?w=740&t=st=1661837216~exp=1661837816~hmac=5b40056780bebdeeb8bb5259612262507c80ddd5467b97f2ff299f6a2309d897`"
     }, 
     {
         ID:"biomedical",
@@ -3982,7 +3984,7 @@ export const CourseData=[
         code:"PHY 154",
         year: 1,
         semester:2,
-        img: ""
+        img: "https://th.bing.com/th/id/R.9b4f1e435436e69615e4efc8341c4fbf?rik=pzsGGOdN254k8Q&pid=ImgRaw&r=0"
     }, 
     {
         ID:"biomedical",
@@ -3991,7 +3993,7 @@ export const CourseData=[
         code:"SOC 152",
         year: 1,
         semester:2,
-        img: ""
+        img: "https://www.unomaha.edu/college-of-arts-and-sciences/sociology-and-anthropology/_files/images/handtree.png"
     }, 
     {
         ID:"biomedical",
@@ -4000,7 +4002,7 @@ export const CourseData=[
         code:"SSN 166",
         year: 1,
         semester:2,
-        img: ""
+        img: "https://www.tech-wonders.com/wp-content/uploads/2017/08/Biochemical-Assignment-Help.jpg"
     }, 
     {
         ID:"biomedical",
@@ -4009,7 +4011,7 @@ export const CourseData=[
         code:"BME 251",
         year: 2,
         semester:1,
-        img: ""
+        img: "https://www.sdsmt.edu/uploadedImages/Content/Academics/Degrees/_Images/biomedbanner.jpg"
     }, 
     {
         ID:"biomedical",
@@ -4027,7 +4029,7 @@ export const CourseData=[
         code:"BME 285",
         year: 2,
         semester:1,
-        img: ""
+        img: "https://d1jnzwil5g8le2.cloudfront.net/content/images/thumbs/0001556_the-human-body-anatomy-and-physiology.jpeg"
     }, 
     {
         ID:"biomedical",
@@ -4099,7 +4101,7 @@ export const CourseData=[
         code:"BME 252",
         year: 2,
         semester:2,
-        img: ""
+        img: "https://www.sdsmt.edu/uploadedImages/Content/Academics/Degrees/_Images/biomedbanner.jpg"
     }, 
     {
         ID:"biomedical",
@@ -4108,7 +4110,7 @@ export const CourseData=[
         code:"BME 288",
         year: 2,
         semester:2,
-        img: ""
+        img: "https://th.bing.com/th/id/R.941335c89584990a8b35f1834a9b80c1?rik=Ispskd9bi9usrA&pid=ImgRaw&r=0"
     }, 
     {
         ID:"biomedical",
@@ -4135,7 +4137,7 @@ export const CourseData=[
         code:"BME 286",
         year: 2,
         semester:2,
-        img: ""
+        img: "https://d1jnzwil5g8le2.cloudfront.net/content/images/thumbs/0001556_the-human-body-anatomy-and-physiology.jpeg"
     }, 
     {
         ID:"biomedical",
@@ -4153,7 +4155,7 @@ export const CourseData=[
         code:"TE 385",
         year: 3,
         semester:1,
-        img: ""
+        img: "https://th.bing.com/th/id/OIP.aSqhpuGUq_BmokNlXNNeGAHaGs?pid=ImgDet&w=300&h=271&rs=1"
     }, 
     {
         ID:"biomedical",
@@ -4189,7 +4191,7 @@ export const CourseData=[
         code:"BME 397",
         year: 3,
         semester:1,
-        img: ""
+        img: "https://th.bing.com/th/id/R.00a97f129efb7a1102bb6b1bb5b6fbc7?rik=zQJR2ku3IpRzUw&riu=http%3a%2f%2fclipart-library.com%2fnewhp%2fkissclipart-research-methodology-statistics-in-education-cli-0d39a51cbbd6f457.jpg&ehk=XkGw7wTTVLTuR9PB%2bmUnBSWGhsEtVcvrUo71XcL06kU%3d&risl=&pid=ImgRaw&r=0"
     }, 
     {
         ID:"biomedical",
@@ -4207,7 +4209,7 @@ export const CourseData=[
         code:"BME 374",
         year: 3,
         semester:2,
-        img: ""
+        img: "https://cellstudio.org/wp-content/uploads/2014/04/home_banner_4.jpg"
     }, 
     {
         ID:"biomedical",
@@ -4216,16 +4218,16 @@ export const CourseData=[
         code:"BME 362",
         year: 3,
         semester:2,
-        img: ""
+        img: "https://th.bing.com/th/id/OIP.BftfvrI0BK577jcNZ6JCSQAAAA?pid=ImgDet&rs=1"
     }, 
     {
         ID:"biomedical",
         id:"bioinstrumentationI",
-        name:"Bioinstrumentation I",
+        name:"Bio Instrumentation I",
         code:"BME 372",
         year: 3,
         semester:2,
-        img: ""
+        img: "https://cdn.auckland.ac.nz/aem/content/auckland/en/abi/our-research/research-groups-themes/bioinstrumentation-laboratory/_jcr_content/par/linkspagetemplategri/par2/subflexicomponentlin/image.img.480.low.jpg/1558914444079.jpg"
     }, 
     {
         ID:"biomedical",
@@ -4234,7 +4236,7 @@ export const CourseData=[
         code:"BME 366",
         year: 3,
         semester:2,
-        img: ""
+        img: "https://th.bing.com/th/id/R.2ab0baa57711c8854a58f05ed619c4b7?rik=8KwtCBIJICOXLg&riu=http%3a%2f%2fbiosignal.med.upatras.gr%2fwordpress%2fwp-content%2fuploads%2f2013%2f02%2fim7.jpg&ehk=s7MqXNfrxBp4JZhgn0SuCoR8fe1butZ7QzZdBGkFpv4%3d&risl=&pid=ImgRaw&r=0"
     }, 
     {
         ID:"biomedical",
@@ -4243,7 +4245,7 @@ export const CourseData=[
         code:"COE 358",
         year: 3,
         semester:2,
-        img: ""
+        img: "https://th.bing.com/th/id/R.481e5c78700c2f75e2c97b23bbe84c2a?rik=3XSCcVwO%2fqbYiA&pid=ImgRaw&r=0"
     }, 
     {
         ID:"biomedical",
@@ -4252,7 +4254,7 @@ export const CourseData=[
         code:"BME 364",
         year: 3,
         semester:2,
-        img: ""
+        img: "https://th.bing.com/th/id/R.c13f5e8d7f8e30f7010bcae320cbdd13?rik=aZkwkTzSG8b6cw&pid=ImgRaw&r=0"
     }, 
     {
         ID:"biomedical",
@@ -4270,7 +4272,7 @@ export const CourseData=[
         code:"BME 463",
         year: 4,
         semester:1,
-        img: ""
+        img: "https://th.bing.com/th/id/OIP.BftfvrI0BK577jcNZ6JCSQAAAA?pid=ImgDet&rs=1"
     }, 
     {
         ID:"biomedical",
@@ -4279,7 +4281,7 @@ export const CourseData=[
         code:"BME 471",
         year: 4,
         semester:1,
-        img: ""
+        img: "https://cdn.auckland.ac.nz/aem/content/auckland/en/abi/our-research/research-groups-themes/bioinstrumentation-laboratory/_jcr_content/par/linkspagetemplategri/par2/subflexicomponentlin/image.img.480.low.jpg/1558914444079.jpg"
     }, 
     {
         ID:"biomedical",
@@ -4306,7 +4308,7 @@ export const CourseData=[
         code:"BME 461",
         year: 4,
         semester:1,
-        img: ""
+        img: "https://1.bp.blogspot.com/_ZP6rjLLjAUU/TTTMbO7kyFI/AAAAAAAAAB8/yyfmzc7RHQk/s1600/biomechanicalfitness_cropped.jpg"
     }, 
     {
         ID:"biomedical",
@@ -4324,7 +4326,7 @@ export const CourseData=[
         code:"BME 462",
         year: 4,
         semester:2,
-        img: ""
+        img: "https://1.bp.blogspot.com/_ZP6rjLLjAUU/TTTMbO7kyFI/AAAAAAAAAB8/yyfmzc7RHQk/s1600/biomechanicalfitness_cropped.jpg"
     }, 
     {
         ID:"biomedical",
@@ -4333,7 +4335,7 @@ export const CourseData=[
         code:"BME 454",
         year: 4,
         semester:2,
-        img: ""
+        img: "https://th.bing.com/th/id/R.a77e7d46f8480cc58888c005c7298e29?rik=LKrQiwKrxOA4HA&pid=ImgRaw&r=0"
     }, 
     {
         ID:"biomedical",
@@ -4360,7 +4362,7 @@ export const CourseData=[
         code:"COE 472",
         year: 4,
         semester:2,
-        img: ""
+        img: "https://th.bing.com/th/id/R.bc8bbaaa526175bcac66b2c90b83484b?rik=1BLHaIXN5CUiOw&pid=ImgRaw&r=0"
     },
     {
         ID:"geomatic",
@@ -4369,7 +4371,7 @@ export const CourseData=[
         code:"ENGL 157",
         year: 1,
         semester:1,
-        img: ""
+        img: "https://th.bing.com/th/id/OIP.XpVGmqQBBp4g2tRqWXIAMwHaHa?pid=ImgDet&rs=1"
     }, 
     {
         ID:"geomatic",
@@ -4378,7 +4380,7 @@ export const CourseData=[
         code:"GE 151",
         year: 1,
         semester:1,
-        img: ""
+        img: "https://th.bing.com/th/id/R.1b9ab48e45ca2688703a68fe844390e7?rik=JjoxVdUipcUr6A&riu=http%3a%2f%2fgeography.name%2fwp-content%2fuploads%2f2015%2f08%2fmaps.jpg&ehk=2N%2bGATddzGn1nCI6UOrjNeW%2bRITDK4u4sClsBmD8RYc%3d&risl=&pid=ImgRaw&r=0"
     }, 
     {
         ID:"geomatic",
@@ -4396,7 +4398,7 @@ export const CourseData=[
         code:"GE 171",
         year: 1,
         semester:1,
-        img: ""
+        img: "https://th.bing.com/th/id/OIP.j4tHyjrtYU0ruad9iiPkSAHaD4?pid=ImgDet&rs=1"
     }, 
     {
         ID:"geomatic",
@@ -4405,7 +4407,7 @@ export const CourseData=[
         code:"MATH 151",
         year: 1,
         semester:1,
-        img: ""
+        img: " img: `https://img.freepik.com/free-vector/geometry-education-blue-background-vector-frame-disruptive-education-digital-remix_53876-114094.jpg?w=740&t=st=1661837216~exp=1661837816~hmac=5b40056780bebdeeb8bb5259612262507c80ddd5467b97f2ff299f6a2309d897`"
     }, 
     {
         ID:"geomatic",
@@ -4522,7 +4524,7 @@ export const CourseData=[
         code:"GE 251",
         year: 2,
         semester:1,
-        img: ""
+        img: "https://th.bing.com/th/id/R.9b633df3f12f6aafc6b146490236aa90?rik=58d93iLHRPIe3g&riu=http%3a%2f%2fwww.yogaarchitects.com%2fwp-content%2fuploads%2f2017%2f11%2f3-2.jpg&ehk=tdjlzuBtKO6PhSiewF6ftn%2fULQQo%2bC%2fF5uWdILMjE4M%3d&risl=&pid=ImgRaw&r=0"
     }, 
     {
         ID:"geomatic",
@@ -4531,7 +4533,7 @@ export const CourseData=[
         code:"GE 261",
         year: 2,
         semester:1,
-        img: ""
+        img: "https://th.bing.com/th/id/R.f477919a05412385ff9a9a0232aa6489?rik=b2aUBFM74K%2ffiQ&riu=http%3a%2f%2fmedia2.s-nbcnews.com%2fj%2fMSNBC%2fComponents%2fPhoto%2f_new%2f110504-space-gravity-730p.grid-8x2.jpg&ehk=Zrt4C4cHAt8DJaaabr%2fJAtSc6e9YkWAcR57EUXz9yuk%3d&risl=&pid=ImgRaw&r=0"
     }, 
     {
         ID:"geomatic",
@@ -4540,7 +4542,7 @@ export const CourseData=[
         code:"GE 263",
         year: 2,
         semester:1,
-        img: ""
+        img: "https://th.bing.com/th/id/R.bb2cdac5c21c70df4102a0d1c3444d73?rik=ujrIIg26w5zd3Q&riu=http%3a%2f%2fdata-science.successpoint.ae%2fassets%2fimages%2frankings%2fprogramming.jpg&ehk=FRa9htxFb6%2bqSydLyysusKCmKRxN8GiBqOsojXB75Cs%3d&risl=&pid=ImgRaw&r=0"
     }, 
     {
         ID:"geomatic",
@@ -4558,7 +4560,7 @@ export const CourseData=[
         code:"GE 281",
         year: 2,
         semester:1,
-        img: ""
+        img: "https://oceanservice.noaa.gov/podcast/jan18/geodesy.jpg"
     }, 
     {
         ID:"geomatic",
@@ -4621,7 +4623,7 @@ export const CourseData=[
         code:"GE 284",
         year: 2,
         semester:2,
-        img: ""
+        img: "https://www.shshihang.com/wp-content/uploads/2018/04/copper-nickel-pipe-system-1-360x240.png"
     }, 
     
     {
@@ -4640,7 +4642,7 @@ export const CourseData=[
         code:"CE 367",
         year: 3,
         semester:1,
-        img: ""
+        img: "https://yt3.ggpht.com/a/AATXAJzEVkP-PShv7nrF08q7F-snnCvZgJnuKknrAg=s900-c-k-c0xffffffff-no-rj-mo"
     }, 
     {
         ID:"geomatic",
@@ -4649,7 +4651,7 @@ export const CourseData=[
         code:"GE 353",
         year: 3,
         semester:1,
-        img: ""
+        img: "https://i.pinimg.com/736x/3c/53/18/3c53181280257a83c23dbe3b08f833fa--th-century-geometric-shapes.jpg"
     }, 
     {
         ID:"geomatic",
@@ -4658,7 +4660,7 @@ export const CourseData=[
         code:"GE 371",
         year: 3,
         semester:1,
-        img: ""
+        img: "https://th.bing.com/th/id/R.e3ca64b0d0b6272a873f66542be06dc1?rik=gweR2gBx2kXpyg&pid=ImgRaw&r=0"
     }, 
     {
         ID:"geomatic",
@@ -4667,7 +4669,7 @@ export const CourseData=[
         code:"GE 351",
         year: 3,
         semester:1,
-        img: ""
+        img: "https://th.bing.com/th/id/R.f47d1dac552d463886b25cca2f85bf57?rik=D%2fHcMFLVK4LQ3Q&pid=ImgRaw&r=0"
     }, 
     {
         ID:"geomatic",
@@ -4676,7 +4678,7 @@ export const CourseData=[
         code:"GE 361",
         year: 3,
         semester:1,
-        img: ""
+        img: "https://th.bing.com/th/id/R.8103ef1135f6dd3323e5259802b18d4b?rik=%2fzSNmvRVUw6pmg&riu=http%3a%2f%2fshukka.com%2fimg%2fimage-processing.PNG&ehk=KZT3ETUsE2LIhNhEerfdUgWfCI6julBQbM4jf3PHGCg%3d&risl=&pid=ImgRaw&r=0&sres=1&sresct=1"
     }, 
     {
         ID:"geomatic",
@@ -4694,7 +4696,7 @@ export const CourseData=[
         code:"FC 181",
         year: 3,
         semester:1,
-        img: ""
+        img: "https://th.bing.com/th/id/R.e34523320b1a77057af100fcf17f6c7f?rik=y2tXJDPR1F1k9A&riu=http%3a%2f%2fwww.umsl.edu%2fdivisions%2fartscience%2fforlanglit%2fLanguages%2ffrench.jpg&ehk=AWfH5iCAr09vsWBPQHhYiDHGqr4c9R2qLyWPEmUJFM8%3d&risl=&pid=ImgRaw&r=0"
     }, 
     {
         ID:"geomatic",
@@ -4712,7 +4714,7 @@ export const CourseData=[
         code:"GE 354",
         year: 3,
         semester:2,
-        img: ""
+        img: "https://th.bing.com/th/id/R.2d9acad07b17df82fa910efb5d1bc4a9?rik=nVPS3aFgTHzaZA&riu=http%3a%2f%2fwww.ei.lehigh.edu%2flearners%2ftectonics%2fgeodesy%2fsatellite.jpg&ehk=c35o5mBGBwu5Muo8NnePufvM2eJlQ0u6ftzQ3BqLF68%3d&risl=&pid=ImgRaw&r=0"
     }, 
     {
         ID:"geomatic",
@@ -4730,7 +4732,7 @@ export const CourseData=[
         code:"GE 372",
         year: 3,
         semester:2,
-        img: ""
+        img: "https://th.bing.com/th/id/R.3ac7fd038424c45720296316d9de7b67?rik=ODByQPfurdpR6g&pid=ImgRaw&r=0"
     }, 
     {
         ID:"geomatic",
@@ -4757,7 +4759,7 @@ export const CourseData=[
         code:"PL 251/2",
         year: 3,
         semester:2,
-        img: ""
+        img: "https://www.pagegeomatic.co.ke/wp-content/uploads/2019/08/settlement1.jpg"
     },
     {
         ID:"geomatic",
@@ -4766,7 +4768,7 @@ export const CourseData=[
         code:"GE 451",
         year: 4,
         semester:1,
-        img: ""
+        img: "https://th.bing.com/th/id/R.3e2e9d645ee3b0ab9c2d3a627413da63?rik=pGpRy3oPEKS%2few&riu=http%3a%2f%2fwww.mdpi.com%2fwater%2fwater-07-05031%2farticle_deploy%2fhtml%2fimages%2fwater-07-05031-g009.png&ehk=N3NuUeZiroojt33nQ%2fptKqjJi%2f1RZufVptizbB%2f%2boLk%3d&risl=&pid=ImgRaw&r=0"
     },
     {
         ID:"geomatic",
@@ -4784,7 +4786,7 @@ export const CourseData=[
         code:"CE 461",
         year: 4,
         semester:1,
-        img: ""
+        img: "https://ied.eu/wp-content/uploads/2020/09/entrepreneurship-and-economic-development.gif"
     },
     {
         ID:"geomatic",
@@ -4811,7 +4813,7 @@ export const CourseData=[
         code:"GE 461",
         year: 4,
         semester:1,
-        img: ""
+        img: "https://4.imimg.com/data4/SQ/AB/MY-10047461/cadastral-survey-500x500.jpg"
     },
     {
         ID:"geomatic",
@@ -4838,7 +4840,7 @@ export const CourseData=[
         code:"GE 464",
         year: 4,
         semester:2,
-        img: ""
+        img: "https://th.bing.com/th/id/R.afb31b2ef43b8150e7ddd0c14b47c341?rik=tIwQhT%2bQqsnBWg&pid=ImgRaw&r=0"
     },
     {
         ID:"geomatic",
@@ -8014,7 +8016,7 @@ export const CourseData=[
         code:"CE 151",
         year: 1,
         semester:1,
-        img: ""
+        img: `https://inl-gov.imgix.net/2014/10/P-7224-1.jpg?auto=compress%2Cformat&ixlib=php-1.2.1`
     }, 
     {
         ID:"geological",
@@ -8023,7 +8025,7 @@ export const CourseData=[
         code:"ECON 151",
         year: 1,
         semester:1,
-        img: ""
+        img: "https://c0.wallpaperflare.com/preview/410/416/865/advance-analysis-business-graph-data-thumbnail.jpg"
     }, 
     {
         ID:"geological",
@@ -8032,7 +8034,7 @@ export const CourseData=[
         code:"GED 151",
         year: 1,
         semester:1,
-        img: ""
+        img:`${geology}`
     }, 
     {
         ID:"geological",
@@ -8041,7 +8043,7 @@ export const CourseData=[
         code:"ENGL 157",
         year: 1,
         semester:1,
-        img: ""
+        img: "https://www.bing.com/th?id=OIP.c8D4FfI-xIbmvt1POHTELAHaF7&w=279&h=223&c=8&rs=1&qlt=90&o=6&pid=3.1&rm=2"
     }, 
     {
         ID:"geological",
@@ -8059,7 +8061,7 @@ export const CourseData=[
         code:"MATH 151",
         year: 1,
         semester:1,
-        img: ""
+        img: `https://img.freepik.com/free-vector/geometry-education-blue-background-vector-frame-disruptive-education-digital-remix_53876-114094.jpg?w=740&t=st=1661837216~exp=1661837816~hmac=5b40056780bebdeeb8bb5259612262507c80ddd5467b97f2ff299f6a2309d897`
     }, 
     {
         ID:"geological",
@@ -8086,7 +8088,7 @@ export const CourseData=[
         code:"CE 156",
         year: 1,
         semester:2,
-        img: ""
+        img: "https://i.pinimg.com/originals/26/c6/fe/26c6fe2721aa965e608af598af6d09ad.jpg"
     },
     {
         ID:"geological",
@@ -8095,16 +8097,16 @@ export const CourseData=[
         code:"CE 164",
         year: 1,
         semester:2,
-        img: ""
+        img: "https://th.bing.com/th/id/R.452760eba680e8dd63cda92000105234?rik=FIXYpWfIiM%2f%2bSg&riu=http%3a%2f%2fgetdrawings.com%2fimages%2fcivil-engineering-drawing-18.jpg&ehk=EcFWJ5jX5sYM8OZWTaWFvW0gkZGxNiFvlHdey1XD%2fY4%3d&risl=&pid=ImgRaw&r=0"
     },
     {
         ID:"geological",
-        id:"inductoryeconomicsII",
-        name:"Inductory Economics II",
+        id:"inductiontoeconomicsII",
+        name:"Induction to Economics II",
         code:"ECON 152",
         year: 1,
         semester:2,
-        img: ""
+        img: "https://c0.wallpaperflare.com/preview/410/416/865/advance-analysis-business-graph-data-thumbnail.jpg"
     },
     {
         ID:"geological",
@@ -8131,7 +8133,7 @@ export const CourseData=[
         code:"GED 152",
         year: 1,
         semester:2,
-        img: ""
+        img: "https://th.bing.com/th/id/R.7e4d397c9ec326a6a54aa63b3b1cce37?rik=MwfSV9zGEK2cuQ&riu=http%3a%2f%2fwww.geologypage.com%2fwp-content%2fuploads%2f2019%2f07%2fRock-Forming-Minerals-GeologyPage.jpg&ehk=5HzvgzbVfHZq5mfLc6Rvqllo5Y7Zjp01TXDm6%2bfF7nk%3d&risl=&pid=ImgRaw&r=0"
     },
     {
         ID:"geological",
@@ -8140,7 +8142,7 @@ export const CourseData=[
         code:"GED 164",
         year: 1,
         semester:2,
-        img: ""
+        img: "https://th.bing.com/th/id/R.1f865bc8f82eb4391b00b87c3edc9260?rik=ipV0Px%2fwbhS5mg&riu=http%3a%2f%2fwww.sh-ymin.com%2fuploads%2fimages%2f20210403%2f4417d4526a30b2a1397faaebdb285faf.jpg&ehk=2s0hEk5pdh6EZelYnviCTc4C5unRXOzejm0%2fGFuMlQk%3d&risl=&pid=ImgRaw&r=0"
     },
     {
         ID:"geological",
@@ -8149,7 +8151,7 @@ export const CourseData=[
         code:"MATH 152",
         year: 1,
         semester:2,
-        img: ""
+        img: "https://i.pinimg.com/736x/dc/2c/48/dc2c482294100808cced408abb9cdf7d.jpg"
     },  
     {
         ID:"geological",
@@ -8158,7 +8160,7 @@ export const CourseData=[
         code:"CE 255",
         year: 2,
         semester:1,
-        img: ""
+        img: "https://www.melbourneremoval.com.au/wp-content/uploads/2019/03/High-Rise-Building-1024x768.jpg"
     }, 
     {
         ID:"geological",
@@ -8167,7 +8169,7 @@ export const CourseData=[
         code:"CE 251",
         year: 2,
         semester:1,
-        img: ""
+        img: "https://th.bing.com/th/id/R.450d90fb3dcf3ae2550091907f233572?rik=8PXfBrAKBfhaJA&riu=http%3a%2f%2fwww.johnweeks.com%2friver_mississippi%2fpicsA%2fus63rw17.jpg&ehk=VAqXBeXUA5TIW9f0qOHO%2b1G9mL9AjilPd93i2SclSDs%3d&risl=&pid=ImgRaw&r=0"
     }, 
     {
         ID:"geological",
@@ -8176,7 +8178,7 @@ export const CourseData=[
         code:"GED 253",
         year: 2,
         semester:1,
-        img: ""
+        img: "https://th.bing.com/th/id/R.ed2a4da97c24020d972d7d828ef61cd7?rik=NX2jFV7x4NDrCw&pid=ImgRaw&r=0&sres=1&sresct=1"
     }, 
     {
         ID:"geological",
@@ -8185,7 +8187,7 @@ export const CourseData=[
         code:"GED 251",
         year: 2,
         semester:1,
-        img: ""
+        img: "https://th.bing.com/th/id/R.3bcc0d9bec6cde8234bfdf97aabcb305?rik=wSWFFzenly%2fyfA&riu=http%3a%2f%2fbrucekelley.com%2fimages%2f_DSC5325-Edit.jpg&ehk=MPOTe2Zmxc0kmq7l%2f9bJ%2beBNSlw%2bko3IRHge05NPSVU%3d&risl=&pid=ImgRaw&r=0"
     }, 
     {
         ID:"geological",
@@ -8194,7 +8196,7 @@ export const CourseData=[
         code:"GED 267",
         year: 2,
         semester:1,
-        img: ""
+        img: "https://th.bing.com/th/id/R.2518a36a2564ecd8a0a5cec9eca7d1a4?rik=B9PbtcPhseiSNA&pid=ImgRaw&r=0"
     }, 
     {
         ID:"geological",
@@ -8203,7 +8205,7 @@ export const CourseData=[
         code:"MATH 251",
         year: 2,
         semester:1,
-        img: ""
+        img: "https://i.ytimg.com/vi/DOtD6VHB9vg/maxresdefault.jpg"
     }, 
     {
         ID:"geological",
@@ -8212,7 +8214,7 @@ export const CourseData=[
         code:"CENG 291",
         year: 2,
         semester:1,
-        img: ""
+        img: "https://th.bing.com/th/id/R.411d84fab40585d393e232ce73b38d23?rik=4bUph19ntuOX4A&pid=ImgRaw&r=0"
     }, 
     {
         ID:"geological",
@@ -8221,7 +8223,7 @@ export const CourseData=[
         code:"CE 256",
         year: 2,
         semester:2,
-        img: ""
+        img: "https://th.bing.com/th/id/OIP.G3TgBXKAdnTFpVcgKEwMdgHaFj?pid=ImgDet&rs=1"
     }, 
     {
         ID:"geological",
@@ -8230,7 +8232,7 @@ export const CourseData=[
         code:"GE 282",
         year: 2,
         semester:2,
-        img: ""
+        img: "https://www.thesurveyingcompany.nz/asset/85/h640_q80.jpeg"
     },  {
         ID:"geological",
         id:"stratigraphy",
@@ -8238,7 +8240,7 @@ export const CourseData=[
         code:"GEED 252",
         year: 2,
         semester:2,
-        img: ""
+        img: "https://th.bing.com/th/id/R.79f1ee397a2b7d63210e216b797a3e69?rik=gnw5Q%2bbB5IEwtQ&pid=ImgRaw&r=0"
     }, 
     {
         ID:"geological",
@@ -8247,7 +8249,7 @@ export const CourseData=[
         code:"GED 254",
         year: 2,
         semester:2,
-        img: ""
+        img: "https://th.bing.com/th/id/R.c5e7140701c0eea262d1ba78660a2663?rik=hk2fmG%2fccASNMA&pid=ImgRaw&r=0"
     }, 
     {
         ID:"geological",
@@ -8256,7 +8258,7 @@ export const CourseData=[
         code:"GED 258",
         year: 2,
         semester:2,
-        img: ""
+        img: "https://www.dakotamatrix.com/images/products/phosphophyllite33141f.jpg"
     }, 
     {
         ID:"geological",
@@ -8265,7 +8267,7 @@ export const CourseData=[
         code:"GED 258",
         year: 2,
         semester:2,
-        img: ""
+        img: "https://th.bing.com/th/id/OIP.M_zeb3qHjs1ZQzjXsnvBGwHaFL?pid=ImgDet&rs=1"
     }, 
     {
         ID:"geological",
@@ -8283,7 +8285,7 @@ export const CourseData=[
         code:"CE 359",
         year: 3,
         semester:1,
-        img: ""
+        img: "https://th.bing.com/th/id/OIP.M_zeb3qHjs1ZQzjXsnvBGwHaFL?pid=ImgDet&rs=1"
     }, 
     {
         ID:"geological",
@@ -8292,7 +8294,7 @@ export const CourseData=[
         code:"GED 351",
         year: 3,
         semester:1,
-        img: ""
+        img: "https://assets.cntraveller.in/photos/60ba16990f3a5367ec9fe182/master/w_768%2Cc_limit/GettyImages-533305221-866x578.jpg"
     }, 
     {
         ID:"geological",
@@ -8301,7 +8303,7 @@ export const CourseData=[
         code:"GED 357",
         year: 3,
         semester:1,
-        img: ""
+        img: "https://www.fondriest.com/environmental-measurements/wp-content/uploads/2014/11/hydrology2-720x540.jpg"
     }, 
     {
         ID:"geological",
@@ -8310,7 +8312,7 @@ export const CourseData=[
         code:"GED 365",
         year: 3,
         semester:1,
-        img: ""
+        img: "https://th.bing.com/th/id/R.4bf9e25771481cb98daf1ad68ef97315?rik=6IJwr2oWTof%2bmA&riu=http%3a%2f%2fwww.ironsidefarrar.com%2flvia.jpg&ehk=hevsCU2Idbrsskjfi3vYegxCDVC%2bOKLavxXWQo1p2Mo%3d&risl=&pid=ImgRaw&r=0"
     }, 
     {
         ID:"geological",
@@ -8319,7 +8321,7 @@ export const CourseData=[
         code:"GED 369",
         year: 3,
         semester:1,
-        img: ""
+        img: "https://th.bing.com/th/id/OIP.leLEOMTj6cnrzQIusN1qwgHaES?pid=ImgDet&rs=1"
     }, 
     {
         ID:"geological",
@@ -8328,7 +8330,7 @@ export const CourseData=[
         code:"GED 375",
         year: 3,
         semester:1,
-        img: ""
+        img: "https://www.scholarshipchina.com/upload/Scholarship/277/277/8f4ae46d098e0acb15effbd5742e2882.jpg"
     }, 
     {
         ID:"geological",
@@ -8337,7 +8339,7 @@ export const CourseData=[
         code:"MATH 351",
         year: 3,
         semester:1,
-        img: ""
+        img: "https://www.cs.duke.edu/courses/cps250/spring10/main.gif"
     }, 
     {
         ID:"geological",
@@ -8346,7 +8348,7 @@ export const CourseData=[
         code:"MATH 353",
         year: 3,
         semester:1,
-        img: ""
+        img: "https://s3.amazonaws.com/s3.timetoast.com/public/uploads/photos/11732619/Prob_Stat.jpeg"
     }, 
     {
         ID:"geological",
@@ -8355,7 +8357,7 @@ export const CourseData=[
         code:"CE 360",
         year: 3,
         semester:2,
-        img: ""
+        img: "https://www.antarakoh.com.sg/img/services/foundation3.jpg"
     }, 
     {
         ID:"geological",
@@ -8364,7 +8366,7 @@ export const CourseData=[
         code:"GED 342",
         year: 3,
         semester:2,
-        img: ""
+        img: "https://i.ytimg.com/vi/HPRaT8SW4NE/maxresdefault.jpg"
     }, 
     {
         ID:"geological",
@@ -8373,7 +8375,7 @@ export const CourseData=[
         code:"GED 352",
         year: 3,
         semester:2,
-        img: ""
+        img: "https://planetary-science.org/wp-content/uploads/2013/07/449294a-f1.2.jpg"
     }, 
     {
         ID:"geological",
@@ -8382,7 +8384,7 @@ export const CourseData=[
         code:"GED 354",
         year: 3,
         semester:2,
-        img: ""
+        img: "https://earth.stanford.edu/sites/default/files/styles/680x450_scaled_cropped_/public/paragraph/slide/iStock-472031338_3.png?itok=XMKbl4pP"
     }, 
     {
         ID:"geological",
@@ -8391,7 +8393,7 @@ export const CourseData=[
         code:"GED 364",
         year: 3,
         semester:2,
-        img: ""
+        img: "https://th.bing.com/th/id/OIP.B_2Qza7KyYhjMt5VzRv9dwHaFj?pid=ImgDet&rs=1"
     }, 
     {
         ID:"geological",
@@ -8400,7 +8402,7 @@ export const CourseData=[
         code:"GED 366",
         year: 3,
         semester:2,
-        img: ""
+        img: "https://th.bing.com/th/id/R.f3f86f844039f6acbee54560e2e98133?rik=oJkJIcX3%2bXUTrQ&riu=http%3a%2f%2ftankymineral.com.vn%2fpublic%2fupload%2fz1691063380830_c9e017c63cf080c985788c5254ea5009.jpg%3f1578474585033&ehk=srcuWAHI9CFpo4wmd4qVTkhyKUU%2bYplenPFIvIVqJS8%3d&risl=&pid=ImgRaw&r=0"
     }, 
     {
         ID:"geological",
@@ -8418,7 +8420,7 @@ export const CourseData=[
         code:"CE 477",
         year: 4,
         semester:1,
-        img: ""
+        img: "https://th.bing.com/th/id/R.4c3f604808ba2fa4c38b182a6144695e?rik=mrUSBgOQsFnzAQ&riu=http%3a%2f%2fteamgfa.com%2fwp-content%2fuploads%2f2020%2f04%2fGFA-GEO-Geoprobe2.jpg&ehk=nTD2sjQDWuLVaqLOu%2fXvjK3EL4J1%2blBASfpL0laD5M0%3d&risl=&pid=ImgRaw&r=0"
     },
     {
         ID:"geological",
@@ -8427,7 +8429,7 @@ export const CourseData=[
         code:"GED 471",
         year: 4,
         semester:1,
-        img: ""
+        img: "https://wwwassets.rand.org/content/rand/blog/2021/07/job-training-is-more-effective-when-educators-government/jcr:content/par/blogpost.aspectcrop.868x455.ct.jpg/x1625620519645.jpg.pagespeed.ic.pTzxUm-8UY.jpg"
     },
     {
         ID:"geological",
@@ -8436,7 +8438,7 @@ export const CourseData=[
         code:"GED 451",
         year: 4,
         semester:1,
-        img: ""
+        img: "https://www.inexs.com/wp-content/uploads/2018/03/Regional-GeologyBasin.png"
     },
     {
         ID:"geological",
@@ -8454,7 +8456,7 @@ export const CourseData=[
         code:"GED 465",
         year: 4,
         semester:1,
-        img: ""
+        img: "https://th.bing.com/th/id/R.3c4507f5712f0dadcca713cb5877d379?rik=U58io0LJCh%2b2KA&pid=ImgRaw&r=0"
     },
     {
         ID:"geological",
@@ -8463,7 +8465,7 @@ export const CourseData=[
         code:"GED 475",
         year: 4,
         semester:1,
-        img: ""
+        img: "https://www.ghd.com/en/expertise/resources/Secondary-image/A-N/Secondary_Hydrogeology_NA_1000x600.jpg"
     },
     {
         ID:"geological",
@@ -8472,7 +8474,7 @@ export const CourseData=[
         code:"GED 461",
         year: 4,
         semester:1,
-        img: ""
+        img: "https://earth.stanford.edu/sites/default/files/styles/680x450_scaled_cropped_/public/paragraph/slide/iStock-472031338_3.png?itok=XMKbl4pP"
     },
     {
         ID:"geological",
@@ -8481,11 +8483,8 @@ export const CourseData=[
         code:"GED 459",
         year: 4,
         semester:1,
-        img: ""
+        img: "https://planetary-science.org/wp-content/uploads/2013/07/449294a-f1.2.jpg"
     },
-      
-
-    
     
 ]
 

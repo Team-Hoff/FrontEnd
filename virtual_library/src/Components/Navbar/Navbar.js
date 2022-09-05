@@ -1,6 +1,6 @@
 import React from 'react';
 import './Navbar.css';
-import Profiledp from '../Profiledropdown/Profiledp';
+import Profiledp from '../Profiledropdown/profiledp';
 import { Link } from 'react-router-dom';
 
 function Navbar() {

@@ -1,0 +1,8498 @@
+[
+    {
+        "IDS":"computer",
+        "id":"algebra",
+        "name":"Algebra",
+        "code":"MATH 151",
+        "year": 1,
+        "semester":1,
+        "img": "https://img.freepik.com/free-vector/geometry-education-blue-background-vector-frame-disruptive-education-digital-remix_53876-114094.jpg?w=740&t=st=1661837216~exp=1661837816~hmac=5b40056780bebdeeb8bb5259612262507c80ddd5467b97f2ff299f6a2309d897"
+    }, 
+    {
+        "IDS":"computer",
+        "id":"appliedelectricity",
+        "name":"Applied Electricity",
+        "code":"EE 151",
+        "year":1,
+        "semester":1,
+        "img": "https://img.freepik.com/premium-photo/applying-thermal-paste-computer-s-central-processing-unit-computer-repair_131301-2395.jpg?w=740"
+    }, 
+    {
+        "IDS":"computer",
+        "id":"communicationskills",
+        "name":"Communication Skills",
+        "code":"ENGL 157",
+        "year": 1,
+        "semester":1,
+        "img": "https://th.bing.com/th/id/OIP.XpVGmqQBBp4g2tRqWXIAMwHaHa?pid=ImgDet&rs=1"
+    }, 
+    {
+        "IDS":"computer",
+        "id":"basicmechanics",
+        "name":"Basic Mechanics",
+        "code":"ME 161",
+        "year": 1,
+        "semester":1,
+        "img": "https://1.bp.blogspot.com/-rja2B49-kJI/WtBnGNPqJdI/AAAAAAAAu6I/Q-vAmdDV7142PwlEs7bhIzGeC-G00Jf7wCK4BGAYYCw/s1600/picture-718945.jpg"
+    }, 
+    {
+        "IDS":"computer",
+        "id":"technicaldrawing",
+        "name":"Technical Drawing",
+        "code":"ME 159",
+        "year": 1,
+        "semester":1,
+        "img": "https://th.bing.com/th/id/R.7dbcb2d23d5fd682c081bd7a78f9f567?rik=7tn37NS2GFBEzw&pid=ImgRaw&r=0"
+    },
+    {
+        "IDS":"computer",
+        "id":"environmentalstudies",
+        "name":"Environmental Studies",
+        "code":"CE 155",
+        "year": 1,
+        "semester":1,
+        "img": "https://epi-rsc.rsc-cdn.org/globalassets/05-journals-books-databases/our-journals/environmental-science-advances/esa-hero_1920x1080.jpg?version=9160e883"
+    },
+    {
+        "IDS":"computer",
+        "id":"engineeringtechnology",
+        "name":"Engineering Technology",
+        "code":"COE 153",
+        "year": 1,
+        "semester":1,
+        "img": "https://th.bing.com/th/id/OIP.3zpjDLnBn_rkjMJlZeJQgAHaED?pid=ImgDet&rs=1"
+    },
+    {
+        "IDS":"computer",
+        "id":"appliedthermodynamics",
+        "name":"Applied Thermodynamics",
+        "code":"ME 166",
+        "year": 1,
+        "semester":2,
+        "img": ""
+    },
+    {
+        "IDS":"computer",
+        "id":"communicationskillsII",
+        "name":"Communication Skills II",
+        "code":"ENGL 158",
+        "year": 1,
+        "semester":2,
+        "img": ""
+    },
+    {
+        "IDS":"computer",
+        "id":"basicelectronics",
+        "name":"Basic Electronics",
+        "code":"EE 152",
+        "year": 1,
+        "semester":2,
+        "img": ""
+    },
+    {
+        "IDS":"computer",
+        "id":"calculus",
+        "name":"Calculus With Analysis",
+        "code":"MATH 152",
+        "year": 1,
+        "semester":2,
+        "img": ""
+    },
+    {
+        "IDS":"computer",
+        "id":"electricmachines",
+        "name":"Electric Machines",
+        "code":"EE 172",
+        "year": 1,
+        "semester":2,
+        "img": ""
+    },
+    {
+        "IDS":"computer",
+        "id":"matlab",
+        "name":"Matlab",
+        "code":"COE 158",
+        "year": 1,
+        "semester":2,
+        "img": ""
+    },
+    {
+        "IDS":"computer",
+        "id":"programmingandproblemsolving",
+        "name":"Programming and Problem Solving",
+        "code":"COE 251",
+        "year": 1,
+        "semester":2,
+        "img": ""
+    },
+    {
+        "IDS":"computer",
+        "id":"accountingI",
+        "name":"Accounting I",
+        "code":"CSM 157",
+        "year": 2,
+        "semester":1,
+        "img": ""
+    },
+    {
+        "IDS":"computer",
+        "id":"frenchI",
+        "name":"French for Communication I",
+        "code":"FREN 181",
+        "year": 2,
+        "semester":1,
+        "img": ""
+    },
+    {
+        "IDS":"computer",
+        "id":"economicsI",
+        "name":"Introductory Economics I",
+        "code":"ECON 151",
+        "year": 2,
+        "semester":1,
+        "img": ""
+    },
+    {
+        "IDS":"computer",
+        "id":"circuittheory",
+        "name":"Circuit Theory",
+        "code":"EE 287",
+        "year": 2,
+        "semester":1,
+        "img": ""
+    },
+    {
+        "IDS":"computer",
+        "id":"communicationsystems",
+        "name":"Communication Systems",
+        "code":"TE 271",
+        "year": 2,
+        "semester":1,
+        "img": ""
+    },
+    {
+        "IDS":"computer",
+        "id":"computerorganizations",
+        "name":"Computer Organizations",
+        "code":"COE 273",
+        "year": 2,
+        "semester":1,
+        "img": ""
+    },
+    {
+        "IDS":"computer",
+        "id":"differentialequations",
+        "name":"Differential Equations",
+        "code":"MATH 251",
+        "year": 2,
+        "semester":1,
+        "img": ""
+    },
+    {
+        "IDS":"computer",
+        "id":"discretestructures",
+        "name":"Discrete Structures",
+        "code":"COE 251",
+        "year": 2,
+        "semester":1,
+        "img": ""
+    },
+    {
+        "IDS":"computer",
+        "id":"semiconductordevices",
+        "name":"Semiconductor Devices",
+        "code":"COE 271",
+        "year": 2,
+        "semester":1,
+        "img": ""
+    },
+    {
+        "IDS":"computer",
+        "id":"digitalsystems",
+        "name":"Digital Systems",
+        "code":"COE 272",
+        "year": 2,
+        "semester":2,
+        "img": ""
+    },
+    {
+        "IDS":"computer",
+        "id":"datastructuresandalgorithm",
+        "name":"Data Structures and Algorithm",
+        "code":"COE 252",
+        "year": 2,
+        "semester":2,
+        "img": ""
+    },
+    {
+        "IDS":"computer",
+        "id":"electricalmeasurementsandinstrumentation",
+        "name":"Electrical Measurements and Instrumentation",
+        "code":"COE 288",
+        "year": 2,
+        "semester":2,
+        "img": ""
+    },
+    {
+        "IDS":"computer",
+        "id":"electromagneticfieldstheory",
+        "name":"Electromagnetic Fields Theory",
+        "code":"TE 262",
+        "year": 2,
+        "semester":2,
+        "img": ""
+    },
+    {
+        "IDS":"computer",
+        "id":"literatureinenglishII",
+        "name":"Literature in English II",
+        "code":"ENGL 264",
+        "year": 2,
+        "semester":2,
+        "img": ""
+    },
+    {
+        "IDS":"computer",
+        "id":"introductiontoaccountingII",
+        "name":"Introduction to Accounting II",
+        "code":"CSM 158",
+        "year": 2,
+        "semester":2,
+        "img": ""
+    },
+    {
+        "IDS":"computer",
+        "id":"frenchforcommunicationII",
+        "name":"French for Communication II",
+        "code":"FREN 182",
+        "year": 2,
+        "semester":2,
+        "img": ""
+    },
+    {
+        "IDS":"computer",
+        "id":"economicsII",
+        "name":"Introductory Economics II",
+        "code":"ECON 152",
+        "year": 2,
+        "semester":2,
+        "img": ""
+    },
+    {
+        "IDS":"computer",
+        "id":"classicalcontrolsystems",
+        "name":"Classical Control Systems",
+        "code":"COE 387",
+        "year": 3,
+        "semester":1,
+        "img": ""
+    },
+    {
+        "IDS":"computer",
+        "id":"informationtheory",
+        "name":"Information Theory",
+        "code":"COE 353",
+        "year": 3,
+        "semester":1,
+        "img": ""
+    },
+    {
+        "IDS":"computer",
+        "id":"linearelectronicscircuit",
+        "name":"Linear Electronics Circuit",
+        "code":"COE 371",
+        "year": 3,
+        "semester":1,
+        "img": ""
+    },
+    {
+        "IDS":"computer",
+        "id":"microprocessors",
+        "name":"Microprocessors",
+        "code":"COE 381",
+        "year": 3,
+        "semester":1,
+        "img": ""
+    },
+    {
+        "IDS":"computer",
+        "id":"numericalanalysis",
+        "name":"Numerical Analysis",
+        "code":"MATH 351",
+        "year": 3,
+        "semester":1,
+        "img": ""
+    },
+    {
+        "IDS":"computer",
+        "id":"objectorientedprogramming",
+        "name":"Object Oriented Programming",
+        "code":"COE 351",
+        "year": 3,
+        "semester":1,
+        "img": ""
+    },
+    {
+        "IDS":"computer",
+        "id":"probabilityandstatistics",
+        "name":"Probability and Statistics",
+        "code":"MATH 353",
+        "year": 3,
+        "semester":1,
+        "img": ""
+    },
+    {
+        "IDS":"computer",
+        "id":"autotronicslab",
+        "name":"Autotronics Lab",
+        "code":"COE 392",
+        "year": 3,
+        "semester":2,
+        "img": ""
+    },
+    {
+        "IDS": "computer",
+        "id":"Databaseandinformationretrieval",
+        "name":"Database and Information Retrieval",
+        "code":"COE 368",
+        "year": 3,
+        "semester":2,
+        "img": ""
+    },
+    {
+        "IDS":"computer",
+        "id":"Digitalcomputerdesign",
+        "name":"Digital Computer Design",
+        "code":"COE 382",
+        "year": 3,
+        "semester":2,
+        "img": ""
+    },
+    {
+        "IDS":"computer",
+        "id":"embeddedsystemS",
+        "name":"Embedded SystemS",
+        "code":"COE 358",
+        "year": 3,
+        "semester":2,
+        "img": ""
+    },
+    {
+        "IDS":"computer",
+        "id":"operatingsystem",
+        "name":"Operating System",
+        "code":"COE 354",
+        "year": 3,
+        "semester":2,
+        "img": ""
+    },
+    {
+        "IDS":"computer",
+        "id":"introductiontosoftwareengineerng",
+        "name":"Introduction to Software Engineerng",
+        "code":"COE 356",
+        "year": 3,
+        "semester":2,
+        "img": ""
+    },
+    {
+        "IDS":"computer",
+        "id":"projectI",
+        "name":"Project I",
+        "code":"COE 497",
+        "year": 4,
+        "semester":1,
+        "img": ""
+    },
+    {
+        "IDS":"computer",
+        "id":"computernetworking",
+        "name":"Computer Networking",
+        "code":"COE 475",
+        "year": 4,
+        "semester":1,
+        "img": ""
+    },
+    {
+        "IDS":"computer",
+        "id":"computerarchitecture",
+        "name":"Computer Architecture",
+        "code":"COE 485",
+        "year": 4,
+        "semester":1,
+        "img": ""
+    },
+    {
+        "IDS":"computer",
+        "id":"computergraphics",
+        "name":"Computer Graphics",
+        "code":"COE 451",
+        "year": 4,
+        "semester":1,
+        "img": ""
+    },
+    {
+        "IDS":"computer",
+        "id":"distributedcomputing",
+        "name":"Distributed Computing",
+        "code":"COE 453",
+        "year": 4,
+        "semester":1,
+        "img": ""
+    },
+    {
+        "IDS":"computer",
+        "id":"artificialintelligence",
+        "name":"Artificial Intelligence",
+        "code":"COE 457",
+        "year": 4,
+        "semester":1,
+        "img": ""
+    },
+    {
+        "IDS":"computer",
+        "id":"entrepreneurshipdevelopment",
+        "name":"Entrepreneurship Development",
+        "code":"ME 492",
+        "year": 4,
+        "semester":2,
+        "img": ""
+    },
+    {
+        "IDS":"computer",
+        "id":"projectII",
+        "name":"Project II",
+        "code":"COE 498",
+        "year": 4,
+        "semester":2,
+        "img": ""
+    },
+    {
+        "IDS":"computer",
+        "id":"introductiontovlsi",
+        "name":"Introduction to VLSI",
+        "code":"COE 486",
+        "year": 4,
+        "semester":2,
+        "img": ""
+    },
+    {
+        "IDS":"computer",
+        "id":"compilerconstruction",
+        "name":"Compiler Construction",
+        "code":"COE 452",
+        "year": 4,
+        "semester":2,
+        "img": ""
+    },
+    {
+        "IDS":"computer",
+        "id":"softwareengineering",
+        "name":"Software Engineering",
+        "code":"COE 454",
+        "year": 4,
+        "semester":2,
+        "img": ""
+    },
+    {
+        "IDS":"computer",
+        "id":"securenetworksystems",
+        "name":"Secure Network Systems",
+        "code":"COE 456",
+        "year": 4,
+        "semester":2,
+        "img": ""
+    },
+    {
+        "IDS":"computer",
+        "id":"computervisionandrobotics",
+        "name":"Computer Vision and Robotics",
+        "code":"COE 458",
+        "year": 4,
+        "semester":2,
+        "img": ""
+    },
+    {
+        "IDS":"computer",
+        "id":"faultdiagnosisandfailuretolerance",
+        "name":"Fault Diagnosis and Failure Tolerance",
+        "code":"COE 480",
+        "year": 4,
+        "semester":2,
+        "img": ""
+    },
+    {
+        "IDS":"electrical",
+        "id":"algebra",
+        "name":"Algebra",
+        "code":"MATH 151",
+        "year": 1,
+        "semester":1,
+        "img": ""
+    }, 
+    {
+        "IDS":"electrical",
+        "id":"appliedelectricity",
+        "name":"Applied Electricity",
+        "code":"EE 151",
+        "year":1,
+        "semester":1,
+        "img": ""
+    }, 
+    {
+        "IDS":"electrical",
+        "id":"communicationskillsI",
+        "name":"Communication Skills I",
+        "code":"ENGL 157",
+        "year": 1,
+        "semester":1,
+        "img": ""
+    }, 
+    {
+        "IDS":"electrical",
+        "id":"basicmechanics",
+        "name":"Basic Mechanics",
+        "code":"ME 161",
+        "year": 1,
+        "semester":1,
+        "img": ""
+    }, 
+    {
+        "IDS":"electrical",
+        "id":"technicaldrawing",
+        "name":"Technical Drawing",
+        "code":"ME 159",
+        "year": 1,
+        "semester":1,
+        "img": ""
+    },
+    {
+        "IDS":"electrical",
+        "id":"environmentalstudies",
+        "name":"Environmental Studies",
+        "code":"CE 155",
+        "year": 1,
+        "semester":1,
+        "img": ""
+    },
+    {
+        "IDS":"electrical",
+        "id":"enginetechnology",
+        "name":"Engineering Technology",
+        "code":"EE 153",
+        "year": 1,
+        "semester":1,
+        "img": ""
+    },
+    {
+        "IDS":"electrical",
+        "id":"appliedthermodynamics",
+        "name":"Applied Thermodynamics",
+        "code":"ME 166",
+        "year": 1,
+        "semester":2,
+        "img": ""
+    },
+    {
+        "IDS":"electrical",
+        "id":"basicelectronics",
+        "name":"Basic Electronics",
+        "code":"EE 152",
+        "year": 1,
+        "semester":2,
+        "img": ""
+    },
+    {
+        "IDS":"electrical",
+        "id":"calculuswithanalysis",
+        "name":"Calculus with Analysis",
+        "code":"MATH 152",
+        "year": 1,
+        "semester":2,
+        "img": ""
+    },
+    {
+        "IDS":"electrical",
+        "id":"electricmachines",
+        "name":"Electric Machines",
+        "code":"EE 172",
+        "year": 1,
+        "semester":2,
+        "img": ""
+    },
+    {
+        "IDS":"electrical",
+        "id":"introductiontoit",
+        "name":"Introduction to IT",
+        "code":"COE 158",
+        "year": 1,
+        "semester":2,
+        "img": ""
+    },
+    {
+        "IDS":"electrical",
+        "id":"electromechanicalEneryConverionandtransformers",
+        "name":"Electromechanical Enery Converion and Transformers",
+        "code":"EE 162",
+        "year": 1,
+        "semester":2,
+        "img": ""
+    },
+    {
+        "IDS":"electrical",
+        "id":"communicationskillsII",
+        "name":"Communication Skills II",
+        "code":"ENGL 158",
+        "year": 1,
+        "semester":2,
+        "img": ""
+    },
+    {
+        "IDS":"electrical",
+        "id":"differentialequations",
+        "name":"Differential Equations",
+        "code":"MATH 251",
+        "year": 2,
+        "semester":1,
+        "img": ""
+    },
+    {
+        "IDS":"electrical",
+        "id":"cprogramming",
+        "name":"C Programming",
+        "code":"COE 251",
+        "year": 2,
+        "semester":1,
+        "img": ""
+    },
+    {
+        "IDS":"electrical",
+        "id":"asynchronousanddcmachines",
+        "name":"Asynchronous and DC machines",
+        "code":"EE 261",
+        "year": 2,
+        "semester":1,
+        "img": ""
+    },
+    {
+        "IDS":"electrical",
+        "id":"semiconductordevices",
+        "name":"Semiconductor Devices",
+        "code":"EE 271",
+        "year": 2,
+        "semester":1,
+        "img": ""
+    },
+    {
+        "IDS":"electrical",
+        "id":"circuittheory",
+        "name":"Circuit Theory",
+        "code":"EE 287",
+        "year": 2,
+        "semester":1,
+        "img": ""
+    },
+    {
+        "IDS":"electrical",
+        "id":"electricalengineeringlabI",
+        "name":"Electrical Engineering Lab I",
+        "code":"EE 291",
+        "year": 2,
+        "semester":1,
+        "img": ""
+    },
+    {
+        "IDS":"electrical",
+        "id":"literatureinenglishI",
+        "name":"Literature in English I",
+        "code":"ENGL 263",
+        "year": 2,
+        "semester":1,
+        "img": ""
+    },
+    {
+        "IDS":"electrical",
+        "id":"introductiontoaccountingI",
+        "name":"Introduction to Accounting I",
+        "code":"CSM 157",
+        "year": 2,
+        "semester":1,
+        "img": ""
+    },
+    {
+        "IDS":"electrical",
+        "id":"frenchforcommunicationI",
+        "name":"French for Communication I",
+        "code":"FREN 181",
+        "year": 2,
+        "semester":1,
+        "img": ""
+    },
+    {
+        "IDS":"electrical",
+        "id":"introductoryeconomicsI",
+        "name":"Introductory Economics I",
+        "code":"ECON 151",
+        "year": 2,
+        "semester":1,
+        "img": ""
+    },
+    {
+        "IDS":"electrical",
+        "id":"calculuswithseveralvariables",
+        "name":"Calculus with Several Variables",
+        "code":"MATH 252",
+        "year": 2,
+        "semester":2,
+        "img": ""
+    },
+    {
+        "IDS":"electrical",
+        "id":"synchronousmachines",
+        "name":"Synchronous Machines",
+        "code":"EE 262",
+        "year": 2,
+        "semester":2,
+        "img": ""
+    },
+    {
+        "IDS":"electrical",
+        "id":"digitalsystems",
+        "name":"Digital Systems",
+        "code":"EE 272",
+        "year": 2,
+        "semester":2,
+        "img": ""
+    },
+    {
+        "IDS":"electrical",
+        "id":"electromagneticfields",
+        "name":"Electromagnetic Fields",
+        "code":"TE 262",
+        "year": 2,
+        "semester":2,
+        "img": ""
+    },
+    {
+        "IDS":"electrical",
+        "id":"electmeasurementandinstr",
+        "name":"Electrical Measurement and Instrumentation",
+        "code":"EE 288",
+        "year": 2,
+        "semester":2,
+        "img": ""
+    },
+    {
+        "IDS":"electrical",
+        "id":"electricalengineeringlabII",
+        "name":"Electrical Engineering Lab II",
+        "code":"EE 292",
+        "year": 2,
+        "semester":2,
+        "img": ""
+    },
+    {
+        "IDS":"electrical",
+        "id":"literatureinenglishII",
+        "name":"Literature in English II",
+        "code":"ENGL 264",
+        "year": 2,
+        "semester":2,
+        "img": ""
+    },
+    {
+        "IDS":"electrical",
+        "id":"accountingII",
+        "name":"Accounting II",
+        "code":"CSM 158",
+        "year": 2,
+        "semester":2,
+        "img": ""
+    },
+    {
+        "IDS":"electrical",
+        "id":"frenchII",
+        "name":"French for Communication II",
+        "code":"FREN 182",
+        "year": 2,
+        "semester":2,
+        "img": ""
+    },
+    {
+        "IDS":"electrical",
+        "id":"economicsII",
+        "name":"Introductory Economics II",
+        "code":"ECON 152",
+        "year": 2,
+        "semester":2,
+        "img": ""
+    },
+    {
+        "IDS":"electrical",
+        "id":"probabilityandstatistics",
+        "name":"Probability and Statistics",
+        "code":"MATH 353",
+        "year": 3,
+        "semester":1,
+        "img": ""
+    }, 
+    {
+        "IDS":"electrical",
+        "id":"numericalanalysis",
+        "name":"Numerical Analysis",
+        "code":"MATH 351",
+        "year": 3,
+        "semester":1,
+        "img": ""
+    }, 
+    {
+        "IDS":"electrical",
+        "id":"powergenerationandsupply",
+        "name":"Power Generation and Supply",
+        "code":"EE 367",
+        "year": 3,
+        "semester":1,
+        "img": ""
+    }, 
+    {
+        "IDS":"electrical",
+        "id":"analoguecommunicationsystems",
+        "name":"Analogue Communication Systems",
+        "code":"TE 271",
+        "year": 3,
+        "semester":1,
+        "img": ""
+    }, 
+    {
+        "IDS":"electrical",
+        "id":"linearelectronicscircuits",
+        "name":"Linear Electronics Circuits",
+        "code":"EE 371",
+        "year": 3,
+        "semester":1,
+        "img": ""
+    }, 
+    {
+        "IDS":"electrical",
+        "id":"microprocessors",
+        "name":"Microprocessors",
+        "code":"COE 381",
+        "year": 3,
+        "semester":1,
+        "img": ""
+    }, 
+    {
+        "IDS":"electrical",
+        "id":"electricalservicesdesign",
+        "name":"Electrical Services Design",
+        "code":"EE 365",
+        "year": 3,
+        "semester":1,
+        "img": ""
+    }, 
+    {
+        "IDS":"electrical",
+        "id":"classicalcontrolsystem",
+        "name":"Classical Control System",
+        "code":"EE 387",
+        "year": 3,
+        "semester":1,
+        "img": ""
+    },
+    {
+        "IDS":"electrical",
+        "id":"powerelectronics",
+        "name":"Power Electronics",
+        "code":"EE 366",
+        "year": 3,
+        "semester":2,
+        "img": ""
+    }, 
+    {
+        "IDS":"electrical",
+        "id":"powersystemsanalysis",
+        "name":"Power Systems Analysis",
+        "code":"EE 368",
+        "year": 3,
+        "semester":2,
+        "img": ""
+    },  
+    {
+        "IDS":"electrical",
+        "id":"digitalcommunicationsystems",
+        "name":"Digital Communication Systems",
+        "code":"TE 386",
+        "year": 3,
+        "semester":2,
+        "img": ""
+    },  
+    {
+        "IDS":"electrical",
+        "id":"electricalengineeringlabIII",
+        "name":"Electrical Engineering Lab III",
+        "code":"EE 392",
+        "year": 3,
+        "semester":2,
+        "img": ""
+    },  
+    {
+        "IDS":"electrical",
+        "id":"substationandtransmissionlinedesign",
+        "name":"Substation and Transmission Line Design",
+        "code":"EE 362",
+        "year": 3,
+        "semester":2,
+        "img": ""
+    },  
+    {
+        "IDS":"electrical",
+        "id":"digitalcomputerdesign",
+        "name":"Digital Computer Design",
+        "code":"COE 382",
+        "year": 3,
+        "semester":2,
+        "img": ""
+    },  
+    {
+        "IDS":"electrical",
+        "id":"switchingengineeringincommunication",
+        "name":"Switching Engineering in Communication",
+        "code":"TE 384",
+        "year": 3,
+        "semester":2,
+        "img": ""
+    },  
+    {
+        "IDS":"electrical",
+        "id":"digitalcontrolsystems",
+        "name":"Digital Control Systems",
+        "code":"EE 380",
+        "year": 3,
+        "semester":2,
+        "img": ""
+    },  
+    {
+        "IDS":"electrical",
+        "id":"highvoltageengineering",
+        "name":"High Voltage Engineering",
+        "code":"EE 360",
+        "year": 3,
+        "semester":2,
+        "img": ""
+    },  
+    {
+        "IDS":"electrical",
+        "id":"antennasandpropagation",
+        "name":"Antennas and Propagation",
+        "code":"TE 372",
+        "year": 3,
+        "semester":2,
+        "img": ""
+    },  
+    {
+        "IDS":"electrical",
+        "id":"engineeringeconomicsandmanagment",
+        "name":"Engineering Economics and Managment",
+        "code":"ME 491",
+        "year": 4,
+        "semester":1,
+        "img": ""
+    },       
+    {
+        "IDS":"electrical",
+        "id":"projectI",
+        "name":"Project I",
+        "code":"EE 497",
+        "year": 4,
+        "semester":1,
+        "img": ""
+    },
+    {
+        "IDS":"electrical",
+        "id":"powersystemoperationandcontrol",
+        "name":"Power System Operation and Control",
+        "code":"EE 467",
+        "year": 4,
+        "semester":1,
+        "img": ""
+    },
+    {
+        "IDS":"electrical",
+        "id":"Computernetworking",
+        "name":"Computer Networking",
+        "code":"COE 475",
+        "year": 4,
+        "semester":1,
+        "img": ""
+    },
+    {
+        "IDS":"electrical",
+        "id":"generalizedmachinetheory",
+        "name":"Generalized Machine Theory",
+        "code":"EE 461",
+        "year": 4,
+        "semester":1,
+        "img": ""
+    },
+    {
+        "IDS":"electrical",
+        "id":"electricalheating/Cooling",
+        "name":"Electrical Heating/Cooling",
+        "code":"EE 469",
+        "year": 4,
+        "semester":1,
+        "img": ""
+    },
+    {
+        "IDS":"electrical",
+        "id":"specialelectricalmachines",
+        "name":"Special Electrical Machines",
+        "code":"EE 463",
+        "year": 4,
+        "semester":1,
+        "img": ""
+    },
+    {
+        "IDS":"electrical",
+        "id":"wirelessdatacommunicationsystems",
+        "name":"Wireless Data Communication Systems",
+        "code":"TE 481",
+        "year": 4,
+        "semester":1,
+        "img": ""
+    },
+    {
+        "IDS":"electrical",
+        "id":"principlesoflinearsystems",
+        "name":"Principles of Linear Systems",
+        "code":"EE 487",
+        "year": 4,
+        "semester":1,
+        "img": ""
+    },
+    {
+        "IDS":"electrical",
+        "id":"entrepreneurshipdevelopment",
+        "name":"Entrepreneurship Development",
+        "code":"ME 492",
+        "year": 4,
+        "semester":2,
+        "img": ""
+    },
+    {
+        "IDS":"electrical",
+        "id":"projectII",
+        "name":"Project II",
+        "code":"EE 498",
+        "year": 4,
+        "semester":2,
+        "img": ""
+    },
+    {
+        "IDS":"electrical",
+        "id":"electricdrives",
+        "name":"Electric Drives",
+        "code":"EE 462",
+        "year": 4,
+        "semester":2,
+        "img": ""
+    },
+    {
+        "IDS":"electrical",
+        "id":"powersystemprotection",
+        "name":"Power System Protection",
+        "code":"EE 468",
+        "year": 4,
+        "semester":2,
+        "img": ""
+    },
+    {
+        "IDS":"electrical",
+        "id":"powersystemplanandoptimization",
+        "name":"Power System Plan and Optimization",
+        "code":"EE 466",
+        "year": 4,
+        "semester":2,
+        "img": ""
+    },
+    {
+        "IDS":"electrical",
+        "id":"digitalsignalprocessing",
+        "name":"Digital Signal Processing",
+        "code":"EE 472",
+        "year": 4,
+        "semester":2,
+        "img": ""
+    },
+    {
+        "IDS":"electrical",
+        "id":"systemprogramming",
+        "name":"System Programming",
+        "code":"EE 482",
+        "year": 4,
+        "semester":2,
+        "img": ""
+    },
+    {
+        "IDS":"electrical",
+        "id":"introductiontovlsi",
+        "name":"Introduction to VLSI",
+        "code":"COE 486",
+        "year": 4,
+        "semester":2,
+        "img": ""
+    },
+    {
+        "IDS":"electrical",
+        "id":"industrialautomaticcontrol",
+        "name":"Industrial Automatic Control",
+        "code":"COE 484",
+        "year": 4,
+        "semester":2,
+        "img": ""
+    },
+    {
+        "IDS":"electrical",
+        "id":"mobileandsatellitecommsystem",
+        "name":"Mobile and Satellite Comm. System",
+        "code":"TE 472",
+        "year": 4,
+        "semester":2,
+        "img": ""
+    },
+    {
+        "IDS":"telecom",
+        "id":"algebra",
+        "name":"Algebra",
+        "code":"MATH 151",
+        "year":1,
+        "semester":1,
+        "img": ""
+
+    },
+    {
+        "IDS":"telecom",
+        "id":"communicationskillsI",
+        "name":"Communications Skills I",
+        "code":"ENGL 157",
+        "year":1,
+        "semester":1,
+        "img": ""
+
+    },
+    {
+        "IDS":"telecom",
+        "id":"environmentalstudies",
+        "name":"Environmental Studies",
+        "code":"CE 155",
+        "year":1,
+        "semester":1,
+        "img": ""
+
+    },
+    {
+        "IDS":"telecom",
+        "id":"technicaldrawing",
+        "name":"Technical drawing",
+        "code":"ME 159",
+        "year":1,
+        "semester":1,
+        "img": ""
+
+    },
+    {
+        "IDS":"telecom",
+        "id":"basic mechanics",
+        "name":"Basic Mechanics",
+        "code":"ME 161",
+        "year":1,
+        "semester":1,
+        "img": ""
+
+    },
+    {
+        "IDS":"telecom",
+        "id":"appliedelectricity",
+        "name":"Applied Electricity",
+        "code":"EE 151",
+        "year":1,
+        "semester":1,
+        "img": ""
+
+    },
+    {
+        "IDS":"telecom",
+        "id":"electricalengineeringdrawing",
+        "name":"Electrical Engineering Drawing",
+        "code":"EE 153",
+        "year":1,
+        "semester":1,
+        "img": ""
+
+    },
+    {
+        "IDS":"telecom",
+        "id":"calculuswithanalysis",
+        "name":"Calculus with Analysis",
+        "code":"MATH 152",
+        "year":1,
+        "semester":2,
+        "img": ""
+
+    },
+    {
+        "IDS":"telecom",
+        "id":"communicationskills",
+        "name":"Communication Skills",
+        "code":"ENGL 158",
+        "year":1,
+        "semester":2,
+        "img": ""
+
+    },
+    {
+        "IDS":"telecom",
+        "id":"appliedthermodynamics",
+        "name":"Applied Thermodynamics",
+        "code":"ME 166",
+        "year":1,
+        "semester":2,
+        "img": ""
+
+    },
+    {
+        "IDS":"telecom",
+        "id":"basicelectronics",
+        "name":"Basic Electronics",
+        "code":"EE 152",
+        "year":1,
+        "semester":2,
+        "img": ""
+
+    },
+    {
+        "IDS":"telecom",
+        "id":"electricalengineeringdrawing",
+        "name":"Electrical Engineering Drawing",
+        "code":"EE 156",
+        "year":1,
+        "semester":2,
+        "img": ""
+
+    },
+    {
+        "IDS":"telecom",
+        "id":"electricalmachines",
+        "name":"Electrical Machines",
+        "code":"EE 172",
+        "year":1,
+        "semester":2,
+        "img": ""
+
+    },
+    {
+        "IDS":"telecom",
+        "id":"inroductiontoit",
+        "name":"Introduction To IT",
+        "code":"COE 158",
+        "year":1,
+        "semester":2,
+        "img": ""
+
+    },
+    {
+        "IDS":"telecom",
+        "id":"differentialequations",
+        "name":"Differential Equations",
+        "code":"MATH 251",
+        "year":2,
+        "semester":1,
+        "img": ""
+
+    },
+    {
+        "IDS":"telecom",
+        "id":"cprogramming",
+        "name":"C Programming",
+        "code":"COE 251",
+        "year":2,
+        "semester":1,
+        "img": ""
+
+    },
+    {
+        "IDS":"telecom",
+        "id":"semiconductordevices",
+        "name":"Semiconductor Devices",
+        "code":"EE 271",
+        "year":2,
+        "semester":1,
+        "img": ""
+
+    },
+    {
+        "IDS":"telecom",
+        "id":"circuittheory",
+        "name":"Circuit Theory",
+        "code":"EE 287",
+        "year":2,
+        "semester":1,
+        "img": ""
+
+    },
+    {
+        "IDS":"telecom",
+        "id":"analogcommunicationssystems",
+        "name":"Analog Communications Systems",
+        "code":"TE 271",
+        "year":2,
+        "semester":1,
+        "img": ""
+
+    },
+    {
+        "IDS":"telecom",
+        "id":"telecommunicationslabI",
+        "name":"Telecommunications Lab I",
+        "code":"TE 291",
+        "year":2,
+        "semester":1,
+        "img": ""
+
+    },
+    {
+        "IDS":"telecom",
+        "id":"engineeringinsociety",
+        "name":"Engineering In Society",
+        "code":"CENG 291",
+        "year":2,
+        "semester":1,
+        "img": ""
+
+    },
+    {
+        "IDS":"telecom",
+        "id":"frenchforcommunicationI",
+        "name":"French for Commmunications",
+        "code":"FREN 181",
+        "year":2,
+        "semester":1,
+        "img": ""
+
+    },
+    {
+        "IDS":"telecom",
+        "id":"calculuswithseveralvariables",
+        "name":"Calculus with Several Variables",
+        "code":"MATH 252",
+        "year":2,
+        "semester":2,
+        "img": ""
+
+    },
+    {
+        "IDS":"telecom",
+        "id":"digitalsystems",
+        "name":"Digital Systems",
+        "code":"EE 272",
+        "year":2,
+        "semester":2,
+        "img": ""
+
+    },
+    {
+        "IDS":"telecom",
+        "id":"electricalmeasurementandinstrumentation",
+        "name":"Electrical Measurement and Instrumentation",
+        "code":"EE 288",
+        "year":2,
+        "semester":2,
+        "img": ""
+
+    },
+    {
+        "IDS":"telecom",
+        "id":"electromagneticfield",
+        "name":"Electromagnetic Field",
+        "code":"TE 262",
+        "year":2,
+        "semester":2,
+        "img": ""
+
+    },
+    {
+        "IDS":"telecom",
+        "id":"telecommunicationslabII",
+        "name":"Telecommunication Lab II",
+        "code":"TE 292",
+        "year":2,
+        "semester":2,
+        "img": ""
+
+    },
+    {
+        "IDS":"telecom",
+        "id":"frenchforcommunication",
+        "name":"French for Communication",
+        "code":"FREN 182",
+        "year":2,
+        "semester":2,
+        "img": ""
+
+    },
+    {
+        "IDS":"telecom",
+        "id":"numericalmethods",
+        "name":"Numerical Methods",
+        "code":"MATH 351",
+        "year":3,
+        "semester":1,
+        "img": ""
+
+    },
+    {
+        "IDS":"telecom",
+        "id":"statistics",
+        "name":"Statistics",
+        "code":"MATH 353",
+        "year":3,
+        "semester":1,
+        "img": ""
+
+    },
+    {
+        "IDS":"telecom",
+        "id":"microprocessor",
+        "name":"Miroprocessor",
+        "code":"COE 381",
+        "year":3,
+        "semester":1,
+        "img": ""
+
+    },
+    {
+        "IDS":"telecom",
+        "id":"signalsandsystems",
+        "name":"Signal and Systems",
+        "code":"TE 385",
+        "year":3,
+        "semester":1,
+        "img": ""
+
+    },
+    {
+        "IDS":"telecom",
+        "id":"informationtheory",
+        "name":"Information Theory",
+        "code":"TE 361",
+        "year":3,
+        "semester":1,
+        "img": ""
+
+    },
+    {
+        "IDS":"telecom",
+        "id":"optialcommunications",
+        "name":"Optical Communications",
+        "code":"TE 381",
+        "year":3,
+        "semester":1,
+        "img": ""
+
+    },
+    {
+        "IDS":"telecom",
+        "id":"linearelectroniccircuit",
+        "name":"Linear Electronic Circuit",
+        "code":"EE 371",
+        "year":3,
+        "semester":1,
+        "img": ""
+
+    },
+    {
+        "IDS":"telecom",
+        "id":"telecommunicationlabIII",
+        "name":"Telecommunications Lab III",
+        "code":"TE 391",
+        "year":3,
+        "semester":1,
+        "img": ""
+
+    },
+    {
+        "IDS":"telecom",
+        "id":"telecominfratructure",
+        "name":"Telecom Infrastructure",
+        "code":"TE 362",
+        "year":3,
+        "semester":2,
+        "img": ""
+
+    },
+    {
+        "IDS":"telecom",
+        "id":"communicationcircuit",
+        "name":"Communication Circuit",
+        "code":"TE 364",
+        "year":3,
+        "semester":2,
+        "img": ""
+
+    },
+    {
+        "IDS":"telecom",
+        "id":"antennas&propagation",
+        "name":"Antenna & Propagation",
+        "code":"TE 372",
+        "year":3,
+        "semester":2,
+        "img": ""
+
+    },
+    {
+        "IDS":"telecom",
+        "id":"datacommunicationnetworks",
+        "name":"Data Communication Networks",
+        "code":"TE 382",
+        "year":3,
+        "semester":2,
+        "img": ""
+
+    },
+    {
+        "IDS":"telecom",
+        "id":"switchingengineeringincommunication",
+        "name":"Switching Engineering in Communication",
+        "code":"TE 384",
+        "year":3,
+        "semester":2,
+        "img": ""
+
+    },
+    {
+        "IDS":"telecom",
+        "id":"digitalcommunicationsystem",
+        "name":"Digital Communication Systems",
+        "code":"TE 386",
+        "year":3,
+        "semester":2,
+        "img": ""
+
+    },
+    {
+        "IDS":"telecom",
+        "id":"telecommunicationlabIV",
+        "name":"Telecommunication Lab IV",
+        "code":"TE 392",
+        "year":3,
+        "semester":2,
+        "img": ""
+
+    },
+    {
+        "IDS":"telecom",
+        "id":"computerapplication&projectdesign",
+        "name":"Computer Application & Project Design",
+        "code":"TE 461",
+        "year":4,
+        "semester":1,
+        "img": ""
+
+    },
+    {
+        "IDS":"telecom",
+        "id":"electromagneticcompatibility",
+        "name":"Electromagnetic Compatibility",
+        "code":"TE 471",
+        "year":4,
+        "semester":1,
+        "img": ""
+
+    },
+    {
+        "IDS":"telecom",
+        "id":"wirelessdatacommuniationnetworks",
+        "name":"Wireless Data Communications Networks",
+        "code":"TE 481",
+        "year":4,
+        "semester":1,
+        "img": ""
+
+    },
+    {
+        "IDS":"telecom",
+        "id":"projectI",
+        "name":"Project I",
+        "code":"TE 497",
+        "year":4,
+        "semester":1,
+        "img": ""
+
+    },
+    {
+        "IDS":"telecom",
+        "id":"engineeringecon&management",
+        "name":"Engineering Econ & management",
+        "code":"ME 491",
+        "year":4,
+        "semester":1,
+        "img": ""
+
+    },
+    {
+        "IDS":"telecom",
+        "id":"computernetworking",
+        "name":"Computer Networking",
+        "code":"COE 475",
+        "year":4,
+        "semester":1,
+        "img": ""
+
+    },
+    {
+        "IDS":"telecom",
+        "id":"enterpreneurshipdevelopment",
+        "name":"Enterpreneurship Development",
+        "code":"ME 492",
+        "year":4,
+        "semester":2,
+        "img": ""
+
+    },
+    {
+        "IDS":"telecom",
+        "id":"telecompolicy",
+        "name":"Telecom Policy",
+        "code":"TE 462",
+        "year":4,
+        "semester":2,
+        "img": ""
+
+    },
+    {
+        "IDS":"telecom",
+        "id":"digitalsignalprocessing",
+        "name":"Digital Signal Processing",
+        "code":"TE 472",
+        "year":4,
+        "semester":2,
+        "img": ""
+
+    },
+    {
+        "IDS":"telecom",
+        "id":"microwaveengineering",
+        "name":"Microwave Engineering",
+        "code":"TE 474",
+        "year":4,
+        "semester":2,
+        "img": ""
+
+    },
+    {
+        "IDS":"telecom",
+        "id":"projectII",
+        "name":"Project II",
+        "code":"TE 498",
+        "year":4,
+        "semester":2,
+        "img": ""
+
+    },
+    {
+        "IDS":"telecom",
+        "id":"introductiontovlsi",
+        "name":"Introduction to VLSI",
+        "code":"COE 486",
+        "year":4,
+        "semester":2,
+        "img": ""
+
+    },
+    {
+        "IDS":"telecom",
+        "id":"networkplanning",
+        "name":"Network Planning",
+        "code":"TE 484",
+        "year":4,
+        "semester":2,
+        "img": ""
+
+    },
+    {
+        "IDS":"petrochemical",
+        "id":"inorganicchemistryforengineers",
+        "name":"Inorganic Chemistry for Engineers",
+        "code":"CHE 151",
+        "year":1,
+        "semester":1,
+        "img": ""
+
+    },
+    {
+        "IDS":"petrochemical",
+        "id":"organicchemistryforengineers",
+        "name":"Organic Chemistry for Engineers",
+        "code":"CHE 153",
+        "year":1,
+        "semester":1,
+        "img": ""
+
+    },
+    {
+        "IDS":"petrochemical",
+        "id":"chemistrypracticalI",
+        "name":"chemistry Practical I",
+        "code":"CHEM 179",
+        "year":1,
+        "semester":1,
+        "img": ""
+
+    },
+    {
+        "IDS":"petrochemical",
+        "id":"appliedelectricity",
+        "name":"Applied Electricity",
+        "code":"EE 151",
+        "year":1,
+        "semester":1,
+        "img": ""
+
+    },
+    {
+        "IDS":"petrochemical",
+        "id":"communicationkillsI",
+        "name":"Communications Skills I",
+        "code":"ENGL 157",
+        "year":1,
+        "semester":1,
+        "img": ""
+
+    },
+    {
+        "IDS":"petrochemical",
+        "id":"algebra",
+        "name":"Algebra",
+        "code":"MATH 151",
+        "year":1,
+        "semester":1,
+        "img": ""
+
+    },
+    {
+        "IDS":"petrochemical",
+        "id":"technicaldrawing",
+        "name":"Tehnical Drawing",
+        "code":"ME 159",
+        "year":1,
+        "semester":1,
+        "img": ""
+
+    },
+    {
+        "IDS":"petrochemical",
+        "id":"physicalchemistryforengineers",
+        "name":"Physical Chemistry for Engineers",
+        "code":"CHE 156",
+        "year":1,
+        "semester":2,
+        "img": ""
+
+    },
+    {
+        "IDS":"petrochemical",
+        "id":"basicelectronics",
+        "name":"Basic electronics",
+        "code":"EE 152",
+        "year":1,
+        "semester":2,
+        "img": ""
+
+    },
+    {
+        "IDS":"petrochemical",
+        "id":"communicationskillsII",
+        "name":"Communication Skills II",
+        "code":"ENGL 158",
+        "year":1,
+        "semester":2,
+        "img": ""
+
+    },
+    {
+        "IDS":"petrochemical",
+        "id":"calculuswithanalysis",
+        "name":"Calculus with Analysis",
+        "code":"MATH 152",
+        "year":1,
+        "semester":2,
+        "img": ""
+
+    },
+    {
+        "IDS":"petrochemial",
+        "id":"basicmechanics",
+        "name":"Basic Mechanics",
+        "code":"ME 162",
+        "year":1,
+        "semester":2,
+        "img": ""
+
+    },
+    {
+        "IDS":"petrochemial",
+        "id":"introductiontoinformationtechnology",
+        "name":"Introduction to Information Technology",
+        "code":"COE 158",
+        "year":1,
+        "semester":2,
+        "img": ""
+
+    },
+    {
+        "IDS":"petrochemial",
+        "id":"generalphysics",
+        "name":"General Physics",
+        "code":"PHY 170",
+        "year":1,
+        "semester":2,
+        "img": ""
+
+    },
+    {
+        "IDS":"petrochemical",
+        "id":"engineeringinsociety",
+        "name":"Engineering in Society",
+        "code":"CENG 291",
+        "year":2,
+        "semester":1,
+        "img": ""
+
+    },
+    {
+        "IDS":"petrochemical",
+        "id":"chemicalprocesscalculationI",
+        "name":"Chemical Process Calculation I",
+        "code":"CHE 251",
+        "year":2,
+        "semester":1,
+        "img": ""
+
+    },
+    {
+        "IDS":"petrochemical",
+        "id":"chemicalengineeringthermodynamicI",
+        "name":"Chemical Engineering Thermodynamic I",
+        "code":"CHE 253",
+        "year":2,
+        "semester":1,
+        "img": ""
+
+    },
+    {
+        "IDS":"petrochemical",
+        "id":"fluidtransport",
+        "name":"Fluid Transport",
+        "code":"CHE 255",
+        "year":2,
+        "semester":1,
+        "img": ""
+
+    },
+    {
+        "IDS":"petrochemical",
+        "id":"analyticalchemistryforengineers",
+        "name":"Analytical Chemistry for Engineers",
+        "code":" CHE 257",
+        "year":2,
+        "semester":1,
+        "img": ""
+
+    },
+    {
+        "IDS":"petrochemical",
+        "id":"computerapplicationsforengineers",
+        "name":"Computer Applications for Engineers",
+        "code":"CHE 261",
+        "year":2,
+        "semester":1,
+        "img": ""
+
+    },
+    {
+        "IDS":"petrochemical",
+        "id":"differntialequations",
+        "name":"Differential Equations",
+        "code":"MATH 251",
+        "year":2,
+        "semester":1,
+        "img": ""
+
+    },
+    {
+        "IDS":"petrochemical",
+        "id":"introductiontopetrochemicalindustries",
+        "name":"Introduction to Petrochemical Indutries",
+        "code":"PCE 253",
+        "year":2,
+        "semester":1,
+        "img": ""
+
+    },
+    {
+        "IDS":"petrochemical",
+        "id":"strengthofmaterialsforchem.engineers",
+        "name":"Strength of Materials for Chem. Engineers  ",
+        "code":"CHE 250",
+        "year":2,
+        "semester":2,
+        "img": ""
+
+    },
+    {
+        "IDS":"petrochemical",
+        "id":"chemicalprocesscalculationsII",
+        "name":"Chemical Process Calculations II",
+        "code":"CHE 252",
+        "year":2,
+        "semester":2,
+        "img": ""
+
+    },
+    {
+        "IDS":"petrochemical",
+        "id":"chemicalengineeringthermodynamicsII",
+        "name":"Chemical Engineering Thermodynamics II",
+        "code":"CHE 254",
+        "year":2,
+        "semester":2,
+        "img": ""
+
+    },
+    {
+        "IDS":"petrochemical",
+        "id":"heattransportprocesses",
+        "name":"Heat Transport Processes",
+        "code":"CHE 256",
+        "year":2,
+        "semester":2,
+        "img": ""
+
+    },
+    {
+        "IDS":"petrochemical",
+        "id":"drawingforengineers",
+        "name":"Drawing for Engineers",
+        "code":"CHE 258",
+        "year":2,
+        "semester":2,
+        "img": ""
+
+    },
+    {
+        "IDS":"petrochemical",
+        "id":"chemistrypracticalII",
+        "name":"Chemistry Practical II",
+        "code":"CHEM 280",
+        "year":2,
+        "semester":2,
+        "img": ""
+
+    },
+    {
+        "IDS":"petrochemical",
+        "id":"calculuswithseveralvariables",
+        "name":"Calculus with Several Variables",
+        "code":"MATH 252",
+        "year":2,
+        "semester":2,
+        "img": ""
+
+    },
+    {
+        "IDS":"petrochemical",
+        "id":"expeimentaldataanalysis",
+        "name":"Experimental Data Analysis",
+        "code":"CHE 357",
+        "year":3,
+        "semester":1,
+        "img": ""
+
+    },
+    {
+        "IDS":"petrochemical",
+        "id":"separationprocessesI",
+        "name":"Separation Processes I",
+        "code":"PCE 351",
+        "year":3,
+        "semester":1,
+        "img": ""
+
+    },
+    {
+        "IDS":"petrochemical",
+        "id":"petrochemicalengineeringlaboratoryI",
+        "name":"Petrochemical Engineering Laboratory I",
+        "code":"PCE 353",
+        "year":3,
+        "semester":1,
+        "img": ""
+
+    },
+    {
+        "IDS":"petrochemical",
+        "id":"fireandsafetyengineering",
+        "name":"Fire and safety Engineering",
+        "code":"PCE 355",
+        "year":3,
+        "semester":1,
+        "img": ""
+
+    },
+    {
+        "IDS":"petrochemical",
+        "id":"organicandpetrochemicalsynthesis",
+        "name":"Organic and Petrchemical Synthesis",
+        "code":"PCE 357",
+        "year":3,
+        "semester":1,
+        "img": ""
+
+    },
+    {
+        "IDS":"petrochemical",
+        "id":"petrochemialfluidproperties",
+        "name":"Petrochemical Fluid Properties",
+        "code":"PCE 359",
+        "year":3,
+        "semester":1,
+        "img": ""
+
+    },
+    {
+        "IDS":"petrochemical",
+        "id":"petrochemialeng.electiveoptionI",
+        "name":"Petrochemical Eng. elective Option I",
+        "code":"PCE xxx",
+        "year":3,
+        "semester":1,
+        "img": ""
+
+    },
+    {
+        "IDS":"petrochemical",
+        "id":"generalelective",
+        "name":"General Elective",
+        "code":"XXX xxx",
+        "year":3,
+        "semester":1,
+        "img": ""
+
+    },
+    {
+        "IDS":"petrochemical",
+        "id":"materialscience",
+        "name":"Material Science",
+        "code":"CHE 350",
+        "year":3,
+        "semester":2,
+        "img": ""
+
+    },
+    {
+        "IDS":"petrochemical",
+        "id":"numericalmethodsforchem.engineers",
+        "name":"Numerical Methods for Chem. Engineers",
+        "code":"CHE 358",
+        "year":3,
+        "semester":2,
+        "img": ""
+
+    },
+    {
+        "IDS":"petrochemical",
+        "id":"kineticsandreactionengineering",
+        "name":"Kinetics and Reaction Engineering",
+        "code":"PCE 350",
+        "year":3,
+        "semester":2,
+        "img": ""
+
+    },
+    {
+        "IDS":"petrochemical",
+        "id":"separationprocessesII",
+        "name":"Separation Processes II",
+        "code":"PCE 352",
+        "year":3,
+        "semester":2,
+        "img": ""
+
+    },
+    {
+        "IDS":"petrochem",
+        "id":"petrochemicalengineeringlaboratoryII",
+        "name":"Petrochemical Engineering Laboratory II",
+        "code":"PCE 354",
+        "year":3,
+        "semester":2,
+        "img": ""
+
+    },
+    {
+        "IDS":"petrochemical",
+        "id":"petrochemicaleng.electiveoptionII",
+        "name":"Petrochemical Eng. Elective option II",
+        "code":"PCE xxx",
+        "year":3,
+        "semester":2,
+        "img": ""
+
+    },
+    {
+        "IDS":"petrochemical",
+        "id":"petroleumprodutionengineering",
+        "name":"Petroleum Production Engineering",
+        "code":"PETE 354",
+        "year":3,
+        "semester":2,
+        "img": ""
+    },
+    {
+        "IDS":"petrochemical",
+        "id":"naturalgasengineering",
+        "name":"Natural Gas Engineering",
+        "code":"PETE 450",
+        "year":3,
+        "semester":2,
+        "img": ""
+
+    },
+    {
+        "IDS":"petrochemical",
+        "id":"chemicalprocessdesignandeconomics",
+        "name":"Chemical Process Design and Economics",
+        "code":"CHE 451",
+        "year":4,
+        "semester":1,
+        "img": ""
+
+    },
+    {
+        "IDS":"petrochemical",
+        "id":"processcontrolandinstumentation",
+        "name":"Process Control and Instrumentation",
+        "code":"CHE 455",
+        "year":4,
+        "semester":1,
+        "img": ""
+
+    },
+    {
+        "IDS":"petrochemical",
+        "id":"catalysis",
+        "name":"Catalysis",
+        "code":"PCE 451",
+        "year":4,
+        "semester":1,
+        "img": ""
+
+    },
+    {
+        "IDS":"petrochemical",
+        "id":"projectI",
+        "name":"Project I",
+        "code":"PCE 453",
+        "year":4,
+        "semester":1,
+        "img": ""
+
+    },
+    {
+        "IDS":"petrochemical",
+        "id":"pollutioncontrolinthepetrochemicalind.",
+        "name":"Pollution Control in the Petrochemical Ind",
+        "code":"PCE 455",
+        "year":4,
+        "semester":1,
+        "img": ""
+
+    },
+    {
+        "IDS":"petrochemical",
+        "id":"corrosionengineering",
+        "name":"Corrosion Engineering",
+        "code":"PCE 457",
+        "year":4,
+        "semester":1,
+        "img": ""
+
+    },
+    {
+        "IDS":"petrochemical",
+        "id":"petrochemicaleng.electiveoptionIII",
+        "name":"Petrochemical Eng. Elective Option III",
+        "code":"PCE xxx",
+        "year":4,
+        "semester":1,
+        "img": ""
+
+    },
+    {
+        "IDS":"petrochemical",
+        "id":"openelective",
+        "name":"Open Elective",
+        "code":"XXX xxx",
+        "year":4,
+        "semester":1,
+        "img": ""
+
+    },
+    {
+        "IDS":"petrochemical",
+        "id":"processcontrolandsimulation",
+        "name":"Process Control and Simulation",
+        "code":"CHE 452",
+        "year":4,
+        "semester":2,
+        "img": ""
+
+    },
+    {
+        "IDS":"petrochemical",
+        "id":"enterpreneuship&businessdevelopment",
+        "name":"Enterpreneuship & Business Development",
+        "code":"CHE 458",
+        "year":4,
+        "semester":2,
+        "img": ""
+
+    },
+    {
+        "IDS":"petrochemical",
+        "id":"petroleumrefiningengineering",
+        "name":"Petroleum Refining Engineering",
+        "code":"PCE 450",
+        "year":4,
+        "semester":2,
+        "img": ""
+
+    },
+    {
+        "IDS":"petrochemical",
+        "id":"fieldtripandindusrtrialattachment",
+        "name":"Field Trip and industrial Attachment",
+        "code":"PCE 452",
+        "year":4,
+        "semester":2,
+        "img": ""
+
+    },
+    {
+        "IDS":"petrochemical",
+        "id":"projectII",
+        "name":"Project II",
+        "code":"PCE 454",
+        "year":4,
+        "semester":2,
+        "img": ""
+
+    },
+    {
+        "IDS":"petrochemical",
+        "id":"petrochemicaleng.electiveoptionIV",
+        "name":"Petrochemica Eng.Elective Option IV",
+        "code":"PCE xxx",
+        "year":4,
+        "semester":2,
+        "img": ""
+
+    },
+    {
+        "IDS":"materials",
+        "id":"introductiontoethics&morality",
+        "name":"Introduction to Ethics & Morality",
+        "code":"ETIC 161",
+        "year":1,
+        "semester":1,
+        "img": ""
+
+    },
+    {
+        "IDS":"materials",
+        "id":"appliedelectricity",
+        "name":"Applied Electricity",
+        "code":"EE 151",
+        "year":1,
+        "semester":1,
+        "img": ""
+
+    },
+    {
+        "IDS":"materials",
+        "id":"communicationskillsI",
+        "name":"Communication Skills I",
+        "code":"ENGL 157",
+        "year":1,
+        "semester":1,
+        "img": ""
+
+    },
+    {
+        "IDS":"materials",
+        "id":"algebra",
+        "name":"Algebra",
+        "code":"MATH 151",
+        "year":1,
+        "semester":1,
+        "img": ""
+
+    },
+    {
+        "IDS":"materials",
+        "id":"technicaldrawing",
+        "name":"Technical Drawing",
+        "code":"ME 159",
+        "year":1,
+        "semester":1,
+        "img": ""
+
+    },
+    {
+        "IDS":"materials",
+        "id":"engineeringtechnologyI",
+        "name":"Engineering Technology I",
+        "code":"ME 195",
+        "year":1,
+        "semester":1,
+        "img": ""
+
+    },
+    {
+        "IDS":"materials",
+        "id":"introductiontothermodynamics",
+        "name":"Introduction to Thermodynamics",
+        "code":"MSE 151",
+        "year":1,
+        "semester":1,
+        "img": ""
+
+    },
+    {
+        "IDS":"materials",
+        "id":"introductiontoinformationtechnology",
+        "name":"Introduction to Information technology",
+        "code":"MSE 153",
+        "year":1,
+        "semester":1,
+        "img": ""
+
+    },
+    {
+        "IDS":"materials",
+        "id":"basicelectronics",
+        "name":"Basic Electronics",
+        "code":"EE 152",
+        "year":1,
+        "semester":2,
+        "img": ""
+
+    },
+    {
+        "IDS":"materials",
+        "id":"communicationskillsII",
+        "name":"Communication Skills II",
+        "code":"ENGL 158",
+        "year":1,
+        "semester":2,
+        "img": ""
+
+    },
+    {
+        "IDS":"materials",
+        "id":"calculuswithanalysis",
+        "name":"Calculus with Analysis",
+        "code":"MATH 152",
+        "year":1,
+        "semester":2,
+        "img": ""
+
+    },
+    {
+        "IDS":"materials",
+        "id":"engineeringdrawing",
+        "name":"engineeing Drawing",
+        "code":"ME 160",
+        "year":1,
+        "semester":2,
+        "img": ""
+
+    },
+    {
+        "IDS":"materials",
+        "id":"basicmechanics",
+        "name":"Basic Mechanics",
+        "code":"ME 162",
+        "year":1,
+        "semester":2,
+        "img": ""
+
+    },
+    {
+        "IDS":"materials",
+        "id":"kinecticsofchemicalreaction",
+        "name":"Kinectics of Chemical Reaction",
+        "code":"MSE 152",
+        "year":1,
+        "semester":2,
+        "img": ""
+
+    },
+    {
+        "IDS":"materials",
+        "id":"principlesofmaterialscience",
+        "name":"Priciples of Material Science",
+        "code":"MSE 154",
+        "year":1,
+        "semester":2,
+        "img": ""
+
+    },
+    {
+        "IDS":"materials",
+        "id":"frenchforcommunicationpurposesI",
+        "name":"French for Communication Purposes I",
+        "code":"FC 181",
+        "year":2,
+        "semester":1,
+        "img": ""
+
+    },
+    {
+        "IDS":"materials",
+        "id":"engineeringinsociety",
+        "name":"Engineering in Society",
+        "code":"CENG 291",
+        "year":2,
+        "semester":1,
+        "img": ""
+
+    },
+    {
+        "IDS":"materials",
+        "id":"propertiesofengineeringmaterials",
+        "name":"Properties of Engineering Materials",
+        "code":"MSE 255",
+        "year":2,
+        "semester":1,
+        "img": ""
+
+    },
+    {
+        "IDS":"materials",
+        "id":"indigenousprocessing",
+        "name":"Indigenous Processing",
+        "code":"MSE 257",
+        "year":2,
+        "semester":1,
+        "img": ""
+
+    },
+    {
+        "IDS":"materials",
+        "id":"differntialequations",
+        "name":"Differential Equations",
+        "code":"MATH 251",
+        "year":2,
+        "semester":1,
+        "img": ""
+
+    },
+    {
+        "IDS":"materials",
+        "id":"mechanicalbehaviourofmaterials",
+        "name":"Mechanical Behaviour of Materials",
+        "code":"MSE 253",
+        "year":2,
+        "semester":1,
+        "img": ""
+
+    },
+    {
+        "IDS":"materials",
+        "id":"momentumtransport",
+        "name":"Moment Transport",
+        "code":"MSE 251",
+        "year":2,
+        "semester":1,
+        "img": ""
+
+    },
+    {
+        "IDS":"materials",
+        "id":"calculuswithseveralvariables",
+        "name":"Calculus With Several Variables",
+        "code":"MATH 252",
+        "year":2,
+        "semester":2,
+        "img": ""
+
+    },
+    {
+        "IDS":"materials",
+        "id":"physicalmetallurgyofnonferrousmetals",
+        "name":"Physical Meatallurgy of Non-Ferrous Metals",
+        "code":"MSE 258",
+        "year":2,
+        "semester":2,
+        "img": ""
+
+    },
+    {
+        "IDS":"materials",
+        "id":"heatandmasstransport",
+        "name":"Heat and Mass Transport",
+        "code":"MSE 252",
+        "year":2,
+        "semester":2,
+        "img": ""
+
+    },
+    {
+        "IDS":"materials",
+        "id":"computerprogrammingandapplications",
+        "name":"Computer Programming and Applications",
+        "code":"MSE 262",
+        "year":2,
+        "semester":2,
+        "img": ""
+
+    },
+    {
+        "IDS":"materials",
+        "id":"environmentalscience",
+        "name":"Environmental Science",
+        "code":"MSE 256",
+        "year":2,
+        "semester":2,
+        "img": ""
+
+    },
+    {
+        "IDS":"materials",
+        "id":"phasetransformations",
+        "name":"Phase Transformations",
+        "code":"MSE 260",
+        "year":2,
+        "semester":2,
+        "img": ""
+
+    },
+    {
+        "IDS":"materials",
+        "id":"materialsprocessing",
+        "name":"Materials Processing",
+        "code":"MSE 254 ",
+        "year":2,
+        "semester":2,
+        "img": ""
+
+    },
+    {
+        "IDS":"materials",
+        "id":"stressandstrainanalysisofrigidbodies",
+        "name":"Stress and Strain Analysis of rigid Bodies",
+        "code":"MSE 361",
+        "year":3,
+        "semester":1,
+        "img": ""
+
+    },
+    {
+        "IDS":"materials",
+        "id":"engineeringceramics",
+        "name":"Engineering Ceramics",
+        "code":"MSE 351",
+        "year":3,
+        "semester":1,
+        "img": ""
+
+    },
+    {
+        "IDS":"materials",
+        "id":"probabilityandstatistics",
+        "name":"Probability and Statistics",
+        "code":"MATH 353",
+        "year":3,
+        "semester":1,
+        "img": ""
+
+    },
+    {
+        "IDS":"materials",
+        "id":"pyrometallurgy",
+        "name":"Pyrometallurgy",
+        "code":"MSE 353",
+        "year":3,
+        "semester":1,
+        "img": ""
+
+    },
+    {
+        "IDS":"materials",
+        "id":"foundrytechnology",
+        "name":"Foundry Technology",
+        "code":"MSE 357",
+        "year":3,
+        "semester":1,
+        "img": ""
+
+    },
+    {
+        "IDS":"materials",
+        "id":"materialcharacterization",
+        "name":"Material Characterization",
+        "code":"MSE 363",
+        "year":3,
+        "semester":1,
+        "img": ""
+
+    },
+    {
+        "IDS":"materials",
+        "id":"polymerprocessing",
+        "name":"Polymer Processing",
+        "code":"MSE 355",
+        "year":3,
+        "semester":1,
+        "img": ""
+
+    },
+    {
+        "IDS":"materials",
+        "id":"materialprocessinglaboratory",
+        "name":"Material Processing Laboratory",
+        "code":"MSE 359",
+        "year":3,
+        "semester":1,
+        "img": ""
+
+    },
+    {
+        "IDS":"materials",
+        "id":"mechanicsofmaterials",
+        "name":"Mechanics of Materials",
+        "code":"MSE 362",
+        "year":3,
+        "semester":2,
+        "img": ""
+
+    },
+    {
+        "IDS":"materials",
+        "id":"engineeringpropertiesofpolymer",
+        "name":"Engineering Properties of Polymer",
+        "code":"MSE 356",
+        "year":3,
+        "semester":2,
+        "img": ""
+
+    },
+    {
+        "IDS":"materials",
+        "id":"materialjoiningprocess",
+        "name":"Material Joining Process",
+        "code":"MSE 362",
+        "year":3,
+        "semester":2,
+        "img": ""
+
+    },
+    {
+        "IDS":"materials",
+        "id":"physicalmetallurgyofferrousmetals",
+        "name":"Physical Metallurgy of Ferrous Metals",
+        "code":"MSE 354",
+        "year":3,
+        "semester":2,
+        "img": ""
+
+    },
+    {
+        "IDS":"materials",
+        "id":"numericalmethodsforengineers",
+        "name":"Numerical Methods for Engineers",
+        "code":"MSE 358",
+        "year":3,
+        "semester":2,
+        "img": ""
+
+    },
+    {
+        "IDS":"materials",
+        "id":"glassandcementtechnology",
+        "name":"Glass and Cement Technology",
+        "code":"MSE 352",
+        "year":3,
+        "semester":2,
+        "img": ""
+
+    },
+    {
+        "IDS":"materials",
+        "id":"materialcharacterizationlaboratory",
+        "name":"Material Characterization Laboratory",
+        "code":"MSE 364",
+        "year":3,
+        "semester":2,
+        "img": ""
+
+    },
+    {
+        "IDS":"materials",
+        "id":"3rdyeardesignproject",
+        "name":"3rd Year Design Project",
+        "code":"MSE 396",
+        "year":3,
+        "semester":2,
+        "img": ""
+
+    },
+    {
+        "IDS":"materials",
+        "id":"engineeringeconomicsandmanagement",
+        "name":"Engineering Economics and Management",
+        "code":"ME 491",
+        "year":4,
+        "semester":1,
+        "img": ""
+
+    },
+    {
+        "IDS":"materials",
+        "id":"compositematerials",
+        "name":"Composite Materials",
+        "code":"MSE 451",
+        "year":4,
+        "semester":1,
+        "img": ""
+
+    },
+    {
+        "IDS":"materials",
+        "id":"corrosionofengineeringmaterials",
+        "name":"Corrosion and Engineering Materials",
+        "code":"MSE 453",
+        "year":4,
+        "semester":1,
+        "img": ""
+
+    },
+    {
+        "IDS":"materials",
+        "id":"electrical/magneticpropertiesofmaterials",
+        "name":"Electrical/Magnetic Properties of Materials",
+        "code":"MSE 455",
+        "year":4,
+        "semester":1,
+        "img": ""
+
+    },
+    {
+        "IDS":"materials",
+        "id":"metalworkingprocessess",
+        "name":"Metal Working Processes",
+        "code":"MSE 457",
+        "year":4,
+        "semester":1,
+        "img": ""
+
+    },
+    {
+        "IDS":"materials",
+        "id":"vacationtraining",
+        "name":"Vacation Training",
+        "code":"MSE 459",
+        "year":4,
+        "semester":1,
+        "img": ""
+
+    },
+    {
+        "IDS":"materials",
+        "id":"projectI",
+        "name":"Project I",
+        "code":"MSE 497",
+        "year":4,
+        "semester":1,
+        "img": ""
+
+    },
+    {
+        "IDS":"materials",
+        "id":"processcontrol/simulation",
+        "name":"Process Control/Simulation",
+        "code":"CHE 452",
+        "year":4,
+        "semester":2,
+        "img": ""
+
+    },
+    {
+        "IDS":"materials",
+        "id":"wastemangement",
+        "name":"Waste Management",
+        "code":"MSE 452",
+        "year":4,
+        "semester":2,
+        "img": ""
+
+    },
+    {
+        "IDS":"materials",
+        "id":"projectII",
+        "name":"Project II",
+        "code":"MSE 498",
+        "year":4,
+        "semester":2,
+        "img": ""
+
+    },
+    {
+        "IDS":"materials",
+        "id":"managementandenterpreneurshipdevelopment",
+        "name":"Management and Enterpreneurship Development",
+        "code":"ME 492",
+        "year":4,
+        "semester":2,
+        "img": ""
+
+    },
+    {
+        "IDS":"materials",
+        "id":"surfacetreatmentofmaterials",
+        "name":"Surface Treatment of Materials",
+        "code":"MSE 454",
+        "year":4,
+        "semester":2,
+        "img": ""
+
+    },
+    {
+        "IDS":"materials",
+        "id":"materialsqualitycontrol,assuranceandselection",
+        "name":"Materials Quality Control,Assurance and Selection",
+        "code":"MSE 456",
+        "year":4,
+        "semester":2,
+        "img": ""
+
+    },
+    {
+        "IDS":"materials",
+        "id":"economicsII",
+        "name":"Introductory Economics II",
+        "year": 4,
+        "semester": 2,
+        "img": ""
+    },
+    {
+        "IDS":"materials",
+        "id":"accountingII",
+        "name":"Accounting II",
+        "year": 4,
+        "semester":2,
+        "img": ""
+    },
+    {
+        "IDS":"chemical",
+        "id":"inorganicchemistryforengineers",
+        "name":"Inorganic Chemistry for Engineers",
+        "code":"CHE 151",
+        "year": 1,
+        "semester":1,
+        "img": ""
+    },
+    {
+        "IDS":"chemical",
+        "id":"organicchemistryforengineers",
+        "name":"Organic Chemistry for Engineers",
+        "code" :"CHE 153",
+        "year": 1,
+        "semester":1,
+        "img": ""
+    },
+    {
+        "IDS":"chemical",
+        "id":"practicalchemistryI",
+        "name":"Practical Chemistry I",
+        "code" :"CHEM 169",
+        "year": 1,
+        "semester":1,
+        "img": ""
+    },
+    {
+        "IDS":"chemical",
+        "id":"appliedelectricity",
+        "name":"Applied Electricity",
+        "code" : "EE 151",
+        "year": 1,
+        "semester":1,
+        "img": ""
+    },
+    {
+        "IDS":"chemical",
+        "id":"communicationskillsI",
+        "name":"Communication Skills I",
+        "code" :"ENGL 157",
+        "year": 1,
+        "semester":1,
+        "img": ""
+    },
+    {
+        "IDS":"chemical",
+        "id":"algebra",
+        "name":"Algebra",
+        "code" :"MATH 151",
+        "year": 1,
+        "semester":1,
+        "img": ""
+    },{
+        "IDS":"chemical",
+        "id":"technicaldrawing",
+        "name":"Technical Drawing",
+        "code" :"ME 159",
+        "year": 1,
+        "semester":1,
+        "img": ""
+    },
+    {
+        "IDS":"chemical",
+        "id":"communicationskillsII",
+        "name":"Communications Skills II",
+        "code" :"ENGL 158",
+        "year": 1,
+        "semester":2,
+        "img": ""
+    },
+    {
+        "IDS":"chemical",
+        "id":"calculuswithanalysis",
+        "name":"Calculus with Analysis",
+        "code" :"MATH 152",
+        "year": 1,
+        "semester":2,
+        "img": ""
+    },
+    {
+        "IDS":"chemical",
+        "id":"basicmechanics",
+        "name":"Basic Mechanics",
+        "code" :"ME 162",
+        "year": 1,
+        "semester":2,
+        "img": ""
+    },
+    {
+        "IDS":"chemical",
+        "id":"physicalchemistryforengineers",
+        "name":"Physical Chemistry for Engineers",
+        "code" :"CHE 156",
+        "year": 1,
+        "semester":2,
+        "img": ""
+    },
+    {
+        "IDS":"chemical",
+        "id":"generalphysics",
+        "name":"General Physics",
+        "code" :"PHY 170",
+        "year": 1,
+        "semester":2,
+        "img": ""
+    },
+    {
+        "IDS":"chemical",
+        "id":"introdutiontoinformationtechnology",
+        "name":"Introduction to Information Technology",
+        "code" :"COE 158",
+        "year": 1,
+        "semester":2,
+        "img": ""
+    },
+    {
+        "IDS":"chemical",
+        "id":"basicelectronics",
+        "name":"Basic Electronics",
+        "code" :"EE 152",
+        "year": 1,
+        "semester":2,
+        "img": ""
+    },
+
+    {
+        "IDS":"chemical",
+        "id":"engineeringinsociety",
+        "name":"Engineering in Society",
+        "code" :"CENG 291",
+        "year": 2,
+        "semester":1,
+        "img": ""
+    },
+    {
+        "IDS":"chemical",
+        "id":"chemicalprocesscalculationsI",
+        "name":"Chemical Process Calculations I",
+        "code" :"CHE 251",
+        "year": 2,
+        "semester":1,
+        "img": ""
+    },
+    {
+        "IDS":"chemical",
+        "id":"chemicalengineeringthrmodynamicsI",
+        "name":"Chemical Engineering Thermodynamics I",
+        "code" :"CHE 253",
+        "year": 2,
+        "semester":1,
+        "img": ""
+    },
+    {
+        "IDS":"chemical",
+        "id":"fluidtransport",
+        "name":"Fluid Transport",
+        "code" :"CHE 255",
+        "year": 2,
+        "semester":1,
+        "img": ""
+    },
+    {
+        "IDS":"chemical",
+        "id":"analyticalchemistryforchemicalengineers",
+        "name":"Analytical Chemistry for Chemical Engineers",
+        "code" :"CHE 257",
+        "year": 2,
+        "semester":1,
+        "img": ""
+    },
+    {
+        "IDS":"chemical",
+        "id":"chemicalprocessindustries",
+        "name":"Chemical Process Industries",
+        "code" :"CHE 259",
+        "year": 2,
+        "semester":1,
+        "img": ""
+    },
+    {
+        "IDS":"chemical",
+        "id":"computerapplicationsforengineers",
+        "name":"Computer Applications for Engineers",
+        "code" :"CHE 261",
+        "year": 2,
+        "semester":1,
+        "img": ""
+    },
+    {
+        "IDS":"chemical",
+        "id":"differentialequations",
+        "name":"Differential Equations",
+        "code" :"MATH 251",
+        "year": 2,
+        "semester":1,
+        "img": ""
+    },
+    {
+        "IDS":"chemical",
+        "id":"strengthofmaterialforchem.engineers",
+        "name":"Strength of Materials for Chem.Engineers",
+        "code" :"CHE 250",
+        "year": 2,
+        "semester":2,
+        "img": ""
+    },
+    {
+        "IDS":"chemical",
+        "id":"chemicalprocesscalculationII",
+        "name":"Chemical Process Calculations II ",
+        "code" :"CHE 252",
+        "year": 2,
+        "semester":2,
+        "img": ""
+    },
+    {
+        "IDS":"chemical",
+        "id":"chemicalengineeringthermodynamics",
+        "name":"Chemical Engineering Thermodynamics",
+        "code" :"CHE 254",
+        "year": 2,
+        "semester":2,
+        "img": ""
+    },
+    {
+        "IDS":"chemical",
+        "id":"heattransportprocesses",
+        "name":"Heat Transport Processes",
+        "code" :"cCHE 256",
+        "year": 2,
+        "semester":2,
+        "img": ""
+    },
+    {
+        "IDS":"chemical",
+        "id":"drawingforengineers",
+        "name":"Drawing for Engineers",
+        "code" :"CHE 258",
+        "year": 2,
+        "semester":2,
+        "img": ""
+    },
+    {
+        "IDS":"chemical",
+        "id":"chemistrypracticalII",
+        "name":"Chemistry Practical II",
+        "code" :"CHEM 280",
+        "year": 2,
+        "semester":2,
+        "img": ""
+    },
+    {
+        "IDS":"chemical",
+        "id":"calculusofseveralvariables",
+        "name":"Calculus of Several Variables",
+        "code" :"",
+        "year": 2,
+        "semester":2,
+        "img": ""
+    },
+    {
+        "IDS":"chemical",
+        "id":"chemicalengineeringlaboratoryI",
+        "name":"Chemical Engineering Laboratory I ",
+        "code" :"CHE 353",
+        "year": 3,
+        "semester":1,
+        "img": ""
+    },
+    {
+        "IDS":"chemical",
+        "id":"processengineeringprojectI",
+        "name":"Process Engineering Project I",
+        "code" :"CHE 355",
+        "year": 3,
+        "semester":1,
+        "img": ""
+    },
+    {
+        "IDS":"chemical",
+        "id":"experimentaldataanalysis",
+        "name":"Experimental Data Analysis",
+        "code" :"CHE 357 ",
+        "year": 3,
+        "semester":1,
+        "img": ""
+    },
+    {
+        "IDS":"chemical",
+        "id":"mechanicalseparationprocess",
+        "name":"Mechanical Separation Process",
+        "code" :"CHE 359",
+        "year": 3,
+        "semester":1,
+        "img": ""
+    },
+    {
+        "IDS":"chemical",
+        "id":"polymertechnology",
+        "name":"Polymer Technology",
+        "code" :"CHE 363",
+        "year": 3,
+        "semester":1,
+        "img": ""
+    },
+    {
+        "IDS":"chemical",
+        "id":"introductoryeconomicsI",
+        "name":"Introductory Economics I",
+        "code" :"Econ 151",
+        "year": 3,
+        "semester":1,
+        "img": ""
+    },
+    {
+        "IDS":"chemical",
+        "id":"masstranferprocess",
+        "name":"Mass Transfer Process",
+        "code" :"CHE 351",
+        "year": 3,
+        "semester":1,
+        "img": ""
+    },
+
+    {
+        "IDS":"chemical",
+        "id":"foodprocessingtechnology",
+        "name":"Food Processing Technology",
+        "code" :"CHE 368",
+        "year": 3,
+        "semester":2,
+        "img": ""
+    },
+    {
+
+        "IDS":"chemical",
+        "id":"materialsscience",
+        "name":"Materials Science",
+        "code" :"CHE 350",
+        "year": 3,
+        "semester":2,
+        "img": ""
+    },
+    {
+        "IDS":"chemical",
+        "id":"chemicalreactionengineering",
+        "name":"Chemical Reaction Engineering",
+        "code" :"CHE 352",
+        "year": 3,
+        "semester":2,
+        "img": ""
+    },
+    {
+        "IDS":"chemical",
+        "id":"simultaneousheat/masstransfer",
+        "name":"Simultaneous Heat/Mass Transfer",
+        "code" :"CHE 354",
+        "year": 3,
+        "semester":2,
+        "img": ""
+    },
+    {
+        "IDS":"chemical",
+        "id":"processengineeringprojectII",
+        "name":"Process Engineering Project II",
+        "code" :"CHE 356",
+        "year": 3,
+        "semester":2,
+        "img": ""
+    },
+    {
+        "IDS":"chemical",
+        "id":"numericalmethodsforchemicalengigineers",
+        "name":"Numerical Methods For Chemical Engineers",
+        "code" :"CHE 358",
+        "year": 3,
+        "semester":2,
+        "img": ""
+    },
+    {
+        "IDS":"chemical",
+        "id":"introductoryeconomicsII",
+        "name":"Introductory Economics II",
+        "code" :"ECON 152",
+        "year": 3,
+        "semester":2,
+        "img": ""
+    },
+    {
+        "IDS":"agricultural",
+        "id":"algebra",
+        "name":"Algebra",
+        "code":"MATH 151",
+        "year": 1,
+        "semester":1,
+        "img": ""
+    }, 
+    {
+        "IDS":"agricultural",
+        "id":"appliedelectricity",
+        "name":"Applied Electricity",
+        "code":"EE 151",
+        "year":1,
+        "semester":1,
+        "img": ""
+    }, 
+    {
+        "IDS":"agricultural",
+        "id":"communicationskills",
+        "name":"Communication Skills",
+        "code":"ENGL 157",
+        "year": 1,
+        "semester":1,
+        "img": ""
+    }, 
+    {
+        "IDS":"agricultural",
+        "id":"agriculturalmeteorology",
+        "name":"Agricultural Meteorology",
+        "code":"AE 153",
+        "year":1,
+        "semester":1,
+        "img": ""
+    },
+    {
+        "IDS":"agricultural",
+        "id":"technicaldrawing",
+        "name":"Technical Drawing",
+        "code":"ME 159",
+        "year": 1,
+        "semester":1,
+        "img": ""
+    },
+    {
+        "IDS":"agricultural",
+        "id":"environmentalstudies",
+        "name":"Environmental Studies",
+        "code":"CE 155",
+        "year": 1,
+        "semester":1,
+        "img": ""
+    },
+    {
+        "IDS":"agricultural",
+        "id":"enginetechnology",
+        "name":"Engine Technology",
+        "code":"COE 153",
+        "year": 1,
+        "semester":1,
+        "img": ""
+    },
+   {
+        "IDS":"agricultural",
+        "id":"communicationskillsII",
+        "name":"Communication Skills II",
+        "code":"ENGL 158",
+        "year": 1,
+        "semester":2,
+        "img": ""
+    },
+    {
+            "IDS":"agricultural",
+            "id":"informationtechnology",
+            "name":"Introduction to Information Technology",
+            "code":"AE 158",
+            "year": 1,
+            "semester":2,
+            "img": ""
+    },
+
+    {
+        "IDS":"agricultural",
+        "id":"basicmechanics",
+        "name":"Basic Mechanics",
+        "code":"ME 162",
+        "year": 1,
+        "semester":2,
+        "img": ""
+    }, 
+    {
+        "IDS":"agricultural",
+        "id":"basicelectronics",
+        "name":"Basic Electronics",
+        "code":"EE 152",
+        "year": 1,
+        "semester":2,
+        "img": ""
+    },
+    {
+        "IDS":"agricultural",
+        "id":"basicagricultural",
+        "name":"Basic Agriculture",
+        "code":"EE 152",
+        "year": 1,
+        "semester":2,
+        "img": ""
+    },
+    {
+        "IDS":"agricultural",
+        "id":"engineeringdrawing",
+        "name":"Engineering Drawing",
+        "code":"ME 160",
+        "year": 1,
+        "semester":1,
+        "img": ""
+    },
+    {
+        "IDS":"agricultural",
+        "id":"calculus",
+        "name":"Calculus With Analysis",
+        "code":"MATH 152",
+        "year": 1,
+        "semester":2,
+        "img": ""
+    },
+    {
+        "IDS":"agricultural",
+        "id":"engineeringworkshoppractice",
+        "name":"Engineering Workshop Practice ",
+        "code":"AE 196",
+        "year": 1,
+        "semester":2,
+        "img": ""
+    },
+   
+    {
+        "IDS":"agricultural",
+        "id":"accountingI",
+        "name":"Accounting I",
+        "code":"CSM 157",
+        "year": 2,
+        "semester":1,
+        "img": ""
+    },
+    {
+        "IDS":"agricultural",
+        "id":"thermodynamicsI",
+        "name":" Thermodynamics I",
+        "code":"ME 265",
+        "year": 2,
+        "semester":1,
+        "img": ""
+    },
+    {
+        "IDS":"agricultural",
+        "id":"frenchI",
+        "name":"French for Communication I",
+        "code":"FREN 181",
+        "year": 2,
+        "semester":1,
+        "img": ""
+    },
+    {
+        "IDS":"agricultural",
+        "id":"economicsI",
+        "name":"Introductory Economics I",
+        "code":"ECON 151",
+        "year": 2,
+        "semester":1,
+        "img": ""
+    },
+    {
+        "IDS":"agricultural",
+        "id":"fluidmechanicsI",
+        "name":"Fluid Mechanics I",
+        "code":"ME 251",
+        "year": 2,
+        "semester":1,
+        "img": ""
+    },
+    {
+        "IDS":"agricultural",
+        "id":"literatureinenglishI",
+        "name":"Literature in English I",
+        "code":"ENGL 263",
+        "year": 2,
+        "semester":1,
+        "img": ""
+    },
+    {
+        "IDS":"agricultural",
+        "id":"strengthofmaterials",
+        "name":"Strength of Materials",
+        "code":"ME 255",
+        "year": 2,
+        "semester":1,
+        "img": ""
+    },
+    {
+        "IDS":"agricultural",
+        "id":"engineeringinsociety",
+        "name":"Engineering In Society",
+        "code":"CENG 291",
+        "year": 2,
+        "semester":1,
+        "img": ""
+    },
+    {
+        "IDS":"agricultural",
+        "id":"differentialequations",
+        "name":"Differential Equations",
+        "code":"MATH 251",
+        "year": 2,
+        "semester":1,
+        "img": ""
+    },
+    {
+        "IDS":"agricultural",
+        "id":"applicationofagriculturalgraphics",
+        "name":"Application of Agricultural Graphics",
+        "code":"ME 259",
+        "year": 2,
+        "semester":1,
+        "img": ""
+    },
+    {
+        "IDS":"agricultural",
+        "id":"mechanicalengineeringlabI",
+        "name":"Mechanical Engineering Lab I",
+        "code":"ME 295",
+        "year": 2,
+        "semester":1,
+        "img": ""
+    },
+    {
+        "IDS":"agricultural",
+        "id":"principlesofsurveying",
+        "name":"Principles of Surveying",
+        "code":"GE 286",
+        "year": 2,
+        "semester":2,
+        "img": ""
+    },
+    {
+        "IDS":"agricultural",
+        "id":"multivariableanalysis",
+        "name":"Multivariable Analysis",
+        "code":"MATH 252",
+        "year": 2,
+        "semester":2,
+        "img": ""
+    },
+    {
+        "IDS":"agricultural",
+        "id":"electricmachines",
+        "name":" Electrical Engineering Machines",
+        "code":"EE 252",
+        "year": 2,
+        "semester":2,
+        "img": ""
+    },
+    {
+        "IDS":"agricultural",
+        "id":"theoryofmechanics",
+        "name":"Theory of Mechanics",
+        "code":"ME 262",
+        "year": 2,
+        "semester":2,
+        "img": ""
+    },
+    {
+        "IDS":"agricultural",
+        "id":"mechanicalengineeringmaterials",
+        "name":"Mechanical Engineering Materials",
+        "code":"ME 282",
+        "year": 2,
+        "semester":2,
+        "img": ""
+    },
+    {
+        "IDS":"agricultural",
+        "id":"literatureinenglishII",
+        "name":"Literature in English II",
+        "year": 2,
+        "semester":2,
+        "img": ""
+    },
+    {
+        "IDS":"agricultural",
+        "id":"accountingII",
+        "name":"Accounting II",
+        "year": 2,
+        "semester":2,
+        "img": ""
+    },
+   {
+        "IDS":"agricultural",
+        "id":"frenchII",
+        "name":"French for Communication II",
+        "year": 2,
+        "semester":2,
+        "img": ""
+    },
+    {
+        "IDS":"agricultural",
+        "id":"economicsII",
+        "name":"Introductory Economics II",
+        "year": 2,
+        "semester":2,
+        "img": ""
+    },
+    {
+        "IDS":"agricultural",
+        "id":"mechanicalengineeringlabII",
+        "name":"Mechanical Engineering Lab II",
+        "code":"ME 296",
+        "year": 2,
+        "semester":2,
+        "img": ""
+    },
+    {
+        "IDS":"agricultural",
+        "id":"soilandwaterengineering",
+        "name":"Soil and Water Engineering",
+        "code":"AE 351",
+        "year": 3,
+        "semester":1,
+        "img": ""
+    },
+    {
+        "IDS":"agricultural",
+        "id":"agriculturalulturalmaterialshandling",
+        "name":"Agricultural Materials Handling & Processing",
+        "code":"AE 353",
+        "year": 3,
+        "semester":1,
+        "img": ""
+    },
+    {
+        "IDS":"agricultural",
+        "id":"machinedesignI",
+        "name":"Machine Design I",
+        "code":"AE 373",
+        "year": 3,
+        "semester":1,
+        "img": ""
+    },
+    {
+        "IDS":"agricultural",
+        "id":"microprocessors",
+        "name":"Strength of Materials II",
+        "code":"ME 355",
+        "year": 3,
+        "semester":1,
+        "img": ""
+    },
+    {
+        "IDS":"agricultural",
+        "id":"numericalmethods",
+        "name":"Numerical Analysis",
+        "code":"MATH 351",
+        "year": 3,
+        "semester":1,
+        "img": ""
+    },
+    {
+        "IDS":"agricultural",
+        "id":"thermodynamicsII",
+        "name":"Thermodynamics II",
+        "code":"ME 365",
+        "year": 3,
+        "semester":1,
+        "img": ""
+    },
+   
+    {   "IDS":"agricultural",
+        "id":"applicationofsoilmechanics",
+        "name":"Application of Soil Mechanics",
+        "code":"AE 35",
+        "year": 3,
+        "semester":2,
+        "img": ""
+    },
+    {
+        "IDS":"agricultural",
+        "id":"farmpower",
+        "name":"Farm Power and Machinery",
+        "code":"AE 356",
+        "year": 3,
+        "semester":2,
+        "img": ""
+    },
+    {
+        "IDS":"agricultural",
+        "id":"renewableenergy",
+        "name":"Renewable Energy",
+        "code":"AE 358",
+        "year": 3,
+        "semester":2,
+        "img": ""
+    },
+    {
+        "IDS":"agricultural",
+        "id":"ruralengineering",
+        "name":"Rural Engineering",
+        "code":"AE 360",
+        "year": 3,
+        "semester":2,
+        "img": ""
+    },
+    {
+        "IDS":"agricultural",
+        "id":"heattransfer",
+        "name":"Heat Transfer",
+        "code":"ME 366",
+        "year": 3,
+        "semester":2,
+        "img": ""
+    },
+    {
+        "IDS":"agricultural",
+        "id":"introductiontoCAD/CAM",
+        "name":"Introduction to CAD/CAM",
+        "code":"ME 376",
+        "year": 3,
+        "semester":2,
+        "img": ""
+    },
+    {
+        "IDS":"agricultural",
+        "id":"machinedesign",
+        "name":"Machine Design",
+        "code":"ME 374",
+        "year": 3,
+        "semester":2,
+        "img": ""
+    },
+    {
+        "IDS":"agricultural",
+        "id":"projectI",
+        "name":"Project I",
+        "year": 4,
+        "semester":1,
+        "img": ""
+    },
+   {
+        "IDS":"agricultural",
+        "id":"irrigationdrainage",
+        "name":"Irrigation & Drainage",
+        "code":"AE 451",
+        "year": 4,
+        "semester":1,
+        "img": ""
+    },
+    {
+        "IDS":"agricultural",
+        "id":"environmentalcontrol ",
+        "name":"Environmental Control & Livestock Housing",
+        "code":"AE 453",
+        "year": 4,
+        "semester":1,
+        "img": ""
+    },
+    {
+        "IDS":"agricultural",
+        "id":"cropprocessing",
+        "name":"Crop Processing",
+        "code":"AE 457",
+        "year": 4,
+        "semester":1,
+        "img": ""
+    },
+    {
+        "IDS":"agricultural",
+        "id":"advancedfarmpower",
+        "name":"Advanced Farm Power & Machinery",
+        "code":"AE 459",
+        "year": 4,
+        "semester":1,
+        "img": ""
+    },
+    {
+        "IDS":"agricultural",
+        "id":"farmstructures",
+        "name":"Farm Structures",
+        "code":"AE 471",
+        "year": 4,
+        "semester":1,
+        "img": ""
+    },
+    {
+        "IDS":"agricultural",
+        "id":"engineeringeconnomics",
+        "name":"Engineering Econnomics & Management",
+        "code":"AE 491",
+        "year": 4,
+        "semester":1,
+        "img": ""
+    },
+    {
+        "IDS":"agricultural",
+        "id":"soilandwaterengineeringII",
+        "name":"Soil and Water Engineering II",
+        "code":"AE 452",
+        "year": 4,
+        "semester":2,
+        "img": ""
+    },
+    {
+        "IDS":"agricultural",
+        "id":"croplossestheircontrol",
+        "name":"Crop Losses & Their Control",
+        "code":"AE 458",
+        "year": 4,
+        "semester":2,
+        "img": ""
+    },
+    {
+        "IDS":"agricultural",
+        "id":"Maintenancerepairs ",
+        "name":"Maintenance & Repairs of Agricultural Machines",
+        "code":"AE 460",
+        "year": 4,
+        "semester":2,
+        "img": ""
+    },
+    {
+        "IDS":"agricultural",
+        "id":"cropstorage",
+        "name":"Crop Storage & Storage Structures",
+        "code":"AE 464",
+        "year": 4,
+        "semester":2,
+        "img": ""
+    },
+    {
+        "IDS":"agricultural",
+        "id":"farmmachinerydesign",
+        "name":"Farm Machinery Design",
+        "code":"AE 482",
+        "year": 4,
+        "semester":2,
+        "img": ""
+    },
+    {
+        "IDS":"agricultural",
+        "id":"managemententrepreneurshipdevelopment",
+        "name":"Management & Entrepreneurship Development",
+        "code":"ME 492",
+        "year": 4,
+        "semester":2,
+        "img": ""
+    },
+    {
+        "IDS":"agricultural",
+        "id":"projectII",
+        "name":"Project II",
+        "code":"AE 498",
+        "year": 4,
+        "semester":2,
+        "img": ""
+    },
+    {
+        "IDS":"biomedical",
+        "id":"cellbiology",
+        "name":"Cell Biology",
+        "code":"BME 161",
+        "year": 1,
+        "semester":1,
+        "img": ""
+    }, 
+    {
+        "IDS":"biomedical",
+        "id":"engineeringtechnology",
+        "name":"Engineering Technology",
+        "code":"COE 153",
+        "year": 1,
+        "semester":1,
+        "img": ""
+    }, 
+    {
+        "IDS":"biomedical",
+        "id":"appliedelectricity",
+        "name":"Applied Electricity",
+        "code":"EE 151",
+        "year": 1,
+        "semester":1,
+        "img": ""
+    }, 
+    {
+        "IDS":"biomedical",
+        "id":"communicationskillsI",
+        "name":"Communication Skills",
+        "code":"ENGL 157",
+        "year": 1,
+        "semester":1,
+        "img": ""
+    }, 
+    {
+        "IDS":"biomedical",
+        "id":"algebra",
+        "name":"Algebra",
+        "code":"MATH 151",
+        "year": 1,
+        "semester":1,
+        "img": ""
+    }, 
+    {
+        "IDS":"biomedical",
+        "id":"technicaldrawing",
+        "name":"Technical Drawing",
+        "code":"ME 159",
+        "year": 1,
+        "semester":1,
+        "img": ""
+    }, 
+    {
+        "IDS":"biomedical",
+        "id":"basicmechanics",
+        "name":"Basic Mechanics",
+        "code":"ME 161",
+        "year": 1,
+        "semester":1,
+        "img": ""
+    }, 
+    {
+        "IDS":"biomedical",
+        "id":"introductiontoethicsandmorality",
+        "name":"Introductio to Ethics and Morality",
+        "code":"ETIC 161",
+        "year": 1,
+        "semester":1,
+        "img": ""
+    }, 
+    {
+        "IDS":"biomedical",
+        "id":"basicelectronics",
+        "name":"Basic Electronics",
+        "code":"COE 152",
+        "year": 1,
+        "semester":2,
+        "img": ""
+    }, 
+    {
+        "IDS":"biomedical",
+        "id":"introductiontoinformationtechnology",
+        "name":"Information to Information Technology",
+        "code":"COE 158",
+        "year": 1,
+        "semester":2,
+        "img": ""
+    }, 
+    {
+        "IDS":"biomedical",
+        "id":"electricalengineeringdrawing",
+        "name":"Electical E ngineering Drawing",
+        "code":"EE 156",
+        "year": 1,
+        "semester":2,
+        "img": ""
+    }, 
+    {
+        "IDS":"biomedical",
+        "id":"communicationskillsII",
+        "name":"Communication Skills",
+        "code":"ENGL 158",
+        "year": 1,
+        "semester":2,
+        "img": ""
+    }, 
+    {
+        "IDS":"biomedical",
+        "id":"calculuswithanalysis",
+        "name":"Calculus with Analysis",
+        "code":"MATH 152",
+        "year": 1,
+        "semester":2,
+        "img": ""
+    }, 
+    {
+        "IDS":"biomedical",
+        "id":"propertiesofmatter",
+        "name":"Properties of Matter",
+        "code":"PHY 154",
+        "year": 1,
+        "semester":2,
+        "img": ""
+    }, 
+    {
+        "IDS":"biomedical",
+        "id":"introductiontosociology",
+        "name":"Introduction to Sociology",
+        "code":"SOC 152",
+        "year": 1,
+        "semester":2,
+        "img": ""
+    }, 
+    {
+        "IDS":"biomedical",
+        "id":"biochemistry",
+        "name":"Biochemistry",
+        "code":"SSN 166",
+        "year": 1,
+        "semester":2,
+        "img": ""
+    }, 
+    {
+        "IDS":"biomedical",
+        "id":"biomedicalengineeringdesign",
+        "name":"Biomedical Engineering Design",
+        "code":"BME 251",
+        "year": 2,
+        "semester":1,
+        "img": ""
+    }, 
+    {
+        "IDS":"biomedical",
+        "id":"cprogramming",
+        "name":"C Programming",
+        "code":"BME 253",
+        "year": 2,
+        "semester":1,
+        "img": ""
+    }, 
+    {
+        "IDS":"biomedical",
+        "id":"anatomyandphysiologyforengineersI",
+        "name":"Anatomy and Physiology for Engineers I",
+        "code":"BME 285",
+        "year": 2,
+        "semester":1,
+        "img": ""
+    }, 
+    {
+        "IDS":"biomedical",
+        "id":"engineeringinsociety",
+        "name":"Engineering in Society",
+        "code":"CENG 291",
+        "year": 2,
+        "semester":1,
+        "img": ""
+    }, 
+    {
+        "IDS":"biomedical",
+        "id":"semiconductordevices",
+        "name":"Semiconductor Devices",
+        "code":"COE 271",
+        "year": 2,
+        "semester":1,
+        "img": ""
+    }, 
+    {
+        "IDS":"biomedical",
+        "id":"literatureinenglishI",
+        "name":"Literature in English I",
+        "code":"ENGL 263",
+        "year": 2,
+        "semester":1,
+        "img": ""
+    }, 
+    {
+        "IDS":"biomedical",
+        "id":"differentialequations",
+        "name":"Differential Equations",
+        "code":"MATH 251",
+        "year": 2,
+        "semester":1,
+        "img": ""
+    }, 
+    {
+        "IDS":"biomedical",
+        "id":"frenchforcommunicationpurposesI",
+        "name":"French for Communication Purposes I",
+        "code":"FC 181",
+        "year": 2,
+        "semester":1,
+        "img": ""
+    }, 
+    {
+        "IDS":"biomedical",
+        "id":"calculuswithseveralvariables",
+        "name":"Calculus with Several Variables",
+        "code":"MATH 252",
+        "year": 2,
+        "semester":2,
+        "img": ""
+    }, 
+    {
+        "IDS":"biomedical",
+        "id":"digitalsystems",
+        "name":"Digital Systems",
+        "code":"COE 272",
+        "year": 2,
+        "semester":2,
+        "img": ""
+    }, 
+    {
+        "IDS":"biomedical",
+        "id":"biomedicalengineeringdesignII",
+        "name":"Biomedical Engineering Design II",
+        "code":"BME 252",
+        "year": 2,
+        "semester":2,
+        "img": ""
+    }, 
+    {
+        "IDS":"biomedical",
+        "id":"chemicalpathology",
+        "name":"Chemical Pathology",
+        "code":"BME 288",
+        "year": 2,
+        "semester":2,
+        "img": ""
+    }, 
+    {
+        "IDS":"biomedical",
+        "id":"frenchforcommunicationII",
+        "name":"French for Communication II",
+        "code":"",
+        "year": 2,
+        "semester":2,
+        "img": ""
+    }, 
+    {
+        "IDS":"biomedical",
+        "id":"literatureinenglishII",
+        "name":"Literature in English II",
+        "code":"ENGL 264",
+        "year": 2,
+        "semester":2,
+        "img": ""
+    }, 
+    {
+        "IDS":"biomedical",
+        "id":"anatomyandphysiologyforengineersII",
+        "name":"Anatomy and Physiology for Engineers II",
+        "code":"BME 286",
+        "year": 2,
+        "semester":2,
+        "img": ""
+    }, 
+    {
+        "IDS":"biomedical",
+        "id":"linearelectroniccircuits",
+        "name":"Linear Electronic Circuits",
+        "code":"COE 371",
+        "year": 3,
+        "semester":1,
+        "img": ""
+    }, 
+    {
+        "IDS":"biomedical",
+        "id":"signalsandsystems",
+        "name":"Signals and Systems",
+        "code":"TE 385",
+        "year": 3,
+        "semester":1,
+        "img": ""
+    }, 
+    {
+        "IDS":"biomedical",
+        "id":"probabiltyandstatics",
+        "name":"Probabilty and Statics",
+        "code":"MATH 353",
+        "year": 3,
+        "semester":1,
+        "img": ""
+    }, 
+    {
+        "IDS":"biomedical",
+        "id":"numericalmethods",
+        "name":"Numerical Methods",
+        "code":"MATH 351",
+        "year": 3,
+        "semester":1,
+        "img": ""
+    }, 
+    {
+        "IDS":"biomedical",
+        "id":"microprocessors",
+        "name":"Microprocessors",
+        "code":"COE 381",
+        "year": 3,
+        "semester":1,
+        "img": ""
+    }, 
+    {
+        "IDS":"biomedical",
+        "id":"researchmethods",
+        "name":"Research Methods",
+        "code":"BME 397",
+        "year": 3,
+        "semester":1,
+        "img": ""
+    }, 
+    {
+        "IDS":"biomedical",
+        "id":"objectorientedprogramming",
+        "name":"Object Oriented Programming",
+        "code":"COE 351",
+        "year": 3,
+        "semester":1,
+        "img": ""
+    }, 
+    {
+        "IDS":"biomedical",
+        "id":"biomedicaloptics",
+        "name":"Biomedical Optics",
+        "code":"BME 374",
+        "year": 3,
+        "semester":2,
+        "img": ""
+    }, 
+    {
+        "IDS":"biomedical",
+        "id":"biomaterials I",
+        "name":"Biomaterials I",
+        "code":"BME 362",
+        "year": 3,
+        "semester":2,
+        "img": ""
+    }, 
+    {
+        "IDS":"biomedical",
+        "id":"bioinstrumentationI",
+        "name":"Bioinstrumentation I",
+        "code":"BME 372",
+        "year": 3,
+        "semester":2,
+        "img": ""
+    }, 
+    {
+        "IDS":"biomedical",
+        "id":"biosignalprocessesandanalysis",
+        "name":"Biosignal Processes and Analysis ",
+        "code":"BME 366",
+        "year": 3,
+        "semester":2,
+        "img": ""
+    }, 
+    {
+        "IDS":"biomedical",
+        "id":"embeddedsystems",
+        "name":"Embedded Systems",
+        "code":"COE 358",
+        "year": 3,
+        "semester":2,
+        "img": ""
+    }, 
+    {
+        "IDS":"biomedical",
+        "id":"medicalimagingI",
+        "name":"Medical Imaging I",
+        "code":"BME 364",
+        "year": 3,
+        "semester":2,
+        "img": ""
+    }, 
+    {
+        "IDS":"biomedical",
+        "id":"projectI",
+        "name":"Project I",
+        "code":"BME 497",
+        "year": 4,
+        "semester":1,
+        "img": ""
+    }, 
+    {
+        "IDS":"biomedical",
+        "id":"biomaterialsII",
+        "name":"Biomaterials II",
+        "code":"BME 463",
+        "year": 4,
+        "semester":1,
+        "img": ""
+    }, 
+    {
+        "IDS":"biomedical",
+        "id":"bioinstrumentationII",
+        "name":"Bioinstrumentation II",
+        "code":"BME 471",
+        "year": 4,
+        "semester":1,
+        "img": ""
+    }, 
+    {
+        "IDS":"biomedical",
+        "id":"vacationtraining",
+        "name":"Vacation Training",
+        "code":"BME 499",
+        "year": 4,
+        "semester":1,
+        "img": ""
+    }, 
+    {
+        "IDS":"biomedical",
+        "id":"engineeringeconomicsandmanagement",
+        "name":"Engineering Economics and Management",
+        "code":"ME 491",
+        "year": 4,
+        "semester":1,
+        "img": ""
+    }, 
+    {
+        "IDS":"biomedical",
+        "id":"biomechanicsI",
+        "name":"Biomechanics I",
+        "code":"BME 461",
+        "year": 4,
+        "semester":1,
+        "img": ""
+    }, 
+    {
+        "IDS":"biomedical",
+        "id":"medicalimagingII",
+        "name":"Medical Imaging II",
+        "code":"BME 451",
+        "year": 4,
+        "semester":1,
+        "img": ""
+    }, 
+    {
+        "IDS":"biomedical",
+        "id":"biomechanicsII",
+        "name":"Biomechanics II",
+        "code":"BME 462",
+        "year": 4,
+        "semester":2,
+        "img": ""
+    }, 
+    {
+        "IDS":"biomedical",
+        "id":"medicaldeviceregulation",
+        "name":"Medical Device Regulation",
+        "code":"BME 454",
+        "year": 4,
+        "semester":2,
+        "img": ""
+    }, 
+    {
+        "IDS":"biomedical",
+        "id":"projectII",
+        "name":"Project II",
+        "code":"BME 498",
+        "year": 4,
+        "semester":2,
+        "img": ""
+    }, 
+    {
+        "IDS":"biomedical",
+        "id":"entrepreneurshipdevelopment",
+        "name":"Entrepreneurship Development",
+        "code":"ME 492",
+        "year": 4,
+        "semester":2,
+        "img": ""
+    }, 
+    {
+        "IDS":"biomedical",
+        "id":"digitalpignalprocessing",
+        "name":"Digital Signal Processing",
+        "code":"COE 472",
+        "year": 4,
+        "semester":2,
+        "img": ""
+    },
+    {
+        "IDS":"geomatic",
+        "id":"communicationskillsI",
+        "name":"Communication Skills I",
+        "code":"ENGL 157",
+        "year": 1,
+        "semester":1,
+        "img": ""
+    }, 
+    {
+        "IDS":"geomatic",
+        "id":"cartographyI",
+        "name":"Cartography I",
+        "code":"GE 151",
+        "year": 1,
+        "semester":1,
+        "img": ""
+    }, 
+    {
+        "IDS":"geomatic",
+        "id":"basicsurveyprinciplesI",
+        "name":"Basic Survey Principles I",
+        "code":"GE 161",
+        "year": 1,
+        "semester":1,
+        "img": ""
+    }, 
+    {
+        "IDS":"geomatic",
+        "id":"appliedoPtics",
+        "name":"Applied OPtics",
+        "code":"GE 171",
+        "year": 1,
+        "semester":1,
+        "img": ""
+    }, 
+    {
+        "IDS":"geomatic",
+        "id":"algebra",
+        "name":"Algebra",
+        "code":"MATH 151",
+        "year": 1,
+        "semester":1,
+        "img": ""
+    }, 
+    {
+        "IDS":"geomatic",
+        "id":"technicaldrawing",
+        "name":"Technical Drawing",
+        "code":"ME 159",
+        "year": 1,
+        "semester":1,
+        "img": ""
+    }, 
+    {
+        "IDS":"geomatic",
+        "id":"basicmechanics",
+        "name":"Basic Mechanics",
+        "code":"ME 161",
+        "year": 1,
+        "semester":1,
+        "img": ""
+    }, 
+    {
+        "IDS":"geomatic",
+        "id":"introductiontoethicsandmorality",
+        "name":"Introduction to Ethics and Morality",
+        "code":"ETIC 161",
+        "year": 1,
+        "semester":1,
+        "img": ""
+    }, 
+    {
+        "IDS":"geomatic",
+        "id":"practicaltaskI",
+        "name":"Practical Task I",
+        "code":"GE 192",
+        "year": 1,
+        "semester":2,
+        "img": ""
+    }, 
+    {
+        "IDS":"geomatic",
+        "id":"calculuswithseveralvariables",
+        "name":"Calculus with Several Variables",
+        "code":"MATH 152",
+        "year": 1,
+        "semester":2,
+        "img": ""
+    }, 
+    {
+        "IDS":"geomatic",
+        "id":"basicelectronics",
+        "name":"Basic Electronics",
+        "code":"EE 152",
+        "year": 1,
+        "semester":2,
+        "img": ""
+    }, 
+    {
+        "IDS":"geomatic",
+        "id":"communicationskillsII",
+        "name":"Communication Skills II",
+        "code":"ENGL 158",
+        "year": 1,
+        "semester":2,
+        "img": ""
+    }, 
+    {
+        "IDS":"geomatic",
+        "id":"cartographyII",
+        "name":"Cartography II",
+        "code":"GE 152",
+        "year": 1,
+        "semester":2,
+        "img": ""
+    }, 
+    {
+        "IDS":"geomatic",
+        "id":"introductiontoinformationtechnology",
+        "name":"Introduction to Information Technology",
+        "code":"GE 158",
+        "year": 1,
+        "semester":2,
+        "img": ""
+    }, 
+    {
+        "IDS":"geomatic",
+        "id":"basicsurveyprinciplesII",
+        "name":"Basic Survey Principles II",
+        "code":"GE 162",
+        "year": 1,
+        "semester":2,
+        "img": ""
+    }, 
+    {
+        "IDS":"geomatic",
+        "id":"engineeringinsociety",
+        "name":"Engineering in Society",
+        "code":"CENG 291",
+        "year": 2,
+        "semester":1,
+        "img": ""
+    }, 
+    {
+        "IDS":"geomatic",
+        "id":"literatureinenglishI",
+        "name":"Literature in English I",
+        "code":"ENGL 263",
+        "year": 2,
+        "semester":1,
+        "img": ""
+    }, 
+    {
+        "IDS":"geomatic",
+        "id":"principlesofphotogrammetry",
+        "name":"Principles of Photogrammetry",
+        "code":"GE 251",
+        "year": 2,
+        "semester":1,
+        "img": ""
+    }, 
+    {
+        "IDS":"geomatic",
+        "id":"fieldandgeodeticastronomy",
+        "name":"Field and Geodetic Astronomy",
+        "code":"GE 261",
+        "year": 2,
+        "semester":1,
+        "img": ""
+    }, 
+    {
+        "IDS":"geomatic",
+        "id":"informationscienceandprogramming",
+        "name":"Information Science and Programming",
+        "code":"GE 263",
+        "year": 2,
+        "semester":1,
+        "img": ""
+    }, 
+    {
+        "IDS":"geomatic",
+        "id":"engineeringsurveying",
+        "name":"Engineering Surveying",
+        "code":"GE 271",
+        "year": 2,
+        "semester":1,
+        "img": ""
+    }, 
+    {
+        "IDS":"geomatic",
+        "id":"basicphysicalgeodesy",
+        "name":"Basic Physical Geodesy",
+        "code":"GE 281",
+        "year": 2,
+        "semester":1,
+        "img": ""
+    }, 
+    {
+        "IDS":"geomatic",
+        "id":"differentialequations",
+        "name":"Differential Equations",
+        "code":"MATH 251",
+        "year": 2,
+        "semester":1,
+        "img": ""
+    }, 
+    {
+        "IDS":"geomatic",
+        "id":"soilandrockmechanics",
+        "name":"Soil and Rock Mechanics",
+        "code":"CE 260",
+        "year": 2,
+        "semester":2,
+        "img": ""
+    }, 
+    {
+        "IDS":"geomatic",
+        "id":"literatureinenglishII",
+        "name":"Literature in English II",
+        "code":"ENGL 264",
+        "year": 2,
+        "semester":2,
+        "img": ""
+    }, 
+    {
+        "IDS":"geomatic",
+        "id":"principlesofremotesensing",
+        "name":"Principles of Remote Sensing",
+        "code":"GE 262",
+        "year": 2,
+        "semester":2,
+        "img": ""
+    }, 
+    {
+        "IDS":"geomatic",
+        "id":"engineeringsurveyII",
+        "name":"Engineering Survey II",
+        "code":"GE 272",
+        "year": 2,
+        "semester":2,
+        "img": ""
+    }, 
+    {
+        "IDS":"geomatic",
+        "id":"practicaltaskII",
+        "name":"Practical Task II",
+        "code":"GE 292",
+        "year": 2,
+        "semester":2,
+        "img": ""
+    }, 
+    {
+        "IDS":"geomatic",
+        "id":"hydrographicsurveyandmarinescience",
+        "name":"Hydrographic Survey and Marine Science",
+        "code":"GE 284",
+        "year": 2,
+        "semester":2,
+        "img": ""
+    }, 
+    
+    {
+        "IDS":"geomatic",
+        "id":"calculuswithseveralvariables",
+        "name":"Calculus with Several Variables",
+        "code":"MATH 252",
+        "year": 2,
+        "semester":2,
+        "img": ""
+    }, 
+    {
+        "IDS":"geomatic",
+        "id":"highwayandtransportationengineeringI",
+        "name":"Highway and Transportation Engineering I",
+        "code":"CE 367",
+        "year": 3,
+        "semester":1,
+        "img": ""
+    }, 
+    {
+        "IDS":"geomatic",
+        "id":"geometricalgeodesy",
+        "name":"Geometrical Geodesy",
+        "code":"GE 353",
+        "year": 3,
+        "semester":1,
+        "img": ""
+    }, 
+    {
+        "IDS":"geomatic",
+        "id":"surveyadjustmentI",
+        "name":"Survey Adjustment I",
+        "code":"GE 371",
+        "year": 3,
+        "semester":1,
+        "img": ""
+    }, 
+    {
+        "IDS":"geomatic",
+        "id":"stereophotogrammetry",
+        "name":"Stereo Photogrammetry",
+        "code":"GE 351",
+        "year": 3,
+        "semester":1,
+        "img": ""
+    }, 
+    {
+        "IDS":"geomatic",
+        "id":"imageprocessingandinterpretation",
+        "name":"Image Processing and Interpretation",
+        "code":"GE 361",
+        "year": 3,
+        "semester":1,
+        "img": ""
+    }, 
+    {
+        "IDS":"geomatic",
+        "id":"probabilityandstatistics",
+        "name":"Probability and Statistics",
+        "code":"STAT 253",
+        "year": 3,
+        "semester":1,
+        "img": ""
+    }, 
+    {
+        "IDS":"geomatic",
+        "id":"frenchforCommunicationI",
+        "name":"French for Communication I",
+        "code":"FC 181",
+        "year": 3,
+        "semester":1,
+        "img": ""
+    }, 
+    {
+        "IDS":"geomatic",
+        "id":"accountingII",
+        "name":"Accounting II",
+        "code":"CSM 158",
+        "year": 3,
+        "semester":2,
+        "img": ""
+    }, 
+    {
+        "IDS":"geomatic",
+        "id":"satellitegeodesy",
+        "name":"Satellite Geodesy",
+        "code":"GE 354",
+        "year": 3,
+        "semester":2,
+        "img": ""
+    }, 
+    {
+        "IDS":"geomatic",
+        "id":"principlesofgis",
+        "name":"Principles of GIS",
+        "code":"GE 362",
+        "year": 3,
+        "semester":2,
+        "img": ""
+    }, 
+    {
+        "IDS":"geomatic",
+        "id":"analysisoferrors",
+        "name":"Analysis of Errors",
+        "code":"GE 372",
+        "year": 3,
+        "semester":2,
+        "img": ""
+    }, 
+    {
+        "IDS":"geomatic",
+        "id":"transportationandhighwayII",
+        "name":"Transportation and Highway II",
+        "code":"CE 368",
+        "year": 3,
+        "semester":2,
+        "img": ""
+    }, 
+    {
+        "IDS":"geomatic",
+        "id":"practicaltaskIII",
+        "name":"Practical Task III",
+        "code":"GE 392",
+        "year": 3,
+        "semester":2,
+        "img": ""
+    }, 
+    {
+        "IDS":"geomatic",
+        "id":"planningandphysicalenvironment",
+        "name":"Planning and Physical Environment",
+        "code":"PL 251/2",
+        "year": 3,
+        "semester":2,
+        "img": ""
+    },
+    {
+        "IDS":"geomatic",
+        "id": "geomaticmethods",
+        "name":"Geomatic Methods",
+        "code":"GE 451",
+        "year": 4,
+        "semester":1,
+        "img": ""
+    },
+    {
+        "IDS":"geomatic",
+        "id":"geodeticsurveyingII",
+        "name":"Geodetic Surveying II",
+        "code":"GE 451",
+        "year": 4,
+        "semester":1,
+        "img": ""
+    },
+    {
+        "IDS":"geomatic",
+        "id": "Engeconomyandentrepreneurshipdevelopment",
+        "name":"Eng Economy and Entrepreneurship Development",
+        "code":"CE 461",
+        "year": 4,
+        "semester":1,
+        "img": ""
+    },
+    {
+        "IDS":"geomatic",
+        "id":"LandandgeographicinformationsystemI",
+        "name":"Land And Geographic Information System I",
+        "code":"GE 463",
+        "year": 4,
+        "semester":1,
+        "img": ""
+    },
+    {
+        "IDS":"geomatic",
+        "id":"projectI",
+        "name":"Project I",
+        "code":"GE 491",
+        "year": 4,
+        "semester":1,
+        "img": ""
+    },
+    {
+        "IDS":"geomatic",
+        "id":"cadastralsurveying",
+        "name":"Cadastral Surveying",
+        "code":"GE 461",
+        "year": 4,
+        "semester":1,
+        "img": ""
+    },
+    {
+        "IDS":"geomatic",
+        "id":"landlawandregistration",
+        "name":"Land Law and Registration",
+        "code":"GE 472",
+        "year": 4,
+        "semester":2,
+        "img": ""
+    },
+    {
+        "IDS":"geomatic",
+        "id":"projectII",
+        "name":"Project II",
+        "code":"GE 492",
+        "year": 4,
+        "semester":2,
+        "img": ""
+    },
+    {
+        "IDS":"geomatic",
+        "id":"databasesystems",
+        "name":"Database Systems",
+        "code":"GE 464",
+        "year": 4,
+        "semester":2,
+        "img": ""
+    },
+    {
+        "IDS":"geomatic",
+        "id":"principlesofvaluationoflandandbuilding",
+        "name":"Principles Of Valuation of Land and Building",
+        "code":"GE 474",
+        "year": 4,
+        "semester":2,
+        "img": ""
+    },
+    {
+        "IDS":"geomatic",
+        "id":"professionalstudiesanddevelopment",
+        "name":"Professional Studies and Development",
+        "code":"GE 474",
+        "year": 4,
+        "semester":2,
+        "img": ""
+    },
+    {
+        "IDS":"aerospace",
+        "id":"algebra",
+        "name":"Algebra",
+        "code":"MATH 151",
+        "year": 1,
+        "semester":1,
+        "img": ""
+    }, 
+    {
+        "IDS":"aerospace",
+        "id":"appliedelectricity",
+        "name":"Applied Electricity",
+        "code":"EE 151",
+        "year":1,
+        "semester":1,
+        "img": ""
+    }, 
+    {
+        "IDS":"aerospace",
+        "id":"communicationskills",
+        "name":"Communication Skills",
+        "code":"ENGL 157",
+        "year": 1,
+        "semester":1,
+        "img": ""
+    }, 
+    {
+        "IDS":"aerospace",
+        "id":"basicmechanics",
+        "name":"Basic Mechanics",
+        "code":"ME 161",
+        "year": 1,
+        "semester":1,
+        "img": ""
+    }, 
+    {
+        "IDS":"aerospace",
+        "id":"technicaldrawing",
+        "name":"Technical Drawing",
+        "code":"ME 159",
+        "year": 1,
+        "semester":1,
+        "img": ""
+    },  
+    {
+        "IDS":"aerospace",
+        "id":"introductiontoaviationtechnology",
+        "name":"Introduction to Aviation Technology",
+        "code":"AERO 157",
+        "year": 1,
+        "semester":1,
+        "img": ""
+    },
+    {
+        "IDS":"aerospace",
+        "id":"environmentalstudies",
+        "name":"Environmental Studies",
+        "code":"CE 155",
+        "year": 1,
+        "semester":1,
+        "img": ""
+    },
+    {
+        "IDS":"aerospace",
+        "id":"informationinliteracyskillsI",
+        "name":"Information in Literacy Skills",
+        "code":"ILS 151",
+        "year": 1,
+        "semester":1,
+        "img": ""
+    },
+    {
+        "IDS":"aerospace",
+        "id":"engineeringgraphics",
+        "name":"Engineering Graphics",
+        "code":"ME 158",
+        "year": 1,
+        "semester":2,
+        "img": ""
+    },{
+        "IDS":"aerospace",
+        "id":"communicationskillsII",
+        "name":"Communication Skills II",
+        "code":"ENGL 158",
+        "year": 1,
+        "semester":2,
+        "img": ""
+    },
+    {
+        "IDS":"aerospace",
+        "id":"basicelectronics",
+        "name":"Basic Electronics",
+        "code":"EE 152",
+        "year": 1,
+        "semester":2,
+        "img": ""
+    },
+    {
+        "IDS":"aerospace",
+        "id":"calculus",
+        "name":"Calculus With Analysis",
+        "code":"MATH 152",
+        "year": 1,
+        "semester":2,
+        "img": ""
+    },
+    {
+        "IDS":"aerospace",
+        "id":"staticsofsolidmechanics",
+        "name":"Statics of Solid Mechanics",
+        "code":"ME 164",
+        "year": 1,
+        "semester":2,
+        "img": ""
+    },
+    {
+        "IDS":"aerospace",
+        "id":"computerprogrammingforengineers",
+        "name":"Computer Programming for Engineers",
+        "code":"ME 158",
+        "year": 1,
+        "semester":2,
+        "img": ""
+    },
+    {
+        "IDS":"aerospace",
+        "id":"aerospacedesignprojectI",
+        "name":"Aerospace Design Project I",
+        "code":"AERO 174",
+        "year": 1,
+        "semester":2,
+        "img": ""
+    },
+    {
+        "IDS":"aerospace",
+        "id":"informationinliteracyskillsII",
+        "name":"Information in Literacy Skills II",
+        "code":"ILS 152",
+        "year": 1,
+        "semester":2,
+        "img": ""
+    },
+    {
+        "IDS":"aerospace",
+        "id":"literatureinenglishI",
+        "name":"Literature in English I",
+        "code":"ENGL 263",
+        "year": 2,
+        "semester":1,
+        "img": ""
+    },
+    {
+        "IDS":"aerospace",
+        "id":"dynamicsofsolidmechanics",
+        "name":"Dynamics of Solid Mechanics",
+        "code":"ME 261",
+        "year": 2,
+        "semester":1,
+        "img": ""
+    },
+    {
+        "IDS":"aerospace",
+        "id":"introductiontofluidmechanics",
+        "name":"Introduction to Fluid Mechanics",
+        "code":"ME 251",
+        "year": 2,
+        "semester":1,
+        "img": ""
+    },
+    {
+        "IDS":"aerospace",
+        "id":"engineeringmaterialsI",
+        "name":"Engineeering Materials I",
+        "code":"ME 281",
+        "year": 2,
+        "semester":1,
+        "img": ""
+    },
+    {
+        "IDS":"aerospace",
+        "id":"strengthofmaterialsI",
+        "name":"Strength of Materials I",
+        "code":"ME 255",
+        "year": 2,
+        "semester":1,
+        "img": ""
+    },
+    {
+        "IDS":"aerospace",
+        "id":"differentialequations",
+        "name":"Differential Equations",
+        "code":"MATH 251",
+        "year": 2,
+        "semester":1,
+        "img": ""
+    },
+    {
+        "IDS":"aerospace",
+        "id":"aerospaceengineeringvacationtrainingI",
+        "name":"Aerospace Engineering Vacation Training I",
+        "code":"AERO 293",
+        "year": 2,
+        "semester":1,
+        "img": ""
+    },
+    {
+        "IDS":"aerospace",
+        "id":"engineeringinsociety",
+        "name":"Engineering in Society",
+        "code": "CENG 291",
+        "year": 2,
+        "semester":1,
+        "img": ""
+    },
+    {
+        "IDS":"aerospace",
+        "id":"calculuswithseveralvariables",
+        "name":"Calculus with Several Variables",
+        "code": "MATH 252",
+        "year": 2,
+        "semester":2,
+        "img": ""
+    },
+    {
+        "IDS":"aerospace",
+        "id":"computer-aideddesignandmodelling",
+        "name":"Computer-Aided Design and Modelling",
+        "code": "ME 258",
+        "year": 2,
+        "semester":2,
+        "img": ""
+    },
+    {
+        "IDS":"aerospace",
+        "id":"mechanismssynthesisandanalysisI",
+        "name":"Mechanisms Synthesis and Analysis I",
+        "code": "ME 264",
+        "year": 2,
+        "semester":2,
+        "img": ""
+    },
+    {
+        "IDS":"aerospace",
+        "id":"aerospacestructures",
+        "name":"Aerospace Structures",
+        "code": "AERO 256",
+        "year": 2,
+        "semester":2,
+        "img": ""
+    },
+    {
+        "IDS":"aerospace",
+        "id":"literatureinenglishII",
+        "name":"Literature in English II",
+        "code":"ENGL 264",
+        "year": 2,
+        "semester":2,
+        "img": ""
+    },
+    {
+        "IDS":"aerospace",
+        "id":"thermodynamics I",
+        "name":"Thermodynamics I",
+        "code":"ME 266",
+        "year": 2,
+        "semester":2,
+        "img": ""
+    },
+    {
+        "IDS":"aerospace",
+        "id":"aerospacedesignprojectII",
+        "name":"Aerospace Design Project II",
+        "code":"AERO 274",
+        "year": 2,
+        "semester":2,
+        "img": ""
+    },
+    {
+        "IDS":"aerospace",
+        "id":"probabilityandstatistics",
+        "name":"Probability and Statistics",
+        "code":"MATH 353",
+        "year": 3,
+        "semester":1,
+        "img": ""
+    },
+    {
+        "IDS":"aerospace",
+        "id":"numericalmethods",
+        "name":"Numerical Methods",
+        "code":"MATH 351",
+        "year": 3,
+        "semester":1,
+        "img": ""
+    },
+    {
+        "IDS":"aerospace",
+        "id":"automaticcontrol I",
+        "name":"Automatic Control I",
+        "code":"ME 363",
+        "year": 3,
+        "semester":1,
+        "img": ""
+    },
+    {
+        "IDS":"aerospace",
+        "id":"aerospaceengineeringlaboratoryI",
+        "name":"Aerospace Engineering Laboratory I",
+        "code":"AERO 395",
+        "year": 3,
+        "semester":1,
+        "img": ""
+    },
+    {
+        "IDS":"aerospace",
+        "id":"aerospaceindustryandengineering",
+        "name":"Aerospace Industry and Engineering",
+        "code":"AERO 391",
+        "year": 3,
+        "semester":1,
+        "img": ""
+    },
+    {
+        "IDS":"aerospace",
+        "id":"aerodynamicsI",
+        "name":"Aerodynamics I",
+        "code":"AERO 351",
+        "year": 3,
+        "semester":1,
+        "img": ""
+    },
+    {
+        "IDS":"aerospace",
+        "id":"aerospaceengineeringandvacationtrainingII",
+        "name":"Aerospace Engineering and Vacation Training II",
+        "code":"AERO 393",
+        "year": 3,
+        "semester":1,
+        "img": ""
+    }, 
+    {
+        "IDS":"aerospace",
+        "id":"introductiontoeconomicsI",
+        "name":"Introduction to Economics",
+        "code":"ECON 151",
+        "year": 3,
+        "semester":1,
+        "img": ""
+    },
+    {
+        "IDS":"aerospace",
+        "id":"airvehiclestabilityandcontrol",
+        "name":"Air Vehicle Stability and Control",
+        "code":"AERO 362",
+        "year": 3,
+        "semester":2,
+        "img": ""
+    },
+    {   
+        "IDS":"aerospace",
+        "id":"industrialengineeringandergonomics",
+        "name":"Industrial Engineering and Ergonomics",
+        "code":"ME 392",
+        "year": 3,
+        "semester":2,
+        "img": ""
+    },
+    {
+        "IDS":"aerospace",
+        "id":"aircraftperformanceanddesign",
+        "name":"Aircraft Performance and Design",
+        "code":"AERO 374",
+        "year": 3,
+        "semester":2,
+        "img": ""
+    },
+    {
+        "IDS":"aerospace",
+        "id":"propulsion",
+        "name":"Propulsion",
+        "code":"AERO 368",
+        "year": 3,
+        "semester":2,
+        "img": ""
+    },
+    {
+        "IDS":"aerospace",
+        "id":"heattransfer",
+        "name":"Heat Transfer",
+        "code":"ME 366",
+        "year": 3,
+        "semester":2,
+        "img": ""
+    },
+    {
+        "IDS":"aerospace",
+        "id":"vibrationsI",
+        "name":"Vibrations I",
+        "code":"ME 362",
+        "year": 3,
+        "semester":2,
+        "img": ""
+    },
+    {
+        "IDS":"aerospace",
+        "id":"aerospaceengineeringlaboratoryII",
+        "name":"Aerospace Engineering Laboratory II",
+        "code":"AERO 396",
+        "year": 3,
+        "semester":2,
+        "img": ""
+    },
+    {
+        "IDS":"aerospace",
+        "id":"avionics",
+        "name":"Avionics",
+        "code":"AERO 483",
+        "year": 4,
+        "semester":1,
+        "img": ""
+    },
+    {
+        "IDS":"aerospace",
+        "id":"aviationbusinessmanagement",
+        "name":"Aviation Business Management",
+        "code":"AERO 491",
+        "year": 4,
+        "semester":1,
+        "img": ""
+    },
+    {
+        "IDS":"aerospace",
+        "id":"finalyearprojectI",
+        "name":"Final Year Project I",
+        "code":"AERO 497",
+        "year": 4,
+        "semester":1,
+        "img": ""
+    },
+    {
+        "IDS":"aerospace",
+        "id":"aircraftmaintenanceengineering",
+        "name":"Aircraft Maintenance Engineering",
+        "code":"AERO 495",
+        "year": 4,
+        "semester":1,
+        "img": ""
+    },
+    {
+        "IDS":"aerospace",
+        "id":"aerospacevehicledesign",
+        "name":"Aerospace Vehicle Design",
+        "code":"AERO 473",
+        "year": 4,
+        "semester":1,
+        "img": ""
+    },
+    {
+        "IDS":"aerospace",
+        "id":"aerospaceengineeringvacationtrainingIII",
+        "name":"Aerospace Engineering Vacation Training III",
+        "code":"AERO 493",
+        "year": 4,
+        "semester":1,
+        "img": ""
+    },
+    {
+        "IDS":"aerospace",
+        "id":"vibrationsII",
+        "name":"Vibrations II",
+        "code":"ME 461",
+        "year": 4,
+        "semester":1,
+        "img": ""
+    },
+    {
+        "IDS":"aerospace",
+        "id":"automaticcontrolII",
+        "name":"Automatic Control II",
+        "code":"ME 463",
+        "year": 4,
+        "semester":1,
+        "img": ""
+    },
+    {
+        "IDS":"aerospace",
+        "id":"mechatronics",
+        "name":"Mechatronics",
+        "code":"ME 483",
+        "year": 4,
+        "semester":1,
+        "img": ""
+    },
+    {
+        "IDS":"aerospace",
+        "id":"compositematerials",
+        "name":"Composite Materials",
+        "code":"MSE 451",
+        "year": 4,
+        "semester":1,
+        "img": ""
+    },
+    {
+        "IDS":"aerospace",
+        "id":"computeraideddesignandmanufacturing",
+        "name":"Computer Aided Design and Manufacturing",
+        "code":"ME 473",
+        "year": 4,
+        "semester":1,
+        "img": ""
+    },
+    {
+        "IDS":"aerospace",
+        "id":"facilitiesdesign",
+        "name":"Facilities Design",
+        "code":"ME 469",
+        "year": 4,
+        "semester":1,
+        "img": ""
+    },
+    {
+        "IDS":"aerospace",
+        "id":"operationsresearch",
+        "name":"Operations Research",
+        "code":"ME 499",
+        "year": 4,
+        "semester":1,
+        "img": ""
+    },
+    {
+        "IDS":"aerospace",
+        "id":"behaviourofrealfluids",
+        "name":"Behaviour of Real Fluids",
+        "code":"ME 451",
+        "year": 4,
+        "semester":1,
+        "img": ""
+    },
+    {
+        "IDS":"aerospace",
+        "id":"strengthofmaterialsIII",
+        "name":"Stregth of Materials III",
+        "code":"ME 455",
+        "year": 4,
+        "semester":1,
+        "img": ""
+    },
+    {
+        "IDS":"aerospace",
+        "id":"enterpreneurshipdevelopmentandmanagement",
+        "name":"Enterpreneurship Development and Management",
+        "code":"ME 492",
+        "year": 4,
+        "semester":2,
+        "img": ""
+    },
+    {
+        "IDS":"aerospace",
+        "id":"aerodynamicsII",
+        "name":"Aerodynamics II",
+        "code":"AERO 452",
+        "year": 4,
+        "semester":2,
+        "img": ""
+    },
+    {
+        "IDS":"aerospace",
+        "id":"finalyearprojectII",
+        "name":"Final Year Project II",
+        "code":"AERO 498",
+        "year": 4,
+        "semester":2,
+        "img": ""
+    },
+    {
+        "IDS":"aerospace",
+        "id":"appliedmeteorology",
+        "name":"Applied Meteorology",
+        "code":"AERO 456",
+        "year": 4,
+        "semester":2,
+        "img": ""
+    },
+    {
+        "IDS":"aerospace",
+        "id":"aerospacesafetyandairsecurity",
+        "name":"Aerospace Safety and Air Security",
+        "code":"AERO 492",
+        "year": 4,
+        "semester":2,
+        "img": ""
+    },
+    {
+        "IDS":"aerospace",
+        "id":"mechanismssynthesisandanalysisII",
+        "name":"Mechanisms Synthesis and Analysis",
+        "code":"ME 462",
+        "year": 4,
+        "semester":2,
+        "img": ""
+    },
+    {
+        "IDS":"aerospace",
+        "id":"finiteelementmethods",
+        "name":"Finite Element Methods",
+        "code":"ME 456",
+        "year": 4,
+        "semester":2,
+        "img": ""
+    },
+    {
+        "IDS":"aerospace",
+        "id":"internalcombustionengines",
+        "name":"Internal Combustion Engines",
+        "code":"ME 468",
+        "year": 4,
+        "semester":2,
+        "img": ""
+    },
+    {
+        "IDS":"aerospace",
+        "id":"productionplanningandcontrol",
+        "name":"Production Planning and Control",
+        "code":"ME 474",
+        "year": 4,
+        "semester":2,
+        "img": ""
+    },
+    {
+        "IDS":"aerospace",
+        "id":"machineshopandfactorydesign",
+        "name":"Machine Shop and Factory Design",
+        "code":"ME 472",
+        "year": 4,
+        "semester":2,
+        "img": ""
+    },
+    {
+        "IDS":"aerospace",
+        "id":"humanfactorsandergonomics",
+        "name":"Human Factors and Ergonomics",
+        "code":"ME 494",
+        "year": 4,
+        "semester":2,
+        "img": ""
+    },
+    {
+        "IDS":"metallurgical",
+        "id":"algebra",
+        "name":"Algebra",
+        "code":"MATH 151",
+        "year": 1,
+        "semester":1,
+        "img": ""
+    }, 
+    {
+        "IDS":"metallurgical",
+        "id":"appliedelectricity",
+        "name":"Applied Electricity",
+        "code":"EE 151",
+        "year":1,
+        "semester":1,
+        "img": ""
+    }, 
+    {
+        "IDS":"metallurgical",
+        "id":"communicationskills",
+        "name":"Communication Skills",
+        "code":"ENGL 157",
+        "year": 1,
+        "semester":1,
+        "img": ""
+    }, 
+    {
+        "IDS":"metallurgical",
+        "id":"basicgeology",
+        "name":"Basic Geology",
+        "code":"GED 151",
+        "year": 1,
+        "semester":1,
+        "img": ""
+    }, 
+    {
+        "IDS":"metallurgical",
+        "id":"technicaldrawing",
+        "name":"Technical Drawing",
+        "code":"ME 159",
+        "year": 1,
+        "semester":1,
+        "img": ""
+    },  
+    {
+        "IDS":"metallurgical",
+        "id":"engineeringtechnology",
+        "name":"Engineering Technology",
+        "code":"ME 195",
+        "year": 1,
+        "semester":1,
+        "img": ""
+    },
+    {
+        "IDS":"metallurgical",
+        "id":"introductiontoinformationtechnology",
+        "name":"Introduction to Information Technology",
+        "code":"METE 151",
+        "year": 1,
+        "semester":1,
+        "img": ""
+    },
+    {
+        "IDS":"metallurgical",
+        "id":"introductiontoethicsandmorality",
+        "name":"Introduction to Ethics and Morality",
+        "code":"ETIC 161",
+        "year": 1,
+        "semester":1,
+        "img": ""
+    },
+    {
+        "IDS":"metallurgical",
+        "id":"chemistryformetallurgicalengineers",
+        "name":"Chemistry for Metallurgical Engineers",
+        "code":"METE 152",
+        "year": 1,
+        "semester":2,
+        "img": ""
+    },{
+        "IDS":"metallurgical",
+        "id":"communicationskillsII",
+        "name":"Communication Skills II",
+        "code":"ENGL 158",
+        "year": 1,
+        "semester":2,
+        "img": ""
+    },
+    {
+        "IDS":"metallurgical",
+        "id":"basicmechanics",
+        "name":"Basic Mechanics",
+        "code":"ME 162",
+        "year": 1,
+        "semester":2,
+        "img": ""
+    },
+    {
+        "IDS":"metallurgical",
+        "id":"calculus",
+        "name":"Calculus With Analysis",
+        "code":"MATH 152",
+        "year": 1,
+        "semester":2,
+        "img": ""
+    },
+    {
+        "IDS":"metallurgical",
+        "id":"principlesofmaterialscience",
+        "name":"Principles of Material Science",
+        "code":"MSE 154",
+        "year": 1,
+        "semester":2,
+        "img": ""
+    },
+    {
+        "IDS":"metallurgical",
+        "id":"environmentalscience",
+        "name":"Environmental Science",
+        "code":"METE 154",
+        "year": 1,
+        "semester":2,
+        "img": ""
+    },
+    {
+        "IDS":"metallurgical",
+        "id":"engineeringdrawing",
+        "name":" Engineering Drawing",
+        "code":"ME 160",
+        "year": 1,
+        "semester":2,
+        "img": ""
+    },
+    {
+        "IDS":"metallurgical",
+        "id":"mineralogy",
+        "name":"Mineralogy",
+        "code":"GED 251",
+        "year": 2,
+        "semester":1,
+        "img": ""
+    },
+    {
+        "IDS":"metallurgical",
+        "id":"metallurgicalthermodynamics",
+        "name":"Metallurgical Thermodynamics",
+        "code":"METE 251",
+        "year": 2,
+        "semester":1,
+        "img": ""
+    },
+    {
+        "IDS":"metallurgical",
+        "id":"momentumtransport",
+        "name":"Momentum Transport",
+        "code":"MSE 251",
+        "year": 2,
+        "semester":1,
+        "img": ""
+    },
+    {
+        "IDS":"metallurgical",
+        "id":"propertiesofengineeringmaterialsI",
+        "name":"Properties of Engineeering Materials I",
+        "code":"MSE 255",
+        "year": 2,
+        "semester":1,
+        "img": ""
+    },
+    {
+        "IDS":"metallurgical",
+        "id":"mechanicalbehaviourofmaterialsI",
+        "name":"Mechanical Behaviour of Materials I",
+        "code":"MSE 253",
+        "year": 2,
+        "semester":1,
+        "img": ""
+    },
+    {
+        "IDS":"metallurgical",
+        "id":"differentialequations",
+        "name":"Differential Equations",
+        "code":"MATH 251",
+        "year": 2,
+        "semester":1,
+        "img": ""
+    },
+    {
+        "IDS":"metallurgical",
+        "id":"indigenousprocessing",
+        "name":"Indigenous Processing",
+        "code":"MSE 257",
+        "year": 2,
+        "semester":1,
+        "img": ""
+    },
+    {
+        "IDS":"metallurgical",
+        "id":"engineeringinsociety",
+        "name":"Engineering in Society",
+        "code": "CENG 291",
+        "year": 2,
+        "semester":1,
+        "img": ""
+    },
+    {
+        "IDS":"metallurgical",
+        "id":"calculuswithseveralvariables",
+        "name":"Calculus with Several Variables",
+        "code": "MATH 252",
+        "year": 2,
+        "semester":2,
+        "img": ""
+    },
+    {
+        "IDS":"metallurgical",
+        "id":"metallurgicalrateprocesses/surfacephenomena",
+        "name":"Metallurgical Rate Processes/ Surface Phenomena",
+        "code": "METE 252",
+        "year": 2,
+        "semester":2,
+        "img": ""
+    },
+    {
+        "IDS":"metallurgical",
+        "id":"orebeneficiation",
+        "name":"Ore Beneficiation",
+        "code": "METE 254",
+        "year": 2,
+        "semester":2,
+        "img": ""
+    },
+    {
+        "IDS":"metallurgical",
+        "id":"assaying",
+        "name":"Assaying",
+        "code": "METE 256",
+        "year": 2,
+        "semester":2,
+        "img": ""
+    },
+    {
+        "IDS":"metallurgical",
+        "id":"computerprogrammingandapplications",
+        "name":"Computer Programming and Applications",
+        "code":"METE 258",
+        "year": 2,
+        "semester":2,
+        "img": ""
+    },
+    {
+        "IDS":"metallurgical",
+        "id":"heatandmasstransport",
+        "name":"Heat and Mass Transport",
+        "code":"MSE 252",
+        "year": 2,
+        "semester":2,
+        "img": ""
+    },
+    {
+        "IDS":"metallurgical",
+        "id":"phasetransformations",
+        "name":"Phase Transformations",
+        "code":"MSE 260",
+        "year": 2,
+        "semester":2,
+        "img": ""
+    },
+    {
+        "IDS":"metallurgical",
+        "id":"probabilityandstatistics",
+        "name":"Probability and Statistics",
+        "code":"MATH 353",
+        "year": 3,
+        "semester":1,
+        "img": ""
+    },
+    {
+        "IDS":"metallurgical",
+        "id":"pyrometallurgy",
+        "name":"Pyrometallurgy",
+        "code":"MSE 353",
+        "year": 3,
+        "semester":1,
+        "img": ""
+    },
+    {
+        "IDS":"metallurgical",
+        "id":"materialscharacterizationtechnique",
+        "name":"Materials Characterization Technique",
+        "code":"MSE 363",
+        "year": 3,
+        "semester":1,
+        "img": ""
+    },
+    {
+        "IDS":"metallurgical",
+        "id":"metallurgicalprocessinglaboratory",
+        "name":"Metallurgical Processing Laboratory",
+        "code":"METE 355",
+        "year": 3,
+        "semester":1,
+        "img": ""
+    },
+    {
+        "IDS":"metallurgical",
+        "id":"foundrytechnology",
+        "name":"Foundry Technology",
+        "code":"MSE 357",
+        "year": 3,
+        "semester":1,
+        "img": ""
+    },
+    {
+        "IDS":"metallurgical",
+        "id":"strengthofmaterials",
+        "name":"Strength of Materials",
+        "code":"METE 353",
+        "year": 3,
+        "semester":1,
+        "img": ""
+    }, 
+    {
+        "IDS":"metallurgical",
+        "id":"introductiontoeconomicsI",
+        "name":"Introduction to Economics I",
+        "code":"ECON 151",
+        "year": 3,
+        "semester":1,
+        "img": ""
+    },
+    {
+        "IDS":"metallurgical",
+        "id":"principlesofhydrometallurgy",
+        "name":"Principles of Hydrometallurgy",
+        "code":"METE 351",
+        "year": 3,
+        "semester":1,
+        "img": ""
+    },
+    {
+        "IDS":"metallurgical",
+        "id":"accountingI",
+        "name":"Accounting I",
+        "code":"CSM 157",
+        "year": 3,
+        "semester":1,
+        "img": ""
+    },
+    {
+        "IDS":"metallurgical",
+        "id":"frenchforcommunicationI",
+        "name":"French for Communication I",
+        "code":"FREN 181",
+        "year": 3,
+        "semester":1,
+        "img": ""
+    },
+    {   
+        "IDS":"metallurgical",
+        "id":"thirdyeardesignproject",
+        "name":"Third Year Design Project",
+        "code":"METE 356",
+        "year": 3,
+        "semester":2,
+        "img": ""
+    },
+    {
+        "IDS":"metallurgical",
+        "id":"materialsjoiningprocesses",
+        "name":"Materials Joining Processes",
+        "code":"MSE 362",
+        "year": 3,
+        "semester":2,
+        "img": ""
+    },
+    {
+        "IDS":"metallurgical",
+        "id":"physicalmetallurgyofferrousmetals",
+        "name":"Physical Metallurgy of Ferrous Metals",
+        "code":"METE 362",
+        "year": 3,
+        "semester":2,
+        "img": ""
+    },
+    {
+        "IDS":"metallurgical",
+        "id":"physicalmetallurgyofnon-ferrousmetals",
+        "name":"Physical Metallurgy of Non-Ferrous Metals",
+        "code":"METE 354",
+        "year": 3,
+        "semester":2,
+        "img": ""
+    },
+    {
+        "IDS":"metallurgical",
+        "id":"metallurgicalcharacterizationlaboratory",
+        "name":"Metallurgical Characterization Laboratory",
+        "code":"METE 358",
+        "year": 3,
+        "semester":2,
+        "img": ""
+    },
+    {
+        "IDS":"metallurgical",
+        "id":"numericalmethodsforengineers",
+        "name":"Numerical Methods for Engineers",
+        "code":"MSE 358",
+        "year": 3,
+        "semester":2,
+        "img": ""
+    },
+    {
+        "IDS":"metallurgical",
+        "id":"hydrometallurgicalapplications",
+        "name":"Hydrometallurgical Applications",
+        "code":"METE 352",
+        "year": 3,
+        "semester":2,
+        "img": ""
+    },
+    {
+        "IDS":"metallurgical",
+        "id":"compositematerials",
+        "name":"Composite Materials",
+        "code":"",
+        "year": 4,
+        "semester":1,
+        "img": ""
+    },
+    {
+        "IDS":"metallurgical",
+        "id":"vacationtraining",
+        "name":"Vacation Training",
+        "code":"",
+        "year": 4,
+        "semester":1,
+        "img": ""
+    },
+    {
+        "IDS":"metallurgical",
+        "id":"metalworkingprocesses",
+        "name":"Metal Working Processes",
+        "code":"",
+        "year": 4,
+        "semester":1,
+        "img": ""
+    },
+    {
+        "IDS":"metallurgical",
+        "id":"project1",
+        "name":"Project 1",
+        "code":"",
+        "year": 4,
+        "semester":1,
+        "img": ""
+    },
+    {
+        "IDS":"metallurgical",
+        "id":"corrosionofengineeringmaterials",
+        "name":"Corrosion of Engineering Materials",
+        "code":"",
+        "year": 4,
+        "semester":1,
+        "img": ""
+    },
+    {
+        "IDS":"metallurgical",
+        "id":"processcontrolandsimulation",
+        "name":"Process Control and Simulation",
+        "code":"",
+        "year": 4,
+        "semester":2,
+        "img": ""
+    },
+    {
+        "IDS":"metallurgical",
+        "id":"managementandenterpreneurship",
+        "name":"Management and Enterpreneurship",
+        "code":"",
+        "year": 4,
+        "semester":2,
+        "img": ""
+    },
+    {
+        "IDS":"metallurgical",
+        "id":"wastemanagement",
+        "name":"Waste Management",
+        "code":"",
+        "year": 4,
+        "semester":2,
+        "img": ""
+    },
+    {
+        "IDS":"metallurgical",
+        "id":"surfacetreatmentofmaterials",
+        "name":"Surface Treatment of Materials",
+        "code":"",
+        "year": 4,
+        "semester":2,
+        "img": ""
+    },
+    {
+        "IDS":"metallurgical",
+        "id":"materialqualitycontrol",
+        "name":"Material Quality Control",
+        "code":"",
+        "year": 4,
+        "semester":2,
+        "img": ""
+    },
+    {
+        "IDS":"civil",
+        "id":"algebra",
+        "name":"Algebra",
+        "code":"MATH 151",
+        "year": 1,
+        "semester":1,
+        "img": ""
+    }, 
+    {
+        "IDS":"civil",
+        "id":"elementarystructures",
+        "name":"Elementary Structures",
+        "code":"CE 151",
+        "year":1,
+        "semester":1,
+        "img": ""
+    }, 
+    {
+        "IDS":"civil",
+        "id":"communicationskillsI",
+        "name":"Communication Skills I",
+        "code":"ENGL 157",
+        "year": 1,
+        "semester":1,
+        "img": ""
+    }, 
+    {
+        "IDS":"civil",
+        "id":"basicmechanics",
+        "name":"Basic Mechanics",
+        "code":"ME 161",
+        "year": 1,
+        "semester":1,
+        "img": ""
+    }, 
+    {
+        "IDS":"civil",
+        "id":"technicaldrawing",
+        "name":"Technical Drawing",
+        "code":"ME 159",
+        "year": 1,
+        "semester":1,
+        "img": ""
+    },  
+    {
+        "IDS":"civil",
+        "id":"engineeringtechnology",
+        "name":"Engineering Technology",
+        "code":"CE 153",
+        "year": 1,
+        "semester":1,
+        "img": ""
+    },
+    {
+        "IDS":"civil",
+        "id":"frenchforcommunicationpurposesI",
+        "name":"French for Communication Purposes I",
+        "code":"FREN 181",
+        "year": 1,
+        "semester":1,
+        "img": ""
+    },
+    {
+        "IDS":"civil",
+        "id":"introductiontoeconomicsI",
+        "name":"Introduction to Economics I",
+        "code":"ECON 151",
+        "year": 1,
+        "semester":1,
+        "img": ""
+    },
+    {
+        "IDS":"civil",
+        "id":"musicI",
+        "name":"Music I",
+        "code":"",
+        "year": 1,
+        "semester":1,
+        "img": ""
+    },
+    {
+        "IDS":"civil",
+        "id":"introductiontoethicsandmorality",
+        "name":"Introduction to Ethics and Morality",
+        "code":"ETIC 161",
+        "year": 1,
+        "semester":1,
+        "img": ""
+    },
+    {
+        "IDS":"civil",
+        "id":"introductiontoinformationtechnology",
+        "name":"Introduction to Information Technology",
+        "code":"CE 157",
+        "year": 1,
+        "semester":1,
+        "img": ""
+    },
+    {
+        "IDS":"civil",
+        "id":"propertiesofcivilengineeringmaterial",
+        "name":"Properties of Civil Engineering Material",
+        "code":"CE 154",
+        "year": 1,
+        "semester":2,
+        "img": ""
+    },{
+        "IDS":"civil",
+        "id":"communicationskillsII",
+        "name":"Communication Skills II",
+        "code":"ENGL 158",
+        "year": 1,
+        "semester":2,
+        "img": ""
+    },
+    {
+        "IDS":"civil",
+        "id":"elementaryfluidsmechanics",
+        "name":"Elementary Fluids Mechanics",
+        "code":"CE 156",
+        "year": 1,
+        "semester":2,
+        "img": ""
+    },
+    {
+        "IDS":"civil",
+        "id":"calculus",
+        "name":"Calculus With Several Variables",
+        "code":"MATH 152",
+        "year": 1,
+        "semester":2,
+        "img": ""
+    },
+    {
+        "IDS":"civil",
+        "id":"introductiontoeconomicsII",
+        "name":"Introduction to Economics II",
+        "code":"ECON 151",
+        "year": 1,
+        "semester":2,
+        "img": ""
+    },
+    {
+        "IDS":"civil",
+        "id":"frenchforcommunicationpurposesII",
+        "name":"French for Communication Purposes II",
+        "code":"FREN 182",
+        "year": 1,
+        "semester":2,
+        "img": ""
+    },
+    {
+        "IDS":"civil",
+        "id":"music",
+        "name":"Music II",
+        "code":"",
+        "year": 1,
+        "semester":2,
+        "img": ""
+    },
+    {
+        "IDS":"civil",
+        "id":"basicelectronics",
+        "name":"Basic Electronics",
+        "code":"EE 152",
+        "year": 1,
+        "semester":2,
+        "img": ""
+    },
+    {
+        "IDS":"civil",
+        "id":"civilengineeringdrawing",
+        "name":"Civil Engineering Drawing",
+        "code":"CE 164",
+        "year": 1,
+        "semester":2,
+        "img": ""
+    },
+    {
+        "IDS":"civil",
+        "id":"strengthofmaterials",
+        "name":"Strength of Materials",
+        "code":"CE 251",
+        "year": 2,
+        "semester":1,
+        "img": ""
+    },
+    {
+        "IDS":"civil",
+        "id":"theoryofstructures",
+        "name":"Theory of Structures",
+        "code":"CE 255",
+        "year": 2,
+        "semester":1,
+        "img": ""
+    },
+    {
+        "IDS":"civil",
+        "id":"computerprogramming",
+        "name":"Computer Programming",
+        "code":"CE 257",
+        "year": 2,
+        "semester":1,
+        "img": ""
+    },
+    {
+        "IDS":"civil",
+        "id":"engineeringgeology",
+        "name":"Engineering Geology",
+        "code":"CE 259",
+        "year": 2,
+        "semester":1,
+        "img": ""
+    },
+    {
+        "IDS":"civil",
+        "id":"principlesofdesign",
+        "name":"Principes of Design",
+        "code":"CE 261",
+        "year": 2,
+        "semester":1,
+        "img": ""
+    },
+    {
+        "IDS":"civil",
+        "id":"mathematicsIII",
+        "name":"Mathematics III",
+        "code":"MATH 251",
+        "year": 2,
+        "semester":1,
+        "img": ""
+    },
+    {
+        "IDS":"civil",
+        "id":"computeraideddesign",
+        "name":"Computer Aided Design",
+        "code":"CE 263",
+        "year": 2,
+        "semester":1,
+        "img": ""
+    },
+    {
+        "IDS":"civil",
+        "id":"engineeringinsociety",
+        "name":"Engineering in Society",
+        "code": "CENG 291",
+        "year": 2,
+        "semester":1,
+        "img": ""
+    },
+    {
+        "IDS":"civil",
+        "id":"literatureinenglish",
+        "name":"Literature in English",
+        "code":"ENGL 263",
+        "year": 2,
+        "semester":1,
+        "img": ""
+    },
+    {
+        "IDS":"civil",
+        "id":"fluidmechanics",
+        "name":"Fluid Mechanics",
+        "code": "CE 256",
+        "year": 2,
+        "semester":2,
+        "img": ""
+    },
+    {
+        "IDS":"civil",
+        "id":"soilandrockmechanics",
+        "name":"Soil and Rock Mechanics",
+        "code": "CE 260",
+        "year": 2,
+        "semester":2,
+        "img": ""
+    },
+    {
+        "IDS":"civil",
+        "id":"introductiontoenvironmentalengineering",
+        "name":"Introduction to Environment Engineering",
+        "code": "CE 264",
+        "year": 2,
+        "semester":2,
+        "img": ""
+    },
+    {
+        "IDS":"civil",
+        "id":"largescalesurveying",
+        "name":"Large Scale Surveying",
+        "code": "GE 282",
+        "year": 2,
+        "semester":2,
+        "img": ""
+    },
+    {
+        "IDS":"civil",
+        "id":"literatureinenglish",
+        "name":"Literature in English",
+        "code":"ENGL 264",
+        "year": 2,
+        "semester":2,
+        "img": ""
+    },
+    {
+        "IDS":"civil",
+        "id":"calculuswithanalysis",
+        "name":"Calculus with Analysis",
+        "code":"MATH 252",
+        "year": 2,
+        "semester":2,
+        "img": ""
+    },
+    {
+        "IDS":"civil",
+        "id":"probabilityandstatistics",
+        "name":"Probability and Statistics",
+        "code":"MATH 353",
+        "year": 3,
+        "semester":1,
+        "img": ""
+    },
+    {
+        "IDS":"civil",
+        "id":"structuralanalysis",
+        "name":"Structural Analysis",
+        "code":"CE 351",
+        "year": 3,
+        "semester":1,
+        "img": ""
+    },
+    {
+        "IDS":"civil",
+        "id":"reinforcedconcretedesign",
+        "name":"Reinforced Concrete Design",
+        "code":"CE 353",
+        "year": 3,
+        "semester":1,
+        "img": ""
+    },
+    {
+        "IDS":"civil",
+        "id":"hydrology",
+        "name":"Hydrology",
+        "code":"CE 355",
+        "year": 3,
+        "semester":1,
+        "img": ""
+    },
+    {
+        "IDS":"civil",
+        "id":"soilmechanics",
+        "name":"Soil Mechanics",
+        "code":"CE 359",
+        "year": 3,
+        "semester":1,
+        "img": ""
+    },
+    {
+        "IDS":"civil",
+        "id":"highwayandtransportationengineeringI",
+        "name":"Highway and Transportation Engineering I",
+        "code":"CE 367",
+        "year": 3,
+        "semester":1,
+        "img": ""
+    },
+    {
+        "IDS":"civil",
+        "id":"engineeringsurveying",
+        "name":"Engineering Surveying",
+        "code":"GE 381",
+        "year": 3,
+        "semester":1,
+        "img": ""
+    }, 
+    {
+        "IDS":"civil",
+        "id":"numericalanalysis",
+        "name":"Numerical Analysis",
+        "code":"MATH 353",
+        "year": 3,
+        "semester":1,
+        "img": ""
+    },
+    {   
+        "IDS":"civil",
+        "id":"foundationengineering",
+        "name":"Foundation Engineering",
+        "code":"CE 360",
+        "year": 3,
+        "semester":2,
+        "img": ""
+    },
+    {
+        "IDS":"civil",
+        "id":"hydraulicengineering",
+        "name":"Hydraulic Engineering",
+        "code":"CE 356",
+        "year": 3,
+        "semester":2,
+        "img": ""
+    },
+    {
+        "IDS":"civil",
+        "id":"civilengineeringquantities",
+        "name":"Civil Engineering Quantities",
+        "code":"CE 376",
+        "year": 3,
+        "semester":2,
+        "img": ""
+    },
+    {
+        "IDS":"civil",
+        "id":"integrateddesign",
+        "name":"Integrated Design",
+        "code":"CE 378",
+        "year": 3,
+        "semester":2,
+        "img": ""
+    },
+    {
+        "IDS":"civil",
+        "id":"highwayengineering",
+        "name":"Highway Engineering",
+        "code":"CE 368",
+        "year": 3,
+        "semester":2,
+        "img": ""
+    },
+    {
+        "IDS":"civil",
+        "id":"numericalmethodsforengineers",
+        "name":"Numerical Methods for Engineers",
+        "code":"MSE 358",
+        "year": 3,
+        "semester":2,
+        "img": ""
+    },
+    {
+        "IDS":"civil",
+        "id":"steelandtimberdesign",
+        "name":"Steel and Timber Design",
+        "code":"CE 352",
+        "year": 3,
+        "semester":2,
+        "img": ""
+    },
+    {
+        "IDS":"civil",
+        "id":"environmentalqualityengineering",
+        "name":"Environmental Quality Engineering",
+        "code":"CE 364",
+        "year": 3,
+        "semester":2,
+        "img": ""
+    },
+    {
+        "IDS":"civil",
+        "id":"drainagesystems",
+        "name":"Drainage Systems",
+        "code":"CE 457",
+        "year": 4,
+        "semester":1,
+        "img": ""
+    },
+    {
+        "IDS":"civil",
+        "id":"engineeringeconomyandenterpreneurship",
+        "name":"Engineering Economy and Enterpreneurship",
+        "code":"CE 461",
+        "year": 4,
+        "semester":1,
+        "img": ""
+    },
+    {
+        "IDS":"civil",
+        "id":"highwayengineering",
+        "name":"Highway Engineering",
+        "code":"CE 467",
+        "year": 4,
+        "semester":1,
+        "img": ""
+    },
+    {
+        "IDS":"civil",
+        "id":"irrigationanddrainageengineering",
+        "name":"Irrigation an Drainage Engineering",
+        "code":"CE 471",
+        "year": 4,
+        "semester":1,
+        "img": ""
+    },
+    {
+        "IDS":"civil",
+        "id":"systemsengineeringI",
+        "name":"Systems Engineering I",
+        "code":"CE 475",
+        "year": 4,
+        "semester":1,
+        "img": ""
+    },
+    {
+        "IDS":"civil",
+        "id":"industrialtrainingreport",
+        "name":"Industrial Training Report",
+        "code":"CE 481",
+        "year": 4,
+        "semester":1,
+        "img": ""
+    },
+    {
+        "IDS":"civil",
+        "id":"civilengineeringdesign",
+        "name":"Civil Engineering Design",
+        "code":"CE 497",
+        "year": 4,
+        "semester":1,
+        "img": ""
+    },
+    {
+        "IDS":"civil",
+        "id":"waterresourcesengineeringII",
+        "name":"Water Resources Engineering II",
+        "code":"CE 458",
+        "year": 4,
+        "semester":2,
+        "img": ""
+    },
+    {
+        "IDS":"civil",
+        "id":"transportationengineering",
+        "name":"Transportation Engineering",
+        "code":"CE 468",
+        "year": 4,
+        "semester":2,
+        "img": ""
+    },
+    {
+        "IDS":"civil",
+        "id":"environmentalqualityengineeringII",
+        "name":"Environmental Quality Engineering",
+        "code":"CE 464",
+        "year": 4,
+        "semester":2,
+        "img": ""
+    },
+    {
+        "IDS":"civil",
+        "id":"project",
+        "name":"Project",
+        "code":"CE 498",
+        "year": 4,
+        "semester":2,
+        "img": ""
+    },
+    {
+        "IDS":"civil",
+        "id":"constructionmanagement",
+        "name":"Construction Management",
+        "code":"CE 462",
+        "year": 4,
+        "semester":2,
+        "img": ""
+    },
+    {
+        "IDS":"mechanical",
+        "id":"algebra",
+        "name":"Algebra",
+        "code":"MATH 151",
+        "year": 1,
+        "semester":1,
+        "img": ""
+    }, 
+    {
+        "IDS":"mechanical",
+        "id":"appliedelectricity",
+        "name":"Applied Electricity",
+        "code":"EE 151",
+        "year":1,
+        "semester":1,
+        "img": ""
+    }, 
+    {
+        "IDS":"mechanical",
+        "id":"communicationskills",
+        "name":"Communication Skills",
+        "code":"ENGL 157",
+        "year": 1,
+        "semester":1,
+        "img": ""
+    }, 
+   
+     {
+         "IDS":"mechanical",
+         "id":"informationtechnology",
+         "name":"Introduction to Information Technology",
+         "code":"ME 157",
+         "year": 1,
+         "semester":1,
+         "img": ""
+     },
+    {
+        "IDS":"mechanical",
+        "id":"technicaldrawing",
+        "name":"Technical Drawing",
+        "code":"ME 159",
+        "year": 1,
+        "semester":1,
+        "img": ""
+    },
+    {
+        "IDS":"mechanical",
+        "id":"environmentalstudies",
+        "name":"Environmental Studies",
+        "code":"CE 155",
+        "year": 1,
+        "semester":1,
+        "img": ""
+    },
+    {
+        "IDS":"mechanical",
+        "id":"enginetechnology",
+        "name":"Engine Technology",
+        "code":"ME 195",
+        "year": 1,
+        "semester":1,
+        "img": ""
+    },
+   {
+        "IDS":"mechanical",
+        "id":"communicationskillsII",
+        "name":"Communication Skills II",
+        "code":"ENGL 158",
+        "year": 1,
+        "semester":2,
+        "img": ""
+    },
+    {
+        "IDS":"mechanical",   
+        "id":"programmingforengineers",
+        "name":"Computer Programming for Engineers",
+        "code":"ME 158",
+        "year": 1,
+        "semester":2,
+        "img": ""
+    },
+
+    {
+        "IDS":"mechanical",
+        "id":"staticsandsolidmechanics",
+        "name":"Statics and Solid Mechanics",
+        "code":"ME 164",
+        "year": 1,
+        "semester":2,
+        "img": ""
+    }, 
+    {
+        "IDS":"mechanical",
+        "id":"basicelectronics",
+        "name":"Basic Electronics",
+        "code":"EE 152",
+        "year": 1,
+        "semester":2,
+        "img": ""
+    },
+    {
+        "IDS":"mechanical",
+        "id":"designproject",
+        "name":"First Year Design Project",
+        "code":"ME 174",
+        "year": 1,
+        "semester":2,
+        "img": ""
+    },
+    {
+        "IDS":"mechanical",
+        "id":"engineeringdrawing",
+        "name":"Engineering Drawing",
+        "code":"ME 160",
+        "year": 1,
+        "semester":2,
+        "img": ""
+    },
+    {
+        "IDS":"mechanical",
+        "id":"calculus",
+        "name":"Calculus With Analysis",
+        "code":"MATH 152",
+        "year": 1,
+        "semester":2,
+        "img": ""
+    },
+   
+    {
+        "IDS":"mechanical",
+        "id":"accountingI",
+        "name":"Accounting I",
+        "code":"CSM 157",
+        "year": 2,
+        "semester":1,
+        "img": ""
+    },
+   
+    {
+        "IDS":"mechanical",
+        "id":"frenchI",
+        "name":"French for Communication I",
+        "code":"FREN 181",
+        "year": 2,
+        "semester":1,
+        "img": ""
+    },
+    {
+        "IDS":"mechanical",
+        "id":"economicsI",
+        "name":"Introductory Economics I",
+        "code":"ECON 151",
+        "year": 2,
+        "semester":1,
+        "img": ""
+    },
+ 
+    {
+        "IDS":"mechanical",
+        "id":"literatureinenglishI",
+        "name":"Literature in English I",
+        "code":"ENGL 263",
+        "year": 2,
+        "semester":1,
+        "img": ""
+    },
+    {
+        "IDS":"mechanical",
+        "id":"strengthofmaterialsI",
+        "name":"Strength of Materials I",
+        "code":"ME 255",
+        "year": 2,
+        "semester":1,
+        "img": ""
+    },
+    {
+        "IDS":"mechanical",
+        "id":"fluidmechanics",
+        "name":"Introduction To Fluid Mechanics",
+        "code":"PE 255",
+        "year": 2,
+        "semester":1,
+        "img": ""
+    },
+    {
+        "IDS":"mechanical",
+        "id":"differentialequations",
+        "name":"Differential Equations",
+        "code":"MATH 251",
+        "year": 2,
+        "semester":1,
+        "img": ""
+    },
+    {
+        "IDS":"mechanical",
+        "id":"applicationofmechanicalgraphics",
+        "name":"Application of Computer Graphics",
+        "code":"ME 259",
+        "year": 2,
+        "semester":1,
+        "img": ""
+    },
+    {
+        "IDS":"mechanical",
+        "id":"mechanicalengineeringlabI",
+        "name":"Mechanical Engineering Lab I",
+        "code":"ME 295",
+        "year": 2,
+        "semester":1,
+        "img": ""
+    },
+    {
+        "IDS":"mechanical",
+        "id":"dynamicsofsolidmechanics",
+        "name":"Dynamics of Solid Mechanics",
+        "code":"ME 261",
+        "year": 2,
+        "semester":1,
+        "img": ""
+    },
+    {
+        "IDS":"mechanical",
+        "id":"thermodynamicsI",
+        "name":" Thermodynamics I",
+        "code":"ME 265",
+        "year": 2,
+        "semester":2,
+        "img": ""
+    },
+    {
+        "IDS":"mechanical",
+        "id":"mechanismssynthesisandanalysis",
+        "name":"Mechanisms Synthesis and Analysis I",
+        "code":"ME 262",
+        "year": 2,
+        "semester":2,
+        "img": ""
+    },
+    {
+        "IDS":"mechanical",
+        "id":"fluiddynamicsI",
+        "name":"Fluid Dynamics I",
+        "code":"ME 252",
+        "year": 2,
+        "semester":1,
+        "img": ""
+    },
+    {
+        "IDS":"mechanical",
+        "id":"calculuswithseveralvariables",
+        "name":"Calculus with Several Variables",
+        "code":"MATH 252",
+        "year": 2,
+        "semester":2,
+        "img": ""
+    },
+    {
+        "IDS":"mechanical",
+        "id":"manutech",
+        "name":" Manufacturing Technology",
+        "code":"EE 252",
+        "year": 2,
+        "semester":2,
+        "img": ""
+    },
+    {
+        "IDS":"mechanical",
+        "id":"mechanicalengineeringlabII",
+        "name":"Mechanical Engineering Lab II",
+        "code":"ME 296",
+        "year": 2,
+        "semester":2,
+        "img": ""
+    },
+    {
+        "IDS":"mechanical",
+        "id":"literatureinenglishII",
+        "name":"Literature in English II",
+        "year": 2,
+        "semester":2,
+        "img": ""
+    },
+    {
+        "IDS":"mechanical",
+        "id":"accountingII",
+        "name":"Accounting II",
+        "year": 2,
+        "semester":2,
+        "img": ""
+    },
+    {
+        "IDS":"mechanical",
+        "id":"frenchII",
+        "name":"French for Communication II",
+        "year": 2,
+        "semester":2,
+        "img": ""
+    },
+    {
+        "IDS":"mechanical",
+        "id":"economicsII",
+        "name":"Introductory Economics II",
+        "year": 2,
+        "semester":2,
+        "img": ""
+   },
+    {
+        "IDS":"mechanical",
+        "id":"mechanicalengineeringlabII",
+        "name":"Mechanical Engineering Lab II",
+        "code":"ME 296",
+        "year": 2,
+        "semester":2,
+        "img": ""
+    },
+    {
+        "IDS":"mechanical",
+        "id":"prob&stats",
+        "name":"Probability and Statistics",
+        "code":"MATH 353",
+        "year": 3,
+        "semester":1,
+        "img": ""
+    },
+    {
+        "IDS":"mechanical",
+        "id":"mechanicalulturalmaterialshandling",
+        "name":"Dynamics of Machinery",
+        "code":"ME 361",
+        "year": 3,
+        "semester":1,
+        "img": ""
+    },
+    {
+        "IDS":"mechanical",
+        "id":"machinedesign",
+        "name":"Machine Element Design ",
+        "code":"AE 373",
+        "year": 3,
+        "semester":1,
+        "img": ""
+    },
+    {
+        "IDS":"mechanical",
+        "id":"automaticcontrolI",
+        "name":"Automatic Control I",
+        "code":"ME 363",
+        "year": 3,
+        "semester":1,
+        "img": ""
+    },
+    {
+        "IDS":"mechanical",
+        "id":"numericalmethods",
+        "name":"Numerical Methods",
+        "code":"MATH 351",
+        "year": 3,
+        "semester":1,
+        "img": ""
+    },
+    {
+        "IDS":"mechanical",
+        "id":"thermodynamicsII",
+        "name":"Thermodynamics II",
+        "code":"ME 365",
+        "year": 3,
+        "semester":1,
+        "img": ""
+    },
+    {
+        "IDS":"mechanical",
+        "id":"mechanicalengineeringlabIII",
+        "name":"Mechanical Engineering Lab III",
+        "code":"ME 296",
+        "year": 3,
+        "semester":1,
+        "img": ""
+    },
+    {
+        "IDS":"mechanical",
+        "id":"keyboardskillsI",
+        "name":"Keyboard Skills I",
+        "code":"MUS 153",
+        "year": 3,
+        "semester":1,
+        "img": ""
+    },
+    {
+        "IDS":"mechanical",
+        "id":"Introductiontosoundeng",
+        "name":"Introduction to Sound Engineering ",
+        "code":"MUS 159",
+        "year": 3,
+        "semester":1,
+        "img": ""
+    },
+    {
+        "IDS":"mechanical",
+        "id":"traditionalafricandance",
+        "name":"Traditional African Dance Forms",
+        "code":"PAA 151",
+        "year": 3,
+        "semester":1,
+        "img": ""
+    },
+    {
+        "IDS":"mechanical",
+        "id":"fluiddynamicsII",
+        "name":"Fluid Dynamics II",
+        "code":"ME 252",
+        "year": 3,
+        "semester":2,
+        "img": ""
+    },
+    {
+        "IDS":"mechanical",
+        "id":"strengthofmaterialsII",
+        "name":"Strength of Materials II",
+        "code":"ME 255",
+        "year": 3,
+        "semester":2,
+        "img": ""
+    },
+   
+    {
+        "IDS":"mechanical",
+        "id":"heattransfer",
+        "name":"Heat Transfer",
+        "code":"ME 366",
+        "year": 3,
+        "semester":2,
+        "img": ""
+    },
+    {
+        "IDS":"mechanical",
+        "id":"machinedesign",
+        "name":"Machine Design",
+        "code":"ME 374",
+        "year": 3,
+        "semester":2,
+        "img": ""
+    },
+    {
+        "IDS":"mechanical",
+        "id":"mechanicalengineeringlabIV",
+        "name":"Mechanical Engineering Lab IV",
+        "code":"ME 396",
+        "year": 3,
+        "semester":2,
+        "img": ""
+    },
+    {
+        "IDS":"mechanical",
+        "id":"electricalmachines",
+        "name":"Electrical Engineering Machines",
+        "code":"EE 252",
+        "year": 3,
+        "semester":2,
+        "img": ""
+    },
+    {
+        "IDS":"mechanical",
+        "id":"vibrationI",
+        "name":"Vibrations I",
+        "code":"ME 376",
+        "year": 3,
+        "semester":2,
+        "img": ""
+    },
+    {
+        "IDS":"mechanical",
+        "id":"industrialengergonomics",
+        "name":"Industrial Engineering and Ergonomics",
+        "code":"ME 394",
+        "year": 3,
+        "semester":2,
+        "img": ""
+    },
+    {
+        "IDS":"mechanical",
+        "id":"hydraulicsandpneumatics",
+        "name":"Hydraulics and Pneumatics",
+        "year": 4,
+        "semester":1,
+        "img": ""
+    },
+    {
+        "IDS":"mechanical",
+        "id":"automaticcontrolII",
+        "name":"Automatic Control II",
+        "code":"ME 463",
+        "year": 4,
+        "semester":1,
+        "img": ""
+    },
+    {
+        "IDS":"mechanical",
+        "id":"engeconomyandmanagement",
+        "name":"Engineering Economy and Management",
+        "code":"ME 491",
+        "year": 4,
+        "semester":1,
+        "img": ""
+    },
+    {
+        "IDS":"mechanical",
+        "id":"projectI",
+        "name":"Final Year Project I",
+        "code":"ME 491",
+        "year": 4,
+        "semester":1,
+        "img": ""
+    },
+    {
+        "IDS":"mechanical",
+        "id":"vibrationII",
+        "name":"Vibrations II",
+        "code":"ME 461",
+        "year": 4,
+        "semester":1,
+        "img": ""
+    },
+    {
+        "IDS":"mechanical",
+        "id":"strengthofmaterialsIII",
+        "name":"Strength of Materials III",
+        "code":"ME 455",
+        "year": 4,
+        "semester":1,
+        "img": ""
+    },
+    {
+        "IDS":"mechanical",
+        "id":"cropprocessing",
+        "name":"Crop Processing",
+        "code":"AE 457",
+        "year": 4,
+        "semester":1,
+        "img": ""
+    },
+    {
+        "IDS":"mechanical",
+        "id":"designofvehiclestructure",
+        "name":"Design of Vehicle Structures",
+        "code":"ME 485",
+        "year": 4,
+        "semester":1,
+        "img": ""
+    },
+    {
+        "IDS":"mechanical",
+        "id":"maintenanaceandmanagementoftransport",
+        "name":"Maintenance and Management of Transport ",
+        "code":"ME 489",
+        "year": 4,
+        "semester":1,
+        "img": ""
+    },
+    {
+        "IDS":"mechanical",
+        "id":"vehiclepowertrainsystem",
+        "name":"Vehicle Power Train System",
+        "code":"ME 487",
+        "year": 4,
+        "semester":1,
+        "img": ""
+    },
+    {
+        "IDS":"mechanical",
+        "id":"machinetoolsdesign",
+        "name":"Machine Tools Design",
+        "code":"ME 471",
+        "year": 4,
+        "semester":1,
+        "img": ""
+    },
+    {
+        "IDS":"mechanical",
+        "id":"computerdesignmanufacturing",
+        "name":"Computer Aided Design and Manufacturing",
+        "code":"ME 473",
+        "year": 4,
+        "semester":1,
+        "img": ""
+    },
+    {
+        "IDS":"mechanical",
+        "id":"productionengineeringI",
+        "name":"Production Engineering I",
+        "code":"ME 477",
+        "year": 4,
+        "semester":1,
+        "img": ""
+    },
+    {
+        "IDS":"mechanical",
+        "id":"facilitiesdesign",
+        "name":"Facilities Design",
+        "code":"ME 469",
+        "year": 4,
+        "semester":1,
+        "img": ""
+    },
+    {
+        "IDS":"mechanical",
+        "id":"operationsresearch",
+        "name":"Operations Research",
+        "code":"ME 499",
+        "year": 4,
+        "semester":1,
+        "img": ""
+    },
+    {
+        "IDS":"mechanical",
+        "id":"behaviourofrealfluids",
+        "name":"Behaviour of Real Fluids",
+        "code":"ME 451",
+        "year": 4,
+        "semester":1,
+        "img": ""
+    },
+    {
+        "IDS":"mechanical",
+        "id":"airconditioning",
+        "name":"Air Conditioning and Refrieration",
+        "code":"ME 465",
+        "year": 4,
+        "semester":1,
+        "img": ""
+    },
+    {
+        "IDS":"mechanical",
+        "id":"renewableenergy",
+        "name":"Renewable Energy Conversion",
+        "code":"ME 467",
+        "year": 4,
+        "semester":1,
+        "img": ""
+    },
+    {
+        "IDS":"mechanical",
+        "id":"engineeringmaterialsII",
+        "name":"Engineering Materials II",
+        "code":"ME 481",
+        "year": 4,
+        "semester":1,
+        "img": ""
+    },
+    {
+        "IDS":"mechanical",
+        "id":"compositematerials",
+        "name":"Composite Materials",
+        "code":"MSE 451",
+        "year": 4,
+        "semester":1,
+        "img": ""
+    },
+    {
+        "IDS":"mechanical",
+        "id":"mechatronics",
+        "name":"Mechatronics",
+        "code":"ME 483",
+        "year": 4,
+        "semester":1,
+        "img": ""
+    },
+    {
+        "IDS":"mechanical",
+        "id":"mechanismssynthesisandanalysisII",
+        "name":"Mechanisms Synthesis and Analysis II",
+        "code":"ME 262",
+        "year": 4,
+        "semester":2,
+        "img": ""
+    },
+    {
+        "IDS":"mechanical",
+        "id":"entrepreneurshipdevelopment",
+        "name":"Entrepreneurship Development and Management",
+        "code":"ME 492",
+        "year": 4,
+        "semester":2,
+        "img": ""
+    },
+    {
+        "IDS":"mechanical",
+        "id":"projectI",
+        "name":"Final Year Project II",
+        "code":"ME 498",
+        "year": 4,
+        "semester":2,
+        "img": ""
+    },
+    {
+        "IDS":"mechanical",
+        "id":"instrumentation",
+        "name":"Instrumentation",
+        "code":"ME 464",
+        "year": 4,
+        "semester":2,
+        "img": ""
+    },
+    {
+        "IDS":"mechanical",
+        "id":"maintenanceengineering",
+        "name":"Maintenance Engineering",
+        "code":"ME 494",
+        "year": 4,
+        "semester":2,
+        "img": ""
+    },
+    {
+        "IDS":"mechanical",
+        "id":"finiteelementmethod",
+        "name":"Finite Element Method",
+        "code":"ME 456",
+        "year": 4,
+        "semester":2,
+        "img": ""
+    },
+    {
+        "IDS":"mechanical",
+        "id":"vehiclecontrol",
+        "name":"Vehicle Control,Suspension and Stability",
+        "code":"ME 486",
+        "year": 4,
+        "semester":2,
+        "img": ""
+    },
+    {
+        "IDS":"mechanical",
+        "id":"internalcombustionengine",
+        "name":"Internal Combustion Engine",
+        "code":"ME 468",
+        "year": 4,
+        "semester":2,
+        "img": ""
+    },
+    {
+        "IDS":"mechanical",
+        "id":"discreteeventsimulation",
+        "name":"Discrete Event Simulation",
+        "code":"457",
+        "year": 4,
+        "semester":1,
+        "img": ""
+    },
+    {
+        "IDS":"mechanical",
+        "id":"machineshopandfactorydesign",
+        "name":"Machine Shop and Fatory Design",
+        "code":"ME 472",
+        "year": 4,
+        "semester":2,
+        "img": ""
+    },
+    {
+        "IDS":"mechanical",
+        "id":"productionengineeringII",
+        "name":"Production Engineering II",
+        "code":"ME 478",
+        "year": 4,
+        "semester":2,
+        "img": ""
+    },
+    {
+        "IDS":"mechanical",
+        "id":"engineeringmaterialsprocess",
+        "name":"Engineering Materials Processing",
+        "code":"ME 481",
+        "year": 4,
+        "semester":1,
+        "img": ""
+    },
+    {
+        "IDS":"mechanical",
+        "id":"humanfactorsandergonomics",
+        "name":"Human Factors & Ergonomics",
+        "code":"ME 494",
+        "year": 4,
+        "semester":2,
+        "img": ""
+    },
+    {
+        "IDS":"mechanical",
+        "id":"productionplanningcontrol",
+        "name":"Production Planning and Control",
+        "code":"ME 474 ",
+        "year": 4,
+        "semester":2,
+        "img": ""
+    },
+    {
+        "IDS":"mechanical",
+        "id":"fluidmachinery",
+        "name":"Fluid Machinery",
+        "code":"ME 452",
+        "year": 4,
+        "semester":2,
+        "img": ""
+    },
+    {
+        "IDS":"mechanical",
+        "id":"automationandproductionsystem",
+        "name":"Automation and Production Systems",
+        "code":"ME 470",
+        "year": 4,
+        "semester":2,
+        "img": ""
+    },
+    {
+        "IDS":"mechanical",
+        "id":"automotiveelectrical",
+        "name":"Automotive Electrical and Electronic Systems",
+        "code":"ME 488",
+        "year": 4,
+        "semester":2,
+        "img": ""
+    },
+    {
+        "IDS":"petroleum",
+        "id":"algebra",
+        "name":"Algebra",
+        "code":"151",
+        "year": 1,
+        "semester":1,
+        "img": ""
+    }, 
+    {
+        "IDS":"petroleum",
+        "id":"appliedelectricity",
+        "name":"Applied Electricity",
+        "code":"EE 151",
+        "year":1,
+        "semester":1,
+        "img": ""
+    }, 
+    {
+        "IDS":"petroleum",
+        "id":"communicationskills",
+        "name":"Communication Skills",
+        "code":"ENGL 157",
+        "year": 1,
+        "semester":1,
+        "img": ""
+    }, 
+   
+    {
+        "IDS":"petroleum",
+        "id":"technicaldrawing",
+        "name":"Technical Drawing",
+        "code":"ME 159",
+        "year": 1,
+        "semester":1,
+        "img": ""
+    },
+    {
+        "IDS":"petroleum",
+        "id":"practicalchemistry I",
+        "name":"Practical Chemistry I",
+        "code":"CHEM 169",
+        "year": 1,
+        "semester":1,
+        "img": ""
+    },
+    {
+        "IDS":"petroleum",
+        "id":"inorganicchemistry",
+        "name":"Inorganic Chemistry for Engineers",
+        "code":"PE 151",
+        "year": 1,
+        "semester":1,
+        "img": ""
+    },
+    {
+        "IDS":"petroleum",
+        "id":"organicchemistry",
+        "name":"Organic Chemistry for Engineers",
+        "code":"",
+        "year": 1,
+        "semester":1,
+        "img": ""
+    },
+    {
+        "IDS":"petroleum",
+        "id":"introductiontoit",
+        "name":"Introduction to IT",
+        "code":"COE 158",
+        "year": 1,
+        "semester":1,
+        "img": ""
+    },
+    {
+        "IDS":"petroleum",
+        "id":"basicmechanics",
+        "name":"Basic Mechanics",
+        "code":"ME 161",
+        "year": 1,
+        "semester":2,
+        "img": ""
+    }, 
+    {
+        "IDS":"petroleum",
+        "id":"basicelectronics",
+        "name":"Basic Electronics",
+        "code":"EE 152",
+        "year": 1,
+        "semester":2,
+        "img": ""
+    },
+    {
+        "IDS":"petroleum",
+        "id":"calculus",
+        "name":"Calculus",
+        "code":"MATH 152",
+        "year": 1,
+        "semester":2,
+        "img": ""
+    },
+    {
+        "IDS":"petroleum",
+        "id":"physicalchemistryforengineers",
+        "name":"Physical Chemistry for Engineers",
+        "code":"PE 156",
+        "year": 1,
+        "semester":2,
+        "img": ""
+    },
+  
+    {
+        "IDS":"petroleum",
+        "id":"introductiontopetroleum",
+        "name":"Introduction to Petroleum Engineering",
+        "code":"PE 154",
+        "year": 1,
+        "semester":2,
+        "img": ""
+    },
+    {
+        "IDS":"petroleum",
+        "id":"communicationskillsII",
+        "name":"Communication Skills II",
+        "code":"ENGL 158",
+        "year": 1,
+        "semester":2,
+        "img": ""
+    },
+    {
+        "IDS":"petroleum",
+        "id":"generalphysics",
+        "name":"General Physics",
+        "code":"PE 155",
+        "year": 1,
+        "semester":2,
+        "img": ""
+    },
+    {
+        "IDS":"petroleum",
+        "id":"strengthofmaterialsI",
+        "name":"Strength of Materials I",
+        "code":"ME 255",
+        "year": 2,
+        "semester":1,
+        "img": ""
+    },
+    {
+        "IDS":"petroleum",
+        "id":"differentialequations",
+        "name":"Differential Equations",
+        "code":"MATH 251",
+        "year": 2,
+        "semester":1,
+        "img": ""
+    },
+    {
+        "IDS":"petroleum",
+        "id":"engineeringinsociety",
+        "name":"Engineering in Society",
+        "code":"CENG 291",
+        "year": 2,
+        "semester":1,
+        "img": ""
+    },
+    {
+        "IDS":"petroleum",
+        "id":"introtogeology",
+        "name":"Intro to Geology",
+        "code":"PE 253",
+        "year": 2,
+        "semester":1,
+        "img": ""
+    },
+    {
+        "IDS":"petroleum",
+        "id":"reservoirengineering I",
+        "name":"Reservoir Engineering I",
+        "code":"PE 251",
+        "year": 2,
+        "semester":1,
+        "img": ""
+    },
+    {
+        "IDS":"petroleum",
+        "id":"fluidmechanics",
+        "name":" Fluid Mechanics",
+        "code":"PE 255",
+        "year": 2,
+        "semester":1,
+        "img": ""
+    },
+    {
+        "IDS":"petroleum",
+        "id":"petroleumengineeringthermo I",
+        "name":"Petroleum Engineering Thermodynamics I",
+        "code":"PE 257",
+        "year": 2,
+        "semester":1,
+        "img": ""
+    },
+    {
+        "IDS":"petroleum",
+        "id":"swimmingtech",
+        "name":"Survival Swimming Techniques",
+        "code":"PE 259",
+        "year": 2,
+        "semester":1,
+        "img": ""
+    },
+    {
+        "IDS":"petroleum",
+        "id":"accountingI",
+        "name":"Accounting I",
+        "code":"CSM 157",
+        "year": 2,
+        "semester":1,
+        "img": ""
+    },
+    {
+        "IDS":"petroleum",
+        "id":"frenchI",
+        "name":"French I",
+        "code":"FREN 181",
+        "year": 2,
+        "semester":1,
+        "img": ""
+    },
+    {
+        "IDS":"petroleum",
+        "id":"economicsI",
+        "name":"Economics I",
+        "code":"ECON 151",
+        "year": 2,
+        "semester":1,
+        "img": ""
+    },
+    {
+        "IDS":"petroleum",
+        "id":"calculuswithseveralvariables",
+        "name":"Calculus with Several Variables",
+        "code":"MATH 252",
+        "year": 2,
+        "semester":2,
+        "img": ""
+    },
+    {
+        "IDS":"mechanical",
+        "id":"heattransfer",
+        "name":"Heat Transfer Processes",
+        "code":"PE 252",
+        "year": 2,
+        "semester":2,
+        "img": ""
+    },
+    {
+        "IDS":"petroleum",
+        "id":"Drawingforengineers",
+        "name":"Drawing for Engineers",
+        "code":"PE 254",
+        "year": 2,
+        "semester":2,
+        "img": ""
+    },
+    {
+        "IDS":"petroleum",
+        "id":"regionalgeology",
+        "name":"Regional Geology",
+        "code":"PE 256",
+        "year": 2,
+        "semester":2,
+        "img": ""
+    },
+    {
+        "IDS":"petroleum",
+        "id":"petroleumthermodynamicsII",
+        "name":"Petroleum Engineering Thermodynamics II",
+        "code":"PE 258",
+        "year": 2,
+        "semester":2,
+        "img": ""
+    },
+    {
+        "IDS":"petroleum",
+        "id":"Reservoirfluidproperties",
+        "name":"Reservoir Fluid Properties",
+        "code":"PE 260",
+        "year": 2,
+        "semester":2,
+        "img": ""
+    },
+    {
+        "IDS":"petroleum",
+        "id":"computerprogramminginoilandgas",
+        "name":"Computer Programming in Oil and Gas",
+        "code":"PE 262",
+        "year": 2,
+        "semester":2,
+        "img": ""
+    },
+    {
+        "IDS":"petroleum",
+        "id":"priciplesoflandsurvey",
+        "name":"Principles of Land Surveying and Hydrogrphic Science",
+        "code":"PE264",
+        "year": 2,
+        "semester":2,
+        "img": ""
+    },
+  
+    {
+        "IDS":"petroleum",
+        "id":"accountingII",
+        "name":"Accounting II",
+        "code":"CSM 158",
+        "year": 2,
+        "semester":2,
+        "img": ""
+    },
+    {
+        "IDS":"petroleum",
+        "id":"frenchII",
+        "name":"French for Communication II",
+        "code":"FREN 182",
+        "year": 2,
+        "semester":2,
+        "img": ""
+    },
+    {
+        "IDS":"petroleum",
+        "id":"economicsII",
+        "name":"Introductory Economics II",
+        "code":"ECON 152",
+        "year": 2,
+        "semester":2,
+        "img": ""
+    },
+    {
+        "IDS":"petroleum",
+        "id":"petroleumengineeringlabI",
+        "name":"Petroleum Engineering Lab I",
+        "code":"PE 355",
+        "year": 3,
+        "semester":1,
+        "img": ""
+    },  
+    {
+        "IDS":"petroleum",
+        "id":"petroleumproengineeringI",
+        "name":"Petroleum Production Engineering  I",
+        "code":"PE 357",
+        "year": 3,
+        "semester":1,
+        "img": ""
+    },  
+    {
+        "IDS":"petroleum",
+        "id":"drillingengI",
+        "name":"Drilling Engineering I",
+        "code":"PE 353",
+        "year": 3,
+        "semester":1,
+        "img": ""
+    }, 
+    {
+        "IDS":"petroleum",
+        "id":"Petroleumrockmechanics",
+        "name":"Petroleum Rock Mechanics",
+        "code":"PE 351",
+        "year": 3,
+        "semester":1,
+        "img": ""
+    }, 
+    {
+        "IDS":"petroleum",
+        "id":"reservoirengineering II",
+        "name":"Reservoir Engineering II",
+        "code":"PE 361",
+        "year": 3,
+        "semester":1,
+        "img": ""
+    },
+    {
+        "IDS":"petroleum",
+        "id":"reservoirpetrolphysics",
+        "name":"Reservoir Petrolphysics",
+        "code":"PE 359",
+        "year": 3,
+        "semester":1,
+        "img": ""
+    }, 
+    {
+        "IDS":"petroleum",
+        "id":"fomationevaluation",
+        "name":"Formation Evaluation",
+        "code":"PE 363",
+        "year": 3,
+        "semester":1,
+        "img": ""
+    }, 
+    {
+        "IDS":"petroleum",
+        "id":"statsforpetrolengineers",
+        "name":"Statistics for Petroleum Engineers",
+        "code":"PE 367",
+        "year": 3,
+        "semester":1,
+        "img": ""
+    }, 
+    {
+        "IDS":"petroleum",
+        "id":"numericalmethods",
+        "name":"Numerical Methods for Petroleum Engineers",
+        "code":"MATH 350",
+        "year": 3,
+        "semester":2,
+        "img": ""
+    },
+    {
+        "IDS":"petroleum",
+        "id":"petrolgeology",
+        "name":"Petroleum GEology",
+        "code":"PE 352",
+        "year": 3,
+        "semester":2,
+        "img": ""
+    }, 
+    {
+        "IDS":"petroleum",
+        "id":"petroleumproengineeringII",
+        "name":"Petroleum Production Engineering  II",
+        "code":"PE 357",
+        "year": 3,
+        "semester":2,
+        "img": ""
+    },  
+    {
+        "IDS":"petroleum",
+        "id":"drillingengII",
+        "name":"Drilling Engineering II",
+        "code":"PE 354",
+        "year": 3,
+        "semester":2,
+        "img": ""
+    }, 
+    {
+        "IDS":"petroleum",
+        "id":"welltesting",
+        "name":"Well Testing",
+        "code":"PE 360",
+        "year": 3,
+        "semester":2,
+        "img": ""
+    },  
+    {
+        "IDS":"petroleum",
+        "id":"geostatistics",
+        "name":"Geostatistics",
+        "code":"PE 362",
+        "year": 3,
+        "semester":2,
+        "img": ""
+    },  
+    {
+        "IDS":"petroleum",
+        "id":"oilandgasgeophysics",
+        "name":"Oil and Gas Geophysics",
+        "code":"PE 364",
+        "year": 3,
+        "semester":2,
+        "img": ""
+    },  
+    {
+        "IDS":"petroleum",
+        "id":"healthsafetyandenvironment",
+        "name":"Health Safety & Environment",
+        "code":"PE 366",
+        "year": 3,
+        "semester":2,
+        "img": ""
+    },  
+    {
+        "IDS":"petroleum",
+        "id":"petroleumengineeringlabII",
+        "name":"petroleum Engineering Lab II",
+        "code":"PE 356",
+        "year": 3,
+        "semester":2,
+        "img": ""
+    },  
+    {
+        "IDS":"petroleum",
+        "id":"engineeringeconomicsandmanagment",
+        "name":"Engineering Economics and Managment",
+        "code":"ME 491",
+        "year": 4,
+        "semester":1,
+        "img": ""
+    },       
+    {
+        "IDS":"petroleum",
+        "id":"designprojectI",
+        "name":"Design Project I",
+        "code":"PE 453",
+        "year": 4,
+        "semester":1,
+        "img": ""
+    },
+    {
+        "IDS":"petroleum",
+        "id":"petrolecons",
+        "name":"Petroleum Economics",
+        "code":"PE 451",
+        "year": 4,
+        "semester":1,
+        "img": ""
+    },
+    {
+        "IDS":"petroleum",
+        "id":"reservoirsimulation",
+        "name":"Reservoir Simulation",
+        "code":"PE 455",
+        "year": 4,
+        "semester":1,
+        "img": ""
+    },
+    {
+        "IDS":"petroleum",
+        "id":"integratedfielddesign",
+        "name":"Integrated Field Design",
+        "code":"PE 451",
+        "year": 4,
+        "semester":1,
+        "img": ""
+    },
+    {
+        "IDS":"petroleum",
+        "id":"naturalgaseng",
+        "name":"Natural Gas Engineering",
+        "code":"PE 459",
+        "year": 4,
+        "semester":1,
+        "img": ""
+    },
+    {
+        "IDS":"petroleum",
+        "id":"fieldtripandindustrialattachment",
+        "name":"Field Trip & Industrial Attachment",
+        "code":"PE 471",
+        "year": 4,
+        "semester":1,
+        "img": ""
+    },
+    {
+        "IDS":"petroleum",
+        "id":"reservoirrecoverytech",
+        "name":"Reservoir Recovery Techniques",
+        "code":"PE 450",
+        "year": 4,
+        "semester":2,
+        "img": ""
+    },
+    {
+        "IDS":"petroleum",
+        "id":"petrolprojectevaluation",
+        "name":"Petroleum Project Evaluation",
+        "code":"PE 452",
+        "year": 4,
+        "semester":2,
+        "img": ""
+    },
+    {
+        "IDS":"petroleum",
+        "id":"designprojectII",
+        "name":"Design Project II",
+        "code":"PE 454",
+        "year": 4,
+        "semester":2,
+        "img": ""
+    },
+    {
+        "IDS":"petroleum",
+        "id":"wellcompletionandsimulation",
+        "name":"Well COmpletion & Simulation",
+        "code":"PE 456",
+        "year": 4,
+        "semester":2,
+        "img": ""
+    },
+    {
+        "IDS":"petroleum",
+        "id":"oilfieldgeochemistry",
+        "name":"Oilfield Geochemistry",
+        "code":"PE 458",
+        "year": 4,
+        "semester":2,
+        "img": ""
+    },
+    {
+        "IDS":"petroleum",
+        "id":"entrepreneurshipandleadership",
+        "name":"Entrepreneurship and Leadership",
+        "code":"PE 460",
+        "year": 4,
+        "semester":2,
+        "img": ""
+    },
+    {
+        "IDS":"geological",
+        "id":"elementarystructures",
+        "name":"Elementary Structures",
+        "code":"CE 151",
+        "year": 1,
+        "semester":1,
+        "img": ""
+    }, 
+    {
+        "IDS":"geological",
+        "id":"introductiontoeconomicsI",
+        "name":"Introduction to Economics I",
+        "code":"ECON 151",
+        "year": 1,
+        "semester":1,
+        "img": ""
+    }, 
+    {
+        "IDS":"geological",
+        "id":"basicgeology",
+        "name":"Basic Geology",
+        "code":"GED 151",
+        "year": 1,
+        "semester":1,
+        "img": ""
+    }, 
+    {
+        "IDS":"geological",
+        "id":"communicationskillsI",
+        "name":"Communication Skills I",
+        "code":"ENGL 157",
+        "year": 1,
+        "semester":1,
+        "img": ""
+    }, 
+    {
+        "IDS":"geological",
+        "id":"engineeringtechnology",
+        "name":"Engineering Technology",
+        "code":"GED 153",
+        "year": 1,
+        "semester":1,
+        "img": ""
+    }, 
+    {
+        "IDS":"geological",
+        "id":"algebra",
+        "name":"Algebra",
+        "code":"MATH 151",
+        "year": 1,
+        "semester":1,
+        "img": ""
+    }, 
+    {
+        "IDS":"geological",
+        "id":"technicaldrawing",
+        "name":"Technical Drawing",
+        "code":"ME 151",
+        "year": 1,
+        "semester":1,
+        "img": ""
+    }, 
+    {
+        "IDS":"geological",
+        "id":"basicmechanics",
+        "name":"Basic Mechanics",
+        "code":"ME 161",
+        "year": 1,
+        "semester":1,
+        "img": ""
+    }, 
+    {
+        "IDS":"geological",
+        "id":"elementaryfluidsmechanics",
+        "name":"Elementary Fluids Mechanics",
+        "code":"CE 156",
+        "year": 1,
+        "semester":2,
+        "img": ""
+    },
+    {
+        "IDS":"geological",
+        "id":"civilengineeringdrawing",
+        "name":"Civil Engineering Drawing",
+        "code":"CE 164",
+        "year": 1,
+        "semester":2,
+        "img": ""
+    },
+    {
+        "IDS":"geological",
+        "id":"inductoryeconomicsII",
+        "name":"Inductory Economics II",
+        "code":"ECON 152",
+        "year": 1,
+        "semester":2,
+        "img": ""
+    },
+    {
+        "IDS":"geological",
+        "id":"basicelectronics",
+        "name":"Basic Electronics",
+        "code":"EE 152",
+        "year": 1,
+        "semester":2,
+        "img": ""
+    },
+    {
+        "IDS":"geological",
+        "id":"communicationskillsII",
+        "name":"Communication Skills II",
+        "code":"ENGL 158",
+        "year": 1,
+        "semester":2,
+        "img": ""
+    },
+    {
+        "IDS":"geological",
+        "id":"basicmineralscience",
+        "name":"Basic Mineral Science",
+        "code":"GED 152",
+        "year": 1,
+        "semester":2,
+        "img": ""
+    },
+    {
+        "IDS":"geological",
+        "id":"computerapplications",
+        "name":"Computer Applications",
+        "code":"GED 164",
+        "year": 1,
+        "semester":2,
+        "img": ""
+    },
+    {
+        "IDS":"geological",
+        "id":"calculuswithseveralvariables",
+        "name":"Calculus with Several Variables",
+        "code":"MATH 152",
+        "year": 1,
+        "semester":2,
+        "img": ""
+    },  
+    {
+        "IDS":"geological",
+        "id":"theoryofstructures",
+        "name":"Theory of Structures",
+        "code":"CE 255",
+        "year": 2,
+        "semester":1,
+        "img": ""
+    }, 
+    {
+        "IDS":"geological",
+        "id":"strenghtofmaterials",
+        "name":"Strenght of Materials",
+        "code":"CE 251",
+        "year": 2,
+        "semester":1,
+        "img": ""
+    }, 
+    {
+        "IDS":"geological",
+        "id":"physicalgeology",
+        "name":"Physical Geology",
+        "code":"GED 253",
+        "year": 2,
+        "semester":1,
+        "img": ""
+    }, 
+    {
+        "IDS":"geological",
+        "id":"mineralogy",
+        "name":"Mineralogy",
+        "code":"GED 251",
+        "year": 2,
+        "semester":1,
+        "img": ""
+    }, 
+    {
+        "IDS":"geological",
+        "id":"computerprogramming",
+        "name":"Computer Programming",
+        "code":"GED 267",
+        "year": 2,
+        "semester":1,
+        "img": ""
+    }, 
+    {
+        "IDS":"geological",
+        "id":"differentialequations",
+        "name":"Differential Equations",
+        "code":"MATH 251",
+        "year": 2,
+        "semester":1,
+        "img": ""
+    }, 
+    {
+        "IDS":"geological",
+        "id":"engineeringinsociety",
+        "name":"Engineering in Society",
+        "code":"CENG 291",
+        "year": 2,
+        "semester":1,
+        "img": ""
+    }, 
+    {
+        "IDS":"geological",
+        "id":"fluidmechanics",
+        "name":"Fluid Mechanics",
+        "code":"CE 256",
+        "year": 2,
+        "semester":2,
+        "img": ""
+    }, 
+    {
+        "IDS":"geological",
+        "id":"largescalesurveying",
+        "name":"Large Scale Surveying",
+        "code":"GE 282",
+        "year": 2,
+        "semester":2,
+        "img": ""
+    },  {
+        "IDS":"geological",
+        "id":"stratigraphy",
+        "name":"Stratigraphy",
+        "code":"GEED 252",
+        "year": 2,
+        "semester":2,
+        "img": ""
+    }, 
+    {
+        "IDS":"geological",
+        "id":"rockengineering",
+        "name":"Rock Engineering",
+        "code":"GED 254",
+        "year": 2,
+        "semester":2,
+        "img": ""
+    }, 
+    {
+        "IDS":"geological",
+        "id":"opticalmineralogy",
+        "name":"Optical Mineralogy",
+        "code":"GED 258",
+        "year": 2,
+        "semester":2,
+        "img": ""
+    }, 
+    {
+        "IDS":"geological",
+        "id":"introductiontosoilmechanics",
+        "name":"Introduction to Soil Mechanics",
+        "code":"GED 258",
+        "year": 2,
+        "semester":2,
+        "img": ""
+    }, 
+    {
+        "IDS":"geological",
+        "id":"analysis",
+        "name":"Analysis",
+        "code":"MATH 252",
+        "year": 2,
+        "semester":2,
+        "img": ""
+    }, 
+    {
+        "IDS":"geological",
+        "id":"soilmechanics",
+        "name":"Soil Mechanics",
+        "code":"CE 359",
+        "year": 3,
+        "semester":1,
+        "img": ""
+    }, 
+    {
+        "IDS":"geological",
+        "id":"petrology",
+        "name":"Petrology",
+        "code":"GED 351",
+        "year": 3,
+        "semester":1,
+        "img": ""
+    }, 
+    {
+        "IDS":"geological",
+        "id":"basichydrology",
+        "name":"Basic Hydrology",
+        "code":"GED 357",
+        "year": 3,
+        "semester":1,
+        "img": ""
+    }, 
+    {
+        "IDS":"geological",
+        "id":"geologicalfieldmapping",
+        "name":"Geological Field Mapping",
+        "code":"GED 365",
+        "year": 3,
+        "semester":1,
+        "img": ""
+    }, 
+    {
+        "IDS":"geological",
+        "id":"photogeologyandremotesensing",
+        "name":"Photogeology and Remote Sensing",
+        "code":"GED 369",
+        "year": 3,
+        "semester":1,
+        "img": ""
+    }, 
+    {
+        "IDS":"geological",
+        "id":"principlesofengineeringgeology",
+        "name":"Principles of Engineering Geology",
+        "code":"GED 375",
+        "year": 3,
+        "semester":1,
+        "img": ""
+    }, 
+    {
+        "IDS":"geological",
+        "id":"numericalanalysis",
+        "name":"Numerical Analysis",
+        "code":"MATH 351",
+        "year": 3,
+        "semester":1,
+        "img": ""
+    }, 
+    {
+        "IDS":"geological",
+        "id":"probabilityandstatistics",
+        "name":"Probability and Statistics",
+        "code":"MATH 353",
+        "year": 3,
+        "semester":1,
+        "img": ""
+    }, 
+    {
+        "IDS":"geological",
+        "id":"foundationengineering",
+        "name":"Foundation Engineering",
+        "code":"CE 360",
+        "year": 3,
+        "semester":2,
+        "img": ""
+    }, 
+    {
+        "IDS":"geological",
+        "id":"miningprinciples",
+        "name":"Mining Principles",
+        "code":"GED 342",
+        "year": 3,
+        "semester":2,
+        "img": ""
+    }, 
+    {
+        "IDS":"geological",
+        "id":"principlesofgeochemistry",
+        "name":"Principles of Geochemistry",
+        "code":"GED 352",
+        "year": 3,
+        "semester":2,
+        "img": ""
+    }, 
+    {
+        "IDS":"geological",
+        "id":"principlesofgeophysics",
+        "name":"Principles of Geophysics",
+        "code":"GED 354",
+        "year": 3,
+        "semester":2,
+        "img": ""
+    }, 
+    {
+        "IDS":"geological",
+        "id":"structuralgeology",
+        "name":"Structural Geology",
+        "code":"GED 364",
+        "year": 3,
+        "semester":2,
+        "img": ""
+    }, 
+    {
+        "IDS":"geological",
+        "id":"mineraleconomicsandevaluation",
+        "name":"Mineral Economics and Evaluation",
+        "code":"GED 366",
+        "year": 3,
+        "semester":2,
+        "img": ""
+    }, 
+    {
+        "IDS":"geological",
+        "id":"gisapplications",
+        "name":"GIS Applications",
+        "code":"GED 368",
+        "year": 3,
+        "semester":2,
+        "img": ""
+    },
+    {
+        "IDS":"geological",
+        "id":"geotechnicalengineering",
+        "name":"GeoTechnical Engineering",
+        "code":"CE 477",
+        "year": 4,
+        "semester":1,
+        "img": ""
+    },
+    {
+        "IDS":"geological",
+        "id":"industrialtraining",
+        "name":"Industrial Training",
+        "code":"GED 471",
+        "year": 4,
+        "semester":1,
+        "img": ""
+    },
+    {
+        "IDS":"geological",
+        "id":"regionalgeology",
+        "name":"Regional Geology",
+        "code":"GED 451",
+        "year": 4,
+        "semester":1,
+        "img": ""
+    },
+    {
+        "IDS":"geological",
+        "id":"projectI",
+        "name":"Project I",
+        "code":"GED 457",
+        "year": 4,
+        "semester":1,
+        "img": ""
+    },
+    {
+        "IDS":"geological",
+        "id":"engineeringgeologyinvestigation",
+        "name":"Engineering Geology Investigation",
+        "code":"GED 465",
+        "year": 4,
+        "semester":1,
+        "img": ""
+    },
+    {
+        "IDS":"geological",
+        "id":"principleofhyrdrogeology",
+        "name":"Principle of Hyrdrogeology",
+        "code":"GED 475",
+        "year": 4,
+        "semester":1,
+        "img": ""
+    },
+    {
+        "IDS":"geological",
+        "id":"explorationgeophysics",
+        "name":"Exploration GeoPhysics",
+        "code":"GED 461",
+        "year": 4,
+        "semester":1,
+        "img": ""
+    },
+    {
+        "IDS":"geological",
+        "id":"explorationgeochemistry",
+        "name":"Exploration GeoChemistry",
+        "code":"GED 459",
+        "year": 4,
+        "semester":1,
+        "img": ""
+    }
+      
+]
+    
+    
+
+
+
+
+
+
+

@@ -4,41 +4,44 @@ import "./profilepage.css"
 export default function Profile(){
 
     return(
-        <div className="contain">
+        <div className="container">
 
-            <div className="Left-display">
                
-            </div>
+             
+                <div className="profile-container">
 
-            <div className="Right-display">
-                <h2>PROFILE</h2>
 
-                <div className="details-container">
+                <div className="img-container">
 
-                <div className="details det-1">
-                 <div >FULL NAME</div>
-                 <div >PROGRAMME</div>
-                 <div>LEVEL</div>
-                 <div>EMAIL</div>
+
+                    <div className="image">
+                    {/* <img src={icon} alt="User Profile" style={{width: "20vw", height: "30vh", borderRadius: "50%"}}/> */}
+                    </div>
+                    
+                 </div>
+
+
+                 
+
+
+                 <div className="profile-details">
+
+                    <h1 className="profile-header">PROFILE</h1>
+                    <div><span>NAME:</span>             jUMMAI</div>
+                    <div><span>LEVEL:</span>            100</div>
+                    <div><span>PROGRAMME:</span>        COMPUTER ENGINEERING</div>
+                    <div><span>COLLEGE:</span>          ENGINEERING</div>
+
+
+                 </div>
+
+
+
+
+
                 </div>
-
-                <div className="details det-2">
-                 <div >Jummai Alhassan</div>
-                 <div >Computer</div>
-                 <div>300</div>
-                 <div>jummy30@gmail.com</div>
-                               
-                </div>
-                
-               
-                
-               
-                
-                
-                </div>
-                
-            </div>
 
         </div>
+        
     )
 }

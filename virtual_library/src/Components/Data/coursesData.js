@@ -2424,7 +2424,7 @@ export const CourseData=[
     {
         ID:"materials",
         id:"engineeringdrawing",
-        name:"engineeing Drawing",
+        name:"Engineering Drawing",
         code:"ME 160",
         year:1,
         semester:2,
@@ -6657,13 +6657,14 @@ export const CourseData=[
         semester:2,
         img: "https://th.bing.com/th/id/OIP.XpVGmqQBBp4g2tRqWXIAMwHaHa?pid=ImgDet&rs=1"
     },
-    {       ID:"mechanical",
-            id:"programmingforengineers",
-            name:"Computer Programming for Engineers",
-            code:"ME 158",
-            year: 1,
-            semester:2,
-            img:"https://th.bing.com/th/id/OIP.npcRsnvdmWF4ywyXTUQN8gHaEK?pid=ImgDet&rs=1"
+    {  
+        ID:"mechanical",
+        id:"programmingforengineers",
+        name:"Computer Programming for Engineers",
+        code:"ME 158",
+        year: 1,
+        semester:2,
+        img:"https://th.bing.com/th/id/OIP.npcRsnvdmWF4ywyXTUQN8gHaEK?pid=ImgDet&rs=1"
     },
 
     {

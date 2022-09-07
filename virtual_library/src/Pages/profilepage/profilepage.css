@@ -1,67 +1,56 @@
-@import url('https://fonts.googleapis.com/css2?family=Rubik+Moonrocks&display=swap');
-
 .contain{
-    display: flex;
-    gap: 1em;
-    min-height: 100vh;
-}
-.Left-display{
+    width: 100vw;
+    height: 100vh;
+    color: #D67229;
+   
     
-    width: 30%;
-    height: 60vh;
-    margin-top: 20px;
-    margin-left: 20px;
-    background-image: url("../../Assets/ProfileIcon.jpg");
-    background-repeat: no-repeat;
-    background-position: center;
+    
+}
+
+.image{
+    width: 20vw;
+    height: 40vh;
+    background-image: url('../../Assets/ProfileIcon.jpg');
     background-size: cover;
-    
+    background-position: center;
+    background-repeat: no-repeat;
+    border-radius: 50%;
+    position: relative;
+    top: 60px;
+
 }
 
-.Right-display{
-    color: white;
-    margin-top: 20px;
-    width: 60%;
-    height: 90vh;    
-    background-color: #E6B510;
-    padding: 20px;
-    font-family:  cursive;
-}
-.Right-display h2{
-    text-shadow: 2px 2px 8px rgba(0, 0, 0, 0.5);
-    font-size: 50px;
-}
-
-.Right-display h2:hover{
-    color: #F06F11;
-}
-
-.details div{
-    /* border-bottom: 1px solid white; */
-    margin-bottom: 40px;
-  
-     /* justify-content: space-around; */
-    
-}
-
-.det-1 div:hover{
-    color: #F06F11;
-}
-.det-1 div{
- font-size: 20px;
- 
-}
-.det-2 div{
-    margin-top: 5px;
-}
-
-.details-container{
+.profile-container{
+    width: 70vw;
+    height: 80vh;
+    box-shadow: 4px 4px 8px rgba(0, 0, 0, 0.5);
+    margin: 10vh 15vw;    
+    background-image: linear-gradient(to bottom right, rgba(224,172,28, 0.5), rgba(255, 255, 255, 0));
     display: flex;
-    gap: 50px;
+    flex-direction: row;
+    
+
+}
+.img-container{
+   padding: 30px 0px 0px 40px  ;
+    width: 30vw;
 }
 
- .info{
 
-   margin-left: 50px; 
-} 
+.profile-details{
+    display: flex;
+    flex-direction: column;
+    /* justify-content: center; */
+    margin-top: 80px;
+    margin-left: 30px;
+    
+}
+.profile-details div{
+    margin-top: 20px;
+    font-family: 'Poppins';
+}
 
+.profile-header{
+    font-size: 60px;
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);
+}

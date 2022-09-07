@@ -71,7 +71,7 @@ const Course = () => {
                     <h3 className="lect_one">Lecture One</h3>
                 </div>
                <div className="right_lect_block_4">
-                    <a href='#' onClickCapture={ () =>{getFiles(cour, "Lecture One")}}><HiDownload/></a>
+                    <a href='#' onClick={ () =>{getFiles(cour, "Lecture One")}}><HiDownload/></a>
                </div>
             </div>
     
@@ -81,7 +81,7 @@ const Course = () => {
                     <h3 className="lect_one">Lecture Two</h3>
                 </div>
                <div className="right_lect_block_4">
-                    <a href="#"><HiDownload/></a>
+                    <a href="#" onClick={ () =>{getFiles(cour, "Lecture Two")}}><HiDownload/></a>
                </div>
             </div>
     
@@ -91,7 +91,7 @@ const Course = () => {
                     <h3 className="lect_one">Lecture Three</h3>
                 </div>
                <div className="right_lect_block_4">
-                    <a href="#"><HiDownload/></a>
+                    <a href="#" onClick={() => {getFiles(cour, "Lecture Three")}}><HiDownload/></a>
                </div>
             </div>
     
@@ -101,7 +101,7 @@ const Course = () => {
                     <h3 className="lect_one">Lecture Four</h3>
                 </div>
                <div className="right_lect_block_4">
-                    <a href="#"><HiDownload/></a>
+                    <a href="#" onClick={ () =>{getFiles(cour, "Lecture Four")}}><HiDownload/></a>
                </div>
             </div>
 
@@ -111,7 +111,7 @@ const Course = () => {
                     <h3 className="lect_one">Lecture Five</h3>
                 </div>
                <div className="right_lect_block_4">
-                    <a href="#"><HiDownload/></a>
+                    <a href="#" onClick={ () =>{getFiles(cour, "Lecture Five")}}><HiDownload/></a>
                </div>
             </div>
     
@@ -121,7 +121,7 @@ const Course = () => {
                     <h3 className="lect_one">Lecture Six</h3>
                 </div>
                <div className="right_lect_block_4">
-                    <a href="#"><HiDownload/></a>
+                    <a href="#" onClick={ () =>{getFiles(cour, "Lecture Six")}}><HiDownload/></a>
                </div>
             </div>
     
@@ -131,7 +131,7 @@ const Course = () => {
                     <h3 className="lect_one">Lecture Seven</h3>
                 </div>
                <div className="right_lect_block_4">
-                    <a href="#"><HiDownload/></a>
+                    <a href="#" onClick={ () =>{getFiles(cour, "Lecture Seven")}}><HiDownload/></a>
                </div>
             </div>
     
@@ -141,7 +141,7 @@ const Course = () => {
                     <h3 className="lect_one">Lecture Eight</h3>
                 </div>
                <div className="right_lect_block_4">
-                    <a href="#"><HiDownload/></a>
+                    <a href="#" onClick={ () =>{getFiles(cour, "Lecture Eight")}}><HiDownload/></a>
                </div>
             </div>
         </div>

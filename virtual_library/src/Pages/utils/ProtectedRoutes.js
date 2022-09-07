@@ -21,6 +21,7 @@ import { useRoutes } from "react-router-dom";
 const ProtectedRoutes = () => {
     // const {user} = useAuth();
     const user = true;
+    
     const routes = useRoutes([
         {
             path: "/",

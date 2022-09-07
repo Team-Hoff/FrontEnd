@@ -29,7 +29,8 @@ const Home = () => {
         </div>
     </section>
 
-      <ProgramCard/>  
+      <ProgramCard/> 
+      
     <Footer/>
 
   </div>

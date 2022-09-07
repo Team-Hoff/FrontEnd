@@ -8,6 +8,7 @@ export const CourseData=[
         code:"MATH 151",
         year: 1,
         semester:1,
+        ext:".pdf",
         img: `https://img.freepik.com/free-vector/geometry-education-blue-background-vector-frame-disruptive-education-digital-remix_53876-114094.jpg?w=740&t=st=1661837216~exp=1661837816~hmac=5b40056780bebdeeb8bb5259612262507c80ddd5467b97f2ff299f6a2309d897`
     }, 
     {
@@ -17,6 +18,7 @@ export const CourseData=[
         code:"EE 151",
         year:1,
         semester:1,
+        ext:".pdf",
         img: "https://img.freepik.com/premium-photo/applying-thermal-paste-computer-s-central-processing-unit-computer-repair_131301-2395.jpg?w=740"
     }, 
     {
@@ -26,6 +28,7 @@ export const CourseData=[
         code:"ENGL 157",
         year: 1,
         semester:1,
+        ext:".pdf",
         img: "https://th.bing.com/th/id/OIP.XpVGmqQBBp4g2tRqWXIAMwHaHa?pid=ImgDet&rs=1"
     }, 
     {
@@ -35,6 +38,7 @@ export const CourseData=[
         code:"ME 161",
         year: 1,
         semester:1,
+        ext:".pdf",
         img: "https://1.bp.blogspot.com/-rja2B49-kJI/WtBnGNPqJdI/AAAAAAAAu6I/Q-vAmdDV7142PwlEs7bhIzGeC-G00Jf7wCK4BGAYYCw/s1600/picture-718945.jpg"
     }, 
     {
@@ -44,6 +48,7 @@ export const CourseData=[
         code:"ME 159",
         year: 1,
         semester:1,
+        ext:".pptx",
         img: "https://th.bing.com/th/id/R.7dbcb2d23d5fd682c081bd7a78f9f567?rik=7tn37NS2GFBEzw&pid=ImgRaw&r=0"
     },
     {
@@ -62,6 +67,7 @@ export const CourseData=[
         code:"COE 153",
         year: 1,
         semester:1,
+        ext:".pdf",
         img: "https://th.bing.com/th/id/OIP.3zpjDLnBn_rkjMJlZeJQgAHaED?pid=ImgDet&rs=1"
     },
     {
@@ -287,6 +293,7 @@ export const CourseData=[
         code:"COE 387",
         year: 3,
         semester:1,
+        ext:".pptx",
         img: ""
     },
     {
@@ -296,6 +303,7 @@ export const CourseData=[
         code:"COE 353",
         year: 3,
         semester:1,
+        ext:".pptx",
         img: ""
     },
     {
@@ -305,6 +313,7 @@ export const CourseData=[
         code:"COE 371",
         year: 3,
         semester:1,
+        ext:".pptx",
         img: ""
     },
     {
@@ -314,6 +323,7 @@ export const CourseData=[
         code:"COE 381",
         year: 3,
         semester:1,
+        ext:".pptx",
         img: ""
     },
     {
@@ -323,6 +333,7 @@ export const CourseData=[
         code:"MATH 351",
         year: 3,
         semester:1,
+        ext:".pdf",
         img: ""
     },
     {
@@ -332,6 +343,7 @@ export const CourseData=[
         code:"COE 351",
         year: 3,
         semester:1,
+        ext:".pptx",
         img: ""
     },
     {
@@ -341,6 +353,7 @@ export const CourseData=[
         code:"MATH 353",
         year: 3,
         semester:1,
+        ext:".pptx",
         img: ""
     },
     {
@@ -2424,7 +2437,7 @@ export const CourseData=[
     {
         ID:"materials",
         id:"engineeringdrawing",
-        name:"engineeing Drawing",
+        name:"Engineering Drawing",
         code:"ME 160",
         year:1,
         semester:2,
@@ -3303,7 +3316,7 @@ export const CourseData=[
         code:"MATH 151",
         year: 1,
         semester:1,
-        img: ""
+        img: `https://img.freepik.com/free-vector/geometry-education-blue-background-vector-frame-disruptive-education-digital-remix_53876-114094.jpg?w=740&t=st=1661837216~exp=1661837816~hmac=5b40056780bebdeeb8bb5259612262507c80ddd5467b97f2ff299f6a2309d897`
     }, 
     {
         ID:"agricultural",
@@ -3312,7 +3325,7 @@ export const CourseData=[
         code:"EE 151",
         year:1,
         semester:1,
-        img: ""
+        img: "https://img.freepik.com/premium-photo/applying-thermal-paste-computer-s-central-processing-unit-computer-repair_131301-2395.jpg?w=740"
     }, 
     {
         ID:"agricultural",
@@ -3321,7 +3334,7 @@ export const CourseData=[
         code:"ENGL 157",
         year: 1,
         semester:1,
-        img: ""
+        img: "https://th.bing.com/th/id/OIP.XpVGmqQBBp4g2tRqWXIAMwHaHa?pid=ImgDet&rs=1"
     }, 
     {
         ID:"agricultural",
@@ -3330,7 +3343,7 @@ export const CourseData=[
         code:"AE 153",
         year:1,
         semester:1,
-        img: ""
+        img: "https://www.agrilearner.com/wp-content/uploads/2018/08/photo-title-1024x576.jpg"
     },
     {
         ID:"agricultural",
@@ -3339,7 +3352,7 @@ export const CourseData=[
         code:"ME 159",
         year: 1,
         semester:1,
-        img: ""
+        img: "https://th.bing.com/th/id/R.7dbcb2d23d5fd682c081bd7a78f9f567?rik=7tn37NS2GFBEzw&pid=ImgRaw&r=0"
     },
     {
         ID:"agricultural",
@@ -3348,7 +3361,7 @@ export const CourseData=[
         code:"CE 155",
         year: 1,
         semester:1,
-        img: ""
+        img: "https://epi-rsc.rsc-cdn.org/globalassets/05-journals-books-databases/our-journals/environmental-science-advances/esa-hero_1920x1080.jpg?version=9160e883"
     },
     {
         ID:"agricultural",
@@ -3357,7 +3370,7 @@ export const CourseData=[
         code:"COE 153",
         year: 1,
         semester:1,
-        img: ""
+        img:"https://th.bing.com/th/id/R.35f5f2bc964e7ec58c95738b1f7d0666?rik=w3LWTPMvTbukyQ&pid=ImgRaw&r=0"
     },
    {
         ID:"agricultural",
@@ -3366,7 +3379,7 @@ export const CourseData=[
         code:"ENGL 158",
         year: 1,
         semester:2,
-        img: ""
+        img: "https://th.bing.com/th/id/OIP.XpVGmqQBBp4g2tRqWXIAMwHaHa?pid=ImgDet&rs=1"
     },
     {
             ID:"agricultural",
@@ -3375,7 +3388,7 @@ export const CourseData=[
             code:"AE 158",
             year: 1,
             semester:2,
-            img: ""
+            img:"https://th.bing.com/th/id/R.f6dd8231adc1007568ce941c14d453cd?rik=h7nQr05ku99ucQ&pid=ImgRaw&r=0"
     },
 
     {
@@ -3385,7 +3398,7 @@ export const CourseData=[
         code:"ME 162",
         year: 1,
         semester:2,
-        img: ""
+        img: "https://1.bp.blogspot.com/-rja2B49-kJI/WtBnGNPqJdI/AAAAAAAAu6I/Q-vAmdDV7142PwlEs7bhIzGeC-G00Jf7wCK4BGAYYCw/s1600/picture-718945.jpg"
     }, 
     {
         ID:"agricultural",
@@ -3394,7 +3407,7 @@ export const CourseData=[
         code:"EE 152",
         year: 1,
         semester:2,
-        img: ""
+        img:"https://th.bing.com/th/id/R.805bb8c45b49705783459c144a31bf0c?rik=eEZmy5dafNt9ig&riu=http%3a%2f%2fwww.electronicsandyou.com%2fblog%2fwp-content%2fuploads%2f2018%2f12%2felectronics-1.jpg&ehk=74YeEcebTV60VrKcvDkoG7p96ko6XZibk0GTu2oY1hs%3d&risl=&pid=ImgRaw&r=0"
     },
     {
         ID:"agricultural",
@@ -3403,7 +3416,7 @@ export const CourseData=[
         code:"EE 152",
         year: 1,
         semester:2,
-        img: ""
+        img: "https://th.bing.com/th/id/R.abb2998d8a95ddfe3cdebb3dd2495ccc?rik=BKyYlUrhBY6ixg&pid=ImgRaw&r=0"
     },
     {
         ID:"agricultural",
@@ -3412,7 +3425,7 @@ export const CourseData=[
         code:"ME 160",
         year: 1,
         semester:1,
-        img: ""
+        img: "https://th.bing.com/th/id/R.7dbcb2d23d5fd682c081bd7a78f9f567?rik=7tn37NS2GFBEzw&pid=ImgRaw&r=0"
     },
     {
         ID:"agricultural",
@@ -3421,7 +3434,7 @@ export const CourseData=[
         code:"MATH 152",
         year: 1,
         semester:2,
-        img: ""
+        img:"https://th.bing.com/th/id/R.dda1ead370a9054f21fdab0e70ba74a3?rik=V%2f%2blo1CBnVXS9g&pid=ImgRaw&r=0"
     },
     {
         ID:"agricultural",
@@ -3430,7 +3443,7 @@ export const CourseData=[
         code:"AE 196",
         year: 1,
         semester:2,
-        img: ""
+        img: "https://th.bing.com/th/id/R.a086beb403f85470e0f1d635a2eb52f2?rik=K01Hve6nrSs9zw&pid=ImgRaw&r=0"
     },
    
     {
@@ -3440,7 +3453,7 @@ export const CourseData=[
         code:"CSM 157",
         year: 2,
         semester:1,
-        img: ""
+        img:"https://th.bing.com/th/id/R.99d213bd58125e0c71ba803a8b97d38f?rik=%2brQEZjHpm0pNIg&pid=ImgRaw&r=0"
     },
     {
         ID:"agricultural",
@@ -3449,7 +3462,7 @@ export const CourseData=[
         code:"ME 265",
         year: 2,
         semester:1,
-        img: ""
+        img:"https://www.universetoday.com/wp-content/uploads/2010/10/First-Law-of-Thermodynamics-1280x720.png"
     },
     {
         ID:"agricultural",
@@ -3458,7 +3471,7 @@ export const CourseData=[
         code:"FREN 181",
         year: 2,
         semester:1,
-        img: ""
+        img:"https://th.bing.com/th/id/OIP.QM0id-SaTNby-pWDtwYDHgHaE7?pid=ImgDet&rs=1"
     },
     {
         ID:"agricultural",
@@ -3467,7 +3480,7 @@ export const CourseData=[
         code:"ECON 151",
         year: 2,
         semester:1,
-        img: ""
+        img:"https://th.bing.com/th/id/R.5a89274213e8ff44b37d3612a093c29c?rik=3NIlTt82en8aEw&riu=http%3a%2f%2fstreetfins.com%2fwp-content%2fuploads%2f2019%2f06%2f2061_Deb-Word_Art2.rev_.1515788405.jpg&ehk=JcPKQh%2brcYm0evI1BVB28%2feA1yyM0SMeC3ow08poBy8%3d&risl=&pid=ImgRaw&r=0"
     },
     {
         ID:"agricultural",
@@ -3476,7 +3489,7 @@ export const CourseData=[
         code:"ME 251",
         year: 2,
         semester:1,
-        img: ""
+        img:"https://th.bing.com/th/id/R.6543569462207abbee63ff3f6f6dff49?rik=rSLPLnwt3m0pNg&pid=ImgRaw&r=0"
     },
     {
         ID:"agricultural",
@@ -3485,7 +3498,7 @@ export const CourseData=[
         code:"ENGL 263",
         year: 2,
         semester:1,
-        img: ""
+        img:"https://th.bing.com/th/id/R.c0474e2884a928682c7e3f17e600ab60?rik=SA2BuU8x0j%2fI%2fg&pid=ImgRaw&r=0"
     },
     {
         ID:"agricultural",
@@ -3494,7 +3507,7 @@ export const CourseData=[
         code:"ME 255",
         year: 2,
         semester:1,
-        img: ""
+        img:"https://th.bing.com/th/id/R.891adfc9499bdf7ddaf4016614e5aa64?rik=2qO6HWV5FMRMeA&riu=http%3a%2f%2fimg5a.flixcart.com%2fimage%2fbook%2f2%2f2%2f9%2fstrength-of-materials-original-imadms2fjpqknsbh.jpeg&ehk=Kgs0%2bNNzDgCFLsqRFWykbLMMNyOv4orVGwXQ%2b56CamA%3d&risl=&pid=ImgRaw&r=0"
     },
     {
         ID:"agricultural",
@@ -3503,7 +3516,7 @@ export const CourseData=[
         code:"CENG 291",
         year: 2,
         semester:1,
-        img: ""
+        img:"https://th.bing.com/th/id/R.80bb339f00f9f64e2a244fd78e211111?rik=wvh1DfJs%2fXy1Cg&pid=ImgRaw&r=0"
     },
     {
         ID:"agricultural",
@@ -3512,7 +3525,7 @@ export const CourseData=[
         code:"MATH 251",
         year: 2,
         semester:1,
-        img: ""
+        img:"https://th.bing.com/th/id/R.fa6b1af16091e5b22772d5cb354395e8?rik=nco5mByW1xIQug&pid=ImgRaw&r=0"
     },
     {
         ID:"agricultural",
@@ -3521,7 +3534,7 @@ export const CourseData=[
         code:"ME 259",
         year: 2,
         semester:1,
-        img: ""
+        img: "https://th.bing.com/th/id/R.9de109b94af3eb2bbb6dc84dfe6f3a32?rik=TLr1WngCS5SZjw&pid=ImgRaw&r=0"
     },
     {
         ID:"agricultural",
@@ -3530,7 +3543,7 @@ export const CourseData=[
         code:"ME 295",
         year: 2,
         semester:1,
-        img: ""
+        img:"https://th.bing.com/th/id/R.13e8cbcbe944d5132870b784b4539594?rik=koK7Zc1Lodre4w&pid=ImgRaw&r=0"
     },
     {
         ID:"agricultural",
@@ -3539,7 +3552,7 @@ export const CourseData=[
         code:"GE 286",
         year: 2,
         semester:2,
-        img: ""
+        img:"https://th.bing.com/th/id/R.5167e910d40414314f6a8011f6953e67?rik=g8eM8vUGUxwSAg&pid=ImgRaw&r=0"
     },
     {
         ID:"agricultural",
@@ -3548,7 +3561,7 @@ export const CourseData=[
         code:"MATH 252",
         year: 2,
         semester:2,
-        img: ""
+        img:"https://th.bing.com/th/id/R.c90d92bd367976037681342dadbac0a9?rik=h9S3o3ZNb2G%2bkg&pid=ImgRaw&r=0"
     },
     {
         ID:"agricultural",
@@ -3557,7 +3570,7 @@ export const CourseData=[
         code:"EE 252",
         year: 2,
         semester:2,
-        img: ""
+        img:"https://th.bing.com/th/id/R.52ef39658d7c156ce884e34dd32cbdcc?rik=tIko7ANQEPtVVA&pid=ImgRaw&r=0"
     },
     {
         ID:"agricultural",
@@ -3566,7 +3579,7 @@ export const CourseData=[
         code:"ME 262",
         year: 2,
         semester:2,
-        img: ""
+        img: "https://1.bp.blogspot.com/-rja2B49-kJI/WtBnGNPqJdI/AAAAAAAAu6I/Q-vAmdDV7142PwlEs7bhIzGeC-G00Jf7wCK4BGAYYCw/s1600/picture-718945.jpg"
     },
     {
         ID:"agricultural",
@@ -3575,7 +3588,7 @@ export const CourseData=[
         code:"ME 282",
         year: 2,
         semester:2,
-        img: ""
+        img:"https://th.bing.com/th/id/R.13e8cbcbe944d5132870b784b4539594?rik=koK7Zc1Lodre4w&pid=ImgRaw&r=0"
     },
     {
         ID:"agricultural",
@@ -3583,7 +3596,7 @@ export const CourseData=[
         name:"Literature in English II",
         year: 2,
         semester:2,
-        img: ""
+        img:"https://th.bing.com/th/id/R.c0474e2884a928682c7e3f17e600ab60?rik=SA2BuU8x0j%2fI%2fg&pid=ImgRaw&r=0"
     },
     {
         ID:"agricultural",
@@ -3591,7 +3604,7 @@ export const CourseData=[
         name:"Accounting II",
         year: 2,
         semester:2,
-        img: ""
+        img:"https://th.bing.com/th/id/R.99d213bd58125e0c71ba803a8b97d38f?rik=%2brQEZjHpm0pNIg&pid=ImgRaw&r=0"
     },
     {
         ID:"agricultural",
@@ -3599,7 +3612,7 @@ export const CourseData=[
         name:"French for Communication II",
         year: 2,
         semester:2,
-        img: ""
+        img:"https://th.bing.com/th/id/OIP.QM0id-SaTNby-pWDtwYDHgHaE7?pid=ImgDet&rs=1"
     },
     {
         ID:"agricultural",
@@ -3607,7 +3620,7 @@ export const CourseData=[
         name:"Introductory Economics II",
         year: 2,
         semester:2,
-        img: ""
+        img:"https://th.bing.com/th/id/R.5a89274213e8ff44b37d3612a093c29c?rik=3NIlTt82en8aEw&riu=http%3a%2f%2fstreetfins.com%2fwp-content%2fuploads%2f2019%2f06%2f2061_Deb-Word_Art2.rev_.1515788405.jpg&ehk=JcPKQh%2brcYm0evI1BVB28%2feA1yyM0SMeC3ow08poBy8%3d&risl=&pid=ImgRaw&r=0"
     },
     {
         ID:"agricultural",
@@ -3616,7 +3629,7 @@ export const CourseData=[
         code:"ME 296",
         year: 2,
         semester:2,
-        img: ""
+        img:"https://th.bing.com/th/id/R.13e8cbcbe944d5132870b784b4539594?rik=koK7Zc1Lodre4w&pid=ImgRaw&r=0"
     },
     {
         ID:"agricultural",
@@ -3625,7 +3638,7 @@ export const CourseData=[
         code:"AE 351",
         year: 3,
         semester:1,
-        img: ""
+        img: "https://th.bing.com/th/id/R.bb5286108c2c07a0ef2aae0aaaffc32b?rik=OiHJGD%2be78ykrw&pid=ImgRaw&r=0"
     },
     {
         ID:"agricultural",
@@ -3634,7 +3647,7 @@ export const CourseData=[
         code:"AE 353",
         year: 3,
         semester:1,
-        img: ""
+        img: "https://dgmarshallassoc.com/wp-content/uploads/2018/12/dreamstime_xxl_78380360-1920x600.jpg"
     },
     {
         ID:"agricultural",
@@ -3643,7 +3656,7 @@ export const CourseData=[
         code:"AE 373",
         year: 3,
         semester:1,
-        img: ""
+        img: "https://th.bing.com/th/id/OIP.0fyHY_BZEQWk0XQeQztvqgHaDt?pid=ImgDet&w=850&h=425&rs=1"
     },
     {
         ID:"agricultural",
@@ -3652,7 +3665,7 @@ export const CourseData=[
         code:"ME 355",
         year: 3,
         semester:1,
-        img: ""
+        img:"https://th.bing.com/th/id/R.891adfc9499bdf7ddaf4016614e5aa64?rik=2qO6HWV5FMRMeA&riu=http%3a%2f%2fimg5a.flixcart.com%2fimage%2fbook%2f2%2f2%2f9%2fstrength-of-materials-original-imadms2fjpqknsbh.jpeg&ehk=Kgs0%2bNNzDgCFLsqRFWykbLMMNyOv4orVGwXQ%2b56CamA%3d&risl=&pid=ImgRaw&r=0"
     },
     {
         ID:"agricultural",
@@ -3661,7 +3674,7 @@ export const CourseData=[
         code:"MATH 351",
         year: 3,
         semester:1,
-        img: ""
+        img:"https://th.bing.com/th/id/R.c90d92bd367976037681342dadbac0a9?rik=h9S3o3ZNb2G%2bkg&pid=ImgRaw&r=0"
     },
     {
         ID:"agricultural",
@@ -3670,7 +3683,7 @@ export const CourseData=[
         code:"ME 365",
         year: 3,
         semester:1,
-        img: ""
+        img:"https://www.universetoday.com/wp-content/uploads/2010/10/First-Law-of-Thermodynamics-1280x720.png"
     },
    
     {   ID:"agricultural",
@@ -3679,7 +3692,7 @@ export const CourseData=[
         code:"AE 35",
         year: 3,
         semester:2,
-        img: ""
+        img: "https://th.bing.com/th/id/R.0de52b51690a098a494525e96849161e?rik=jmmoxkKgVaVDog&pid=ImgRaw&r=0&sres=1&sresct=1"
     },
     {
         ID:"agricultural",
@@ -3688,7 +3701,7 @@ export const CourseData=[
         code:"AE 356",
         year: 3,
         semester:2,
-        img: ""
+        img: "https://th.bing.com/th/id/R.dd2f96248ff337f82c9e04fc8dd714a9?rik=C5C16AwCzyO7%2bQ&pid=ImgRaw&r=0"
     },
     {
         ID:"agricultural",
@@ -3697,7 +3710,7 @@ export const CourseData=[
         code:"AE 358",
         year: 3,
         semester:2,
-        img: ""
+        img: "https://th.bing.com/th/id/R.9fe1a4219b2245d7fcd8288e5ef5afc2?rik=b3uww0sLJboqhw&pid=ImgRaw&r=0"
     },
     {
         ID:"agricultural",
@@ -3706,7 +3719,7 @@ export const CourseData=[
         code:"AE 360",
         year: 3,
         semester:2,
-        img: ""
+        img: "https://th.bing.com/th/id/R.b5c4f2138dc93adab28bf15d840744de?rik=DL3Vek55oBB24w&pid=ImgRaw&r=0"
     },
     {
         ID:"agricultural",
@@ -3715,7 +3728,7 @@ export const CourseData=[
         code:"ME 366",
         year: 3,
         semester:2,
-        img: ""
+        img:"https://th.bing.com/th/id/R.66a2d77825b5d36ea575854860040389?rik=GqHJb3PPjeSzaQ&pid=ImgRaw&r=0"
     },
     {
         ID:"agricultural",
@@ -3724,7 +3737,7 @@ export const CourseData=[
         code:"ME 376",
         year: 3,
         semester:2,
-        img: ""
+        img: "https://image.slidesharecdn.com/autocadtutorial-160424175018/95/intro-to-autocad-6-638.jpg?cb=1461520251"
     },
     {
         ID:"agricultural",
@@ -3733,7 +3746,7 @@ export const CourseData=[
         code:"ME 374",
         year: 3,
         semester:2,
-        img: ""
+        img: "https://th.bing.com/th/id/R.19600b449723c76d30ba0a7e1ee605d6?rik=Nhvgvhj79iWxgA&riu=http%3a%2f%2fmatrixti.com%2fwp-content%2fuploads%2f2019%2f06%2fMachine-Design.jpg&ehk=%2fOlv3FKzYNmSFZ3s0%2b43mcA6UCCv8u64GOqJ%2fHU7ByI%3d&risl=&pid=ImgRaw&r=0"
     },
     {
         ID:"agricultural",
@@ -3741,7 +3754,7 @@ export const CourseData=[
         name:"Project I",
         year: 4,
         semester:1,
-        img: ""
+        img: "https://th.bing.com/th/id/OIP.PkLXsHn4CjlKh_m38RGTswHaE8?pid=ImgDet&rs=1"
     },
     {
         ID:"agricultural",
@@ -3750,7 +3763,7 @@ export const CourseData=[
         code:"AE 451",
         year: 4,
         semester:1,
-        img: ""
+        img: "https://th.bing.com/th/id/R.b0129e5a17b640faad3d569c825e52bc?rik=aHko4flM%2fWgrfA&riu=http%3a%2f%2fwww.danapacificlandscape.com%2fwp-content%2fuploads%2f2015%2f02%2firrigationdrainage-8-1140x700.jpg&ehk=CO0aDiqqLsAvRCkjknW5hmHU27hDyxIfv4lQgRBfK1w%3d&risl=&pid=ImgRaw&r=0"
     },
     {
         ID:"agricultural",
@@ -3759,7 +3772,7 @@ export const CourseData=[
         code:"AE 453",
         year: 4,
         semester:1,
-        img: ""
+        img: "https://th.bing.com/th/id/R.ea2b17df176fa2252619142d7f36755a?rik=OFRdUEwry2UcWQ&pid=ImgRaw&r=0"
     },
     {
         ID:"agricultural",
@@ -3768,7 +3781,7 @@ export const CourseData=[
         code:"AE 457",
         year: 4,
         semester:1,
-        img: ""
+        img: "https://assets.cnhindustrial.com/nhag/nar/assets/Forage-Equipment/fr-forage-cruiser-sp/features/variflow-accelerator-and-crop-processor/fr-forage-cruiser-sp-variflow-accelerator-and-crop-processor-01a.jpg"
     },
     {
         ID:"agricultural",
@@ -3777,7 +3790,7 @@ export const CourseData=[
         code:"AE 459",
         year: 4,
         semester:1,
-        img: ""
+        img: "https://th.bing.com/th/id/R.dd2f96248ff337f82c9e04fc8dd714a9?rik=C5C16AwCzyO7%2bQ&pid=ImgRaw&r=0"
     },
     {
         ID:"agricultural",
@@ -3786,7 +3799,7 @@ export const CourseData=[
         code:"AE 471",
         year: 4,
         semester:1,
-        img: ""
+        img: "https://th.bing.com/th/id/OIP.trsuQxjCD_Sqo4YG34njpQHaD4?pid=ImgDet&rs=1"
     },
     {
         ID:"agricultural",
@@ -3795,7 +3808,7 @@ export const CourseData=[
         code:"AE 491",
         year: 4,
         semester:1,
-        img: ""
+        img: "https://th.bing.com/th/id/OIP.kL25j-uGYxBsJKSxeVUh4QHaFj?pid=ImgDet&rs=1"
     },
     {
         ID:"agricultural",
@@ -3804,7 +3817,7 @@ export const CourseData=[
         code:"AE 452",
         year: 4,
         semester:2,
-        img: ""
+        img: "https://th.bing.com/th/id/R.bb5286108c2c07a0ef2aae0aaaffc32b?rik=OiHJGD%2be78ykrw&pid=ImgRaw&r=0"
     },
     {
         ID:"agricultural",
@@ -3813,7 +3826,7 @@ export const CourseData=[
         code:"AE 458",
         year: 4,
         semester:2,
-        img: ""
+        img: "https://th.bing.com/th/id/R.29ebeef2eb291fb670252497c6590586?rik=k8aNjhaIawpjZw&riu=http%3a%2f%2fmediad.publicbroadcasting.net%2fp%2fpre%2ffiles%2fstyles%2fx_large%2fpublic%2f201511%2foct_2015_rain_damage_018.jpg&ehk=3Xv2r2CUSafArVAdZqSWBExLnq3a%2f5m%2fBxIWJqHqZCE%3d&risl=&pid=ImgRaw&r=0&sres=1&sresct=1"
     },
     {
         ID:"agricultural",
@@ -3822,7 +3835,7 @@ export const CourseData=[
         code:"AE 460",
         year: 4,
         semester:2,
-        img: ""
+        img: "https://th.bing.com/th/id/R.34dc28435599a85f21c7dc02b0bfe975?rik=2PQ3YiEp%2fkIH2Q&pid=ImgRaw&r=0"
     },
     {
         ID:"agricultural",
@@ -3831,7 +3844,7 @@ export const CourseData=[
         code:"AE 464",
         year: 4,
         semester:2,
-        img: ""
+        img: "https://th.bing.com/th/id/R.91ddf26b93b56b602c5460a4a149e5b3?rik=kxw%2bfhsgDBxdcw&pid=ImgRaw&r=0"
     },
     {
         ID:"agricultural",
@@ -3840,7 +3853,7 @@ export const CourseData=[
         code:"AE 482",
         year: 4,
         semester:2,
-        img: ""
+        img: "https://th.bing.com/th/id/R.b2a13782224d6dd82a18f93ef99aeafd?rik=RG5ajnFw%2f9iPSQ&riu=http%3a%2f%2fentrec.co.uk%2fwp-content%2fuploads%2f2017%2f05%2ftractor-1748633_1920-1.jpg&ehk=q7QoyPC8ucvg4J%2f%2fKiRX3%2brUAszWj8TYg1Cj5vvLA0Q%3d&risl=&pid=ImgRaw&r=0"
     },
     {
         ID:"agricultural",
@@ -3849,7 +3862,7 @@ export const CourseData=[
         code:"ME 492",
         year: 4,
         semester:2,
-        img: ""
+        img: "https://th.bing.com/th/id/OIP.KDsEX-Z28T_gB8alw8Cl_wHaEv?pid=ImgDet&rs=1"
     },
     {
         ID:"agricultural",
@@ -3858,7 +3871,7 @@ export const CourseData=[
         code:"AE 498",
         year: 4,
         semester:2,
-        img: ""
+        img: "https://th.bing.com/th/id/OIP.PkLXsHn4CjlKh_m38RGTswHaE8?pid=ImgDet&rs=1"
     },
     {
         ID:"biomedical",
@@ -3926,7 +3939,7 @@ export const CourseData=[
     {
         ID:"biomedical",
         id:"introductiontoethicsandmorality",
-        name:"Introductio to Ethics and Morality",
+        name:"Introduction to Ethics and Morality",
         code:"ETIC 161",
         year: 1,
         semester:1,
@@ -6684,13 +6697,14 @@ export const CourseData=[
         semester:2,
         img: "https://th.bing.com/th/id/OIP.XpVGmqQBBp4g2tRqWXIAMwHaHa?pid=ImgDet&rs=1"
     },
-    {       ID:"mechanical",
-            id:"programmingforengineers",
-            name:"Computer Programming for Engineers",
-            code:"ME 158",
-            year: 1,
-            semester:2,
-            img:"https://th.bing.com/th/id/OIP.npcRsnvdmWF4ywyXTUQN8gHaEK?pid=ImgDet&rs=1"
+    {  
+        ID:"mechanical",
+        id:"programmingforengineers",
+        name:"Computer Programming for Engineers",
+        code:"ME 158",
+        year: 1,
+        semester:2,
+        img:"https://th.bing.com/th/id/OIP.npcRsnvdmWF4ywyXTUQN8gHaEK?pid=ImgDet&rs=1"
     },
 
     {
@@ -6882,7 +6896,8 @@ export const CourseData=[
         name:"Mechanical Engineering Lab II",
         code:"ME 296",
         year: 2,
-        semester:2
+        semester:2,
+        img:"https://th.bing.com/th/id/OIP.7b2iWGFGqXMr6VyJuLsPTwHaE8?w=280&h=187&c=7&r=0&o=5&dpr=1.1&pid=1.7"
     },
     {
         ID:"mechanical",
@@ -6892,13 +6907,6 @@ export const CourseData=[
         semester:2,
         img:"https://th.bing.com/th/id/R.c0474e2884a928682c7e3f17e600ab60?rik=SA2BuU8x0j%2fI%2fg&pid=ImgRaw&r=0"
     },
-    //{
-        //ID:"mechanical",
-        //id:"partialdifferentials",
-        //name:"PartialDifferentials",
-        //year: 2,
-      //  semester:2
-    //},
     {
         ID:"mechanical",
         id:"accountingII",
@@ -7001,7 +7009,8 @@ export const CourseData=[
         name:"Keyboard Skills I",
         code:"MUS 153",
         year: 3,
-        semester:1
+        semester:1,
+        img:"https://th.bing.com/th/id/OIP.zpYUjZOY6BNddKkzMTFsdQHaE8?pid=ImgDet&rs=1"
     },
     {
         ID:"mechanical",
@@ -7009,7 +7018,8 @@ export const CourseData=[
         name:"Introduction to Sound Engineering ",
         code:"MUS 159",
         year: 3,
-        semester:1
+        semester:1,
+        img:"https://th.bing.com/th/id/R.756f3488f03ddd798d2e057e3df5e2c5?rik=eQiFep01mE3krg&pid=ImgRaw&r=0"
     },
     {
         ID:"mechanical",
@@ -7017,7 +7027,8 @@ export const CourseData=[
         name:"Traditional African Dance Forms",
         code:"PAA 151",
         year: 3,
-        semester:1
+        semester:1,
+        img:"https://th.bing.com/th/id/R.211338e32f53da8a89cbd04f8c7b1ef3?rik=XHzeJeXJEMYyDg&riu=http%3a%2f%2farts.ufl.edu%2fsite%2fassets%2ffiles%2f68588%2fag-77.1840x1328p50x50.jpg&ehk=16WWAHpGB%2bUhL%2bXwasktELf%2bJ8iyIRHr6J3WSAnur8Y%3d&risl=&pid=ImgRaw&r=0"
     },
     {
         ID:"mechanical",
@@ -8155,7 +8166,7 @@ export const CourseData=[
         img:"https://th.bing.com/th/id/R.dda1ead370a9054f21fdab0e70ba74a3?rik=V%2f%2blo1CBnVXS9g&pid=ImgRaw&r=0"
     },
     {
-        ID:"mechanical",
+        ID:"petroleum",
         id:"heattransfer",
         name:"Heat Transfer Processes",
         code:"PE 252",

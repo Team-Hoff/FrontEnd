@@ -8,7 +8,6 @@ export const CourseData=[
         code:"MATH 151",
         year: 1,
         semester:1,
-        ext:".pdf",
         img: `https://img.freepik.com/free-vector/geometry-education-blue-background-vector-frame-disruptive-education-digital-remix_53876-114094.jpg?w=740&t=st=1661837216~exp=1661837816~hmac=5b40056780bebdeeb8bb5259612262507c80ddd5467b97f2ff299f6a2309d897`
     }, 
     {
@@ -18,7 +17,6 @@ export const CourseData=[
         code:"EE 151",
         year:1,
         semester:1,
-        ext:".pdf",
         img: "https://img.freepik.com/premium-photo/applying-thermal-paste-computer-s-central-processing-unit-computer-repair_131301-2395.jpg?w=740"
     }, 
     {
@@ -28,7 +26,6 @@ export const CourseData=[
         code:"ENGL 157",
         year: 1,
         semester:1,
-        ext:".pdf",
         img: "https://th.bing.com/th/id/OIP.XpVGmqQBBp4g2tRqWXIAMwHaHa?pid=ImgDet&rs=1"
     }, 
     {
@@ -38,7 +35,6 @@ export const CourseData=[
         code:"ME 161",
         year: 1,
         semester:1,
-        ext:".pdf",
         img: "https://1.bp.blogspot.com/-rja2B49-kJI/WtBnGNPqJdI/AAAAAAAAu6I/Q-vAmdDV7142PwlEs7bhIzGeC-G00Jf7wCK4BGAYYCw/s1600/picture-718945.jpg"
     }, 
     {
@@ -48,7 +44,6 @@ export const CourseData=[
         code:"ME 159",
         year: 1,
         semester:1,
-        ext:".pptx",
         img: "https://th.bing.com/th/id/R.7dbcb2d23d5fd682c081bd7a78f9f567?rik=7tn37NS2GFBEzw&pid=ImgRaw&r=0"
     },
     {
@@ -67,7 +62,6 @@ export const CourseData=[
         code:"COE 153",
         year: 1,
         semester:1,
-        ext:".pdf",
         img: "https://th.bing.com/th/id/OIP.3zpjDLnBn_rkjMJlZeJQgAHaED?pid=ImgDet&rs=1"
     },
     {
@@ -293,7 +287,6 @@ export const CourseData=[
         code:"COE 387",
         year: 3,
         semester:1,
-        ext:".pptx",
         img: ""
     },
     {
@@ -303,7 +296,6 @@ export const CourseData=[
         code:"COE 353",
         year: 3,
         semester:1,
-        ext:".pptx",
         img: ""
     },
     {
@@ -313,7 +305,6 @@ export const CourseData=[
         code:"COE 371",
         year: 3,
         semester:1,
-        ext:".pptx",
         img: ""
     },
     {
@@ -323,7 +314,6 @@ export const CourseData=[
         code:"COE 381",
         year: 3,
         semester:1,
-        ext:".pptx",
         img: ""
     },
     {
@@ -333,7 +323,6 @@ export const CourseData=[
         code:"MATH 351",
         year: 3,
         semester:1,
-        ext:".pdf",
         img: ""
     },
     {
@@ -343,7 +332,6 @@ export const CourseData=[
         code:"COE 351",
         year: 3,
         semester:1,
-        ext:".pptx",
         img: ""
     },
     {
@@ -353,7 +341,6 @@ export const CourseData=[
         code:"MATH 353",
         year: 3,
         semester:1,
-        ext:".pptx",
         img: ""
     },
     {
@@ -2437,7 +2424,7 @@ export const CourseData=[
     {
         ID:"materials",
         id:"engineeringdrawing",
-        name:"Engineering Drawing",
+        name:"engineeing Drawing",
         code:"ME 160",
         year:1,
         semester:2,
@@ -4925,7 +4912,7 @@ export const CourseData=[
         code:"AERO 157",
         year: 1,
         semester:1,
-        img: ""
+        img:"https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRrBHHpurPLdRvkJZuNjNA9ivQxMxmO4U6ZQw&usqp=CAU"
     },
     {
         ID:"aerospace",
@@ -4943,7 +4930,7 @@ export const CourseData=[
         code:"ILS 151",
         year: 1,
         semester:1,
-        img: ""
+        img: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSRQxtJSw9kn-0bQ1zmJ41c_HS2GhWvG2gmsw&usqp=CAU"
     },
     {
         ID:"aerospace",
@@ -4952,7 +4939,7 @@ export const CourseData=[
         code:"ME 158",
         year: 1,
         semester:2,
-        img: ""
+        img: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQhuuRS_hzHJ-ivCXko9q7Rls2KhA_zCUFfZQ&usqp=CAU"
     },{
         ID:"aerospace",
         id:"communicationskillsII",
@@ -4960,7 +4947,7 @@ export const CourseData=[
         code:"ENGL 158",
         year: 1,
         semester:2,
-        img: ""
+        img: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSR6nuR_FzGumWyVaG2S6FeM4tCCmUc0rsnyw&usqp=CAU"
     },
     {
         ID:"aerospace",
@@ -4969,7 +4956,7 @@ export const CourseData=[
         code:"EE 152",
         year: 1,
         semester:2,
-        img: ""
+        img: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRVoa_ejYn2W0Wxli2tLsN9Pb3Plv8WGgktZw&usqp=CAU"
     },
     {
         ID:"aerospace",
@@ -4978,7 +4965,7 @@ export const CourseData=[
         code:"MATH 152",
         year: 1,
         semester:2,
-        img: ""
+        img: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcScMfnVPQwZWEDHqaJ798ayWQ_hQRM4Eo8tgA&usqp=CAU"
     },
     {
         ID:"aerospace",
@@ -4987,7 +4974,7 @@ export const CourseData=[
         code:"ME 164",
         year: 1,
         semester:2,
-        img: ""
+        img: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcS3uYnU1LfeW6-_7mAVgOHfPtleqDh0Owkm7Q&usqp=CAU"
     },
     {
         ID:"aerospace",
@@ -4996,7 +4983,7 @@ export const CourseData=[
         code:"ME 158",
         year: 1,
         semester:2,
-        img: ""
+        img: "https://inteng-storage.s3.amazonaws.com/img/iea/Xy6xn0rvOr/best-programming-languges.jpg"
     },
     {
         ID:"aerospace",
@@ -5005,7 +4992,7 @@ export const CourseData=[
         code:"AERO 174",
         year: 1,
         semester:2,
-        img: ""
+        img: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRzcrcspe6BZ6LqvXd9_5eJdS6txVv8vhVUMg&usqp=CAU"
     },
     {
         ID:"aerospace",
@@ -5014,7 +5001,7 @@ export const CourseData=[
         code:"ILS 152",
         year: 1,
         semester:2,
-        img: ""
+        img: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcT3FAToG0opgMwbBoG6KD0zosUMbXbJg7RU9A&usqp=CAU"
     },
     {
         ID:"aerospace",
@@ -5023,7 +5010,7 @@ export const CourseData=[
         code:"ENGL 263",
         year: 2,
         semester:1,
-        img: ""
+        img: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTfofMVyvPgAD76wC7gm48DOYoKaQIHgb5kHA&usqp=CAU"
     },
     {
         ID:"aerospace",
@@ -5032,7 +5019,7 @@ export const CourseData=[
         code:"ME 261",
         year: 2,
         semester:1,
-        img: ""
+        img: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRFvjr-r_9cnxAO4H5BFEpnqtrgy8Z_2iLr9g&usqp=CAU"
     },
     {
         ID:"aerospace",
@@ -5041,7 +5028,7 @@ export const CourseData=[
         code:"ME 251",
         year: 2,
         semester:1,
-        img: ""
+        img: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTFUdodrt9_M7O3kvwtZbPk5z0TH3wVohYxSA&usqp=CAU"
     },
     {
         ID:"aerospace",
@@ -5050,7 +5037,7 @@ export const CourseData=[
         code:"ME 281",
         year: 2,
         semester:1,
-        img: ""
+        img: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSoEK7BhYohaWqmyzEopBuA4vxk30_KKH6Vhw&usqp=CAU"
     },
     {
         ID:"aerospace",
@@ -5059,7 +5046,7 @@ export const CourseData=[
         code:"ME 255",
         year: 2,
         semester:1,
-        img: ""
+        img: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTyQxdhJd5bCiO2A6m-rik_CjaTY7qMwgZGFA&usqp=CAU"
     },
     {
         ID:"aerospace",
@@ -5068,7 +5055,7 @@ export const CourseData=[
         code:"MATH 251",
         year: 2,
         semester:1,
-        img: ""
+        img: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcT77SLhfJRufg0zCODHazGOHGmYEM099j8JBQ&usqp=CAU"
     },
     {
         ID:"aerospace",
@@ -5077,7 +5064,7 @@ export const CourseData=[
         code:"AERO 293",
         year: 2,
         semester:1,
-        img: ""
+        img: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQe9-5mUTu0YXffwu0zYQgXI8HYJOC5oV9O_Q&usqp=CAU"
     },
     {
         ID:"aerospace",
@@ -5086,7 +5073,7 @@ export const CourseData=[
         code: "CENG 291",
         year: 2,
         semester:1,
-        img: ""
+        img: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSqVgJ05votcT_94d6sWINJyjDfokIv1mrXXw&usqp=CAU"
     },
     {
         ID:"aerospace",
@@ -5104,7 +5091,7 @@ export const CourseData=[
         code: "ME 258",
         year: 2,
         semester:2,
-        img: ""
+        img: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRJJqaFDUgDCS6LI5assRdcFZ9NWSTp_TS_uA&usqp=CAU"
     },
     {
         ID:"aerospace",
@@ -5113,7 +5100,7 @@ export const CourseData=[
         code: "ME 264",
         year: 2,
         semester:2,
-        img: ""
+        img: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSonn0LyqujrlXe5pTYyGmR00N2Kle6jiAU3Q&usqp=CAU"
     },
     {
         ID:"aerospace",
@@ -5122,7 +5109,7 @@ export const CourseData=[
         code: "AERO 256",
         year: 2,
         semester:2,
-        img: ""
+        img: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQxHMXoA5qAPMxwjt37Qzj6kihSkWYCg9T5lA&usqp=CAU"
     },
     {
         ID:"aerospace",
@@ -5131,7 +5118,7 @@ export const CourseData=[
         code:"ENGL 264",
         year: 2,
         semester:2,
-        img: ""
+        img: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQCVh-lLAtDYCzvQyJ_DE-XbTxYP2I1VHhq0w&usqp=CAU"
     },
     {
         ID:"aerospace",
@@ -5140,7 +5127,7 @@ export const CourseData=[
         code:"ME 266",
         year: 2,
         semester:2,
-        img: ""
+        img: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSjXXzCLVKled7m1DxRr7qZ8QSVQHb0OXc45Q&usqp=CAU"
     },
     {
         ID:"aerospace",
@@ -5149,7 +5136,7 @@ export const CourseData=[
         code:"AERO 274",
         year: 2,
         semester:2,
-        img: ""
+        img: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRWYM6WGW5LJAbtDsVr9n2KSxpg9mCIlLtz3g&usqp=CAU"
     },
     {
         ID:"aerospace",
@@ -5158,7 +5145,7 @@ export const CourseData=[
         code:"MATH 353",
         year: 3,
         semester:1,
-        img: ""
+        img: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSi15Xl6B2TljXg52JeOttPXyDy5KZoJGtu7g&usqp=CAU"
     },
     {
         ID:"aerospace",
@@ -5167,7 +5154,7 @@ export const CourseData=[
         code:"MATH 351",
         year: 3,
         semester:1,
-        img: ""
+        img: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSHdQuu7vAwVJKA09tq5RqigtSQC9XVElp5SA&usqp=CAU"
     },
     {
         ID:"aerospace",
@@ -5176,7 +5163,7 @@ export const CourseData=[
         code:"ME 363",
         year: 3,
         semester:1,
-        img: ""
+        img: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcT5ft0C50z5ViTF27volp0ICWCi6jn6jZukIw&usqp=CAU"
     },
     {
         ID:"aerospace",
@@ -5185,7 +5172,7 @@ export const CourseData=[
         code:"AERO 395",
         year: 3,
         semester:1,
-        img: ""
+        img: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTXRfVzQRPOkruyOTHHewbN8x6cShD0k1s_eQ&usqp=CAU"
     },
     {
         ID:"aerospace",
@@ -5194,7 +5181,7 @@ export const CourseData=[
         code:"AERO 391",
         year: 3,
         semester:1,
-        img: ""
+        img: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRadjGeld91Bo2o5fb2owISobtUM1N4drX5QA&usqp=CAU"
     },
     {
         ID:"aerospace",
@@ -5203,7 +5190,7 @@ export const CourseData=[
         code:"AERO 351",
         year: 3,
         semester:1,
-        img: ""
+        img: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSlSYmydaLE1CWfa38yUVktNCi-oU3iIqofRA&usqp=CAU"
     },
     {
         ID:"aerospace",
@@ -5212,7 +5199,7 @@ export const CourseData=[
         code:"AERO 393",
         year: 3,
         semester:1,
-        img: ""
+        img: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcS27ngWWc6-u7XTTHsZQOtS8dhnzonHG2kEXA&usqp=CAU"
     }, 
     {
         ID:"aerospace",
@@ -5221,7 +5208,7 @@ export const CourseData=[
         code:"ECON 151",
         year: 3,
         semester:1,
-        img: ""
+        img: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQ64Am2vIOICIwLX8G3uj-ngiCZSN5wsfhUpQ&usqp=CAU"
     },
     {
         ID:"aerospace",
@@ -5230,7 +5217,7 @@ export const CourseData=[
         code:"AERO 362",
         year: 3,
         semester:2,
-        img: ""
+        img: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQFx95ZqHKCml5HdFWxBnqVjQxyKR92fW_qXQ&usqp=CAU"
     },
     {   
         ID:"aerospace",
@@ -5239,7 +5226,7 @@ export const CourseData=[
         code:"ME 392",
         year: 3,
         semester:2,
-        img: ""
+        img: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTUT7q5cF0wNjh0-cPAIjRRg1MCfyDrqVBNdg&usqp=CAU"
     },
     {
         ID:"aerospace",
@@ -5248,7 +5235,7 @@ export const CourseData=[
         code:"AERO 374",
         year: 3,
         semester:2,
-        img: ""
+        img: "https://media.istockphoto.com/photos/airplane-flying-above-the-sky-picture-id155126807?k=20&m=155126807&s=612x612&w=0&h=5kUMN1ZqrlEegSzTOyCWhBCDztfbeYwPjax9w5Q0ZXM="
     },
     {
         ID:"aerospace",
@@ -5257,7 +5244,7 @@ export const CourseData=[
         code:"AERO 368",
         year: 3,
         semester:2,
-        img: ""
+        img: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRFvRddb6qHlU7KK33o9rEAwx9p93XwBUFA8A&usqp=CAU"
     },
     {
         ID:"aerospace",
@@ -5266,7 +5253,7 @@ export const CourseData=[
         code:"ME 366",
         year: 3,
         semester:2,
-        img: ""
+        img: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRGV-ZaHJEyjE2RnpzjZcfBhjEUd-_YSI1nhw&usqp=CAU"
     },
     {
         ID:"aerospace",
@@ -5275,7 +5262,7 @@ export const CourseData=[
         code:"ME 362",
         year: 3,
         semester:2,
-        img: ""
+        img: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSB1XvVlS2B7tXIOQ9B0R3KcscgLE32tar9wA&usqp=CAU"
     },
     {
         ID:"aerospace",
@@ -5284,7 +5271,7 @@ export const CourseData=[
         code:"AERO 396",
         year: 3,
         semester:2,
-        img: ""
+        img: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQYl1NDo6MkRJaZ4VaxeobgKBfs7yBolD_pBA&usqp=CAU"
     },
     {
         ID:"aerospace",
@@ -5293,7 +5280,7 @@ export const CourseData=[
         code:"AERO 483",
         year: 4,
         semester:1,
-        img: ""
+        img: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSGBrQ_s3eRJemr0fwIL72n0gq84GVUssSrkg&usqp=CAU"
     },
     {
         ID:"aerospace",
@@ -5302,7 +5289,7 @@ export const CourseData=[
         code:"AERO 491",
         year: 4,
         semester:1,
-        img: ""
+        img: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQ4_2D98w36k-MVKi1YMUPBBi0kC_mUn8JKig&usqp=CAU"
     },
     {
         ID:"aerospace",
@@ -5320,7 +5307,7 @@ export const CourseData=[
         code:"AERO 495",
         year: 4,
         semester:1,
-        img: ""
+        img: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcT0Zc_aVTvHkX2ZHqZc-AuO7s7g1CVyVWYNvQ&usqp=CAU"
     },
     {
         ID:"aerospace",
@@ -5329,7 +5316,7 @@ export const CourseData=[
         code:"AERO 473",
         year: 4,
         semester:1,
-        img: ""
+        img: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRXXmRFJ7ZmP98h3yj7oNq_ERMRXOQanv3sOg&usqp=CAU"
     },
     {
         ID:"aerospace",
@@ -5338,7 +5325,7 @@ export const CourseData=[
         code:"AERO 493",
         year: 4,
         semester:1,
-        img: ""
+        img: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQD8eVRYpHcYX8J66UYjmut-L3J7OBBJXg-lQ&usqp=CAU"
     },
     {
         ID:"aerospace",
@@ -5347,7 +5334,7 @@ export const CourseData=[
         code:"ME 461",
         year: 4,
         semester:1,
-        img: ""
+        img: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQBMr5gtVTRLEpDNLmRXmPL3fiWrY_RVYlieg&usqp=CAU"
     },
     {
         ID:"aerospace",
@@ -5356,7 +5343,7 @@ export const CourseData=[
         code:"ME 463",
         year: 4,
         semester:1,
-        img: ""
+        img: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcT5ft0C50z5ViTF27volp0ICWCi6jn6jZukIw&usqp=CAU"
     },
     {
         ID:"aerospace",
@@ -5365,7 +5352,7 @@ export const CourseData=[
         code:"ME 483",
         year: 4,
         semester:1,
-        img: ""
+        img: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcS0SRsBbbvlCF8EZIffUj-5w4IYUTQTjlUx-w&usqp=CAU"
     },
     {
         ID:"aerospace",
@@ -5374,7 +5361,7 @@ export const CourseData=[
         code:"MSE 451",
         year: 4,
         semester:1,
-        img: ""
+        img: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQvwz_flaq40zLp8OJVi4Fg5BeWTrYrBjTQaw&usqp=CAU"
     },
     {
         ID:"aerospace",
@@ -5383,7 +5370,7 @@ export const CourseData=[
         code:"ME 473",
         year: 4,
         semester:1,
-        img: ""
+        img: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQiuoxtAhs4WU4c_0l_D90Vg6bgMMABRAZw5w&usqp=CAU"
     },
     {
         ID:"aerospace",
@@ -5392,7 +5379,7 @@ export const CourseData=[
         code:"ME 469",
         year: 4,
         semester:1,
-        img: ""
+        img: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcT89eAQKb8nrOFwjF4qyVet-TgBMb3UveqdSw&usqp=CAU"
     },
     {
         ID:"aerospace",
@@ -5401,7 +5388,7 @@ export const CourseData=[
         code:"ME 499",
         year: 4,
         semester:1,
-        img: ""
+        img: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSLThv6ZsLxv8asc-ZhmjVWvfjYAd6V991l0Q&usqp=CAU"
     },
     {
         ID:"aerospace",
@@ -5410,16 +5397,16 @@ export const CourseData=[
         code:"ME 451",
         year: 4,
         semester:1,
-        img: ""
+        img: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRgskrbkL0P2oAmX2G4otwR7W-9igWGNrILqA&usqp=CAU"
     },
     {
         ID:"aerospace",
         id:"strengthofmaterialsIII",
-        name:"Stregth of Materials III",
+        name:"Strength of Materials III",
         code:"ME 455",
         year: 4,
         semester:1,
-        img: ""
+        img: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTRQwmgrWXbKWfRF2yC4S_gwNqmkHrCRCV6zg&usqp=CAU"
     },
     {
         ID:"aerospace",
@@ -5428,7 +5415,7 @@ export const CourseData=[
         code:"ME 492",
         year: 4,
         semester:2,
-        img: ""
+        img: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRGpleBKuOsKBUyGE1W_1JCBDdKgcQe3yHs_Q&usqp=CAU"
     },
     {
         ID:"aerospace",
@@ -5437,7 +5424,7 @@ export const CourseData=[
         code:"AERO 452",
         year: 4,
         semester:2,
-        img: ""
+        img: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRcCj-qrWQOG0CHj2TyXcuHeluIL1yUVx5jHQ&usqp=CAU"
     },
     {
         ID:"aerospace",
@@ -5455,7 +5442,7 @@ export const CourseData=[
         code:"AERO 456",
         year: 4,
         semester:2,
-        img: ""
+        img: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcS7vcHvpseXeuU3ahEDw545banmKezgC1onQg&usqp=CAU"
     },
     {
         ID:"aerospace",
@@ -5464,7 +5451,7 @@ export const CourseData=[
         code:"AERO 492",
         year: 4,
         semester:2,
-        img: ""
+        img: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSu8BoRnaYp1Bx-aGJc1OfCuY2n5Sqj2J6Y3g&usqp=CAU"
     },
     {
         ID:"aerospace",
@@ -5473,7 +5460,7 @@ export const CourseData=[
         code:"ME 462",
         year: 4,
         semester:2,
-        img: ""
+        img: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSOzYr_p5Lz2H1gtEleSV61MCO8u5-9cXRDUQ&usqp=CAU"
     },
     {
         ID:"aerospace",
@@ -5482,7 +5469,7 @@ export const CourseData=[
         code:"ME 456",
         year: 4,
         semester:2,
-        img: ""
+        img: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcR-ijGXCVg0IHUy1XqVVoVTu_s53Fkug16lcg&usqp=CAU"
     },
     {
         ID:"aerospace",
@@ -5491,7 +5478,7 @@ export const CourseData=[
         code:"ME 468",
         year: 4,
         semester:2,
-        img: ""
+        img: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSLJo3somrfd99weJFMB7pmYpij5e7s1346iw&usqp=CAU"
     },
     {
         ID:"aerospace",
@@ -5500,7 +5487,7 @@ export const CourseData=[
         code:"ME 474",
         year: 4,
         semester:2,
-        img: ""
+        img: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTx3rmAy6DQwELcCNFf-f2CdS66kXxd8LdqRw&usqp=CAU"
     },
     {
         ID:"aerospace",
@@ -5509,7 +5496,7 @@ export const CourseData=[
         code:"ME 472",
         year: 4,
         semester:2,
-        img: ""
+        img: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQ4N7V-e9O4yPQX47SrUpvE2GRjC2x84ue0pw&usqp=CAU"
     },
     {
         ID:"aerospace",
@@ -5518,7 +5505,7 @@ export const CourseData=[
         code:"ME 494",
         year: 4,
         semester:2,
-        img: ""
+        img: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQLlf-hWtzgdniio5o5qp8E8PhCtKXz4tpHbA&usqp=CAU"
     },
     {
         ID:"metallurgical",
@@ -5554,7 +5541,7 @@ export const CourseData=[
         code:"GED 151",
         year: 1,
         semester:1,
-        img: ""
+        img: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTyulHCRa5APpyE_F3ONuXigSX5-b5TrEc6eA&usqp=CAU"
     }, 
     {
         ID:"metallurgical",
@@ -5581,7 +5568,7 @@ export const CourseData=[
         code:"METE 151",
         year: 1,
         semester:1,
-        img: ""
+        img: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQaoG36295jEUkr3BBvXmKGFV0v0kduNCIFHw&usqp=CAU"
     },
     {
         ID:"metallurgical",
@@ -5590,7 +5577,7 @@ export const CourseData=[
         code:"ETIC 161",
         year: 1,
         semester:1,
-        img: ""
+        img: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcS2QKeNRs9Xn2EZQBq6ckHtTDPj56j5kVob0w&usqp=CAU"
     },
     {
         ID:"metallurgical",
@@ -5599,7 +5586,7 @@ export const CourseData=[
         code:"METE 152",
         year: 1,
         semester:2,
-        img: ""
+        img: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTr_6xldYWRRbkTQcQNDwmv2Os8r9bpGVy9tA&usqp=CAU"
     },{
         ID:"metallurgical",
         id:"communicationskillsII",
@@ -5634,7 +5621,7 @@ export const CourseData=[
         code:"MSE 154",
         year: 1,
         semester:2,
-        img: ""
+        img: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcS9Bv4VNRIIoypvPAjlDluDvzdB-ys0_Oj31A&usqp=CAU"
     },
     {
         ID:"metallurgical",
@@ -5643,7 +5630,7 @@ export const CourseData=[
         code:"METE 154",
         year: 1,
         semester:2,
-        img: ""
+        img: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcS4pez_Y7IdHktxTiZVHLWMpyVHa3brhG7Heg&usqp=CAU"
     },
     {
         ID:"metallurgical",
@@ -5652,7 +5639,7 @@ export const CourseData=[
         code:"ME 160",
         year: 1,
         semester:2,
-        img: ""
+        img: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTgAAJRjiQU2BSuzNBtZXHkXQCdEgLclv0tdw&usqp=CAU"
     },
     {
         ID:"metallurgical",
@@ -5661,7 +5648,7 @@ export const CourseData=[
         code:"GED 251",
         year: 2,
         semester:1,
-        img: ""
+        img: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcT503dNdGHZxWLhP3uEBWskfJv626aS7C9EbA&usqp=CAU"
     },
     {
         ID:"metallurgical",
@@ -5670,7 +5657,7 @@ export const CourseData=[
         code:"METE 251",
         year: 2,
         semester:1,
-        img: ""
+        img: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRV7K2Kki7Ttr4rhdN3dOm68BtWHyQ2Z5UzVWEVhpLEQNr31P01fU57Dgz4v-4kXHlU3Ok&usqp=CAU"
     },
     {
         ID:"metallurgical",
@@ -5679,7 +5666,7 @@ export const CourseData=[
         code:"MSE 251",
         year: 2,
         semester:1,
-        img: ""
+        img: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQEVu_MzsLE0wbWybdAD6Z090ZjnqQwISkKDQ&usqp=CAU"
     },
     {
         ID:"metallurgical",
@@ -5688,7 +5675,7 @@ export const CourseData=[
         code:"MSE 255",
         year: 2,
         semester:1,
-        img: ""
+        img: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRWpppYRsns1YzzzqlpaPw7lWtFMiCnL7VDsQ&usqp=CAU"
     },
     {
         ID:"metallurgical",
@@ -5697,7 +5684,7 @@ export const CourseData=[
         code:"MSE 253",
         year: 2,
         semester:1,
-        img: ""
+        img: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQ6X6KlnRsogdCMYwRl3MaZcokvslvWtgCLfA&usqp=CAU"
     },
     {
         ID:"metallurgical",
@@ -5715,7 +5702,7 @@ export const CourseData=[
         code:"MSE 257",
         year: 2,
         semester:1,
-        img: ""
+        img: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSUwFaLBxbu7PJlBo7AltZMohH8M7iUU_pvcg&usqp=CAU"
     },
     {
         ID:"metallurgical",
@@ -5724,7 +5711,7 @@ export const CourseData=[
         code: "CENG 291",
         year: 2,
         semester:1,
-        img: ""
+        img: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRDP1mu4wCphZCAEV0oKa1C8kjz0wfyprHetIgyxOPBDGST6J_Pl1CaeB_tnvDTSNrFSlc&usqp=CAU"
     },
     {
         ID:"metallurgical",
@@ -5742,7 +5729,7 @@ export const CourseData=[
         code: "METE 252",
         year: 2,
         semester:2,
-        img: ""
+        img: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQguMh9KtTeJdNGXeAEwKbaqtc_HthSOdCaZaOchAUnh-AOzN-08U8z0r02HUOstL3MJLs&usqp=CAU"
     },
     {
         ID:"metallurgical",
@@ -5751,7 +5738,7 @@ export const CourseData=[
         code: "METE 254",
         year: 2,
         semester:2,
-        img: ""
+        img: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQNAABhVQqq1mI_rmcR1LE7mdVcKw5PjY9_Ww&usqp=CAU"
     },
     {
         ID:"metallurgical",
@@ -5760,7 +5747,7 @@ export const CourseData=[
         code: "METE 256",
         year: 2,
         semester:2,
-        img: ""
+        img: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQayU-HGxymGdUGrNN6qos87RQvAb-U1QQmvw&usqp=CAU"
     },
     {
         ID:"metallurgical",
@@ -5769,7 +5756,7 @@ export const CourseData=[
         code:"METE 258",
         year: 2,
         semester:2,
-        img: ""
+        img: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSm-wWodmd6sKqu9pj87Ft2T9QBU1IJOJ1SGg&usqp=CAU"
     },
     {
         ID:"metallurgical",
@@ -5778,7 +5765,7 @@ export const CourseData=[
         code:"MSE 252",
         year: 2,
         semester:2,
-        img: ""
+        img: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSRCEx4XWNVaVITJ4SjEHzlsqV2cf84h2SbvA&usqp=CAU"
     },
     {
         ID:"metallurgical",
@@ -5787,7 +5774,7 @@ export const CourseData=[
         code:"MSE 260",
         year: 2,
         semester:2,
-        img: ""
+        img: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTaz6n2ty5wQRA-lG_pYDRrjmZ58az7_AY0Kg&usqp=CAU"
     },
     {
         ID:"metallurgical",
@@ -5805,7 +5792,7 @@ export const CourseData=[
         code:"MSE 353",
         year: 3,
         semester:1,
-        img: ""
+        img: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQLDbRSuxR0WsJhJQVaO7g6JUyTRqwqRMxvow&usqp=CAU"
     },
     {
         ID:"metallurgical",
@@ -5814,7 +5801,7 @@ export const CourseData=[
         code:"MSE 363",
         year: 3,
         semester:1,
-        img: ""
+        img: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcS5_EuIYhOc1I-oXM5FRJUVHKr-_G7yWhqnag&usqp=CAU"
     },
     {
         ID:"metallurgical",
@@ -5823,7 +5810,7 @@ export const CourseData=[
         code:"METE 355",
         year: 3,
         semester:1,
-        img: ""
+        img: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQi4O86d2cGsfSYbrDUVWR-XZpGJYaoVpjm3g&usqp=CAU"
     },
     {
         ID:"metallurgical",
@@ -5832,7 +5819,7 @@ export const CourseData=[
         code:"MSE 357",
         year: 3,
         semester:1,
-        img: ""
+        img: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQzn7PawQKhhmSMqo2WUzTDWloAWHUr-9lrrQ&usqp=CAU"
     },
     {
         ID:"metallurgical",
@@ -5859,7 +5846,7 @@ export const CourseData=[
         code:"METE 351",
         year: 3,
         semester:1,
-        img: ""
+        img: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSOuQCyFtJ1z4BzRSssBIZPh5R4A1o9dlqoRw&usqp=CAU"
     },
     {
         ID:"metallurgical",
@@ -5895,7 +5882,7 @@ export const CourseData=[
         code:"MSE 362",
         year: 3,
         semester:2,
-        img: ""
+        img: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcScdYiLmq9FX0AAG0OxrXoRKxmVnBox_z672w&usqp=CAU"
     },
     {
         ID:"metallurgical",
@@ -5904,7 +5891,7 @@ export const CourseData=[
         code:"METE 362",
         year: 3,
         semester:2,
-        img: ""
+        img: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRUHTqI3MuPh0_ezQiTBypRm9Rk_xdjdYsEeA&usqp=CAU"
     },
     {
         ID:"metallurgical",
@@ -5922,7 +5909,7 @@ export const CourseData=[
         code:"METE 358",
         year: 3,
         semester:2,
-        img: ""
+        img: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRiMfssymHph-8lNfipG5A_aKbl_KrRKP-9Iw&usqp=CAU"
     },
     {
         ID:"metallurgical",
@@ -5931,7 +5918,7 @@ export const CourseData=[
         code:"MSE 358",
         year: 3,
         semester:2,
-        img: ""
+        img: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQj_LEx7n8z7_9CHkvDXLo3be93eJ3HGbVYhg&usqp=CAU"
     },
     {
         ID:"metallurgical",
@@ -5940,22 +5927,22 @@ export const CourseData=[
         code:"METE 352",
         year: 3,
         semester:2,
-        img: ""
+        img: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSPyRxu5VQ6vl1t6nYrT4nMGg1Hy4G6IUu6Qg&usqp=CAU"
     },
     {
         ID:"metallurgical",
-        id:"compositematerials",
-        name:"Composite Materials",
-        code:"",
+        id:"engineeringeconomyandmanagement",
+        name:"Engineering Economy and Management",
+        code:"ME 491",
         year: 4,
         semester:1,
-        img: ""
+        img: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcS3XpPDcn-PuJijHRZ-PRZsVWB0xr0zFuyJ-g&usqp=CAU"
     },
     {
         ID:"metallurgical",
         id:"vacationtraining",
         name:"Vacation Training",
-        code:"",
+        code:"METE 455",
         year: 4,
         semester:1,
         img: ""
@@ -5963,44 +5950,71 @@ export const CourseData=[
     {
         ID:"metallurgical",
         id:"metalworkingprocesses",
-        name:"Metal Working Processes",
-        code:"",
+        name:"Metalworking Processes",
+        code:"MSE 457",
+        year: 4,
+        semester:1,
+        img: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcT3eCp5NvZXaF--mVRh_viN2R_y4KKq9ywXBg&usqp=CAU"
+    },
+    {
+        ID:"metallurgical",
+        id:"projectI",
+        name:"Project I",
+        code:"METE 497",
         year: 4,
         semester:1,
         img: ""
     },
     {
         ID:"metallurgical",
-        id:"project1",
-        name:"Project 1",
-        code:"",
+        id:"corrosionandcorrosioncontrol",
+        name:"Corrosion and Corrosion Control",
+        code:"METE 457",
         year: 4,
         semester:1,
-        img: ""
+        img: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRFMiVgCb86KbMON6RuEoTBOf-G4HIH1WUzCg&usqp=CAU"
+    },
+    {
+    ID:"metallurgical",
+        id:"metallurgicalplantdesign/operations",
+        name:"Metallurgical Plant and Design/Operations",
+        code:"METE 451",
+        year: 4,
+        semester:1,
+        img: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRIfM2icnq7BSSWCyvIFbNJjtRtqdLSta8nsg&usqp=CAU"
     },
     {
         ID:"metallurgical",
-        id:"corrosionofengineeringmaterials",
-        name:"Corrosion of Engineering Materials",
-        code:"",
+        id:"hydrometallurgyoflightmetals",
+        name:"Hydrometallurgy of Light Metals",
+        code:"METE 453",
         year: 4,
         semester:1,
-        img: ""
+        img: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQOt_vE-pAg3siPvP_LEhqAABvE4qWI06YeMg&usqp=CAU"
     },
     {
         ID:"metallurgical",
         id:"processcontrolandsimulation",
         name:"Process Control and Simulation",
-        code:"",
+        code:"CHE 452",
         year: 4,
         semester:2,
-        img: ""
+        img: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTctPfL2Q0SwBsPcp5CjSXaX8tGAnIDsdX4kg&usqp=CAU"
     },
     {
         ID:"metallurgical",
         id:"managementandenterpreneurship",
         name:"Management and Enterpreneurship",
-        code:"",
+        code:"ME 492",
+        year: 4,
+        semester:2,
+        img: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQyeJJMacXugJgedsJW6U2c0Zc-Y-acAaYPeg&usqp=CAU"
+    },
+    {
+        ID:"metallurgical",
+        id:"projectII",
+        name:"Project II",
+        code:"METE 498",
         year: 4,
         semester:2,
         img: ""
@@ -6009,28 +6023,28 @@ export const CourseData=[
         ID:"metallurgical",
         id:"wastemanagement",
         name:"Waste Management",
-        code:"",
+        code:"MSE 452",
         year: 4,
         semester:2,
-        img: ""
-    },
-    {
-        ID:"metallurgical",
-        id:"surfacetreatmentofmaterials",
-        name:"Surface Treatment of Materials",
-        code:"",
-        year: 4,
-        semester:2,
-        img: ""
+        img: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSHwoyg3FmSMgwxWQUGOMjWYW6oKafvz-NdMA&usqp=CAU"
     },
     {
         ID:"metallurgical",
         id:"materialqualitycontrol",
         name:"Material Quality Control",
-        code:"",
+        code:"MSE 456",
         year: 4,
         semester:2,
-        img: ""
+        img: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcS-Xyo-7hxZrRag6iKnlwREy48a4ebY3X7L7g&usqp=CAU"
+    },
+    {
+        ID:"metallurgical",
+        id:"electrometallurgy",
+        name:"Electrometallurgy",
+        code:"METE 452",
+        year: 4,
+        semester:2,
+        img: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQxLFLF9JKig1PnVwD03E0VdXSExGHn5023gQ&usqp=CAU"
     },
     {
         ID:"civil",
@@ -6048,7 +6062,7 @@ export const CourseData=[
         code:"CE 151",
         year:1,
         semester:1,
-        img: ""
+        img: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRym8zbckMepiEP2rUEvlesPxj-quuxn5zEmA&usqp=CAU"
     }, 
     {
         ID:"civil",
@@ -6093,7 +6107,7 @@ export const CourseData=[
         code:"FREN 181",
         year: 1,
         semester:1,
-        img: ""
+        img: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTsBgdRRSJOPTGG7dJWr2ZhEww_4xb3Hx_0ENvPtlpHXtUbSiC27FrMFIkDJTEbOY3WXJ4&usqp=CAU"
     },
     {
         ID:"civil",
@@ -6111,7 +6125,7 @@ export const CourseData=[
         code:"",
         year: 1,
         semester:1,
-        img: ""
+        img: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQ623bVMG1Q2bkkwFzdNgEuNckSG2KrrGf_zw&usqp=CAU"
     },
     {
         ID:"civil",
@@ -6138,7 +6152,7 @@ export const CourseData=[
         code:"CE 154",
         year: 1,
         semester:2,
-        img: ""
+        img: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTwJxZvNX6vm-B7wQsJ6rCHqltPuXerqMjvyQ&usqp=CAU"
     },{
         ID:"civil",
         id:"communicationskillsII",
@@ -6155,7 +6169,7 @@ export const CourseData=[
         code:"CE 156",
         year: 1,
         semester:2,
-        img: ""
+        img: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTlhHlUmmI_25fMbT-ZYXwt2XPj52CU5Iv5BA&usqp=CAU"
     },
     {
         ID:"civil",
@@ -6173,7 +6187,7 @@ export const CourseData=[
         code:"ECON 151",
         year: 1,
         semester:2,
-        img: ""
+        img: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSTNVdhkBNvlC9RklxfbDEnWj5EnzpFJGLGlw&usqp=CAU"
     },
     {
         ID:"civil",
@@ -6182,7 +6196,7 @@ export const CourseData=[
         code:"FREN 182",
         year: 1,
         semester:2,
-        img: ""
+        img: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTsBgdRRSJOPTGG7dJWr2ZhEww_4xb3Hx_0ENvPtlpHXtUbSiC27FrMFIkDJTEbOY3WXJ4&usqp=CAU"
     },
     {
         ID:"civil",
@@ -6191,7 +6205,7 @@ export const CourseData=[
         code:"",
         year: 1,
         semester:2,
-        img: ""
+        img: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRLWN5m97czFAYeC5LPSvszFTebiUotrtHIcg&usqp=CAU"
     },
     {
         ID:"civil",
@@ -6209,7 +6223,7 @@ export const CourseData=[
         code:"CE 164",
         year: 1,
         semester:2,
-        img: ""
+        img: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRHJHgwwMSYzez3-jl1ZYiMT_FfiYTEVX4NQg&usqp=CAU"
     },
     {
         ID:"civil",
@@ -6227,7 +6241,7 @@ export const CourseData=[
         code:"CE 255",
         year: 2,
         semester:1,
-        img: ""
+        img: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcR0PtJ9vIzEgvAy82Qd1Hr6xPiBgpAN_WnOCg&usqp=CAU"
     },
     {
         ID:"civil",
@@ -6236,7 +6250,7 @@ export const CourseData=[
         code:"CE 257",
         year: 2,
         semester:1,
-        img: ""
+        img: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQ_FY6SRsC6SZmKT3i2DOlSLMcqKu8q4IL_vg&usqp=CAU"
     },
     {
         ID:"civil",
@@ -6245,7 +6259,7 @@ export const CourseData=[
         code:"CE 259",
         year: 2,
         semester:1,
-        img: ""
+        img: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQtRdZLvm4Iv01DnNJvMbeJ8RhNdGasofqPIw&usqp=CAU"
     },
     {
         ID:"civil",
@@ -6254,7 +6268,7 @@ export const CourseData=[
         code:"CE 261",
         year: 2,
         semester:1,
-        img: ""
+        img: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRTogdc_6H8iZIERP34e78dWbT1h6pf2x0Mfg&usqp=CAU"
     },
     {
         ID:"civil",
@@ -6263,7 +6277,7 @@ export const CourseData=[
         code:"MATH 251",
         year: 2,
         semester:1,
-        img: ""
+        img: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQmqkB3dWgSYQ_RVsmdrLv7CSay0OD7h7ghIg&usqp=CAU"
     },
     {
         ID:"civil",
@@ -6272,7 +6286,7 @@ export const CourseData=[
         code:"CE 263",
         year: 2,
         semester:1,
-        img: ""
+        img: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcS3jBWEzI0oQonT8z6Z1NvB0FZnrG5dJrv-Mg&usqp=CAU"
     },
     {
         ID:"civil",
@@ -6285,12 +6299,12 @@ export const CourseData=[
     },
     {
         ID:"civil",
-        id:"literatureinenglish",
-        name:"Literature in English",
+        id:"literatureinenglishI",
+        name:"Literature in English I",
         code:"ENGL 263",
         year: 2,
         semester:1,
-        img: ""
+        img: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQp28NRCfVFfhlxMf9ReoClOqrbFClO0BpOjQ&usqp=CAU"
     },
     {
         ID:"civil",
@@ -6299,7 +6313,7 @@ export const CourseData=[
         code: "CE 256",
         year: 2,
         semester:2,
-        img: ""
+        img: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSbyQyoNIGzxVhTeNWqMUFkZSr9kQ-MqN6FYA&usqp=CAU"
     },
     {
         ID:"civil",
@@ -6308,7 +6322,7 @@ export const CourseData=[
         code: "CE 260",
         year: 2,
         semester:2,
-        img: ""
+        img: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTDtJrvLP4IR-jdBVfT8qw9ySuIawj_kUgWnA&usqp=CAU"
     },
     {
         ID:"civil",
@@ -6317,7 +6331,7 @@ export const CourseData=[
         code: "CE 264",
         year: 2,
         semester:2,
-        img: ""
+        img: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQzmbWfB5ICof8mwScWil_YrmU2D5QxR7jBrA&usqp=CAU"
     },
     {
         ID:"civil",
@@ -6326,16 +6340,16 @@ export const CourseData=[
         code: "GE 282",
         year: 2,
         semester:2,
-        img: ""
+        img: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTUblvgGswUa4ETvONQOnIrm_AOSQNF1_CxwQ&usqp=CAU"
     },
     {
         ID:"civil",
-        id:"literatureinenglish",
-        name:"Literature in English",
+        id:"literatureinenglishII",
+        name:"Literature in English II",
         code:"ENGL 264",
         year: 2,
         semester:2,
-        img: ""
+        img: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQCVh-lLAtDYCzvQyJ_DE-XbTxYP2I1VHhq0w&usqp=CAU"
     },
     {
         ID:"civil",
@@ -6362,7 +6376,7 @@ export const CourseData=[
         code:"CE 351",
         year: 3,
         semester:1,
-        img: ""
+        img: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTCjGjPCISi_mdpC0HIxJkYB7t4zJgCoAFzsA&usqp=CAU"
     },
     {
         ID:"civil",
@@ -6371,7 +6385,7 @@ export const CourseData=[
         code:"CE 353",
         year: 3,
         semester:1,
-        img: ""
+        img: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSKTrVaoI0a_0ljL8zdh-wSjThyaMbFRX_yDg&usqp=CAU"
     },
     {
         ID:"civil",
@@ -6380,7 +6394,7 @@ export const CourseData=[
         code:"CE 355",
         year: 3,
         semester:1,
-        img: ""
+        img: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRCgcSs1lzbQGTOpAYbJeQL8SzqI5fBNmyl7Q&usqp=CAU"
     },
     {
         ID:"civil",
@@ -6389,7 +6403,7 @@ export const CourseData=[
         code:"CE 359",
         year: 3,
         semester:1,
-        img: ""
+        img: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQkNKJcUvEaROM0PLgMZykUJIWfSYc3W2YOfw&usqp=CAU"
     },
     {
         ID:"civil",
@@ -6398,7 +6412,7 @@ export const CourseData=[
         code:"CE 367",
         year: 3,
         semester:1,
-        img: ""
+        img: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSXFs2ZVfftLltRQrCxKnldUoIPrUZt9pFubA&usqp=CAU"
     },
     {
         ID:"civil",
@@ -6407,7 +6421,7 @@ export const CourseData=[
         code:"GE 381",
         year: 3,
         semester:1,
-        img: ""
+        img: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcR0LpN7gieCCJj-_1QCdDigWaadc-nhCGCEzQ&usqp=CAU"
     }, 
     {
         ID:"civil",
@@ -6425,7 +6439,7 @@ export const CourseData=[
         code:"CE 360",
         year: 3,
         semester:2,
-        img: ""
+        img: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTvBd0mfje3bMcrcHKckwqw4l3Rtc17XAJMag&usqp=CAU"
     },
     {
         ID:"civil",
@@ -6434,7 +6448,7 @@ export const CourseData=[
         code:"CE 356",
         year: 3,
         semester:2,
-        img: ""
+        img: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRH3VkUQXIYfre_g3cxCjwT8oWMnjP5KkcveA&usqp=CAU"
     },
     {
         ID:"civil",
@@ -6443,7 +6457,7 @@ export const CourseData=[
         code:"CE 376",
         year: 3,
         semester:2,
-        img: ""
+        img: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSGLABtLqyJDlOcbqm1btSzL3xasXidTu9kPg&usqp=CAU"
     },
     {
         ID:"civil",
@@ -6452,16 +6466,16 @@ export const CourseData=[
         code:"CE 378",
         year: 3,
         semester:2,
-        img: ""
+        img: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRIeizRP40JostzW7NsIejTttQMLQkNXxL5_Q&usqp=CAU"
     },
     {
         ID:"civil",
-        id:"highwayengineering",
-        name:"Highway Engineering",
+        id:"highwayengineeringI",
+        name:"Highway Engineering I",
         code:"CE 368",
         year: 3,
         semester:2,
-        img: ""
+        img: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQXu_gd_6YzxFniBy8ewQs3i6XBweRVNJt-YA&usqp=CAU"
     },
     {
         ID:"metallurgical",
@@ -6479,7 +6493,7 @@ export const CourseData=[
         code:"CE 352",
         year: 3,
         semester:2,
-        img: ""
+        img: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSJAQKEHFdhASOcPiSRDHaccJJ2LCwPYgAVsA&usqp=CAU"
     },
     {
         ID:"civil",
@@ -6488,7 +6502,7 @@ export const CourseData=[
         code:"CE 364",
         year: 3,
         semester:2,
-        img: ""
+        img: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcS-hY1FGIqH56OeYGlSALbPOPtbagC3s6br1Q&usqp=CAU"
     },
     {
         ID:"civil",
@@ -6497,7 +6511,7 @@ export const CourseData=[
         code:"CE 457",
         year: 4,
         semester:1,
-        img: ""
+        img: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTlkPfS8s8VT0BnVZIg_L6CWqnngeHVfEJgYw&usqp=CAU"
     },
     {
         ID:"civil",
@@ -6506,25 +6520,25 @@ export const CourseData=[
         code:"CE 461",
         year: 4,
         semester:1,
-        img: ""
+        img: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRqydKyH5ZiAbrBRmnIu0UlDCcWipBd2SEr8Q&usqp=CAU"
     },
     {
         ID:"civil",
-        id:"highwayengineering",
-        name:"Highway Engineering",
+        id:"highwayengineeringII",
+        name:"Highway Engineering II",
         code:"CE 467",
         year: 4,
         semester:1,
-        img: ""
+        img: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTyJRcKb4jGuHDcBfSNI1iXe7ii8F0FTs3_nQ&usqp=CAU"
     },
     {
         ID:"civil",
         id:"irrigationanddrainageengineering",
-        name:"Irrigation an Drainage Engineering",
+        name:"Irrigation and Drainage Engineering",
         code:"CE 471",
         year: 4,
         semester:1,
-        img: ""
+        img: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcR27zSJ-6ZhG5KTqbF61phzLGYudISf7MrfFw&usqp=CAU"
     },
     {
         ID:"civil",
@@ -6533,7 +6547,7 @@ export const CourseData=[
         code:"CE 475",
         year: 4,
         semester:1,
-        img: ""
+        img: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcS_J8ry37DoyRtsNf7-rpgCQLfrzueuHW3psA&usqp=CAU"
     },
     {
         ID:"civil",
@@ -6542,7 +6556,7 @@ export const CourseData=[
         code:"CE 481",
         year: 4,
         semester:1,
-        img: ""
+        img: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRbaJNJZ-AGcv44E5WMs7X23pRzrsEl71WNUA&usqp=CAU"
     },
     {
         ID:"civil",
@@ -6551,7 +6565,7 @@ export const CourseData=[
         code:"CE 497",
         year: 4,
         semester:1,
-        img: ""
+        img: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRaYZiUjL6stdBOEki2LJFlYbAabK5HWnjpSg&usqp=CAU"
     },
     {
         ID:"civil",
@@ -6560,7 +6574,7 @@ export const CourseData=[
         code:"CE 458",
         year: 4,
         semester:2,
-        img: ""
+        img: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQNC_GeTGMVwsAw2d8VK8TmyalIfW39Gw54ww&usqp=CAU"
     },
     {
         ID:"civil",
@@ -6569,7 +6583,7 @@ export const CourseData=[
         code:"CE 468",
         year: 4,
         semester:2,
-        img: ""
+        img: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQ8ws-Te6vR1d-wXH8AWy3mL7gXMVFe9G0yzQ&usqp=CAU"
     },
     {
         ID:"civil",
@@ -6578,7 +6592,7 @@ export const CourseData=[
         code:"CE 464",
         year: 4,
         semester:2,
-        img: ""
+        img: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSBjbrnvQCfIPE2q0jUrBAnvqOwZMFT4nt4mw&usqp=CAU"
     },
     {
         ID:"civil",
@@ -6596,7 +6610,7 @@ export const CourseData=[
         code:"CE 462",
         year: 4,
         semester:2,
-        img: ""
+        img: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRCmLIkO2qB9unK-o7Izy6871klndjZKB_p2g&usqp=CAU"
     },
     {
         ID:"mechanical",
@@ -6670,14 +6684,13 @@ export const CourseData=[
         semester:2,
         img: "https://th.bing.com/th/id/OIP.XpVGmqQBBp4g2tRqWXIAMwHaHa?pid=ImgDet&rs=1"
     },
-    {  
-        ID:"mechanical",
-        id:"programmingforengineers",
-        name:"Computer Programming for Engineers",
-        code:"ME 158",
-        year: 1,
-        semester:2,
-        img:"https://th.bing.com/th/id/OIP.npcRsnvdmWF4ywyXTUQN8gHaEK?pid=ImgDet&rs=1"
+    {       ID:"mechanical",
+            id:"programmingforengineers",
+            name:"Computer Programming for Engineers",
+            code:"ME 158",
+            year: 1,
+            semester:2,
+            img:"https://th.bing.com/th/id/OIP.npcRsnvdmWF4ywyXTUQN8gHaEK?pid=ImgDet&rs=1"
     },
 
     {

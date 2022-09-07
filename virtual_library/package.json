@@ -30,6 +30,7 @@
     "redux-react-session": "^2.6.1",
     "redux-thunk": "^2.4.1",
     "sass": "^1.54.3",
+    "script": "^0.1.4",
     "scripts": "^0.1.0",
     "slick-carousel": "^1.8.1",
     "styled-components": "^5.3.5",

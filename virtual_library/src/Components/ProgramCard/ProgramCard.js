@@ -9,7 +9,7 @@ function ProgramCard() {
         <div /*style={{position:'relative', left:'-40px'}}*/ >
         {
                 ProgramData.map((program) => (
-                    <Card key={program.id} style={{ width: '18rem', float: 'left', marginLeft: 110, marginTop: 30, marginBottom:30, textAlign:'center', alignContent:'left'}}>
+                    <Card key={program.id} style={{ width: '18rem', float: 'left', marginLeft: 110, marginTop: 30, textAlign:'center', alignContent:'left'}}>
                     <Card.Img variant="top" src={program.img} style={{height: '180px'}} />
                     <Card.Body>
                     <Card.Title>{program.name}</Card.Title>

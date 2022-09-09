@@ -8,6 +8,7 @@ export const CourseData=[
         code:"MATH 151",
         year: 1,
         semester:1,
+        ext:".pdf",
         img: `https://img.freepik.com/free-vector/geometry-education-blue-background-vector-frame-disruptive-education-digital-remix_53876-114094.jpg?w=740&t=st=1661837216~exp=1661837816~hmac=5b40056780bebdeeb8bb5259612262507c80ddd5467b97f2ff299f6a2309d897`
     }, 
     {
@@ -17,6 +18,7 @@ export const CourseData=[
         code:"EE 151",
         year:1,
         semester:1,
+        ext:".pdf",
         img: "https://img.freepik.com/premium-photo/applying-thermal-paste-computer-s-central-processing-unit-computer-repair_131301-2395.jpg?w=740"
     }, 
     {
@@ -26,6 +28,7 @@ export const CourseData=[
         code:"ENGL 157",
         year: 1,
         semester:1,
+        ext:".pdf",
         img: "https://th.bing.com/th/id/OIP.XpVGmqQBBp4g2tRqWXIAMwHaHa?pid=ImgDet&rs=1"
     }, 
     {
@@ -35,6 +38,7 @@ export const CourseData=[
         code:"ME 161",
         year: 1,
         semester:1,
+        ext:".pdf",
         img: "https://1.bp.blogspot.com/-rja2B49-kJI/WtBnGNPqJdI/AAAAAAAAu6I/Q-vAmdDV7142PwlEs7bhIzGeC-G00Jf7wCK4BGAYYCw/s1600/picture-718945.jpg"
     }, 
     {
@@ -44,6 +48,7 @@ export const CourseData=[
         code:"ME 159",
         year: 1,
         semester:1,
+        ext:".pptx",
         img: "https://th.bing.com/th/id/R.7dbcb2d23d5fd682c081bd7a78f9f567?rik=7tn37NS2GFBEzw&pid=ImgRaw&r=0"
     },
     {
@@ -62,6 +67,7 @@ export const CourseData=[
         code:"COE 153",
         year: 1,
         semester:1,
+        ext:".pdf",
         img: "https://th.bing.com/th/id/OIP.3zpjDLnBn_rkjMJlZeJQgAHaED?pid=ImgDet&rs=1"
     },
     {
@@ -287,6 +293,7 @@ export const CourseData=[
         code:"COE 387",
         year: 3,
         semester:1,
+        ext:".pptx",
         img: ""
     },
     {
@@ -296,6 +303,7 @@ export const CourseData=[
         code:"COE 353",
         year: 3,
         semester:1,
+        ext:".pptx",
         img: ""
     },
     {
@@ -305,6 +313,7 @@ export const CourseData=[
         code:"COE 371",
         year: 3,
         semester:1,
+        ext:".pptx",
         img: ""
     },
     {
@@ -314,6 +323,7 @@ export const CourseData=[
         code:"COE 381",
         year: 3,
         semester:1,
+        ext:".pptx",
         img: ""
     },
     {
@@ -323,6 +333,7 @@ export const CourseData=[
         code:"MATH 351",
         year: 3,
         semester:1,
+        ext:".pdf",
         img: ""
     },
     {
@@ -332,6 +343,7 @@ export const CourseData=[
         code:"COE 351",
         year: 3,
         semester:1,
+        ext:".pptx",
         img: ""
     },
     {
@@ -341,6 +353,7 @@ export const CourseData=[
         code:"MATH 353",
         year: 3,
         semester:1,
+        ext:".pptx",
         img: ""
     },
     {
@@ -2424,7 +2437,7 @@ export const CourseData=[
     {
         ID:"materials",
         id:"engineeringdrawing",
-        name:"engineeing Drawing",
+        name:"Engineering Drawing",
         code:"ME 160",
         year:1,
         semester:2,
@@ -3303,7 +3316,7 @@ export const CourseData=[
         code:"MATH 151",
         year: 1,
         semester:1,
-        img: ""
+        img: `https://img.freepik.com/free-vector/geometry-education-blue-background-vector-frame-disruptive-education-digital-remix_53876-114094.jpg?w=740&t=st=1661837216~exp=1661837816~hmac=5b40056780bebdeeb8bb5259612262507c80ddd5467b97f2ff299f6a2309d897`
     }, 
     {
         ID:"agricultural",
@@ -3312,7 +3325,7 @@ export const CourseData=[
         code:"EE 151",
         year:1,
         semester:1,
-        img: ""
+        img: "https://img.freepik.com/premium-photo/applying-thermal-paste-computer-s-central-processing-unit-computer-repair_131301-2395.jpg?w=740"
     }, 
     {
         ID:"agricultural",
@@ -3321,7 +3334,7 @@ export const CourseData=[
         code:"ENGL 157",
         year: 1,
         semester:1,
-        img: ""
+        img: "https://th.bing.com/th/id/OIP.XpVGmqQBBp4g2tRqWXIAMwHaHa?pid=ImgDet&rs=1"
     }, 
     {
         ID:"agricultural",
@@ -3330,7 +3343,7 @@ export const CourseData=[
         code:"AE 153",
         year:1,
         semester:1,
-        img: ""
+        img: "https://www.agrilearner.com/wp-content/uploads/2018/08/photo-title-1024x576.jpg"
     },
     {
         ID:"agricultural",
@@ -3339,7 +3352,7 @@ export const CourseData=[
         code:"ME 159",
         year: 1,
         semester:1,
-        img: ""
+        img: "https://th.bing.com/th/id/R.7dbcb2d23d5fd682c081bd7a78f9f567?rik=7tn37NS2GFBEzw&pid=ImgRaw&r=0"
     },
     {
         ID:"agricultural",
@@ -3348,7 +3361,7 @@ export const CourseData=[
         code:"CE 155",
         year: 1,
         semester:1,
-        img: ""
+        img: "https://epi-rsc.rsc-cdn.org/globalassets/05-journals-books-databases/our-journals/environmental-science-advances/esa-hero_1920x1080.jpg?version=9160e883"
     },
     {
         ID:"agricultural",
@@ -3357,7 +3370,7 @@ export const CourseData=[
         code:"COE 153",
         year: 1,
         semester:1,
-        img: ""
+        img:"https://th.bing.com/th/id/R.35f5f2bc964e7ec58c95738b1f7d0666?rik=w3LWTPMvTbukyQ&pid=ImgRaw&r=0"
     },
    {
         ID:"agricultural",
@@ -3366,7 +3379,7 @@ export const CourseData=[
         code:"ENGL 158",
         year: 1,
         semester:2,
-        img: ""
+        img: "https://th.bing.com/th/id/OIP.XpVGmqQBBp4g2tRqWXIAMwHaHa?pid=ImgDet&rs=1"
     },
     {
             ID:"agricultural",
@@ -3375,7 +3388,7 @@ export const CourseData=[
             code:"AE 158",
             year: 1,
             semester:2,
-            img: ""
+            img:"https://th.bing.com/th/id/R.f6dd8231adc1007568ce941c14d453cd?rik=h7nQr05ku99ucQ&pid=ImgRaw&r=0"
     },
 
     {
@@ -3385,7 +3398,7 @@ export const CourseData=[
         code:"ME 162",
         year: 1,
         semester:2,
-        img: ""
+        img: "https://1.bp.blogspot.com/-rja2B49-kJI/WtBnGNPqJdI/AAAAAAAAu6I/Q-vAmdDV7142PwlEs7bhIzGeC-G00Jf7wCK4BGAYYCw/s1600/picture-718945.jpg"
     }, 
     {
         ID:"agricultural",
@@ -3394,7 +3407,7 @@ export const CourseData=[
         code:"EE 152",
         year: 1,
         semester:2,
-        img: ""
+        img:"https://th.bing.com/th/id/R.805bb8c45b49705783459c144a31bf0c?rik=eEZmy5dafNt9ig&riu=http%3a%2f%2fwww.electronicsandyou.com%2fblog%2fwp-content%2fuploads%2f2018%2f12%2felectronics-1.jpg&ehk=74YeEcebTV60VrKcvDkoG7p96ko6XZibk0GTu2oY1hs%3d&risl=&pid=ImgRaw&r=0"
     },
     {
         ID:"agricultural",
@@ -3403,7 +3416,7 @@ export const CourseData=[
         code:"EE 152",
         year: 1,
         semester:2,
-        img: ""
+        img: "https://th.bing.com/th/id/R.abb2998d8a95ddfe3cdebb3dd2495ccc?rik=BKyYlUrhBY6ixg&pid=ImgRaw&r=0"
     },
     {
         ID:"agricultural",
@@ -3412,7 +3425,7 @@ export const CourseData=[
         code:"ME 160",
         year: 1,
         semester:1,
-        img: ""
+        img: "https://th.bing.com/th/id/R.7dbcb2d23d5fd682c081bd7a78f9f567?rik=7tn37NS2GFBEzw&pid=ImgRaw&r=0"
     },
     {
         ID:"agricultural",
@@ -3421,7 +3434,7 @@ export const CourseData=[
         code:"MATH 152",
         year: 1,
         semester:2,
-        img: ""
+        img:"https://th.bing.com/th/id/R.dda1ead370a9054f21fdab0e70ba74a3?rik=V%2f%2blo1CBnVXS9g&pid=ImgRaw&r=0"
     },
     {
         ID:"agricultural",
@@ -3430,7 +3443,7 @@ export const CourseData=[
         code:"AE 196",
         year: 1,
         semester:2,
-        img: ""
+        img: "https://th.bing.com/th/id/R.a086beb403f85470e0f1d635a2eb52f2?rik=K01Hve6nrSs9zw&pid=ImgRaw&r=0"
     },
    
     {
@@ -3440,7 +3453,7 @@ export const CourseData=[
         code:"CSM 157",
         year: 2,
         semester:1,
-        img: ""
+        img:"https://th.bing.com/th/id/R.99d213bd58125e0c71ba803a8b97d38f?rik=%2brQEZjHpm0pNIg&pid=ImgRaw&r=0"
     },
     {
         ID:"agricultural",
@@ -3449,7 +3462,7 @@ export const CourseData=[
         code:"ME 265",
         year: 2,
         semester:1,
-        img: ""
+        img:"https://www.universetoday.com/wp-content/uploads/2010/10/First-Law-of-Thermodynamics-1280x720.png"
     },
     {
         ID:"agricultural",
@@ -3458,7 +3471,7 @@ export const CourseData=[
         code:"FREN 181",
         year: 2,
         semester:1,
-        img: ""
+        img:"https://th.bing.com/th/id/OIP.QM0id-SaTNby-pWDtwYDHgHaE7?pid=ImgDet&rs=1"
     },
     {
         ID:"agricultural",
@@ -3467,7 +3480,7 @@ export const CourseData=[
         code:"ECON 151",
         year: 2,
         semester:1,
-        img: ""
+        img:"https://th.bing.com/th/id/R.5a89274213e8ff44b37d3612a093c29c?rik=3NIlTt82en8aEw&riu=http%3a%2f%2fstreetfins.com%2fwp-content%2fuploads%2f2019%2f06%2f2061_Deb-Word_Art2.rev_.1515788405.jpg&ehk=JcPKQh%2brcYm0evI1BVB28%2feA1yyM0SMeC3ow08poBy8%3d&risl=&pid=ImgRaw&r=0"
     },
     {
         ID:"agricultural",
@@ -3476,7 +3489,7 @@ export const CourseData=[
         code:"ME 251",
         year: 2,
         semester:1,
-        img: ""
+        img:"https://th.bing.com/th/id/R.6543569462207abbee63ff3f6f6dff49?rik=rSLPLnwt3m0pNg&pid=ImgRaw&r=0"
     },
     {
         ID:"agricultural",
@@ -3485,7 +3498,7 @@ export const CourseData=[
         code:"ENGL 263",
         year: 2,
         semester:1,
-        img: ""
+        img:"https://th.bing.com/th/id/R.c0474e2884a928682c7e3f17e600ab60?rik=SA2BuU8x0j%2fI%2fg&pid=ImgRaw&r=0"
     },
     {
         ID:"agricultural",
@@ -3494,7 +3507,7 @@ export const CourseData=[
         code:"ME 255",
         year: 2,
         semester:1,
-        img: ""
+        img:"https://th.bing.com/th/id/R.891adfc9499bdf7ddaf4016614e5aa64?rik=2qO6HWV5FMRMeA&riu=http%3a%2f%2fimg5a.flixcart.com%2fimage%2fbook%2f2%2f2%2f9%2fstrength-of-materials-original-imadms2fjpqknsbh.jpeg&ehk=Kgs0%2bNNzDgCFLsqRFWykbLMMNyOv4orVGwXQ%2b56CamA%3d&risl=&pid=ImgRaw&r=0"
     },
     {
         ID:"agricultural",
@@ -3503,7 +3516,7 @@ export const CourseData=[
         code:"CENG 291",
         year: 2,
         semester:1,
-        img: ""
+        img:"https://th.bing.com/th/id/R.80bb339f00f9f64e2a244fd78e211111?rik=wvh1DfJs%2fXy1Cg&pid=ImgRaw&r=0"
     },
     {
         ID:"agricultural",
@@ -3512,7 +3525,7 @@ export const CourseData=[
         code:"MATH 251",
         year: 2,
         semester:1,
-        img: ""
+        img:"https://th.bing.com/th/id/R.fa6b1af16091e5b22772d5cb354395e8?rik=nco5mByW1xIQug&pid=ImgRaw&r=0"
     },
     {
         ID:"agricultural",
@@ -3521,7 +3534,7 @@ export const CourseData=[
         code:"ME 259",
         year: 2,
         semester:1,
-        img: ""
+        img: "https://th.bing.com/th/id/R.9de109b94af3eb2bbb6dc84dfe6f3a32?rik=TLr1WngCS5SZjw&pid=ImgRaw&r=0"
     },
     {
         ID:"agricultural",
@@ -3530,7 +3543,7 @@ export const CourseData=[
         code:"ME 295",
         year: 2,
         semester:1,
-        img: ""
+        img:"https://th.bing.com/th/id/R.13e8cbcbe944d5132870b784b4539594?rik=koK7Zc1Lodre4w&pid=ImgRaw&r=0"
     },
     {
         ID:"agricultural",
@@ -3539,7 +3552,7 @@ export const CourseData=[
         code:"GE 286",
         year: 2,
         semester:2,
-        img: ""
+        img:"https://th.bing.com/th/id/R.5167e910d40414314f6a8011f6953e67?rik=g8eM8vUGUxwSAg&pid=ImgRaw&r=0"
     },
     {
         ID:"agricultural",
@@ -3548,7 +3561,7 @@ export const CourseData=[
         code:"MATH 252",
         year: 2,
         semester:2,
-        img: ""
+        img:"https://th.bing.com/th/id/R.c90d92bd367976037681342dadbac0a9?rik=h9S3o3ZNb2G%2bkg&pid=ImgRaw&r=0"
     },
     {
         ID:"agricultural",
@@ -3557,7 +3570,7 @@ export const CourseData=[
         code:"EE 252",
         year: 2,
         semester:2,
-        img: ""
+        img:"https://th.bing.com/th/id/R.52ef39658d7c156ce884e34dd32cbdcc?rik=tIko7ANQEPtVVA&pid=ImgRaw&r=0"
     },
     {
         ID:"agricultural",
@@ -3566,7 +3579,7 @@ export const CourseData=[
         code:"ME 262",
         year: 2,
         semester:2,
-        img: ""
+        img: "https://1.bp.blogspot.com/-rja2B49-kJI/WtBnGNPqJdI/AAAAAAAAu6I/Q-vAmdDV7142PwlEs7bhIzGeC-G00Jf7wCK4BGAYYCw/s1600/picture-718945.jpg"
     },
     {
         ID:"agricultural",
@@ -3575,7 +3588,7 @@ export const CourseData=[
         code:"ME 282",
         year: 2,
         semester:2,
-        img: ""
+        img:"https://th.bing.com/th/id/R.13e8cbcbe944d5132870b784b4539594?rik=koK7Zc1Lodre4w&pid=ImgRaw&r=0"
     },
     {
         ID:"agricultural",
@@ -3583,7 +3596,7 @@ export const CourseData=[
         name:"Literature in English II",
         year: 2,
         semester:2,
-        img: ""
+        img:"https://th.bing.com/th/id/R.c0474e2884a928682c7e3f17e600ab60?rik=SA2BuU8x0j%2fI%2fg&pid=ImgRaw&r=0"
     },
     {
         ID:"agricultural",
@@ -3591,7 +3604,7 @@ export const CourseData=[
         name:"Accounting II",
         year: 2,
         semester:2,
-        img: ""
+        img:"https://th.bing.com/th/id/R.99d213bd58125e0c71ba803a8b97d38f?rik=%2brQEZjHpm0pNIg&pid=ImgRaw&r=0"
     },
     {
         ID:"agricultural",
@@ -3599,7 +3612,7 @@ export const CourseData=[
         name:"French for Communication II",
         year: 2,
         semester:2,
-        img: ""
+        img:"https://th.bing.com/th/id/OIP.QM0id-SaTNby-pWDtwYDHgHaE7?pid=ImgDet&rs=1"
     },
     {
         ID:"agricultural",
@@ -3607,7 +3620,7 @@ export const CourseData=[
         name:"Introductory Economics II",
         year: 2,
         semester:2,
-        img: ""
+        img:"https://th.bing.com/th/id/R.5a89274213e8ff44b37d3612a093c29c?rik=3NIlTt82en8aEw&riu=http%3a%2f%2fstreetfins.com%2fwp-content%2fuploads%2f2019%2f06%2f2061_Deb-Word_Art2.rev_.1515788405.jpg&ehk=JcPKQh%2brcYm0evI1BVB28%2feA1yyM0SMeC3ow08poBy8%3d&risl=&pid=ImgRaw&r=0"
     },
     {
         ID:"agricultural",
@@ -3616,7 +3629,7 @@ export const CourseData=[
         code:"ME 296",
         year: 2,
         semester:2,
-        img: ""
+        img:"https://th.bing.com/th/id/R.13e8cbcbe944d5132870b784b4539594?rik=koK7Zc1Lodre4w&pid=ImgRaw&r=0"
     },
     {
         ID:"agricultural",
@@ -3625,7 +3638,7 @@ export const CourseData=[
         code:"AE 351",
         year: 3,
         semester:1,
-        img: ""
+        img: "https://th.bing.com/th/id/R.bb5286108c2c07a0ef2aae0aaaffc32b?rik=OiHJGD%2be78ykrw&pid=ImgRaw&r=0"
     },
     {
         ID:"agricultural",
@@ -3634,7 +3647,7 @@ export const CourseData=[
         code:"AE 353",
         year: 3,
         semester:1,
-        img: ""
+        img: "https://dgmarshallassoc.com/wp-content/uploads/2018/12/dreamstime_xxl_78380360-1920x600.jpg"
     },
     {
         ID:"agricultural",
@@ -3643,7 +3656,7 @@ export const CourseData=[
         code:"AE 373",
         year: 3,
         semester:1,
-        img: ""
+        img: "https://th.bing.com/th/id/OIP.0fyHY_BZEQWk0XQeQztvqgHaDt?pid=ImgDet&w=850&h=425&rs=1"
     },
     {
         ID:"agricultural",
@@ -3652,7 +3665,7 @@ export const CourseData=[
         code:"ME 355",
         year: 3,
         semester:1,
-        img: ""
+        img:"https://th.bing.com/th/id/R.891adfc9499bdf7ddaf4016614e5aa64?rik=2qO6HWV5FMRMeA&riu=http%3a%2f%2fimg5a.flixcart.com%2fimage%2fbook%2f2%2f2%2f9%2fstrength-of-materials-original-imadms2fjpqknsbh.jpeg&ehk=Kgs0%2bNNzDgCFLsqRFWykbLMMNyOv4orVGwXQ%2b56CamA%3d&risl=&pid=ImgRaw&r=0"
     },
     {
         ID:"agricultural",
@@ -3661,7 +3674,7 @@ export const CourseData=[
         code:"MATH 351",
         year: 3,
         semester:1,
-        img: ""
+        img:"https://th.bing.com/th/id/R.c90d92bd367976037681342dadbac0a9?rik=h9S3o3ZNb2G%2bkg&pid=ImgRaw&r=0"
     },
     {
         ID:"agricultural",
@@ -3670,7 +3683,7 @@ export const CourseData=[
         code:"ME 365",
         year: 3,
         semester:1,
-        img: ""
+        img:"https://www.universetoday.com/wp-content/uploads/2010/10/First-Law-of-Thermodynamics-1280x720.png"
     },
    
     {   ID:"agricultural",
@@ -3679,7 +3692,7 @@ export const CourseData=[
         code:"AE 35",
         year: 3,
         semester:2,
-        img: ""
+        img: "https://th.bing.com/th/id/R.0de52b51690a098a494525e96849161e?rik=jmmoxkKgVaVDog&pid=ImgRaw&r=0&sres=1&sresct=1"
     },
     {
         ID:"agricultural",
@@ -3688,7 +3701,7 @@ export const CourseData=[
         code:"AE 356",
         year: 3,
         semester:2,
-        img: ""
+        img: "https://th.bing.com/th/id/R.dd2f96248ff337f82c9e04fc8dd714a9?rik=C5C16AwCzyO7%2bQ&pid=ImgRaw&r=0"
     },
     {
         ID:"agricultural",
@@ -3697,7 +3710,7 @@ export const CourseData=[
         code:"AE 358",
         year: 3,
         semester:2,
-        img: ""
+        img: "https://th.bing.com/th/id/R.9fe1a4219b2245d7fcd8288e5ef5afc2?rik=b3uww0sLJboqhw&pid=ImgRaw&r=0"
     },
     {
         ID:"agricultural",
@@ -3706,7 +3719,7 @@ export const CourseData=[
         code:"AE 360",
         year: 3,
         semester:2,
-        img: ""
+        img: "https://th.bing.com/th/id/R.b5c4f2138dc93adab28bf15d840744de?rik=DL3Vek55oBB24w&pid=ImgRaw&r=0"
     },
     {
         ID:"agricultural",
@@ -3715,7 +3728,7 @@ export const CourseData=[
         code:"ME 366",
         year: 3,
         semester:2,
-        img: ""
+        img:"https://th.bing.com/th/id/R.66a2d77825b5d36ea575854860040389?rik=GqHJb3PPjeSzaQ&pid=ImgRaw&r=0"
     },
     {
         ID:"agricultural",
@@ -3724,7 +3737,7 @@ export const CourseData=[
         code:"ME 376",
         year: 3,
         semester:2,
-        img: ""
+        img: "https://image.slidesharecdn.com/autocadtutorial-160424175018/95/intro-to-autocad-6-638.jpg?cb=1461520251"
     },
     {
         ID:"agricultural",
@@ -3733,7 +3746,7 @@ export const CourseData=[
         code:"ME 374",
         year: 3,
         semester:2,
-        img: ""
+        img: "https://th.bing.com/th/id/R.19600b449723c76d30ba0a7e1ee605d6?rik=Nhvgvhj79iWxgA&riu=http%3a%2f%2fmatrixti.com%2fwp-content%2fuploads%2f2019%2f06%2fMachine-Design.jpg&ehk=%2fOlv3FKzYNmSFZ3s0%2b43mcA6UCCv8u64GOqJ%2fHU7ByI%3d&risl=&pid=ImgRaw&r=0"
     },
     {
         ID:"agricultural",
@@ -3741,7 +3754,7 @@ export const CourseData=[
         name:"Project I",
         year: 4,
         semester:1,
-        img: ""
+        img: "https://th.bing.com/th/id/OIP.PkLXsHn4CjlKh_m38RGTswHaE8?pid=ImgDet&rs=1"
     },
     {
         ID:"agricultural",
@@ -3750,7 +3763,7 @@ export const CourseData=[
         code:"AE 451",
         year: 4,
         semester:1,
-        img: ""
+        img: "https://th.bing.com/th/id/R.b0129e5a17b640faad3d569c825e52bc?rik=aHko4flM%2fWgrfA&riu=http%3a%2f%2fwww.danapacificlandscape.com%2fwp-content%2fuploads%2f2015%2f02%2firrigationdrainage-8-1140x700.jpg&ehk=CO0aDiqqLsAvRCkjknW5hmHU27hDyxIfv4lQgRBfK1w%3d&risl=&pid=ImgRaw&r=0"
     },
     {
         ID:"agricultural",
@@ -3759,7 +3772,7 @@ export const CourseData=[
         code:"AE 453",
         year: 4,
         semester:1,
-        img: ""
+        img: "https://th.bing.com/th/id/R.ea2b17df176fa2252619142d7f36755a?rik=OFRdUEwry2UcWQ&pid=ImgRaw&r=0"
     },
     {
         ID:"agricultural",
@@ -3768,7 +3781,7 @@ export const CourseData=[
         code:"AE 457",
         year: 4,
         semester:1,
-        img: ""
+        img: "https://assets.cnhindustrial.com/nhag/nar/assets/Forage-Equipment/fr-forage-cruiser-sp/features/variflow-accelerator-and-crop-processor/fr-forage-cruiser-sp-variflow-accelerator-and-crop-processor-01a.jpg"
     },
     {
         ID:"agricultural",
@@ -3777,7 +3790,7 @@ export const CourseData=[
         code:"AE 459",
         year: 4,
         semester:1,
-        img: ""
+        img: "https://th.bing.com/th/id/R.dd2f96248ff337f82c9e04fc8dd714a9?rik=C5C16AwCzyO7%2bQ&pid=ImgRaw&r=0"
     },
     {
         ID:"agricultural",
@@ -3786,7 +3799,7 @@ export const CourseData=[
         code:"AE 471",
         year: 4,
         semester:1,
-        img: ""
+        img: "https://th.bing.com/th/id/OIP.trsuQxjCD_Sqo4YG34njpQHaD4?pid=ImgDet&rs=1"
     },
     {
         ID:"agricultural",
@@ -3795,7 +3808,7 @@ export const CourseData=[
         code:"AE 491",
         year: 4,
         semester:1,
-        img: ""
+        img: "https://th.bing.com/th/id/OIP.kL25j-uGYxBsJKSxeVUh4QHaFj?pid=ImgDet&rs=1"
     },
     {
         ID:"agricultural",
@@ -3804,7 +3817,7 @@ export const CourseData=[
         code:"AE 452",
         year: 4,
         semester:2,
-        img: ""
+        img: "https://th.bing.com/th/id/R.bb5286108c2c07a0ef2aae0aaaffc32b?rik=OiHJGD%2be78ykrw&pid=ImgRaw&r=0"
     },
     {
         ID:"agricultural",
@@ -3813,7 +3826,7 @@ export const CourseData=[
         code:"AE 458",
         year: 4,
         semester:2,
-        img: ""
+        img: "https://th.bing.com/th/id/R.29ebeef2eb291fb670252497c6590586?rik=k8aNjhaIawpjZw&riu=http%3a%2f%2fmediad.publicbroadcasting.net%2fp%2fpre%2ffiles%2fstyles%2fx_large%2fpublic%2f201511%2foct_2015_rain_damage_018.jpg&ehk=3Xv2r2CUSafArVAdZqSWBExLnq3a%2f5m%2fBxIWJqHqZCE%3d&risl=&pid=ImgRaw&r=0&sres=1&sresct=1"
     },
     {
         ID:"agricultural",
@@ -3822,7 +3835,7 @@ export const CourseData=[
         code:"AE 460",
         year: 4,
         semester:2,
-        img: ""
+        img: "https://th.bing.com/th/id/R.34dc28435599a85f21c7dc02b0bfe975?rik=2PQ3YiEp%2fkIH2Q&pid=ImgRaw&r=0"
     },
     {
         ID:"agricultural",
@@ -3831,7 +3844,7 @@ export const CourseData=[
         code:"AE 464",
         year: 4,
         semester:2,
-        img: ""
+        img: "https://th.bing.com/th/id/R.91ddf26b93b56b602c5460a4a149e5b3?rik=kxw%2bfhsgDBxdcw&pid=ImgRaw&r=0"
     },
     {
         ID:"agricultural",
@@ -3840,7 +3853,7 @@ export const CourseData=[
         code:"AE 482",
         year: 4,
         semester:2,
-        img: ""
+        img: "https://th.bing.com/th/id/R.b2a13782224d6dd82a18f93ef99aeafd?rik=RG5ajnFw%2f9iPSQ&riu=http%3a%2f%2fentrec.co.uk%2fwp-content%2fuploads%2f2017%2f05%2ftractor-1748633_1920-1.jpg&ehk=q7QoyPC8ucvg4J%2f%2fKiRX3%2brUAszWj8TYg1Cj5vvLA0Q%3d&risl=&pid=ImgRaw&r=0"
     },
     {
         ID:"agricultural",
@@ -3849,7 +3862,7 @@ export const CourseData=[
         code:"ME 492",
         year: 4,
         semester:2,
-        img: ""
+        img: "https://th.bing.com/th/id/OIP.KDsEX-Z28T_gB8alw8Cl_wHaEv?pid=ImgDet&rs=1"
     },
     {
         ID:"agricultural",
@@ -3858,7 +3871,7 @@ export const CourseData=[
         code:"AE 498",
         year: 4,
         semester:2,
-        img: ""
+        img: "https://th.bing.com/th/id/OIP.PkLXsHn4CjlKh_m38RGTswHaE8?pid=ImgDet&rs=1"
     },
     {
         ID:"biomedical",
@@ -3926,7 +3939,7 @@ export const CourseData=[
     {
         ID:"biomedical",
         id:"introductiontoethicsandmorality",
-        name:"Introductio to Ethics and Morality",
+        name:"Introduction to Ethics and Morality",
         code:"ETIC 161",
         year: 1,
         semester:1,
@@ -4867,7 +4880,7 @@ export const CourseData=[
         code:"MATH 151",
         year: 1,
         semester:1,
-        img: ""
+        img: "https://img.freepik.com/free-vector/geometry-education-blue-background-vector-frame-disruptive-education-digital-remix_53876-114094.jpg?w=740&t=st=1661837216~exp=1661837816~hmac=5b40056780bebdeeb8bb5259612262507c80ddd5467b97f2ff299f6a2309d897"
     }, 
     {
         ID:"aerospace",
@@ -4876,16 +4889,16 @@ export const CourseData=[
         code:"EE 151",
         year:1,
         semester:1,
-        img: ""
+        img: "https://img.freepik.com/premium-photo/applying-thermal-paste-computer-s-central-processing-unit-computer-repair_131301-2395.jpg?w=740"
     }, 
     {
         ID:"aerospace",
-        id:"communicationskills",
-        name:"Communication Skills",
+        id:"communicationskillsI",
+        name:"Communication Skills I",
         code:"ENGL 157",
         year: 1,
         semester:1,
-        img: ""
+        img: "https://th.bing.com/th/id/OIP.XpVGmqQBBp4g2tRqWXIAMwHaHa?pid=ImgDet&rs=1"
     }, 
     {
         ID:"aerospace",
@@ -4894,7 +4907,7 @@ export const CourseData=[
         code:"ME 161",
         year: 1,
         semester:1,
-        img: ""
+        img: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcT4_CjVo9CL6dxBsVWeKaKVkBDzuZ0JXyi_AA&usqp=CAU"
     }, 
     {
         ID:"aerospace",
@@ -4903,7 +4916,7 @@ export const CourseData=[
         code:"ME 159",
         year: 1,
         semester:1,
-        img: ""
+        img: "https://th.bing.com/th/id/R.7dbcb2d23d5fd682c081bd7a78f9f567?rik=7tn37NS2GFBEzw&pid=ImgRaw&r=0"
     },  
     {
         ID:"aerospace",
@@ -4912,7 +4925,7 @@ export const CourseData=[
         code:"AERO 157",
         year: 1,
         semester:1,
-        img: ""
+        img:"https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRrBHHpurPLdRvkJZuNjNA9ivQxMxmO4U6ZQw&usqp=CAU"
     },
     {
         ID:"aerospace",
@@ -4921,7 +4934,7 @@ export const CourseData=[
         code:"CE 155",
         year: 1,
         semester:1,
-        img: ""
+        img: "https://epi-rsc.rsc-cdn.org/globalassets/05-journals-books-databases/our-journals/environmental-science-advances/esa-hero_1920x1080.jpg?version=9160e883"
     },
     {
         ID:"aerospace",
@@ -4930,7 +4943,7 @@ export const CourseData=[
         code:"ILS 151",
         year: 1,
         semester:1,
-        img: ""
+        img: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSRQxtJSw9kn-0bQ1zmJ41c_HS2GhWvG2gmsw&usqp=CAU"
     },
     {
         ID:"aerospace",
@@ -4939,7 +4952,7 @@ export const CourseData=[
         code:"ME 158",
         year: 1,
         semester:2,
-        img: ""
+        img: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQhuuRS_hzHJ-ivCXko9q7Rls2KhA_zCUFfZQ&usqp=CAU"
     },{
         ID:"aerospace",
         id:"communicationskillsII",
@@ -4947,7 +4960,7 @@ export const CourseData=[
         code:"ENGL 158",
         year: 1,
         semester:2,
-        img: ""
+        img: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSR6nuR_FzGumWyVaG2S6FeM4tCCmUc0rsnyw&usqp=CAU"
     },
     {
         ID:"aerospace",
@@ -4956,7 +4969,7 @@ export const CourseData=[
         code:"EE 152",
         year: 1,
         semester:2,
-        img: ""
+        img: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRVoa_ejYn2W0Wxli2tLsN9Pb3Plv8WGgktZw&usqp=CAU"
     },
     {
         ID:"aerospace",
@@ -4965,7 +4978,7 @@ export const CourseData=[
         code:"MATH 152",
         year: 1,
         semester:2,
-        img: ""
+        img: "https://th.bing.com/th/id/R.dda1ead370a9054f21fdab0e70ba74a3?rik=V%2f%2blo1CBnVXS9g&pid=ImgRaw&r=0"
     },
     {
         ID:"aerospace",
@@ -4974,7 +4987,7 @@ export const CourseData=[
         code:"ME 164",
         year: 1,
         semester:2,
-        img: ""
+        img: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcS3uYnU1LfeW6-_7mAVgOHfPtleqDh0Owkm7Q&usqp=CAU"
     },
     {
         ID:"aerospace",
@@ -4983,7 +4996,7 @@ export const CourseData=[
         code:"ME 158",
         year: 1,
         semester:2,
-        img: ""
+        img: "https://inteng-storage.s3.amazonaws.com/img/iea/Xy6xn0rvOr/best-programming-languges.jpg"
     },
     {
         ID:"aerospace",
@@ -4992,7 +5005,7 @@ export const CourseData=[
         code:"AERO 174",
         year: 1,
         semester:2,
-        img: ""
+        img: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRzcrcspe6BZ6LqvXd9_5eJdS6txVv8vhVUMg&usqp=CAU"
     },
     {
         ID:"aerospace",
@@ -5001,7 +5014,7 @@ export const CourseData=[
         code:"ILS 152",
         year: 1,
         semester:2,
-        img: ""
+        img: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcT3FAToG0opgMwbBoG6KD0zosUMbXbJg7RU9A&usqp=CAU"
     },
     {
         ID:"aerospace",
@@ -5010,7 +5023,7 @@ export const CourseData=[
         code:"ENGL 263",
         year: 2,
         semester:1,
-        img: ""
+        img: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTfofMVyvPgAD76wC7gm48DOYoKaQIHgb5kHA&usqp=CAU"
     },
     {
         ID:"aerospace",
@@ -5019,7 +5032,7 @@ export const CourseData=[
         code:"ME 261",
         year: 2,
         semester:1,
-        img: ""
+        img: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRFvjr-r_9cnxAO4H5BFEpnqtrgy8Z_2iLr9g&usqp=CAU"
     },
     {
         ID:"aerospace",
@@ -5028,7 +5041,7 @@ export const CourseData=[
         code:"ME 251",
         year: 2,
         semester:1,
-        img: ""
+        img: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTFUdodrt9_M7O3kvwtZbPk5z0TH3wVohYxSA&usqp=CAU"
     },
     {
         ID:"aerospace",
@@ -5037,7 +5050,7 @@ export const CourseData=[
         code:"ME 281",
         year: 2,
         semester:1,
-        img: ""
+        img: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSoEK7BhYohaWqmyzEopBuA4vxk30_KKH6Vhw&usqp=CAU"
     },
     {
         ID:"aerospace",
@@ -5046,7 +5059,7 @@ export const CourseData=[
         code:"ME 255",
         year: 2,
         semester:1,
-        img: ""
+        img: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTyQxdhJd5bCiO2A6m-rik_CjaTY7qMwgZGFA&usqp=CAU"
     },
     {
         ID:"aerospace",
@@ -5055,7 +5068,7 @@ export const CourseData=[
         code:"MATH 251",
         year: 2,
         semester:1,
-        img: ""
+        img: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcT77SLhfJRufg0zCODHazGOHGmYEM099j8JBQ&usqp=CAU"
     },
     {
         ID:"aerospace",
@@ -5064,7 +5077,7 @@ export const CourseData=[
         code:"AERO 293",
         year: 2,
         semester:1,
-        img: ""
+        img: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQe9-5mUTu0YXffwu0zYQgXI8HYJOC5oV9O_Q&usqp=CAU"
     },
     {
         ID:"aerospace",
@@ -5073,7 +5086,7 @@ export const CourseData=[
         code: "CENG 291",
         year: 2,
         semester:1,
-        img: ""
+        img: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSqVgJ05votcT_94d6sWINJyjDfokIv1mrXXw&usqp=CAU"
     },
     {
         ID:"aerospace",
@@ -5082,7 +5095,7 @@ export const CourseData=[
         code: "MATH 252",
         year: 2,
         semester:2,
-        img: ""
+        img: "https://th.bing.com/th/id/R.dda1ead370a9054f21fdab0e70ba74a3?rik=V%2f%2blo1CBnVXS9g&pid=ImgRaw&r=0"
     },
     {
         ID:"aerospace",
@@ -5091,7 +5104,7 @@ export const CourseData=[
         code: "ME 258",
         year: 2,
         semester:2,
-        img: ""
+        img: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRJJqaFDUgDCS6LI5assRdcFZ9NWSTp_TS_uA&usqp=CAU"
     },
     {
         ID:"aerospace",
@@ -5100,7 +5113,7 @@ export const CourseData=[
         code: "ME 264",
         year: 2,
         semester:2,
-        img: ""
+        img: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSonn0LyqujrlXe5pTYyGmR00N2Kle6jiAU3Q&usqp=CAU"
     },
     {
         ID:"aerospace",
@@ -5109,7 +5122,7 @@ export const CourseData=[
         code: "AERO 256",
         year: 2,
         semester:2,
-        img: ""
+        img: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQxHMXoA5qAPMxwjt37Qzj6kihSkWYCg9T5lA&usqp=CAU"
     },
     {
         ID:"aerospace",
@@ -5118,7 +5131,7 @@ export const CourseData=[
         code:"ENGL 264",
         year: 2,
         semester:2,
-        img: ""
+        img: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQCVh-lLAtDYCzvQyJ_DE-XbTxYP2I1VHhq0w&usqp=CAU"
     },
     {
         ID:"aerospace",
@@ -5127,7 +5140,7 @@ export const CourseData=[
         code:"ME 266",
         year: 2,
         semester:2,
-        img: ""
+        img: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSjXXzCLVKled7m1DxRr7qZ8QSVQHb0OXc45Q&usqp=CAU"
     },
     {
         ID:"aerospace",
@@ -5136,7 +5149,7 @@ export const CourseData=[
         code:"AERO 274",
         year: 2,
         semester:2,
-        img: ""
+        img: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRWYM6WGW5LJAbtDsVr9n2KSxpg9mCIlLtz3g&usqp=CAU"
     },
     {
         ID:"aerospace",
@@ -5145,7 +5158,7 @@ export const CourseData=[
         code:"MATH 353",
         year: 3,
         semester:1,
-        img: ""
+        img: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSi15Xl6B2TljXg52JeOttPXyDy5KZoJGtu7g&usqp=CAU"
     },
     {
         ID:"aerospace",
@@ -5154,7 +5167,7 @@ export const CourseData=[
         code:"MATH 351",
         year: 3,
         semester:1,
-        img: ""
+        img: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSHdQuu7vAwVJKA09tq5RqigtSQC9XVElp5SA&usqp=CAU"
     },
     {
         ID:"aerospace",
@@ -5163,7 +5176,7 @@ export const CourseData=[
         code:"ME 363",
         year: 3,
         semester:1,
-        img: ""
+        img: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcT5ft0C50z5ViTF27volp0ICWCi6jn6jZukIw&usqp=CAU"
     },
     {
         ID:"aerospace",
@@ -5172,7 +5185,7 @@ export const CourseData=[
         code:"AERO 395",
         year: 3,
         semester:1,
-        img: ""
+        img: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTXRfVzQRPOkruyOTHHewbN8x6cShD0k1s_eQ&usqp=CAU"
     },
     {
         ID:"aerospace",
@@ -5181,7 +5194,7 @@ export const CourseData=[
         code:"AERO 391",
         year: 3,
         semester:1,
-        img: ""
+        img: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRadjGeld91Bo2o5fb2owISobtUM1N4drX5QA&usqp=CAU"
     },
     {
         ID:"aerospace",
@@ -5190,7 +5203,7 @@ export const CourseData=[
         code:"AERO 351",
         year: 3,
         semester:1,
-        img: ""
+        img: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSlSYmydaLE1CWfa38yUVktNCi-oU3iIqofRA&usqp=CAU"
     },
     {
         ID:"aerospace",
@@ -5199,7 +5212,7 @@ export const CourseData=[
         code:"AERO 393",
         year: 3,
         semester:1,
-        img: ""
+        img: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcS27ngWWc6-u7XTTHsZQOtS8dhnzonHG2kEXA&usqp=CAU"
     }, 
     {
         ID:"aerospace",
@@ -5208,7 +5221,7 @@ export const CourseData=[
         code:"ECON 151",
         year: 3,
         semester:1,
-        img: ""
+        img: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQ64Am2vIOICIwLX8G3uj-ngiCZSN5wsfhUpQ&usqp=CAU"
     },
     {
         ID:"aerospace",
@@ -5217,7 +5230,7 @@ export const CourseData=[
         code:"AERO 362",
         year: 3,
         semester:2,
-        img: ""
+        img: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQFx95ZqHKCml5HdFWxBnqVjQxyKR92fW_qXQ&usqp=CAU"
     },
     {   
         ID:"aerospace",
@@ -5226,7 +5239,7 @@ export const CourseData=[
         code:"ME 392",
         year: 3,
         semester:2,
-        img: ""
+        img: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTUT7q5cF0wNjh0-cPAIjRRg1MCfyDrqVBNdg&usqp=CAU"
     },
     {
         ID:"aerospace",
@@ -5235,7 +5248,7 @@ export const CourseData=[
         code:"AERO 374",
         year: 3,
         semester:2,
-        img: ""
+        img: "https://media.istockphoto.com/photos/airplane-flying-above-the-sky-picture-id155126807?k=20&m=155126807&s=612x612&w=0&h=5kUMN1ZqrlEegSzTOyCWhBCDztfbeYwPjax9w5Q0ZXM="
     },
     {
         ID:"aerospace",
@@ -5244,7 +5257,7 @@ export const CourseData=[
         code:"AERO 368",
         year: 3,
         semester:2,
-        img: ""
+        img: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRFvRddb6qHlU7KK33o9rEAwx9p93XwBUFA8A&usqp=CAU"
     },
     {
         ID:"aerospace",
@@ -5253,7 +5266,7 @@ export const CourseData=[
         code:"ME 366",
         year: 3,
         semester:2,
-        img: ""
+        img: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRGV-ZaHJEyjE2RnpzjZcfBhjEUd-_YSI1nhw&usqp=CAU"
     },
     {
         ID:"aerospace",
@@ -5262,7 +5275,7 @@ export const CourseData=[
         code:"ME 362",
         year: 3,
         semester:2,
-        img: ""
+        img: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSB1XvVlS2B7tXIOQ9B0R3KcscgLE32tar9wA&usqp=CAU"
     },
     {
         ID:"aerospace",
@@ -5271,7 +5284,7 @@ export const CourseData=[
         code:"AERO 396",
         year: 3,
         semester:2,
-        img: ""
+        img: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQYl1NDo6MkRJaZ4VaxeobgKBfs7yBolD_pBA&usqp=CAU"
     },
     {
         ID:"aerospace",
@@ -5280,7 +5293,7 @@ export const CourseData=[
         code:"AERO 483",
         year: 4,
         semester:1,
-        img: ""
+        img: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSGBrQ_s3eRJemr0fwIL72n0gq84GVUssSrkg&usqp=CAU"
     },
     {
         ID:"aerospace",
@@ -5289,7 +5302,7 @@ export const CourseData=[
         code:"AERO 491",
         year: 4,
         semester:1,
-        img: ""
+        img: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQ4_2D98w36k-MVKi1YMUPBBi0kC_mUn8JKig&usqp=CAU"
     },
     {
         ID:"aerospace",
@@ -5298,7 +5311,7 @@ export const CourseData=[
         code:"AERO 497",
         year: 4,
         semester:1,
-        img: ""
+        img: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQRZbXnocF3DlTGKHDEEB3-AQisdiOPzC5lug&usqp=CAU"
     },
     {
         ID:"aerospace",
@@ -5307,7 +5320,7 @@ export const CourseData=[
         code:"AERO 495",
         year: 4,
         semester:1,
-        img: ""
+        img: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcT0Zc_aVTvHkX2ZHqZc-AuO7s7g1CVyVWYNvQ&usqp=CAU"
     },
     {
         ID:"aerospace",
@@ -5316,7 +5329,7 @@ export const CourseData=[
         code:"AERO 473",
         year: 4,
         semester:1,
-        img: ""
+        img: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRXXmRFJ7ZmP98h3yj7oNq_ERMRXOQanv3sOg&usqp=CAU"
     },
     {
         ID:"aerospace",
@@ -5325,7 +5338,7 @@ export const CourseData=[
         code:"AERO 493",
         year: 4,
         semester:1,
-        img: ""
+        img: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQD8eVRYpHcYX8J66UYjmut-L3J7OBBJXg-lQ&usqp=CAU"
     },
     {
         ID:"aerospace",
@@ -5334,7 +5347,7 @@ export const CourseData=[
         code:"ME 461",
         year: 4,
         semester:1,
-        img: ""
+        img: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQBMr5gtVTRLEpDNLmRXmPL3fiWrY_RVYlieg&usqp=CAU"
     },
     {
         ID:"aerospace",
@@ -5343,7 +5356,7 @@ export const CourseData=[
         code:"ME 463",
         year: 4,
         semester:1,
-        img: ""
+        img: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcT5ft0C50z5ViTF27volp0ICWCi6jn6jZukIw&usqp=CAU"
     },
     {
         ID:"aerospace",
@@ -5352,7 +5365,7 @@ export const CourseData=[
         code:"ME 483",
         year: 4,
         semester:1,
-        img: ""
+        img: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcS0SRsBbbvlCF8EZIffUj-5w4IYUTQTjlUx-w&usqp=CAU"
     },
     {
         ID:"aerospace",
@@ -5361,7 +5374,7 @@ export const CourseData=[
         code:"MSE 451",
         year: 4,
         semester:1,
-        img: ""
+        img: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQvwz_flaq40zLp8OJVi4Fg5BeWTrYrBjTQaw&usqp=CAU"
     },
     {
         ID:"aerospace",
@@ -5370,7 +5383,7 @@ export const CourseData=[
         code:"ME 473",
         year: 4,
         semester:1,
-        img: ""
+        img: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQiuoxtAhs4WU4c_0l_D90Vg6bgMMABRAZw5w&usqp=CAU"
     },
     {
         ID:"aerospace",
@@ -5379,7 +5392,7 @@ export const CourseData=[
         code:"ME 469",
         year: 4,
         semester:1,
-        img: ""
+        img: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcT89eAQKb8nrOFwjF4qyVet-TgBMb3UveqdSw&usqp=CAU"
     },
     {
         ID:"aerospace",
@@ -5388,7 +5401,7 @@ export const CourseData=[
         code:"ME 499",
         year: 4,
         semester:1,
-        img: ""
+        img: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSLThv6ZsLxv8asc-ZhmjVWvfjYAd6V991l0Q&usqp=CAU"
     },
     {
         ID:"aerospace",
@@ -5397,16 +5410,16 @@ export const CourseData=[
         code:"ME 451",
         year: 4,
         semester:1,
-        img: ""
+        img: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRgskrbkL0P2oAmX2G4otwR7W-9igWGNrILqA&usqp=CAU"
     },
     {
         ID:"aerospace",
         id:"strengthofmaterialsIII",
-        name:"Stregth of Materials III",
+        name:"Strength of Materials III",
         code:"ME 455",
         year: 4,
         semester:1,
-        img: ""
+        img: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTRQwmgrWXbKWfRF2yC4S_gwNqmkHrCRCV6zg&usqp=CAU"
     },
     {
         ID:"aerospace",
@@ -5415,7 +5428,7 @@ export const CourseData=[
         code:"ME 492",
         year: 4,
         semester:2,
-        img: ""
+        img: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRGpleBKuOsKBUyGE1W_1JCBDdKgcQe3yHs_Q&usqp=CAU"
     },
     {
         ID:"aerospace",
@@ -5424,7 +5437,7 @@ export const CourseData=[
         code:"AERO 452",
         year: 4,
         semester:2,
-        img: ""
+        img: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRcCj-qrWQOG0CHj2TyXcuHeluIL1yUVx5jHQ&usqp=CAU"
     },
     {
         ID:"aerospace",
@@ -5433,7 +5446,7 @@ export const CourseData=[
         code:"AERO 498",
         year: 4,
         semester:2,
-        img: ""
+        img: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQlE0855Jf79x4If3ETJVS7rkXM8JH8SXUfYQ&usqp=CAU"
     },
     {
         ID:"aerospace",
@@ -5442,7 +5455,7 @@ export const CourseData=[
         code:"AERO 456",
         year: 4,
         semester:2,
-        img: ""
+        img: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcS7vcHvpseXeuU3ahEDw545banmKezgC1onQg&usqp=CAU"
     },
     {
         ID:"aerospace",
@@ -5451,7 +5464,7 @@ export const CourseData=[
         code:"AERO 492",
         year: 4,
         semester:2,
-        img: ""
+        img: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSu8BoRnaYp1Bx-aGJc1OfCuY2n5Sqj2J6Y3g&usqp=CAU"
     },
     {
         ID:"aerospace",
@@ -5460,7 +5473,7 @@ export const CourseData=[
         code:"ME 462",
         year: 4,
         semester:2,
-        img: ""
+        img: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSOzYr_p5Lz2H1gtEleSV61MCO8u5-9cXRDUQ&usqp=CAU"
     },
     {
         ID:"aerospace",
@@ -5469,7 +5482,7 @@ export const CourseData=[
         code:"ME 456",
         year: 4,
         semester:2,
-        img: ""
+        img: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcR-ijGXCVg0IHUy1XqVVoVTu_s53Fkug16lcg&usqp=CAU"
     },
     {
         ID:"aerospace",
@@ -5478,7 +5491,7 @@ export const CourseData=[
         code:"ME 468",
         year: 4,
         semester:2,
-        img: ""
+        img: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSLJo3somrfd99weJFMB7pmYpij5e7s1346iw&usqp=CAU"
     },
     {
         ID:"aerospace",
@@ -5487,7 +5500,7 @@ export const CourseData=[
         code:"ME 474",
         year: 4,
         semester:2,
-        img: ""
+        img: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTx3rmAy6DQwELcCNFf-f2CdS66kXxd8LdqRw&usqp=CAU"
     },
     {
         ID:"aerospace",
@@ -5496,7 +5509,7 @@ export const CourseData=[
         code:"ME 472",
         year: 4,
         semester:2,
-        img: ""
+        img: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQ4N7V-e9O4yPQX47SrUpvE2GRjC2x84ue0pw&usqp=CAU"
     },
     {
         ID:"aerospace",
@@ -5505,7 +5518,7 @@ export const CourseData=[
         code:"ME 494",
         year: 4,
         semester:2,
-        img: ""
+        img: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQLlf-hWtzgdniio5o5qp8E8PhCtKXz4tpHbA&usqp=CAU"
     },
     {
         ID:"metallurgical",
@@ -5514,7 +5527,7 @@ export const CourseData=[
         code:"MATH 151",
         year: 1,
         semester:1,
-        img: ""
+        img: "https://img.freepik.com/free-vector/geometry-education-blue-background-vector-frame-disruptive-education-digital-remix_53876-114094.jpg?w=740&t=st=1661837216~exp=1661837816~hmac=5b40056780bebdeeb8bb5259612262507c80ddd5467b97f2ff299f6a2309d897"
     }, 
     {
         ID:"metallurgical",
@@ -5523,16 +5536,16 @@ export const CourseData=[
         code:"EE 151",
         year:1,
         semester:1,
-        img: ""
+        img: "https://img.freepik.com/premium-photo/applying-thermal-paste-computer-s-central-processing-unit-computer-repair_131301-2395.jpg?w=740"
     }, 
     {
         ID:"metallurgical",
-        id:"communicationskills",
-        name:"Communication Skills",
+        id:"communicationskillsI",
+        name:"Communication Skills I",
         code:"ENGL 157",
         year: 1,
         semester:1,
-        img: ""
+        img: "https://th.bing.com/th/id/OIP.XpVGmqQBBp4g2tRqWXIAMwHaHa?pid=ImgDet&rs=1"
     }, 
     {
         ID:"metallurgical",
@@ -5541,7 +5554,7 @@ export const CourseData=[
         code:"GED 151",
         year: 1,
         semester:1,
-        img: ""
+        img: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTyulHCRa5APpyE_F3ONuXigSX5-b5TrEc6eA&usqp=CAU"
     }, 
     {
         ID:"metallurgical",
@@ -5550,7 +5563,7 @@ export const CourseData=[
         code:"ME 159",
         year: 1,
         semester:1,
-        img: ""
+        img: "https://th.bing.com/th/id/R.7dbcb2d23d5fd682c081bd7a78f9f567?rik=7tn37NS2GFBEzw&pid=ImgRaw&r=0"
     },  
     {
         ID:"metallurgical",
@@ -5559,7 +5572,7 @@ export const CourseData=[
         code:"ME 195",
         year: 1,
         semester:1,
-        img: ""
+        img: "https://th.bing.com/th/id/R.35f5f2bc964e7ec58c95738b1f7d0666?rik=w3LWTPMvTbukyQ&pid=ImgRaw&r=0"
     },
     {
         ID:"metallurgical",
@@ -5568,7 +5581,7 @@ export const CourseData=[
         code:"METE 151",
         year: 1,
         semester:1,
-        img: ""
+        img: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQaoG36295jEUkr3BBvXmKGFV0v0kduNCIFHw&usqp=CAU"
     },
     {
         ID:"metallurgical",
@@ -5577,7 +5590,7 @@ export const CourseData=[
         code:"ETIC 161",
         year: 1,
         semester:1,
-        img: ""
+        img: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcS2QKeNRs9Xn2EZQBq6ckHtTDPj56j5kVob0w&usqp=CAU"
     },
     {
         ID:"metallurgical",
@@ -5586,7 +5599,7 @@ export const CourseData=[
         code:"METE 152",
         year: 1,
         semester:2,
-        img: ""
+        img: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTr_6xldYWRRbkTQcQNDwmv2Os8r9bpGVy9tA&usqp=CAU"
     },{
         ID:"metallurgical",
         id:"communicationskillsII",
@@ -5594,7 +5607,7 @@ export const CourseData=[
         code:"ENGL 158",
         year: 1,
         semester:2,
-        img: ""
+        img: "https://th.bing.com/th/id/OIP.XpVGmqQBBp4g2tRqWXIAMwHaHa?pid=ImgDet&rs=1"
     },
     {
         ID:"metallurgical",
@@ -5603,7 +5616,7 @@ export const CourseData=[
         code:"ME 162",
         year: 1,
         semester:2,
-        img: ""
+        img: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcT4_CjVo9CL6dxBsVWeKaKVkBDzuZ0JXyi_AA&usqp=CAU"
     },
     {
         ID:"metallurgical",
@@ -5612,7 +5625,7 @@ export const CourseData=[
         code:"MATH 152",
         year: 1,
         semester:2,
-        img: ""
+        img: "https://th.bing.com/th/id/R.dda1ead370a9054f21fdab0e70ba74a3?rik=V%2f%2blo1CBnVXS9g&pid=ImgRaw&r=0"
     },
     {
         ID:"metallurgical",
@@ -5621,7 +5634,7 @@ export const CourseData=[
         code:"MSE 154",
         year: 1,
         semester:2,
-        img: ""
+        img: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcS9Bv4VNRIIoypvPAjlDluDvzdB-ys0_Oj31A&usqp=CAU"
     },
     {
         ID:"metallurgical",
@@ -5630,7 +5643,7 @@ export const CourseData=[
         code:"METE 154",
         year: 1,
         semester:2,
-        img: ""
+        img: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcS4pez_Y7IdHktxTiZVHLWMpyVHa3brhG7Heg&usqp=CAU"
     },
     {
         ID:"metallurgical",
@@ -5639,7 +5652,7 @@ export const CourseData=[
         code:"ME 160",
         year: 1,
         semester:2,
-        img: ""
+        img: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTgAAJRjiQU2BSuzNBtZXHkXQCdEgLclv0tdw&usqp=CAU"
     },
     {
         ID:"metallurgical",
@@ -5648,7 +5661,7 @@ export const CourseData=[
         code:"GED 251",
         year: 2,
         semester:1,
-        img: ""
+        img: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcT503dNdGHZxWLhP3uEBWskfJv626aS7C9EbA&usqp=CAU"
     },
     {
         ID:"metallurgical",
@@ -5657,7 +5670,7 @@ export const CourseData=[
         code:"METE 251",
         year: 2,
         semester:1,
-        img: ""
+        img: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRV7K2Kki7Ttr4rhdN3dOm68BtWHyQ2Z5UzVWEVhpLEQNr31P01fU57Dgz4v-4kXHlU3Ok&usqp=CAU"
     },
     {
         ID:"metallurgical",
@@ -5666,7 +5679,7 @@ export const CourseData=[
         code:"MSE 251",
         year: 2,
         semester:1,
-        img: ""
+        img: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQEVu_MzsLE0wbWybdAD6Z090ZjnqQwISkKDQ&usqp=CAU"
     },
     {
         ID:"metallurgical",
@@ -5675,7 +5688,7 @@ export const CourseData=[
         code:"MSE 255",
         year: 2,
         semester:1,
-        img: ""
+        img: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRWpppYRsns1YzzzqlpaPw7lWtFMiCnL7VDsQ&usqp=CAU"
     },
     {
         ID:"metallurgical",
@@ -5684,7 +5697,7 @@ export const CourseData=[
         code:"MSE 253",
         year: 2,
         semester:1,
-        img: ""
+        img: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQ6X6KlnRsogdCMYwRl3MaZcokvslvWtgCLfA&usqp=CAU"
     },
     {
         ID:"metallurgical",
@@ -5693,7 +5706,7 @@ export const CourseData=[
         code:"MATH 251",
         year: 2,
         semester:1,
-        img: ""
+        img: "https://th.bing.com/th/id/R.fa6b1af16091e5b22772d5cb354395e8?rik=nco5mByW1xIQug&pid=ImgRaw&r=0"
     },
     {
         ID:"metallurgical",
@@ -5702,7 +5715,7 @@ export const CourseData=[
         code:"MSE 257",
         year: 2,
         semester:1,
-        img: ""
+        img: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSUwFaLBxbu7PJlBo7AltZMohH8M7iUU_pvcg&usqp=CAU"
     },
     {
         ID:"metallurgical",
@@ -5711,7 +5724,7 @@ export const CourseData=[
         code: "CENG 291",
         year: 2,
         semester:1,
-        img: ""
+        img: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRDP1mu4wCphZCAEV0oKa1C8kjz0wfyprHetIgyxOPBDGST6J_Pl1CaeB_tnvDTSNrFSlc&usqp=CAU"
     },
     {
         ID:"metallurgical",
@@ -5720,7 +5733,7 @@ export const CourseData=[
         code: "MATH 252",
         year: 2,
         semester:2,
-        img: ""
+        img: "https://th.bing.com/th/id/R.dda1ead370a9054f21fdab0e70ba74a3?rik=V%2f%2blo1CBnVXS9g&pid=ImgRaw&r=0"
     },
     {
         ID:"metallurgical",
@@ -5729,7 +5742,7 @@ export const CourseData=[
         code: "METE 252",
         year: 2,
         semester:2,
-        img: ""
+        img: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQguMh9KtTeJdNGXeAEwKbaqtc_HthSOdCaZaOchAUnh-AOzN-08U8z0r02HUOstL3MJLs&usqp=CAU"
     },
     {
         ID:"metallurgical",
@@ -5738,7 +5751,7 @@ export const CourseData=[
         code: "METE 254",
         year: 2,
         semester:2,
-        img: ""
+        img: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQNAABhVQqq1mI_rmcR1LE7mdVcKw5PjY9_Ww&usqp=CAU"
     },
     {
         ID:"metallurgical",
@@ -5747,7 +5760,7 @@ export const CourseData=[
         code: "METE 256",
         year: 2,
         semester:2,
-        img: ""
+        img: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQayU-HGxymGdUGrNN6qos87RQvAb-U1QQmvw&usqp=CAU"
     },
     {
         ID:"metallurgical",
@@ -5756,7 +5769,7 @@ export const CourseData=[
         code:"METE 258",
         year: 2,
         semester:2,
-        img: ""
+        img: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSm-wWodmd6sKqu9pj87Ft2T9QBU1IJOJ1SGg&usqp=CAU"
     },
     {
         ID:"metallurgical",
@@ -5765,7 +5778,7 @@ export const CourseData=[
         code:"MSE 252",
         year: 2,
         semester:2,
-        img: ""
+        img: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSRCEx4XWNVaVITJ4SjEHzlsqV2cf84h2SbvA&usqp=CAU"
     },
     {
         ID:"metallurgical",
@@ -5774,7 +5787,7 @@ export const CourseData=[
         code:"MSE 260",
         year: 2,
         semester:2,
-        img: ""
+        img: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTaz6n2ty5wQRA-lG_pYDRrjmZ58az7_AY0Kg&usqp=CAU"
     },
     {
         ID:"metallurgical",
@@ -5783,7 +5796,7 @@ export const CourseData=[
         code:"MATH 353",
         year: 3,
         semester:1,
-        img: ""
+        img: "https://th.bing.com/th/id/R.0f3b7d7bab832f0103922590cfc0fec6?rik=q4TzYI%2fbBd5ofA&pid=ImgRaw&r=0&sres=1&sresct=1"
     },
     {
         ID:"metallurgical",
@@ -5792,7 +5805,7 @@ export const CourseData=[
         code:"MSE 353",
         year: 3,
         semester:1,
-        img: ""
+        img: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQLDbRSuxR0WsJhJQVaO7g6JUyTRqwqRMxvow&usqp=CAU"
     },
     {
         ID:"metallurgical",
@@ -5801,7 +5814,7 @@ export const CourseData=[
         code:"MSE 363",
         year: 3,
         semester:1,
-        img: ""
+        img: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcS5_EuIYhOc1I-oXM5FRJUVHKr-_G7yWhqnag&usqp=CAU"
     },
     {
         ID:"metallurgical",
@@ -5810,7 +5823,7 @@ export const CourseData=[
         code:"METE 355",
         year: 3,
         semester:1,
-        img: ""
+        img: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQi4O86d2cGsfSYbrDUVWR-XZpGJYaoVpjm3g&usqp=CAU"
     },
     {
         ID:"metallurgical",
@@ -5819,7 +5832,7 @@ export const CourseData=[
         code:"MSE 357",
         year: 3,
         semester:1,
-        img: ""
+        img: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQzn7PawQKhhmSMqo2WUzTDWloAWHUr-9lrrQ&usqp=CAU"
     },
     {
         ID:"metallurgical",
@@ -5828,7 +5841,7 @@ export const CourseData=[
         code:"METE 353",
         year: 3,
         semester:1,
-        img: ""
+        img: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSHxrsychPI-HcMczSUtQSuWxgI4nvwvZ4f1w&usqp=CAU"
     }, 
     {
         ID:"metallurgical",
@@ -5837,7 +5850,7 @@ export const CourseData=[
         code:"ECON 151",
         year: 3,
         semester:1,
-        img: ""
+        img: "https://th.bing.com/th/id/R.5a89274213e8ff44b37d3612a093c29c?rik=3NIlTt82en8aEw&riu=http%3a%2f%2fstreetfins.com%2fwp-content%2fuploads%2f2019%2f06%2f2061_Deb-Word_Art2.rev_.1515788405.jpg&ehk=JcPKQh%2brcYm0evI1BVB28%2feA1yyM0SMeC3ow08poBy8%3d&risl=&pid=ImgRaw&r=0"
     },
     {
         ID:"metallurgical",
@@ -5846,7 +5859,7 @@ export const CourseData=[
         code:"METE 351",
         year: 3,
         semester:1,
-        img: ""
+        img: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSOuQCyFtJ1z4BzRSssBIZPh5R4A1o9dlqoRw&usqp=CAU"
     },
     {
         ID:"metallurgical",
@@ -5855,7 +5868,7 @@ export const CourseData=[
         code:"CSM 157",
         year: 3,
         semester:1,
-        img: ""
+        img: "https://th.bing.com/th/id/R.99d213bd58125e0c71ba803a8b97d38f?rik=%2brQEZjHpm0pNIg&pid=ImgRaw&r=0"
     },
     {
         ID:"metallurgical",
@@ -5864,7 +5877,7 @@ export const CourseData=[
         code:"FREN 181",
         year: 3,
         semester:1,
-        img: ""
+        img: "https://th.bing.com/th/id/OIP.QM0id-SaTNby-pWDtwYDHgHaE7?pid=ImgDet&rs=1"
     },
     {   
         ID:"metallurgical",
@@ -5873,7 +5886,7 @@ export const CourseData=[
         code:"METE 356",
         year: 3,
         semester:2,
-        img: ""
+        img: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSyfk0h0VFIXwsmlCahJRquxv-XGhS0lorgcg&usqp=CAU"
     },
     {
         ID:"metallurgical",
@@ -5882,7 +5895,7 @@ export const CourseData=[
         code:"MSE 362",
         year: 3,
         semester:2,
-        img: ""
+        img: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcScdYiLmq9FX0AAG0OxrXoRKxmVnBox_z672w&usqp=CAU"
     },
     {
         ID:"metallurgical",
@@ -5891,7 +5904,7 @@ export const CourseData=[
         code:"METE 362",
         year: 3,
         semester:2,
-        img: ""
+        img: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRUHTqI3MuPh0_ezQiTBypRm9Rk_xdjdYsEeA&usqp=CAU"
     },
     {
         ID:"metallurgical",
@@ -5900,7 +5913,7 @@ export const CourseData=[
         code:"METE 354",
         year: 3,
         semester:2,
-        img: ""
+        img: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRU0lcaa5H7R6Znq2MAdWXpFPEVXGwJuUQHPg&usqp=CAU"
     },
     {
         ID:"metallurgical",
@@ -5909,7 +5922,7 @@ export const CourseData=[
         code:"METE 358",
         year: 3,
         semester:2,
-        img: ""
+        img: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRiMfssymHph-8lNfipG5A_aKbl_KrRKP-9Iw&usqp=CAU"
     },
     {
         ID:"metallurgical",
@@ -5918,7 +5931,7 @@ export const CourseData=[
         code:"MSE 358",
         year: 3,
         semester:2,
-        img: ""
+        img: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQj_LEx7n8z7_9CHkvDXLo3be93eJ3HGbVYhg&usqp=CAU"
     },
     {
         ID:"metallurgical",
@@ -5927,97 +5940,124 @@ export const CourseData=[
         code:"METE 352",
         year: 3,
         semester:2,
-        img: ""
+        img: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSPyRxu5VQ6vl1t6nYrT4nMGg1Hy4G6IUu6Qg&usqp=CAU"
     },
     {
         ID:"metallurgical",
-        id:"compositematerials",
-        name:"Composite Materials",
-        code:"",
+        id:"engineeringeconomyandmanagement",
+        name:"Engineering Economy and Management",
+        code:"ME 491",
         year: 4,
         semester:1,
-        img: ""
+        img: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcS3XpPDcn-PuJijHRZ-PRZsVWB0xr0zFuyJ-g&usqp=CAU"
     },
     {
         ID:"metallurgical",
         id:"vacationtraining",
         name:"Vacation Training",
-        code:"",
+        code:"METE 455",
         year: 4,
         semester:1,
-        img: ""
+        img: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQwcWcfwUSe9zgGo2470c3QKzDUnUu9PVR1ZA&usqp=CAU"
     },
     {
         ID:"metallurgical",
         id:"metalworkingprocesses",
-        name:"Metal Working Processes",
-        code:"",
+        name:"Metalworking Processes",
+        code:"MSE 457",
         year: 4,
         semester:1,
-        img: ""
+        img: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcT3eCp5NvZXaF--mVRh_viN2R_y4KKq9ywXBg&usqp=CAU"
     },
     {
         ID:"metallurgical",
-        id:"project1",
-        name:"Project 1",
-        code:"",
+        id:"projectI",
+        name:"Project I",
+        code:"METE 497",
         year: 4,
         semester:1,
-        img: ""
+        img: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQRZbXnocF3DlTGKHDEEB3-AQisdiOPzC5lug&usqp=CAU"
     },
     {
         ID:"metallurgical",
-        id:"corrosionofengineeringmaterials",
-        name:"Corrosion of Engineering Materials",
-        code:"",
+        id:"corrosionandcorrosioncontrol",
+        name:"Corrosion and Corrosion Control",
+        code:"METE 457",
         year: 4,
         semester:1,
-        img: ""
+        img: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRFMiVgCb86KbMON6RuEoTBOf-G4HIH1WUzCg&usqp=CAU"
+    },
+    {
+    ID:"metallurgical",
+        id:"metallurgicalplantdesign/operations",
+        name:"Metallurgical Plant and Design/Operations",
+        code:"METE 451",
+        year: 4,
+        semester:1,
+        img: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRIfM2icnq7BSSWCyvIFbNJjtRtqdLSta8nsg&usqp=CAU"
+    },
+    {
+        ID:"metallurgical",
+        id:"hydrometallurgyoflightmetals",
+        name:"Hydrometallurgy of Light Metals",
+        code:"METE 453",
+        year: 4,
+        semester:1,
+        img: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQOt_vE-pAg3siPvP_LEhqAABvE4qWI06YeMg&usqp=CAU"
     },
     {
         ID:"metallurgical",
         id:"processcontrolandsimulation",
         name:"Process Control and Simulation",
-        code:"",
+        code:"CHE 452",
         year: 4,
         semester:2,
-        img: ""
+        img: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTctPfL2Q0SwBsPcp5CjSXaX8tGAnIDsdX4kg&usqp=CAU"
     },
     {
         ID:"metallurgical",
         id:"managementandenterpreneurship",
         name:"Management and Enterpreneurship",
-        code:"",
+        code:"ME 492",
         year: 4,
         semester:2,
-        img: ""
+        img: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQyeJJMacXugJgedsJW6U2c0Zc-Y-acAaYPeg&usqp=CAU"
+    },
+    {
+        ID:"metallurgical",
+        id:"projectII",
+        name:"Project II",
+        code:"METE 498",
+        year: 4,
+        semester:2,
+        img: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQlE0855Jf79x4If3ETJVS7rkXM8JH8SXUfYQ&usqp=CAU"
     },
     {
         ID:"metallurgical",
         id:"wastemanagement",
         name:"Waste Management",
-        code:"",
+        code:"MSE 452",
         year: 4,
         semester:2,
-        img: ""
-    },
-    {
-        ID:"metallurgical",
-        id:"surfacetreatmentofmaterials",
-        name:"Surface Treatment of Materials",
-        code:"",
-        year: 4,
-        semester:2,
-        img: ""
+        img: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSHwoyg3FmSMgwxWQUGOMjWYW6oKafvz-NdMA&usqp=CAU"
     },
     {
         ID:"metallurgical",
         id:"materialqualitycontrol",
         name:"Material Quality Control",
-        code:"",
+        code:"MSE 456",
         year: 4,
         semester:2,
-        img: ""
+        img: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcS-Xyo-7hxZrRag6iKnlwREy48a4ebY3X7L7g&usqp=CAU"
+    },
+    {
+        ID:"metallurgical",
+        id:"electrometallurgy",
+        name:"Electrometallurgy",
+        code:"METE 452",
+        year: 4,
+        semester:2,
+        img: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQxLFLF9JKig1PnVwD03E0VdXSExGHn5023gQ&usqp=CAU"
     },
     {
         ID:"civil",
@@ -6026,7 +6066,7 @@ export const CourseData=[
         code:"MATH 151",
         year: 1,
         semester:1,
-        img: ""
+        img: "https://img.freepik.com/free-vector/geometry-education-blue-background-vector-frame-disruptive-education-digital-remix_53876-114094.jpg?w=740&t=st=1661837216~exp=1661837816~hmac=5b40056780bebdeeb8bb5259612262507c80ddd5467b97f2ff299f6a2309d897"
     }, 
     {
         ID:"civil",
@@ -6035,7 +6075,7 @@ export const CourseData=[
         code:"CE 151",
         year:1,
         semester:1,
-        img: ""
+        img: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRym8zbckMepiEP2rUEvlesPxj-quuxn5zEmA&usqp=CAU"
     }, 
     {
         ID:"civil",
@@ -6044,7 +6084,7 @@ export const CourseData=[
         code:"ENGL 157",
         year: 1,
         semester:1,
-        img: ""
+        img: "https://th.bing.com/th/id/OIP.XpVGmqQBBp4g2tRqWXIAMwHaHa?pid=ImgDet&rs=1"
     }, 
     {
         ID:"civil",
@@ -6053,7 +6093,7 @@ export const CourseData=[
         code:"ME 161",
         year: 1,
         semester:1,
-        img: ""
+        img: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcT4_CjVo9CL6dxBsVWeKaKVkBDzuZ0JXyi_AA&usqp=CAU"
     }, 
     {
         ID:"civil",
@@ -6062,7 +6102,7 @@ export const CourseData=[
         code:"ME 159",
         year: 1,
         semester:1,
-        img: ""
+        img: "https://th.bing.com/th/id/R.7dbcb2d23d5fd682c081bd7a78f9f567?rik=7tn37NS2GFBEzw&pid=ImgRaw&r=0"
     },  
     {
         ID:"civil",
@@ -6071,7 +6111,7 @@ export const CourseData=[
         code:"CE 153",
         year: 1,
         semester:1,
-        img: ""
+        img: "https://th.bing.com/th/id/R.35f5f2bc964e7ec58c95738b1f7d0666?rik=w3LWTPMvTbukyQ&pid=ImgRaw&r=0"
     },
     {
         ID:"civil",
@@ -6080,7 +6120,7 @@ export const CourseData=[
         code:"FREN 181",
         year: 1,
         semester:1,
-        img: ""
+        img: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTsBgdRRSJOPTGG7dJWr2ZhEww_4xb3Hx_0ENvPtlpHXtUbSiC27FrMFIkDJTEbOY3WXJ4&usqp=CAU"
     },
     {
         ID:"civil",
@@ -6089,7 +6129,7 @@ export const CourseData=[
         code:"ECON 151",
         year: 1,
         semester:1,
-        img: ""
+        img: "https://th.bing.com/th/id/R.5a89274213e8ff44b37d3612a093c29c?rik=3NIlTt82en8aEw&riu=http%3a%2f%2fstreetfins.com%2fwp-content%2fuploads%2f2019%2f06%2f2061_Deb-Word_Art2.rev_.1515788405.jpg&ehk=JcPKQh%2brcYm0evI1BVB28%2feA1yyM0SMeC3ow08poBy8%3d&risl=&pid=ImgRaw&r=0"
     },
     {
         ID:"civil",
@@ -6098,7 +6138,7 @@ export const CourseData=[
         code:"",
         year: 1,
         semester:1,
-        img: ""
+        img: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQ623bVMG1Q2bkkwFzdNgEuNckSG2KrrGf_zw&usqp=CAU"
     },
     {
         ID:"civil",
@@ -6107,7 +6147,7 @@ export const CourseData=[
         code:"ETIC 161",
         year: 1,
         semester:1,
-        img: ""
+        img: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcS2QKeNRs9Xn2EZQBq6ckHtTDPj56j5kVob0w&usqp=CAU"
     },
     {
         ID:"civil",
@@ -6116,7 +6156,7 @@ export const CourseData=[
         code:"CE 157",
         year: 1,
         semester:1,
-        img: ""
+        img: "https://th.bing.com/th/id/R.623b27f7b44be14dbe002ea3e596068a?rik=0mXZiTDuQZlWwg&pid=ImgRaw&r=0"
     },
     {
         ID:"civil",
@@ -6125,7 +6165,7 @@ export const CourseData=[
         code:"CE 154",
         year: 1,
         semester:2,
-        img: ""
+        img: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTwJxZvNX6vm-B7wQsJ6rCHqltPuXerqMjvyQ&usqp=CAU"
     },{
         ID:"civil",
         id:"communicationskillsII",
@@ -6133,7 +6173,7 @@ export const CourseData=[
         code:"ENGL 158",
         year: 1,
         semester:2,
-        img: ""
+        img: "https://th.bing.com/th/id/OIP.XpVGmqQBBp4g2tRqWXIAMwHaHa?pid=ImgDet&rs=1"
     },
     {
         ID:"civil",
@@ -6142,7 +6182,7 @@ export const CourseData=[
         code:"CE 156",
         year: 1,
         semester:2,
-        img: ""
+        img: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTlhHlUmmI_25fMbT-ZYXwt2XPj52CU5Iv5BA&usqp=CAU"
     },
     {
         ID:"civil",
@@ -6151,7 +6191,7 @@ export const CourseData=[
         code:"MATH 152",
         year: 1,
         semester:2,
-        img: ""
+        img: "https://th.bing.com/th/id/R.dda1ead370a9054f21fdab0e70ba74a3?rik=V%2f%2blo1CBnVXS9g&pid=ImgRaw&r=0"
     },
     {
         ID:"civil",
@@ -6160,7 +6200,7 @@ export const CourseData=[
         code:"ECON 151",
         year: 1,
         semester:2,
-        img: ""
+        img: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSTNVdhkBNvlC9RklxfbDEnWj5EnzpFJGLGlw&usqp=CAU"
     },
     {
         ID:"civil",
@@ -6169,7 +6209,7 @@ export const CourseData=[
         code:"FREN 182",
         year: 1,
         semester:2,
-        img: ""
+        img: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTsBgdRRSJOPTGG7dJWr2ZhEww_4xb3Hx_0ENvPtlpHXtUbSiC27FrMFIkDJTEbOY3WXJ4&usqp=CAU"
     },
     {
         ID:"civil",
@@ -6178,7 +6218,7 @@ export const CourseData=[
         code:"",
         year: 1,
         semester:2,
-        img: ""
+        img: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRLWN5m97czFAYeC5LPSvszFTebiUotrtHIcg&usqp=CAU"
     },
     {
         ID:"civil",
@@ -6187,7 +6227,7 @@ export const CourseData=[
         code:"EE 152",
         year: 1,
         semester:2,
-        img: ""
+        img: "https://th.bing.com/th/id/R.805bb8c45b49705783459c144a31bf0c?rik=eEZmy5dafNt9ig&riu=http%3a%2f%2fwww.electronicsandyou.com%2fblog%2fwp-content%2fuploads%2f2018%2f12%2felectronics-1.jpg&ehk=74YeEcebTV60VrKcvDkoG7p96ko6XZibk0GTu2oY1hs%3d&risl=&pid=ImgRaw&r=0"
     },
     {
         ID:"civil",
@@ -6196,7 +6236,7 @@ export const CourseData=[
         code:"CE 164",
         year: 1,
         semester:2,
-        img: ""
+        img: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRHJHgwwMSYzez3-jl1ZYiMT_FfiYTEVX4NQg&usqp=CAU"
     },
     {
         ID:"civil",
@@ -6205,7 +6245,7 @@ export const CourseData=[
         code:"CE 251",
         year: 2,
         semester:1,
-        img: ""
+        img: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcS-T5I_69D7TpuNsomIqlXrB_pESV_P7X77ug&usqp=CAU"
     },
     {
         ID:"civil",
@@ -6214,7 +6254,7 @@ export const CourseData=[
         code:"CE 255",
         year: 2,
         semester:1,
-        img: ""
+        img: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcR0PtJ9vIzEgvAy82Qd1Hr6xPiBgpAN_WnOCg&usqp=CAU"
     },
     {
         ID:"civil",
@@ -6223,7 +6263,7 @@ export const CourseData=[
         code:"CE 257",
         year: 2,
         semester:1,
-        img: ""
+        img: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQ_FY6SRsC6SZmKT3i2DOlSLMcqKu8q4IL_vg&usqp=CAU"
     },
     {
         ID:"civil",
@@ -6232,7 +6272,7 @@ export const CourseData=[
         code:"CE 259",
         year: 2,
         semester:1,
-        img: ""
+        img: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQtRdZLvm4Iv01DnNJvMbeJ8RhNdGasofqPIw&usqp=CAU"
     },
     {
         ID:"civil",
@@ -6241,7 +6281,7 @@ export const CourseData=[
         code:"CE 261",
         year: 2,
         semester:1,
-        img: ""
+        img: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRTogdc_6H8iZIERP34e78dWbT1h6pf2x0Mfg&usqp=CAU"
     },
     {
         ID:"civil",
@@ -6250,7 +6290,7 @@ export const CourseData=[
         code:"MATH 251",
         year: 2,
         semester:1,
-        img: ""
+        img: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQmqkB3dWgSYQ_RVsmdrLv7CSay0OD7h7ghIg&usqp=CAU"
     },
     {
         ID:"civil",
@@ -6259,7 +6299,7 @@ export const CourseData=[
         code:"CE 263",
         year: 2,
         semester:1,
-        img: ""
+        img: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcS3jBWEzI0oQonT8z6Z1NvB0FZnrG5dJrv-Mg&usqp=CAU"
     },
     {
         ID:"civil",
@@ -6268,16 +6308,16 @@ export const CourseData=[
         code: "CENG 291",
         year: 2,
         semester:1,
-        img: ""
+        img: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRDP1mu4wCphZCAEV0oKa1C8kjz0wfyprHetIgyxOPBDGST6J_Pl1CaeB_tnvDTSNrFSlc&usqp=CAU"
     },
     {
         ID:"civil",
-        id:"literatureinenglish",
-        name:"Literature in English",
+        id:"literatureinenglishI",
+        name:"Literature in English I",
         code:"ENGL 263",
         year: 2,
         semester:1,
-        img: ""
+        img: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQp28NRCfVFfhlxMf9ReoClOqrbFClO0BpOjQ&usqp=CAU"
     },
     {
         ID:"civil",
@@ -6286,7 +6326,7 @@ export const CourseData=[
         code: "CE 256",
         year: 2,
         semester:2,
-        img: ""
+        img: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSbyQyoNIGzxVhTeNWqMUFkZSr9kQ-MqN6FYA&usqp=CAU"
     },
     {
         ID:"civil",
@@ -6295,7 +6335,7 @@ export const CourseData=[
         code: "CE 260",
         year: 2,
         semester:2,
-        img: ""
+        img: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTDtJrvLP4IR-jdBVfT8qw9ySuIawj_kUgWnA&usqp=CAU"
     },
     {
         ID:"civil",
@@ -6304,7 +6344,7 @@ export const CourseData=[
         code: "CE 264",
         year: 2,
         semester:2,
-        img: ""
+        img: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQzmbWfB5ICof8mwScWil_YrmU2D5QxR7jBrA&usqp=CAU"
     },
     {
         ID:"civil",
@@ -6313,16 +6353,16 @@ export const CourseData=[
         code: "GE 282",
         year: 2,
         semester:2,
-        img: ""
+        img: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTUblvgGswUa4ETvONQOnIrm_AOSQNF1_CxwQ&usqp=CAU"
     },
     {
         ID:"civil",
-        id:"literatureinenglish",
-        name:"Literature in English",
+        id:"literatureinenglishII",
+        name:"Literature in English II",
         code:"ENGL 264",
         year: 2,
         semester:2,
-        img: ""
+        img: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQCVh-lLAtDYCzvQyJ_DE-XbTxYP2I1VHhq0w&usqp=CAU"
     },
     {
         ID:"civil",
@@ -6331,7 +6371,7 @@ export const CourseData=[
         code:"MATH 252",
         year: 2,
         semester:2,
-        img: ""
+        img: "https://th.bing.com/th/id/R.dda1ead370a9054f21fdab0e70ba74a3?rik=V%2f%2blo1CBnVXS9g&pid=ImgRaw&r=0"
     },
     {
         ID:"civil",
@@ -6340,7 +6380,7 @@ export const CourseData=[
         code:"MATH 353",
         year: 3,
         semester:1,
-        img: ""
+        img: "https://th.bing.com/th/id/R.0f3b7d7bab832f0103922590cfc0fec6?rik=q4TzYI%2fbBd5ofA&pid=ImgRaw&r=0&sres=1&sresct=1"
     },
     {
         ID:"civil",
@@ -6349,7 +6389,7 @@ export const CourseData=[
         code:"CE 351",
         year: 3,
         semester:1,
-        img: ""
+        img: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTCjGjPCISi_mdpC0HIxJkYB7t4zJgCoAFzsA&usqp=CAU"
     },
     {
         ID:"civil",
@@ -6358,7 +6398,7 @@ export const CourseData=[
         code:"CE 353",
         year: 3,
         semester:1,
-        img: ""
+        img: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSKTrVaoI0a_0ljL8zdh-wSjThyaMbFRX_yDg&usqp=CAU"
     },
     {
         ID:"civil",
@@ -6367,7 +6407,7 @@ export const CourseData=[
         code:"CE 355",
         year: 3,
         semester:1,
-        img: ""
+        img: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRCgcSs1lzbQGTOpAYbJeQL8SzqI5fBNmyl7Q&usqp=CAU"
     },
     {
         ID:"civil",
@@ -6376,7 +6416,7 @@ export const CourseData=[
         code:"CE 359",
         year: 3,
         semester:1,
-        img: ""
+        img: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQkNKJcUvEaROM0PLgMZykUJIWfSYc3W2YOfw&usqp=CAU"
     },
     {
         ID:"civil",
@@ -6385,7 +6425,7 @@ export const CourseData=[
         code:"CE 367",
         year: 3,
         semester:1,
-        img: ""
+        img: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSXFs2ZVfftLltRQrCxKnldUoIPrUZt9pFubA&usqp=CAU"
     },
     {
         ID:"civil",
@@ -6394,7 +6434,7 @@ export const CourseData=[
         code:"GE 381",
         year: 3,
         semester:1,
-        img: ""
+        img: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcR0LpN7gieCCJj-_1QCdDigWaadc-nhCGCEzQ&usqp=CAU"
     }, 
     {
         ID:"civil",
@@ -6403,7 +6443,7 @@ export const CourseData=[
         code:"MATH 353",
         year: 3,
         semester:1,
-        img: ""
+        img: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSNhd4h2Dzw_XLJECyvdnfRhuQe5nx9UUZXmg&usqp=CAU"
     },
     {   
         ID:"civil",
@@ -6412,7 +6452,7 @@ export const CourseData=[
         code:"CE 360",
         year: 3,
         semester:2,
-        img: ""
+        img: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTvBd0mfje3bMcrcHKckwqw4l3Rtc17XAJMag&usqp=CAU"
     },
     {
         ID:"civil",
@@ -6421,7 +6461,7 @@ export const CourseData=[
         code:"CE 356",
         year: 3,
         semester:2,
-        img: ""
+        img: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRH3VkUQXIYfre_g3cxCjwT8oWMnjP5KkcveA&usqp=CAU"
     },
     {
         ID:"civil",
@@ -6430,7 +6470,7 @@ export const CourseData=[
         code:"CE 376",
         year: 3,
         semester:2,
-        img: ""
+        img: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSGLABtLqyJDlOcbqm1btSzL3xasXidTu9kPg&usqp=CAU"
     },
     {
         ID:"civil",
@@ -6439,16 +6479,16 @@ export const CourseData=[
         code:"CE 378",
         year: 3,
         semester:2,
-        img: ""
+        img: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRIeizRP40JostzW7NsIejTttQMLQkNXxL5_Q&usqp=CAU"
     },
     {
         ID:"civil",
-        id:"highwayengineering",
-        name:"Highway Engineering",
+        id:"highwayengineeringI",
+        name:"Highway Engineering I",
         code:"CE 368",
         year: 3,
         semester:2,
-        img: ""
+        img: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQXu_gd_6YzxFniBy8ewQs3i6XBweRVNJt-YA&usqp=CAU"
     },
     {
         ID:"metallurgical",
@@ -6457,7 +6497,7 @@ export const CourseData=[
         code:"MSE 358",
         year: 3,
         semester:2,
-        img: ""
+        img: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcR2lOSeDrFgA6WUnsoTNl4OvVg7gVwKfBBSiA&usqp=CAU"
     },
     {
         ID:"civil",
@@ -6466,7 +6506,7 @@ export const CourseData=[
         code:"CE 352",
         year: 3,
         semester:2,
-        img: ""
+        img: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSJAQKEHFdhASOcPiSRDHaccJJ2LCwPYgAVsA&usqp=CAU"
     },
     {
         ID:"civil",
@@ -6475,7 +6515,7 @@ export const CourseData=[
         code:"CE 364",
         year: 3,
         semester:2,
-        img: ""
+        img: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcS-hY1FGIqH56OeYGlSALbPOPtbagC3s6br1Q&usqp=CAU"
     },
     {
         ID:"civil",
@@ -6484,7 +6524,7 @@ export const CourseData=[
         code:"CE 457",
         year: 4,
         semester:1,
-        img: ""
+        img: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTlkPfS8s8VT0BnVZIg_L6CWqnngeHVfEJgYw&usqp=CAU"
     },
     {
         ID:"civil",
@@ -6493,25 +6533,25 @@ export const CourseData=[
         code:"CE 461",
         year: 4,
         semester:1,
-        img: ""
+        img: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRqydKyH5ZiAbrBRmnIu0UlDCcWipBd2SEr8Q&usqp=CAU"
     },
     {
         ID:"civil",
-        id:"highwayengineering",
-        name:"Highway Engineering",
+        id:"highwayengineeringII",
+        name:"Highway Engineering II",
         code:"CE 467",
         year: 4,
         semester:1,
-        img: ""
+        img: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTyJRcKb4jGuHDcBfSNI1iXe7ii8F0FTs3_nQ&usqp=CAU"
     },
     {
         ID:"civil",
         id:"irrigationanddrainageengineering",
-        name:"Irrigation an Drainage Engineering",
+        name:"Irrigation and Drainage Engineering",
         code:"CE 471",
         year: 4,
         semester:1,
-        img: ""
+        img: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcR27zSJ-6ZhG5KTqbF61phzLGYudISf7MrfFw&usqp=CAU"
     },
     {
         ID:"civil",
@@ -6520,7 +6560,7 @@ export const CourseData=[
         code:"CE 475",
         year: 4,
         semester:1,
-        img: ""
+        img: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcS_J8ry37DoyRtsNf7-rpgCQLfrzueuHW3psA&usqp=CAU"
     },
     {
         ID:"civil",
@@ -6529,7 +6569,7 @@ export const CourseData=[
         code:"CE 481",
         year: 4,
         semester:1,
-        img: ""
+        img: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRbaJNJZ-AGcv44E5WMs7X23pRzrsEl71WNUA&usqp=CAU"
     },
     {
         ID:"civil",
@@ -6538,7 +6578,7 @@ export const CourseData=[
         code:"CE 497",
         year: 4,
         semester:1,
-        img: ""
+        img: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRaYZiUjL6stdBOEki2LJFlYbAabK5HWnjpSg&usqp=CAU"
     },
     {
         ID:"civil",
@@ -6547,7 +6587,7 @@ export const CourseData=[
         code:"CE 458",
         year: 4,
         semester:2,
-        img: ""
+        img: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQNC_GeTGMVwsAw2d8VK8TmyalIfW39Gw54ww&usqp=CAU"
     },
     {
         ID:"civil",
@@ -6556,7 +6596,7 @@ export const CourseData=[
         code:"CE 468",
         year: 4,
         semester:2,
-        img: ""
+        img: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQ8ws-Te6vR1d-wXH8AWy3mL7gXMVFe9G0yzQ&usqp=CAU"
     },
     {
         ID:"civil",
@@ -6565,7 +6605,7 @@ export const CourseData=[
         code:"CE 464",
         year: 4,
         semester:2,
-        img: ""
+        img: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSBjbrnvQCfIPE2q0jUrBAnvqOwZMFT4nt4mw&usqp=CAU"
     },
     {
         ID:"civil",
@@ -6574,7 +6614,7 @@ export const CourseData=[
         code:"CE 498",
         year: 4,
         semester:2,
-        img: ""
+        img: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQRZbXnocF3DlTGKHDEEB3-AQisdiOPzC5lug&usqp=CAU"
     },
     {
         ID:"civil",
@@ -6583,7 +6623,7 @@ export const CourseData=[
         code:"CE 462",
         year: 4,
         semester:2,
-        img: ""
+        img: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRCmLIkO2qB9unK-o7Izy6871klndjZKB_p2g&usqp=CAU"
     },
     {
         ID:"mechanical",
@@ -6592,7 +6632,7 @@ export const CourseData=[
         code:"MATH 151",
         year: 1,
         semester:1,
-        img: ""
+        img: `https://img.freepik.com/free-vector/geometry-education-blue-background-vector-frame-disruptive-education-digital-remix_53876-114094.jpg?w=740&t=st=1661837216~exp=1661837816~hmac=5b40056780bebdeeb8bb5259612262507c80ddd5467b97f2ff299f6a2309d897`
     }, 
     {
         ID:"mechanical",
@@ -6601,7 +6641,7 @@ export const CourseData=[
         code:"EE 151",
         year:1,
         semester:1,
-        img: ""
+        img: "https://img.freepik.com/premium-photo/applying-thermal-paste-computer-s-central-processing-unit-computer-repair_131301-2395.jpg?w=740"
     }, 
     {
         ID:"mechanical",
@@ -6610,16 +6650,16 @@ export const CourseData=[
         code:"ENGL 157",
         year: 1,
         semester:1,
-        img: ""
+        img: "https://th.bing.com/th/id/OIP.XpVGmqQBBp4g2tRqWXIAMwHaHa?pid=ImgDet&rs=1"
     }, 
    
-     {
+     {   ID:"mechanical",
          id:"informationtechnology",
          name:"Introduction to Information Technology",
          code:"ME 157",
          year: 1,
          semester:1,
-         img: ""
+         img: "https://th.bing.com/th/id/R.623b27f7b44be14dbe002ea3e596068a?rik=0mXZiTDuQZlWwg&pid=ImgRaw&r=0"
      },
     {
         ID:"mechanical",
@@ -6628,7 +6668,7 @@ export const CourseData=[
         code:"ME 159",
         year: 1,
         semester:1,
-        img: ""
+        img: "https://th.bing.com/th/id/R.7dbcb2d23d5fd682c081bd7a78f9f567?rik=7tn37NS2GFBEzw&pid=ImgRaw&r=0"
     },
     {
         ID:"mechanical",
@@ -6637,7 +6677,7 @@ export const CourseData=[
         code:"CE 155",
         year: 1,
         semester:1,
-        img: ""
+        img: "https://epi-rsc.rsc-cdn.org/globalassets/05-journals-books-databases/our-journals/environmental-science-advances/esa-hero_1920x1080.jpg?version=9160e883"
     },
     {
         ID:"mechanical",
@@ -6646,7 +6686,7 @@ export const CourseData=[
         code:"ME 195",
         year: 1,
         semester:1,
-        img: ""
+        img:"https://th.bing.com/th/id/R.35f5f2bc964e7ec58c95738b1f7d0666?rik=w3LWTPMvTbukyQ&pid=ImgRaw&r=0"
     },
    {
         ID:"mechanical",
@@ -6655,15 +6695,16 @@ export const CourseData=[
         code:"ENGL 158",
         year: 1,
         semester:2,
-        img: ""
+        img: "https://th.bing.com/th/id/OIP.XpVGmqQBBp4g2tRqWXIAMwHaHa?pid=ImgDet&rs=1"
     },
-    {
+    {  
+        ID:"mechanical",
         id:"programmingforengineers",
         name:"Computer Programming for Engineers",
         code:"ME 158",
         year: 1,
         semester:2,
-        img: ""
+        img:"https://th.bing.com/th/id/OIP.npcRsnvdmWF4ywyXTUQN8gHaEK?pid=ImgDet&rs=1"
     },
 
     {
@@ -6673,7 +6714,7 @@ export const CourseData=[
         code:"ME 164",
         year: 1,
         semester:2,
-        img: ""
+        img:"https://th.bing.com/th/id/R.ec8cfda386f65035c5c66ee303a1e184?rik=q5bRzh%2bTn%2fFz9g&riu=http%3a%2f%2fwww.engineer4free.com%2fuploads%2f1%2f0%2f2%2f9%2f10296972%2flearn-engineering-statics-for-free_orig.png&ehk=xC7fAZFNBkdcXKTPaUrrfawF6YRbNX%2b8sFtsT2UWqxo%3d&risl=&pid=ImgRaw&r=0"
     }, 
     {
         ID:"mechanical",
@@ -6682,7 +6723,7 @@ export const CourseData=[
         code:"EE 152",
         year: 1,
         semester:2,
-        img: ""
+        img:"https://th.bing.com/th/id/R.805bb8c45b49705783459c144a31bf0c?rik=eEZmy5dafNt9ig&riu=http%3a%2f%2fwww.electronicsandyou.com%2fblog%2fwp-content%2fuploads%2f2018%2f12%2felectronics-1.jpg&ehk=74YeEcebTV60VrKcvDkoG7p96ko6XZibk0GTu2oY1hs%3d&risl=&pid=ImgRaw&r=0"
     },
     {
         ID:"mechanical",
@@ -6691,7 +6732,7 @@ export const CourseData=[
         code:"ME 174",
         year: 1,
         semester:2,
-        img: ""
+        img:"https://th.bing.com/th/id/OIP.bqstBspB7xEJq3NIZ5ebGAEsCo?pid=ImgDet&rs=1"
     },
     {
         ID:"mechanical",
@@ -6700,7 +6741,7 @@ export const CourseData=[
         code:"ME 160",
         year: 1,
         semester:2,
-        img: ""
+        img: "https://th.bing.com/th/id/R.7dbcb2d23d5fd682c081bd7a78f9f567?rik=7tn37NS2GFBEzw&pid=ImgRaw&r=0"
     },
     {
         ID:"mechanical",
@@ -6709,7 +6750,7 @@ export const CourseData=[
         code:"MATH 152",
         year: 1,
         semester:2,
-        img: ""
+        img:"https://th.bing.com/th/id/R.dda1ead370a9054f21fdab0e70ba74a3?rik=V%2f%2blo1CBnVXS9g&pid=ImgRaw&r=0"
     },
    
     {
@@ -6719,7 +6760,7 @@ export const CourseData=[
         code:"CSM 157",
         year: 2,
         semester:1,
-        img: ""
+        img:"https://th.bing.com/th/id/R.99d213bd58125e0c71ba803a8b97d38f?rik=%2brQEZjHpm0pNIg&pid=ImgRaw&r=0"
     },
    
     {
@@ -6729,7 +6770,7 @@ export const CourseData=[
         code:"FREN 181",
         year: 2,
         semester:1,
-        img: ""
+        img:"https://th.bing.com/th/id/OIP.QM0id-SaTNby-pWDtwYDHgHaE7?pid=ImgDet&rs=1"
     },
     {
         ID:"mechanical",
@@ -6738,7 +6779,7 @@ export const CourseData=[
         code:"ECON 151",
         year: 2,
         semester:1,
-        img: ""
+        img:"https://th.bing.com/th/id/R.5a89274213e8ff44b37d3612a093c29c?rik=3NIlTt82en8aEw&riu=http%3a%2f%2fstreetfins.com%2fwp-content%2fuploads%2f2019%2f06%2f2061_Deb-Word_Art2.rev_.1515788405.jpg&ehk=JcPKQh%2brcYm0evI1BVB28%2feA1yyM0SMeC3ow08poBy8%3d&risl=&pid=ImgRaw&r=0"
     },
  
     {
@@ -6748,7 +6789,7 @@ export const CourseData=[
         code:"ENGL 263",
         year: 2,
         semester:1,
-        img: ""
+        img:"https://th.bing.com/th/id/R.c0474e2884a928682c7e3f17e600ab60?rik=SA2BuU8x0j%2fI%2fg&pid=ImgRaw&r=0"
     },
     {
         ID:"mechanical",
@@ -6757,7 +6798,7 @@ export const CourseData=[
         code:"ME 255",
         year: 2,
         semester:1,
-        img: ""
+        img:"https://th.bing.com/th/id/R.891adfc9499bdf7ddaf4016614e5aa64?rik=2qO6HWV5FMRMeA&riu=http%3a%2f%2fimg5a.flixcart.com%2fimage%2fbook%2f2%2f2%2f9%2fstrength-of-materials-original-imadms2fjpqknsbh.jpeg&ehk=Kgs0%2bNNzDgCFLsqRFWykbLMMNyOv4orVGwXQ%2b56CamA%3d&risl=&pid=ImgRaw&r=0"
     },
     {
         ID:"mechanical",
@@ -6766,7 +6807,7 @@ export const CourseData=[
         code:"PE 255",
         year: 2,
         semester:1,
-        img: ""
+        img:"https://th.bing.com/th/id/R.6543569462207abbee63ff3f6f6dff49?rik=rSLPLnwt3m0pNg&pid=ImgRaw&r=0"
     },
     {
         ID:"mechanical",
@@ -6775,7 +6816,7 @@ export const CourseData=[
         code:"MATH 251",
         year: 2,
         semester:1,
-        img: ""
+        img:"https://th.bing.com/th/id/R.fa6b1af16091e5b22772d5cb354395e8?rik=nco5mByW1xIQug&pid=ImgRaw&r=0"
     },
     {
         ID:"mechanical",
@@ -6784,7 +6825,7 @@ export const CourseData=[
         code:"ME 259",
         year: 2,
         semester:1,
-        img: ""
+        img:"https://th.bing.com/th/id/R.da06daab5d4724740e2ee9d9a955609c?rik=lzWmTfrlZB4OKw&pid=ImgRaw&r=0"
     },
     {
         ID:"mechanical",
@@ -6793,7 +6834,7 @@ export const CourseData=[
         code:"ME 295",
         year: 2,
         semester:1,
-        img: ""
+        img:"https://th.bing.com/th/id/R.13e8cbcbe944d5132870b784b4539594?rik=koK7Zc1Lodre4w&pid=ImgRaw&r=0"
     },
     {
         ID:"mechanical",
@@ -6802,7 +6843,7 @@ export const CourseData=[
         code:"ME 261",
         year: 2,
         semester:1,
-        img: ""
+        img:"https://th.bing.com/th/id/R.73796a31b53219c750699b2c443d4d09?rik=z0QwZfpBJMG%2fkw&pid=ImgRaw&r=0"
     },
     {
         ID:"mechanical",
@@ -6811,7 +6852,7 @@ export const CourseData=[
         code:"ME 265",
         year: 2,
         semester:2,
-        img: ""
+        img:"https://www.universetoday.com/wp-content/uploads/2010/10/First-Law-of-Thermodynamics-1280x720.png"
     },
     {
         ID:"mechanical",
@@ -6820,7 +6861,7 @@ export const CourseData=[
         code:"ME 262",
         year: 2,
         semester:2,
-        img: ""
+        img:"https://www.researchgate.net/profile/Nicola_Paoletti/publication/330304646/figure/fig1/AS:713725921222656@1547176928956/Overview-of-the-synthesis-approach.png"
     },
     {
         ID:"mechanical",
@@ -6829,7 +6870,7 @@ export const CourseData=[
         code:"ME 252",
         year: 2,
         semester:1,
-        img: ""
+        img:"https://th.bing.com/th/id/R.6543569462207abbee63ff3f6f6dff49?rik=rSLPLnwt3m0pNg&pid=ImgRaw&r=0"
     },
     {
         ID:"mechanical",
@@ -6838,7 +6879,7 @@ export const CourseData=[
         code:"MATH 252",
         year: 2,
         semester:2,
-        img: ""
+        img:"https://th.bing.com/th/id/R.dda1ead370a9054f21fdab0e70ba74a3?rik=V%2f%2blo1CBnVXS9g&pid=ImgRaw&r=0"
     },
     {
         ID:"mechanical",
@@ -6847,7 +6888,7 @@ export const CourseData=[
         code:"EE 252",
         year: 2,
         semester:2,
-        img: ""
+        img:"https://th.bing.com/th/id/R.cd7386a58f75bc869463407b9a06b1d3?rik=G%2bTzIizksVGffA&pid=ImgRaw&r=0"
     },
     {
         ID:"mechanical",
@@ -6856,7 +6897,7 @@ export const CourseData=[
         code:"ME 296",
         year: 2,
         semester:2,
-        img: ""
+        img:"https://th.bing.com/th/id/OIP.7b2iWGFGqXMr6VyJuLsPTwHaE8?w=280&h=187&c=7&r=0&o=5&dpr=1.1&pid=1.7"
     },
     {
         ID:"mechanical",
@@ -6864,7 +6905,7 @@ export const CourseData=[
         name:"Literature in English II",
         year: 2,
         semester:2,
-        img: ""
+        img:"https://th.bing.com/th/id/R.c0474e2884a928682c7e3f17e600ab60?rik=SA2BuU8x0j%2fI%2fg&pid=ImgRaw&r=0"
     },
     {
         ID:"mechanical",
@@ -6872,7 +6913,7 @@ export const CourseData=[
         name:"Accounting II",
         year: 2,
         semester:2,
-        img: ""
+        img:"https://th.bing.com/th/id/R.99d213bd58125e0c71ba803a8b97d38f?rik=%2brQEZjHpm0pNIg&pid=ImgRaw&r=0"
     },
     {
         ID:"mechanical",
@@ -6880,7 +6921,7 @@ export const CourseData=[
         name:"French for Communication II",
         year: 2,
         semester:2,
-        img: ""
+        img:"https://th.bing.com/th/id/OIP.QM0id-SaTNby-pWDtwYDHgHaE7?pid=ImgDet&rs=1"
     },
     {
         ID:"mechanical",
@@ -6888,7 +6929,7 @@ export const CourseData=[
         name:"Introductory Economics II",
         year: 2,
         semester:2,
-        img: ""
+        img:"https://th.bing.com/th/id/R.5a89274213e8ff44b37d3612a093c29c?rik=3NIlTt82en8aEw&riu=http%3a%2f%2fstreetfins.com%2fwp-content%2fuploads%2f2019%2f06%2f2061_Deb-Word_Art2.rev_.1515788405.jpg&ehk=JcPKQh%2brcYm0evI1BVB28%2feA1yyM0SMeC3ow08poBy8%3d&risl=&pid=ImgRaw&r=0"
     },
     {
         ID:"mechanical",
@@ -6897,7 +6938,7 @@ export const CourseData=[
         code:"ME 296",
         year: 2,
         semester:2,
-        img: ""
+        img:"https://th.bing.com/th/id/R.13e8cbcbe944d5132870b784b4539594?rik=koK7Zc1Lodre4w&pid=ImgRaw&r=0"
     },
     {
         ID:"mechanical",
@@ -6906,7 +6947,7 @@ export const CourseData=[
         code:"MATH 353",
         year: 3,
         semester:1,
-        img: ""
+        img:"https://th.bing.com/th/id/R.0f3b7d7bab832f0103922590cfc0fec6?rik=q4TzYI%2fbBd5ofA&pid=ImgRaw&r=0&sres=1&sresct=1"
     },
     {
         ID:"mechanical",
@@ -6915,7 +6956,7 @@ export const CourseData=[
         code:"ME 361",
         year: 3,
         semester:1,
-        img: ""
+        img:"https://th.bing.com/th/id/R.fac33b6540602684e7b3982d5d07b9a9?rik=ZH44qxGdAAi%2fFg&pid=ImgRaw&r=0"
     },
     {
         ID:"mechanical",
@@ -6924,7 +6965,7 @@ export const CourseData=[
         code:"AE 373",
         year: 3,
         semester:1,
-        img: ""
+        img:"https://th.bing.com/th/id/R.6decda4a1245ffbb450182f72789f661?rik=WgB3st1CYNqSMg&pid=ImgRaw&r=0"
     },
     {
         ID:"mechanical",
@@ -6933,7 +6974,7 @@ export const CourseData=[
         code:"ME 363",
         year: 3,
         semester:1,
-        img: ""
+        img:"https://th.bing.com/th/id/R.d10b7104d2efda00fd03de43b9606678?rik=fVuKOGEd5PRTgA&riu=http%3a%2f%2falfaelectriccorporation.com%2fwp-content%2fuploads%2f2018%2f12%2fAPFC-with-mcc-panel-1920x1440.jpg&ehk=dmjUineZLVWTyp3TUOaQJB2OvJ5D%2b8E9aRTroHLEI%2bw%3d&risl=&pid=ImgRaw&r=0"
     },
     {
         ID:"mechanical",
@@ -6942,7 +6983,7 @@ export const CourseData=[
         code:"MATH 351",
         year: 3,
         semester:1,
-        img: ""
+        img:"https://th.bing.com/th/id/R.c90d92bd367976037681342dadbac0a9?rik=h9S3o3ZNb2G%2bkg&pid=ImgRaw&r=0"
     },
     {
         ID:"mechanical",
@@ -6951,7 +6992,7 @@ export const CourseData=[
         code:"ME 365",
         year: 3,
         semester:1,
-        img: ""
+        img:"https://www.universetoday.com/wp-content/uploads/2010/10/First-Law-of-Thermodynamics-1280x720.png"
     },
     {
         ID:"mechanical",
@@ -6960,7 +7001,7 @@ export const CourseData=[
         code:"ME 296",
         year: 3,
         semester:1,
-        img: ""
+        img:"https://th.bing.com/th/id/R.13e8cbcbe944d5132870b784b4539594?rik=koK7Zc1Lodre4w&pid=ImgRaw&r=0"
     },
     {
         ID:"mechanical",
@@ -6969,7 +7010,7 @@ export const CourseData=[
         code:"MUS 153",
         year: 3,
         semester:1,
-        img: ""
+        img:"https://th.bing.com/th/id/OIP.zpYUjZOY6BNddKkzMTFsdQHaE8?pid=ImgDet&rs=1"
     },
     {
         ID:"mechanical",
@@ -6978,7 +7019,7 @@ export const CourseData=[
         code:"MUS 159",
         year: 3,
         semester:1,
-        img: ""
+        img:"https://th.bing.com/th/id/R.756f3488f03ddd798d2e057e3df5e2c5?rik=eQiFep01mE3krg&pid=ImgRaw&r=0"
     },
     {
         ID:"mechanical",
@@ -6987,7 +7028,7 @@ export const CourseData=[
         code:"PAA 151",
         year: 3,
         semester:1,
-        img: ""
+        img:"https://th.bing.com/th/id/R.211338e32f53da8a89cbd04f8c7b1ef3?rik=XHzeJeXJEMYyDg&riu=http%3a%2f%2farts.ufl.edu%2fsite%2fassets%2ffiles%2f68588%2fag-77.1840x1328p50x50.jpg&ehk=16WWAHpGB%2bUhL%2bXwasktELf%2bJ8iyIRHr6J3WSAnur8Y%3d&risl=&pid=ImgRaw&r=0"
     },
     {
         ID:"mechanical",
@@ -6996,7 +7037,7 @@ export const CourseData=[
         code:"ME 252",
         year: 3,
         semester:2,
-        img: ""
+        img:"https://th.bing.com/th/id/R.6543569462207abbee63ff3f6f6dff49?rik=rSLPLnwt3m0pNg&pid=ImgRaw&r=0"
     },
     {
         ID:"mechanical",
@@ -7005,7 +7046,7 @@ export const CourseData=[
         code:"ME 255",
         year: 3,
         semester:2,
-        img: ""
+        img:"https://th.bing.com/th/id/R.891adfc9499bdf7ddaf4016614e5aa64?rik=2qO6HWV5FMRMeA&riu=http%3a%2f%2fimg5a.flixcart.com%2fimage%2fbook%2f2%2f2%2f9%2fstrength-of-materials-original-imadms2fjpqknsbh.jpeg&ehk=Kgs0%2bNNzDgCFLsqRFWykbLMMNyOv4orVGwXQ%2b56CamA%3d&risl=&pid=ImgRaw&r=0"
     },
    
     {
@@ -7015,7 +7056,7 @@ export const CourseData=[
         code:"ME 366",
         year: 3,
         semester:2,
-        img: ""
+        img:"https://th.bing.com/th/id/R.66a2d77825b5d36ea575854860040389?rik=GqHJb3PPjeSzaQ&pid=ImgRaw&r=0"
     },
     {
         ID:"mechanical",
@@ -7024,7 +7065,7 @@ export const CourseData=[
         code:"ME 374",
         year: 3,
         semester:2,
-        img: ""
+        img:"https://th.bing.com/th/id/R.4ba219bedd27b222adbdde7f57db8e0d?rik=L3%2bmN9wU2WwHfg&riu=http%3a%2f%2fwww.engihub.com%2fwp-content%2fuploads%2f2010%2f03%2fmachine-component.jpg&ehk=OJeLvozi%2b%2fae5p9%2bpHDuAft%2bSk3pasBcTgq%2bKyDzzug%3d&risl=&pid=ImgRaw&r=0"
     },
     {
         ID:"mechanical",
@@ -7033,7 +7074,7 @@ export const CourseData=[
         code:"ME 396",
         year: 3,
         semester:2,
-        img: ""
+        img:"https://th.bing.com/th/id/R.13e8cbcbe944d5132870b784b4539594?rik=koK7Zc1Lodre4w&pid=ImgRaw&r=0"
     },
     {
         ID:"mechanical",
@@ -7042,7 +7083,7 @@ export const CourseData=[
         code:"EE 252",
         year: 3,
         semester:2,
-        img: ""
+        img:"https://th.bing.com/th/id/R.52ef39658d7c156ce884e34dd32cbdcc?rik=tIko7ANQEPtVVA&pid=ImgRaw&r=0"
     },
     {
         ID:"mechanical",
@@ -7051,7 +7092,7 @@ export const CourseData=[
         code:"ME 376",
         year: 3,
         semester:2,
-        img: ""
+        img:"https://th.bing.com/th/id/R.13187584b6f71891cb3de4c2f3b7d9d5?rik=uZpAzU76HfFBfg&riu=http%3a%2f%2fs3-ap-south-1.amazonaws.com%2fricedigitals3bucket%2fAUPortalContent%2f2020%2f03%2f30033511%2fvibrations.jpg&ehk=u4Nijz2SBtpE5OEsSypzNpXNxm%2flQOVU6BKHO3dqzS8%3d&risl=&pid=ImgRaw&r=0"
     },
     {
         ID:"mechanical",
@@ -7059,16 +7100,14 @@ export const CourseData=[
         name:"Industrial Engineering and Ergonomics",
         code:"ME 394",
         year: 3,
-        semester:2,
-        img: ""
+        semester:2
     },
     {
         ID:"mechanical",
         id:"hydraulicsandpneumatics",
         name:"Hydraulics and Pneumatics",
         year: 4,
-        semester:1,
-        img: ""
+        semester:1
     },
     {
         ID:"mechanical",
@@ -7076,8 +7115,7 @@ export const CourseData=[
         name:"Automatic Control II",
         code:"ME 463",
         year: 4,
-        semester:1,
-        img: ""
+        semester:1
     },
     {
         ID:"mechanical",
@@ -7086,7 +7124,7 @@ export const CourseData=[
         code:"ME 491",
         year: 4,
         semester:1,
-        img: ""
+        img:"https://th.bing.com/th/id/R.5a89274213e8ff44b37d3612a093c29c?rik=3NIlTt82en8aEw&riu=http%3a%2f%2fstreetfins.com%2fwp-content%2fuploads%2f2019%2f06%2f2061_Deb-Word_Art2.rev_.1515788405.jpg&ehk=JcPKQh%2brcYm0evI1BVB28%2feA1yyM0SMeC3ow08poBy8%3d&risl=&pid=ImgRaw&r=0"
     },
     {
         ID:"mechanical",
@@ -7095,7 +7133,7 @@ export const CourseData=[
         code:"ME 491",
         year: 4,
         semester:1,
-        img: ""
+        img:"https://th.bing.com/th/id/OIP.bqstBspB7xEJq3NIZ5ebGAEsCo?pid=ImgDet&rs=1"
     },
     {
         ID:"mechanical",
@@ -7104,7 +7142,7 @@ export const CourseData=[
         code:"ME 461",
         year: 4,
         semester:1,
-        img: ""
+        img:"https://th.bing.com/th/id/R.13187584b6f71891cb3de4c2f3b7d9d5?rik=uZpAzU76HfFBfg&riu=http%3a%2f%2fs3-ap-south-1.amazonaws.com%2fricedigitals3bucket%2fAUPortalContent%2f2020%2f03%2f30033511%2fvibrations.jpg&ehk=u4Nijz2SBtpE5OEsSypzNpXNxm%2flQOVU6BKHO3dqzS8%3d&risl=&pid=ImgRaw&r=0"
     },
     {
         ID:"mechanical",
@@ -7113,16 +7151,17 @@ export const CourseData=[
         code:"ME 455",
         year: 4,
         semester:1,
-        img: ""
+        img:"https://th.bing.com/th/id/R.891adfc9499bdf7ddaf4016614e5aa64?rik=2qO6HWV5FMRMeA&riu=http%3a%2f%2fimg5a.flixcart.com%2fimage%2fbook%2f2%2f2%2f9%2fstrength-of-materials-original-imadms2fjpqknsbh.jpeg&ehk=Kgs0%2bNNzDgCFLsqRFWykbLMMNyOv4orVGwXQ%2b56CamA%3d&risl=&pid=ImgRaw&r=0"
     },
+   
     {
         ID:"mechanical",
-        id:"cropprocessing",
+        id:"",
         name:"Crop Processing",
         code:"AE 457",
         year: 4,
         semester:1,
-        img: ""
+        img:"https://th.bing.com/th/id/R.7f4f0020fe57a386f1dfd8ab7215f8fc?rik=3eMFJvmMEio4kg&pid=ImgRaw&r=0"
     },
     {
         ID:"mechanical",
@@ -7131,7 +7170,7 @@ export const CourseData=[
         code:"ME 485",
         year: 4,
         semester:1,
-        img: ""
+        img:"https://th.bing.com/th/id/R.57844ac86a0d6ad2f742390c4ce5f6f1?rik=IFdkFPodYgNbTQ&pid=ImgRaw&r=0"
     },
     {
         ID:"mechanical",
@@ -7140,7 +7179,7 @@ export const CourseData=[
         code:"ME 489",
         year: 4,
         semester:1,
-        img: ""
+        img:"https://th.bing.com/th/id/R.657b7522778d5c416df049ed886aa136?rik=rqdFyBJ8YWWNlQ&pid=ImgRaw&r=0"
     },
     {
         ID:"mechanical",
@@ -7149,7 +7188,7 @@ export const CourseData=[
         code:"ME 487",
         year: 4,
         semester:1,
-        img: ""
+        img:"https://x-engineer.org/wp-content/uploads/2017/01/Chevrolet-Malibu-Hybrid-powertrain-HEV.jpg?428282&428282"
     },
     {
         ID:"mechanical",
@@ -7158,7 +7197,7 @@ export const CourseData=[
         code:"ME 471",
         year: 4,
         semester:1,
-        img: ""
+        img:"https://th.bing.com/th/id/OIP.SVPKzps0D3n68UGfSFft4QHaFE?pid=ImgDet&rs=1"
     },
     {
         ID:"mechanical",
@@ -7167,7 +7206,7 @@ export const CourseData=[
         code:"ME 473",
         year: 4,
         semester:1,
-        img: ""
+        img:"https://th.bing.com/th/id/OIP.J8zYz1DUR3RatXYXhmBWswHaE3?pid=ImgDet&rs=1"
     },
     {
         ID:"mechanical",
@@ -7176,7 +7215,7 @@ export const CourseData=[
         code:"ME 477",
         year: 4,
         semester:1,
-        img: ""
+        img:"https://th.bing.com/th/id/R.81e144551e053cbe5f69bd8be9b51dc0?rik=vUCwYKh6%2bsILJA&pid=ImgRaw&r=0"
     },
     {
         ID:"mechanical",
@@ -7185,7 +7224,8 @@ export const CourseData=[
         code:"ME 469",
         year: 4,
         semester:1,
-        img: ""
+        img:"https://th.bing.com/th/id/OIP.tbUReZm4t1cmYYSHFpaOvAHaHa?pid=ImgDet&rs=1"
+
     },
     {
         ID:"mechanical",
@@ -7194,7 +7234,7 @@ export const CourseData=[
         code:"ME 499",
         year: 4,
         semester:1,
-        img: ""
+        img:"https://th.bing.com/th/id/OIP.2cKC-ITVn_obhwuMTOjV9QHaEU?pid=ImgDet&rs=1"
     },
     {
         ID:"mechanical",
@@ -7203,7 +7243,7 @@ export const CourseData=[
         code:"ME 451",
         year: 4,
         semester:1,
-        img: ""
+        img:"https://th.bing.com/th/id/R.6543569462207abbee63ff3f6f6dff49?rik=rSLPLnwt3m0pNg&pid=ImgRaw&r=0"
     },
     {
         ID:"mechanical",
@@ -7212,7 +7252,7 @@ export const CourseData=[
         code:"ME 465",
         year: 4,
         semester:1,
-        img: ""
+        img:"https://th.bing.com/th/id/R.9b955e8cc303148235acce576e26adf5?rik=L%2fyigRrQcGT30A&pid=ImgRaw&r=0"
     },
     {
         ID:"mechanical",
@@ -7221,7 +7261,7 @@ export const CourseData=[
         code:"ME 467",
         year: 4,
         semester:1,
-        img: ""
+        img:"https://th.bing.com/th/id/R.836bfaa7265a379c24da900e273a41a6?rik=mk7Ss4x6MWWSOg&riu=http%3a%2f%2fwww.helmholtz-berlin.de%2fmedia%2fmedia%2fprojekte%2femil%2fScience%2fenergyconversion.png&ehk=3g6IWUe%2bArrq39d2i5dACBb3JfmEVSh1b0WFyz50APc%3d&risl=&pid=ImgRaw&r=0"
     },
     {
         ID:"mechanical",
@@ -7230,7 +7270,7 @@ export const CourseData=[
         code:"ME 481",
         year: 4,
         semester:1,
-        img: ""
+        img:"https://th.bing.com/th/id/OIP.CTDgdmaleON9FmGTVx8PLgHaEw?pid=ImgDet&rs=1"
     },
     {
         ID:"mechanical",
@@ -7239,7 +7279,7 @@ export const CourseData=[
         code:"MSE 451",
         year: 4,
         semester:1,
-        img: ""
+        img:"https://th.bing.com/th/id/R.0c8e4b11118362c2b27eb7345bc9754b?rik=vQPTwL30wdsn2w&pid=ImgRaw&r=0"
     },
     {
         ID:"mechanical",
@@ -7248,7 +7288,7 @@ export const CourseData=[
         code:"ME 483",
         year: 4,
         semester:1,
-        img: ""
+        img:"https://th.bing.com/th/id/R.4056c41c7a68213627d5868b167459f1?rik=I4RiQ%2f7l9W8oog&pid=ImgRaw&r=0"
     },
     {
         ID:"mechanical",
@@ -7257,7 +7297,7 @@ export const CourseData=[
         code:"ME 262",
         year: 4,
         semester:2,
-        img: ""
+        img:"https://www.researchgate.net/profile/Nicola_Paoletti/publication/330304646/figure/fig1/AS:713725921222656@1547176928956/Overview-of-the-synthesis-approach.png"
     },
     {
         ID:"mechanical",
@@ -7266,7 +7306,7 @@ export const CourseData=[
         code:"ME 492",
         year: 4,
         semester:2,
-        img: ""
+        img:"https://th.bing.com/th/id/R.943558ac585c9a77b6f2a8d95a3c8602?rik=vNaik16tDWxtPg&pid=ImgRaw&r=0"
     },
     {
         ID:"mechanical",
@@ -7275,7 +7315,7 @@ export const CourseData=[
         code:"ME 498",
         year: 4,
         semester:2,
-        img: ""
+        img:"https://th.bing.com/th/id/OIP.bqstBspB7xEJq3NIZ5ebGAEsCo?pid=ImgDet&rs=1"
     },
     {
         ID:"mechanical",
@@ -7284,7 +7324,7 @@ export const CourseData=[
         code:"ME 464",
         year: 4,
         semester:2,
-        img: ""
+        img:"https://th.bing.com/th/id/R.640452359b1363a1e82078db6fe2ee39?rik=FSFGgQH17UFrAg&pid=ImgRaw&r=0"
     },
     {
         ID:"mechanical",
@@ -7293,7 +7333,7 @@ export const CourseData=[
         code:"ME 494",
         year: 4,
         semester:2,
-        img: ""
+        img:"https://th.bing.com/th/id/R.b8eb851d67b942c1b04f5fb2b98f2549?rik=Un4kqKX5qf96HQ&riu=http%3a%2f%2ficdi.co.in%2fimages%2four-services%2foperation-%26-maintenance.jpg&ehk=op4Z3uYa4I7gcngJiGmXSN5CazV%2b333yC3QBa8jhmTk%3d&risl=&pid=ImgRaw&r=0"
     },
     {
         ID:"mechanical",
@@ -7302,7 +7342,7 @@ export const CourseData=[
         code:"ME 456",
         year: 4,
         semester:2,
-        img: ""
+        img:"https://th.bing.com/th/id/R.aa8b09e78d6180ff9f0b4045629d6e86?rik=XPdM5KOBC61MHA&riu=http%3a%2f%2frocktech.com.au%2fwp-content%2fuploads%2f2017%2f06%2fGallery-Images-FEA-Pic-13.jpg&ehk=xPvbQEmb7Wvm5XCuQRTkqG6aWKSB9RCb59PmSbKZgNY%3d&risl=&pid=ImgRaw&r=0"
     },
     {
         ID:"mechanical",
@@ -7311,7 +7351,7 @@ export const CourseData=[
         code:"ME 486",
         year: 4,
         semester:2,
-        img: ""
+        img:"https://th.bing.com/th/id/OIP.5WEDpXW6UCTECwwvNOHPEgHaEK?pid=ImgDet&rs=1"
     },
     {
         ID:"mechanical",
@@ -7320,7 +7360,7 @@ export const CourseData=[
         code:"ME 468",
         year: 4,
         semester:2,
-        img: ""
+        img:"https://th.bing.com/th/id/R.849cecf7a61e2d275d78907d1570de48?rik=USltcOwlwWa34w&pid=ImgRaw&r=0"
     },
     {
         ID:"mechanical",
@@ -7329,7 +7369,7 @@ export const CourseData=[
         code:"457",
         year: 4,
         semester:1,
-        img: ""
+        img:"https://th.bing.com/th/id/R.e2d0993fa9a926499ca7e7731db1f3a2?rik=S9okKn55qU5%2fZQ&pid=ImgRaw&r=0"
     },
     {
         ID:"mechanical",
@@ -7338,7 +7378,7 @@ export const CourseData=[
         code:"ME 472",
         year: 4,
         semester:2,
-        img: ""
+        img:"https://th.bing.com/th/id/R.f656ada90ce83ede45a94fd3cc4d041e?rik=hOtoEi8OPXgiDw&riu=http%3a%2f%2fwww.automation-drive.com%2fEX%2f05-14-14%2fOne-third%252520of%252520the%252520Manual%252520Machine%252520Shop.jpg&ehk=cuBvq21HWygVUzbafOnuGBeKjF2ZN38O9DATEHVSL0Y%3d&risl=&pid=ImgRaw&r=0&sres=1&sresct=1"
     },
     {
         ID:"mechanical",
@@ -7347,7 +7387,7 @@ export const CourseData=[
         code:"ME 478",
         year: 4,
         semester:2,
-        img: ""
+        img:"https://th.bing.com/th/id/R.81e144551e053cbe5f69bd8be9b51dc0?rik=vUCwYKh6%2bsILJA&pid=ImgRaw&r=0"
     },
     {
         ID:"mechanical",
@@ -7356,7 +7396,7 @@ export const CourseData=[
         code:"ME 481",
         year: 4,
         semester:1,
-        img: ""
+        img:"https://vestatec.co.uk/wp-content/uploads/2019/11/Engineering_Production-Image.jpg"
     },
     {
         ID:"mechanical",
@@ -7365,7 +7405,7 @@ export const CourseData=[
         code:"ME 494",
         year: 4,
         semester:2,
-        img: ""
+        img:"https://th.bing.com/th/id/R.bd5650ea96fadad3494233114b4368f1?rik=ZhSgkespm8%2fuhQ&pid=ImgRaw&r=0"
     },
     {
         ID:"mechanical",
@@ -7374,7 +7414,7 @@ export const CourseData=[
         code:"ME 474 ",
         year: 4,
         semester:2,
-        img: ""
+        img:"https://th.bing.com/th/id/R.8eccebde018a1c59c1115c78ba6105e1?rik=LjwIpqSWnOcGOw&riu=http%3a%2f%2fwww.fastplanningsoftware.com%2fwp-content%2fuploads%2f2017%2f11%2fStage-of-Production-Planning-Control.jpg&ehk=2zFeDk%2bvqRM2%2fwQ1wAfUbY4LyDLyxUoweCRs2%2bUXPGs%3d&risl=&pid=ImgRaw&r=0"
     },
     {
         ID:"mechanical",
@@ -7383,7 +7423,7 @@ export const CourseData=[
         code:"ME 452",
         year: 4,
         semester:2,
-        img: ""
+        img:"https://th.bing.com/th/id/R.6543569462207abbee63ff3f6f6dff49?rik=rSLPLnwt3m0pNg&pid=ImgRaw&r=0"
     },
     {
         ID:"mechanical",
@@ -7392,7 +7432,7 @@ export const CourseData=[
         code:"ME 470",
         year: 4,
         semester:2,
-        img: ""
+        img:"https://th.bing.com/th/id/R.f656ada90ce83ede45a94fd3cc4d041e?rik=hOtoEi8OPXgiDw&riu=http%3a%2f%2fwww.automation-drive.com%2fEX%2f05-14-14%2fOne-third%252520of%252520the%252520Manual%252520Machine%252520Shop.jpg&ehk=cuBvq21HWygVUzbafOnuGBeKjF2ZN38O9DATEHVSL0Y%3d&risl=&pid=ImgRaw&r=0&sres=1&sresct=1"
     },
     {
         ID:"mechanical",
@@ -7401,613 +7441,7 @@ export const CourseData=[
         code:"ME 488",
         year: 4,
         semester:2,
-        img: ""
-    },
-    {
-        ID:"petroleum",
-        id:"algebra",
-        name:"Algebra",
-        code:"151",
-        year: 1,
-        semester:1,
-        img: ""
-    }, 
-    {
-        ID:"petroleum",
-        id:"appliedelectricity",
-        name:"Applied Electricity",
-        code:"EE 151",
-        year:1,
-        semester:1,
-        img: ""
-    }, 
-    {
-        ID:"petroleum",
-        id:"communicationskills",
-        name:"Communication Skills",
-        code:"ENGL 157",
-        year: 1,
-        semester:1,
-        img: ""
-    }, 
-   
-    {
-        ID:"petroleum",
-        id:"technicaldrawing",
-        name:"Technical Drawing",
-        code:"ME 159",
-        year: 1,
-        semester:1,
-        img: ""
-    },
-    {
-        ID:"petroleum",
-        id:"practicalchemistry I",
-        name:"Practical Chemistry I",
-        code:"CHEM 169",
-        year: 1,
-        semester:1,
-        img: ""
-    },
-    {
-        ID:"petroleum",
-        id:"inorganicchemistry",
-        name:"Inorganic Chemistry for Engineers",
-        code:"PE 151",
-        year: 1,
-        semester:1,
-        img: ""
-    },
-    {
-        ID:"petroleum",
-        id:"organicchemistry",
-        name:"Organic Chemistry for Engineers",
-        code:"",
-        year: 1,
-        semester:1,
-        img: ""
-    },
-    {
-        ID:"petroleum",
-        id:"introductiontoit",
-        name:"Introduction to IT",
-        code:"COE 158",
-        year: 1,
-        semester:1,
-        img: ""
-    },
-    {
-        ID:"petroleum",
-        id:"basicmechanics",
-        name:"Basic Mechanics",
-        code:"ME 161",
-        year: 1,
-        semester:2,
-        img: ""
-    }, 
-    {
-        ID:"petroleum",
-        id:"basicelectronics",
-        name:"Basic Electronics",
-        code:"EE 152",
-        year: 1,
-        semester:2,
-        img: ""
-    },
-    {
-        ID:"petroleum",
-        id:"calculus",
-        name:"Calculus",
-        code:"MATH 152",
-        year: 1,
-        semester:2,
-        img: ""
-    },
-    {
-        ID:"petroleum",
-        id:"physicalchemistryforengineers",
-        name:"Physical Chemistry for Engineers",
-        code:"PE 156",
-        year: 1,
-        semester:2,
-        img: ""
-    },
-  
-    {
-        ID:"petroleum",
-        id:"introductiontopetroleum",
-        name:"Introduction to Petroleum Engineering",
-        code:"PE 154",
-        year: 1,
-        semester:2,
-        img: ""
-    },
-    {
-        ID:"petroleum",
-        id:"communicationskillsII",
-        name:"Communication Skills II",
-        code:"ENGL 158",
-        year: 1,
-        semester:2,
-        img: ""
-    },
-    {
-        ID:"petroleum",
-        id:"generalphysics",
-        name:"General Physics",
-        code:"PE 155",
-        year: 1,
-        semester:2,
-        img: ""
-    },
-    {
-        ID:"petroleum",
-        id:"strengthofmaterialsI",
-        name:"Strength of Materials I",
-        code:"ME 255",
-        year: 2,
-        semester:1,
-        img: ""
-    },
-    {
-        ID:"petroleum",
-        id:"differentialequations",
-        name:"Differential Equations",
-        code:"MATH 251",
-        year: 2,
-        semester:1,
-        img: ""
-    },
-    {
-        ID:"petroleum",
-        id:"engineeringinsociety",
-        name:"Engineering in Society",
-        code:"CENG 291",
-        year: 2,
-        semester:1,
-        img: ""
-    },
-    {
-        ID:"petroleum",
-        id:"introtogeology",
-        name:"Intro to Geology",
-        code:"PE 253",
-        year: 2,
-        semester:1,
-        img: ""
-    },
-    {
-        ID:"petroleum",
-        id:"reservoirengineering I",
-        name:"Reservoir Engineering I",
-        code:"PE 251",
-        year: 2,
-        semester:1,
-        img: ""
-    },
-    {
-        ID:"petroleum",
-        id:"fluidmechanics",
-        name:" Fluid Mechanics",
-        code:"PE 255",
-        year: 2,
-        semester:1,
-        img: ""
-    },
-    {
-        ID:"petroleum",
-        id:"petroleumengineeringthermo I",
-        name:"Petroleum Engineering Thermodynamics I",
-        code:"PE 257",
-        year: 2,
-        semester:1,
-        img: ""
-    },
-    {
-        ID:"petroleum",
-        id:"swimmingtech",
-        name:"Survival Swimming Techniques",
-        code:"PE 259",
-        year: 2,
-        semester:1,
-        img: ""
-    },
-    {
-        ID:"petroleum",
-        id:"accountingI",
-        name:"Accounting I",
-        code:"CSM 157",
-        year: 2,
-        semester:1,
-        img: ""
-    },
-    {
-        ID:"petroleum",
-        id:"frenchI",
-        name:"French I",
-        code:"FREN 181",
-        year: 2,
-        semester:1,
-        img: ""
-    },
-    {
-        ID:"petroleum",
-        id:"economicsI",
-        name:"Economics I",
-        code:"ECON 151",
-        year: 2,
-        semester:1,
-        img: ""
-    },
-    {
-        ID:"petroleum",
-        id:"calculuswithseveralvariables",
-        name:"Calculus with Several Variables",
-        code:"MATH 252",
-        year: 2,
-        semester:2,
-        img: ""
-    },
-    {
-        ID:"mechanical",
-        id:"heattransfer",
-        name:"Heat Transfer Processes",
-        code:"PE 252",
-        year: 2,
-        semester:2,
-        img: ""
-    },
-    {
-        ID:"petroleum",
-        id:"Drawingforengineers",
-        name:"Drawing for Engineers",
-        code:"PE 254",
-        year: 2,
-        semester:2,
-        img: ""
-    },
-    {
-        ID:"petroleum",
-        id:"regionalgeology",
-        name:"Regional Geology",
-        code:"PE 256",
-        year: 2,
-        semester:2,
-        img: ""
-    },
-    {
-        ID:"petroleum",
-        id:"petroleumthermodynamicsII",
-        name:"Petroleum Engineering Thermodynamics II",
-        code:"PE 258",
-        year: 2,
-        semester:2,
-        img: ""
-    },
-    {
-        ID:"petroleum",
-        id:"Reservoirfluidproperties",
-        name:"Reservoir Fluid Properties",
-        code:"PE 260",
-        year: 2,
-        semester:2,
-        img: ""
-    },
-    {
-        ID:"petroleum",
-        id:"computerprogramminginoilandgas",
-        name:"Computer Programming in Oil and Gas",
-        code:"PE 262",
-        year: 2,
-        semester:2,
-        img: ""
-    },
-    {
-        ID:"petroleum",
-        id:"priciplesoflandsurvey",
-        name:"Principles of Land Surveying and Hydrogrphic Science",
-        code:"PE264",
-        year: 2,
-        semester:2,
-        img: ""
-    },
-  
-    {
-        ID:"petroleum",
-        id:"accountingII",
-        name:"Accounting II",
-        code:"CSM 158",
-        year: 2,
-        semester:2,
-        img: ""
-    },
-    {
-        ID:"petroleum",
-        id:"frenchII",
-        name:"French for Communication II",
-        code:"FREN 182",
-        year: 2,
-        semester:2,
-        img: ""
-    },
-    {
-        ID:"petroleum",
-        id:"economicsII",
-        name:"Introductory Economics II",
-        code:"ECON 152",
-        year: 2,
-        semester:2,
-        img: ""
-    },
-    {
-        ID:"petroleum",
-        id:"petroleumengineeringlabI",
-        name:"Petroleum Engineering Lab I",
-        code:"PE 355",
-        year: 3,
-        semester:1,
-        img: ""
-    },  
-    {
-        ID:"petroleum",
-        id:"petroleumproengineeringI",
-        name:"Petroleum Production Engineering  I",
-        code:"PE 357",
-        year: 3,
-        semester:1,
-        img: ""
-    },  
-    {
-        ID:"petroleum",
-        id:"drillingengI",
-        name:"Drilling Engineering I",
-        code:"PE 353",
-        year: 3,
-        semester:1,
-        img: ""
-    }, 
-    {
-        ID:"petroleum",
-        id:"Petroleumrockmechanics",
-        name:"Petroleum Rock Mechanics",
-        code:"PE 351",
-        year: 3,
-        semester:1,
-        img: ""
-    }, 
-    {
-        ID:"petroleum",
-        id:"reservoirengineering II",
-        name:"Reservoir Engineering II",
-        code:"PE 361",
-        year: 3,
-        semester:1,
-        img: ""
-    },
-    {
-        ID:"petroleum",
-        id:"reservoirpetrolphysics",
-        name:"Reservoir Petrolphysics",
-        code:"PE 359",
-        year: 3,
-        semester:1,
-        img: ""
-    }, 
-    {
-        ID:"petroleum",
-        id:"fomationevaluation",
-        name:"Formation Evaluation",
-        code:"PE 363",
-        year: 3,
-        semester:1,
-        img: ""
-    }, 
-    {
-        ID:"petroleum",
-        id:"statsforpetrolengineers",
-        name:"Statistics for Petroleum Engineers",
-        code:"PE 367",
-        year: 3,
-        semester:1,
-        img: ""
-    }, 
-    {
-        ID:"petroleum",
-        id:"numericalmethods",
-        name:"Numerical Methods for Petroleum Engineers",
-        code:"MATH 350",
-        year: 3,
-        semester:2,
-        img: ""
-    },
-    {
-        ID:"petroleum",
-        id:"petrolgeology",
-        name:"Petroleum GEology",
-        code:"PE 352",
-        year: 3,
-        semester:2,
-        img: ""
-    }, 
-    {
-        ID:"petroleum",
-        id:"petroleumproengineeringII",
-        name:"Petroleum Production Engineering  II",
-        code:"PE 357",
-        year: 3,
-        semester:2,
-        img: ""
-    },  
-    {
-        ID:"petroleum",
-        id:"drillingengII",
-        name:"Drilling Engineering II",
-        code:"PE 354",
-        year: 3,
-        semester:2,
-        img: ""
-    }, 
-    {
-        ID:"petroleum",
-        id:"welltesting",
-        name:"Well Testing",
-        code:"PE 360",
-        year: 3,
-        semester:2,
-        img: ""
-    },  
-    {
-        ID:"petroleum",
-        id:"geostatistics",
-        name:"Geostatistics",
-        code:"PE 362",
-        year: 3,
-        semester:2,
-        img: ""
-    },  
-    {
-        ID:"petroleum",
-        id:"oilandgasgeophysics",
-        name:"Oil and Gas Geophysics",
-        code:"PE 364",
-        year: 3,
-        semester:2,
-        img: ""
-    },  
-    {
-        ID:"petroleum",
-        id:"healthsafetyandenvironment",
-        name:"Health Safety & Environment",
-        code:"PE 366",
-        year: 3,
-        semester:2,
-        img: ""
-    },  
-    {
-        ID:"petroleum",
-        id:"petroleumengineeringlabII",
-        name:"petroleum Engineering Lab II",
-        code:"PE 356",
-        year: 3,
-        semester:2,
-        img: ""
-    },  
-    {
-        ID:"petroleum",
-        id:"engineeringeconomicsandmanagment",
-        name:"Engineering Economics and Managment",
-        code:"ME 491",
-        year: 4,
-        semester:1,
-        img: ""
-    },       
-    {
-        ID:"petroleum",
-        id:"designprojectI",
-        name:"Design Project I",
-        code:"PE 453",
-        year: 4,
-        semester:1,
-        img: ""
-    },
-    {
-        ID:"petroleum",
-        id:"petrolecons",
-        name:"Petroleum Economics",
-        code:"PE 451",
-        year: 4,
-        semester:1,
-        img: ""
-    },
-    {
-        ID:"petroleum",
-        id:"reservoirsimulation",
-        name:"Reservoir Simulation",
-        code:"PE 455",
-        year: 4,
-        semester:1,
-        img: ""
-    },
-    {
-        ID:"petroleum",
-        id:"integratedfielddesign",
-        name:"Integrated Field Design",
-        code:"PE 451",
-        year: 4,
-        semester:1,
-        img: ""
-    },
-    {
-        ID:"petroleum",
-        id:"naturalgaseng",
-        name:"Natural Gas Engineering",
-        code:"PE 459",
-        year: 4,
-        semester:1,
-        img: ""
-    },
-    {
-        ID:"petroleum",
-        id:"fieldtripandindustrialattachment",
-        name:"Field Trip & Industrial Attachment",
-        code:"PE 471",
-        year: 4,
-        semester:1,
-        img: ""
-    },
-    {
-        ID:"petroleum",
-        id:"reservoirrecoverytech",
-        name:"Reservoir Recovery Techniques",
-        code:"PE 450",
-        year: 4,
-        semester:2,
-        img: ""
-    },
-    {
-        ID:"petroleum",
-        id:"petrolprojectevaluation",
-        name:"Petroleum Project Evaluation",
-        code:"PE 452",
-        year: 4,
-        semester:2,
-        img: ""
-    },
-    {
-        ID:"petroleum",
-        id:"designprojectII",
-        name:"Design Project II",
-        code:"PE 454",
-        year: 4,
-        semester:2,
-        img: ""
-    },
-    {
-        ID:"petroleum",
-        id:"wellcompletionandsimulation",
-        name:"Well COmpletion & Simulation",
-        code:"PE 456",
-        year: 4,
-        semester:2,
-        img: ""
-    },
-    {
-        ID:"petroleum",
-        id:"oilfieldgeochemistry",
-        name:"Oilfield Geochemistry",
-        code:"PE 458",
-        year: 4,
-        semester:2,
-        img: ""
-    },
-    {
-        ID:"petroleum",
-        id:"entrepreneurshipandleadership",
-        name:"Entrepreneurship and Leadership",
-        code:"PE 460",
-        year: 4,
-        semester:2,
-        img: ""
+        img:"https://th.bing.com/th/id/R.f656ada90ce83ede45a94fd3cc4d041e?rik=hOtoEi8OPXgiDw&riu=http%3a%2f%2fwww.automation-drive.com%2fEX%2f05-14-14%2fOne-third%252520of%252520the%252520Manual%252520Machine%252520Shop.jpg&ehk=cuBvq21HWygVUzbafOnuGBeKjF2ZN38O9DATEHVSL0Y%3d&risl=&pid=ImgRaw&r=0&sres=1&sresct=1"
     },
     {
         ID:"geological",
@@ -8485,6 +7919,613 @@ export const CourseData=[
         semester:1,
         img: "https://planetary-science.org/wp-content/uploads/2013/07/449294a-f1.2.jpg"
     },
+    {
+        ID:"petroleum",
+        id:"algebra",
+        name:"Algebra",
+        code:"151",
+        year: 1,
+        semester:1,
+        img: `https://img.freepik.com/free-vector/geometry-education-blue-background-vector-frame-disruptive-education-digital-remix_53876-114094.jpg?w=740&t=st=1661837216~exp=1661837816~hmac=5b40056780bebdeeb8bb5259612262507c80ddd5467b97f2ff299f6a2309d897`
+    }, 
+    {
+        ID:"petroleum",
+        id:"appliedelectricity",
+        name:"Applied Electricity",
+        code:"EE 151",
+        year:1,
+        semester:1,
+        img: "https://img.freepik.com/premium-photo/applying-thermal-paste-computer-s-central-processing-unit-computer-repair_131301-2395.jpg?w=740"
+    }, 
+    {
+        ID:"petroleum",
+        id:"communicationskills",
+        name:"Communication Skills",
+        code:"ENGL 157",
+        year: 1,
+        semester:1,
+        img: "https://th.bing.com/th/id/OIP.XpVGmqQBBp4g2tRqWXIAMwHaHa?pid=ImgDet&rs=1"
+    }, 
+   
+    {
+        ID:"petroleum",
+        id:"technicaldrawing",
+        name:"Technical Drawing",
+        code:"ME 159",
+        year: 1,
+        semester:1,
+        img: "https://th.bing.com/th/id/R.7dbcb2d23d5fd682c081bd7a78f9f567?rik=7tn37NS2GFBEzw&pid=ImgRaw&r=0"
+    },
+    {
+        ID:"petroleum",
+        id:"practicalchemistry I",
+        name:"Practical Chemistry I",
+        code:"CHEM 169",
+        year: 1,
+        semester:1,
+        img:"https://th.bing.com/th/id/OIP.zcYerwnlNSLIYU-hDpsRnQHaE8?pid=ImgDet&rs=1"
+    },
+    {
+        ID:"petroleum",
+        id:"inorganicchemistry",
+        name:"Inorganic Chemistry for Engineers",
+        code:"PE 151",
+        year: 1,
+        semester:1,
+        img:"https://th.bing.com/th/id/R.0850b8a4714e75dbe824a6b620b27a49?rik=CsNe2tK7D9fYBQ&pid=ImgRaw&r=0"
+    },
+    {
+        ID:"petroleum",
+        id:"organicchemistry",
+        name:"Organic Chemistry for Engineers",
+        code:"",
+        year: 1,
+        semester:1,
+        img:"https://th.bing.com/th/id/R.ba0a8261774e7af56015576761bb7ed6?rik=ib3OEfq6vZyKPw&riu=http%3a%2f%2fjanelaurachemistry.weebly.com%2fuploads%2f8%2f1%2f9%2f5%2f81951596%2f7436512_orig.png&ehk=7aZ5wZ7KOACPIm3tDOxzSokSr3B9kxOLjk019jRrtVE%3d&risl=&pid=ImgRaw&r=0"
+    },
+    {
+        ID:"petroleum",
+        id:"introductiontoit",
+        name:"Introduction to IT",
+        code:"COE 158",
+        year: 1,
+        semester:1,
+        img:"https://th.bing.com/th/id/R.f6dd8231adc1007568ce941c14d453cd?rik=h7nQr05ku99ucQ&pid=ImgRaw&r=0"
+    },
+    {
+        ID:"petroleum",
+        id:"basicmechanics",
+        name:"Basic Mechanics",
+        code:"ME 161",
+        year: 1,
+        semester:2,
+        img: "https://1.bp.blogspot.com/-rja2B49-kJI/WtBnGNPqJdI/AAAAAAAAu6I/Q-vAmdDV7142PwlEs7bhIzGeC-G00Jf7wCK4BGAYYCw/s1600/picture-718945.jpg"
+    }, 
+    {
+        ID:"petroleum",
+        id:"basicelectronics",
+        name:"Basic Electronics",
+        code:"EE 152",
+        year: 1,
+        semester:2,
+        img:"https://th.bing.com/th/id/R.805bb8c45b49705783459c144a31bf0c?rik=eEZmy5dafNt9ig&riu=http%3a%2f%2fwww.electronicsandyou.com%2fblog%2fwp-content%2fuploads%2f2018%2f12%2felectronics-1.jpg&ehk=74YeEcebTV60VrKcvDkoG7p96ko6XZibk0GTu2oY1hs%3d&risl=&pid=ImgRaw&r=0"
+    },
+    {
+        ID:"petroleum",
+        id:"calculus",
+        name:"Calculus",
+        code:"MATH 152",
+        year: 1,
+        semester:2,
+        img:"https://th.bing.com/th/id/R.dda1ead370a9054f21fdab0e70ba74a3?rik=V%2f%2blo1CBnVXS9g&pid=ImgRaw&r=0"
+    },
+    {
+        ID:"petroleum",
+        id:"physicalchemistryforengineers",
+        name:"Physical Chemistry for Engineers",
+        code:"PE 156",
+        year: 1,
+        semester:2,
+        img:"https://th.bing.com/th/id/R.da3e7df2c0dfb993d025b2f473fe88be?rik=cshn5gh68e8RNA&pid=ImgRaw&r=0"
+    },
+  
+    {
+        ID:"petroleum",
+        id:"introductiontopetroleum",
+        name:"Introduction to Petroleum Engineering",
+        code:"PE 154",
+        year: 1,
+        semester:2,
+        img:"https://th.bing.com/th/id/OIP.uBE17Yz3RGLwe15yPWMNQQHaE8?pid=ImgDet&rs=1"
+    },
+    {
+        ID:"petroleum",
+        id:"communicationskillsII",
+        name:"Communication Skills II",
+        code:"ENGL 158",
+        year: 1,
+        semester:2,
+        img: "https://th.bing.com/th/id/OIP.XpVGmqQBBp4g2tRqWXIAMwHaHa?pid=ImgDet&rs=1"
+    },
+    {
+        ID:"petroleum",
+        id:"generalphysics",
+        name:"General Physics",
+        code:"PE 155",
+        year: 1,
+        semester:2,
+        img:"https://th.bing.com/th/id/R.63c6ff86b42346482cab5281aad8eb13?rik=XJ5myCcQdAXu5w&pid=ImgRaw&r=0"
+
+    },
+    {
+        ID:"petroleum",
+        id:"strengthofmaterialsI",
+        name:"Strength of Materials I",
+        code:"ME 255",
+        year: 2,
+        semester:1,
+        img:"https://th.bing.com/th/id/R.891adfc9499bdf7ddaf4016614e5aa64?rik=2qO6HWV5FMRMeA&riu=http%3a%2f%2fimg5a.flixcart.com%2fimage%2fbook%2f2%2f2%2f9%2fstrength-of-materials-original-imadms2fjpqknsbh.jpeg&ehk=Kgs0%2bNNzDgCFLsqRFWykbLMMNyOv4orVGwXQ%2b56CamA%3d&risl=&pid=ImgRaw&r=0"
+    },
+    {
+        ID:"petroleum",
+        id:"differentialequations",
+        name:"Differential Equations",
+        code:"MATH 251",
+        year: 2,
+        semester:1,
+        img:"https://th.bing.com/th/id/R.fa6b1af16091e5b22772d5cb354395e8?rik=nco5mByW1xIQug&pid=ImgRaw&r=0"
+    },
+    {
+        ID:"petroleum",
+        id:"engineeringinsociety",
+        name:"Engineering in Society",
+        code:"CENG 291",
+        year: 2,
+        semester:1,
+        img:"https://th.bing.com/th/id/R.80bb339f00f9f64e2a244fd78e211111?rik=wvh1DfJs%2fXy1Cg&pid=ImgRaw&r=0"
+    },
+    {
+        ID:"petroleum",
+        id:"introtogeology",
+        name:"Intro to Geology",
+        code:"PE 253",
+        year: 2,
+        semester:1,
+        img:"https://th.bing.com/th/id/OIP.G3A_uPDaoy-tLwQKVTcBbwHaEK?pid=ImgDet&rs=1"
+    },
+    {
+        ID:"petroleum",
+        id:"reservoirengineering I",
+        name:"Reservoir Engineering I",
+        code:"PE 251",
+        year: 2,
+        semester:1,
+        img:"https://th.bing.com/th/id/R.02630bea99dc4d65c2d11618a97d1a1a?rik=IXLuO05wmAL%2bqA&pid=ImgRaw&r=0"
+    },
+    {
+        ID:"petroleum",
+        id:"fluidmechanics",
+        name:" Fluid Mechanics",
+        code:"PE 255",
+        year: 2,
+        semester:1,
+        img:"https://th.bing.com/th/id/R.6543569462207abbee63ff3f6f6dff49?rik=rSLPLnwt3m0pNg&pid=ImgRaw&r=0"
+    },
+    {
+        ID:"petroleum",
+        id:"petroleumengineeringthermo I",
+        name:"Petroleum Engineering Thermodynamics I",
+        code:"PE 257",
+        year: 2,
+        semester:1,
+        img:"https://www.universetoday.com/wp-content/uploads/2010/10/First-Law-of-Thermodynamics-1280x720.png"
+    },
+    {
+        ID:"petroleum",
+        id:"swimmingtech",
+        name:"Survival Swimming Techniques",
+        code:"PE 259",
+        year: 2,
+        semester:1,
+        img:"https://th.bing.com/th/id/R.df9ecdd25599662e1f02067fa8fc817e?rik=TUP%2b%2bLcWE8xpwQ&pid=ImgRaw&r=0"
+    },
+    {
+        ID:"petroleum",
+        id:"accountingI",
+        name:"Accounting I",
+        code:"CSM 157",
+        year: 2,
+        semester:1,
+        img:"https://th.bing.com/th/id/R.99d213bd58125e0c71ba803a8b97d38f?rik=%2brQEZjHpm0pNIg&pid=ImgRaw&r=0"
+    },
+    {
+        ID:"petroleum",
+        id:"frenchI",
+        name:"French I",
+        code:"FREN 181",
+        year: 2,
+        semester:1,
+        img:"https://th.bing.com/th/id/OIP.QM0id-SaTNby-pWDtwYDHgHaE7?pid=ImgDet&rs=1"
+    },
+    {
+        ID:"petroleum",
+        id:"economicsI",
+        name:"Economics I",
+        code:"ECON 151",
+        year: 2,
+        semester:1,
+        img:"https://th.bing.com/th/id/R.5a89274213e8ff44b37d3612a093c29c?rik=3NIlTt82en8aEw&riu=http%3a%2f%2fstreetfins.com%2fwp-content%2fuploads%2f2019%2f06%2f2061_Deb-Word_Art2.rev_.1515788405.jpg&ehk=JcPKQh%2brcYm0evI1BVB28%2feA1yyM0SMeC3ow08poBy8%3d&risl=&pid=ImgRaw&r=0"
+    },
+    {
+        ID:"petroleum",
+        id:"calculuswithseveralvariables",
+        name:"Calculus with Several Variables",
+        code:"MATH 252",
+        year: 2,
+        semester:2,
+        img:"https://th.bing.com/th/id/R.dda1ead370a9054f21fdab0e70ba74a3?rik=V%2f%2blo1CBnVXS9g&pid=ImgRaw&r=0"
+    },
+    {
+        ID:"petroleum",
+        id:"heattransfer",
+        name:"Heat Transfer Processes",
+        code:"PE 252",
+        year: 2,
+        semester:2,
+        img:"https://th.bing.com/th/id/R.66a2d77825b5d36ea575854860040389?rik=GqHJb3PPjeSzaQ&pid=ImgRaw&r=0"
+    },
+    {
+        ID:"petroleum",
+        id:"Drawingforengineers",
+        name:"Drawing for Engineers",
+        code:"PE 254",
+        year: 2,
+        semester:2,
+        img: "https://th.bing.com/th/id/R.7dbcb2d23d5fd682c081bd7a78f9f567?rik=7tn37NS2GFBEzw&pid=ImgRaw&r=0"
+    },
+    {
+        ID:"petroleum",
+        id:"regionalgeology",
+        name:"Regional Geology",
+        code:"PE 256",
+        year: 2,
+        semester:2,
+        img:"https://th.bing.com/th/id/OIP.G3A_uPDaoy-tLwQKVTcBbwHaEK?pid=ImgDet&rs=1"
+    },
+    {
+        ID:"petroleum",
+        id:"petroleumthermodynamicsII",
+        name:"Petroleum Engineering Thermodynamics II",
+        code:"PE 258",
+        year: 2,
+        semester:2,
+        img:"https://www.universetoday.com/wp-content/uploads/2010/10/First-Law-of-Thermodynamics-1280x720.png"
+    },
+    {
+        ID:"petroleum",
+        id:"Reservoirfluidproperties",
+        name:"Reservoir Fluid Properties",
+        code:"PE 260",
+        year: 2,
+        semester:2,
+        img:"https://th.bing.com/th/id/R.3464f2d2bb2e025b251bd043200da3fa?rik=XhjhjPcxOwiYuQ&pid=ImgRaw&r=0"
+    },
+    {
+        ID:"petroleum",
+        id:"computerprogramminginoilandgas",
+        name:"Computer Programming in Oil and Gas",
+        code:"PE 262",
+        year: 2,
+        semester:2,
+        img:"https://th.bing.com/th/id/R.c082341b1d33ddaa345ee2cf38e09ff4?rik=Gu%2bsgAPCJsrjXg&pid=ImgRaw&r=0"
+    },
+    {
+        ID:"petroleum",
+        id:"priciplesoflandsurvey",
+        name:"Principles of Land Surveying and Hydrogrphic Science",
+        code:"PE264",
+        year: 2,
+        semester:2,
+        img:"https://th.bing.com/th/id/R.5167e910d40414314f6a8011f6953e67?rik=g8eM8vUGUxwSAg&pid=ImgRaw&r=0"
+    },
+  
+    {
+        ID:"petroleum",
+        id:"accountingII",
+        name:"Accounting II",
+        code:"CSM 158",
+        year: 2,
+        semester:2,
+        img:"https://th.bing.com/th/id/R.99d213bd58125e0c71ba803a8b97d38f?rik=%2brQEZjHpm0pNIg&pid=ImgRaw&r=0"
+    },
+    {
+        ID:"petroleum",
+        id:"frenchII",
+        name:"French for Communication II",
+        code:"FREN 182",
+        year: 2,
+        semester:2,
+        img: "https://th.bing.com/th/id/OIP.XpVGmqQBBp4g2tRqWXIAMwHaHa?pid=ImgDet&rs=1"
+    },
+    {
+        ID:"petroleum",
+        id:"economicsII",
+        name:"Introductory Economics II",
+        code:"ECON 152",
+        year: 2,
+        semester:2,
+        img:"https://th.bing.com/th/id/R.5a89274213e8ff44b37d3612a093c29c?rik=3NIlTt82en8aEw&riu=http%3a%2f%2fstreetfins.com%2fwp-content%2fuploads%2f2019%2f06%2f2061_Deb-Word_Art2.rev_.1515788405.jpg&ehk=JcPKQh%2brcYm0evI1BVB28%2feA1yyM0SMeC3ow08poBy8%3d&risl=&pid=ImgRaw&r=0"
+    },
+    {
+        ID:"petroleum",
+        id:"petroleumengineeringlabI",
+        name:"Petroleum Engineering Lab I",
+        code:"PE 355",
+        year: 3,
+        semester:1,
+        img:"https://th.bing.com/th/id/R.96ab30bd1dd12d663d5e5a37a8a93ec1?rik=QcFrdnoS17WWOg&pid=ImgRaw&r=0"
+    },  
+    {
+        ID:"petroleum",
+        id:"petroleumproengineeringI",
+        name:"Petroleum Production Engineering  I",
+        code:"PE 357",
+        year: 3,
+        semester:1,
+        img:"https://th.bing.com/th/id/R.96ab30bd1dd12d663d5e5a37a8a93ec1?rik=QcFrdnoS17WWOg&pid=ImgRaw&r=0"
+    },  
+    {
+        ID:"petroleum",
+        id:"drillingengI",
+        name:"Drilling Engineering I",
+        code:"PE 353",
+        year: 3,
+        semester:1,
+        img:"https://th.bing.com/th/id/R.2dbed2aa778db9bd25d495fdc6069896?rik=Nm6gjzIGcNx8Hw&pid=ImgRaw&r=0&sres=1&sresct=1"
+    }, 
+    {
+        ID:"petroleum",
+        id:"Petroleumrockmechanics",
+        name:"Petroleum Rock Mechanics",
+        code:"PE 351",
+        year: 3,
+        semester:1,
+        img:"https://th.bing.com/th/id/R.d67dcaaf99118aac8754a0652b9ae16a?rik=hDAhEuJFCKb3Vw&riu=http%3a%2f%2fwww.apg-pro.com%2fwp-content%2fuploads%2f2019%2f09%2fgeomech01-e1570140735901.jpg&ehk=LwgLDKKjOMzmLIbQw%2b4gOv4lhQUoHfaLC471SARdZZw%3d&risl=&pid=ImgRaw&r=0"
+    }, 
+    {
+        ID:"petroleum",
+        id:"reservoirengineering II",
+        name:"Reservoir Engineering II",
+        code:"PE 361",
+        year: 3,
+        semester:1,
+        img:"https://th.bing.com/th/id/R.02630bea99dc4d65c2d11618a97d1a1a?rik=IXLuO05wmAL%2bqA&pid=ImgRaw&r=0"
+    },
+    {
+        ID:"petroleum",
+        id:"reservoirpetrolphysics",
+        name:"Reservoir Petrolphysics",
+        code:"PE 359",
+        year: 3,
+        semester:1,
+        img:"https://th.bing.com/th/id/R.3464f2d2bb2e025b251bd043200da3fa?rik=XhjhjPcxOwiYuQ&pid=ImgRaw&r=0"
+    }, 
+    {
+        ID:"petroleum",
+        id:"fomationevaluation",
+        name:"Formation Evaluation",
+        code:"PE 363",
+        year: 3,
+        semester:1,
+        img:"https://www.timlogsolutions.com/wp-content/uploads/2019/04/evaluation-de-la-formation.png"
+    }, 
+    {
+        ID:"petroleum",
+        id:"statsforpetrolengineers",
+        name:"Statistics for Petroleum Engineers",
+        code:"PE 367",
+        year: 3,
+        semester:1,
+        img:"https://th.bing.com/th/id/R.5e17e9cfa31a3b054c93140dfba2beb4?rik=6G6mZ8ttFSLOmw&pid=ImgRaw&r=0"
+    }, 
+    {
+        ID:"petroleum",
+        id:"numericalmethods",
+        name:"Numerical Methods for Petroleum Engineers",
+        code:"MATH 350",
+        year: 3,
+        semester:2,
+        img:"https://th.bing.com/th/id/R.c90d92bd367976037681342dadbac0a9?rik=h9S3o3ZNb2G%2bkg&pid=ImgRaw&r=0"
+    },
+    {
+        ID:"petroleum",
+        id:"petrolgeology",
+        name:"Petroleum Geology",
+        code:"PE 352",
+        year: 3,
+        semester:2,
+        img:"https://th.bing.com/th/id/OIP.G3A_uPDaoy-tLwQKVTcBbwHaEK?pid=ImgDet&rs=1"
+    }, 
+    {
+        ID:"petroleum",
+        id:"petroleumproengineeringII",
+        name:"Petroleum Production Engineering  II",
+        code:"PE 357",
+        year: 3,
+        semester:2,
+        img:"https://th.bing.com/th/id/R.96ab30bd1dd12d663d5e5a37a8a93ec1?rik=QcFrdnoS17WWOg&pid=ImgRaw&r=0"
+    },  
+    {
+        ID:"petroleum",
+        id:"drillingengII",
+        name:"Drilling Engineering II",
+        code:"PE 354",
+        year: 3,
+        semester:2,
+        img:"https://th.bing.com/th/id/R.2dbed2aa778db9bd25d495fdc6069896?rik=Nm6gjzIGcNx8Hw&pid=ImgRaw&r=0&sres=1&sresct=1"
+    }, 
+    {
+        ID:"petroleum",
+        id:"welltesting",
+        name:"Well Testing",
+        code:"PE 360",
+        year: 3,
+        semester:2,
+        img:"https://th.bing.com/th/id/R.5a00021e25fdd1c856dee8f56833b143?rik=rgydmz3QEz1jGg&pid=ImgRaw&r=0"
+    },  
+    {
+        ID:"petroleum",
+        id:"geostatistics",
+        name:"Geostatistics",
+        code:"PE 362",
+        year: 3,
+        semester:2,
+        img:"https://th.bing.com/th/id/R.06194b8444c6d7f7cd21bbd07bbb8319?rik=VJbDOm6WnpXyxQ&pid=ImgRaw&r=0"
+    },  
+    {
+        ID:"petroleum",
+        id:"oilandgasgeophysics",
+        name:"Oil and Gas Geophysics",
+        code:"PE 364",
+        year: 3,
+        semester:2,
+        img:"https://th.bing.com/th/id/R.61ca20f7c10ec8f441154553049e3cc8?rik=ibYvN6%2fFewmuJA&pid=ImgRaw&r=0"
+    },  
+    {
+        ID:"petroleum",
+        id:"healthsafetyandenvironment",
+        name:"Health Safety & Environment",
+        code:"PE 366",
+        year: 3,
+        semester:2,
+        img:"https://th.bing.com/th/id/R.1b679e6e9b5caa52477f35e73dcc6807?rik=IcTfvUvVNVZnYg&pid=ImgRaw&r=0"
+    },  
+    {
+        ID:"petroleum",
+        id:"petroleumengineeringlabII",
+        name:"petroleum Engineering Lab II",
+        code:"PE 356",
+        year: 3,
+        semester:2,
+        img:"https://th.bing.com/th/id/R.96ab30bd1dd12d663d5e5a37a8a93ec1?rik=QcFrdnoS17WWOg&pid=ImgRaw&r=0"
+    },  
+    {
+        ID:"petroleum",
+        id:"engineeringeconomicsandmanagment",
+        name:"Engineering Economics and Managment",
+        code:"ME 491",
+        year: 4,
+        semester:1,
+        img:"https://th.bing.com/th/id/R.5a89274213e8ff44b37d3612a093c29c?rik=3NIlTt82en8aEw&riu=http%3a%2f%2fstreetfins.com%2fwp-content%2fuploads%2f2019%2f06%2f2061_Deb-Word_Art2.rev_.1515788405.jpg&ehk=JcPKQh%2brcYm0evI1BVB28%2feA1yyM0SMeC3ow08poBy8%3d&risl=&pid=ImgRaw&r=0"
+    },       
+    {
+        ID:"petroleum",
+        id:"designprojectI",
+        name:"Design Project I",
+        code:"PE 453",
+        year: 4,
+        semester:1,
+        img:"https://th.bing.com/th/id/OIP.bqstBspB7xEJq3NIZ5ebGAEsCo?pid=ImgDet&rs=1"
+    },
+    {
+        ID:"petroleum",
+        id:"petrolecons",
+        name:"Petroleum Economics",
+        code:"PE 451",
+        year: 4,
+        semester:1,
+        img:"https://th.bing.com/th/id/R.5a89274213e8ff44b37d3612a093c29c?rik=3NIlTt82en8aEw&riu=http%3a%2f%2fstreetfins.com%2fwp-content%2fuploads%2f2019%2f06%2f2061_Deb-Word_Art2.rev_.1515788405.jpg&ehk=JcPKQh%2brcYm0evI1BVB28%2feA1yyM0SMeC3ow08poBy8%3d&risl=&pid=ImgRaw&r=0"
+    },
+    {
+        ID:"petroleum",
+        id:"reservoirsimulation",
+        name:"Reservoir Simulation",
+        code:"PE 455",
+        year: 4,
+        semester:1,
+        img:"https://th.bing.com/th/id/R.3464f2d2bb2e025b251bd043200da3fa?rik=XhjhjPcxOwiYuQ&pid=ImgRaw&r=0"
+    },
+    {
+        ID:"petroleum",
+        id:"integratedfielddesign",
+        name:"Integrated Field Design",
+        code:"PE 451",
+        year: 4,
+        semester:1,
+        img:"https://th.bing.com/th/id/R.50a42789d4a3134b751775df61e9ada4?rik=GEVBHbUYgmtkxg&pid=ImgRaw&r=0"
+    },
+    {
+        ID:"petroleum",
+        id:"naturalgaseng",
+        name:"Natural Gas Engineering",
+        code:"PE 459",
+        year: 4,
+        semester:1,
+        img:"https://th.bing.com/th/id/R.934a9c3e911b3513bb29f335bfebf8bc?rik=1gQhhBvGga%2fplQ&pid=ImgRaw&r=0"
+    },
+    {
+        ID:"petroleum",
+        id:"fieldtripandindustrialattachment",
+        name:"Field Trip & Industrial Attachment",
+        code:"PE 471",
+        year: 4,
+        semester:1,
+        img:"https://th.bing.com/th/id/R.bfc9b000424ba22d824948e070b3d109?rik=g7K5RnJ4h5oytA&pid=ImgRaw&r=0"
+    },
+    {
+        ID:"petroleum",
+        id:"reservoirrecoverytech",
+        name:"Reservoir Recovery Techniques",
+        code:"PE 450",
+        year: 4,
+        semester:2,
+        img:"https://th.bing.com/th/id/R.3464f2d2bb2e025b251bd043200da3fa?rik=XhjhjPcxOwiYuQ&pid=ImgRaw&r=0"
+    },
+    {
+        ID:"petroleum",
+        id:"petrolprojectevaluation",
+        name:"Petroleum Project Evaluation",
+        code:"PE 452",
+        year: 4,
+        semester:2,
+        img:"https://th.bing.com/th/id/OIP.bqstBspB7xEJq3NIZ5ebGAEsCo?pid=ImgDet&rs=1"
+    },
+    {
+        ID:"petroleum",
+        id:"designprojectII",
+        name:"Design Project II",
+        code:"PE 454",
+        year: 4,
+        semester:2,
+        img:"https://th.bing.com/th/id/OIP.bqstBspB7xEJq3NIZ5ebGAEsCo?pid=ImgDet&rs=1"
+    },
+    {
+        ID:"petroleum",
+        id:"wellcompletionandsimulation",
+        name:"Well COmpletion & Simulation",
+        code:"PE 456",
+        year: 4,
+        semester:2,
+        img:"https://th.bing.com/th/id/R.5a00021e25fdd1c856dee8f56833b143?rik=rgydmz3QEz1jGg&pid=ImgRaw&r=0"
+    },
+    {
+        ID:"petroleum",
+        id:"oilfieldgeochemistry",
+        name:"Oilfield Geochemistry",
+        code:"PE 458",
+        year: 4,
+        semester:2,
+        img:"https://th.bing.com/th/id/R.e8a51951189b4f063a5755ec0090b098?rik=L%2bW0yzKt9lYmRA&pid=ImgRaw&r=0&sres=1&sresct=1"
+    },
+    {
+        ID:"petroleum",
+        id:"entrepreneurshipandleadership",
+        name:"Entrepreneurship and Leadership",
+        code:"PE 460",
+        year: 4,
+        semester:2,
+        img:"https://th.bing.com/th/id/R.943558ac585c9a77b6f2a8d95a3c8602?rik=vNaik16tDWxtPg&pid=ImgRaw&r=0"
+    }
     
 ]
 

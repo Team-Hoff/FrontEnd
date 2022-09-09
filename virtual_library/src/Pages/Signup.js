@@ -1,4 +1,4 @@
-import { StyledContainer,StyledFormArea, StyledFormButton, Avatar, StyledTitle, colors, ButtonGroup, ExtraText, TextLink, CopyrightText } from "../Components/Style";
+import { StyledContainer,StyledFormArea, StyledFormButton, Avatar, StyledTitle, StyledSubTitle, colors, ButtonGroup, ExtraText, TextLink, CopyrightText } from "../Components/Style";
 
 import Logo from './../Assets/Klogo.png';
 
@@ -58,6 +58,7 @@ const Signup = () => {
         <StyledTitle color='Light black' size={40}>
         <span style={{font: "normal 36px 'Cookie' cursive", margin: 0}}>Virtual</span><span style={{color:'#e0ac1c',fontFamily: 'Poppins'}}>Library</span>
           </StyledTitle></div>
+          <StyledSubTitle color='Black' size={35} style={{fontFamily:'Poppins'}}>Signup</StyledSubTitle>
           <Formik
             initialValues={{
               fullname : "",

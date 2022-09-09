@@ -6,9 +6,11 @@ import Home from '../Home';
 import Program from '../Program';
 import Course from '../Course';
 import Logout from "./Logout";
-import Profile from "../profilepage/Profilepage";
+import Profile from "../profilepage/profilepage";
 import PageNotFound from "../PageNotFound/PageNotFound";
 import Display from "./Display";
+import ForgotPassword from "../PasswordChange/ForgotPassword";
+import ResetPassword from "../PasswordChange/ResetPassword";
 
 
 import { Navigate } from 'react-router-dom';
@@ -19,6 +21,7 @@ import { useRoutes } from "react-router-dom";
 const ProtectedRoutes = () => {
     // const {user} = useAuth();
     const user = true;
+    
     const routes = useRoutes([
         {
             path: "/",
@@ -39,6 +42,14 @@ const ProtectedRoutes = () => {
         {
             path: "/home/:id/:id",
             element: user?<Course />: <Navigate replace to="/" />
+        },
+        {
+            path: "/forgotpassword",
+            element: <ForgotPassword/>
+        },
+        {
+            path: "/resetpassword",
+            element: <ResetPassword/>
         },
         {
             path: "/signup",

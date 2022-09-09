@@ -1,44 +1,36 @@
-import React from "react"
-import "./profilepage.css"
+import React from "react";
+import "./profilepage.css";
+import Navbar from "../../Components/Navbar/Navbar";
+import Footer from "../../Components/Footer/Footer";
 
 export default function Profile(){
 
     return(
-        <div className="contain">
 
-            <div className="Left-display">
-               
-            </div>
+        <div>
+        <Navbar/>
 
-            <div className="Right-display">
-                <h2>PROFILE</h2>
+        <div className="contain">             
+                <div className="profile-container">
+                <div className="img-container">
+                    <div className="image">
+                    </div>                    
+                 </div>
 
-                <div className="details-container">
+                 <div className="profile-details">
+                    <h1 className="profile-header">MY PROFILE</h1>
+                    <div><span>FULL NAME:</span>             jUMMAI</div>
+                    <div><span>EMAIL:</span>             jUMMAI</div>
+                    <div><span>LEVEL:</span>            100</div>
+                    <div><span>DEPARTMENT:</span>        COMPUTER ENGINEERING</div>
+                 </div>
 
-                <div className="details det-1">
-                 <div >FULL NAME</div>
-                 <div >PROGRAMME</div>
-                 <div>LEVEL</div>
-                 <div>EMAIL</div>
                 </div>
-
-                <div className="details det-2">
-                 <div >Jummai Alhassan</div>
-                 <div >Computer</div>
-                 <div>300</div>
-                 <div>jummy30@gmail.com</div>
-                               
-                </div>
-                
-               
-                
-               
-                
-                
-                </div>
-                
-            </div>
 
         </div>
+
+        <Footer />
+        </div>
+        
     )
 }

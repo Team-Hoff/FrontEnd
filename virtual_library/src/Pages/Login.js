@@ -1,4 +1,4 @@
-import { StyledContainer,StyledFormArea, StyledFormButton, Avatar, StyledTitle, colors, ButtonGroup, ExtraText, TextLink, CopyrightText} from "../Components/Style";
+import { StyledContainer,StyledFormArea, StyledFormButton, Avatar, StyledTitle, StyledSubTitle, colors, ButtonGroup, ExtraText, TextLink, CopyrightText} from "../Components/Style";
 
 import Logo from './../Assets/Klogo.png';
 
@@ -39,6 +39,7 @@ const Login = () => {
           <StyledTitle color='Light black' size={40}>
             <span style={{font: "normal 36px 'Cookie' cursive", margin: 0}}>Virtual</span><span style={{color:'#e0ac1c',fontFamily: 'Poppins'}}>Library</span>
           </StyledTitle></div>
+          <StyledSubTitle color='Black' size={35} style={{fontFamily:'Poppins'}}>Login</StyledSubTitle>
           <Formik
             initialValues={{
               username : "",
@@ -73,8 +74,8 @@ const Login = () => {
               />
 
               
-               <TextLink to="#" style={{position:'relative', left:'-100px', top:'0px', color:'red', fontSize:'17px',letterSpacing:'0px'}}>
-                Forget Password?
+               <TextLink to="/forgotpassword" style={{position:'relative', left:'-100px', top:'0px', color:'red', fontSize:'17px',letterSpacing:'0px'}}>
+                Forgot Password?
               </TextLink> 
 
               <ButtonGroup>

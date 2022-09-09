@@ -1249,7 +1249,7 @@ export const CourseData=[
         code:"ENGL 158",
         year:1,
         semester:2,
-        img: ""
+        img: "https://th.bing.com/th/id/OIP.XpVGmqQBBp4g2tRqWXIAMwHaHa?pid=ImgDet&rs=1"
 
     },
     {
@@ -1769,7 +1769,7 @@ export const CourseData=[
         code:"ENGL 157",
         year:1,
         semester:1,
-        img: ""
+        img: "https://th.bing.com/th/id/OIP.XpVGmqQBBp4g2tRqWXIAMwHaHa?pid=ImgDet&rs=1"
 
     },
     {
@@ -2338,7 +2338,7 @@ export const CourseData=[
         code:"ENGL 157",
         year:1,
         semester:1,
-        img: ""
+        img: "https://th.bing.com/th/id/OIP.XpVGmqQBBp4g2tRqWXIAMwHaHa?pid=ImgDet&rs=1"
 
     },
     {
@@ -2950,7 +2950,7 @@ export const CourseData=[
         code :"ENGL 157",
         year: 1,
         semester:1,
-        img: ""
+        img: "https://th.bing.com/th/id/OIP.XpVGmqQBBp4g2tRqWXIAMwHaHa?pid=ImgDet&rs=1"
     },
     {
         ID:"chemical",

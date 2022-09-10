@@ -3889,7 +3889,7 @@ export const CourseData=[
         code:"COE 153",
         year: 1,
         semester:1,
-        img: ""
+        img: "https://th.bing.com/th/id/R.35f5f2bc964e7ec58c95738b1f7d0666?rik=w3LWTPMvTbukyQ&pid=ImgRaw&r=0"
     }, 
     {
         ID:"biomedical",
@@ -3952,7 +3952,7 @@ export const CourseData=[
         code:"COE 152",
         year: 1,
         semester:2,
-        img: ""
+        img: "https://gp1.wac.edgecastcdn.net/802892/http_public_production/artists/images/6206141/original/crop:x0y0w2122h1592/hash:1527715207/Basic-Electronics.jpg?1527715207"
     }, 
     {
         ID:"biomedical",
@@ -3966,7 +3966,7 @@ export const CourseData=[
     {
         ID:"biomedical",
         id:"electricalengineeringdrawing",
-        name:"Electical E ngineering Drawing",
+        name:"Electical Engineering Drawing",
         code:"EE 156",
         year: 1,
         semester:2,
@@ -3983,12 +3983,12 @@ export const CourseData=[
     }, 
     {
         ID:"biomedical",
-        id:"calculuswithanalysis",
-        name:"Calculus with Analysis",
+        id:"calculuswithsinglevariable",
+        name:"Calculus with Single Variable",
         code:"MATH 152",
         year: 1,
         semester:2,
-        img: ""
+        img: "https://th.bing.com/th/id/R.c90d92bd367976037681342dadbac0a9?rik=h9S3o3ZNb2G%2bkg&pid=ImgRaw&r=0"
     }, 
     {
         ID:"biomedical",
@@ -4033,7 +4033,7 @@ export const CourseData=[
         code:"BME 253",
         year: 2,
         semester:1,
-        img: ""
+        img: "https://th.bing.com/th/id/OIP.l32Fyk3viTTC5xUAbSrtJAAAAA?pid=ImgDet&w=392&h=272&rs=1"
     }, 
     {
         ID:"biomedical",
@@ -4051,7 +4051,7 @@ export const CourseData=[
         code:"CENG 291",
         year: 2,
         semester:1,
-        img: ""
+        img: "https://th.bing.com/th/id/R.80bb339f00f9f64e2a244fd78e211111?rik=wvh1DfJs%2fXy1Cg&pid=ImgRaw&r=0"
     }, 
     {
         ID:"biomedical",
@@ -4060,7 +4060,7 @@ export const CourseData=[
         code:"COE 271",
         year: 2,
         semester:1,
-        img: ""
+        img: "https://th.bing.com/th/id/R.cd6a8c7da47894fd7cc51a2560e66ba3?rik=hHNY8KQ312qYTg&pid=ImgRaw&r=0&sres=1&sresct=1"
     }, 
     {
         ID:"biomedical",
@@ -4069,7 +4069,7 @@ export const CourseData=[
         code:"ENGL 263",
         year: 2,
         semester:1,
-        img: ""
+        img: "https://th.bing.com/th/id/R.c0474e2884a928682c7e3f17e600ab60?rik=SA2BuU8x0j%2fI%2fg&pid=ImgRaw&r=0"
     }, 
     {
         ID:"biomedical",
@@ -4078,7 +4078,7 @@ export const CourseData=[
         code:"MATH 251",
         year: 2,
         semester:1,
-        img: ""
+        img: "https://th.bing.com/th/id/R.fa6b1af16091e5b22772d5cb354395e8?rik=nco5mByW1xIQug&pid=ImgRaw&r=0"
     }, 
     {
         ID:"biomedical",
@@ -4087,7 +4087,7 @@ export const CourseData=[
         code:"FC 181",
         year: 2,
         semester:1,
-        img: ""
+        img: "https://th.bing.com/th/id/OIP.QM0id-SaTNby-pWDtwYDHgHaE7?pid=ImgDet&rs=1"
     }, 
     {
         ID:"biomedical",
@@ -4096,7 +4096,7 @@ export const CourseData=[
         code:"MATH 252",
         year: 2,
         semester:2,
-        img: ""
+        img: "https://th.bing.com/th/id/R.c90d92bd367976037681342dadbac0a9?rik=h9S3o3ZNb2G%2bkg&pid=ImgRaw&r=0"
     }, 
     {
         ID:"biomedical",
@@ -4132,7 +4132,7 @@ export const CourseData=[
         code:"",
         year: 2,
         semester:2,
-        img: ""
+        img: "https://th.bing.com/th/id/OIP.QM0id-SaTNby-pWDtwYDHgHaE7?pid=ImgDet&rs=1"
     }, 
     {
         ID:"biomedical",
@@ -4141,7 +4141,7 @@ export const CourseData=[
         code:"ENGL 264",
         year: 2,
         semester:2,
-        img: ""
+        img: "https://th.bing.com/th/id/R.c0474e2884a928682c7e3f17e600ab60?rik=SA2BuU8x0j%2fI%2fg&pid=ImgRaw&r=0"
     }, 
     {
         ID:"biomedical",
@@ -4159,7 +4159,7 @@ export const CourseData=[
         code:"COE 371",
         year: 3,
         semester:1,
-        img: ""
+        img: "https://th.bing.com/th/id/R.37375960e468ba203195d495fc195018?rik=v3AGF%2frWTGFCnQ&riu=http%3a%2f%2fphotos.demandstudios.com%2fgetty%2farticle%2f240%2f4%2f122399982.jpg&ehk=14mVjJtbWaNGaMXLSnID9f1UMZc8IVs2Q25McqbotaI%3d&risl=&pid=ImgRaw&r=0"
     }, 
     {
         ID:"biomedical",
@@ -4177,7 +4177,7 @@ export const CourseData=[
         code:"MATH 353",
         year: 3,
         semester:1,
-        img: ""
+        img: "https://s3.amazonaws.com/s3.timetoast.com/public/uploads/photos/11732619/Prob_Stat.jpeg"
     }, 
     {
         ID:"biomedical",
@@ -4186,7 +4186,7 @@ export const CourseData=[
         code:"MATH 351",
         year: 3,
         semester:1,
-        img: ""
+        img: "https://th.bing.com/th/id/R.c90d92bd367976037681342dadbac0a9?rik=h9S3o3ZNb2G%2bkg&pid=ImgRaw&r=0"
     }, 
     {
         ID:"biomedical",
@@ -4195,7 +4195,7 @@ export const CourseData=[
         code:"COE 381",
         year: 3,
         semester:1,
-        img: ""
+        img: "https://th.bing.com/th/id/OIP.itgYcy7khhc5cw0lXEAqeQHaJ4?pid=ImgDet&w=768&h=1024&rs=1"
     }, 
     {
         ID:"biomedical",
@@ -4213,7 +4213,7 @@ export const CourseData=[
         code:"COE 351",
         year: 3,
         semester:1,
-        img: ""
+        img: "https://goedu.ac/wp-content/uploads/2020/01/Object-Oriented-Programming-Course-Image.jpg"
     }, 
     {
         ID:"biomedical",
@@ -4276,7 +4276,7 @@ export const CourseData=[
         code:"BME 497",
         year: 4,
         semester:1,
-        img: ""
+        img: "https://th.bing.com/th/id/OIP.QHdgkm4kpOBv3xhG3bqfBwHaEK?pid=ImgDet&rs=1"
     }, 
     {
         ID:"biomedical",
@@ -4303,7 +4303,7 @@ export const CourseData=[
         code:"BME 499",
         year: 4,
         semester:1,
-        img: ""
+        img: "https://th.bing.com/th/id/R.1e832bc224a4d7df1f6d2c42cd94aa73?rik=h70VsrmJ0dVl6A&riu=http%3a%2f%2fwonderfulengineering.com%2fwp-content%2fuploads%2f2014%2f05%2fWhat-is-Biomedical-Engineering-7.jpg&ehk=V2c16QX5vqj7DKuY56Od0KTN6j1gvNpa%2bcv2Ernq1yo%3d&risl=&pid=ImgRaw&r=0"
     }, 
     {
         ID:"biomedical",
@@ -4312,7 +4312,7 @@ export const CourseData=[
         code:"ME 491",
         year: 4,
         semester:1,
-        img: ""
+        img: "https://ied.eu/wp-content/uploads/2020/09/entrepreneurship-and-economic-development.gif"
     }, 
     {
         ID:"biomedical",
@@ -4330,7 +4330,7 @@ export const CourseData=[
         code:"BME 451",
         year: 4,
         semester:1,
-        img: ""
+        img: "https://th.bing.com/th/id/R.c13f5e8d7f8e30f7010bcae320cbdd13?rik=aZkwkTzSG8b6cw&pid=ImgRaw&r=0"
     }, 
     {
         ID:"biomedical",
@@ -4357,7 +4357,7 @@ export const CourseData=[
         code:"BME 498",
         year: 4,
         semester:2,
-        img: ""
+        img: "https://th.bing.com/th/id/OIP.QHdgkm4kpOBv3xhG3bqfBwHaEK?pid=ImgDet&rs=1"
     }, 
     {
         ID:"biomedical",
@@ -4366,7 +4366,7 @@ export const CourseData=[
         code:"ME 492",
         year: 4,
         semester:2,
-        img: ""
+        img: "https://ied.eu/wp-content/uploads/2020/09/entrepreneurship-and-economic-development.gif"
     }, 
     {
         ID:"biomedical",
@@ -4402,7 +4402,7 @@ export const CourseData=[
         code:"GE 161",
         year: 1,
         semester:1,
-        img: ""
+        img: "https://th.bing.com/th/id/R.ccfc9d8003754de5bc2d6feb1f57fe6e?rik=fTul2Ea8TW3ekw&pid=ImgRaw&r=0"
     }, 
     {
         ID:"geomatic",
@@ -4456,7 +4456,7 @@ export const CourseData=[
         code:"GE 192",
         year: 1,
         semester:2,
-        img: ""
+        img: "https://kentico.nait.ca/NAIT/media/nait-ca-content/schools/SAST/surveystickgisvest-2018-10-1000x594.jpg?ext=.jpg"
     }, 
     {
         ID:"geomatic",
@@ -4465,7 +4465,7 @@ export const CourseData=[
         code:"MATH 152",
         year: 1,
         semester:2,
-        img: ""
+        img: "https://th.bing.com/th/id/R.c90d92bd367976037681342dadbac0a9?rik=h9S3o3ZNb2G%2bkg&pid=ImgRaw&r=0"
     }, 
     {
         ID:"geomatic",
@@ -4474,7 +4474,7 @@ export const CourseData=[
         code:"EE 152",
         year: 1,
         semester:2,
-        img: ""
+        img: "https://th.bing.com/th/id/R.805bb8c45b49705783459c144a31bf0c?rik=eEZmy5dafNt9ig&riu=http%3a%2f%2fwww.electronicsandyou.com%2fblog%2fwp-content%2fuploads%2f2018%2f12%2felectronics-1.jpg&ehk=74YeEcebTV60VrKcvDkoG7p96ko6XZibk0GTu2oY1hs%3d&risl=&pid=ImgRaw&r=0"
     }, 
     {
         ID:"geomatic",
@@ -4492,7 +4492,7 @@ export const CourseData=[
         code:"GE 152",
         year: 1,
         semester:2,
-        img: ""
+        img: "https://th.bing.com/th/id/R.1b9ab48e45ca2688703a68fe844390e7?rik=JjoxVdUipcUr6A&riu=http%3a%2f%2fgeography.name%2fwp-content%2fuploads%2f2015%2f08%2fmaps.jpg&ehk=2N%2bGATddzGn1nCI6UOrjNeW%2bRITDK4u4sClsBmD8RYc%3d&risl=&pid=ImgRaw&r=0"
     }, 
     {
         ID:"geomatic",
@@ -4501,7 +4501,7 @@ export const CourseData=[
         code:"GE 158",
         year: 1,
         semester:2,
-        img: ""
+        img: "https://th.bing.com/th/id/R.9d37769f8bea70c46bae493132bdcbc0?rik=Yj9b1GNw8s00zw&pid=ImgRaw&r=0"
     }, 
     {
         ID:"geomatic",
@@ -4510,7 +4510,7 @@ export const CourseData=[
         code:"GE 162",
         year: 1,
         semester:2,
-        img: ""
+        img: "https://th.bing.com/th/id/R.ccfc9d8003754de5bc2d6feb1f57fe6e?rik=fTul2Ea8TW3ekw&pid=ImgRaw&r=0"
     }, 
     {
         ID:"geomatic",
@@ -4519,7 +4519,7 @@ export const CourseData=[
         code:"CENG 291",
         year: 2,
         semester:1,
-        img: ""
+        img: "https://th.bing.com/th/id/R.80bb339f00f9f64e2a244fd78e211111?rik=wvh1DfJs%2fXy1Cg&pid=ImgRaw&r=0"
     }, 
     {
         ID:"geomatic",
@@ -4528,7 +4528,7 @@ export const CourseData=[
         code:"ENGL 263",
         year: 2,
         semester:1,
-        img: ""
+        img: "https://th.bing.com/th/id/R.c0474e2884a928682c7e3f17e600ab60?rik=SA2BuU8x0j%2fI%2fg&pid=ImgRaw&r=0"
     }, 
     {
         ID:"geomatic",
@@ -4564,7 +4564,7 @@ export const CourseData=[
         code:"GE 271",
         year: 2,
         semester:1,
-        img: ""
+        img: "https://th.bing.com/th/id/R.856105e092ee35d5542e2988d9ddc354?rik=DD9Ygd8sttpYPg&riu=http%3a%2f%2fwww.btc.edu%2ffiles%2fimages%2fprograms%2fcontent%2fEngineering-Geomatics.jpg&ehk=7Rw%2foqYdvNzO%2bs2LkJ4Lg%2fQHuAT9Xejvt1%2b1vK7kDbA%3d&risl=&pid=ImgRaw&r=0"
     }, 
     {
         ID:"geomatic",
@@ -4582,7 +4582,7 @@ export const CourseData=[
         code:"MATH 251",
         year: 2,
         semester:1,
-        img: ""
+        img: "https://th.bing.com/th/id/R.fa6b1af16091e5b22772d5cb354395e8?rik=nco5mByW1xIQug&pid=ImgRaw&r=0"
     }, 
     {
         ID:"geomatic",
@@ -4591,7 +4591,7 @@ export const CourseData=[
         code:"CE 260",
         year: 2,
         semester:2,
-        img: ""
+        img: "https://krishnalab.in/images/soil-rock.jpg"
     }, 
     {
         ID:"geomatic",
@@ -4600,7 +4600,7 @@ export const CourseData=[
         code:"ENGL 264",
         year: 2,
         semester:2,
-        img: ""
+        img: "https://th.bing.com/th/id/R.c0474e2884a928682c7e3f17e600ab60?rik=SA2BuU8x0j%2fI%2fg&pid=ImgRaw&r=0"
     }, 
     {
         ID:"geomatic",
@@ -4609,7 +4609,7 @@ export const CourseData=[
         code:"GE 262",
         year: 2,
         semester:2,
-        img: ""
+        img: "https://th.bing.com/th/id/R.afc726f37482706c1769760d8c4d6758?rik=MRSPfzTZ7no1aw&riu=http%3a%2f%2f1.bp.blogspot.com%2f-4xO7BbuXcVQ%2fVycnzHtzs_I%2fAAAAAAAACMo%2frlYXfzllKPoKBGahPS132ABb2jg_zofwQCK4B%2fs1600%2f4.png&ehk=7N1TF6IN7KCupxJ79JlU%2bqTzkYMxSmFurDuNDH%2fuYYo%3d&risl=&pid=ImgRaw&r=0"
     }, 
     {
         ID:"geomatic",
@@ -4618,7 +4618,7 @@ export const CourseData=[
         code:"GE 272",
         year: 2,
         semester:2,
-        img: ""
+        img: "https://th.bing.com/th/id/R.856105e092ee35d5542e2988d9ddc354?rik=DD9Ygd8sttpYPg&riu=http%3a%2f%2fwww.btc.edu%2ffiles%2fimages%2fprograms%2fcontent%2fEngineering-Geomatics.jpg&ehk=7Rw%2foqYdvNzO%2bs2LkJ4Lg%2fQHuAT9Xejvt1%2b1vK7kDbA%3d&risl=&pid=ImgRaw&r=0"
     }, 
     {
         ID:"geomatic",
@@ -4627,7 +4627,7 @@ export const CourseData=[
         code:"GE 292",
         year: 2,
         semester:2,
-        img: ""
+        img: "https://kentico.nait.ca/NAIT/media/nait-ca-content/schools/SAST/surveystickgisvest-2018-10-1000x594.jpg?ext=.jpg"
     }, 
     {
         ID:"geomatic",
@@ -4646,7 +4646,7 @@ export const CourseData=[
         code:"MATH 252",
         year: 2,
         semester:2,
-        img: ""
+        img: "https://i.pinimg.com/736x/dc/2c/48/dc2c482294100808cced408abb9cdf7d.jpg"
     }, 
     {
         ID:"geomatic",
@@ -4700,7 +4700,7 @@ export const CourseData=[
         code:"STAT 253",
         year: 3,
         semester:1,
-        img: ""
+        img: "https://s3.amazonaws.com/s3.timetoast.com/public/uploads/photos/11732619/Prob_Stat.jpeg"
     }, 
     {
         ID:"geomatic",
@@ -4718,7 +4718,7 @@ export const CourseData=[
         code:"CSM 158",
         year: 3,
         semester:2,
-        img: ""
+        img: "https://th.bing.com/th/id/R.99d213bd58125e0c71ba803a8b97d38f?rik=%2brQEZjHpm0pNIg&pid=ImgRaw&r=0"
     }, 
     {
         ID:"geomatic",
@@ -4736,7 +4736,7 @@ export const CourseData=[
         code:"GE 362",
         year: 3,
         semester:2,
-        img: ""
+        img: "https://www.brindleyengineering.com/wp-content/uploads/2018/11/Compressor-Lube-Oil-Trip.jpg"
     }, 
     {
         ID:"geomatic",
@@ -4754,7 +4754,7 @@ export const CourseData=[
         code:"CE 368",
         year: 3,
         semester:2,
-        img: ""
+        img: "https://th.bing.com/th/id/R.30b64f34307d219a36fa6269506b8cc6?rik=JrBJq3tYW6CpVA&pid=ImgRaw&r=0"
     }, 
     {
         ID:"geomatic",
@@ -4763,7 +4763,7 @@ export const CourseData=[
         code:"GE 392",
         year: 3,
         semester:2,
-        img: ""
+        img: "https://kentico.nait.ca/NAIT/media/nait-ca-content/schools/SAST/surveystickgisvest-2018-10-1000x594.jpg?ext=.jpg"
     }, 
     {
         ID:"geomatic",
@@ -4790,7 +4790,7 @@ export const CourseData=[
         code:"GE 451",
         year: 4,
         semester:1,
-        img: ""
+        img: "https://th.bing.com/th/id/R.6034e9f642e07ee872ca47b9bd3af6f9?rik=ihu2HI1CA00rSQ&riu=http%3a%2f%2feuromind.es%2fwp-content%2fuploads%2f2017%2f07%2f19897921_1269484433177968_1851403536_o-1.jpg&ehk=s0PKjjOebcnY0PhUD%2fIwXkzSpeBmWmbBeRP33dMl6H8%3d&risl=&pid=ImgRaw&r=0........."
     },
     {
         ID:"geomatic",
@@ -4808,7 +4808,7 @@ export const CourseData=[
         code:"GE 463",
         year: 4,
         semester:1,
-        img: ""
+        img: "https://th.bing.com/th/id/R.0f1fceef29077e99bc9e44aaa3d7405f?rik=d3bSooiGcvhGXg&riu=http%3a%2f%2fgeomaster.co.ke%2fimages%2f2019%2f09%2f02%2ffaoxnjxrqssfitg5of0d_environmental_modeling-1525719283350-1.png&ehk=2P5%2bKm3j1ItBWXK1X55nb3K7vVMR6ME9CbBHlfkdk0Y%3d&risl=&pid=ImgRaw&r=0"
     },
     {
         ID:"geomatic",
@@ -4817,7 +4817,7 @@ export const CourseData=[
         code:"GE 491",
         year: 4,
         semester:1,
-        img: ""
+        img: "https://th.bing.com/th/id/R.7c16e27fc4eda43d9a6d15e814867730?rik=lFKH%2fGi%2fmajZLg&pid=ImgRaw&r=0&sres=1&sresct=1"
     },
     {
         ID:"geomatic",
@@ -4835,7 +4835,7 @@ export const CourseData=[
         code:"GE 472",
         year: 4,
         semester:2,
-        img: ""
+        img: "https://th.bing.com/th/id/OIP.tPkjCrhRvzc1U9IU9XlSygHaEO?pid=ImgDet&w=655&h=374&rs=1"
     },
     {
         ID:"geomatic",
@@ -4844,7 +4844,7 @@ export const CourseData=[
         code:"GE 492",
         year: 4,
         semester:2,
-        img: ""
+        img: "https://th.bing.com/th/id/R.7c16e27fc4eda43d9a6d15e814867730?rik=lFKH%2fGi%2fmajZLg&pid=ImgRaw&r=0&sres=1&sresct=1"
     },
     {
         ID:"geomatic",
@@ -4862,7 +4862,7 @@ export const CourseData=[
         code:"GE 474",
         year: 4,
         semester:2,
-        img: ""
+        img: "https://www.rendonremodeling.com/wp-content/uploads/2013/12/SeJiqMg.png"
     },
     {
         ID:"geomatic",
@@ -4871,7 +4871,7 @@ export const CourseData=[
         code:"GE 474",
         year: 4,
         semester:2,
-        img: ""
+        img: "https://www.ualberta.ca/graduate-studies/media-library/professional-development-new-kevin/landing/rectangle-thumbnails/pdab-rec.jpg"
     },
     {
         ID:"aerospace",
@@ -7417,33 +7417,6 @@ export const CourseData=[
         img:"https://th.bing.com/th/id/R.8eccebde018a1c59c1115c78ba6105e1?rik=LjwIpqSWnOcGOw&riu=http%3a%2f%2fwww.fastplanningsoftware.com%2fwp-content%2fuploads%2f2017%2f11%2fStage-of-Production-Planning-Control.jpg&ehk=2zFeDk%2bvqRM2%2fwQ1wAfUbY4LyDLyxUoweCRs2%2bUXPGs%3d&risl=&pid=ImgRaw&r=0"
     },
     {
-        ID:"mechanical",
-        id:"fluidmachinery",
-        name:"Fluid Machinery",
-        code:"ME 452",
-        year: 4,
-        semester:2,
-        img:"https://th.bing.com/th/id/R.6543569462207abbee63ff3f6f6dff49?rik=rSLPLnwt3m0pNg&pid=ImgRaw&r=0"
-    },
-    {
-        ID:"mechanical",
-        id:"automationandproductionsystem",
-        name:"Automation and Production Systems",
-        code:"ME 470",
-        year: 4,
-        semester:2,
-        img:"https://th.bing.com/th/id/R.f656ada90ce83ede45a94fd3cc4d041e?rik=hOtoEi8OPXgiDw&riu=http%3a%2f%2fwww.automation-drive.com%2fEX%2f05-14-14%2fOne-third%252520of%252520the%252520Manual%252520Machine%252520Shop.jpg&ehk=cuBvq21HWygVUzbafOnuGBeKjF2ZN38O9DATEHVSL0Y%3d&risl=&pid=ImgRaw&r=0&sres=1&sresct=1"
-    },
-    {
-        ID:"mechanical",
-        id:"automotiveelectrical",
-        name:"Automotive Electrical and Electronic Systems",
-        code:"ME 488",
-        year: 4,
-        semester:2,
-        img:"https://th.bing.com/th/id/R.f656ada90ce83ede45a94fd3cc4d041e?rik=hOtoEi8OPXgiDw&riu=http%3a%2f%2fwww.automation-drive.com%2fEX%2f05-14-14%2fOne-third%252520of%252520the%252520Manual%252520Machine%252520Shop.jpg&ehk=cuBvq21HWygVUzbafOnuGBeKjF2ZN38O9DATEHVSL0Y%3d&risl=&pid=ImgRaw&r=0&sres=1&sresct=1"
-    },
-    {
         ID:"geological",
         id:"elementarystructures",
         name:"Elementary Structures",
@@ -7549,7 +7522,7 @@ export const CourseData=[
         code:"EE 152",
         year: 1,
         semester:2,
-        img: ""
+        img: "https://th.bing.com/th/id/R.805bb8c45b49705783459c144a31bf0c?rik=eEZmy5dafNt9ig&riu=http%3a%2f%2fwww.electronicsandyou.com%2fblog%2fwp-content%2fuploads%2f2018%2f12%2felectronics-1.jpg&ehk=74YeEcebTV60VrKcvDkoG7p96ko6XZibk0GTu2oY1hs%3d&risl=&pid=ImgRaw&r=0"
     },
     {
         ID:"geological",
@@ -7710,7 +7683,7 @@ export const CourseData=[
         code:"MATH 252",
         year: 2,
         semester:2,
-        img: ""
+        img: "https://th.bing.com/th/id/R.c90d92bd367976037681342dadbac0a9?rik=h9S3o3ZNb2G%2bkg&pid=ImgRaw&r=0"
     }, 
     {
         ID:"geological",
@@ -7845,7 +7818,7 @@ export const CourseData=[
         code:"GED 368",
         year: 3,
         semester:2,
-        img: ""
+        img: "https://www.thesurveyingcompany.nz/asset/85/h640_q80.jpeg"
     },
     {
         ID:"geological",
@@ -7881,7 +7854,7 @@ export const CourseData=[
         code:"GED 457",
         year: 4,
         semester:1,
-        img: ""
+        img: "https://wwwassets.rand.org/content/rand/blog/2021/07/job-training-is-more-effective-when-educators-government/jcr:content/par/blogpost.aspectcrop.868x455.ct.jpg/x1625620519645.jpg.pagespeed.ic.pTzxUm-8UY.jpg"
     },
     {
         ID:"geological",
@@ -7919,6 +7892,34 @@ export const CourseData=[
         semester:1,
         img: "https://planetary-science.org/wp-content/uploads/2013/07/449294a-f1.2.jpg"
     },
+    {
+        ID:"mechanical",
+        id:"fluidmachinery",
+        name:"Fluid Machinery",
+        code:"ME 452",
+        year: 4,
+        semester:2,
+        img:"https://th.bing.com/th/id/R.6543569462207abbee63ff3f6f6dff49?rik=rSLPLnwt3m0pNg&pid=ImgRaw&r=0"
+    },
+    {
+        ID:"mechanical",
+        id:"automationandproductionsystem",
+        name:"Automation and Production Systems",
+        code:"ME 470",
+        year: 4,
+        semester:2,
+        img:"https://th.bing.com/th/id/R.f656ada90ce83ede45a94fd3cc4d041e?rik=hOtoEi8OPXgiDw&riu=http%3a%2f%2fwww.automation-drive.com%2fEX%2f05-14-14%2fOne-third%252520of%252520the%252520Manual%252520Machine%252520Shop.jpg&ehk=cuBvq21HWygVUzbafOnuGBeKjF2ZN38O9DATEHVSL0Y%3d&risl=&pid=ImgRaw&r=0&sres=1&sresct=1"
+    },
+    {
+        ID:"mechanical",
+        id:"automotiveelectrical",
+        name:"Automotive Electrical and Electronic Systems",
+        code:"ME 488",
+        year: 4,
+        semester:2,
+        img:"https://th.bing.com/th/id/R.f656ada90ce83ede45a94fd3cc4d041e?rik=hOtoEi8OPXgiDw&riu=http%3a%2f%2fwww.automation-drive.com%2fEX%2f05-14-14%2fOne-third%252520of%252520the%252520Manual%252520Machine%252520Shop.jpg&ehk=cuBvq21HWygVUzbafOnuGBeKjF2ZN38O9DATEHVSL0Y%3d&risl=&pid=ImgRaw&r=0&sres=1&sresct=1"
+    },
+    
     {
         ID:"petroleum",
         id:"algebra",

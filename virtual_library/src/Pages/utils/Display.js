@@ -7,23 +7,40 @@ const getFiles = async(path, lecture_name) => {
     // const {ID, id, name, year, semester} = path[0] ;
     
     axios({
-      url: `/program/computer/year/semester/course/${lecture_name}`, //your url
+      url: `/deta/download`, //your url
       method: 'GET',
       responseType: 'blob', // important
   }).then((response) => {
       // create file link in browser's memory
-      const href = URL.createObjectURL(response.data);
+      const file = new Blob([response.data], {type: 'application/pdf'})
+      const href = URL.createObjectURL(file);
+      window.open(href)
+     
+
+      // const newWindow = window.open('', lecture_name, "width=800,height=1200");
+      // if (!(newWindow === null)) {
+      //     setTimeout( () => {
+      //         const dataUrl = window.URL.createObjectURL(file);
+      //         const title = newWindow.document.createElement('title');
+      //         const iframe = newWindow.document.createElement('iframe');
   
-      // create "a" HTLM element with href to file & click
-      const link = document.createElement('a');
-      link.href = href;
-      link.setAttribute('download', `${lecture_name}.pptx`); //or any other extension
-      document.body.appendChild(link);
-      link.click();
+      //         title.appendChild(document.createTextNode(lecture_name));
+      //         newWindow.document.head.appendChild(title);
   
-      // clean up "a" element & remove ObjectURL
-      document.body.removeChild(link);
-      URL.revokeObjectURL("/program");
+      //         iframe.setAttribute('src', dataUrl);
+      //         iframe.setAttribute('width', "100%");
+      //         iframe.setAttribute('height', "100%");
+  
+      //         newWindow.document.body.appendChild(iframe);
+  
+      //         setTimeout( () => {
+      //             // For Firefox it is necessary to delay revoking the ObjectURL
+      //             window.URL.revokeObjectURL(dataUrl);
+      //         }, 100);
+      //     }, 100);
+      // } else {
+      //     alert("To display files, please disable any pop-blockers for this page and try again.");
+      // }
   });
 
     

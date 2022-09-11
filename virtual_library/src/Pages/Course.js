@@ -3,14 +3,14 @@
 import React, {useState, useEffect} from 'react';
 import '../Components/course.css';
 import book from '../Assets/Asset/book.jpg';
-import {HiDownload} from 'react-icons/hi';
+import {HiDownload, HiEye} from 'react-icons/hi';
 import Footer from '../Components/Footer/Footer';
 import Navbar from '../Components/Navbar/Navbar';
 import {useParams, Navigate } from 'react-router-dom';
 
 import { CourseData} from '../Components/Data/coursesData';
 import {SlidesData} from '../Components/Data/slidesData';
-import { getFiles } from './utils/courseRequest';
+import { getFiles, displayFile } from './utils/courseRequest';
 
 const Course = () => {
     const [acor, setacor] = useState([]);
@@ -71,6 +71,7 @@ const Course = () => {
                     <h3 className="lect_one">Lecture One</h3>
                 </div>
                <div className="right_lect_block_4">
+                    <a href="#" onClick={ () =>{displayFile(cour, "Lecture One")}}><HiEye/></a>
                     <a href='#' onClick={ () =>{getFiles(cour, "Lecture One")}}><HiDownload/></a>
                </div>
             </div>
@@ -81,6 +82,7 @@ const Course = () => {
                     <h3 className="lect_one">Lecture Two</h3>
                 </div>
                <div className="right_lect_block_4">
+                    <a href="#" onClick={ () =>{displayFile(cour, "Lecture Two")}}><HiEye/></a>
                     <a href="#" onClick={ () =>{getFiles(cour, "Lecture Two")}}><HiDownload/></a>
                </div>
             </div>
@@ -91,6 +93,7 @@ const Course = () => {
                     <h3 className="lect_one">Lecture Three</h3>
                 </div>
                <div className="right_lect_block_4">
+                    <a href="#" onClick={ () =>{displayFile(cour, "Lecture Three")}}><HiEye/></a>
                     <a href="#" onClick={() => {getFiles(cour, "Lecture Three")}}><HiDownload/></a>
                </div>
             </div>
@@ -101,6 +104,7 @@ const Course = () => {
                     <h3 className="lect_one">Lecture Four</h3>
                 </div>
                <div className="right_lect_block_4">
+                    <a href="#" onClick={ () =>{displayFile(cour, "Lecture Four")}}><HiEye/></a>
                     <a href="#" onClick={ () =>{getFiles(cour, "Lecture Four")}}><HiDownload/></a>
                </div>
             </div>
@@ -111,6 +115,7 @@ const Course = () => {
                     <h3 className="lect_one">Lecture Five</h3>
                 </div>
                <div className="right_lect_block_4">
+                    <a href="#" onClick={ () =>{displayFile(cour, "Lecture Five")}}><HiEye/></a>
                     <a href="#" onClick={ () =>{getFiles(cour, "Lecture Five")}}><HiDownload/></a>
                </div>
             </div>
@@ -121,6 +126,7 @@ const Course = () => {
                     <h3 className="lect_one">Lecture Six</h3>
                 </div>
                <div className="right_lect_block_4">
+                    <a href="#" onClick={ () =>{displayFile(cour, "Lecture Six")}}><HiEye/></a>
                     <a href="#" onClick={ () =>{getFiles(cour, "Lecture Six")}}><HiDownload/></a>
                </div>
             </div>
@@ -131,6 +137,7 @@ const Course = () => {
                     <h3 className="lect_one">Lecture Seven</h3>
                 </div>
                <div className="right_lect_block_4">
+                    <a href="#" onClick={ () =>{displayFile(cour, "Lecture Seven")}}><HiEye/></a>
                     <a href="#" onClick={ () =>{getFiles(cour, "Lecture Seven")}}><HiDownload/></a>
                </div>
             </div>
@@ -141,6 +148,7 @@ const Course = () => {
                     <h3 className="lect_one">Lecture Eight</h3>
                 </div>
                <div className="right_lect_block_4">
+                    <a href="#" onClick={ () =>{displayFile(cour, "Lecture Eight")}}><HiEye/></a>
                     <a href="#" onClick={ () =>{getFiles(cour, "Lecture Eight")}}><HiDownload/></a>
                </div>
             </div>

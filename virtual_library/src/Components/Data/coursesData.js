@@ -1183,7 +1183,8 @@ export const CourseData=[
         code:"MATH 151",
         year:1,
         semester:1,
-        img: ""
+        img: `https://img.freepik.com/free-vector/geometry-education-blue-background-vector-frame-disruptive-education-digital-remix_53876-114094.jpg?w=740&t=st=1661837216~exp=1661837816~hmac=5b40056780bebdeeb8bb5259612262507c80ddd5467b97f2ff299f6a2309d897`
+        
 
     },
     {

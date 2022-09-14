@@ -1265,7 +1265,7 @@ export const CourseData=[
         code:"ME 166",
         year:1,
         semester:2,
-        img: ""
+        img: "https://th.bing.com/th/id/R.1658f5fdfd5c56f1e916ba6c20cc33d3?rik=yYEZXC8ICiUn9A&riu=http%3a%2f%2fs3-ap-southeast-1.amazonaws.com%2fsubscriber.images%2fchemistry%2f2015%2f12%2f29114819%2fThermodynamics-2.png&ehk=rOEkrAkFivG15nMbyeZqNnDHiQfk7o2fS1GeXu4PO0w%3d&risl=&pid=ImgRaw&r=0&sres=1&sresct=1"
 
     },
     {
@@ -1317,7 +1317,8 @@ export const CourseData=[
         code:"MATH 251",
         year:2,
         semester:1,
-        img: ""
+        img: "https://th.bing.com/th/id/OIP.l32Fyk3viTTC5xUAbSrtJAAAAA?pid=ImgDet&w=392&h=272&rs=1"
+        
 
     },
     {
@@ -1327,7 +1328,8 @@ export const CourseData=[
         code:"COE 251",
         year:2,
         semester:1,
-        img: ""
+        img: "https://th.bing.com/th/id/OIP.l32Fyk3viTTC5xUAbSrtJAAAAA?pid=ImgDet&w=392&h=272&rs=1"
+        
 
     },
     {
@@ -1337,7 +1339,8 @@ export const CourseData=[
         code:"EE 271",
         year:2,
         semester:1,
-        img: ""
+        img: "https://oec.world/api/image?slug=hs&memberSlug=semiconductor-devices&size=splash"
+        
 
     },
     {
@@ -1347,7 +1350,7 @@ export const CourseData=[
         code:"EE 287",
         year:2,
         semester:1,
-        img: ""
+        img: "https://covers.vitalbook.com/vbid/9780199031474/width/200"
 
     },
     {
@@ -1357,7 +1360,7 @@ export const CourseData=[
         code:"TE 271",
         year:2,
         semester:1,
-        img: ""
+        img: "https://th.bing.com/th/id/R.74c81e1d289294a884a47a4be4e6b3c5?rik=SSDQnNzAFswwxg&riu=http%3a%2f%2fgisuser.com%2fwp-content%2fuploads%2f2016%2f01%2f2016-01-30-10_10_10-Press-Release_-Successful-launch-of-the-first-laser-telecommunication-satellite-.jpg&ehk=9t4L8aQG2gvzxYR0oNcXEVBGqeW0gva42r85yWIeXus%3d&risl=&pid=ImgRaw&r=0"
 
     },
     {
@@ -1367,7 +1370,7 @@ export const CourseData=[
         code:"TE 291",
         year:2,
         semester:1,
-        img: ""
+        img: "https://th.bing.com/th/id/R.279405510adf694cc782249cf63d52a7?rik=esPKfBL8ntMLew&riu=http%3a%2f%2fwww.telecom.kmitl.ac.th%2fwp-content%2fuploads%2f2021%2f03%2fPicture9-1024x596.png&ehk=sIWq1YfJAbm5HvBei5OJ74PFPm%2f%2fNbxIftJurWGUQ3U%3d&risl=&pid=ImgRaw&r=0"
 
     },
     {
@@ -1377,7 +1380,8 @@ export const CourseData=[
         code:"CENG 291",
         year:2,
         semester:1,
-        img: ""
+        img:"https://th.bing.com/th/id/R.80bb339f00f9f64e2a244fd78e211111?rik=wvh1DfJs%2fXy1Cg&pid=ImgRaw&r=0"
+        
 
     },
     {
@@ -1387,7 +1391,8 @@ export const CourseData=[
         code:"FREN 181",
         year:2,
         semester:1,
-        img: ""
+        img: "https://www.onlinecoursereport.com/wp-content/uploads/2020/03/shutterstock_321415904-1024x683.jpg"
+        
 
     },
     {
@@ -1397,7 +1402,8 @@ export const CourseData=[
         code:"MATH 252",
         year:2,
         semester:2,
-        img: ""
+        img: "https://th.bing.com/th/id/R.c90d92bd367976037681342dadbac0a9?rik=h9S3o3ZNb2G%2bkg&pid=ImgRaw&r=0"
+        
 
     },
     {
@@ -1407,7 +1413,8 @@ export const CourseData=[
         code:"EE 272",
         year:2,
         semester:2,
-        img: ""
+        img: "https://www.york.ac.uk/media/study/courses/postgraduate/electronicengineering/DSE-banner.jpg"
+        
 
     },
     {
@@ -1417,7 +1424,8 @@ export const CourseData=[
         code:"EE 288",
         year:2,
         semester:2,
-        img: ""
+        img: "https://meche.mit.edu/sites/default/files/styles/research_break/public/RS3659_2.671%202019%2005_0.jpg?itok=MOjc3fA3"
+        
 
     },
     {
@@ -1427,7 +1435,8 @@ export const CourseData=[
         code:"TE 262",
         year:2,
         semester:2,
-        img: ""
+        img: "http://www.dannex.se/theory/pict/image122.gif"
+        
 
     },
     {
@@ -1437,7 +1446,8 @@ export const CourseData=[
         code:"TE 292",
         year:2,
         semester:2,
-        img: ""
+        //img: "https://th.bing.com/th/id/R.27940551https://i.ytimg.com/vi/cG6UPRPr2Mw/maxresdefault.jpg0adf694cc782249cf63d52a7?rik=esPKfBL8ntMLew&riu=http%3a%2f%2fwww.telecom.kmitl.ac.th%2fwp-content%2fuploads%2f2021%2f03%2fPicture9-1024x596.png&ehk=sIWq1YfJAbm5HvBei5OJ74PFPm%2f%2fNbxIftJurWGUQ3U%3d&risl=&pid=ImgRaw&r=0"
+        img: "https://i.ytimg.com/vi/cG6UPRPr2Mw/maxresdefault.jpg"
 
     },
     {
@@ -1447,7 +1457,8 @@ export const CourseData=[
         code:"FREN 182",
         year:2,
         semester:2,
-        img: ""
+        img: "https://live.staticflickr.com/581/22938923320_2294c5e77a_b.jpg"
+        
 
     },
     {
@@ -1457,7 +1468,8 @@ export const CourseData=[
         code:"MATH 351",
         year:3,
         semester:1,
-        img: ""
+        img: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTNe9syWcg9Y5J5hiNXq82NNAy8dmtP-auX_Q&usqp=CAU"
+        
 
     },
     {
@@ -1467,7 +1479,8 @@ export const CourseData=[
         code:"MATH 353",
         year:3,
         semester:1,
-        img: ""
+        img: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTNe9syWcg9Y5J5hiNXq82NNAy8dmtP-auX_Q&usqp=CAU"
+        
 
     },
     {
@@ -1477,7 +1490,8 @@ export const CourseData=[
         code:"COE 381",
         year:3,
         semester:1,
-        img: ""
+        img: "https://instrumentationtools.com/wp-content/uploads/2020/04/History-of-Microprocessors.png"
+        
 
     },
     {
@@ -1487,7 +1501,7 @@ export const CourseData=[
         code:"TE 385",
         year:3,
         semester:1,
-        img: ""
+        img: "https://th.bing.com/th/id/OIP.vIu6qlJhdbysZrLJC4NISwHaEK?pid=ImgDet&rs=1"
 
     },
     {
@@ -1497,7 +1511,8 @@ export const CourseData=[
         code:"TE 361",
         year:3,
         semester:1,
-        img: ""
+        img: "https://i.guim.co.uk/img/static/sys-images/Guardian/Pix/pictures/2014/6/11/1402489935191/Shannon-s-information-the-009.jpg?width=1200&height=630&quality=85&auto=format&fit=crop&overlay-align=bottom%2Cleft&overlay-width=100p&overlay-base64=L2ltZy9zdGF0aWMvb3ZlcmxheXMvdG8tZGVmYXVsdC5wbmc&enable=upscale&s=0487260e9322d9255d15cfaad888836b"
+        
 
     },
     {
@@ -1507,7 +1522,7 @@ export const CourseData=[
         code:"TE 381",
         year:3,
         semester:1,
-        img: ""
+        img: "https://www.jeppix.eu/wp-content/uploads/2020/11/optical-communication-480x262.jpg"
 
     },
     {
@@ -1517,7 +1532,8 @@ export const CourseData=[
         code:"EE 371",
         year:3,
         semester:1,
-        img: ""
+        img: "https://cas.tudelft.nl/shared/Courses/circuits.jpg"
+        
 
     },
     {
@@ -1527,7 +1543,7 @@ export const CourseData=[
         code:"TE 391",
         year:3,
         semester:1,
-        img: ""
+        img: "https://i.ytimg.com/vi/cG6UPRPr2Mw/maxresdefault.jpg"
 
     },
     {
@@ -1537,7 +1553,7 @@ export const CourseData=[
         code:"TE 362",
         year:3,
         semester:2,
-        img: ""
+        img: "https://www.sonoranintegrations.com/hubfs/sonoran-blog-2016-July-TelecomInfrastructure.jpg"
 
     },
     {
@@ -1547,7 +1563,7 @@ export const CourseData=[
         code:"TE 364",
         year:3,
         semester:2,
-        img: ""
+        img: "https://th.bing.com/th/id/OIP.SUq402Yqw1tB35P1JC-fhgHaE8?pid=ImgDet&rs=1"
 
     },
     {
@@ -1557,7 +1573,7 @@ export const CourseData=[
         code:"TE 372",
         year:3,
         semester:2,
-        img: ""
+        img: "https://th.bing.com/th/id/R.48a4e15518b418d5abb599ccbeb4c6bd?rik=rfYFzKd4L%2b4k6w&pid=ImgRaw&r=0"
 
     },
     {
@@ -1567,7 +1583,7 @@ export const CourseData=[
         code:"TE 382",
         year:3,
         semester:2,
-        img: ""
+        img: "https://th.bing.com/th/id/R.2f86d9f9b6b85e4a1900def97916fc52?rik=GYy%2bFgkAix3TPg&pid=ImgRaw&r=0&sres=1&sresct=1"
 
     },
     {
@@ -1577,7 +1593,7 @@ export const CourseData=[
         code:"TE 384",
         year:3,
         semester:2,
-        img: ""
+        img: "https://th.bing.com/th/id/OIP.D1UF3wByhaq65rvHu22-3AHaEo?pid=ImgDet&rs=1"
 
     },
     {
@@ -1587,7 +1603,7 @@ export const CourseData=[
         code:"TE 386",
         year:3,
         semester:2,
-        img: ""
+        img: "https://th.bing.com/th/id/OIP.d7lboMrM3f1_vQ_wXsipZwHaEL?w=321&h=181&c=7&r=0&o=5&dpr=2.5&pid=1.7"
 
     },
     {
@@ -1597,7 +1613,8 @@ export const CourseData=[
         code:"TE 392",
         year:3,
         semester:2,
-        img: ""
+        img: "https://i.ytimg.com/vi/cG6UPRPr2Mw/maxresdefault.jpg"
+        
 
     },
     {
@@ -1607,7 +1624,7 @@ export const CourseData=[
         code:"TE 461",
         year:4,
         semester:1,
-        img: ""
+        img: "https://th.bing.com/th/id/R.e8a3fccf9bdb87351ab66886d67d9389?rik=5Ek2oRdd4UOwaA&riu=http%3a%2f%2fcedev.unm.edu%2fassets%2fimgs%2fbus-tech%2fcomp-it%2fit-header.jpg&ehk=1nlZX3CxjYmcDwOkZhBI3K31PrxY2HdEFiEoOX%2fk3i8%3d&risl=&pid=ImgRaw&r=0"
 
     },
     {
@@ -1617,7 +1634,7 @@ export const CourseData=[
         code:"TE 471",
         year:4,
         semester:1,
-        img: ""
+        img: "https://th.bing.com/th/id/R.48df0e50d7b10d2f8c0aa553226495bb?rik=ge4uY7%2bR9O3wSA&pid=ImgRaw&r=0"
 
     },
     {
@@ -1627,7 +1644,7 @@ export const CourseData=[
         code:"TE 481",
         year:4,
         semester:1,
-        img: ""
+        img: "https://th.bing.com/th/id/R.bf2ef5644a5e0a1d9b8cc69b107a766d?rik=TZc4%2bOwBVDMW4A&riu=http%3a%2f%2fwww.fitchsolutions.com%2fsites%2fdefault%2ffiles%2farticles%2fgettyimages-1216889099.jpg&ehk=lFFnp4QjQqErYj%2fFvsceATHq%2fBZF7j8eqAW4CJk1Mok%3d&risl=&pid=ImgRaw&r=0"
 
     },
     {
@@ -1637,7 +1654,7 @@ export const CourseData=[
         code:"TE 497",
         year:4,
         semester:1,
-        img: ""
+        img: "https://th.bing.com/th/id/R.ab6944181c030671035afd890846794e?rik=0kCPxY2dm9305A&pid=ImgRaw&r=0"
 
     },
     {
@@ -1647,7 +1664,7 @@ export const CourseData=[
         code:"ME 491",
         year:4,
         semester:1,
-        img: ""
+        img: "https://i.pinimg.com/originals/c4/4d/93/c44d933f904ffd7754452b561deefd66.jpg"
 
     },
     {
@@ -1657,7 +1674,7 @@ export const CourseData=[
         code:"COE 475",
         year:4,
         semester:1,
-        img: ""
+        img: "https://th.bing.com/th/id/OIP.qeGKjp4hla3ODS4G7E25RAHaCm?pid=ImgDet&rs=1"
 
     },
     {
@@ -1667,7 +1684,7 @@ export const CourseData=[
         code:"ME 492",
         year:4,
         semester:2,
-        img: ""
+        img: "https://th.bing.com/th/id/OIP.Cp01UpBI2zjDnvInOZieVQHaHa?pid=ImgDet&rs=1"
 
     },
     {
@@ -1677,7 +1694,7 @@ export const CourseData=[
         code:"TE 462",
         year:4,
         semester:2,
-        img: ""
+        img: "https://img.etimg.com/thumb/msid-66456750,width-300,imgsize-121176,,resizemode-4,quality-100/digital-agencies.jpg"
 
     },
     {
@@ -1687,7 +1704,7 @@ export const CourseData=[
         code:"TE 472",
         year:4,
         semester:2,
-        img: ""
+        img: "https://th.bing.com/th/id/OIP.cPECQgLZGF8gHSZHxXc-qwHaHa?pid=ImgDet&w=500&h=500&rs=1"
 
     },
     {
@@ -1697,7 +1714,7 @@ export const CourseData=[
         code:"TE 474",
         year:4,
         semester:2,
-        img: ""
+        img: "https://th.bing.com/th/id/R.83f3a2f91db3ab6d2026a4b84c57bf53?rik=Z7U%2bveoA7LSMkQ&pid=ImgRaw&r=0"
 
     },
     {
@@ -1707,7 +1724,8 @@ export const CourseData=[
         code:"TE 498",
         year:4,
         semester:2,
-        img: ""
+        img: "https://th.bing.com/th/id/R.ab6944181c030671035afd890846794e?rik=0kCPxY2dm9305A&pid=ImgRaw&r=0"
+        
 
     },
     {
@@ -1717,7 +1735,7 @@ export const CourseData=[
         code:"COE 486",
         year:4,
         semester:2,
-        img: ""
+        img: "https://th.bing.com/th/id/R.660aa33741fc8ab7f73465b31f6d586e?rik=KqaRQfvrQimq%2bQ&riu=http%3a%2f%2fwww.ictacademy.in%2fPages%2fassets%2fbase%2fimg%2fcontent%2fstock%2fvlsi.jpg&ehk=WDnYgUwXoVj6orWItj8wtogpfc7T8sfcGUNkUh9jY7o%3d&risl=&pid=ImgRaw&r=0"
 
     },
     {
@@ -1727,7 +1745,7 @@ export const CourseData=[
         code:"TE 484",
         year:4,
         semester:2,
-        img: ""
+        img: "https://didattica.polito.it/zxd/b5eda0a74558a342cf659187f06f746f/9d65f941adde2264db58127957631778/85b46aa41381e3a8e050c0828c370bfb?1554380518319"
 
     },
     {
@@ -1737,7 +1755,7 @@ export const CourseData=[
         code:"CHE 151",
         year:1,
         semester:1,
-        img: ""
+        img: "https://th.bing.com/th/id/R.4008d8384714b724712b9e7b4edd2d59?rik=iliuekKrjwlAfg&pid=ImgRaw&r=0"
 
     },
     {
@@ -1747,7 +1765,7 @@ export const CourseData=[
         code:"CHE 153",
         year:1,
         semester:1,
-        img: ""
+        img: "https://th.bing.com/th/id/R.7033b942e9f13d6ebb17b131faeb31ea?rik=FljCc8WxHbziCw&pid=ImgRaw&r=0"
 
     },
     {

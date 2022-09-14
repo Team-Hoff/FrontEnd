@@ -1,4 +1,4 @@
-import geology from '../../Assets/BackgroundPics/aero.png';
+//import geology from '../../Assets/BackgroundPics/aero.png';
 
 export const CourseData=[
     {
@@ -44,7 +44,7 @@ export const CourseData=[
         code:"ME 159",
         year: 1,
         semester:1,
-        img: "https://th.bing.com/th/id/R.7dbcb2d23d5fd682c081bd7a78f9f567?rik=7tn37NS2GFBEzw&pid=ImgRaw&r=0"
+        img: "https://th.bing.com/thc/id/R.7dbcb2d23d5fd682c081bd7a78f9f567?rik=7tn37NS2GFBEzw&pid=ImgRaw&r=0"
     },
     {
         ID:"computer",
@@ -1180,7 +1180,8 @@ export const CourseData=[
         code:"ENGL 157",
         year:1,
         semester:1,
-        img: ""
+        img: `https://img.freepik.com/free-vector/geometry-education-blue-background-vector-frame-disruptive-education-digital-remix_53876-114094.jpg?w=740&t=st=1661837216~exp=1661837816~hmac=5b40056780bebdeeb8bb5259612262507c80ddd5467b97f2ff299f6a2309d897`
+        
 
     },
     {
@@ -1190,7 +1191,8 @@ export const CourseData=[
         code:"CE 155",
         year:1,
         semester:1,
-        img: ""
+        img: "https://epi-rsc.rsc-cdn.org/globalassets/05-journals-books-databases/our-journals/environmental-science-advances/esa-hero_1920x1080.jpg?version=9160e883"
+        
 
     },
     {
@@ -1200,7 +1202,8 @@ export const CourseData=[
         code:"ME 159",
         year:1,
         semester:1,
-        img: ""
+        img: "https://th.bing.com/thc/id/R.7dbcb2d23d5fd682c081bd7a78f9f567?rik=7tn37NS2GFBEzw&pid=ImgRaw&r=0"
+        
 
     },
     {
@@ -1210,7 +1213,8 @@ export const CourseData=[
         code:"ME 161",
         year:1,
         semester:1,
-        img: ""
+        img: "https://1.bp.blogspot.com/-rja2B49-kJI/WtBnGNPqJdI/AAAAAAAAu6I/Q-vAmdDV7142PwlEs7bhIzGeC-G00Jf7wCK4BGAYYCw/s1600/picture-718945.jpg"
+        
 
     },
     {
@@ -1220,7 +1224,8 @@ export const CourseData=[
         code:"EE 151",
         year:1,
         semester:1,
-        img: ""
+        img: "https://img.freepik.com/premium-photo/applying-thermal-paste-computer-s-central-processing-unit-computer-repair_131301-2395.jpg?w=740"
+        
 
     },
     {
@@ -1229,7 +1234,7 @@ export const CourseData=[
         name:"Electrical Engineering Drawing",
         code:"EE 153",
         year:1,
-        semester:1,
+        semester:2,
         img: ""
 
     },
@@ -1270,7 +1275,8 @@ export const CourseData=[
         code:"EE 152",
         year:1,
         semester:2,
-        img: ""
+        img: "https://www.makerspaces.com/wp-content/uploads/2017/05/basic-electronics-header.jpg"
+        
 
     },
     {
@@ -1290,7 +1296,8 @@ export const CourseData=[
         code:"EE 172",
         year:1,
         semester:2,
-        img: ""
+        img: "https://img.freepik.com/premium-photo/applying-thermal-paste-computer-s-central-processing-unit-computer-repair_131301-2395.jpg?w=740"
+        
 
     },
     {

@@ -4,8 +4,7 @@ import Logo from './../Assets/Klogo.png';
 
 import { useState } from "react";
 
-import Axios from 'axios';
-
+import axios from './utils/axios';
 import { Form, Formik } from "formik";
 
 import { TextInput, CustomSelect} from "../Components/Form";
@@ -33,7 +32,7 @@ const Signup = () => {
 
   
   const handleSubmit = (event) => {
-    Axios.post('/signup',
+    axios.post('/signup',
      {username: inputs.username, 
       email: inputs.email, 
       password: inputs.password, 

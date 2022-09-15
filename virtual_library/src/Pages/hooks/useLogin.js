@@ -5,9 +5,10 @@ const response = await axios.post("/login",
     { username: inputs.username,
       password: inputs.password
     }
-  )
+  ).then(()=> {
+    alert("Incorrect username/password")
+  })
 window.location.href="/auth"
-console.log(response);
 
   }
 

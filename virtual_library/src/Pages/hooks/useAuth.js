@@ -12,7 +12,7 @@ export const AuthProvider = ({ children }) => {
   //set the login function call in the Auth component and render the component
   const login = async () => {
       const response = await axios.get("/auth")
-      const user_details = JSON.stringify(response)
+      const user_details = response.data
       setUser(user_details)
      
     };

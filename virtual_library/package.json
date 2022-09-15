@@ -16,6 +16,7 @@
     "formik": "^2.2.9",
     "react": "^18.2.0",
     "react-bootstrap": "^2.5.0",
+    "react-doc-viewer": "^0.1.5",
     "react-dom": "^18.2.0",
     "react-dropdown": "^1.10.0",
     "react-icons": "^4.4.0",

@@ -33,7 +33,7 @@ const Signup = () => {
 
   
   const handleSubmit = (event) => {
-    Axios.post('http://localhost:3500/signup',
+    Axios.post('/signup',
      {username: inputs.username, 
       email: inputs.email, 
       password: inputs.password, 
@@ -45,6 +45,7 @@ const Signup = () => {
         alert("Succesful")
       }).catch( ()=> {
         console.log(`Error for User:${inputs.username}`)
+        alert("ERROR: Username taken")
       })
   }
   

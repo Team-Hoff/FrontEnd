@@ -7,7 +7,7 @@ export const CourseData=[
         year: 1,
         semester:1,
         ext: "pdf",
-        slides: ["Lecture One", "Lecture Two", "Lecture Three", "Lecture Four", "Lecture Five"],
+        slides: [1, 2, 3, 4, 5],
         img: "https://img.freepik.com/free-vector/geometry-education-blue-background-vector-frame-disruptive-education-digital-remix_53876-114094.jpg?w=740&t=st=1661837216~exp=1661837816~hmac=5b40056780bebdeeb8bb5259612262507c80ddd5467b97f2ff299f6a2309d897"
     }, 
     {

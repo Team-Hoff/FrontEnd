@@ -74,7 +74,13 @@
     margin-top: 10px;
     justify-content: space-between;
     padding-top: 15px;
+    text-transform: capitalize;
 }
+
+.slid{
+    text-transform: capitalize;
+}
+
 .doc_icon_50x50{
     /* background-color: brown; */
     width: 30px;
@@ -92,6 +98,7 @@
 .right_lect_block_4:hover a{
     color: gray;
 }
+
 
 .ref_books{
     min-width: 100vw;

@@ -1,54 +1,44 @@
-/* eslint-disable react-hooks/exhaustive-deps */
+
 /* eslint-disable eqeqeq */
-import React, {useState, useEffect} from 'react';
+import React from 'react';
 import '../Components/course.css';
-import book from '../Assets/Asset/book.jpg';
+// import book from '../Assets/Asset/book.jpg';
 import {HiDownload, HiEye} from 'react-icons/hi';
 import Footer from '../Components/Footer/Footer';
-import Navbar from '../Components/Navbar/Navbar';
-import {useParams, Navigate } from 'react-router-dom';
+import NavbarGoback from '../Components/Navbar/NavbarGoback';
+import {useParams, Navigate, useLocation } from 'react-router-dom';
 
 import { CourseData} from '../Components/Data/coursesData';
-import {SlidesData} from '../Components/Data/slidesData';
 import { getFiles, displayFile } from './utils/courseRequest';
 
+
 const Course = () => {
-    const [acor, setacor] = useState([]);
     const isAvailable = "No Course Material is available for this course";
-    const [acourse, setacourse] = useState([]);
+    const  {pathname}  = useLocation();
+    const { id } = useParams();
     
-    const { id } = useParams()
-
     const cour = CourseData.filter((cor) => cor.id === id)
-    useEffect(()=>{
-        setacor(cour)
-                       
-        return () => {
-          setacor('')
-        }
-   
-      }, [id])
-
-    
+    const course = CourseData.filter((cor) => `/home/${cor.ID}/${cor.id}`=== pathname)
   
   return (cour != "") ?  (
     <div>
         
-        <Navbar/>
+        <NavbarGoback/>
 
     <div className="hero" style={{ 
-        backgroundImage: `linear-gradient(0deg, rgba(0,0,0,0.6),rgba(0,0,0,0.6)), url(${acor.length !== 0 ? acor[0].img: ""})`, 
+        backgroundImage: `linear-gradient(0deg, rgba(0,0,0,0.6),rgba(0,0,0,0.6)), url(${cour.length !== 0 ? cour[0].img: ""})`, 
         backgroundRepeat: 'no-repeat',
         backgroundSize: '100% 100%'
         }}>
 
         {
-                acor.length !== 0 ? <h1> <span style={{ fontSize: '80px', fontFamily: 'Poppins' }}>
-                  {acor[0].name.toUpperCase()}
+                cour.length !== 0 ? <h1> <span style={{ fontSize: '80px', fontFamily: 'Poppins' }}>
+                  {cour[0].name.toUpperCase()}
                 </span></h1> : ""
               }
+
     </div>
-     {(cour[0].slides == "") ? <div className="containers">
+     {(course[0].slides == "") ? <div className="containers">
                     <div className='Available'>{isAvailable}</div>
                        </div> 
     : ( 
@@ -56,17 +46,19 @@ const Course = () => {
         <div className="slides">
             <h1 className="lect_head">Slides</h1>
 
-            {cour[0].slides.map((slide)=>
+            {course[0].slides.map((slide)=>
             
             <div className="lect_slides">
                 <div className="left_lect_block_4">
-                    <><div className="doc_icon_50x50"><svg fill="#000000" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" width="30px" height="30px">    <path d="M 6 2 C 4.9057453 2 4 2.9057453 4 4 L 4 20 C 4 21.094255 4.9057453 22 6 22 L 18 22 C 19.094255 22 20 21.094255 20 20 L 20 8 L 14 2 L 6 2 z M 6 4 L 13 4 L 13 9 L 18 9 L 18 20 L 6 20 L 6 4 z M 8 12 L 8 14 L 16 14 L 16 12 L 8 12 z M 8 16 L 8 18 L 16 18 L 16 16 L 8 16 z" /></svg>
-                        </div><h3 className="lect_one">{slide}</h3></>
+                    <div className="doc_icon_50x50"><svg fill="#000000" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" width="30px" height="30px">    <path d="M 6 2 C 4.9057453 2 4 2.9057453 4 4 L 4 20 C 4 21.094255 4.9057453 22 6 22 L 18 22 C 19.094255 22 20 21.094255 20 20 L 20 8 L 14 2 L 6 2 z M 6 4 L 13 4 L 13 9 L 18 9 L 18 20 L 6 20 L 6 4 z M 8 12 L 8 14 L 16 14 L 16 12 L 8 12 z M 8 16 L 8 18 L 16 18 L 16 16 L 8 16 z" /></svg>
+                        </div>
+                        <h3 key={course.ID} className="lect_one">{slide}</h3>
                     
                 </div>
                <div className="right_lect_block_4">
                     
-                    <><a href="#" onClick={() => { displayFile(cour, `${slide}`); } }><HiEye /></a><a href='#' onClick={() => { getFiles(cour, `${slide}`); } }><HiDownload /></a></>
+                    <a key={course.ID} href="#" onClick={() => { displayFile(course, `${slide}`); } }><HiEye /></a>
+                    <a key={course.ID} href='#' onClick={() => { getFiles(course, `${slide}`); } }><HiDownload /></a>
                     
                </div>
             </div>

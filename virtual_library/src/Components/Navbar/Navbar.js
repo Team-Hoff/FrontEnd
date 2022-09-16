@@ -4,11 +4,13 @@ import Profiledp from '../Profiledropdown/profiledp';
 import { Link } from 'react-router-dom';
 
 function Navbar() {
+
+
   return (
     <div>
         <nav className="nav-main">
         <div className="navbar">
-          <div style={{display:'flex'}}>
+          <div style={{display:'flex', paddingLeft:'59px'}}>
           <div className="logo-image"></div>
             <div><h1>
                 <span className='virtual'>Virtual</span><span className="librarys">Library</span>

@@ -3,7 +3,7 @@ import { StyledContainer,StyledFormArea, StyledFormButton, Avatar, StyledTitle, 
 import Logo from './../Assets/Klogo.png';
 
 import { useState } from "react";
-import Axios from "axios";
+
 import {handleSubmit} from "./hooks/useLogin";
  
 
@@ -99,7 +99,7 @@ const Login = () => {
           <ExtraText>
             Don't have an account? Click <TextLink to="/signup">Signup</TextLink> to register
           </ExtraText>
-          <TextLink to="/home">Home</TextLink>
+          {/* <TextLink to="/home">Home</TextLink> */}
           
       </StyledFormArea>
       <CopyrightText>All rights reserved &copy;2022</CopyrightText>

@@ -6,8 +6,8 @@ export const CourseData=[
         code:"MATH 151",
         year: 1,
         semester:1,
-        ext: "pdf",
-        slides: [1, 2, 3, 4, 5],
+        ext: "",
+        slides: ["Lecture One", "Lecture Two", "Lecture Three", "Lecture Four", "Lecture Five"],
         img: "https://img.freepik.com/free-vector/geometry-education-blue-background-vector-frame-disruptive-education-digital-remix_53876-114094.jpg?w=740&t=st=1661837216~exp=1661837816~hmac=5b40056780bebdeeb8bb5259612262507c80ddd5467b97f2ff299f6a2309d897"
     }, 
     {
@@ -52,7 +52,7 @@ export const CourseData=[
         semester:1,
         ext: "",
         slides: [],
-        img: "https://waykenrm.com/wp-content/uploads/2021/12/engineering-drawing.jpg"
+        img: "https://th.bing.com/thc/id/R.7dbcb2d23d5fd682c081bd7a78f9f567?rik=7tn37NS2GFBEzw&pid=ImgRaw&r=0"
     },
     {
         ID:"computer",
@@ -1537,7 +1537,8 @@ export const CourseData=[
         semester:2,
         ext: "",
         slides: [],
-        img: ""
+        img: "https://mechomotive.com/wp-content/uploads/2021/07/image-15.jpeg"
+        
 
     },
     {
@@ -2222,7 +2223,8 @@ export const CourseData=[
         semester:2,
         ext: "",
         slides: [],
-        img: ""
+        img: "https://mechomotive.com/wp-content/uploads/2021/07/image-15.jpeg"
+        
 
     },
     {
@@ -2319,7 +2321,8 @@ export const CourseData=[
         semester:1,
         ext: "",
         slides: [],
-        img: ""
+        img: "https://th.bing.com/th/id/R.fa6b1af16091e5b22772d5cb354395e8?rik=nco5mByW1xIQug&pid=ImgRaw&r=0"
+        
 
     },
     {
@@ -2419,6 +2422,7 @@ export const CourseData=[
         ext: "",
         slides: [],
         img: "https://th.bing.com/th/id/R.c90d92bd367976037681342dadbac0a9?rik=h9S3o3ZNb2G%2bkg&pid=ImgRaw&r=0"
+        
 
     },
     {
@@ -2539,8 +2543,8 @@ export const CourseData=[
         semester:2,
         ext: "",
         slides: [],
-        img: ""
-
+        img: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTNe9syWcg9Y5J5hiNXq82NNAy8dmtP-auX_Q&usqp=CAU"
+        
     },
     {
         ID:"petrochemical",
@@ -2622,7 +2626,7 @@ export const CourseData=[
         semester:1,
         ext: "",
         slides: [],
-        img: ""
+        img: "https://th.bing.com/th/id/OIP.olGXdUwVfdYGnfUhL6jOggHaDt?pid=ImgDet&rs=1"
 
     },
     {
@@ -2658,7 +2662,8 @@ export const CourseData=[
         semester:1,
         ext: "",
         slides: [],
-        img: ""
+        img: "https://th.bing.com/th/id/R.ab6944181c030671035afd890846794e?rik=0kCPxY2dm9305A&pid=ImgRaw&r=0"
+        
 
     },
     {
@@ -2742,7 +2747,7 @@ export const CourseData=[
         semester:2,
         ext: "",
         slides: [],
-        img: ""
+        img: "https://th.bing.com/th/id/R.7def7420d0e15caa852097ac92f97a8f?rik=oNoYNz6Lwf42QA&pid=ImgRaw&r=0"
 
     },
     {
@@ -2866,7 +2871,7 @@ export const CourseData=[
         semester:1,
         ext: "",
         slides: [],
-        img: ""
+        img: "https://img.haikudeck.com/r/f8eea77f-c21c-4c02-8db.jpg"
 
     },
     {
@@ -2878,7 +2883,8 @@ export const CourseData=[
         semester:1,
         ext: "",
         slides: [],
-        img: ""
+        img: "https://mechomotive.com/wp-content/uploads/2021/07/image-15.jpeg"
+        
 
     },
     {
@@ -2890,7 +2896,8 @@ export const CourseData=[
         semester:2,
         ext: "",
         slides: [],
-        img: ""
+        img: "https://www.makerspaces.com/wp-content/uploads/2017/05/basic-electronics-header.jpg"
+        
 
     },
     {
@@ -2902,7 +2909,8 @@ export const CourseData=[
         semester:2,
         ext: "",
         slides: [],
-        img: ""
+        img: "https://virtualspeech.com/img/blog/header/effective-communication-skills.jpg"
+        
 
     },
     {
@@ -2914,7 +2922,8 @@ export const CourseData=[
         semester:2,
         ext: "",
         slides: [],
-        img: ""
+        img: "https://th.bing.com/th/id/R.dda1ead370a9054f21fdab0e70ba74a3?rik=V%2f%2blo1CBnVXS9g&pid=ImgRaw&r=0"
+        
 
     },
     {
@@ -2926,7 +2935,8 @@ export const CourseData=[
         semester:2,
         ext: "",
         slides: [],
-        img: ""
+        img: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTNe9syWcg9Y5J5hiNXq82NNAy8dmtP-auX_Q&usqp=CAU"
+        
 
     },
     {
@@ -2938,7 +2948,8 @@ export const CourseData=[
         semester:2,
         ext: "",
         slides: [],
-        img: ""
+        img: "https://1.bp.blogspot.com/-rja2B49-kJI/WtBnGNPqJdI/AAAAAAAAu6I/Q-vAmdDV7142PwlEs7bhIzGeC-G00Jf7wCK4BGAYYCw/s1600/picture-718945.jpg"
+        
 
     },
     {
@@ -2950,7 +2961,7 @@ export const CourseData=[
         semester:2,
         ext: "",
         slides: [],
-        img: ""
+        img: "https://th.bing.com/th/id/R.33b8dc60eda9879d9a3f54af1bb0cbb9?rik=KFq0FYCKvSaSRw&pid=ImgRaw&r=0"
 
     },
     {
@@ -2962,7 +2973,7 @@ export const CourseData=[
         semester:2,
         ext: "",
         slides: [],
-        img: ""
+        img: "https://th.bing.com/th/id/R.3b84b6fef38e61891d8e4aef3adf7362?rik=tHIHWwyAATad6g&pid=ImgRaw&r=0"
 
     },
     {
@@ -2972,33 +2983,11 @@ export const CourseData=[
         code:"FC 181",
         year:2,
         semester:1,
+        
         ext: "",
         slides: [],
-        img: ""
-
-    },
-    {
-        ID:"materials",
-        id:"engineeringinsociety",
-        name:"Engineering in Society",
-        code:"CENG 291",
-        year:2,
-        semester:1,
-        ext: "",
-        slides: [],
-        img: ""
-
-    },
-    {
-        ID:"materials",
-        id:"propertiesofengineeringmaterials",
-        name:"Properties of Engineering Materials",
-        code:"MSE 255",
-        year:2,
-        semester:1,
-        ext: "",
-        slides: [],
-        img: ""
+        img: "https://th.bing.com/th/id/R.3b84b6fef38e61891d8e4aef3adf7362?rik=tHIHWwyAATad6g&pid=ImgRaw&r=0"
+        
 
     },
     {
@@ -3010,7 +2999,7 @@ export const CourseData=[
         semester:1,
         ext: "",
         slides: [],
-        img: ""
+        img: "https://th.bing.com/th/id/R.90f2de6a308ba3bec353830b7620cea8?rik=S7QHL%2bHnbRmHUA&riu=http%3a%2f%2findigenousdreamtimemethods.weebly.com%2fuploads%2f2%2f2%2f2%2f8%2f22288060%2f1158844.jpg%3f359&ehk=r4DxecmRr2FGQoBsyclpgm4CpSIWLe0Zx6XhGKCGSNM%3d&risl=&pid=ImgRaw&r=0"
 
     },
     {
@@ -3022,7 +3011,8 @@ export const CourseData=[
         semester:1,
         ext: "",
         slides: [],
-        img: ""
+        img: "https://th.bing.com/th/id/OIP.l32Fyk3viTTC5xUAbSrtJAAAAA?pid=ImgDet&w=392&h=272&rs=1"
+        
 
     },
     {
@@ -3034,7 +3024,7 @@ export const CourseData=[
         semester:1,
         ext: "",
         slides: [],
-        img: ""
+        img: "https://th.bing.com/th/id/R.2aff98e9ba32f0d86220491d09173739?rik=hRdxOW2wY3pqGg&pid=ImgRaw&r=0"
 
     },
     {
@@ -3046,7 +3036,7 @@ export const CourseData=[
         semester:1,
         ext: "",
         slides: [],
-        img: ""
+        img: "https://th.bing.com/th/id/R.0e9da375efc89e032b8c53dafb231675?rik=GwfqoecSvshI7g&pid=ImgRaw&r=0"
 
     },
     {
@@ -3058,7 +3048,8 @@ export const CourseData=[
         semester:2,
         ext: "",
         slides: [],
-        img: ""
+        img: "https://th.bing.com/th/id/R.c90d92bd367976037681342dadbac0a9?rik=h9S3o3ZNb2G%2bkg&pid=ImgRaw&r=0"
+        
 
     },
     {
@@ -3070,7 +3061,7 @@ export const CourseData=[
         semester:2,
         ext: "",
         slides: [],
-        img: ""
+        img: "https://th.bing.com/th/id/OIP.thkBx9sx_7WHMRIe2w2bRgHaEX?pid=ImgDet&rs=1"
 
     },
     {
@@ -3082,7 +3073,7 @@ export const CourseData=[
         semester:2,
         ext: "",
         slides: [],
-        img: ""
+        img: "https://th.bing.com/th/id/OIP.AlJpeeaXvxF1JHHsJG_0GgHaFp?pid=ImgDet&rs=1"
 
     },
     {
@@ -3094,7 +3085,8 @@ export const CourseData=[
         semester:2,
         ext: "",
         slides: [],
-        img: ""
+        img: "https://th.bing.com/th/id/OIP.l32Fyk3viTTC5xUAbSrtJAAAAA?pid=ImgDet&w=392&h=272&rs=1"
+        
 
     },
     {
@@ -3106,7 +3098,8 @@ export const CourseData=[
         semester:2,
         ext: "",
         slides: [],
-        img: ""
+        img: "https://epi-rsc.rsc-cdn.org/globalassets/05-journals-books-databases/our-journals/environmental-science-advances/esa-hero_1920x1080.jpg?version=9160e883"
+        
 
     },
     {
@@ -3118,7 +3111,7 @@ export const CourseData=[
         semester:2,
         ext: "",
         slides: [],
-        img: ""
+        img: "https://th.bing.com/th/id/R.a2502c4af178883b36b67289786bc621?rik=bYqkSIcvE763fw&pid=ImgRaw&r=0"
 
     },
     {
@@ -3130,7 +3123,8 @@ export const CourseData=[
         semester:2,
         ext: "",
         slides: [],
-        img: ""
+        img: "https://th.bing.com/th/id/R.828e895debcee7686d83eee4acd577d7?rik=oX45n1rgqd%2fMIQ&pid=ImgRaw&r=0"
+        
 
     },
     {
@@ -3142,7 +3136,7 @@ export const CourseData=[
         semester:1,
         ext: "",
         slides: [],
-        img: ""
+        img: "https://skill-lync-portal.nyc3.digitaloceanspaces.com/tinymce/06_20/15931378181316.jpg"
 
     },
     {
@@ -3154,7 +3148,7 @@ export const CourseData=[
         semester:1,
         ext: "",
         slides: [],
-        img: ""
+        img: "https://th.bing.com/th/id/R.0edac95d0aab5932ca9609bed595ef3c?rik=C%2bswU9CWDn8xOg&riu=http%3a%2f%2fwww.technicalceramics-eti.com%2fimages%2fetitk%2farticles%2f01_applications%2f03_lightening%2f01.jpg&ehk=l4sizguzD5gURcjAg3THJXnCdL2eXVyD3XltsOu4zDc%3d&risl=&pid=ImgRaw&r=0"
 
     },
     {
@@ -3166,7 +3160,8 @@ export const CourseData=[
         semester:1,
         ext: "",
         slides: [],
-        img: ""
+        img: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTNe9syWcg9Y5J5hiNXq82NNAy8dmtP-auX_Q&usqp=CAU"
+        
 
     },
     {
@@ -3178,7 +3173,7 @@ export const CourseData=[
         semester:1,
         ext: "",
         slides: [],
-        img: ""
+        img: "https://th.bing.com/th/id/OIP.TsNiF2XWhcxF09qeTAtfNgHaFj?pid=ImgDet&rs=1"
 
     },
     {
@@ -3190,7 +3185,7 @@ export const CourseData=[
         semester:1,
         ext: "",
         slides: [],
-        img: ""
+        img: "https://th.bing.com/th/id/R.828e895debcee7686d83eee4acd577d7?rik=oX45n1rgqd%2fMIQ&pid=ImgRaw&r=0"
 
     },
     {
@@ -3202,7 +3197,7 @@ export const CourseData=[
         semester:1,
         ext: "",
         slides: [],
-        img: ""
+        img: "https://th.bing.com/th/id/OIP.Iv6HRkWXF0ITCMamzAnfWgHaFg?pid=ImgDet&rs=1"
 
     },
     {
@@ -3214,7 +3209,7 @@ export const CourseData=[
         semester:1,
         ext: "",
         slides: [],
-        img: ""
+        img: "https://th.bing.com/th/id/R.472ff2f5626acd3aa99c0a4da0fe38e9?rik=BzAr3gItzRNcLQ&pid=ImgRaw&r=0"
 
     },
     {
@@ -3226,7 +3221,7 @@ export const CourseData=[
         semester:1,
         ext: "",
         slides: [],
-        img: ""
+        img: "https://th.bing.com/th/id/OIP.zdlBDbpGNCIovCzlSBz7YwHaFj?pid=ImgDet&rs=1"
 
     },
     {
@@ -3238,7 +3233,7 @@ export const CourseData=[
         semester:2,
         ext: "",
         slides: [],
-        img: ""
+        img: "https://th.bing.com/th/id/R.c3baa9660aae7e48ae3cd113c173f8e5?rik=l5BJfEphPEM09g&pid=ImgRaw&r=0"
 
     },
     {
@@ -3250,7 +3245,7 @@ export const CourseData=[
         semester:2,
         ext: "",
         slides: [],
-        img: ""
+        img: "https://th.bing.com/th/id/R.82e369236ad160342a96024e490bb790?rik=i6Lp3DkfNiCrOg&pid=ImgRaw&r=0"
 
     },
     {
@@ -3262,7 +3257,7 @@ export const CourseData=[
         semester:2,
         ext: "",
         slides: [],
-        img: ""
+        img: "https://th.bing.com/th/id/R.4642c47500bafbe2e22724f203738cd4?rik=UY1%2bXlkbbczumg&pid=ImgRaw&r=0"
 
     },
     {
@@ -3274,7 +3269,8 @@ export const CourseData=[
         semester:2,
         ext: "",
         slides: [],
-        img: ""
+        img: "https://th.bing.com/th/id/OIP.TsNiF2XWhcxF09qeTAtfNgHaFj?pid=ImgDet&rs=1"
+        
 
     },
     {
@@ -3286,7 +3282,8 @@ export const CourseData=[
         semester:2,
         ext: "",
         slides: [],
-        img: ""
+        img: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTNe9syWcg9Y5J5hiNXq82NNAy8dmtP-auX_Q&usqp=CAU"
+        
 
     },
     {
@@ -3298,7 +3295,7 @@ export const CourseData=[
         semester:2,
         ext: "",
         slides: [],
-        img: ""
+        img: "https://th.bing.com/th/id/R.03717c20728f71578464f3967055a59c?rik=4x50SRITA9FcmA&riu=http%3a%2f%2f3.bp.blogspot.com%2f-fKsvTw7JX3E%2fVFTypyfKs7I%2fAAAAAAAABBE%2fAr3TweedFAw%2fs1600%2fglassblowing1.jpg&ehk=DZOrluF1ECUChNDFoegR%2bSFrGayOKT8LgmYocMZOruE%3d&risl=&pid=ImgRaw&r=0"
 
     },
     {
@@ -3310,7 +3307,7 @@ export const CourseData=[
         semester:2,
         ext: "",
         slides: [],
-        img: ""
+        img: "https://th.bing.com/th/id/R.c509e5ff9b2d0ebab8dac7f1cfc0b388?rik=0bUF%2bEVkq26dMg&riu=http%3a%2f%2fwww.nutrichemproducts.com%2fwp-content%2fuploads%2f2018%2f01%2fAbout-Us-image-280x264.jpg&ehk=3Md04p205VDUeMH1q2LzPHb8FjVnstW%2b2PecnjFo2gU%3d&risl=&pid=ImgRaw&r=0"
 
     },
     {
@@ -3322,7 +3319,7 @@ export const CourseData=[
         semester:2,
         ext: "",
         slides: [],
-        img: ""
+        img: "https://www.hdwallpapers.in/download/blue_lines_abstract_material_design-1440x2560.jpg"
 
     },
     {
@@ -3334,7 +3331,8 @@ export const CourseData=[
         semester:1,
         ext: "",
         slides: [],
-        img: ""
+        img: "https://www.univillage.co/covers/course-overview/article/economics.jpg"
+        
 
     },
     {
@@ -3346,7 +3344,7 @@ export const CourseData=[
         semester:1,
         ext: "",
         slides: [],
-        img: ""
+        img: "https://th.bing.com/th/id/R.700995c695a1ae7ba8db1bf1036045e8?rik=eRMheR5qAn7dbg&pid=ImgRaw&r=0"
 
     },
     {
@@ -3358,7 +3356,7 @@ export const CourseData=[
         semester:1,
         ext: "",
         slides: [],
-        img: ""
+        img: "https://th.bing.com/th/id/R.acb1cb5dc8737cc38b608f184ad4ee53?rik=Mqz1zM4f10Kamg&pid=ImgRaw&r=0"
 
     },
     {
@@ -3370,7 +3368,7 @@ export const CourseData=[
         semester:1,
         ext: "",
         slides: [],
-        img: ""
+        img: "https://th.bing.com/th/id/R.9e9033bee01a253500e75480b3034a08?rik=qFOG1wSrVmhGEA&pid=ImgRaw&r=0"
 
     },
     {
@@ -3382,7 +3380,7 @@ export const CourseData=[
         semester:1,
         ext: "",
         slides: [],
-        img: ""
+        img: "https://th.bing.com/th/id/R.acd0434041116a65f08c4b95c2cf4b4b?rik=blkjGK0kHhp0RA&riu=http%3a%2f%2fwww.austgen.com.au%2fwp-content%2fuploads%2f2017%2f09%2flaser-metal-cutting-engineering-1024x519.jpg&ehk=WceIa3H2QdDuAcL7sitcCjxfecAa5BD9IH2BRASrKCg%3d&risl=&pid=ImgRaw&r=0"
 
     },
     {
@@ -3406,7 +3404,8 @@ export const CourseData=[
         semester:1,
         ext: "",
         slides: [],
-        img: ""
+        img: "https://th.bing.com/th/id/R.a843b56d9f1d4b3e055c45b924a9ecad?rik=Y5hvE6MAcV5V1g&pid=ImgRaw&r=0"
+        
 
     },
     {
@@ -3418,7 +3417,7 @@ export const CourseData=[
         semester:2,
         ext: "",
         slides: [],
-        img: ""
+        img: "https://th.bing.com/th/id/R.d6713a032d0e780b0c39a9a5d4195159?rik=Tj9gUcNVinXVqg&pid=ImgRaw&r=0"
 
     },
     {
@@ -3430,7 +3429,7 @@ export const CourseData=[
         semester:2,
         ext: "",
         slides: [],
-        img: ""
+        img: "https://th.bing.com/th/id/R.4154b1335d85d99c3f9da939b16e8be5?rik=uIAeih8VUj9JHw&riu=http%3a%2f%2fkghcustoms.com%2fwp-content%2fuploads%2f2015%2f12%2f3.5-Waste-Management_stock-photo-69258343-hr.jpg&ehk=KVRi92b%2feunyGORLgTjZsZT8FqvLzMVbBCNct6VCPSA%3d&risl=&pid=ImgRaw&r=0"
 
     },
     {
@@ -3442,7 +3441,7 @@ export const CourseData=[
         semester:2,
         ext: "",
         slides: [],
-        img: ""
+        img: "https://th.bing.com/th/id/R.a843b56d9f1d4b3e055c45b924a9ecad?rik=Y5hvE6MAcV5V1g&pid=ImgRaw&r=0"
 
     },
     {
@@ -3454,7 +3453,7 @@ export const CourseData=[
         semester:2,
         ext: "",
         slides: [],
-        img: ""
+        img: "https://th.bing.com/th/id/R.7690302639290e1823b6c762d9c3fb3b?rik=PT9tvMziexwEUQ&pid=ImgRaw&r=0&sres=1&sresct=1"
 
     },
     {
@@ -3466,7 +3465,7 @@ export const CourseData=[
         semester:2,
         ext: "",
         slides: [],
-        img: ""
+        img: "https://th.bing.com/th/id/R.6a9e19dea2acd53ae34b6f7d33c3e885?rik=MqAuan6G2vv5RA&riu=http%3a%2f%2fwww.midlandasphalt.com%2fwp-content%2fuploads%2f2013%2f08%2fSurfaceTx_1.png&ehk=Y8%2bTdd3LxRXjQur6hnCO76DK2COSFrOBfWrTphIyjSQ%3d&risl=&pid=ImgRaw&r=0"
 
     },
     {
@@ -3478,7 +3477,7 @@ export const CourseData=[
         semester:2,
         ext: "",
         slides: [],
-        img: ""
+        img: "https://th.bing.com/th/id/OIP.mTCV4mArTm4tjUZwJkDqvgAAAA?pid=ImgDet&rs=1"
 
     },
     {
@@ -3489,7 +3488,7 @@ export const CourseData=[
         semester:2,
         ext: "",
         slides: [],
-        img: ""
+        img: "https://www.univillage.co/covers/course-overview/article/economics.jpg"
     },
     {
         ID:"materials",
@@ -3499,7 +3498,7 @@ export const CourseData=[
         semester:2,
         ext: "",
         slides: [],
-        img: ""
+        img: "https://th.bing.com/th/id/OIP.zeXgL3J1BUQOD3J0PxxoMQHaDi?pid=ImgDet&rs=1"
     },
     {
         ID:"chemical",
@@ -3566,8 +3565,7 @@ export const CourseData=[
         ext: "",
         slides: [],
         img: "https://img.freepik.com/free-vector/geometry-education-blue-background-vector-frame-disruptive-education-digital-remix_53876-114094.jpg?w=740&t=st=1661837216~exp=1661837816~hmac=5b40056780bebdeeb8bb5259612262507c80ddd5467b97f2ff299f6a2309d897"
-    },
-    {
+    },{
         ID:"chemical",
         id:"technicaldrawing",
         name:"Technical Drawing",
@@ -4123,7 +4121,7 @@ export const CourseData=[
     },
     {
         ID:"agricultural",
-        id:"calculuswithanalysis",
+        id:"calculus",
         name:"Calculus With Analysis",
         code:"MATH 152",
         year: 1,
@@ -4720,7 +4718,7 @@ export const CourseData=[
         semester:1,
         ext: "",
         slides: [],
-        img:"https://img.freepik.com/free-vector/geometry-education-blue-background-vector-frame-disruptive-education-digital-remix_53876-114094.jpg?w=740&t=st=1661837216~exp=1661837816~hmac=5b40056780bebdeeb8bb5259612262507c80ddd5467b97f2ff299f6a2309d897"
+        img: " img: `https://img.freepik.com/free-vector/geometry-education-blue-background-vector-frame-disruptive-education-digital-remix_53876-114094.jpg?w=740&t=st=1661837216~exp=1661837816~hmac=5b40056780bebdeeb8bb5259612262507c80ddd5467b97f2ff299f6a2309d897`"
     }, 
     {
         ID:"biomedical",
@@ -5318,8 +5316,8 @@ export const CourseData=[
     }, 
     {
         ID:"geomatic",
-        id:"appliedoptics",
-        name:"Applied Optics",
+        id:"appliedoPtics",
+        name:"Applied OPtics",
         code:"GE 171",
         year: 1,
         semester:1,
@@ -5336,7 +5334,7 @@ export const CourseData=[
         semester:1,
         ext: "",
         slides: [],
-        img: "https://img.freepik.com/free-vector/geometry-education-blue-background-vector-frame-disruptive-education-digital-remix_53876-114094.jpg?w=740&t=st=1661837216~exp=1661837816~hmac=5b40056780bebdeeb8bb5259612262507c80ddd5467b97f2ff299f6a2309d897"
+        img: " img: `https://img.freepik.com/free-vector/geometry-education-blue-background-vector-frame-disruptive-education-digital-remix_53876-114094.jpg?w=740&t=st=1661837216~exp=1661837816~hmac=5b40056780bebdeeb8bb5259612262507c80ddd5467b97f2ff299f6a2309d897`"
     }, 
     {
         ID:"geomatic",
@@ -5347,7 +5345,7 @@ export const CourseData=[
         semester:1,
         ext: "",
         slides: [],
-        img: "https://th.bing.com/th/id/OIP.j4tHyjrtYU0ruad9iiPkSAHaD4?pid=ImgDet&rs=1"
+        img: ""
     }, 
     {
         ID:"geomatic",

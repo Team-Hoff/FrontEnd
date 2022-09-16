@@ -57,9 +57,9 @@ const Program = () => {
 
           <div>
             <select onChange={(event) => setcourseQuery(event.target.value)}>
-              <option value='' hidden >
+              {/* <option value='' hidden >
                 SELECT YEAR
-              </option>
+              </option> */}
               <option value={1}>
                 LEVEL 100
               </option>

@@ -7,7 +7,7 @@ export const CourseData=[
         year: 1,
         semester:1,
         ext: "",
-        slides: ["Lecture One", "Lecture Two", "Lecture Three", "Lecture Four", "Lecture Five"],
+        slides: [1,2,3,4,5],
         img: "https://img.freepik.com/free-vector/geometry-education-blue-background-vector-frame-disruptive-education-digital-remix_53876-114094.jpg?w=740&t=st=1661837216~exp=1661837816~hmac=5b40056780bebdeeb8bb5259612262507c80ddd5467b97f2ff299f6a2309d897"
     }, 
     {
@@ -1451,7 +1451,7 @@ export const CourseData=[
         semester:2,
         ext: "",
         slides: [],
-        img: ""
+        img: "https://damassets.autodesk.net/content/dam/autodesk/draftr/2191/AutoCAD_Electrical_2013_16x9_v2_compressed.jpg"
 
     },
     {
@@ -1501,18 +1501,6 @@ export const CourseData=[
         slides: [],
         img: "https://www.makerspaces.com/wp-content/uploads/2017/05/basic-electronics-header.jpg"
         
-
-    },
-    {
-        ID:"telecom",
-        id:"electricalengineeringdrawing",
-        name:"Electrical Engineering Drawing",
-        code:"EE 156",
-        year:1,
-        semester:2,
-        ext: "",
-        slides: [],
-        img: ""
 
     },
     {
@@ -2309,7 +2297,7 @@ export const CourseData=[
         semester:1,
         ext: "",
         slides: [],
-        img: ""
+        img: "https://th.bing.com/th/id/OIP.dU6fU3PJdfxm0bxyRsCjRQHaHy?pid=ImgDet&rs=1"
 
     },
     {
@@ -2434,7 +2422,7 @@ export const CourseData=[
         semester:1,
         ext: "",
         slides: [],
-        img: ""
+        img: "https://th.bing.com/th/id/R.e176f34e6aa54128ce614345d94c8657?rik=Cx5Vx5kksJ5kOw&riu=http%3a%2f%2fwww.reinisfischer.com%2fsites%2fdefault%2ffiles%2ftopgdpcapita.png&ehk=ELdSHWYGTS5quJ8s97FVUGgVM0RsX7TgQokzjqH8LMU%3d&risl=&pid=ImgRaw&r=0"
 
     },
     {
@@ -2459,7 +2447,7 @@ export const CourseData=[
         semester:1,
         ext: "",
         slides: [],
-        img: ""
+        img: "https://th.bing.com/th/id/OIP.wLDaACbhuvrA99cjVvmn7AAAAA?pid=ImgDet&rs=1"
 
     },
     {
@@ -2483,7 +2471,7 @@ export const CourseData=[
         semester:1,
         ext: "",
         slides: [],
-        img: ""
+        img: "https://www.mdpi.com/ijms/ijms-16-17101/article_deploy/html/images/ijms-16-17101-ag-550.jpg"
 
     },
     {
@@ -2495,7 +2483,7 @@ export const CourseData=[
         semester:1,
         ext: "",
         slides: [],
-        img: ""
+        img: "https://media.noria.com/sites/Uploads/2018/12/2/2463cdad-bfb2-4935-b98b-5d6e5d5098d1_kinematic-viscosity-1200_extra_large.jpeg"
 
     },
     {
@@ -2507,7 +2495,7 @@ export const CourseData=[
         semester:1,
         ext: "",
         slides: [],
-        img: ""
+        img: "https://th.bing.com/th/id/R.195fb4837ff9e0683e6ed7b139e0b63e?rik=h6Cc9Vjjp9WNSw&pid=ImgRaw&r=0"
 
     },
     {
@@ -2519,7 +2507,7 @@ export const CourseData=[
         semester:1,
         ext: "",
         slides: [],
-        img: ""
+        img: "https://th.bing.com/th/id/R.70cf28cf78d9cc5fc4ed2cb9e3003964?rik=XBQnpt2MA2TN4g&riu=http%3a%2f%2fen.camcel.com.cn%2fAdvantagedIndustries%2fPetrochemicalEngineering%2f201610%2fW020161124439292682627.jpg&ehk=OJepNud3nyPwB%2bjvMi%2fTeBAgcVz4XQcEsh7BtSiACRg%3d&risl=&pid=ImgRaw&r=0"
 
     },
     {
@@ -2531,7 +2519,7 @@ export const CourseData=[
         semester:2,
         ext: "",
         slides: [],
-        img: ""
+        img: "https://www.bruker.com/fr/resources/library/application-notes-mr/material-science-applications-of-dnp/_jcr_content/teaserImage.coreimg.jpeg/1601533649165/banner-biological-dnp.jpeg"
 
     },
     {
@@ -2579,7 +2567,7 @@ export const CourseData=[
         semester:2,
         ext: "",
         slides: [],
-        img: ""
+        img: "https://th.bing.com/th/id/OIP.wLDaACbhuvrA99cjVvmn7AAAAA?pid=ImgDet&rs=1"
 
     },
     {
@@ -2591,7 +2579,7 @@ export const CourseData=[
         semester:2,
         ext: "",
         slides: [],
-        img: ""
+        img: "https://th.bing.com/th/id/R.195fb4837ff9e0683e6ed7b139e0b63e?rik=h6Cc9Vjjp9WNSw&pid=ImgRaw&r=0"
 
     },
     {
@@ -2699,7 +2687,7 @@ export const CourseData=[
         semester:1,
         ext: "",
         slides: [],
-        img: ""
+        img: "https://th.bing.com/th/id/R.195fb4837ff9e0683e6ed7b139e0b63e?rik=h6Cc9Vjjp9WNSw&pid=ImgRaw&r=0"
 
     },
     {
@@ -2711,7 +2699,7 @@ export const CourseData=[
         semester:1,
         ext: "",
         slides: [],
-        img: ""
+        img: "https://th.bing.com/th/id/R.4a550e3c29010c3ff49103cdd89e9a4a?rik=3x5DjSQcGQPD%2bQ&riu=http%3a%2f%2fwww.lessstress.com%2fOpenELECTIVE.jpg&ehk=SVk0UTVQRx6JqFIYPEk3BtdPAK9xMO0bqUmzKOL%2feu4%3d&risl=&pid=ImgRaw&r=0"
 
     },
     {
@@ -2735,7 +2723,7 @@ export const CourseData=[
         semester:2,
         ext: "",
         slides: [],
-        img: ""
+        img: "https://ied.eu/wp-content/uploads/2020/09/entrepreneurship-and-economic-development.gif"
 
     },
     {
@@ -2784,7 +2772,7 @@ export const CourseData=[
         semester:2,
         ext: "",
         slides: [],
-        img: ""
+        img: "https://th.bing.com/th/id/R.195fb4837ff9e0683e6ed7b139e0b63e?rik=h6Cc9Vjjp9WNSw&pid=ImgRaw&r=0"
 
     },
     {
@@ -2796,7 +2784,7 @@ export const CourseData=[
         semester:1,
         ext: "",
         slides: [],
-        img: ""
+        img: "https://d1uvxqwmcz8fl1.cloudfront.net/tes/resources/11375306/63f725b4-0419-4097-bb0a-95f85e41ac0c/image?width=1000&height=190&version=1493912591364"
 
     },
     {
@@ -2859,7 +2847,7 @@ export const CourseData=[
         semester:1,
         ext: "",
         slides: [],
-        img: ""
+        img: "https://th.bing.com/th/id/R.9b9ddd78dbb308de471f76b881236141?rik=9AysZupOBi87Lg&riu=http%3a%2f%2fulpower.net%2fwp-content%2fuploads%2f2020%2f09%2fengineering-technology.jpg&ehk=1jHxSlveC7aXaER71BhdCuIASC0peQOaHmu36TKCyHM%3d&risl=&pid=ImgRaw&r=0"
 
     },
     {
@@ -3392,7 +3380,7 @@ export const CourseData=[
         semester:1,
         ext: "",
         slides: [],
-        img: ""
+        img: "https://th.bing.com/th/id/OIP.ZQ6dO0lmk-PLs_aj7lwFEgHaDe?pid=ImgDet&rs=1"
 
     },
     {
@@ -3828,7 +3816,7 @@ export const CourseData=[
         semester:1,
         ext: "",
         slides: [],
-        img: ""
+        img: "https://www.gre.ac.uk/__data/assets/image/0018/6174/chemical-engineering-laboratory.jpg"
     },
     {
         ID:"chemical",
@@ -3850,7 +3838,7 @@ export const CourseData=[
         semester:1,
         ext: "",
         slides: [],
-        img: ""
+        img: "https://st.depositphotos.com/1760261/1348/i/600/depositphotos_13484306-stock-photo-data-analysis.jpg"
     },
     {
         ID:"chemical",
@@ -3861,7 +3849,7 @@ export const CourseData=[
         semester:1,
         ext: "",
         slides: [],
-        img: ""
+        img: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRIyltQAyhQTaMjFaKYyqo6_YFjQMQdVjthUw&usqp=CAU"
     },
     {
         ID:"chemical",
@@ -3872,7 +3860,7 @@ export const CourseData=[
         semester:1,
         ext: "",
         slides: [],
-        img: ""
+        img: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRGd8cLy79g4ooU4BguA-P-LiEOLepYUoj3K_Hn5ZZQSA&s"
     },
     {
         ID:"chemical",
@@ -3894,7 +3882,7 @@ export const CourseData=[
         semester:1,
         ext: "",
         slides: [],
-        img: ""
+        img: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQF3ITz3bFD2EQCBRw0v1aaED0B5C7woJBvCw&usqp=CAU"
     },
 
     {
@@ -3929,7 +3917,7 @@ export const CourseData=[
         semester:2,
         ext: "",
         slides: [],
-        img: ""
+        img: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTdYX_qU7-GxyI4sd7lZhfIVVnWv4WW3BttkFiF6kPb-jn_zLhtMA45eoxpRdLn3wNgijU&usqp=CAU"
     },
     {
         ID:"chemical",
@@ -3940,7 +3928,7 @@ export const CourseData=[
         semester:2,
         ext: "",
         slides: [],
-        img: ""
+        img: "https://media.istockphoto.com/vectors/heat-energy-as-convection-conduction-and-radiation-physics-science-vector-id958060736?k=20&m=958060736&s=612x612&w=0&h=QL1I-ZFCyuw6v81BzCju9ORg7EUb8z-J4zwJtH6yVpM="
     },
     {
         ID:"chemical",
@@ -3976,6 +3964,73 @@ export const CourseData=[
         img: "https://www.conncoll.edu/media/major-images/Economics.jpg"
     },
     {
+        ID:"chemical",
+        id:"chemicalengineeringlaboratoryII",
+        name:"Chemical Engineering Laboratory II",
+        code :"CHE 457",
+        year: 4,
+        semester:1,
+        ext: "",
+        slides: [],
+        img: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSDIel3kELx56_pkBs-NBlOYg6zycUdDTnx6R5_eKrSOg&s"
+    },
+    {
+        ID:"chemical",
+        id:"safetyandpollutioncontrol",
+        name:"Safety And Pollution Control",
+        code:"CHE 459",
+        year: 4,
+        semester:1,
+        ext: "",
+        slides: [],
+        img: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQcjkc9YRsVmI6OZ9cplbVrgjU-mLR3PxIrUg&usqp=CAU"
+    },
+    {
+        ID:"chemical",
+        id:"plantdesignprojectI",
+        name:"Plant Design Project I",
+        code:"CHE 453",
+        year: 4,
+        semester:1,
+        ext: "",
+        slides: [],
+        img: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRlULO8dRFtI67LmkDy0UL2JMrRCxR4QRNAVAwO9XT2uA&s"
+    },
+    {
+        ID:"chemical",
+        id:"processcontrolandinstrumentation",
+        name:"Process Control And Instrumentation",
+        code:"CHE 455",
+        year: 4,
+        semester:1,
+        ext: "",
+        slides: [],
+        img: "https://www.amtekcompany.com/wp-content/uploads/2018/03/Process-Control-Header-e1470919965783.jpg"
+    },
+    {
+        ID:"chemical",
+        id:"chemicalprocessdesignandeconomics",
+        name:"Chemical Process Design And Economics",
+        code:"CHE 451",
+        year: 4,
+        semester:1,
+        ext: "",
+        slides: [],
+        img: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcT3x5up5Q-deYdh2AoYOja5Rc06V3y7kIf5ig&usqp=CAU"
+    },
+    {
+        ID:"chemical",
+        id:"electrochemicaltechnology",
+        name:"Electrochemical Technology",
+        code:"CHE 463",
+        year: 4,
+        semester:1,
+        ext: "",
+        slides: [],
+        img: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQJ-ZxUad3D2d9RjDAAMgfCjG3gjoXUUshVbigv_U_TrRGKQrCLiJmBB-gIIDdVJHGZ8uw&usqp=CAU"
+    },
+
+    {
         ID:"agricultural",
         id:"algebra",
         name:"Algebra",
@@ -3984,7 +4039,7 @@ export const CourseData=[
         semester:1,
         ext: "",
         slides: [],
-        img: `https://img.freepik.com/free-vector/geometry-education-blue-background-vector-frame-disruptive-education-digital-remix_53876-114094.jpg?w=740&t=st=1661837216~exp=1661837816~hmac=5b40056780bebdeeb8bb5259612262507c80ddd5467b97f2ff299f6a2309d897`
+        img: "https://img.freepik.com/free-vector/geometry-education-blue-background-vector-frame-disruptive-education-digital-remix_53876-114094.jpg?w=740&t=st=1661837216~exp=1661837816~hmac=5b40056780bebdeeb8bb5259612262507c80ddd5467b97f2ff299f6a2309d897"
     }, 
     {
         ID:"agricultural",
@@ -4696,7 +4751,7 @@ export const CourseData=[
         semester:1,
         ext: "",
         slides: [],
-        img: ""
+        img: "https://img.freepik.com/premium-photo/applying-thermal-paste-computer-s-central-processing-unit-computer-repair_131301-2395.jpg?w=740"
     }, 
     {
         ID:"biomedical",
@@ -4707,7 +4762,7 @@ export const CourseData=[
         semester:1,
         ext: "",
         slides: [],
-        img: ""
+        img: "https://virtualspeech.com/img/blog/header/effective-communication-skills.jpg"
     }, 
     {
         ID:"biomedical",
@@ -4729,7 +4784,7 @@ export const CourseData=[
         semester:1,
         ext: "",
         slides: [],
-        img: ""
+        img: "https://th.bing.com/thc/id/R.7dbcb2d23d5fd682c081bd7a78f9f567?rik=7tn37NS2GFBEzw&pid=ImgRaw&r=0"
     }, 
     {
         ID:"biomedical",
@@ -4740,7 +4795,7 @@ export const CourseData=[
         semester:1,
         ext: "",
         slides: [],
-        img: ""
+        img: "https://1.bp.blogspot.com/-rja2B49-kJI/WtBnGNPqJdI/AAAAAAAAu6I/Q-vAmdDV7142PwlEs7bhIzGeC-G00Jf7wCK4BGAYYCw/s1600/picture-718945.jpg"
     }, 
     {
         ID:"biomedical",
@@ -4751,7 +4806,7 @@ export const CourseData=[
         semester:1,
         ext: "",
         slides: [],
-        img: ""
+        img: "https://d1uvxqwmcz8fl1.cloudfront.net/tes/resources/11375306/63f725b4-0419-4097-bb0a-95f85e41ac0c/image?width=1000&height=190&version=1493912591364"
     }, 
     {
         ID:"biomedical",
@@ -4773,7 +4828,7 @@ export const CourseData=[
         semester:2,
         ext: "",
         slides: [],
-        img: ""
+        img: "https://key.fm/wp-content/uploads/2019/02/Information-Technology-Industry-4-Network-min.jpg"
     }, 
     {
         ID:"biomedical",
@@ -4784,7 +4839,7 @@ export const CourseData=[
         semester:2,
         ext: "",
         slides: [],
-        img: ""
+        img: "https://damassets.autodesk.net/content/dam/autodesk/draftr/2191/AutoCAD_Electrical_2013_16x9_v2_compressed.jpg"
     }, 
     {
         ID:"biomedical",
@@ -4795,7 +4850,7 @@ export const CourseData=[
         semester:2,
         ext: "",
         slides: [],
-        img: ""
+        img: "https://virtualspeech.com/img/blog/header/effective-communication-skills.jpg"
     }, 
     {
         ID:"biomedical",
@@ -4949,7 +5004,7 @@ export const CourseData=[
         semester:2,
         ext: "",
         slides: [],
-        img: ""
+        img: "https://th.bing.com/th/id/OIP.R5b7tfIve3d_Cn23kaMM_QHaEK?pid=ImgDet&rs=1"
     }, 
     {
         ID:"biomedical",
@@ -5345,7 +5400,7 @@ export const CourseData=[
         semester:1,
         ext: "",
         slides: [],
-        img: ""
+        img: "https://th.bing.com/thc/id/R.7dbcb2d23d5fd682c081bd7a78f9f567?rik=7tn37NS2GFBEzw&pid=ImgRaw&r=0"
     }, 
     {
         ID:"geomatic",
@@ -5356,7 +5411,7 @@ export const CourseData=[
         semester:1,
         ext: "",
         slides: [],
-        img: ""
+        img: "https://1.bp.blogspot.com/-rja2B49-kJI/WtBnGNPqJdI/AAAAAAAAu6I/Q-vAmdDV7142PwlEs7bhIzGeC-G00Jf7wCK4BGAYYCw/s1600/picture-718945.jpg"
     }, 
     {
         ID:"geomatic",
@@ -5367,7 +5422,7 @@ export const CourseData=[
         semester:1,
         ext: "",
         slides: [],
-        img: ""
+        img: "https://d1uvxqwmcz8fl1.cloudfront.net/tes/resources/11375306/63f725b4-0419-4097-bb0a-95f85e41ac0c/image?width=1000&height=190&version=1493912591364"
     }, 
     {
         ID:"geomatic",
@@ -5411,7 +5466,7 @@ export const CourseData=[
         semester:2,
         ext: "",
         slides: [],
-        img: ""
+        img: "https://virtualspeech.com/img/blog/header/effective-communication-skills.jpg"
     }, 
     {
         ID:"geomatic",

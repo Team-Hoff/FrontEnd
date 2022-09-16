@@ -157,3 +157,11 @@
     font-family: 'Poppins';
 }
 
+.hov{
+    cursor: pointer;
+}
+
+.hov:hover{
+    color: blue;
+}
+

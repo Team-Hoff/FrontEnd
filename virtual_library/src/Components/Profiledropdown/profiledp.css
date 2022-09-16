@@ -7,33 +7,16 @@
 
 .resize{
     width: 12%;
-    height: 12%;
-    /* padding-right: 10px; */
-    
-    
+    height: 12%; 
 }
 
-/* .action{
-    position: fixed;
-    top: 35px;
-    right: 20px;
-    
-    
-} */
-
 .action .profile{ 
-    /* position: absolute; */
-    /* width: 60px; */
-    /* height: 60px; */
     border-radius: 50%;
     overflow: hidden;
     cursor: pointer;
 }
 
 .action .profile img{
-    /* position: absolute;
-    top: -10px;
-    left: -35px; */
     width: 30px;
     height: 30px;
     object-fit: cover;
@@ -49,8 +32,6 @@
     box-sizing: 0 5px 25px rgba(0,0,0,0.1);
     border-radius: 25px;
     transition: 0.2s;
-    /* visibility: hidden; */
-    /* opacity: 1; */
 }
 
 .active{
@@ -98,16 +79,14 @@
     padding-top: 15px ;
     border-top: 1px solid rgba(0,0,0,0.05);
     display: flex;
-    
     font-size: 12px;
-    justify-content: start;
+    /* justify-content: start; */
 }
 
 .action .menu ul li img{
     max-width: 40px;
     margin-right: 10px;
     opacity: 0.5;
-    /* transition: 0.5s; */
 }
 
 .action .menu ul li:hover img{
@@ -119,7 +98,6 @@
     text-decoration: none;
     color: #555;
     font-weight: 500;
-    /* transition: 0.5s; */
 }
 
 .action .menu ul li:hover a{

@@ -6,8 +6,8 @@ export const CourseData=[
         code:"MATH 151",
         year: 1,
         semester:1,
-        ext: "",
-        slides: [1,2,3,4,5],
+        ext: "pdf",
+        slides: ["Lecture One", "Lecture Two", "Lecture Three", "Lecture Four", "Lecture Five", "Lecture Six"],
         img: "https://img.freepik.com/free-vector/geometry-education-blue-background-vector-frame-disruptive-education-digital-remix_53876-114094.jpg?w=740&t=st=1661837216~exp=1661837816~hmac=5b40056780bebdeeb8bb5259612262507c80ddd5467b97f2ff299f6a2309d897"
     }, 
     {
@@ -17,8 +17,8 @@ export const CourseData=[
         code:"EE 151",
         year:1,
         semester:1,
-        ext: "",
-        slides: [],
+        ext: "pdf",
+        slides: ["Lecture One", "Lecture Two", "Lecture Three", "Lecture Four", "Lecture Five", "Lecture Six", "Lecture Seven", "Lecture Eight"],
         img: "https://img.freepik.com/premium-photo/applying-thermal-paste-computer-s-central-processing-unit-computer-repair_131301-2395.jpg?w=740"
     }, 
     {
@@ -28,8 +28,8 @@ export const CourseData=[
         code:"ENGL 157",
         year: 1,
         semester:1,
-        ext: "",
-        slides: [],
+        ext: "pdf",
+        slides: ["Lecture One"],
         img: "https://th.bing.com/th/id/OIP.XpVGmqQBBp4g2tRqWXIAMwHaHa?pid=ImgDet&rs=1"
     }, 
     {
@@ -39,8 +39,8 @@ export const CourseData=[
         code:"ME 161",
         year: 1,
         semester:1,
-        ext: "",
-        slides: [],
+        ext: "pdf",
+        slides: ["Lecture One", "Lecture Two", "Lecture Three", "Lecture Four", "Lecture Five", "Lecture Six", "Lecture Seven", "Lecture Eight"],
         img: "https://1.bp.blogspot.com/-rja2B49-kJI/WtBnGNPqJdI/AAAAAAAAu6I/Q-vAmdDV7142PwlEs7bhIzGeC-G00Jf7wCK4BGAYYCw/s1600/picture-718945.jpg"
     }, 
     {
@@ -50,8 +50,8 @@ export const CourseData=[
         code:"ME 159",
         year: 1,
         semester:1,
-        ext: "",
-        slides: [],
+        ext: "pptx",
+        slides: ["Lecture One", "Lecture Two", "Lecture Three", "Lecture Four", "Lecture Five", "Lecture Six", "Lecture Seven", "Lecture Eight"],
         img: "https://th.bing.com/thc/id/R.7dbcb2d23d5fd682c081bd7a78f9f567?rik=7tn37NS2GFBEzw&pid=ImgRaw&r=0"
     },
     {
@@ -72,8 +72,8 @@ export const CourseData=[
         code:"COE 153",
         year: 1,
         semester:1,
-        ext: "",
-        slides: [],
+        ext: "pdf",
+        slides: ["Lecture One"],
         img: "https://th.bing.com/th/id/OIP.3zpjDLnBn_rkjMJlZeJQgAHaED?pid=ImgDet&rs=1"
     },
     {
@@ -94,8 +94,8 @@ export const CourseData=[
         code:"ENGL 158",
         year: 1,
         semester:2,
-        ext: "",
-        slides: [],
+        ext: "pdf",
+        slides: ["Lecture One"],
         img: "https://virtualspeech.com/img/blog/header/effective-communication-skills.jpg"
     },
     {
@@ -105,8 +105,8 @@ export const CourseData=[
         code:"EE 152",
         year: 1,
         semester:2,
-        ext: "",
-        slides: [],
+        ext: "pdf",
+        slides: ["Lecture One", "Lecture Two", "Lecture Three", "Lecture Four", "Lecture Five", "Lecture Six", "Lecture Seven"],
         img: "https://www.makerspaces.com/wp-content/uploads/2017/05/basic-electronics-header.jpg"
     },
     {
@@ -116,8 +116,8 @@ export const CourseData=[
         code:"MATH 152",
         year: 1,
         semester:2,
-        ext: "",
-        slides: [],
+        ext: "pdf",
+        slides: ["Lecture One"],
         img: "https://th.bing.com/th/id/R.dda1ead370a9054f21fdab0e70ba74a3?rik=V%2f%2blo1CBnVXS9g&pid=ImgRaw&r=0"
     },
     {
@@ -127,8 +127,8 @@ export const CourseData=[
         code:"EE 172",
         year: 1,
         semester:2,
-        ext: "",
-        slides: [],
+        ext: "ppt",
+        slides: ["Lecture One", "Lecture Two", "Lecture Three", "Lecture Four"],
         img: "https://www.plm.automation.siemens.com/media/global/fr/1280x720%20LW%20Traction%20motor%20design_tcm55-70120.jpg"
     },
     {
@@ -149,8 +149,8 @@ export const CourseData=[
         code:"COE 251",
         year: 1,
         semester:2,
-        ext: "",
-        slides: [],
+        ext: "pdf",
+        slides: ["Lecture One", "Lecture Two", "Lecture Three", "Lecture Four", "Lecture Five", "Lecture Six"],
         img: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTWL3PuKic1mZtVdAx0eWvWQNgKZMcp8Vs8iQ&usqp=CAU"
     },
     {
@@ -171,8 +171,8 @@ export const CourseData=[
         code:"FREN 181",
         year: 2,
         semester:1,
-        ext: "",
-        slides: [],
+        ext: "pdf",
+        slides: ["2-Mon arbre généalogique"],
         img: "https://www.onlinecoursereport.com/wp-content/uploads/2020/03/shutterstock_321415904-1024x683.jpg"
     },
     {
@@ -193,8 +193,8 @@ export const CourseData=[
         code:"EE 287",
         year: 2,
         semester:1,
-        ext: "",
-        slides: [],
+        ext: "pdf",
+        slides: ["Lecture One", "Lecture Two", "Lecture Three", "Lecture Four"],
         img: "https://covers.vitalbook.com/vbid/9780199031474/width/200"
     },
     {
@@ -204,8 +204,8 @@ export const CourseData=[
         code:"TE 271",
         year: 2,
         semester:1,
-        ext: "",
-        slides: [],
+        ext: "pptx",
+        slides: ["Lecture One", "Lecture Two", "Lecture Three", "Lecture Four", "Lecture Five"],
         img: "http://www.actiontel.ca/images/actiontel/portfolio/16861160_m.jpg"
     },
     {
@@ -215,8 +215,8 @@ export const CourseData=[
         code:"COE 273",
         year: 2,
         semester:1,
-        ext: "",
-        slides: [],
+        ext: "ppt",
+        slides: ["Lecture One, Lecture Two"],
         img: "https://collegeacademy.in/images/Cs-Blog/Computer-arch.jfif"
     },
     {
@@ -226,8 +226,8 @@ export const CourseData=[
         code:"MATH 251",
         year: 2,
         semester:1,
-        ext: "",
-        slides: [],
+        ext: "pdf",
+        slides: ["Lecture Notes"],
         img: "https://th.bing.com/th/id/R.fa6b1af16091e5b22772d5cb354395e8?rik=nco5mByW1xIQug&pid=ImgRaw&r=0"
     },
     {
@@ -237,8 +237,8 @@ export const CourseData=[
         code:"COE 251",
         year: 2,
         semester:1,
-        ext: "",
-        slides: [],
+        ext: "pdf",
+        slides: ["Lecture One", "Lecture Two", "Lecture Three", "Lecture Four", "Lecture Five"],
         img: "https://engineering.jhu.edu/ams/wp-content/uploads/2021/06/hero-image-research-500x282.jpeg"
     },
     {
@@ -248,8 +248,8 @@ export const CourseData=[
         code:"COE 271",
         year: 2,
         semester:1,
-        ext: "",
-        slides: [],
+        ext: "pdf",
+        slides: ["Lecture Notes"],
         img: "https://oec.world/api/image?slug=hs&memberSlug=semiconductor-devices&size=splash"
     },
     {
@@ -259,8 +259,8 @@ export const CourseData=[
         code:"COE 272",
         year: 2,
         semester:2,
-        ext: "",
-        slides: [],
+        ext: ".pdf",
+        slides: ["Lecture One", "Lecture Two", "Lecture Three", "Lecture Four", "Lecture Five", "Lecture Six", "Lecture Seven", "Lecture Eight"],
         img: "https://www.york.ac.uk/media/study/courses/postgraduate/electronicengineering/DSE-banner.jpg"
     },
     {
@@ -270,8 +270,8 @@ export const CourseData=[
         code:"COE 252",
         year: 2,
         semester:2,
-        ext: "",
-        slides: [],
+        ext: "pptx",
+        slides: ["Binary Trees"],
         img: "https://d1ayzle075vvju.cloudfront.net/2022/08/professional-programmer-working-late-dark-office.jpg"
     },
     {
@@ -281,8 +281,8 @@ export const CourseData=[
         code:"COE 288",
         year: 2,
         semester:2,
-        ext: "",
-        slides: [],
+        ext: "pptx",
+        slides: ["Lecture One"],
         img: "https://meche.mit.edu/sites/default/files/styles/research_break/public/RS3659_2.671%202019%2005_0.jpg?itok=MOjc3fA3"
     },
     {
@@ -292,8 +292,8 @@ export const CourseData=[
         code:"TE 262",
         year: 2,
         semester:2,
-        ext: "",
-        slides: [],
+        ext: "pptx",
+        slides: ["Lecture One", "Lecture Two", "Lecture Three"],
         img: "http://www.dannex.se/theory/pict/image122.gif"
     },
     {
@@ -303,8 +303,8 @@ export const CourseData=[
         code:"ENGL 264",
         year: 2,
         semester:2,
-        ext: "",
-        slides: [],
+        ext: "pdf",
+        slides: ['Beggars Strike'],
         img: "https://live.staticflickr.com/2248/1919268276_d90bdb90ba_b.jpg"
     },
     {
@@ -325,9 +325,10 @@ export const CourseData=[
         code:"FREN 182",
         year: 2,
         semester:2,
-        ext: "",
-        slides: [],
+        ext: ["pdf"],
+        slides: ["Imperatif"],
         img: "https://live.staticflickr.com/581/22938923320_2294c5e77a_b.jpg"
+        // img: "https://live.staticflickr.com/581/22938923320_2294c5e77a_b.jpg"
     },
     {
         ID:"computer",
@@ -347,8 +348,8 @@ export const CourseData=[
         code:"COE 387",
         year: 3,
         semester:1,
-        ext: "",
-        slides: [],
+        ext: "pptx",
+        slides: ["Lecture One", "Lecture Two", "Lecture Three", "Lecture Four", "Lecture Five", "Lecture Six", "Lecture Seven"],
         img: "https://3jp1i53djkp618woynjob9cd-wpengine.netdna-ssl.com/wp-content/uploads/2021/06/home_wlcm_img.jpg"
     },
     {
@@ -358,8 +359,8 @@ export const CourseData=[
         code:"COE 353",
         year: 3,
         semester:1,
-        ext: "",
-        slides: [],
+        ext: "pptx",
+        slides: ["Lecture One", "Lecture Two", "Lecture Three", "Lecture Four", "Lecture Five", "Lecture Six", "Lecture Seven"],
         img: "https://i.guim.co.uk/img/static/sys-images/Guardian/Pix/pictures/2014/6/11/1402489935191/Shannon-s-information-the-009.jpg?width=1200&height=630&quality=85&auto=format&fit=crop&overlay-align=bottom%2Cleft&overlay-width=100p&overlay-base64=L2ltZy9zdGF0aWMvb3ZlcmxheXMvdG8tZGVmYXVsdC5wbmc&enable=upscale&s=0487260e9322d9255d15cfaad888836b"
     },
     {
@@ -380,8 +381,8 @@ export const CourseData=[
         code:"COE 381",
         year: 3,
         semester:1,
-        ext: "",
-        slides: [],
+        ext: "pptx",
+        slides: ["Lecture One", "Lecture Two", "Lecture Three", "Lecture Four", "Lecture Five", "Lecture Six"],
         img: "https://instrumentationtools.com/wp-content/uploads/2020/04/History-of-Microprocessors.png"
     },
     {
@@ -391,8 +392,8 @@ export const CourseData=[
         code:"MATH 351",
         year: 3,
         semester:1,
-        ext: "",
-        slides: [],
+        ext: "pdf",
+        slides: ["Lecture One", "Lecture Two", "Lecture Three", "Lecture Four", "Lecture Five", "Lecture Six", "Lecture Seven"], 
         img: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTNe9syWcg9Y5J5hiNXq82NNAy8dmtP-auX_Q&usqp=CAU"
     },
     {
@@ -402,8 +403,8 @@ export const CourseData=[
         code:"COE 351",
         year: 3,
         semester:1,
-        ext: "",
-        slides: [],
+        ext: "pptx",
+        slides: ["Lecture One", "Lecture Two", "Lecture Three", "Lecture Four", "Lecture Five", "Lecture Six", "Lecture Seven"],
         img: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcS2eMb75F7-r6HMWOx73xROtmFsocrjYzfrGXpmiA0lU5MiIeUZhZt4L_yDZ_HbyOEg14A&usqp=CAU"
     },
     {

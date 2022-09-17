@@ -5,20 +5,18 @@ import Logo from './../Assets/Klogo.png';
 import { useState } from "react";
 
 import axios from './utils/axios';
+
 import { Form, Formik } from "formik";
 
 import { TextInput, CustomSelect} from "../Components/Form";
 
 import {FiUser, FiLock, FiMail} from 'react-icons/fi';
+// import {FcDepartment} from 'react-icons/fc';
 
 import  * as Yup from 'yup';
 
 
 import { ThreeDots} from 'react-loader-spinner';
-
-
-
-
 
 
 const Signup = () => {
@@ -31,8 +29,8 @@ const Signup = () => {
   }
 
   
-  const handleSubmit = (event) => {
-    axios.post('/signup',
+  const handleSubmit = async(inputs) => {
+    await axios.post('/signup',
      {username: inputs.username, 
       email: inputs.email, 
       password: inputs.password, 
@@ -47,6 +45,8 @@ const Signup = () => {
         alert("ERROR: Username taken")
       })
   }
+
+
   
   
   return (
@@ -126,28 +126,14 @@ const Signup = () => {
                  icon={<FiMail/>}
                 />
 
-                <CustomSelect
-                  name="yearselect"
-                  type="dropdown"
-                  label="Level"
-                  placeholder="Select your year"
-                
-                >
-                  <option>-- Select your Level --</option>
-                  <option>Level 100</option>
-                  <option>Level 200</option>
-                  <option>Level 300</option>
-                  <option>Level 400</option>
-
-                </CustomSelect>
-
-                <CustomSelect
+                  <CustomSelect
                   name="programmeselect"
                   type="dropdown"
                   label="Programme"
-                  placeholder="Select your year"               
+                  placeholder="Select your programme" 
+                  // icon={<FcDepartment style={{position:'relative', top:'608px', left:'512px'}}/>}              
                 >
-                  <option>-- Select your Programme --</option>
+                  <option>-- Select your programme --</option>
                   <option>Agricultural Engineering</option>
                   <option>Chemical Engineering</option>
                   <option>Civil Engineering</option>
@@ -165,6 +151,23 @@ const Signup = () => {
                   <option>Metallurgical Engineering</option>
                   
                 </CustomSelect>
+
+                <CustomSelect
+                  name="yearselect"
+                  type="dropdown"
+                  label="Level"
+                  placeholder="Select your year"
+                
+                >
+                  <option>-- Select your Level --</option>
+                  <option>Level 100</option>
+                  <option>Level 200</option>
+                  <option>Level 300</option>
+                  <option>Level 400</option>
+
+                </CustomSelect>
+
+              
 
                             
                <TextInput
@@ -186,8 +189,8 @@ const Signup = () => {
               <ButtonGroup>
                 {!isSubmitting && (
                  <StyledFormButton type="submit">
-                  Signup
-              </StyledFormButton>
+                   Signup
+                 </StyledFormButton>
               )}
 
               {isSubmitting && (
@@ -197,6 +200,10 @@ const Signup = () => {
                   width = {100}
                 />
               )}
+
+              
+
+              
               </ButtonGroup>       
 
               </Form>

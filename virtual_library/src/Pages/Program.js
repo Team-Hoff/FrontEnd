@@ -2,7 +2,7 @@
 import React, { useState } from 'react';
 import '../Components/program.css';
 import Folder from '../Components/Profiledropdown/folder.png';
-import { CourseData } from '../Components/Data/coursesData';
+import  CourseData  from '../Components/Data/CourseData.json';
 import { ProgramData } from '../Components/Data/programData';
 import { Link, useParams, Navigate} from 'react-router-dom';
 import Footer from '../Components/Footer/Footer';

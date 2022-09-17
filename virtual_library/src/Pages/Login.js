@@ -36,7 +36,7 @@ const Login = () => {
         }
       ).then(()=> {
         window.location.href="/auth"
-        alert("Successful")
+        // alert("Successful")
       })
       .catch( ()=> {
         console.log(`Error for User:${inputs.username}`)

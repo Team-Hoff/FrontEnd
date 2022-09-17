@@ -10,7 +10,7 @@ import NavbarGoback from '../Components/Navbar/NavbarGoback';
 import {useParams, Navigate, useLocation } from 'react-router-dom';
 import { BoxLoading, RollBoxLoading, LadderLoading, MeteorRainLoading, WindMillLoading } from 'react-loadingg';
 import '../Components/loading.css'
-import { CourseData} from '../Components/Data/coursesData';
+import CourseData from '../Components/Data/CourseData.json'
 
 
 
@@ -27,7 +27,7 @@ const Course = () => {
     const cour = CourseData.filter((cor) => cor.id === id)
     const course = CourseData.filter((cor) => `/home/${cor.ID}/${cor.id}`=== pathname)
     const [loading, setLoading] = useState(false);
-    const converter = require('number-to-words');
+    // const converter = require('number-to-words');
 
     const getFiles = (path, lecture_name) => {
         setLoading(true)

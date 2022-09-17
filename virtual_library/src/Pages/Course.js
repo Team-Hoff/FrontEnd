@@ -6,7 +6,8 @@ import axios from "./utils/axios"
 // import book from '../Assets/Asset/book.jpg';
 import {HiDownload, HiEye} from 'react-icons/hi';
 import Footer from '../Components/Footer/Footer';
-import NavbarGoback from '../Components/Navbar/NavbarGoback';
+import Navbar from '../Components/Navbar/Navbar';
+import GoBack from '../Components/GoBack/GoBack';
 import {useParams, Navigate, useLocation } from 'react-router-dom';
 import { BoxLoading, RollBoxLoading, LadderLoading, MeteorRainLoading, WindMillLoading } from 'react-loadingg';
 import '../Components/loading.css'
@@ -92,7 +93,7 @@ const Course = () => {
       </div>
     ) :( <></>)
       }
-        <NavbarGoback/>
+        <Navbar/>
 
 
         <div className="hero" style={{ 
@@ -112,6 +113,10 @@ const Course = () => {
                     <div className='Available'>{isAvailable}</div>
                        </div> 
     : ( 
+    <div style={{display:'flex'}}> 
+
+    <div style={{marginTop:'25px'}}><GoBack/></div>  
+
     <div className="containers">
         <div className="slides">
             <h1 className="lect_head">Slides</h1>
@@ -138,6 +143,7 @@ const Course = () => {
     
             
         </div>
+    </div>
     </div>
     )}
     

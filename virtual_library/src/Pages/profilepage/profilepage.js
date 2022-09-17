@@ -1,6 +1,6 @@
 import React from "react";
 import "./profilepage.css";
-import NavbarGoback from "../../Components/Navbar/NavbarGoback";
+import Navbar from "../../Components/Navbar/Navbar";
 import Footer from "../../Components/Footer/Footer";
 
 export default function Profile(){
@@ -8,7 +8,7 @@ export default function Profile(){
     return(
 
         <div>
-        <NavbarGoback/>
+        <Navbar/>
 
         <div className="contain">             
                 <div className="profile-container">

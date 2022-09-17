@@ -9,9 +9,6 @@ import Footer from '../Components/Footer/Footer';
 import Navbar from '../Components/Navbar/Navbar';
 import { useEffect } from 'react';
 
-
-// export const {pc} = useParams()
-
 const Program = () => {
   const [courseQuery, setcourseQuery] = useState(Number(1));
   const [apro, setapro] = useState([]);
@@ -69,10 +66,15 @@ const Program = () => {
         </div>
       </section>
 
+       <div style={{display:'flex'}}>
+        <div style={{marginTop:'25px'}}><GoBack/></div>       
+      
+
       <div className="container">
         <div className="d-sm-flex align-items-center 
         justify-content-between " style={{ paddingTop: '30px' }}>
           <div>
+          
             <h2>{
               Number(courseQuery) === 1 ? "LEVEL 100" : Number(courseQuery) === 2 ? "LEVEL 200" : Number(courseQuery) === 3 ? "LEVEL 300" : Number(courseQuery) === 4 ? "LEVEL 400" : ""
             }</h2> </div>
@@ -136,6 +138,7 @@ const Program = () => {
         </div>
 
 
+      </div>
       </div>
       <Footer />
     </div>

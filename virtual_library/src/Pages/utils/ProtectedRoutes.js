@@ -24,7 +24,7 @@ const ProtectedRoutes = () => {
     const routes = useRoutes([
         {
             path: "/",
-            element: <Login />
+            element: !user ?<Login />: <Navigate replace to="/home" />
         },
         {
             path: "/auth",

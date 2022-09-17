@@ -6,24 +6,46 @@ import  CourseData  from '../Components/Data/CourseData.json';
 import { ProgramData } from '../Components/Data/programData';
 import { Link, useParams, Navigate} from 'react-router-dom';
 import Footer from '../Components/Footer/Footer';
-import NavbarGoback from '../Components/Navbar/NavbarGoback';
+import Navbar from '../Components/Navbar/Navbar';
+import { useEffect } from 'react';
+
+
+// export const {pc} = useParams()
 
 const Program = () => {
   const [courseQuery, setcourseQuery] = useState(Number(1));
-  const  {id } = useParams()
+  const [apro, setapro] = useState([]);
+  const [acor, setacor] = useState([]);
 
+  const  {id } = useParams()
   const prog = ProgramData.filter((pro) => pro.id === id)
-  const cour = CourseData.filter((cor) => cor.ID === id)
+
+  useEffect(() => {
+    setapro(prog)
+
+    return () => {
+      setapro('')
+    }
+  // eslint-disable-next-line react-hooks/exhaustive-deps
+  }, [id])
+
+  useEffect(() => {
+    const cour = CourseData.filter((cor) => cor.ID === id)
+    setacor(cour);
+
+    return () => {
+      setacor('')
+    }
+  }, [id])
 
   // eslint-disable-next-line eqeqeq
   return (prog != "") ? (
     <div>
+      <Navbar />
 
-      <NavbarGoback/>
-      
       <section className='below_navs' style={{
 
-        backgroundImage: `linear-gradient(0deg, rgba(0,0,0,0.6),rgba(0,0,0,0.6)), url(${prog.length !== 0 ? prog[0].pic: ""})`,
+        backgroundImage: `linear-gradient(0deg, rgba(0,0,0,0.6),rgba(0,0,0,0.6)), url(${apro.length !== 0 ? apro[0].pic: ""})`,
         backgroundRepeat: 'no-repeat',
         backgroundSize: '100% 100%'
       }}>
@@ -34,8 +56,8 @@ const Program = () => {
             justify-content-between" style={{ minHeight: '20vw' }}>
             <div>
               {
-                prog.length !== 0 ? <h1> <span style={{ fontSize: '80px', fontFamily: 'Poppins' }}>
-                  {prog[0].name.toUpperCase()}
+                apro.length !== 0 ? <h1> <span className='program_font'>
+                  {apro[0].name.toUpperCase()}
                 </span></h1> : ""
               }
 
@@ -86,7 +108,7 @@ const Program = () => {
             <ul className="list-group list-group-flush">
 
               {
-                cour.filter((course) => {
+                Object.values(acor).filter((course) => {
                   if (Number(course.year) === Number(courseQuery) && (Number(course.semester === 1))) return course
                   return ''
                 }).map((course) => (
@@ -102,7 +124,7 @@ const Program = () => {
             </div>
             <ul className="list-group list-group-flush">
               {
-                cour.filter((course) => {
+                Object.values(acor).filter((course) => {
                   if (Number(course.year) === Number(courseQuery) && (Number(course.semester === 2))) return course
                   return ''
                 }).map((course) => (

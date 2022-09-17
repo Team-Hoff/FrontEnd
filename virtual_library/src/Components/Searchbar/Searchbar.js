@@ -3,7 +3,7 @@ import './Searchbar.css';
 import SearchIcon from '@mui/icons-material/Search';
 import ClosedIcon  from '@mui/icons-material/Close';
 import { Link } from 'react-router-dom';
-// import { Hidden } from '@mui/material';
+import { Hidden } from '@mui/material';
 
 function Searchbar({placeholder, data}) {
     const [filteredData, setFilteredData] = useState([]);

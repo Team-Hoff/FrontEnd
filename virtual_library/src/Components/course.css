@@ -12,6 +12,10 @@
     font-family: 'Poppins';
     font-size: 80px;
 }
+
+
+
+
 .buttons{
     padding-top: 1em;
 }
@@ -55,10 +59,10 @@
     /* height: 30px; */
     gap:0.8em;
     align-items: center;
-    margin-top: 10px;
+ 
     justify-content: space-between;
     font-size: 25px;
-    padding-bottom: 15px;
+ margin-bottom: 50px;
     font-family: 'Poppins';
     border-bottom: 1px solid rgba(181, 181, 181, 0.9);
 
@@ -74,13 +78,7 @@
     margin-top: 10px;
     justify-content: space-between;
     padding-top: 15px;
-    text-transform: capitalize;
 }
-
-.slid{
-    text-transform: capitalize;
-}
-
 .doc_icon_50x50{
     /* background-color: brown; */
     width: 30px;
@@ -98,7 +96,6 @@
 .right_lect_block_4:hover a{
     color: gray;
 }
-
 
 .ref_books{
     min-width: 100vw;
@@ -157,6 +154,7 @@
     font-family: 'Poppins';
 }
 
+<<<<<<< Updated upstream
 .hov{
     cursor: pointer;
 }
@@ -165,3 +163,16 @@
     color: blue;
 }
 
+=======
+@media screen and (max-width: 600px) {
+    .courses_name{
+        font-size: 30px;
+    }
+    .nav_list{
+        left: 0;
+    }
+    .slides{
+        padding: 0;
+    }
+}
+>>>>>>> Stashed changes

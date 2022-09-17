@@ -5,12 +5,25 @@
     background-repeat: no-repeat;
     /* background-attachment: fixed; */
     background-size: 100% 100%;
-    
+    overflow: hidden;
 }
 
 .searchb{
     display: flex;
     justify-content:space-around;
+}
+
+@media screen and (max-width: 600px) {
+    .progcard{
+        /* margin: 0; */
+        /* padding: 0; */
+        position: relative;
+        left: -40px;
+        
+
+    }
+        
+    
 }
 
 

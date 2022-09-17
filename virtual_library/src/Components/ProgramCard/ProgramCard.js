@@ -6,7 +6,7 @@ import { ProgramData } from '../Data/programData';
 function ProgramCard() {
   return (
     <div>
-        <div /*style={{position:'relative', left:'-40px'}}*/ >
+        
         {
                 ProgramData.map((program) => (
                     <Card key={program.id} style={{ width: '18rem', float: 'left', marginLeft: 110, marginTop: 30, marginBottom:30, textAlign:'center', alignContent:'left'}}>
@@ -21,7 +21,7 @@ function ProgramCard() {
                     </Card>
                 ))        
             }
-        </div> 
+        
         
     </div>
   )

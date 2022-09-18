@@ -1,8 +1,8 @@
-<<<<<<< HEAD
-import geology from '../../Assets/BackgroundPics/aero.png';
+// <<<<<<< HEAD
+// import geology from '../../Assets/BackgroundPics/aero.png';
 
-=======
->>>>>>> b1b5f73ef959c12b9a9e99eb5b156f6c23916520
+// =======
+// // >>>>>>> b1b5f73ef959c12b9a9e99eb5b156f6c23916520
 export const CourseData=[
     {
         ID:"computer",

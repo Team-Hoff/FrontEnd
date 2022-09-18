@@ -1,6 +1,6 @@
 import React, {useState, useEffect, useRef} from 'react';
 import './profiledp.css';
-import edit from './edit.png'
+// import edit from './edit.png'
 import logouts from './logout.png';
 import settings from './settings.jpg';
 import user from './user.png';

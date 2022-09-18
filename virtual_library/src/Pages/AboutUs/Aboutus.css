@@ -1,0 +1,101 @@
+.About-us{
+   background-color: black;
+}
+
+.AboutUs-image{
+    width: 100vw;
+    height: 50vh;
+
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+
+    background-image: url("../../Assets/Creative\ team-cuate.svg");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: contain;
+}
+
+.group-name{
+     color: #FDD017;
+     font-size: 70px;
+     font-weight: bold;
+
+     text-shadow: 2px 2px 4px rgba(255, 255, 255, 0.5);
+}
+
+.group-name span{
+    margin-right: 9em;
+}
+
+.team{
+   height: 20vh;
+       
+   color: white;
+   
+   
+   display: flex;
+   flex-direction: column;
+   align-items: center;
+   justify-content: center;
+
+   /* border-top: 2px solid white; */
+   border-bottom: 2px solid white;
+
+}
+.team h1{
+    font-size: 40px;
+}
+
+.vision{
+    margin-top: 40px;
+
+    color: white;
+
+    height: 30vh;
+
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-around;
+    
+
+}
+h2,h3{
+    color: #FDD017;
+}
+
+.info{
+    display: flex;
+    
+    justify-content: space-around;
+    
+}
+
+.box{
+    width: 400px;
+    border: 3px solid white;
+
+    text-align: center;
+    
+    
+}
+.box1{
+    margin-right: 30px;
+}
+
+.services{
+    margin-top: 10px;
+
+    background-color: black;
+
+    color: white;
+
+    height: 20vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}

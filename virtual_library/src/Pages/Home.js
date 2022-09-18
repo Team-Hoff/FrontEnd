@@ -4,7 +4,7 @@ import Searchbar from '../Components/Searchbar/Searchbar';
 import Navbar from '../Components/Navbar/Navbar';
 import Footer from '../Components/Footer/Footer';
 import ProgramCard from '../Components/ProgramCard/ProgramCard';
-import {CourseData} from '../Components/Data/coursesData';
+import CourseData from '../Components/Data/CourseData.json';
 
 
 const Home = () => {

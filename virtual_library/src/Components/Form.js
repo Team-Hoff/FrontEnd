@@ -55,7 +55,7 @@ export const TextInput = ({ icon, ...props }) => {
 
 export const CustomSelect = ({icon, ...props}) => {
     const [field, meta] = useField(props);
-    const [show, setShow] = useState(false);
+    // const [show, setShow] = useState(false);
    
     return (
         <div>

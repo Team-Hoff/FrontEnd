@@ -12,7 +12,7 @@ export const AuthProvider = ({ children }) => {
   //set the login function call in the Auth component and render the component
   const login = async () => {
       const response = await axios.get("/auth")
-      const user_details = JSON.stringify(response)
+      const user_details = response.data
       setUser(user_details)
      
     };
@@ -21,7 +21,8 @@ export const AuthProvider = ({ children }) => {
   const logout = async() => {
     //Send request to backend to clear the session
     await axios.get("/logout") //preferably axios.delete
-    setUser(null);
+    .then(()=>setUser(null))
+    ;
   };
 
   const value = useMemo(

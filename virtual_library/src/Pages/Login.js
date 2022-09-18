@@ -3,10 +3,10 @@ import { StyledContainer,StyledFormArea, StyledFormButton, Avatar, StyledTitle, 
 import Logo from './../Assets/Klogo.png';
 
 import { useState } from "react";
-import Axios from "axios";
-import {handleSubmit} from "./hooks/useLogin";
- 
 
+// import {handleSubmit} from "./hooks/useLogin";
+ 
+import axios from './utils/axios';
 
 import { Form, Formik } from "formik";
 
@@ -28,6 +28,22 @@ const Login = () => {
     const value = event.target.value
     setInputs(values => ({...values, [name]: value}))
   }
+
+  const handleSubmit = async(inputs) => {
+    await axios.post("/login",
+        { username: inputs.username,
+          password: inputs.password
+        }
+      ).then(()=> {
+        window.location.href="/auth"
+        // alert("Successful")
+      })
+      .catch( ()=> {
+        console.log(`Error for User:${inputs.username}`)
+        alert("Incorrect username/password")
+      })
+    
+      }
 
   return (
     <StyledContainer>
@@ -99,7 +115,7 @@ const Login = () => {
           <ExtraText>
             Don't have an account? Click <TextLink to="/signup">Signup</TextLink> to register
           </ExtraText>
-          <TextLink to="/home">Home</TextLink>
+          {/* <TextLink to="/home">Home</TextLink> */}
           
       </StyledFormArea>
       <CopyrightText>All rights reserved &copy;2022</CopyrightText>

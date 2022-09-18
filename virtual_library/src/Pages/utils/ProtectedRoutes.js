@@ -19,13 +19,12 @@ import { useRoutes } from "react-router-dom";
 
 
 const ProtectedRoutes = () => {
-    // const {user} = useAuth();
-    const user = true;
+    const {user} = useAuth();
     
     const routes = useRoutes([
         {
             path: "/",
-            element: <Login />
+            element: !user ?<Login />: <Navigate replace to="/home" />
         },
         {
             path: "/auth",

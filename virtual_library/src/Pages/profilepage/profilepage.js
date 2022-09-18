@@ -4,7 +4,6 @@ import { useAuth } from "../hooks/useAuth";
 import Navbar from "../../Components/Navbar/Navbar";
 import Footer from "../../Components/Footer/Footer";
 import GoBack from "../../Components/GoBack/GoBack";
-import { useAuth } from "../hooks/useAuth";
 
 export default function Profile(){
      

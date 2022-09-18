@@ -7,6 +7,7 @@ import Program from '../Program';
 import Course from '../Course';
 import Logout from "./Logout";
 import Profile from "../profilepage/profilepage";
+import Settings from "../settings";
 import PageNotFound from "../PageNotFound/PageNotFound";
 import Display from "./Display";
 import ForgotPassword from "../PasswordChange/ForgotPassword";
@@ -79,6 +80,10 @@ const ProtectedRoutes = () => {
         {
             path: "/test",
             element: <Display/>   
+        },
+        {
+            path: "/settings",
+            element: <Settings />   
         }
         
         

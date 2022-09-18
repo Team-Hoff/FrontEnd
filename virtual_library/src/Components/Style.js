@@ -82,7 +82,7 @@ export const ButtonGroup = styled.div`
 
 //input
 export const StyledTextInput =  styled.input`
-    width: 330px;
+    width: 90%;
     padding: 15px;
     padding-left: 50px;
     font-size: 17px;
@@ -134,7 +134,7 @@ export const StyledLabel = styled.p`
 export const StyledFormArea = styled.div`
     background-color: ${props=>props.bg || colors.light1};
     text-align: center;
-    padding: 45px 55px;
+    width:400px
 `;
 
 export const StyledFormButton = styled.button`

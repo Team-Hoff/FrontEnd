@@ -12,6 +12,10 @@
     font-family: 'Poppins';
     font-size: 80px;
 }
+
+
+
+
 .buttons{
     padding-top: 1em;
 }
@@ -24,17 +28,13 @@
 
 
 .containers{
-    /* background-color: rgba(181, 181, 181, 0.57); */
     min-height: 100vh;
-    min-width: 100vw;
-
-    
+    min-width: 100vw;    
 }
 
 .slides{
-    margin: 0 auto 2em ;
     width:75vw;
-    padding: 3em;
+    padding: 1em;
     
     
 }
@@ -42,7 +42,6 @@
     text-align: center;
     font-family: 'Poppins';
     text-transform: uppercase;
-    /* border: 2px solid black; */
     width: 200px;
     min-width: 50vw;
     margin: 20px auto;
@@ -52,13 +51,12 @@
 }
 .lect_slides{
     display: flex;
-    /* height: 30px; */
     gap:0.8em;
     align-items: center;
-    margin-top: 10px;
+ 
     justify-content: space-between;
     font-size: 25px;
-    padding-bottom: 15px;
+ margin-bottom: 50px;
     font-family: 'Poppins';
     border-bottom: 1px solid rgba(181, 181, 181, 0.9);
 
@@ -74,15 +72,8 @@
     margin-top: 10px;
     justify-content: space-between;
     padding-top: 15px;
-    text-transform: capitalize;
 }
-
-.slid{
-    text-transform: capitalize;
-}
-
 .doc_icon_50x50{
-    /* background-color: brown; */
     width: 30px;
     height: 30px;
 }
@@ -98,7 +89,6 @@
 .right_lect_block_4:hover a{
     color: gray;
 }
-
 
 .ref_books{
     min-width: 100vw;
@@ -152,11 +142,11 @@
     font-size: 80px;
     text-transform: uppercase;
     margin: 0 auto 2em ;
-    /* width:75vw; */
     padding: 100px;
     font-family: 'Poppins';
 }
 
+<<<<<<< Updated upstream
 .hov{
     cursor: pointer;
 }
@@ -165,3 +155,16 @@
     color: blue;
 }
 
+=======
+@media screen and (max-width: 600px) {
+    .courses_name{
+        font-size: 30px;
+    }
+    .nav_list{
+        left: 0;
+    }
+    .slides{
+        padding: 0;
+    }
+}
+>>>>>>> Stashed changes

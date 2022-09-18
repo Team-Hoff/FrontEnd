@@ -13,6 +13,9 @@
 .below_navs h1{
     font-family: 'Poppins'; 
 }
+.program_font{
+    font-size: 30px;
+}
 
 select{
     width: 230px;
@@ -36,6 +39,11 @@ select{
 
 .links a {
     text-decoration: none;
+}
+@media screen and (max-width :600px){
+    .program_font{
+        font-size: 24px;
+    }
 }
 
 

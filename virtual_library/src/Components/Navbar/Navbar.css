@@ -1,17 +1,14 @@
 .nav-main{
-    /* display: inline-block; */
     background-color: #2d2a30;
     box-sizing: border-box;
     width: 100%;
     text-align: center;
     font: bold 16px 'Poppins';
     padding: 10px 10px 10px 10px;
-   
 }
 .navbar{
-    width:100vw;
     margin: 0 auto;
-    /* padding: 0; */
+    min-width: 90vw;
     height: 70px;
     color: white;
     display: flex;
@@ -39,14 +36,11 @@
     background-size: cover;
     background-position: center; 
     margin-bottom: 20px;
-    /* mix-blend-mode: hard-light; */
-    
 }
 .nav_list{
     display: flex;
     gap: 2em;
     padding-right: 20px ;
-    /* border-right: 0.5px solid grey; */
     height: 10vh;
     align-items: center;
     position: relative;
@@ -69,50 +63,4 @@
 
 .nav-links:hover a{
     color: yellow;
-}
-
-button{
-    background-color: transparent;
-    border: none;
-}
-
-.go-back {
-    color: #c16b00;
-    font-family: 'Open Sans', sans-serif;
-    font-size: 16px;
-    font-weight: 600;
-    line-height: 1;
-    padding-left: 15px;
-    margin-right: 5px;
-    position: relative;
-    text-decoration: none;
-}
-.go-back::before,
-.go-back::after {
-    content: "";
-    display: block;
-    left: 3px;
-    position: absolute;
-    top: 50%;
-    transition: left 0.1s;
-}
-.go-back::before {
-    border-color: #c16b00;
-    border-style: solid;
-    border-width: 0 0 2px 2px;
-    height: 6px;
-    margin-top: -2px;
-    width: 6px;
-
-    transform: rotate( 45deg );
-    -webkit-transform: rotate( 45deg );
-}
-.go-back::after {
-    background: #c16b00;
-    height: 2px;
-    width: 11px;
-}
-.go-back:hover::before,
-.go-back:hover::after {
-    left: 0px;
 }

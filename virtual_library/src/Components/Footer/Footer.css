@@ -24,6 +24,11 @@
     font: bold 16px 'Poppins';
     padding: 10px 10px 10px 10px;
     margin-top: 80px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    gap: 20px;
+    
 }
 
 .footer-display .footer-left, .footer-display .footer-center, .footer-display .footer-right {
@@ -155,3 +160,22 @@
 .footer-links a:hover {
     color: #3F71EA;
 }
+
+
+@media  screen and (max-width: 600px){
+    .footer-display {
+       
+      flex-direction: column;
+        
+    }
+    .footer-right{
+        width: 100%;
+    }
+    .footer-display .footer-left {
+        width: 100%;
+    }
+    .footer-display .footer-right {
+        width: 100%;
+    }
+}
+    

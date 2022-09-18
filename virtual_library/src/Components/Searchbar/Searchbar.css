@@ -95,3 +95,8 @@ a:hover{
     cursor: pointer;
 }
 
+@media screen and (max-width: 600px) {
+    .searchInputs{
+        width: 300px;
+    }
+}

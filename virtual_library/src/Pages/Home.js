@@ -28,9 +28,10 @@ const Home = () => {
             </div>
         </div>
     </section>
-
+      <div className='progcard'>
       <ProgramCard/> 
-      
+      </div>
+
     <Footer/>
 
   </div>

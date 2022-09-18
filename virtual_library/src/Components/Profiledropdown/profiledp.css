@@ -7,10 +7,19 @@
 
 .resize{
     width: 12%;
+<<<<<<< Updated upstream
     height: 12%; 
 }
 
 .action .profile{ 
+=======
+    height: 12%;
+   
+}
+
+.action .profile{ 
+    width: 100px;
+>>>>>>> Stashed changes
     border-radius: 50%;
     overflow: hidden;
     cursor: pointer;

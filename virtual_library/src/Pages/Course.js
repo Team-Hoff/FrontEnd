@@ -103,15 +103,19 @@ const Course = () => {
             }}>
 
         {
-                cour.length !== 0 ? <h1> <span style={{ fontSize: '80px', fontFamily: 'Poppins' }}>
+                cour.length !== 0 ? <h1> <span className='program_fonts'>
                   {cour[0].name.toUpperCase()}
                 </span></h1> : ""
               }
 
          </div>
-     {(course[0].slides == "") ? <div className="containers">
-                    <div className='Available'>{isAvailable}</div>
+         
+     {(course[0].slides == "") ? <div style={{display:'flex'}}> 
+                    <div className="containers"> 
+                        <div style={{marginTop:'25px'}}><GoBack/></div>  
+                        <div className='Available'>{isAvailable}</div>
                        </div> 
+                    </div>
     : ( 
     <div style={{display:'flex'}}> 
 

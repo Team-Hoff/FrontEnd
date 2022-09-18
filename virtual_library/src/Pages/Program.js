@@ -8,6 +8,7 @@ import { Link, useParams, Navigate} from 'react-router-dom';
 import Footer from '../Components/Footer/Footer';
 import Navbar from '../Components/Navbar/Navbar';
 import { useEffect } from 'react';
+import GoBack from '../Components/GoBack/GoBack';
 
 const Program = () => {
   const [courseQuery, setcourseQuery] = useState(Number(1));

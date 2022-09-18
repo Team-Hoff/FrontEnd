@@ -14,7 +14,7 @@
     font-family: 'Poppins'; 
 }
 .program_font{
-    font-size: 30px;
+    font-size: 60px;
 }
 
 select{
@@ -40,9 +40,9 @@ select{
 .links a {
     text-decoration: none;
 }
-@media screen and (max-width :600px){
+@media screen and (max-width :450px){
     .program_font{
-        font-size: 24px;
+        font-size: 40px;
     }
 }
 

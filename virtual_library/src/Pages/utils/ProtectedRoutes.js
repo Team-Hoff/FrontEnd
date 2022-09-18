@@ -11,6 +11,7 @@ import PageNotFound from "../PageNotFound/PageNotFound";
 import Display from "./Display";
 import ForgotPassword from "../PasswordChange/ForgotPassword";
 import ResetPassword from "../PasswordChange/ResetPassword";
+import AboutUs from "../AboutUs/Aboutus";
 
 
 import { Navigate } from 'react-router-dom';
@@ -62,6 +63,10 @@ const ProtectedRoutes = () => {
         {
             path: "/profile",
             element: user?<Profile />: <Navigate replace to="/" />
+        },
+        {
+            path: "/aboutus",
+            element: user?<AboutUs />: <Navigate replace to="/" />
         },
         {
             path: "/404",

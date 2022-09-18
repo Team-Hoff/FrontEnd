@@ -1,4 +1,4 @@
-import { StyledContainer,StyledFormArea, StyledFormButton, Avatar, StyledTitle, StyledSubTitle, colors, ButtonGroup, ExtraText, TextLink, CopyrightText} from "../Components/Style";
+import {Wrap, StyledContainer,StyledFormArea, StyledFormButton, Avatar, StyledTitle, StyledSubTitle, colors, ButtonGroup, ExtraText, TextLink, CopyrightText} from "../Components/Style";
 
 import Logo from './../Assets/Klogo.png';
 
@@ -46,6 +46,8 @@ const Login = () => {
       }
 
   return (
+
+    <Wrap>
     <StyledContainer>
 
     <div>
@@ -121,7 +123,8 @@ const Login = () => {
       <CopyrightText>All rights reserved &copy;2022</CopyrightText>
     </div>
     </StyledContainer>
-
+    </Wrap>
+    
   )
 }
 

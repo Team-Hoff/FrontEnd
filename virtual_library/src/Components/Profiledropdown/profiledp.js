@@ -5,6 +5,7 @@ import logouts from './logout.png';
 import settings from './settings.jpg';
 import user from './user.png';
 import user2 from './f2.png';
+import aboutus from './Aboutus.png';
 import { Link } from 'react-router-dom';
 import { useAuth } from '../../Pages/hooks/useAuth';
 
@@ -45,7 +46,7 @@ function Profiledp() {
                 <li><img src={user} alt="" className="resize"></img><Link to="/profile">My Profile</Link></li>
                 {/* <li><img src={edit} alt="" className="resize"></img><Link to="#">Edit Profile</Link></li> */}
                 <li><img src={settings} alt="" className="resize"></img><Link to="#">Settings</Link></li>
-                
+                <li><img src={aboutus} alt="" className="resize"></img><Link to="/aboutus">About us</Link></li>
                 <li><img src={logouts} alt="" className="resize" style={{marginBottom:'10px'}}></img><Link to="/logout" >Log out</Link></li>
             </ul>
         </div>

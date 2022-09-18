@@ -99,4 +99,7 @@ a:hover{
     .searchInputs{
         width: 300px;
     }
+    .dataResult{
+        width: 300px;
+    }
 }

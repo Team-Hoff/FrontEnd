@@ -17,8 +17,11 @@
     .progcard{
         /* margin: 0; */
         /* padding: 0; */
-        position: relative;
-        left: -40px;
+        /* position: relative;
+        left: -40px; */
+        float: right;
+        align-content: space-between;
+        padding-right: 40px;
         
 
     }

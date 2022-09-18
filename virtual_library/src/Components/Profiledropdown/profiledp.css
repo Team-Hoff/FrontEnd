@@ -7,22 +7,16 @@
 
 .resize{
     width: 12%;
-<<<<<<< Updated upstream
     height: 12%; 
 }
 
 .action .profile{ 
-=======
-    height: 12%;
-   
-}
-
-.action .profile{ 
-    width: 100px;
->>>>>>> Stashed changes
     border-radius: 50%;
     overflow: hidden;
     cursor: pointer;
+    position: relative;
+    left: -20px;
+    top: -7px;
 }
 
 .action .profile img{
@@ -30,6 +24,8 @@
     height: 30px;
     object-fit: cover;
     border-radius: 50%;
+    /* position: absolute; */
+    /* left: -30px; */
 }
 
 .action .menu{
@@ -40,19 +36,21 @@
     width: 160px;
     box-sizing: 0 5px 25px rgba(0,0,0,0.1);
     border-radius: 25px;
-    transition: 0.2s;
+    transition: 0.2s
 }
 
 .active{
     top: 60px;
     visibility: visible;
     opacity: 1;
+    
 }
 
 .close{
-    top: 60px;
+    top: 40px;
     visibility: hidden;
     opacity: 1;
+    
 }
 
 .action .menu::before{

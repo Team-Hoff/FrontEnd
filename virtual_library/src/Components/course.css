@@ -28,13 +28,14 @@
 
 
 .containers{
-    min-height: 100vh;
-    min-width: 100vw;    
+    min-height: 60vh;
+    /* min-width: 100vw;     */
 }
 
 .slides{
     width:75vw;
     padding: 1em;
+    margin: auto;
     
     
 }
@@ -146,7 +147,6 @@
     font-family: 'Poppins';
 }
 
-<<<<<<< Updated upstream
 .hov{
     cursor: pointer;
 }
@@ -155,7 +155,10 @@
     color: blue;
 }
 
-=======
+.program_fonts{
+    font-size: 60px;
+}
+
 @media screen and (max-width: 600px) {
     .courses_name{
         font-size: 30px;
@@ -166,5 +169,21 @@
     .slides{
         padding: 0;
     }
+    .Available{
+        font-size: 60px;
+    }
+    .containers{
+        width: 20px;
+    }
+    .program_fonts{
+        font-size: 40px;
+    }
 }
->>>>>>> Stashed changes
+
+@media screen and (max-width: 400px) {
+    .Available{
+        font-size: 40px;
+    }
+   
+}
+

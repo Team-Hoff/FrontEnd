@@ -14,11 +14,21 @@ export const colors = {
 
 }
 
+export const Wrap = styled.div`
+    @media screen and (max-width:450px){
+        /* min-height:120vh;
+        width: 120vw;  */
+        overflow:hidden;
+        
+    }
+`;
+
 export const StyledContainer = styled.div`
     margin: 0;
     padding-top: 30px;
     min-height:100vh;
     display: flex;
+    position: relative;
     justify-content: center;
     align-items: center;
     background: linear-gradient(0deg, rgba(0,0,0,0.5), rgba(0,0,0,0.5)), url('https://th.bing.com/th/id/OIP.m_8yGJPbQ_G0r5X7Yx_JeQHaE8?pid=ImgDet&rs=1');
@@ -82,7 +92,7 @@ export const ButtonGroup = styled.div`
 
 //input
 export const StyledTextInput =  styled.input`
-    width: 90%;
+    width: 330px;
     padding: 15px;
     padding-left: 50px;
     font-size: 17px;
@@ -134,7 +144,7 @@ export const StyledLabel = styled.p`
 export const StyledFormArea = styled.div`
     background-color: ${props=>props.bg || colors.light1};
     text-align: center;
-    width:400px
+    padding: 45px 55px;
 `;
 
 export const StyledFormButton = styled.button`

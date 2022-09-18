@@ -1,5 +1,5 @@
 import React from 'react';
-import { StyledContainer,StyledFormArea, StyledFormButton, Avatar, StyledTitle, colors, ButtonGroup, CopyrightText, StyledSubTitle} from "../../Components/Style";
+import {Wrap, StyledContainer,StyledFormArea, StyledFormButton, Avatar, StyledTitle, colors, ButtonGroup, CopyrightText, StyledSubTitle} from "../../Components/Style";
 
 import Logo from './../../Assets/Klogo.png';
 
@@ -15,6 +15,7 @@ import { ThreeDots} from 'react-loader-spinner';
 
 const ForgotPassword = () => {
   return (
+    <Wrap>
     <StyledContainer>
         <div>
         <StyledFormArea>
@@ -77,6 +78,7 @@ const ForgotPassword = () => {
           <CopyrightText>All rights reserved &copy;2022</CopyrightText>
         </div>
     </StyledContainer>
+    </Wrap>
   )
 }
 

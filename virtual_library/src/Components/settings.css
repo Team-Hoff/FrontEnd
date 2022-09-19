@@ -6,12 +6,14 @@
 
 .settings-container{
     background:linear-gradient(to right, white,black);
-    width: 840px;
-    height: 620px;
+    width: 80vw;
+    height: 100vh;
     margin: 0 auto;
-    position: relative;
+    margin-top: 20px;
+    /* position: relative; */
     margin-top: 20px;
     box-shadow: 2px 5px 20px rgba(119,119,119,0.5);
+    margin-bottom: 20px;
 }
 
 .settings-logo{
@@ -30,11 +32,11 @@
 
 .leftbox{
     float: left;
-    top: -5%;
+    /* top: -5%;
     left: 5%;
-    position: absolute;
+    position: absolute; */
     width: 13%;
-    height: 110%;
+    height: 100%;
     background: white;
     box-shadow: 3px 3px 10px rgba(119,119,119,0.5);
    
@@ -44,34 +46,45 @@
  color: #3fb6a8;    
 }
 
-.rightbox{
+/* .rightbox{
     float: right;
     width: 60%;
     height: 100%;
     
-}
+} */
 
 .setting{
-    position: absolute;
-    width: 70%;
+    /* position: absolute; */
+    /* position: relative; */
+    /* left: -90px; */
+    /* padding-left: 50px; */
+    /* justify-content: space-around; */
+    width: 70vw;
+    padding-top:15px;
+    /* margin-left: 20px; */
+    /* position: relative;
+    left: 250px; */
+    
 }
 
-h1{
+.h11{
     font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
     font-size: 2em;
     margin-top: 40px;
     margin-bottom: 35px;
+    
 }
 
 
-h2{
+.h12{
     color: rgb(207, 207, 24);
     font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
     width: 80%;
     text-transform: uppercase;
-    font-size: 6px;
+    font-size: 15px;
     letter-spacing: 1px;
     margin-left: 2px;
+    
 }
 
 .answer{
@@ -83,18 +96,26 @@ h2{
     font-family: 'Courier New', Courier, monospace;
     padding: 7px 0;
     color: black;
+    
 }
 
-.btn{
+.btns{
     float: right;
     font-family: "Roberto", sans-serif;
     text-transform: uppercase;
     font-size: 10px;
     border: none;
     color: #3fb6a8;
+    outline: none;
+    background-color: transparent;
 }
 
-.btn:hover{
+.btns:hover{
     text-decoration: underline;
     font-weight: 900;
+}
+
+@media screen and (max: 600px) {
+
+    
 }

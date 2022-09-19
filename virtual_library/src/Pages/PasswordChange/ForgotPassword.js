@@ -25,7 +25,7 @@ const ForgotPassword = () => {
             <span style={{font: "normal 36px 'Cookie' cursive", margin: 0}}>Virtual</span><span style={{color:'#e0ac1c',fontFamily: 'Poppins'}}>Library</span>
           </StyledTitle></div>
           <StyledSubTitle color='Black' size={35} style={{fontFamily:'Poppins'}}>Forgot Password</StyledSubTitle>
-          <span>Please enter your email address to reset your password</span>
+          <span>Enter your email address to reset your password</span>
           <Formik
             initialValues={{
               email : "",
@@ -43,7 +43,7 @@ const ForgotPassword = () => {
           >
             {({isSubmitting })=>(
               <Form>
-                <TextInput  style={{position:'relative', left:'0px',width:'390px' }}
+                <TextInput
                  name="email" 
                  type="text"
                  label=""

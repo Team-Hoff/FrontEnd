@@ -1,8 +1,9 @@
 /* eslint-disable jsx-a11y/anchor-is-valid */
 import React, { useState } from 'react';
+import axios from './utils/axios';
 import '../Components/program.css';
 import Folder from '../Components/Profiledropdown/folder.png';
-import  CourseData  from '../Components/Data/CourseData.json';
+// import  CourseData  from '../Components/Data/CourseData.json';
 import { ProgramData } from '../Components/Data/programData';
 import { Link, useParams, Navigate} from 'react-router-dom';
 import Footer from '../Components/Footer/Footer';
@@ -12,8 +13,9 @@ import GoBack from '../Components/GoBack/GoBack';
 
 const Program = () => {
   const [courseQuery, setcourseQuery] = useState(Number(1));
+  const [course, setcourse] = useState([]);
   const [apro, setapro] = useState([]);
-  const [acor, setacor] = useState([]);
+  // const [acor, setacor] = useState([]);
 
   const  {id } = useParams()
   const prog = ProgramData.filter((pro) => pro.id === id)
@@ -27,14 +29,23 @@ const Program = () => {
   // eslint-disable-next-line react-hooks/exhaustive-deps
   }, [id])
 
-  useEffect(() => {
-    const cour = CourseData.filter((cor) => cor.ID === id)
-    setacor(cour);
+    useEffect (() => {
+    axios.get(`/course/${id}`)
+    .then(res => {
+      // console.log(res.data)
+      setcourse(res.data)
+      
+    })
+    .catch(err=>{
+      console.log(err)
+    })
+  }, [])
+  
+    // console.log(course)
+  const cour = course.filter((cor) => cor.IDM === id)
 
-    return () => {
-      setacor('')
-    }
-  }, [id])
+
+  // console.log(cour)
 
   // eslint-disable-next-line eqeqeq
   return (prog != "") ? (
@@ -111,7 +122,7 @@ const Program = () => {
             <ul className="list-group list-group-flush">
 
               {
-                Object.values(acor).filter((course) => {
+                cour.filter((course) => {
                   if (Number(course.year) === Number(courseQuery) && (Number(course.semester === 1))) return course
                   return ''
                 }).map((course) => (
@@ -127,7 +138,7 @@ const Program = () => {
             </div>
             <ul className="list-group list-group-flush">
               {
-                Object.values(acor).filter((course) => {
+                cour.filter((course) => {
                   if (Number(course.year) === Number(courseQuery) && (Number(course.semester === 2))) return course
                   return ''
                 }).map((course) => (

@@ -1,4 +1,4 @@
-import {Wrap, StyledContainer,StyledFormArea, StyledFormButton, Avatar, StyledTitle, StyledSubTitle, colors, ButtonGroup, ExtraText, TextLink, CopyrightText} from "../Components/Style";
+import {StyledContainer,StyledFormArea, StyledFormButton, Avatar, StyledTitle, StyledSubTitle, colors, ButtonGroup, ExtraText, TextLink, CopyrightText} from "../Components/Style";
 
 import Logo from './../Assets/Klogo.png';
 
@@ -22,6 +22,8 @@ import { ThreeDots} from 'react-loader-spinner';
 const Login = () => {
 
   const [inputs, setInputs] = useState("");
+  const [errmessage, seterrmessage] = useState("Username is required")
+  // const invalid = "Invalid username/password"
 
   const handleChange = (event) => {
     const name = event.target.name
@@ -38,16 +40,20 @@ const Login = () => {
         window.location.href="/auth"
         // alert("Successful")
       })
-      .catch( ()=> {
-        console.log(`Error for User:${inputs.username}`)
-        alert("Incorrect username/password")
+      .catch((err) => {
+          const a="Invalid username/password";
+          seterrmessage(a)
+         
+        
       })
     
       }
 
+      console.log(errmessage)
+
   return (
 
-    <Wrap>
+  
     <StyledContainer>
 
     <div>
@@ -66,7 +72,7 @@ const Login = () => {
             validationSchema={
               Yup.object({
                 username: Yup.string()
-                .required("Username is required"),
+                .required(errmessage),
                 password: Yup.string()
                 .required("Password is required"),
               })
@@ -123,7 +129,7 @@ const Login = () => {
       <CopyrightText>All rights reserved &copy;2022</CopyrightText>
     </div>
     </StyledContainer>
-    </Wrap>
+    
     
   )
 }

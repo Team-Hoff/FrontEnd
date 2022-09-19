@@ -1,3 +1,8 @@
+.All{
+    position: relative;
+    left: -30px;
+}
+
 .back{
     position: relative;
     /* transform: translate(-50%,50%); */

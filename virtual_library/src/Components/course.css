@@ -29,13 +29,16 @@
 
 .containers{
     min-height: 60vh;
-    /* min-width: 100vw;     */
+    
+   
 }
 
 .slides{
-    width:75vw;
+    width:85vw;
     padding: 1em;
     margin: auto;
+    
+    
     
     
 }
@@ -57,7 +60,7 @@
  
     justify-content: space-between;
     font-size: 25px;
- margin-bottom: 50px;
+    margin-bottom: 50px;
     font-family: 'Poppins';
     border-bottom: 1px solid rgba(181, 181, 181, 0.9);
 
@@ -168,6 +171,9 @@
     }
     .slides{
         padding: 0;
+        padding-right: 20px;
+
+        
     }
     .Available{
         font-size: 60px;
@@ -184,6 +190,15 @@
     .Available{
         font-size: 40px;
     }
+   
+}
+
+
+@media screen and (max-width: 800px) {
+    .slides{
+        width: 70vw;
+    }
+    
    
 }
 

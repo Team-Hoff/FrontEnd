@@ -1,6 +1,6 @@
 
 /* eslint-disable eqeqeq */
-import React, { useState } from 'react';
+import React, { useState, useEffect } from 'react';
 import '../Components/course.css';
 import axios from "./utils/axios"
 // import book from '../Assets/Asset/book.jpg';
@@ -11,24 +11,43 @@ import GoBack from '../Components/GoBack/GoBack';
 import {useParams, Navigate, useLocation } from 'react-router-dom';
 import { BoxLoading, RollBoxLoading, LadderLoading, MeteorRainLoading, WindMillLoading } from 'react-loadingg';
 import '../Components/loading.css'
-import CourseData from '../Components/Data/CourseData.json'
+// import CourseData from '../Components/Data/CourseData.json'
 
 
 
 const Course = () => {
-    const pos = Math.floor(Math.random()*5)
+    const pos = Math.floor(Math.random()*5);
     const loaders = [<BoxLoading color="white"/>,<WindMillLoading color="white"/>,
     <MeteorRainLoading color="white"/>,
     <LadderLoading color="white"/>,<RollBoxLoading color="white"/>]
 
-
     const isAvailable = "No Course Material is available for this course";
     const  {pathname}  = useLocation();
-    const { id } = useParams();
-    const cour = CourseData.filter((cor) => cor.id === id)
-    const course = CourseData.filter((cor) => `/home/${cor.ID}/${cor.id}`=== pathname)
+    // const { id } = useParams();
+
+    const [course, setcourse] = useState([]);
+    const idm = pathname.slice(6);
+
+    console.log(idm)
+
+    useEffect (() => {
+        axios.get(`/course/${idm}`)
+        .then(res => {
+          console.log(res.data)
+          setcourse(res.data)
+          
+        })
+        .catch(err=>{
+          console.log(err)
+        })
+      }, [])
+
+    //   console.log(course)
+    // const courses = courses.filter((cor) => cor.id === id)
+    // const course = courses.filter((cor) => `/home/${cor.IDM}/${cor.id}`=== pathname)
     const [loading, setLoading] = useState(false);
-    // const converter = require('number-to-words');
+
+   
 
     const getFiles = (path, lecture_name) => {
         setLoading(true)
@@ -85,7 +104,7 @@ const Course = () => {
 
     
   
-  return (cour != "") ?  (
+  return (course != "") ?  (
     <div>
          {loading ? (
       <div className="loader-container">
@@ -97,14 +116,14 @@ const Course = () => {
 
 
         <div className="hero" style={{ 
-            backgroundImage: `linear-gradient(0deg, rgba(0,0,0,0.6),rgba(0,0,0,0.6)), url(${cour.length !== 0 ? cour[0].img: ""})`, 
+            backgroundImage: `linear-gradient(0deg, rgba(0,0,0,0.6),rgba(0,0,0,0.6)), url(${course.length !== 0 ? course[0].img: ""})`, 
             backgroundRepeat: 'no-repeat',
             backgroundSize: '100% 100%'
             }}>
 
         {
-                cour.length !== 0 ? <h1> <span className='program_fonts'>
-                  {cour[0].name.toUpperCase()}
+                course.length !== 0 ? <h1> <span className='program_fonts'>
+                  {course[0].name.toUpperCase()}
                 </span></h1> : ""
               }
 

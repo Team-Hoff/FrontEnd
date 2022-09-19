@@ -1,7 +1,7 @@
 import React from 'react';
 import './Navbar.css';
 import Profiledp from '../Profiledropdown/profiledp';
-import { Link, useNavigate } from 'react-router-dom';
+import {useNavigate } from 'react-router-dom';
 
 function Navbar() {
   const navigate = useNavigate();

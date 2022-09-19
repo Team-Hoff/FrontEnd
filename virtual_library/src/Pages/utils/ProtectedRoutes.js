@@ -47,15 +47,15 @@ const ProtectedRoutes = () => {
         },
         {
             path: "/forgotpassword",
-            element: <ForgotPassword/>
+            element: !user ?<ForgotPassword />: <Navigate replace to="/home" />
         },
         {
             path: "/resetpassword",
-            element: <ResetPassword/>
+            element: !user ?<ResetPassword />: <Navigate replace to="/home" />
         },
         {
             path: "/signup",
-            element: <Signup />
+            element: !user ?<Signup />: <Navigate replace to="/home" />
         },
         {
             path: "/logout",

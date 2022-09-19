@@ -39,17 +39,17 @@ function Aboutus(){
                 <div className="info">
                             <div className="box box1">
                                 <h3 className="highlights">OUR VISION</h3>
-                                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
+                                <p>To create a comfortable world for people.</p>
                             </div>
 
                             <div className="box box1">
-                                <h3 className="highlights">OUR MISSION</h3>
-                                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
+                                <h3 className="highlights">OUR SLOGAN</h3>
+                                <p>A step into the future.</p>
                             </div>
 
                             <div className="box">
                                 <h3 className="highlights">OUR VALUES</h3>
-                                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
+                                <p>We are driven by curiosity and we are determined in transforming our dreams into a reality.</p>
                             </div>
                 </div>
                 
@@ -58,8 +58,35 @@ function Aboutus(){
             <div className="services">
                     <h2 className="highlights">OUR SEVICES</h2>
                     
+<<<<<<< Updated upstream
                     <p className="serv">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
+=======
+                    <p>We help create web applications and mobile applications for businesses </p>
+>>>>>>> Stashed changes
             </div>
+
+            <div className="contact">
+                <h2>CONTACTS</h2>
+
+                <div className="contact-row">
+                        <div className="contact-photo">
+
+                        </div>
+
+                        <div className="contact-column">
+                                    <h4>Contact us on</h4>
+                                    <div className="contact-detail"><span>Tel:</span> 026000000</div>
+                                    <div className="contact-detail"><span>Email:</span> TeamHoff@gmail.com</div>
+                                    <div className="contact-detail"><span>Twitter:</span> TeamHoff</div>
+                                    <div className="contact-detail"><span>Instagram:</span> Team_Hoff</div>
+                        </div>
+
+                        <div className="contact-photo2"></div>
+
+                </div>
+                
+                
+        </div>
 
 
 

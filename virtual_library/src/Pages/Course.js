@@ -24,30 +24,9 @@ const Course = () => {
     const isAvailable = "No Course Material is available for this course";
     const  {pathname}  = useLocation();
     // const { id } = useParams();
-
+    const [loading, setLoading] = useState(true);
     const [course, setcourse] = useState([]);
     const idm = pathname.slice(6);
-
-    console.log(idm)
-
-    useEffect (() => {
-        axios.get(`/course/${idm}`)
-        .then(res => {
-          console.log(res.data)
-          setcourse(res.data)
-          
-        })
-        .catch(err=>{
-          console.log(err)
-        })
-      }, [])
-
-    //   console.log(course)
-    // const courses = courses.filter((cor) => cor.id === id)
-    // const course = courses.filter((cor) => `/home/${cor.IDM}/${cor.id}`=== pathname)
-    const [loading, setLoading] = useState(false);
-
-   
 
     const getFiles = (path, lecture_name) => {
         setLoading(true)
@@ -99,9 +78,31 @@ const Course = () => {
             }
     }
 
+    useEffect( ()=> {
+        async function fetchData(){
+        await axios.get(`/course/${idm}`)
+        .then(res => {
+            console.log(res.data);
+          setcourse(res.data);
+          setLoading(false);
+        })
+        .catch(err=>{
+          console.log(err)
+        })
+        }
+        fetchData();
+    }, [])
 
 
-
+    while(loading ){
+        return (
+        <div>
+            <div className="loader-container">
+                <div className="spinner"></div>
+            </div>
+        </div>
+        )
+    }
     
   
   return (course != "") ?  (

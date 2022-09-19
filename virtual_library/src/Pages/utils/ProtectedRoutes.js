@@ -6,7 +6,7 @@ import Home from '../Home';
 import Program from '../Program';
 import Course from '../Course';
 import Logout from "./Logout";
-import Profile from "../profilepage/profilepage";
+// import Profile from "../profilepage/profilepage";
 import Settings from "../settings";
 import PageNotFound from "../PageNotFound/PageNotFound";
 import Display from "./Display";
@@ -21,8 +21,8 @@ import { useRoutes } from "react-router-dom";
 
 
 const ProtectedRoutes = () => {
-    // const {user} = useAuth();
-    const user = true;
+    const {user} = useAuth();
+    // const user = true;
     
     const routes = useRoutes([
         {
@@ -61,13 +61,17 @@ const ProtectedRoutes = () => {
             path: "/logout",
             element: user?<Logout />: <Navigate replace to="/" />
         },
-        {
-            path: "/profile",
-            element: user?<Profile />: <Navigate replace to="/" />
-        },
+        // {
+        //     path: "/profile",
+        //     element: user?<Profile />: <Navigate replace to="/" />
+        // },
         {
             path: "/aboutus",
             element: user?<AboutUs />: <Navigate replace to="/" />
+        },
+        {
+            path: "/profile",
+            element: user?<Settings />: <Navigate replace to="/" /> 
         },
         {
             path: "/404",
@@ -81,10 +85,7 @@ const ProtectedRoutes = () => {
             path: "/test",
             element: <Display/>   
         },
-        {
-            path: "/settings",
-            element: <Settings />   
-        }
+        
         
         
 

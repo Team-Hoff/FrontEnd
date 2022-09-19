@@ -103,6 +103,7 @@
     justify-content: center;
 }
 
+<<<<<<< Updated upstream
 .serv{
     text-align: center;
 }
@@ -120,3 +121,61 @@
     }
     
 }
+=======
+.contact{
+    color: white;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+
+
+}
+.contact-photo{
+    width: 24vw;
+    height: 40vh;
+
+    background-image: url("../../Assets/Get\ in\ touch-bro.svg");
+    background-repeat: no-repeat;
+    background-color: black;
+    background-size: contain;
+    background-position: center;
+
+  
+}
+.contact-row{
+    display: grid;
+   column-gap: 50px;
+   grid-template-columns: auto auto auto;
+  
+  padding: 10px;
+
+}
+.contact-column{
+    display: flex;
+    flex-direction: column;
+    }
+
+.contact-detail, h4{
+        margin: 10px;
+     }   
+.contact-column h4{
+    font-size: 18px;
+}     
+ 
+.contact-column h4, span{
+    color: #FDD017;
+    
+}     
+ 
+.contact-photo2{
+    width: 20vw;
+    height: 40vh;
+
+    background-image: url("../../Assets/Sent\ Message-amico.svg");
+    background-repeat: no-repeat;
+    background-color: black;
+    background-size: contain;
+    background-position: center;
+}    
+>>>>>>> Stashed changes

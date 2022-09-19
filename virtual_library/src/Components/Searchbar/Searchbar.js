@@ -3,7 +3,6 @@ import './Searchbar.css';
 import SearchIcon from '@mui/icons-material/Search';
 import ClosedIcon  from '@mui/icons-material/Close';
 import { Link } from 'react-router-dom';
-import { Hidden } from '@mui/material';
 
 function Searchbar({placeholder, data}) {
     const [filteredData, setFilteredData] = useState([]);
@@ -38,7 +37,6 @@ function Searchbar({placeholder, data}) {
         let handler = (e)=>{
             if (!menuRef.current.contains(e.target)){
                 setdisplay(false)
-                // setwordEntered("");
             }
         }
 
@@ -61,7 +59,7 @@ function Searchbar({placeholder, data}) {
             {filteredData.length !==0 && (
             <div className='dataResult' style={{visibility: display ? 'visible' : 'hidden'}}>
                 {filteredData.slice(0,15).map((value,key)=>{
-                    return <Link key={[value.id,value.ID]} className='dataItem' to={`/home/${value.ID}/${value.id}`}><p>{value.name}, {value.ID.toUpperCase()}</p></Link>
+                    return <Link key={[value.id,value.IDM]} className='dataItem' to={`/home/${value.IDM}/${value.id}`}><p>{value.name}, {value.IDM.toUpperCase()}</p></Link>
                 })}
             </div>
 )}

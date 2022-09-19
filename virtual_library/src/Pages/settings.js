@@ -1,50 +1,44 @@
 import React from "react";
 import "../Components/settings.css";
+import { useAuth } from "./hooks/useAuth";
 import Navbar from '../Components/Navbar/Navbar';
 import Footer from '../Components/Footer/Footer';
+import GoBack from "../Components/GoBack/GoBack";
 
 
 export default function Settings(){
+
+    const {user} = useAuth();
+    const {fullname, username, email, programme, year, password} = user;
+    
 
     return(
      <div>   
     <Navbar/>
     <div className="settings-body">
-        <div class="settings-container">
-            <div class="leftbox">
-                <div class="settings-logo">
-                <div>V</div>
-                <div>i</div>
-                <div>r</div>
-                <div>t</div>
-                <div>u</div>
-                <div>a</div>
-                <div>l</div>
-                <div>L</div>
-                <div>i</div>
-                <div>b</div>
-                <div>r</div>
-                <div>a</div>
-                <div>r</div>
-                <div>y</div>
-            </div>
-        </div>
-       
-            <div class="rightbox">
-                <div class="setting">
-                    <h1 className="h11">Settings Page</h1>
+    <div style={{marginTop:'25px', width:'60px'}}><GoBack/></div> 
+        <div className="settings-container">
+       {
+         user.length !== 0 ?(
+            <div className="rightbox">
+                <div className="setting">
+                    <h1 className="h11">MY PROFILE</h1>
                     <h2 className="h12">Full Name</h2>
-                    <p className="answer">Nicholina Adjetey <button class="btns">update</button></p>
+                    <p className="answer">{fullname} <button className="btns">update</button></p>
+                    <h2 className="h12">Username</h2>
+                    <p className="answer">{username} <button className="btns">update</button></p>
                     <h2 className="h12">Programmme</h2>
-                    <p className="answer">Computer Engineeering</p>
+                    <p className="answer">{programme} <button className="btns">update</button></p>
                     <h2 className="h12">Level</h2>
-                    <p className="answer">300 <button class="btns">update</button></p>
+                    <p className="answer">{year.slice(6)} <button className="btns">update</button></p>
                     <h2 className="h12">Email</h2>
-                    <p className="answer">adjeteynicholina@gmail.com <button class="btns">update</button></p>
+                    <p className="answer">{email}<button className="btns">update</button></p>
                     <h2 className="h12">Password</h2>
-                    <p className="answer">******<button class="btns">update</button></p>
+                    <p className="answer">{password}<button className="btns">update</button></p>
                 </div>
-            </div> 
+            </div>
+         ): ""
+        } 
         </div> 
     </div>
     <Footer/>

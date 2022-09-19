@@ -21,14 +21,14 @@ import { ThreeDots} from 'react-loader-spinner';
 
 const Login = () => {
 
-  const [inputs, setInputs] = useState("");
+  // const [inputs, setInputs] = useState("");
   const [error, setError] = useState(true);
 
-  const handleChange = (event) => {
-    const name = event.target.name
-    const value = event.target.value
-    setInputs(values => ({...values, [name]: value}))
-  }
+  // const handleChange = (event) => {
+  //   const name = event.target.name
+  //   const value = event.target.value
+  //   setInputs(values => ({...values, [name]: value}))
+  // }
 
   const handleSubmit = async(inputs) => {
     await axios.post("/login",
@@ -37,7 +37,7 @@ const Login = () => {
         }
       ).then(()=> {
         window.location.href="/auth"
-        alert("Successful")
+        // alert("Successful")
       })
       .catch( (error)=> {
         setError(false)
@@ -82,7 +82,8 @@ const Login = () => {
           
           >
             {({isSubmitting })=>(
-              <Form onChange={handleChange}>
+              // <Form onChange={handleChange}>
+              <Form>
                 <TextInput
                  name="username" 
                  type="text"

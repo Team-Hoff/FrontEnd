@@ -8,7 +8,18 @@ import GoBack from "../../Components/GoBack/GoBack";
 export default function Profile(){
      
         const {user} = useAuth();
-        const {fullname, email, programme, year, username} = user;
+        const {fullname, username, email, programme, year} = user;
+        // const user = 
+        //  {
+        //     fullname: "Isaac Epaphras Nana Sam",
+        //     username: "Synx",
+        //     email: "isinesam@gmail.com",
+        //     programme: "Computer Engineering",
+        //     year: 400
+        //  }   
+        
+
+        // console.log(user)
 
     return(
 
@@ -25,15 +36,18 @@ export default function Profile(){
                     <div className="image">
                     </div>                    
                  </div>
-                 
+        {
+         user.length !== 0 ?(
                  <div className="profile-details">
                     <h1 className="profile-header">MY PROFILE</h1>
                     <div><span>FULL NAME:</span>             {fullname}</div>
+                    <div><span>USERNAME:</span>             {username}</div>
                     <div><span>EMAIL:</span>             {email}</div>
-                    <div><span>LEVEL:</span>            {year}</div>
                     <div><span>DEPARTMENT:</span>        {programme}</div>
+                    <div><span>LEVEL:</span>            {year}</div>
                  </div>
-
+            ) : "" 
+        }
                 </div>
 
         </div>

@@ -8,7 +8,7 @@ import {HiDownload, HiEye} from 'react-icons/hi';
 import Footer from '../Components/Footer/Footer';
 import Navbar from '../Components/Navbar/Navbar';
 import GoBack from '../Components/GoBack/GoBack';
-import {useParams, Navigate, useLocation } from 'react-router-dom';
+import {Navigate, useLocation } from 'react-router-dom';
 import { BoxLoading, RollBoxLoading, LadderLoading, MeteorRainLoading, WindMillLoading } from 'react-loadingg';
 import '../Components/loading.css'
 // import CourseData from '../Components/Data/CourseData.json'
@@ -91,6 +91,7 @@ const Course = () => {
         })
         }
         fetchData();
+    // eslint-disable-next-line react-hooks/exhaustive-deps
     }, [])
 
 
@@ -139,7 +140,7 @@ const Course = () => {
     : ( 
     <div style={{display:'flex'}}> 
 
-    <div style={{marginTop:'25px'}}><GoBack/></div>  
+    <div style={{marginTop:'25px', width:'60px'}}><GoBack/></div>  
 
     <div className="containers">
         <div className="slides">

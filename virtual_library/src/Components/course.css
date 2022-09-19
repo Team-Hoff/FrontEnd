@@ -162,6 +162,7 @@
     font-size: 60px;
 }
 
+
 @media screen and (max-width: 600px) {
     .courses_name{
         font-size: 30px;

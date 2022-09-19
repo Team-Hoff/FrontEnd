@@ -5,7 +5,7 @@ import Searchbar from '../Components/Searchbar/Searchbar';
 import Navbar from '../Components/Navbar/Navbar';
 import Footer from '../Components/Footer/Footer';
 import ProgramCard from '../Components/ProgramCard/ProgramCard';
-// import CourseData from '../Components/Data/CourseData.json';
+// import course from '../Components/Data/CourseData.json';
 // import { useLocation, useParams } from 'react-router';
 
 

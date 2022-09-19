@@ -3,7 +3,6 @@ import './Searchbar.css';
 import SearchIcon from '@mui/icons-material/Search';
 import ClosedIcon  from '@mui/icons-material/Close';
 import { Link } from 'react-router-dom';
-import { Hidden } from '@mui/material';
 
 function Searchbar({placeholder, data}) {
     const [filteredData, setFilteredData] = useState([]);
@@ -38,7 +37,6 @@ function Searchbar({placeholder, data}) {
         let handler = (e)=>{
             if (!menuRef.current.contains(e.target)){
                 setdisplay(false)
-                // setwordEntered("");
             }
         }
 

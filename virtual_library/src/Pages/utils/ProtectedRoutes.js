@@ -6,7 +6,7 @@ import Home from '../Home';
 import Program from '../Program';
 import Course from '../Course';
 import Logout from "./Logout";
-import Profile from "../profilepage/profilepage";
+// import Profile from "../profilepage/profilepage";
 import Settings from "../settings";
 import PageNotFound from "../PageNotFound/PageNotFound";
 import Display from "./Display";
@@ -61,16 +61,16 @@ const ProtectedRoutes = () => {
             path: "/logout",
             element: user?<Logout />: <Navigate replace to="/" />
         },
-        {
-            path: "/profile",
-            element: user?<Profile />: <Navigate replace to="/" />
-        },
+        // {
+        //     path: "/profile",
+        //     element: user?<Profile />: <Navigate replace to="/" />
+        // },
         {
             path: "/aboutus",
             element: user?<AboutUs />: <Navigate replace to="/" />
         },
         {
-            path: "/settings",
+            path: "/profile",
             element: user?<Settings />: <Navigate replace to="/" /> 
         },
         {

@@ -92,7 +92,7 @@ const Program = () => {
       </section>
 
        <div style={{display:'flex'}}>
-        <div style={{marginTop:'25px'}}><GoBack/></div>       
+       <div style={{marginTop:'25px', width: '60px'}}><GoBack/></div>      
       
 
       <div className="container">

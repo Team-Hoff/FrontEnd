@@ -58,11 +58,8 @@ function Aboutus(){
             <div className="services">
                     <h2 className="highlights">OUR SEVICES</h2>
                     
-<<<<<<< Updated upstream
-                    <p className="serv">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
-=======
                     <p>We help create web applications and mobile applications for businesses </p>
->>>>>>> Stashed changes
+
             </div>
 
             <div className="contact">

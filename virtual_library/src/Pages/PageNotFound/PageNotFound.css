@@ -2,10 +2,10 @@
     /* background-image: url("../../Assets/Asset/404-Pages-1024x512.jpg"); */
     /* background :linear-gradient(25deg,rgb(181, 189, 95),rgb(225, 225, 36)); */
     background-color: rgb(144, 144, 22);
-    height: 100vh;
+    /* height: 100vh; */
     background-repeat: no-repeat;
-    background-size: cover;
-    justify-items: flex-end;
+    /* background-size: cover; */
+    /* justify-items: flex-end; */
     /* display:flex; */
     /* flex-direction: row; */
     /* justify-content: center; */
@@ -50,7 +50,7 @@
     border-radius: 50px;
     display:inline-block; 
     font-size: 20px;
-    margin-top: 50px;
+    margin-top: 30px;
 
 }
 @keyframes animate {
@@ -80,4 +80,13 @@
     /* justify-content: left; */
   /* } */
     
+}
+.pic{
+    background-image: url("../../Assets/broken_bulb.png");
+    background-color: rgb(144, 144, 22);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: contain;
+
+    height: 30vh;
 }

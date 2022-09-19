@@ -14,13 +14,21 @@ const PageNotFound = () => {
       {/* </div> */}
     </div> 
     
+
+     <div className='pic'>
+      
+      </div>
     
     
     <div className='field'>
-      <h2>Opps...looks like you got lost</h2>
+      <h2>Oops...looks like you got lost</h2>
+      
+      
+
       <Link className= "link" to="/home">Go home</Link>
 
-      </div> 
+    </div>
+ 
   </div>
   )
 }

@@ -32,9 +32,6 @@
 
 .leftbox{
     float: left;
-    /* top: -5%;
-    left: 5%;
-    position: absolute; */
     width: 13%;
     height: 100%;
     background: white;
@@ -46,24 +43,11 @@
  color: #3fb6a8;    
 }
 
-/* .rightbox{
-    float: right;
-    width: 60%;
-    height: 100%;
-    
-} */
 
 .setting{
-    /* position: absolute; */
-    /* position: relative; */
-    /* left: -90px; */
-    /* padding-left: 50px; */
-    /* justify-content: space-around; */
     width: 70vw;
     padding-top:15px;
-    /* margin-left: 20px; */
-    /* position: relative;
-    left: 250px; */
+    margin-left: 70px;
     
 }
 
@@ -113,9 +97,4 @@
 .btns:hover{
     text-decoration: underline;
     font-weight: 900;
-}
-
-@media screen and (max: 600px) {
-
-    
 }

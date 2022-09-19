@@ -50,7 +50,6 @@ const Program = () => {
 
   // console.log(cour)
 
-  // eslint-disable-next-line eqeqeq
 
   if(loading ){
     return (
@@ -61,6 +60,7 @@ const Program = () => {
     </div>
     )
 }
+  // eslint-disable-next-line eqeqeq
   return (prog != "") ? (
     <div>
       <Navbar />

@@ -1,13 +1,33 @@
-import React from 'react';
+import React, {useEffect, useState} from 'react';
 import '../Components/home.css';
+import axios from './utils/axios';
 import Searchbar from '../Components/Searchbar/Searchbar';
 import Navbar from '../Components/Navbar/Navbar';
 import Footer from '../Components/Footer/Footer';
 import ProgramCard from '../Components/ProgramCard/ProgramCard';
-import CourseData from '../Components/Data/CourseData.json';
+// import CourseData from '../Components/Data/CourseData.json';
+// import { useLocation, useParams } from 'react-router';
 
 
 const Home = () => {
+  const [course, setcourse] = useState([])
+  // const [Loading, setLoading] = useState(true)
+
+
+  useEffect( ()=> {
+    function fetchData(){
+      axios.get(`/course/computer`)
+    .then(res => {
+      setcourse(res.data);
+      // setLoading(false);
+    })
+    .catch(err=>{
+      console.log(err)
+    })
+    }
+    fetchData();
+}, [])
+  
 
   return (
     <div className="Everything">
@@ -23,7 +43,7 @@ const Home = () => {
                         WELCOME TO THE CoE VIRTUAL LIBRARY
                     </span></h1>
                     <p style={{color:'white', textAlign:'center'}}>You don't need to go through  the stress of asking your colleagues for your course materials. Get all your engineering  course materials and tutorial video links right here !!</p>      
-                    <div className="searchb"><Searchbar placeholder="Search for course..." data={CourseData}/></div>
+                    <div className="searchb"><Searchbar placeholder="Search for course..." data={course}/></div>
                 </div>              
             </div>
         </div>

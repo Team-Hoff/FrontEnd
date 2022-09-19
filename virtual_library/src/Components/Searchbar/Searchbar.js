@@ -61,7 +61,7 @@ function Searchbar({placeholder, data}) {
             {filteredData.length !==0 && (
             <div className='dataResult' style={{visibility: display ? 'visible' : 'hidden'}}>
                 {filteredData.slice(0,15).map((value,key)=>{
-                    return <Link key={[value.id,value.ID]} className='dataItem' to={`/home/${value.ID}/${value.id}`}><p>{value.name}, {value.ID.toUpperCase()}</p></Link>
+                    return <Link key={[value.id,value.IDM]} className='dataItem' to={`/home/${value.IDM}/${value.id}`}><p>{value.name}, {value.IDM.toUpperCase()}</p></Link>
                 })}
             </div>
 )}

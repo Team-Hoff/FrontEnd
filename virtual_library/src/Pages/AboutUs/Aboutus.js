@@ -58,7 +58,7 @@ function Aboutus(){
             <div className="services">
                     <h2 className="highlights">OUR SEVICES</h2>
                     
-                    <p>We help create web applications and mobile applications for businesses </p>
+                    <p classname="serv">We help create web applications and mobile applications for businesses </p>
 
             </div>
 

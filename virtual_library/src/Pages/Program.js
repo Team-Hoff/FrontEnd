@@ -10,11 +10,13 @@ import Footer from '../Components/Footer/Footer';
 import Navbar from '../Components/Navbar/Navbar';
 import { useEffect } from 'react';
 import GoBack from '../Components/GoBack/GoBack';
+import '../Components/loading.css'
 
 const Program = () => {
   const [courseQuery, setcourseQuery] = useState(Number(1));
   const [course, setcourse] = useState([]);
   const [apro, setapro] = useState([]);
+  const [loading, setLoading] = useState(true);
   // const [acor, setacor] = useState([]);
 
   const  {id } = useParams()
@@ -34,6 +36,7 @@ const Program = () => {
     .then(res => {
       // console.log(res.data)
       setcourse(res.data)
+      setLoading(false)
       
     })
     .catch(err=>{
@@ -48,6 +51,16 @@ const Program = () => {
   // console.log(cour)
 
   // eslint-disable-next-line eqeqeq
+
+  if(loading ){
+    return (
+    <div>
+        <div className="loader-container">
+            <div className="spinner"></div>
+        </div>
+    </div>
+    )
+}
   return (prog != "") ? (
     <div>
       <Navbar />

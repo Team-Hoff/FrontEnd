@@ -30,9 +30,9 @@ const Course = () => {
 
     const getFiles = (path, lecture_name) => {
         setLoading(true)
-        const {ID, name, year, semester, ext} = path[0] ;
+        const {IDM, name, year, semester, ext} = path[0] ;
             axios({
-                url: `/program/${ID}/${year}/${semester}/${name}/${lecture_name}`, 
+                url: `/program/${IDM}/${year}/${semester}/${name}/${lecture_name}`, 
                 method: 'GET',
                 responseType: 'blob', 
             }).then((response) => {
@@ -43,7 +43,7 @@ const Course = () => {
                 document.body.appendChild(link);
                 link.click();
                 document.body.removeChild(link);
-                URL.revokeObjectURL(`/program/${ID}/${year}/${semester}/${name}/${lecture_name}`);
+                URL.revokeObjectURL(`/program/${IDM}/${year}/${semester}/${name}/${lecture_name}`);
                 setLoading(false)
             }).catch(()=> {
                 alert(`${lecture_name} is not available`)
@@ -53,11 +53,11 @@ const Course = () => {
 
     const displayFile =  (path, lecture_name) => {
         setLoading(true)
-        const {ID, name, year, semester, ext} = path[0] ;
+        const {IDM, name, year, semester, ext} = path[0] ;
         switch (ext) {
             case "pdf":
         axios({
-            url: `/program/${ID}/${year}/${semester}/${name}/${lecture_name}`, 
+            url: `/program/${IDM}/${year}/${semester}/${name}/${lecture_name}`, 
             method: 'GET',
             responseType: 'blob', 
         }).then((response) => {
@@ -94,7 +94,7 @@ const Course = () => {
     }, [])
 
 
-    while(loading ){
+    if(loading ){
         return (
         <div>
             <div className="loader-container">

@@ -1,4 +1,4 @@
-import {StyledContainer,StyledFormArea, StyledFormButton, Avatar, StyledTitle, StyledSubTitle, colors, ButtonGroup, ExtraText, TextLink, CopyrightText} from "../Components/Style";
+import { StyledContainer,StyledFormArea, StyledFormButton, Avatar, StyledTitle, StyledSubTitle, colors, ButtonGroup, ExtraText, TextLink, CopyrightText} from "../Components/Style";
 
 import Logo from './../Assets/Klogo.png';
 
@@ -22,8 +22,7 @@ import { ThreeDots} from 'react-loader-spinner';
 const Login = () => {
 
   const [inputs, setInputs] = useState("");
-  const [errmessage, seterrmessage] = useState("Username is required")
-  // const invalid = "Invalid username/password"
+  const [error, setError] = useState(true);
 
   const handleChange = (event) => {
     const name = event.target.name
@@ -38,22 +37,15 @@ const Login = () => {
         }
       ).then(()=> {
         window.location.href="/auth"
-        // alert("Successful")
+        alert("Successful")
       })
-      .catch((err) => {
-          const a="Invalid username/password";
-          seterrmessage(a)
-         
-        
+      .catch( (error)=> {
+        setError(false)
       })
     
       }
 
-      console.log(errmessage)
-
   return (
-
-  
     <StyledContainer>
 
     <div>
@@ -72,7 +64,16 @@ const Login = () => {
             validationSchema={
               Yup.object({
                 username: Yup.string()
-                .required(errmessage),
+                .required("Username is required")
+                .test('Unique Username', 'Incorrect Username or Password', // <- key, message
+                
+                function (value) {
+                    return new Promise((resolve, reject) => {
+                       resolve(error)
+                    })
+                }
+            
+            ),
                 password: Yup.string()
                 .required("Password is required"),
               })
@@ -129,8 +130,7 @@ const Login = () => {
       <CopyrightText>All rights reserved &copy;2022</CopyrightText>
     </div>
     </StyledContainer>
-    
-    
+
   )
 }
 

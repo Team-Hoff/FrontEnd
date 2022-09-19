@@ -77,10 +77,40 @@ const Signup = () => {
                 username: Yup.string()
                 .required("Please enter a username")
                 .min(4, "Username is too short")
-                .max(15, "Username is too long"),
+                .max(15, "Username is too long")
+                .test('Unique Username', 'Username already in use', // <- key, message
+                function (value) {
+                    return new Promise((resolve, reject) => {
+                        axios.get(`/login/${value}/available`)
+                            .then((res) => {
+                                resolve(true)
+                            })
+                            .catch((error) => {
+                                if (error.response.data.content === "The Username has already been taken.") {
+                                    resolve(false);
+                                }
+                            })
+                    })
+                }
+            ),
                 email: Yup.string()
                 .required("Please enter an email")
-                .email("Invalid email address"),
+                .email("Invalid email address")
+                .test('Unique Email', 'Email already in use', // <- key, message
+                function (value) {
+                    return new Promise((resolve, reject) => {
+                        axios.get(`/login/${value}/available`)
+                            .then((res) => {
+                                resolve(true)
+                            })
+                            .catch((error) => {
+                                if (error.response.data.content === "The email has already been taken.") {
+                                    resolve(false);
+                                }
+                            })
+                    })
+                }
+            ),
                 password: Yup.string()
                 .required("Please enter a password")
                 .min(5, "Password is too short")

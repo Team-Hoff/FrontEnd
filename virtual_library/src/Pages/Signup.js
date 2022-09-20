@@ -1,26 +1,17 @@
 import { StyledContainer,StyledFormArea, StyledFormButton, Avatar, StyledTitle, StyledSubTitle, colors, ButtonGroup, ExtraText, TextLink, CopyrightText } from "../Components/Style";
-
 import Logo from './../Assets/Klogo.png';
-
 import { useState } from "react";
-
 import axios from './utils/axios';
-
 import { Form, Formik } from "formik";
-
 import { TextInput, CustomSelect} from "../Components/Form";
-
 import {FiUser, FiLock, FiMail} from 'react-icons/fi';
-// import {FcDepartment} from 'react-icons/fc';
-
 import  * as Yup from 'yup';
-
-
 import { ThreeDots} from 'react-loader-spinner';
 
 
 const Signup = () => {
   const [inputs, setInputs] = useState("");
+  const [loading, setLoading] = useState(false);
 
   const handleChange = (event) => {
     const name = event.target.name
@@ -39,15 +30,20 @@ const Signup = () => {
       year: inputs.yearselect})
       .then( ()=>{
         window.location.href="/login"
-        alert("Succesful")
       }).catch( ()=> {
-        console.log(`Error for User:${inputs.username}`)
-        alert("ERROR: Username taken")
+        setLoading(false)
       })
   }
 
-
-  
+  if(loading ){
+    return (
+    <div>
+        <div className="loader-container">
+            <div className="spinner"></div>
+        </div>
+    </div>
+    )
+}
   
   return (
     
@@ -131,7 +127,8 @@ const Signup = () => {
           >
             
             {({isSubmitting })=>(
-              <Form name="userdetails" onChange={handleChange}>
+              <Form onChange={handleChange}>
+              {/* <Form> */}
                 <TextInput
                  name="fullname" 
                  type="text"

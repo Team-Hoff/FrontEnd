@@ -1,8 +1,6 @@
 import React, {useState, useEffect, useRef} from 'react';
 import './profiledp.css';
-// import edit from './edit.png'
 import logouts from './logout.png';
-// import settings from './settings.jpg';
 import user1 from './user.png';
 import user2 from './f2.png';
 import aboutus from './Aboutus.png';
@@ -13,8 +11,6 @@ function Profiledp() {
     const {logout} =useAuth();
     const {user} = useAuth(); 
     const {username} = user;
-
-    // console.log(logout)
 
     const [isOpen, setisOpen] = useState(false)
 
@@ -49,7 +45,6 @@ function Profiledp() {
             <h3>Welcome<br/><span>{username}</span></h3>
             <ul>
                 <li><img src={user1} alt="" className="resize"></img><Link to="/profile">My Profile</Link></li>
-                {/* <li><img src={settings} alt="" className="resize"></img><Link to="/settings">Settings</Link></li> */}
                 <li><img src={aboutus} alt="" className="resize"></img><Link to="/aboutus">About us</Link></li>
                 <li><img src={logouts} alt="" className="resize" style={{marginBottom:'10px'}}></img><Link to="/logout" >Log out</Link></li>
             </ul>

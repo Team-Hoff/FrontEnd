@@ -203,3 +203,11 @@
    
 }
 
+@media screen and (max-width: 390px) {
+    .slides{
+        width: 80vw;
+    }
+    
+   
+}
+

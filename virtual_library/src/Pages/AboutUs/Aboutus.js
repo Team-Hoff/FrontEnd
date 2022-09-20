@@ -14,7 +14,7 @@ function Aboutus(){
      
             <div className="About-us">
             <div style={{display:'flex'}}>
-            <div style={{marginTop:'25px'}}><GoBack/></div> 
+            <div style={{marginTop:'25px', width:'50px'}}><GoBack/></div> 
 
             <div className="AboutUs-image">
 
@@ -71,11 +71,11 @@ function Aboutus(){
                         </div>
 
                         <div className="contact-column">
-                                    <h4>Contact us on</h4>
-                                    <div className="contact-detail"><span>Tel:</span> 026000000</div>
-                                    <div className="contact-detail"><span>Email:</span> TeamHoff@gmail.com</div>
-                                    <div className="contact-detail"><span>Twitter:</span> TeamHoff</div>
-                                    <div className="contact-detail"><span>Instagram:</span> Team_Hoff</div>
+                                    <h4 style={{fontSize:'18px', margin:'10px'}}>Contact us on</h4>
+                                    <div className="contact-detail"><span className="con">Tel:</span> 026000000</div>
+                                    <div className="contact-detail"><span className="con">Email:</span> TeamHoff@gmail.com</div>
+                                    <div className="contact-detail"><span className="con">Twitter:</span> TeamHoff</div>
+                                    <div className="contact-detail"><span className="con">Instagram:</span> Team_Hoff</div>
                         </div>
 
                         <div className="contact-photo2"></div>

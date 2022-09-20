@@ -3,7 +3,6 @@ import React, { useState } from 'react';
 import axios from './utils/axios';
 import '../Components/program.css';
 import Folder from '../Components/Profiledropdown/folder.png';
-// import  CourseData  from '../Components/Data/CourseData.json';
 import { ProgramData } from '../Components/Data/programData';
 import { Link, useParams, Navigate} from 'react-router-dom';
 import Footer from '../Components/Footer/Footer';
@@ -17,7 +16,6 @@ const Program = () => {
   const [course, setcourse] = useState([]);
   const [apro, setapro] = useState([]);
   const [loading, setLoading] = useState(true);
-  // const [acor, setacor] = useState([]);
 
   const  {id } = useParams()
   const prog = ProgramData.filter((pro) => pro.id === id)
@@ -42,13 +40,10 @@ const Program = () => {
     .catch(err=>{
       console.log(err)
     })
+  // eslint-disable-next-line react-hooks/exhaustive-deps
   }, [])
   
-    // console.log(course)
   const cour = course.filter((cor) => cor.IDM === id)
-
-
-  // console.log(cour)
 
 
   if(loading ){

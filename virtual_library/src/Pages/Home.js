@@ -16,7 +16,7 @@ const Home = () => {
 
   useEffect( ()=> {
     function fetchData(){
-      axios.get(`/course/computer`)
+      axios.get("/search")
     .then(res => {
       setcourse(res.data);
       // setLoading(false);

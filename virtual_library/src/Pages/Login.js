@@ -1,37 +1,27 @@
 import { StyledContainer,StyledFormArea, StyledFormButton, Avatar, StyledTitle, StyledSubTitle, colors, ButtonGroup, ExtraText, TextLink, CopyrightText} from "../Components/Style";
-
 import Logo from './../Assets/Klogo.png';
-
-import { useState } from "react";
-
-// import {handleSubmit} from "./hooks/useLogin";
- 
+import { useState } from "react"; 
 import axios from './utils/axios';
-
 import { Form, Formik } from "formik";
-
 import { TextInput } from "../Components/Form";
-
 import {FiUser, FiLock} from 'react-icons/fi';
-
 import  * as Yup from 'yup';
-
 import { ThreeDots} from 'react-loader-spinner';
 import { useAuth } from "./hooks/useAuth";
 
 
 const Login = () => {
 
-  // const [inputs, setInputs] = useState("");
+  const [inputs, setInputs] = useState("");
   const [error, setError] = useState(true);
   const {login}= useAuth();
   const [loading, setLoading] = useState(false);
 
-  // const handleChange = (event) => {
-  //   const name = event.target.name
-  //   const value = event.target.value
-  //   setInputs(values => ({...values, [name]: value}))
-  // }
+  const handleChange = (event) => {
+    const name = event.target.name
+    const value = event.target.value
+    setInputs(values => ({...values, [name]: value}))
+  }
 
   const handleSubmit = async(inputs) => {
     setLoading(true)
@@ -100,8 +90,8 @@ const Login = () => {
           
           >
             {({isSubmitting })=>(
-              // <Form onChange={handleChange}>
-              <Form>
+              <Form onChange={handleChange}>
+              {/* <Form> */}
                 <TextInput
                  name="username" 
                  type="text"

@@ -3,7 +3,6 @@
 import React, { useState, useEffect } from 'react';
 import '../Components/course.css';
 import axios from "./utils/axios"
-// import book from '../Assets/Asset/book.jpg';
 import {HiDownload, HiEye} from 'react-icons/hi';
 import Footer from '../Components/Footer/Footer';
 import Navbar from '../Components/Navbar/Navbar';
@@ -11,7 +10,6 @@ import GoBack from '../Components/GoBack/GoBack';
 import {Navigate, useLocation } from 'react-router-dom';
 import { BoxLoading, RollBoxLoading, LadderLoading, MeteorRainLoading, WindMillLoading } from 'react-loadingg';
 import '../Components/loading.css'
-// import CourseData from '../Components/Data/CourseData.json'
 
 
 
@@ -23,7 +21,6 @@ const Course = () => {
 
     const isAvailable = "No Course Material is available for this course";
     const  {pathname}  = useLocation();
-    // const { id } = useParams();
     const [loading, setLoading] = useState(true);
     const [course, setcourse] = useState([]);
     const idm = pathname.slice(6);

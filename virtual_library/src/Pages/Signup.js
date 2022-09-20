@@ -81,14 +81,13 @@ const Signup = () => {
                 .test('Unique Username', 'Username already in use', // <- key, message
                 function (value) {
                     return new Promise((resolve, reject) => {
-                        axios.get(`/login/${value}/available`)
+                        axios.get(`/signup/${value}`)
                             .then((res) => {
                                 resolve(true)
                             })
                             .catch((error) => {
-                                if (error.response.data.content === "The Username has already been taken.") {
                                     resolve(false);
-                                }
+                                
                             })
                     })
                 }
@@ -99,14 +98,13 @@ const Signup = () => {
                 .test('Unique Email', 'Email already in use', // <- key, message
                 function (value) {
                     return new Promise((resolve, reject) => {
-                        axios.get(`/login/${value}/available`)
+                        axios.get(`/signup/${value}`)
                             .then((res) => {
                                 resolve(true)
                             })
                             .catch((error) => {
-                                if (error.response.data.content === "The email has already been taken.") {
-                                    resolve(false);
-                                }
+                                resolve(false);
+                                
                             })
                     })
                 }
@@ -127,6 +125,7 @@ const Signup = () => {
               })
             }
             
+            validateOnBlur= {true}
             onSubmit={handleSubmit}
           
           >

@@ -17,12 +17,15 @@ import {FiUser, FiLock} from 'react-icons/fi';
 import  * as Yup from 'yup';
 
 import { ThreeDots} from 'react-loader-spinner';
+import { useAuth } from "./hooks/useAuth";
 
 
 const Login = () => {
 
   // const [inputs, setInputs] = useState("");
   const [error, setError] = useState(true);
+  const {login}= useAuth();
+  const [loading, setLoading] = useState(false);
 
   // const handleChange = (event) => {
   //   const name = event.target.name
@@ -31,21 +34,36 @@ const Login = () => {
   // }
 
   const handleSubmit = async(inputs) => {
+    setLoading(true)
     await axios.post("/login",
         { username: inputs.username,
           password: inputs.password
         }
       ).then(()=> {
-        window.location.href="/auth"
-        // alert("Successful")
+        
+        login()
+        
       })
       .catch( (error)=> {
         setError(false)
+        setLoading(false)
       })
     
       }
 
+    if(loading ){
+        return (
+        <div>
+            <div className="loader-container">
+                <div className="spinner"></div>
+            </div>
+        </div>
+        )
+    }
+
   return (
+
+    
     <StyledContainer>
 
     <div>

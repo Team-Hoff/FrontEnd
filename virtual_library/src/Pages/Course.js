@@ -72,6 +72,7 @@ const Course = () => {
     break;
     case "pptx":
                     alert("Cannot View powerpoint in browser for now, please download")
+                    setLoading(false)
                     break;
                 default:
                     break;

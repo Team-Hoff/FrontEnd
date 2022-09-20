@@ -14,6 +14,7 @@ export const AuthProvider = ({ children }) => {
       const response = await axios.get("/auth")
       const user_details = response.data
       setUser(user_details)
+      return
      
     };
 

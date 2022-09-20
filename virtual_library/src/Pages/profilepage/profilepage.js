@@ -8,18 +8,8 @@ import GoBack from "../../Components/GoBack/GoBack";
 export default function Profile(){
      
         const {user} = useAuth();
-        const {fullname, username, email, programme, year} = user;
-        // const user = 
-        //  {
-        //     fullname: "Isaac Epaphras Nana Sam",
-        //     username: "Synx",
-        //     email: "isinesam@gmail.com",
-        //     programme: "Computer Engineering",
-        //     year: 400
-        //  }   
-        
-
-        // console.log(user)
+        const {fullname, email, programme, year, username} = user;
+        console.log(user);
 
     return(
 

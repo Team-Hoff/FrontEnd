@@ -1,6 +1,6 @@
-import { StyledContainer,StyledFormArea, StyledFormButton, Avatar, StyledTitle, StyledSubTitle, colors, ButtonGroup, ExtraText, TextLink, CopyrightText} from "../Components/Style";
+import {Erromsg, StyledContainer,StyledFormArea, StyledFormButton, Avatar, StyledTitle, StyledSubTitle, colors, ButtonGroup, ExtraText, TextLink, CopyrightText} from "../Components/Style";
 import Logo from './../Assets/Klogo.png';
-import { useState } from "react"; 
+import { useState} from "react"; 
 import axios from './utils/axios';
 import { Form, Formik } from "formik";
 import { TextInput } from "../Components/Form";
@@ -11,35 +11,40 @@ import { useAuth } from "./hooks/useAuth";
 
 
 const Login = () => {
-
-  const [inputs, setInputs] = useState("");
-  const [error, setError] = useState(true);
+  const [Error, setError] = useState("");
   const {login}= useAuth();
   const [loading, setLoading] = useState(false);
-
-  const handleChange = (event) => {
-    const name = event.target.name
-    const value = event.target.value
-    setInputs(values => ({...values, [name]: value}))
-  }
-
+  const [visibile, setvisibile] = useState(false)
+  
   const handleSubmit = async(inputs) => {
-    setLoading(true)
     await axios.post("/login",
         { username: inputs.username,
           password: inputs.password
         }
       ).then(()=> {
-        
+        setLoading(true)
         login()
         
       })
       .catch( (error)=> {
-        setError(false)
+        error.message = "Invalid username/password"
+        setError(error.message)
         setLoading(false)
       })
     
       }
+
+      const handleClick = () =>{
+        setvisibile(true);
+
+        setTimeout(()=>{
+          setvisibile(false);
+          setError("");
+        },5000);
+      }
+
+      
+    
 
     if(loading ){
         return (
@@ -50,6 +55,7 @@ const Login = () => {
         </div>
         )
     }
+
 
   return (
 
@@ -72,33 +78,32 @@ const Login = () => {
             validationSchema={
               Yup.object({
                 username: Yup.string()
-                .required("Username is required")
-                .test('Unique Username', 'Incorrect Username or Password', // <- key, message
-                
-                function (value) {
-                    return new Promise((resolve, reject) => {
-                       resolve(error)
-                    })
-                }
-            
-            ),
+                .required("Username is required"),
                 password: Yup.string()
                 .required("Password is required"),
+                
               })
             }
             onSubmit= {handleSubmit}
+
+            
           
           >
+        
             {({isSubmitting })=>(
-              <Form onChange={handleChange}>
-              {/* <Form> */}
+               <Form> 
                 <TextInput
+                 id="inp"
                  name="username" 
                  type="text"
                  label="Username"
                  placeholder="Enter your username" 
                  icon={<FiUser/>}
               />
+                <Erromsg>{visibile && Error}</Erromsg>
+
+                
+
                <TextInput
                  name="password" 
                  type="password"
@@ -106,6 +111,7 @@ const Login = () => {
                  placeholder="Enter your password" 
                  icon={<FiLock/>}
               />
+                <Erromsg>{visibile && Error}</Erromsg>
 
               
                <TextLink to="/forgotpassword" style={{position:'relative', left:'-100px', top:'0px', color:'red', fontSize:'17px',letterSpacing:'0px'}}>
@@ -113,8 +119,9 @@ const Login = () => {
               </TextLink> 
 
               <ButtonGroup>
+                
                 {!isSubmitting && (
-                 <StyledFormButton type="submit">
+                 <StyledFormButton type="submit" onClick={handleClick}>
                   Login
               </StyledFormButton>
               )}
@@ -126,14 +133,16 @@ const Login = () => {
                   width = {100}
                 />
               )}
+                
               </ButtonGroup>
               </Form>
             )}
           </Formik>
           <ExtraText>
+            
+          
             Don't have an account? Click <TextLink to="/signup">Signup</TextLink> to register
           </ExtraText>
-          {/* <TextLink to="/home">Home</TextLink> */}
           
       </StyledFormArea>
       <CopyrightText>All rights reserved &copy;2022</CopyrightText>

@@ -8,7 +8,6 @@ import { Link } from 'react-router-dom';
 import { useAuth } from '../../Pages/hooks/useAuth';
 
 function Profiledp() {
-    const {logout} =useAuth();
     const {user} = useAuth(); 
     const {username} = user;
 

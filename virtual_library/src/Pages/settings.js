@@ -24,7 +24,7 @@ export default function Settings(){
 
 
      function setNewUserDetails(field,new_value){
-        Axios.post("/changeUserDetails",
+        Axios.post("/setting",
         {
             value:[field,new_value],
             original_email:`${email}`
@@ -50,17 +50,23 @@ export default function Settings(){
                     <h1 className="h11">MY PROFILE</h1>
 
                     <h2 className="h12">Full Name</h2>
-                    <p className="answer">{fullname}<button className="btns">update</button></p>
+                    <p className="answer"><input type="text" placeholder={fullname} onChange={setNewvalue} /><button onClick={setNewUserDetails} className="btns">update</button></p>
+
                     <h2 className="h12">Username</h2>
-                    <p className="answer">{username}<button className="btns">update</button></p>
+                    <p className="answer"><input type="text" placeholder={username} onChange={setNewvalue} /><button onClick={setNewUserDetails} className="btns">update</button></p>
+
                     <h2 className="h12">Programmme</h2>
-                    <p className="answer">{programme}<button className="btns">update</button></p>
+                    <p className="answer"><input type="text" placeholder={programme} onChange={setNewvalue} /><button onClick={setNewUserDetails} className="btns">update</button></p>
+
                     <h2 className="h12">Level</h2>
-                    <p className="answer">{year.slice(6)}<button className="btns">update</button></p>
-                    <h2 className="h12">Email</h2>
-                    <p className="answer">{email}<button className="btns">update</button></p>
+                    <p className="answer"><input type="text" placeholder={year} onChange={setNewvalue} /><button onClick={setNewUserDetails} className="btns">update</button></p>
+                    
                     <h2 className="h12">Password</h2>
-                    <p className="answer">{password}<button className="btns">update</button></p>
+                    <p className="answer"><input type="text" placeholder={password} onChange={setNewvalue} /><button onClick={setNewUserDetails} className="btns">update</button></p>
+
+                    <h2 className="h12">Email</h2>
+                    <p className="answer" style={{paddingLeft: "10px"}}>{email}</p>
+
                 </div>
                 
             </div>

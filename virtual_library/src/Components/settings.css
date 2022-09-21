@@ -101,3 +101,17 @@
     text-decoration: underline;
     font-weight: 900;
 }
+
+.setting input{
+    
+    width: 500px;
+    outline: none;
+    background-color: transparent;
+    font-size: 1em;
+    font-family: 'Courier New', Courier, monospace;
+    
+     color: black;
+     white-space: normal;
+     
+     padding-left: 10px;
+ }

@@ -10,7 +10,7 @@ import { Axios } from "axios";
 
 export default function Settings(){
 
-    const {user} = useAuth();
+    const {user, login} = useAuth();
     const {fullname, username, email, programme, year, password} = user;
      const [value,setValue]=useState();
      
@@ -31,10 +31,13 @@ export default function Settings(){
          })
          .then((res)=>{
             console.log(res)
+            login();
          })
          .catch((err)=>{
             console.log(err)
          })
+
+
      }
 
     return(
@@ -48,6 +51,9 @@ export default function Settings(){
             <div className="rightbox">
                 <div className="setting">
                     <h1 className="h11">MY PROFILE</h1>
+
+                    <h2 className="h12">Email</h2>
+                    <p className="answer" style={{paddingLeft: "10px", color: "rgba(0, 0, 0, 0.5)"}}>{email}</p>
 
                     <h2 className="h12">Full Name</h2>
                     <p className="answer"><input type="text" placeholder={fullname} onChange={setNewvalue} /><button onClick={setNewUserDetails} className="btns">update</button></p>
@@ -64,8 +70,7 @@ export default function Settings(){
                     <h2 className="h12">Password</h2>
                     <p className="answer"><input type="text" placeholder={password} onChange={setNewvalue} /><button onClick={setNewUserDetails} className="btns">update</button></p>
 
-                    <h2 className="h12">Email</h2>
-                    <p className="answer" style={{paddingLeft: "10px"}}>{email}</p>
+                    
 
                 </div>
                 

@@ -23,13 +23,10 @@ export const StyledContainer = styled.div`
     justify-content: center;
     align-items: center;
     background: linear-gradient(0deg, rgba(0,0,0,0.5), rgba(0,0,0,0.5)), url('https://th.bing.com/th/id/OIP.m_8yGJPbQ_G0r5X7Yx_JeQHaE8?pid=ImgDet&rs=1');
-    /* background: linear-gradient(0deg, rgba(0,0,0,0.5), rgba(0,0,0,0.5)), url("../Assets/bulb.jpg"); */
     background-size: 100% 100%;
     background-attachment: fixed; 
 
     @media screen and (max-width:450px){
-        /* min-height:120vh;
-        width: 120vw;  */
         overflow:hidden;
         
     }
@@ -178,6 +175,22 @@ export const ExtraText = styled.p`
     color: ${(props)=> (props.color)? props.color: colors.dark2};
     padding: 2px;
     margin-top: 10px;
+
+`;
+
+export const ExtraTexts = styled.p`
+    display: flex;
+    gap: 10px;
+    font-size: ${(props)=>props.size}px;
+    text-align: center;
+    color: ${(props)=> (props.color)? props.color: colors.dark2};
+    padding: 2px;
+    margin-top: 10px;
+
+    &:hover{
+        cursor: pointer;
+        border: 1px solid blue;   
+    }
 
 `;
 

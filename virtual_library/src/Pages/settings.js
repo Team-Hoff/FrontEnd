@@ -5,7 +5,7 @@ import { useState } from "react";
 import Navbar from '../Components/Navbar/Navbar';
 import Footer from '../Components/Footer/Footer';
 import GoBack from "../Components/GoBack/GoBack";
-import { Axios } from "axios";
+import axios from "./utils/axios";
 
 
 export default function Settings(){
@@ -24,14 +24,14 @@ export default function Settings(){
 
 
      function setNewUserDetails(field,new_value){
-        Axios.post("/setting",
+        axios.post("/setting",
         {
             value:[field,new_value],
             original_email:`${email}`
          })
          .then((res)=>{
             console.log(res)
-            login();
+            // login();
          })
          .catch((err)=>{
             console.log(err)
@@ -43,6 +43,7 @@ export default function Settings(){
     return(
      <div>   
     <Navbar/>
+    
     <div className="settings-body">
     <div style={{marginTop:'25px', width:'60px'}}><GoBack/></div> 
         <div className="settings-container">

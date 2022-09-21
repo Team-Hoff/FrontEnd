@@ -1,4 +1,4 @@
-import {Erromsg, StyledContainer,StyledFormArea, StyledFormButton, Avatar, StyledTitle, StyledSubTitle, colors, ButtonGroup, ExtraText, TextLink, CopyrightText} from "../Components/Style";
+import {ExtraTexts,Erromsg, StyledContainer,StyledFormArea, StyledFormButton, Avatar, StyledTitle, StyledSubTitle, colors, ButtonGroup, ExtraText, TextLink, CopyrightText} from "../Components/Style";
 import Logo from './../Assets/Klogo.png';
 import { useState} from "react"; 
 import axios from './utils/axios';
@@ -8,13 +8,24 @@ import {FiUser, FiLock} from 'react-icons/fi';
 import  * as Yup from 'yup';
 import { ThreeDots} from 'react-loader-spinner';
 import { useAuth } from "./hooks/useAuth";
+import Google from "../Assets/google-logo (1).png";
 
 
 const Login = () => {
   const [Error, setError] = useState("");
   const {login}= useAuth();
   const [loading, setLoading] = useState(false);
-  const [visibile, setvisibile] = useState(false)
+  const [visibile, setvisibile] = useState(false);
+
+  // const googleAuth = () =>{
+  //   axios.get("/google")
+  //   .then((res)=>{
+  //     console.log(res)
+  //   })
+  //   .catch((err)=>{
+  //     console.log(err)
+  //   })
+  // }
   
   const handleSubmit = async(inputs) => {
     await axios.post("/login",
@@ -138,9 +149,12 @@ const Login = () => {
               </Form>
             )}
           </Formik>
-          <ExtraText>
-            
           
+          <ExtraTexts size={20}>
+                <img src={Google} alt='google' style={{height:'25px', width:'25px'}}></img><span>Log in with your google account</span>
+          </ExtraTexts>
+          
+          <ExtraText>
             Don't have an account? Click <TextLink to="/signup">Signup</TextLink> to register
           </ExtraText>
           

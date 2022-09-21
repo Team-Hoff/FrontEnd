@@ -23,7 +23,7 @@ export const AuthProvider = ({ children }) => {
     //Send request to backend to clear the session
     await axios.get("/logout") //preferably axios.delete
     .then(()=>setUser(null))
-    ;
+    // setUser(null);
   };
 
   const value = useMemo(

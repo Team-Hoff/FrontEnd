@@ -1,4 +1,4 @@
-import { StyledContainer,StyledFormArea, StyledFormButton, Avatar, StyledTitle, StyledSubTitle, colors, ButtonGroup, ExtraText, TextLink, CopyrightText } from "../Components/Style";
+import {Erromsg, StyledContainer,StyledFormArea, StyledFormButton, Avatar, StyledTitle, StyledSubTitle, colors, ButtonGroup, ExtraText, TextLink, CopyrightText } from "../Components/Style";
 import Logo from './../Assets/Klogo.png';
 import { useState } from "react";
 import axios from './utils/axios';
@@ -10,16 +10,12 @@ import { ThreeDots} from 'react-loader-spinner';
 
 
 const Signup = () => {
-  const [inputs, setInputs] = useState("");
   const [loading, setLoading] = useState(false);
+  const [err1, seterr1] = useState("");
+  const [err2, seterr2] = useState("");
+  const [err3, seterr3] = useState("");
+  const [visibile, setvisibile] = useState(false)
 
-  const handleChange = (event) => {
-    const name = event.target.name
-    const value = event.target.value
-    setInputs(values => ({...values, [name]: value}))
-  }
-
-  
   const handleSubmit = async(inputs) => {
     await axios.post('/signup',
      {username: inputs.username, 
@@ -29,10 +25,33 @@ const Signup = () => {
       fullname: inputs.fullname,
       year: inputs.yearselect})
       .then( ()=>{
+        setLoading(true)
         window.location.href="/login"
-      }).catch( ()=> {
+      }).catch( (err)=> {
         setLoading(false)
+        const error = err.response.data.error_msg;
+        if(error === "Email is taken"){
+          seterr1(error)
+        }
+        else if (error === "Username is taken"){
+          seterr2(error)
+        }
+        else if ( error === "Username and Email have been taken"){
+          seterr3(error)
+        }
       })
+  }
+
+  const handleClick = () =>{
+    setvisibile(true);
+    seterr1("");
+    seterr2("");
+    seterr3("");
+    
+    setTimeout(()=>{
+      setvisibile(false);
+     
+    },5000);
   }
 
   if(loading ){
@@ -72,39 +91,11 @@ const Signup = () => {
                 .required("Please enter your full name"),
                 username: Yup.string()
                 .required("Please enter a username")
-                .min(4, "Username is too short")
-                .max(15, "Username is too long")
-                .test('Unique Username', 'Username already in use', // <- key, message
-                function (value) {
-                    return new Promise((resolve, reject) => {
-                        axios.get(`/signup/${value}`)
-                            .then((res) => {
-                                resolve(true)
-                            })
-                            .catch((error) => {
-                                    resolve(false);
-                                
-                            })
-                    })
-                }
-            ),
+                .min(2, "Username is too short")
+                .max(15, "Username is too long"),
                 email: Yup.string()
                 .required("Please enter an email")
-                .email("Invalid email address")
-                .test('Unique Email', 'Email already in use', // <- key, message
-                function (value) {
-                    return new Promise((resolve, reject) => {
-                        axios.get(`/signup/${value}`)
-                            .then((res) => {
-                                resolve(true)
-                            })
-                            .catch((error) => {
-                                resolve(false);
-                                
-                            })
-                    })
-                }
-            ),
+                .email("Invalid email address"),
                 password: Yup.string()
                 .required("Please enter a password")
                 .min(5, "Password is too short")
@@ -120,15 +111,11 @@ const Signup = () => {
                 .required("Select your Programme"),
               })
             }
-            
-            validateOnBlur= {true}
             onSubmit={handleSubmit}
-          
           >
             
             {({isSubmitting })=>(
-              <Form onChange={handleChange}>
-              {/* <Form> */}
+               <Form> 
                 <TextInput
                  name="fullname" 
                  type="text"
@@ -144,6 +131,8 @@ const Signup = () => {
                  placeholder="Enter your username" 
                  icon={<FiUser/>}
                 />
+                <Erromsg>{visibile && err2}</Erromsg>
+                <Erromsg>{visibile && err3}</Erromsg>
 
                 <TextInput
                  name="email" 
@@ -152,13 +141,14 @@ const Signup = () => {
                  placeholder="Enter your email" 
                  icon={<FiMail/>}
                 />
+                <Erromsg>{visibile && err1}</Erromsg>
+                <Erromsg>{visibile && err3}</Erromsg>
 
                   <CustomSelect
                   name="programmeselect"
                   type="dropdown"
                   label="Programme"
-                  placeholder="Select your programme" 
-                  // icon={<FcDepartment style={{position:'relative', top:'608px', left:'512px'}}/>}              
+                  placeholder="Select your programme"            
                 >
                   <option>-- Select your programme --</option>
                   <option>Agricultural Engineering</option>
@@ -193,10 +183,7 @@ const Signup = () => {
                   <option>Level 400</option>
 
                 </CustomSelect>
-
-              
-
-                            
+                             
                <TextInput
                  name="password" 
                  type="password"
@@ -215,7 +202,7 @@ const Signup = () => {
                                                             
               <ButtonGroup>
                 {!isSubmitting && (
-                 <StyledFormButton type="submit">
+                 <StyledFormButton type="submit" onClick={handleClick}>
                    Signup
                  </StyledFormButton>
               )}

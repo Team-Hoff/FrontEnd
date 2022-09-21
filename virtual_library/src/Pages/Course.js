@@ -80,7 +80,6 @@ const Course = () => {
         async function fetchData(){
         await axios.get(`/course/${idm}`)
         .then(res => {
-            console.log(res.data);
           setcourse(res.data);
           setLoading(false);
         })

@@ -89,7 +89,6 @@ export const ButtonGroup = styled.div`
     margin-top: 25px;
 `;
 
-//input
 export const StyledTextInput =  styled.input`
     width: 330px;
     padding: 15px;

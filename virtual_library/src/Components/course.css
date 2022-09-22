@@ -76,6 +76,7 @@
     margin-top: 10px;
     justify-content: space-between;
     padding-top: 15px;
+    text-transform: capitalize;
 }
 .doc_icon_50x50{
     width: 30px;

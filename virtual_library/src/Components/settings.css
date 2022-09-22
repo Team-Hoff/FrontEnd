@@ -84,6 +84,10 @@
     word-break: break-all;  
 }
 
+/* .answer:empty:not(:focus)::before{
+    content: attr(data-placeholder);
+} */
+
 .btns{
     float: right;
     font-family: "Roberto", sans-serif;

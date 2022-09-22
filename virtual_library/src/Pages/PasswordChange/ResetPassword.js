@@ -1,34 +1,56 @@
 import React from 'react';
-import { StyledContainer,StyledFormArea, StyledFormButton, Avatar, StyledTitle, colors, ButtonGroup, CopyrightText, StyledSubTitle} from "../../Components/Style";
+import { StyledContainer,StyledFormArea, StyledFormButton, Avatar, StyledTitle, colors, 
+  ButtonGroup, CopyrightText, StyledSubTitle, ExtraText, TextLink} from "../../Components/Style";
 
 import Logo from './../../Assets/Klogo.png';
-
 import { Form, Formik } from "formik";
-
 import { TextInput } from "../../Components/Form";
-
 import {FiLock} from 'react-icons/fi';
-
 import  * as Yup from 'yup';
-
 import { ThreeDots} from 'react-loader-spinner';
 import { useLocation } from 'react-router';
 import axios from '../utils/axios';
+import { useState } from 'react';
+
 
 const ResetPassword = () => {
+  const [success, setSuccess] = useState(false)
   const {search} = useLocation();
-  console.log(search);
   
-  const handleSubmit = (inputs)=> {axios.post(`/reset${search}`,{
+  const handleSubmit = (inputs)=> {
+    axios.post(`/reset${search}`,{
     password: inputs.password
-  }).then(()=>{
-    alert("Password has been reset")
-    window.location.href="/"
+  }).then((response)=>{
+    setSuccess(true)
   }).catch((err)=>{
-    
+    setSuccess("Invalid token")
     console.log(err);
   })
 }
+
+  if (success === "Invalid token"){
+    return(
+      <StyledContainer>
+        <div>
+        <StyledFormArea>
+        <div style={{display:'flex'}}>
+        <Avatar image={Logo}/>
+          <StyledTitle color='Light black' size={40}>
+            <span style={{font: "normal 36px 'Cookie' cursive", margin: 0}}>Virtual</span>
+            <span style={{color:'#e0ac1c',fontFamily: 'Poppins'}}>Library</span>
+          </StyledTitle></div>
+          <StyledSubTitle color='Black' size={35} style={{fontFamily:'Poppins'}}>Reset Password</StyledSubTitle>
+          <span>INVALID TOKEN !!!</span>
+          <ExtraText>
+            Click <TextLink to="/forgotpassword">ForgotPassword</TextLink> to get a valid token
+          </ExtraText>
+        </StyledFormArea>
+          <CopyrightText>All rights reserved &copy;2022</CopyrightText>
+        </div>
+    </StyledContainer>
+    
+    )
+  }
   return (
     
     <StyledContainer>
@@ -41,7 +63,7 @@ const ResetPassword = () => {
           </StyledTitle></div>
           <StyledSubTitle color='Black' size={35} style={{fontFamily:'Poppins'}}>Reset Password</StyledSubTitle>
           
-          <Formik
+          {!success?(<Formik
             initialValues={{
              password : "",
              repeatPassword: "",
@@ -98,7 +120,16 @@ const ResetPassword = () => {
               </ButtonGroup>
               </Form>
             )}
-          </Formik>
+          </Formik>)
+          :(
+            <>
+            <span>Your password has been reset</span>
+            <ExtraText>
+             Click <TextLink to="/">Login</TextLink> to login with your new password
+          </ExtraText>
+            </>
+          ) 
+        }
           {/* <ExtraText>
             Don't have an account? Click <TextLink to="/signup">Signup</TextLink> to register
           </ExtraText> */}

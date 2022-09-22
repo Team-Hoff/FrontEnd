@@ -11,13 +11,15 @@ import { ThreeDots} from 'react-loader-spinner';
 
 const Signup = () => {
   const [loading, setLoading] = useState(false);
+  const [signedUp, setSignedUp] = useState(false);
   const [err1, seterr1] = useState("");
   const [err2, seterr2] = useState("");
   const [err3, seterr3] = useState("");
-  const [visibile, setvisibile] = useState(false)
+  const [visibile, setvisibile] = useState(false);
 
-  const handleSubmit = async(inputs) => {
-    await axios.post('/signup',
+  const handleSubmit = (inputs) => {
+    setLoading(true)
+     axios.post('/signup',
      {username: inputs.username, 
       email: inputs.email, 
       password: inputs.password, 
@@ -25,8 +27,8 @@ const Signup = () => {
       fullname: inputs.fullname,
       year: inputs.yearselect})
       .then( ()=>{
-        setLoading(true)
-        window.location.href="/"
+        setLoading(false)
+        setSignedUp(true)
       }).catch( (err)=> {
         setLoading(false)
         const error = err.response.data.error_msg;
@@ -75,6 +77,7 @@ const Signup = () => {
         <span style={{font: "normal 36px 'Cookie' cursive", margin: 0}}>Virtual</span><span style={{color:'#e0ac1c',fontFamily: 'Poppins'}}>Library</span>
           </StyledTitle></div>
           <StyledSubTitle color='Black' size={35} style={{fontFamily:'Poppins'}}>Signup</StyledSubTitle>
+          {!signedUp?(<>
           <Formik
             initialValues={{
               fullname : "",
@@ -226,6 +229,15 @@ const Signup = () => {
           <ExtraText>
             Already have an account? Click <TextLink to="/">Login</TextLink> to sign in
           </ExtraText>
+          </>):
+          (
+            <>
+            <span>You've been Signed Up</span>
+            <ExtraText>
+             Click <TextLink to="/">Login</TextLink> to sign in with your new account
+          </ExtraText>
+            </>
+          )}
       </StyledFormArea>
       <CopyrightText>All rights reserved &copy;2022</CopyrightText>
     </div>

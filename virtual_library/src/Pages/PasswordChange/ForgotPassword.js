@@ -13,9 +13,10 @@ import  * as Yup from 'yup';
 
 import { ThreeDots} from 'react-loader-spinner';
 import axios from '../utils/axios';
+import { useState } from 'react';
 
 const ForgotPassword = () => {
-
+  const [emailSent, setEmailSent] = useState(false)
 
   const handleSubmit = (inputs)=>{
     axios.post("/forgot",
@@ -23,7 +24,7 @@ const ForgotPassword = () => {
       email:inputs.email
     })
     .then(()=>{
-      alert("Email has been sent")
+      setEmailSent(true)
     })
     .catch(()=>{
 
@@ -40,6 +41,8 @@ const ForgotPassword = () => {
             <span style={{font: "normal 36px 'Cookie' cursive", margin: 0}}>Virtual</span><span style={{color:'#e0ac1c',fontFamily: 'Poppins'}}>Library</span>
           </StyledTitle></div>
           <StyledSubTitle color='Black' size={35} style={{fontFamily:'Poppins'}}>Forgot Password</StyledSubTitle>
+          {!emailSent?(
+          <>
           <span>Enter your email address to reset your password</span>
           <Formik
             initialValues={{
@@ -86,9 +89,10 @@ const ForgotPassword = () => {
               </Form>
             )}
           </Formik>
-         {/* <ExtraText>
-           <TextLink to="/resetpassword">Reset your Password</TextLink>
-              </ExtraText> */}
+          </>)
+          :(<>
+            <span>Email has been sent, Please check your mail</span>
+          </>)}
           </StyledFormArea>
           <CopyrightText>All rights reserved &copy;2022</CopyrightText>
         </div>

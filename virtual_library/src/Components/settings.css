@@ -81,9 +81,7 @@
     color: black;
     /* overflow: hidden; */
     white-space: normal;
-    word-break: break-all;
-    
-    
+    word-break: break-all;  
 }
 
 .btns{
@@ -104,15 +102,14 @@
 
 .setting input{
     
-    width: 500px;
+    width: 60vw;
     outline: none;
     border: none;
     background-color: transparent;
     font-size: 1em;
     font-family: 'Courier New', Courier, monospace;
-    
-     color: black;
-     white-space: normal;
-     
-     padding-left: 10px;
+    color: black;
+    white-space: normal;
+    padding-left: 10px;
+    word-break: break-all;
  }

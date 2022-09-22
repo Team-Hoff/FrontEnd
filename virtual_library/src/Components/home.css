@@ -26,9 +26,12 @@
         
     
 }
+
 .Everything{
-    background-image: url("https://thumbs.dreamstime.com/b/seamless-vector-pattern-open-closed-books-notebooks-seamless-pattern-open-closed-books-vector-background-137759004.jpg");
+    background-image: linear-gradient(0deg, rgba(0,0,0,0.05),rgba(0,0,0,0.05)), url("../Assets/closedbooks.png");
+    /* background-image:  url("../Assets/closedbooks.png"); */
     background-repeat: none;
+    
 }
 
 

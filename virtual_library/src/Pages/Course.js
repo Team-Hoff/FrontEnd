@@ -128,14 +128,15 @@ const Course = () => {
 
          </div>
          
-     {(course[0].slides == "") ? <div style={{display:'flex'}}> 
+     {(course[0].slides == "") ? <div className='Everything' style={{display:'flex'}}> 
                     <div className="containers"> 
                         <div style={{marginTop:'25px'}}><GoBack/></div>  
                         <div className='Available'>{isAvailable}</div>
+                        {loaders[pos]}
                        </div> 
                     </div>
     : ( 
-    <div style={{display:'flex'}}> 
+    <div className='Everything' style={{display:'flex'}}> 
 
     <div style={{marginTop:'25px', width:'60px'}}><GoBack/></div>  
 

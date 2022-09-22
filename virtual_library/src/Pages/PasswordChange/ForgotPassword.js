@@ -1,22 +1,18 @@
-import React from 'react';
-import {StyledContainer,StyledFormArea, StyledFormButton, Avatar, StyledTitle, colors, ButtonGroup, CopyrightText, StyledSubTitle} from "../../Components/Style";
-
+import React, { useState } from 'react';
+import {Erromsg,StyledContainer,StyledFormArea, StyledFormButton, Avatar, StyledTitle, colors, ButtonGroup, CopyrightText, StyledSubTitle} from "../../Components/Style";
 import Logo from './../../Assets/Klogo.png';
-
 import { Form, Formik } from "formik";
-
 import { TextInput } from "../../Components/Form";
-
 import {FiMail} from 'react-icons/fi';
-
 import  * as Yup from 'yup';
-
 import { ThreeDots} from 'react-loader-spinner';
 import axios from '../utils/axios';
-import { useState } from 'react';
+
 
 const ForgotPassword = () => {
   const [emailSent, setEmailSent] = useState(false)
+  const [Error, setError] = useState("");
+  const [visibile, setvisibile] = useState(false);
 
   const handleSubmit = (inputs)=>{
     axios.post("/forgot",
@@ -26,10 +22,21 @@ const ForgotPassword = () => {
     .then(()=>{
       setEmailSent(true)
     })
-    .catch(()=>{
-
+    .catch((err)=>{
+      err.message = "Email does not exist"
+      setError(err) 
     })
   }
+
+  const handleClick = () =>{
+    setvisibile(true);
+
+    setTimeout(()=>{
+      setvisibile(false);
+      setError("");
+    },5000);
+  }
+
   return (
     
     <StyledContainer>
@@ -69,11 +76,12 @@ const ForgotPassword = () => {
                  icon={<FiMail style={{position:'relative', top:'-35px', left:'-5px'}}/>}
                 />
 
+                <Erromsg>{visibile && Error}</Erromsg>
               
 
               <ButtonGroup>
                 {!isSubmitting && (
-                 <StyledFormButton type="submit">
+                 <StyledFormButton type="submit" onClick={handleClick}>
                   Submit
               </StyledFormButton>
               )}

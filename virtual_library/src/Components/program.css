@@ -27,6 +27,7 @@ select{
     display: block;
     margin: 5px auto 10px auto;
     transition: ease-in-out 0.3s;
+    background-color: transparent;
 }
 
 
@@ -35,10 +36,13 @@ select{
     height: 30px;
     display: inline-block;
     margin-right: 20px;
+    background-color: transparent;
+    mix-blend-mode: multiply;
 }
 
 .links a {
     text-decoration: none;
+    
 }
 @media screen and (max-width :450px){
     .program_font{

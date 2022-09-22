@@ -18,7 +18,7 @@ export default function Settings(){
 
      function setNewvalue(event){
         setValue(event.target.value)
-        console.log(value);
+        
      }
 
 
@@ -31,7 +31,7 @@ export default function Settings(){
          })
          .then((res)=>{
             console.log(res)
-            // login();
+            login();
          })
          .catch((err)=>{
             console.log(err)
@@ -57,19 +57,19 @@ export default function Settings(){
                     <p className="answer" style={{paddingLeft: "10px", color: "rgba(0, 0, 0, 0.5)"}}>{email}</p>
 
                     <h2 className="h12">Full Name</h2>
-                    <p className="answer"><input type="text" placeholder={fullname} onChange={setNewvalue} /><button onClick={setNewUserDetails} className="btns">update</button></p>
+                    <p className="answer"><input type="text" placeholder={fullname} onChange={setNewvalue} /><button onClick={()=>setNewUserDetails} className="btns">update</button></p>
 
                     <h2 className="h12">Username</h2>
-                    <p className="answer"><input type="text" placeholder={username} onChange={setNewvalue} /><button onClick={setNewUserDetails} className="btns">update</button></p>
+                    <p className="answer"><input type="text" placeholder={username} onChange={setNewvalue} /><button onClick={()=>setNewUserDetails('username', value)} className="btns">update</button></p>
 
                     <h2 className="h12">Programmme</h2>
-                    <p className="answer"><input type="text" placeholder={programme} onChange={setNewvalue} /><button onClick={setNewUserDetails} className="btns">update</button></p>
+                    <p className="answer"><input type="text" placeholder={programme} onChange={setNewvalue} /><button onClick={()=>setNewUserDetails} className="btns">update</button></p>
 
                     <h2 className="h12">Level</h2>
-                    <p className="answer"><input type="text" placeholder={year} onChange={setNewvalue} /><button onClick={setNewUserDetails} className="btns">update</button></p>
+                    <p className="answer"><input type="text" placeholder={year} onChange={setNewvalue} /><button onClick={()=>setNewUserDetails} className="btns">update</button></p>
                     
                     <h2 className="h12">Password</h2>
-                    <p className="answer"><input type="text" placeholder={password} onChange={setNewvalue} /><button onClick={setNewUserDetails} className="btns">update</button></p>
+                    <p className="answer"><input type="text" placeholder={password} onChange={setNewvalue} /><button onClick={()=>setNewUserDetails} className="btns">update</button></p>
 
                     
 

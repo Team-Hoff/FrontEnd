@@ -32,7 +32,6 @@ const Program = () => {
     useEffect (() => {
     axios.get(`/course/${id}`)
     .then(res => {
-      // console.log(res.data)
       setcourse(res.data)
       setLoading(false)
       
@@ -86,10 +85,10 @@ const Program = () => {
         </div>
       </section>
 
-       <div style={{display:'flex'}}>
+       <div className='Everything' style={{display:'flex'}}>
        <div style={{marginTop:'25px', width: '60px'}}><GoBack/></div>      
       
-
+      
       <div className="container">
         <div className="d-sm-flex align-items-center 
         justify-content-between " style={{ paddingTop: '30px' }}>
@@ -134,7 +133,7 @@ const Program = () => {
                   if (Number(course.year) === Number(courseQuery) && (Number(course.semester === 1))) return course
                   return ''
                 }).map((course) => (
-                  <li key={course.id} className="list-group-item"><img className="folders" src={Folder} alt="folder"></img> <Link to={`/home/${id}/${course.id}`} >{course.name}</Link> </li>
+                  <li key={course.id} style={{backgroundColor:'transparent'}} className="list-group-item"><img className="folders" src={Folder} alt="folder"></img> <Link style={{color:'black', fontSize:'18px'}} to={`/home/${id}/${course.id}`} >{course.name}</Link> </li>
                 ))
               }
             </ul>
@@ -150,7 +149,7 @@ const Program = () => {
                   if (Number(course.year) === Number(courseQuery) && (Number(course.semester === 2))) return course
                   return ''
                 }).map((course) => (
-                  <li key={course.id} className="list-group-item"><img className="folders" src={Folder} alt="folder"></img> <Link to={`/home/${id}/${course.id}`} >{course.name}</Link> </li>
+                  <li key={course.id} style={{backgroundColor:'transparent'}}  className="list-group-item"><img className="folders" src={Folder} alt="folder"></img> <Link style={{color:'black', fontSize:'18px'}} to={`/home/${id}/${course.id}`} >{course.name}</Link> </li>
                 ))
               }
             </ul>

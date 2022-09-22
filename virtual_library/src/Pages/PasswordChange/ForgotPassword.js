@@ -12,8 +12,23 @@ import {FiMail} from 'react-icons/fi';
 import  * as Yup from 'yup';
 
 import { ThreeDots} from 'react-loader-spinner';
+import axios from '../utils/axios';
 
 const ForgotPassword = () => {
+
+
+  const handleSubmit = (inputs)=>{
+    axios.post("/forgot",
+    {
+      email:inputs.email
+    })
+    .then(()=>{
+      alert("Email has been sent")
+    })
+    .catch(()=>{
+
+    })
+  }
   return (
     
     <StyledContainer>
@@ -39,7 +54,7 @@ const ForgotPassword = () => {
               })
             }
             
-          
+            onSubmit={handleSubmit}
           >
             {({isSubmitting })=>(
               <Form>

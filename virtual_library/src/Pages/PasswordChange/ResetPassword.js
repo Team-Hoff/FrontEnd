@@ -12,8 +12,23 @@ import {FiLock} from 'react-icons/fi';
 import  * as Yup from 'yup';
 
 import { ThreeDots} from 'react-loader-spinner';
+import { useLocation } from 'react-router';
+import axios from '../utils/axios';
 
 const ResetPassword = () => {
+  const {search} = useLocation();
+  console.log(search);
+  
+  const handleSubmit = (inputs)=> {axios.post(`/reset${search}`,{
+    password: inputs.password
+  }).then(()=>{
+    alert("Password has been reset")
+    window.location.href="/"
+  }).catch((err)=>{
+    
+    console.log(err);
+  })
+}
   return (
     
     <StyledContainer>
@@ -43,7 +58,7 @@ const ResetPassword = () => {
                 .oneOf([Yup.ref("password")], "Password is not the same"),
               })
             }
-            
+            onSubmit={handleSubmit}
           
           >
             {({isSubmitting })=>(

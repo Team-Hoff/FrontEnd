@@ -26,7 +26,7 @@ const Signup = () => {
       year: inputs.yearselect})
       .then( ()=>{
         setLoading(true)
-        window.location.href="/login"
+        window.location.href="/"
       }).catch( (err)=> {
         setLoading(false)
         const error = err.response.data.error_msg;

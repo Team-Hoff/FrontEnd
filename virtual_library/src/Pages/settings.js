@@ -6,6 +6,7 @@ import Navbar from '../Components/Navbar/Navbar';
 import Footer from '../Components/Footer/Footer';
 import GoBack from "../Components/GoBack/GoBack";
 import axios from "./utils/axios";
+import { AiOutlineEyeInvisible, AiOutlineEye } from "react-icons/ai"
 
 
 export default function Settings(){
@@ -14,6 +15,14 @@ export default function Settings(){
     const {fullname, username, email, programme, year, password} = user;
      const [value,setValue]=useState();
      
+     const [passwordState, setPasswordState] = useState(false);
+
+     function toggleEyeButton(){
+        setPasswordState(
+                prevState => !prevState
+               
+            )            
+    } 
 
 
      function setNewvalue(event){
@@ -69,7 +78,10 @@ export default function Settings(){
                     <p className="answer"><input type="text" placeholder={year} onChange={setNewvalue} /><button onClick={()=>setNewUserDetails} className="btns">update</button></p>
                     
                     <h2 className="h12">Password</h2>
-                    <p className="answer"><input type="text" placeholder={password} onChange={setNewvalue} /><button onClick={()=>setNewUserDetails} className="btns">update</button></p>
+                    <p className="answer"><input type={passwordState? "text" : "password"}  placeholder={password}/><button onClick={toggleEyeButton} className="eye-btns">{
+                            passwordState?   <AiOutlineEyeInvisible/> : <AiOutlineEye/>
+                          }
+                    </button><button className="btns">update</button></p>
 
                     
 

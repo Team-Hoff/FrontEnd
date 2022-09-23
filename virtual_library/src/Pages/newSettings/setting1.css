@@ -68,7 +68,7 @@
 }
 
 
-.info-division button{
+.update{
     position: absolute;
     left: 380px;
     /* margin-top: 7px; */
@@ -111,17 +111,52 @@
    font-family: 'Lora', serif;
 
 } 
+.setting-btn{
+    position: absolute;
+    right: 0;
+    padding-top: 15px;
+    padding-right: 10px;
+    outline: none;
+    border: none;
+    
+    background: transparent;
+    color: #00dfc4;
+    cursor: pointer;
+    
+}
 
 @media (max-width: 1000px){
-    .info-division{
-
-        position: relative;
-        width: 300px;
+    .setting-header{
     
+        height: 30vh;
+        text-align: center;
+            
+    }
+    .profile-input{
+        height: auto;
+    }
+    
+    .info-division{
+        position: relative;
+        
         display: flex;
         flex-direction: column;
-    
+           
+    }
+    .setting-header h3{
+      
+        color: #00dfc4;
+        font-size: 70px;
+             
+     } 
+     .update{
+        position: relative;
+        top: 20px;
+        bottom: 0;
+        left: 0;
+
         
+            
     }
 
     

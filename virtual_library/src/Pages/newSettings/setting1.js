@@ -1,6 +1,6 @@
 import React, { useState } from "react";
 import "./setting1.css"
-// import { AiOutlineEyeInvisible, AiOutlineEye } from "react-icons/ai"
+import { AiOutlineEyeInvisible, AiOutlineEye } from "react-icons/ai"
 
 
 
@@ -19,6 +19,14 @@ function Setting(){
 
     
     const [value,setValue]=useState();
+    const [passwordState, setPasswordState] = useState(false);
+
+    function toggleEyeButton(){
+        setPasswordState(
+                prevState => !prevState
+               
+            )            
+    } 
 
     function setNewValue(event){
         setValue(event.target.value)
@@ -51,7 +59,9 @@ function Setting(){
                         onChange={setNewValue}/>
                         <span>Full Name</span>
 
-                        <button onClick={setNewUserDetails}>UPDATE</button>
+                        <div>
+                         <button className="update" onClick={setNewUserDetails}>UPDATE</button>
+                        </div>
 
             </div>
 
@@ -65,7 +75,9 @@ function Setting(){
                         onChange={setNewValue}/>
                         <span>Username</span>
 
-                        <button onClick={setNewUserDetails}>UPDATE</button>
+                        <div>
+                         <button className="update" onClick={setNewUserDetails}>UPDATE</button>
+                        </div>
 
             </div>
 
@@ -78,7 +90,9 @@ function Setting(){
                         onChange={setNewValue}/>
                         <span>Programme</span>
 
-                        <button onClick={setNewUserDetails}>UPDATE</button>
+                        <div>
+                         <button className="update" onClick={setNewUserDetails}>UPDATE</button>
+                        </div>
 
             </div>
 
@@ -91,20 +105,30 @@ function Setting(){
                         onChange={setNewValue}/>
                         <span>Level</span>
 
-                        <button onClick={setNewUserDetails}>UPDATE</button>
+                        <div>
+                         <button className="update" onClick={setNewUserDetails}>UPDATE</button>
+                        </div>
 
             </div>
 
             <div className="info-division">
                         <input 
-                        type="password" 
+                        type={passwordState? "text" : "password"} 
                         placeholder="Password"
                         name="Password" 
                         defaultValue={preLoadedValues.password}
                         onChange={setNewValue}/>
                         <span>Password</span>
+                        <button className="setting-btn" onClick={toggleEyeButton}>
+                          {
+                            passwordState?   <AiOutlineEyeInvisible/> : <AiOutlineEye/>
+                          }
+                            
+                        </button>
 
-                        <button onClick={setNewUserDetails}>UPDATE</button>
+                        <div>
+                         <button className="update" onClick={setNewUserDetails}>UPDATE</button>
+                        </div>
 
             </div>
 

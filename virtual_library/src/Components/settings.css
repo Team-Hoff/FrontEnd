@@ -99,6 +99,15 @@
     background-color: transparent;
 }
 
+.eye-btns{
+    background: transparent;
+    outline: none;
+    border: none;
+    color: rgb(207, 207, 24);
+    position: absolute;
+    right: 420px;
+}
+
 .btns:hover{
     text-decoration: underline;
     font-weight: 900;

@@ -133,7 +133,7 @@ const Program = () => {
                   if (Number(course.year) === Number(courseQuery) && (Number(course.semester === 1))) return course
                   return ''
                 }).map((course) => (
-                  <li key={course.id} style={{backgroundColor:'transparent'}} className="list-group-item"><img className="folders" src={Folder} alt="folder"></img> <Link style={{color:'black', fontFamily: 'Poppins'}} to={`/home/${id}/${course.id}`} >{course.name}</Link> </li>
+                  <li key={course.id} style={{backgroundColor:'transparent', display:'flex'}} className="list-group-item"><img className="folders" src={Folder} alt="folder"></img> <Link style={{color:'black', fontFamily: 'Poppins'}} to={`/home/${id}/${course.id}`} >{course.name}</Link> </li>
                 ))
               }
             </ul>
@@ -149,7 +149,7 @@ const Program = () => {
                   if (Number(course.year) === Number(courseQuery) && (Number(course.semester === 2))) return course
                   return ''
                 }).map((course) => (
-                  <li key={course.id} style={{backgroundColor:'transparent'}}  className="list-group-item"><img className="folders" src={Folder} alt="folder"></img> <Link style={{color:'black', fontFamily: 'Poppins'}} to={`/home/${id}/${course.id}`} >{course.name}</Link> </li>
+                  <li key={course.id} style={{backgroundColor:'transparent', display:'flex'}}  className="list-group-item"><img className="folders" src={Folder} alt="folder"></img> <Link style={{color:'black', fontFamily: 'Poppins'}} to={`/home/${id}/${course.id}`} >{course.name}</Link> </li>
                 ))
               }
             </ul>

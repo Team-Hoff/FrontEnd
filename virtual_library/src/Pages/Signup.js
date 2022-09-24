@@ -76,8 +76,9 @@ const Signup = () => {
         <StyledTitle color='Light black' size={40}>
         <span style={{font: "normal 36px 'Cookie' cursive", margin: 0}}>Virtual</span><span style={{color:'#e0ac1c',fontFamily: 'Poppins'}}>Library</span>
           </StyledTitle></div>
-          <StyledSubTitle color='Black' size={35} style={{fontFamily:'Poppins'}}>Signup</StyledSubTitle>
+          
           {!signedUp?(<>
+            <StyledSubTitle color='Black' size={35} style={{fontFamily:'Poppins'}}>Signup</StyledSubTitle>
           <Formik
             initialValues={{
               fullname : "",
@@ -113,7 +114,7 @@ const Signup = () => {
                 .oneOf(["Level 100", "Level 200", "Level 300", "Level 400"], "Select your Year")
                 .required("Select your Year"),
                 programmeselect: Yup.string()
-                .oneOf(["Agricultural Engineering", "Chemical Engineering", "Civil Engineering", "Geomatic Engineering (Geodetic Engineering)", "Materials Engineering", "Mechanical Engineering", "Electrical & Electronic Engineering", "Computer Engineering", "Aerospace Engineering", "Petroleum Engineering", "Telecommunication Engineering", "Geological Engineering", "Biomedical Engineering", "Petrochemical Engineering", "Metallurgical Engineering"], "Select your Programme")
+                .oneOf(["Agricultural Engineering", "Chemical Engineering", "Civil Engineering", "Geomatic Engineering", "Materials Engineering", "Mechanical Engineering", "Electrical Engineering", "Computer Engineering", "Aerospace Engineering", "Petroleum Engineering", "Telecom Engineering", "Geological Engineering", "Biomedical Engineering", "Petrochemical Engineering", "Metallurgical Engineering"], "Select your Programme")
                 .required("Select your Programme"),
               })
             }

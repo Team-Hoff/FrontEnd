@@ -61,9 +61,12 @@ const ResetPassword = () => {
           <StyledTitle color='Light black' size={40}>
             <span style={{font: "normal 36px 'Cookie' cursive", margin: 0}}>Virtual</span><span style={{color:'#e0ac1c',fontFamily: 'Poppins'}}>Library</span>
           </StyledTitle></div>
-          <StyledSubTitle color='Black' size={35} style={{fontFamily:'Poppins'}}>Reset Password</StyledSubTitle>
           
-          {!success?(<Formik
+          
+          {!success?(
+            <>
+            <StyledSubTitle color='Black' size={35} style={{fontFamily:'Poppins'}}>Reset Password</StyledSubTitle>
+          <Formik
             initialValues={{
              password : "",
              repeatPassword: "",
@@ -121,6 +124,7 @@ const ResetPassword = () => {
               </Form>
             )}
           </Formik>)
+          </>)
           :(
             <>
             <span>Your password has been reset</span>

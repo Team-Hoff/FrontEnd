@@ -47,9 +47,10 @@ const ForgotPassword = () => {
           <StyledTitle color='Light black' size={40}>
             <span style={{font: "normal 36px 'Cookie' cursive", margin: 0}}>Virtual</span><span style={{color:'#e0ac1c',fontFamily: 'Poppins'}}>Library</span>
           </StyledTitle></div>
-          <StyledSubTitle color='Black' size={35} style={{fontFamily:'Poppins'}}>Forgot Password</StyledSubTitle>
+          
           {!emailSent?(
           <>
+          <StyledSubTitle color='Black' size={35} style={{fontFamily:'Poppins'}}>Forgot Password</StyledSubTitle>
           <span>Enter your email address to reset your password</span>
           <Formik
             initialValues={{

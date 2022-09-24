@@ -53,18 +53,19 @@ export default function Settings(){
      <div>   
     <Navbar/>
     
-    <div className="settings-body">
+    <div className="settingss-body">
     <div style={{marginTop:'25px', width:'60px'}}><GoBack/></div> 
         <div className="settings-container">
        {
          user.length !== 0 ?(
             <div className="rightbox">
                 <div className="setting">
+
                     <h1 className="h11">MY PROFILE</h1>
 
                     <h2 className="h12">Email</h2>
                     <p className="answer" style={{paddingLeft: "10px", color: "rgba(0, 0, 0, 0.5)"}}>{email}</p>
-
+                    
                     <h2 className="h12">Full Name</h2>
                     <p className="answer"><input type="text" placeholder={fullname} maxLength="29" onChange={setNewvalue} /><br/><button onClick={()=>setNewUserDetails('fullname', value)} className="btns">update</button></p>
 
@@ -74,7 +75,7 @@ export default function Settings(){
                     <h2 className="h12">Programmme</h2>
                     <p className="answer"><input type="text" placeholder={programme} maxLength="29" onChange={setNewvalue} /><br/><button onClick={()=>setNewUserDetails('programme', value)} className="btns">update</button></p>
 
-                    <h2 className="h12">Level</h2>
+                    <h2 className="h12">YEAR</h2>
                     <p className="answer"><input type="text" placeholder={year} maxLength="29" onChange={setNewvalue} /><br/><button onClick={()=>setNewUserDetails('year', value)} className="btns">update</button></p>
                     
                     <h2 className="h12">Password</h2>

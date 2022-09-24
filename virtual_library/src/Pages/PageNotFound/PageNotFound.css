@@ -1,16 +1,8 @@
 .whole{
-    /* background-image: url("../../Assets/Asset/404-Pages-1024x512.jpg"); */
-    /* background :linear-gradient(25deg,rgb(181, 189, 95),rgb(225, 225, 36)); */
     background-color: rgb(144, 144, 22);
     height: 100vh;
     background-repeat: no-repeat;
-    /* background-size: cover; */
-    /* justify-items: flex-end; */
-    /* display:flex; */
-    /* flex-direction: row; */
-    /* justify-content: center; */
-    /* overflow: hidden; */
-    
+    overflow-y: hidden;
 
 }
 .sub{
@@ -23,7 +15,6 @@
     color:white;
     margin-top: 50px;
     font-size: 200px;
-    /* font-weight: 500px; */
     animation: animate 2s ease-in-out infinite;
     
 }
@@ -51,8 +42,6 @@
     border-radius: 50px;
     display:inline-block; 
     font-size: 20px;
-    /* margin-top: 30px; */
-
 }
 @keyframes animate {
     0%,100%{
@@ -74,12 +63,9 @@
     font-weight: 0px;
   } 
   .field{
-    /* margin-left:30px ; */
     align-items: flex-start;
   } 
-  /* .sub{ */
-    /* justify-content: left; */
-  /* } */
+  
     
 }
 .pic{
@@ -88,6 +74,5 @@
     background-repeat: no-repeat;
     background-position: center;
     background-size: contain;
-
     height: 150px;
 }

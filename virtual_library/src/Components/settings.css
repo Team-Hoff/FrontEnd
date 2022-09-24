@@ -1,12 +1,11 @@
-.settings-body{
-    background:linear-gradient(to right, black,white);
-    /* overflow: hidden; */
+.settingss-body{
+    background:linear-gradient(to right, rgb(252, 244, 144),rgb(247, 248, 174));
     box-sizing: border-box;
     display: flex;
 }
 
 .settings-container{
-    background:linear-gradient(to right, white,black);
+    background-color: rgba(255, 255, 255, 0.8); 
     width: 80vw;
     margin: 0 auto;
     margin-top: 20px;
@@ -49,8 +48,8 @@
 }
 
 .h11{
-    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
     font-size: 2em;
+    font-family:"Poppins";
     margin-top: 40px;
     margin-bottom: 35px;
     text-align: center;
@@ -58,10 +57,9 @@
 
 
 .h12{
-    /* color: rgb(207, 207, 24); */
-    color: slategrey;
-    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    color: rgb(0, 0, 0);
     width: 80%;
+    font-family:"Poppins";
     text-transform: uppercase;
     font-size: 15px;
     letter-spacing: 1px;
@@ -75,15 +73,16 @@
     border-image: linear-gradient(to right,#3fb6a8,rgba(126,211,134,0.5)) 10% ;
     border-top: 0;
     margin-right: 5px;
-    font-family: 'Courier New', Courier, monospace;
+    font-family:"Poppins";
     padding: 7px 0;
     color: black;
     white-space: normal;
     word-break: break-all;  
 }
 
+
 .btns{
-    font-family: "Roberto", sans-serif;
+    font-family:"Poppins";
     text-transform: uppercase;
     font-size: 12px;
     border: none;
@@ -104,7 +103,7 @@
     background: transparent;
     outline: none;
     border: none;
-    color: rgb(207, 207, 24);
+    color: black;
     float: right;
     padding-right: 10px;
 }
@@ -115,9 +114,8 @@
     border: none;
     background-color: transparent;
     font-size: 1em;
-    font-family: 'Courier New', Courier, monospace;
+    font-family:"Poppins";
     color: black;
     white-space: normal;
     padding-left: 10px;
-    /* word-break: break-all; */
  }

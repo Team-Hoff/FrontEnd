@@ -16,8 +16,6 @@ function App() {
         <ProtectedRoutes />
       </Router>
       </AuthProvider>
-
-
     </div>
 
 

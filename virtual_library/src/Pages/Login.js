@@ -9,6 +9,7 @@ import  * as Yup from 'yup';
 import { ThreeDots} from 'react-loader-spinner';
 import { useAuth } from "./hooks/useAuth";
 import Google from "../Assets/google-logo (1).png";
+import { useLocation } from "react-router";
 
 
 const Login = () => {
@@ -17,15 +18,11 @@ const Login = () => {
   const [loading, setLoading] = useState(false);
   const [visibile, setvisibile] = useState(false);
 
-  // const googleAuth = () =>{
-  //   axios.get("/google")
-  //   .then((res)=>{
-  //     console.log(res)
-  //   })
-  //   .catch((err)=>{
-  //     console.log(err)
-  //   })
-  // }
+  const {search} = useLocation();
+
+  const googleAuth = () =>{
+   window.location.href = "http://localhost:3500/api/auth/google"
+  }
   
   const handleSubmit = async(inputs) => {
     await axios.post("/login",
@@ -69,10 +66,8 @@ const Login = () => {
 
 
   return (
-
     
     <StyledContainer>
-
     <div>
       <StyledFormArea>
         <div style={{display:'flex'}}>
@@ -81,6 +76,14 @@ const Login = () => {
             <span style={{font: "normal 36px 'Cookie' cursive", margin: 0}}>Virtual</span><span style={{color:'#e0ac1c',fontFamily: 'Poppins'}}>Library</span>
           </StyledTitle></div>
           <StyledSubTitle color='Black' size={35} style={{fontFamily:'Poppins'}}>Login</StyledSubTitle>
+          {
+        (search ==='?authfailed')?(
+            <span style={{color:'red', fontSize:'17px',letterSpacing:'0px'}}>
+              You do not have an account with this email, please Signup</span>
+        ):(
+            <></>
+        )
+      }
           <Formik
             initialValues={{
               username : "",
@@ -150,7 +153,7 @@ const Login = () => {
             )}
           </Formik>
           
-          <ExtraTexts size={20}>
+          <ExtraTexts size={20} onClick={()=>{googleAuth()}}>
                 <img src={Google} alt='google' style={{height:'25px', width:'25px'}}></img><span>Log in with your google account</span>
           </ExtraTexts>
           

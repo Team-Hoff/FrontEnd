@@ -60,9 +60,15 @@ const Course = () => {
             responseType: 'blob', 
         }).then((response) => {
             setLoading(false)
-            const file = new Blob([response.data], {type: `application/${ext}`})
+            const link = document.createElement('a');
+            console.log(link.pathname);
+            const file = new Blob([response.data], {type: `application/${ext}`});
             const href = URL.createObjectURL(file);
-            window.open(href)
+            link.href = href
+            console.log(link.pathname);
+            link.download ='Lecture One'
+            
+            window.open(link)
         }).catch(()=> {
             setLoading(false)
             alert(`${lecture_name} is not available`)

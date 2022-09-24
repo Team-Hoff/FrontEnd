@@ -11,8 +11,6 @@ function Profiledp() {
     const {user} = useAuth(); 
     const {username} = user;
 
-    console.log(user);
-
     const [isOpen, setisOpen] = useState(false)
 
     let menuRef = useRef();

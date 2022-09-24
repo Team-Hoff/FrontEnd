@@ -11,7 +11,7 @@ export const AuthProvider = ({ children }) => {
 
   //set the login function call in the Auth component and render the component
   const login = async () => {
-      const response = await axios.get("/auth")
+      const response = await axios.get("/api/auth")
       const user_details = response.data
       setUser(user_details)
       return
@@ -23,6 +23,7 @@ export const AuthProvider = ({ children }) => {
     //Send request to backend to clear the session
     await axios.get("/logout") //preferably axios.delete
     .then(()=>setUser(null))
+    .catch(()=> setUser(null))
     // setUser(null);
   };
 

@@ -186,10 +186,13 @@ export const ExtraTexts = styled.p`
     color: ${(props)=> (props.color)? props.color: colors.dark2};
     padding: 2px;
     margin-top: 10px;
+    text-decoration: none;
+    transition: ease-in-out 0.3s;
 
     &:hover{
         cursor: pointer;
-        border: 1px solid blue;   
+        text-decoration: underline;
+        font-weight: bold;  
     }
 
 `;

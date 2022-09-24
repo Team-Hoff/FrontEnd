@@ -91,17 +91,20 @@ const Signup = () => {
             validationSchema={
               Yup.object({
                 fullname: Yup.string()
-                .required("Please enter your full name"),
+                .required("Please enter your full name")
+                .min(7, "Fullname is too short")
+                .max(29, "Fullname is too long"),
                 username: Yup.string()
                 .required("Please enter a username")
                 .min(2, "Username is too short")
-                .max(15, "Username is too long"),
+                .max(29, "Username is too long"),
                 email: Yup.string()
                 .required("Please enter an email")
                 .email("Invalid email address"),
                 password: Yup.string()
                 .required("Please enter a password")
                 .min(5, "Password is too short")
+                .max(24, "Password is too long")
                 .required("Please enter a password"),
                 repeatPassword: Yup.string()
                 .required("Confirm Password")
@@ -157,14 +160,14 @@ const Signup = () => {
                   <option>Agricultural Engineering</option>
                   <option>Chemical Engineering</option>
                   <option>Civil Engineering</option>
-                  <option>Geomatic Engineering (Geodetic Engineering)</option>
+                  <option>Geomatic Engineering</option>
                   <option>Materials Engineering</option>
                   <option>Mechanical Engineering</option>
-                  <option>Electrical & Electronic Engineering</option>
+                  <option>Electrical Engineering</option>
                   <option>Computer Engineering</option>
                   <option>Aerospace Engineering</option>
                   <option>Petroleum Engineering</option>
-                  <option>Telecommunication Engineering</option>
+                  <option>Telecom Engineering</option>
                   <option>Geological Engineering</option>
                   <option>Biomedical Engineering</option>
                   <option>Petrochemical Engineering</option>

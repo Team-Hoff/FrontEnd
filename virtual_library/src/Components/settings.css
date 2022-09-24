@@ -1,17 +1,15 @@
 .settings-body{
     background:linear-gradient(to right, black,white);
-    overflow: hidden;
+    /* overflow: hidden; */
     box-sizing: border-box;
+    display: flex;
 }
 
 .settings-container{
     background:linear-gradient(to right, white,black);
     width: 80vw;
-    height: 100vh;
     margin: 0 auto;
     margin-top: 20px;
-    /* position: relative; */
-    /* margin-top: 20px; */
     box-shadow: 2px 5px 20px rgba(119,119,119,0.5);
     margin-bottom: 20px;
 }
@@ -39,15 +37,15 @@
    
 }
 
+
 .active{
  color: #3fb6a8;    
 }
 
 
 .setting{
-    width: 70vw;
     padding-top:15px;
-    margin-left: 20px;
+    margin-left: 5px;
 }
 
 .h11{
@@ -60,7 +58,8 @@
 
 
 .h12{
-    color: rgb(207, 207, 24);
+    /* color: rgb(207, 207, 24); */
+    color: slategrey;
     font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
     width: 80%;
     text-transform: uppercase;
@@ -75,47 +74,43 @@
     border-style: solid;
     border-image: linear-gradient(to right,#3fb6a8,rgba(126,211,134,0.5)) 10% ;
     border-top: 0;
-    /* width: 100px; */
+    margin-right: 5px;
     font-family: 'Courier New', Courier, monospace;
     padding: 7px 0;
     color: black;
-    /* overflow: hidden; */
     white-space: normal;
     word-break: break-all;  
 }
 
-/* .answer:empty:not(:focus)::before{
-    content: attr(data-placeholder);
-} */
-
 .btns{
-    float: right;
     font-family: "Roberto", sans-serif;
     text-transform: uppercase;
-    font-size: 10px;
+    font-size: 12px;
     border: none;
     color: #3fb6a8;
     outline: none;
     background-color: transparent;
+    padding-left: 10px;
+   
 }
+
+.btns:hover{
+    text-decoration: underline;
+    font-weight: 900;   
+}
+
 
 .eye-btns{
     background: transparent;
     outline: none;
     border: none;
     color: rgb(207, 207, 24);
-    position: absolute;
-    right: 420px;
-}
-
-.btns:hover{
-    text-decoration: underline;
-    font-weight: 900;
+    float: right;
+    padding-right: 10px;
 }
 
 .setting input{
-    
-    width: 60vw;
+    width: 76.5vw;
     outline: none;
     border: none;
     background-color: transparent;
@@ -124,5 +119,5 @@
     color: black;
     white-space: normal;
     padding-left: 10px;
-    word-break: break-all;
+    /* word-break: break-all; */
  }

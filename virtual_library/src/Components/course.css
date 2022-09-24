@@ -55,9 +55,7 @@
 }
 .lect_slides{
     display: flex;
-    gap:0.8em;
     align-items: center;
- 
     justify-content: space-between;
     font-size: 25px;
     margin-bottom: 50px;
@@ -77,6 +75,7 @@
     justify-content: space-between;
     padding-top: 15px;
     text-transform: capitalize;
+    word-break: break-all;
 }
 .doc_icon_50x50{
     width: 30px;

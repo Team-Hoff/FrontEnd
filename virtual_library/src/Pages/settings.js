@@ -66,23 +66,24 @@ export default function Settings(){
                     <p className="answer" style={{paddingLeft: "10px", color: "rgba(0, 0, 0, 0.5)"}}>{email}</p>
 
                     <h2 className="h12">Full Name</h2>
-                    <p className="answer"><input type="text" placeholder={fullname} onChange={setNewvalue} /><button onClick={()=>setNewUserDetails} className="btns">update</button></p>
+                    <p className="answer"><input type="text" placeholder={fullname} maxLength="29" onChange={setNewvalue} /><br/><button onClick={()=>setNewUserDetails('fullname', value)} className="btns">update</button></p>
 
                     <h2 className="h12">Username</h2>
-                    <p className="answer"><input type="text" placeholder={username} onChange={setNewvalue} /><button onClick={()=>setNewUserDetails('username', value)} className="btns">update</button></p>
+                    <p className="answer"><input type="text" placeholder={username} maxLength="29" onChange={setNewvalue} /><br/><button onClick={()=>setNewUserDetails('username', value)} className="btns">update</button></p>
 
                     <h2 className="h12">Programmme</h2>
-                    <p className="answer"><input type="text" placeholder={programme} onChange={setNewvalue} /><button onClick={()=>setNewUserDetails} className="btns">update</button></p>
+                    <p className="answer"><input type="text" placeholder={programme} maxLength="29" onChange={setNewvalue} /><br/><button onClick={()=>setNewUserDetails('programme', value)} className="btns">update</button></p>
 
                     <h2 className="h12">Level</h2>
-                    <p className="answer"><input type="text" placeholder={year} onChange={setNewvalue} /><button onClick={()=>setNewUserDetails} className="btns">update</button></p>
+                    <p className="answer"><input type="text" placeholder={year} maxLength="29" onChange={setNewvalue} /><br/><button onClick={()=>setNewUserDetails('year', value)} className="btns">update</button></p>
                     
                     <h2 className="h12">Password</h2>
-                    <p className="answer"><input type={passwordState? "text" : "password"}  placeholder={password}/><button onClick={toggleEyeButton} className="eye-btns">{
+                    
+                    <p className="answer"><input style={{width:'250px'}} maxLength="24" type={passwordState? "text" : "password"}  placeholder={password}/><button onClick={toggleEyeButton} className="eye-btns">{
                             passwordState?   <AiOutlineEyeInvisible/> : <AiOutlineEye/>
                           }
-                    </button><button className="btns">update</button></p>
-
+                    </button><br/><button onClick={()=>setNewUserDetails('password', value)} className="btns">update</button></p>
+                    
                     
 
                 </div>

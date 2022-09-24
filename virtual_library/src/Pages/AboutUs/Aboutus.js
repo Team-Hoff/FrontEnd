@@ -55,10 +55,10 @@ function Aboutus(){
                 
             </div>
 
-            <div className="services">
+            <div className="team">
                     <h2 className="highlights">OUR SEVICES</h2>
                     
-                    <p classname="serv">We help create web applications and mobile applications for businesses </p>
+                    <p>We help create web applications and mobile applications for businesses </p>
 
             </div>
 

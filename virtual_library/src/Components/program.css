@@ -22,12 +22,14 @@ select{
     padding: 15px;
     padding-left: 10px;
     font-size: 30px;
+    font-weight: 400;
     letter-spacing: 5px;
     color: black;
+    border: 2px solid black;
     display: block;
     margin: 5px auto 10px auto;
     transition: ease-in-out 0.3s;
-    background-color: transparent;
+    /* background-color: transparent; */
 }
 
 

@@ -75,33 +75,11 @@
     margin-left: 15px;
 }
 
-.services{
-    margin-top: 10px;
-
-    background-color: black;
-
-    color: white;
-
-    height: 20vh;
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    justify-content: center;
-}
-
-
-.serv{
-    text-align: center;
-}
-
 @media screen and (max-width:600px) {
     .box1{
         margin-left: 10px;
     }
     .team{
-        text-align: center;
-    }
-    .serv{
         text-align: center;
     }
     
@@ -128,10 +106,8 @@
   
 }
 .contact-row{
-    display: grid;
-   /* column-gap: 50px; */
-   grid-template-columns: auto auto auto;
-  
+  display: grid;
+  grid-template-columns: auto auto auto;
   padding: 10px;
 
 }

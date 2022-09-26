@@ -9,6 +9,7 @@
     width: 80vw;
     margin: 0 auto;
     margin-top: 20px;
+    padding-bottom: 20px;
     box-shadow: 2px 5px 20px rgba(119,119,119,0.5);
     margin-bottom: 20px;
 }
@@ -119,3 +120,12 @@
     white-space: normal;
     padding-left: 10px;
  }
+
+ .passwordSection{
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 20px 0;
+    color: #3fb6a8;
+}

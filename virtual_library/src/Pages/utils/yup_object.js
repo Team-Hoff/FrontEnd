@@ -25,3 +25,6 @@ export const yub_object = Yup.object({
     .oneOf(["Agricultural Engineering", "Chemical Engineering", "Civil Engineering", "Geomatic Engineering (Geodetic Engineering)", "Materials Engineering", "Mechanical Engineering", "Electrical & Electronic Engineering", "Computer Engineering", "Aerospace Engineering", "Petroleum Engineering", "Telecommunication Engineering", "Geological Engineering", "Biomedical Engineering", "Petrochemical Engineering", "Metallurgical Engineering"], "Select your Programme")
     .required("Select your Programme"),
   })
+
+
+ 

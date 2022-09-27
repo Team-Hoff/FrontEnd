@@ -99,10 +99,7 @@ const Program = () => {
             }</h2> </div>
 
           <div>
-            <select onChange={(event) => setcourseQuery(event.target.value)}>
-              {/* <option value='' hidden >
-                SELECT YEAR
-              </option> */}
+            <select className='sel' onChange={(event) => setcourseQuery(event.target.value)}>
               <option value={1}>
                 LEVEL 100
               </option>
@@ -133,7 +130,7 @@ const Program = () => {
                   if (Number(course.year) === Number(courseQuery) && (Number(course.semester === 1))) return course
                   return ''
                 }).map((course) => (
-                  <li key={course.id} style={{backgroundColor:'transparent', display:'flex'}} className="list-group-item"><img className="folders" src={Folder} alt="folder"></img> <Link style={{color:'black', fontFamily: 'Poppins'}} to={`/home/${id}/${course.id}`} >{course.name}</Link> </li>
+                  <li key={course.id} style={{backgroundColor:'transparent', display:'flex', fontSize:'22px'}} className="list-group-item"><img className="folders" src={Folder} alt="folder"></img> <Link style={{color:'black', fontFamily: 'Poppins'}} to={`/home/${id}/${course.id}`} >{course.name}</Link> </li>
                 ))
               }
             </ul>
@@ -149,7 +146,7 @@ const Program = () => {
                   if (Number(course.year) === Number(courseQuery) && (Number(course.semester === 2))) return course
                   return ''
                 }).map((course) => (
-                  <li key={course.id} style={{backgroundColor:'transparent', display:'flex'}}  className="list-group-item"><img className="folders" src={Folder} alt="folder"></img> <Link style={{color:'black', fontFamily: 'Poppins'}} to={`/home/${id}/${course.id}`} >{course.name}</Link> </li>
+                  <li key={course.id} style={{backgroundColor:'transparent', display:'flex', fontSize:'22px'}}  className="list-group-item"><img className="folders" src={Folder} alt="folder"></img> <Link style={{color:'black', fontFamily: 'Poppins'}} to={`/home/${id}/${course.id}`} >{course.name}</Link> </li>
                 ))
               }
             </ul>

@@ -121,6 +121,17 @@
     padding-left: 10px;
  }
 
+ .sele{
+    width: 76.5vw;
+    outline: none;
+    border: none;
+    background-color: transparent;
+    font-size: 1em;
+    font-family:"Poppins";
+    white-space: normal;
+    padding-left: 5px
+ }
+
  .passwordSection{
 
     display: flex;

@@ -2,6 +2,7 @@
 /* eslint-disable eqeqeq */
 import React, { useState, useEffect } from 'react';
 import '../Components/course.css';
+// import book from "../Assets/Asset/book.jpg";
 import axios from "./utils/axios"
 import {HiDownload, HiEye} from 'react-icons/hi';
 import Footer from '../Components/Footer/Footer';
@@ -198,11 +199,6 @@ const Course = () => {
            
         </div>
 
-    </div>
-    
-    
-    <h1 className="ref_book_head">Recommended videos</h1>
-    <div className='recvid'>
     </div> */}
 
 

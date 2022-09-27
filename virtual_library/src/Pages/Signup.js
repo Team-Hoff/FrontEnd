@@ -17,9 +17,8 @@ const Signup = () => {
   const [err3, seterr3] = useState("");
   const [visibile, setvisibile] = useState(false);
 
-  const handleSubmit = (inputs) => {
-    setLoading(true)
-     axios.post('/signup',
+  const handleSubmit = async (inputs) => {
+     await axios.post('/signup',
      {username: inputs.username, 
       email: inputs.email, 
       password: inputs.password, 
@@ -27,10 +26,8 @@ const Signup = () => {
       fullname: inputs.fullname,
       year: inputs.yearselect})
       .then( ()=>{
-        setLoading(false)
         setSignedUp(true)
       }).catch( (err)=> {
-        setLoading(false)
         const error = err.response.data.error_msg;
         if(error === "Email is taken"){
           seterr1(error)
@@ -41,8 +38,10 @@ const Signup = () => {
         else if ( error === "Username and Email have been taken"){
           seterr3(error)
         }
+        setLoading(false)
       })
   }
+
 
   const handleClick = () =>{
     setvisibile(true);
@@ -105,10 +104,9 @@ const Signup = () => {
                 password: Yup.string()
                 .required("Please enter a password")
                 .min(5, "Password is too short")
-                .max(24, "Password is too long")
-                .required("Please enter a password"),
+                .max(24, "Password is too long"),
                 repeatPassword: Yup.string()
-                .required("Confirm Password")
+                .required("Confirm your password")
                 .oneOf([Yup.ref("password")], "Password is not the same"),
                 yearselect: Yup.string()
                 .oneOf(["Level 100", "Level 200", "Level 300", "Level 400"], "Select your Year")

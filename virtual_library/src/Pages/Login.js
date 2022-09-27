@@ -32,7 +32,6 @@ const Login = () => {
       ).then(()=> {
         setLoading(true)
         login()
-        
       })
       .catch( (error)=> {
         error.message = "Invalid username/password"
@@ -103,7 +102,7 @@ const Login = () => {
             
           
           >
-        
+            
             {({isSubmitting })=>(
                <Form> 
                 <TextInput

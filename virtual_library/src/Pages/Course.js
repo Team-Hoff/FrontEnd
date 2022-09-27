@@ -76,6 +76,7 @@ const Course = () => {
         })
     break;
     case "pptx":
+    case "ppt":
                     alert("Cannot View powerpoint in browser for now, please download")
                     setLoading(false)
                     break;

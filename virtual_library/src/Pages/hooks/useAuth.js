@@ -24,7 +24,7 @@ export const AuthProvider = ({ children }) => {
     await axios.get("/logout") //preferably axios.delete
     .then(()=>setUser(null))
     .catch(()=> setUser(null))
-    // setUser(null);
+    
   };
 
   const value = useMemo(

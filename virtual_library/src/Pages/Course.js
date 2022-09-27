@@ -19,7 +19,6 @@ const Course = () => {
     const loaders = [<BoxLoading color="white"/>,<WindMillLoading color="white"/>,
     <MeteorRainLoading color="white"/>,
     <LadderLoading color="white"/>,<RollBoxLoading color="white"/>]
-
     const isAvailable = "No Course Material is available for this course";
     const  {pathname}  = useLocation();
     const [loading, setLoading] = useState(true);
@@ -200,7 +199,7 @@ const Course = () => {
            
         </div>
 
-    </div> */}
+    </div>  */}
 
 
     <Footer/>

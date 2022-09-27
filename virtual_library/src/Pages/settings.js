@@ -72,16 +72,18 @@ export default function Settings(){
         
     }
      
-    const setNewUserDetails = async (field, new_value)=>{
+    const setNewUserDetails = async (field, new_value, old_value)=>{
         await axios.post("/settings",
        {
         field: field,
-        new_value: new_value
+        new_value: new_value,
+        old_value: old_value
        })
-         .then((res)=>{
+         .then(async(res)=>{
             console.log(res)
-            login();
-            setLoading(false)
+            await login();
+            window.location.href = window.location
+            setLoading(false);
          })
          .catch((err)=>{
             console.log(err)
@@ -348,7 +350,7 @@ export default function Settings(){
                         }
                         
                         onSubmit={(values)=>{setNewUserDetails(
-                                'oldpassword', values.oldpassword
+                                'password', values.newpassword, values.oldpassword
                             )
                                             
                     }}

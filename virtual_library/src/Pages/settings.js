@@ -6,14 +6,10 @@ import Navbar from '../Components/Navbar/Navbar';
 import Footer from '../Components/Footer/Footer';
 import GoBack from "../Components/GoBack/GoBack";
 import axios from "./utils/axios";
-<<<<<<< Updated upstream
 import { AiOutlineEyeInvisible, AiOutlineEye } from "react-icons/ai";
 import { yub_object } from "./utils/yup_object";
 
-=======
-import { AiOutlineEyeInvisible, AiOutlineEye } from "react-icons/ai"
 import Modal from "../Components/Modal";
->>>>>>> Stashed changes
 
 
 export default function Settings(){
@@ -24,15 +20,11 @@ export default function Settings(){
     const[modal, setModal]= useState(false);
      
      const [passwordState, setPasswordState] = useState(false);
-<<<<<<< Updated upstream
      const [changePassword, setChangePassword] = useState(false);
 
      function newPassword(){
         setChangePassword(prevState => !prevState)
     } 
-=======
-    //  const[buttonPopup,setButtonPopup]=useState(false);
->>>>>>> Stashed changes
 
      function toggleEyeButton(){
         setPasswordState(
@@ -121,7 +113,6 @@ export default function Settings(){
                         changePassword? "": <><button onClick={newPassword} className="btns">update</button> </>               
                      }
                     
-<<<<<<< Updated upstream
                     </p>
 
                     {
@@ -154,8 +145,6 @@ export default function Settings(){
            </form>
                     
 
-=======
->>>>>>> Stashed changes
                 </div>
                 <Modal />
             </div>

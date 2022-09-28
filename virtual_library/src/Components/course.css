@@ -101,12 +101,8 @@
 .ref_bookss{
     display: flex;
     gap:2em;
-    justify-content: center;
+    /* justify-content: center; */
    
-}
-.ref_book_head{
-    width: 400px;
-    display: block;
 }
 
 .first_link{
@@ -115,9 +111,7 @@
     height: 30px;
     align-items: center;
 }
-.vid_icons{
-    height: 30px;
-}
+
 .first_links{
     text-decoration: none;
 }
@@ -128,18 +122,20 @@
 
 .right_lect_block_4 a{
     text-decoration: none;
-     
 }
 
-.recvid{
-    display: flex;
-    padding-left: 210px;
-    justify-content: space-around;
+.ref_cov_page{
+    width: 120px;
 }
 
-.recvid iframe{
-    height: 40vh;
-    width: 60vh;
+.book_label{
+    font-size: 20px;
+    word-break: break-all;
+}
+
+.image{
+    height:120px;
+    width: 120px;
 }
 
 .Available{

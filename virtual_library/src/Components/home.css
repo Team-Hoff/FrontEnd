@@ -1,15 +1,52 @@
 .below_nav{
     height: 450px;
     width: 100vw;
-    background: linear-gradient(0deg, rgba(0,0,0,0.6),rgba(0,0,0,0.6)), url("../Assets/VL.png");
     background-repeat: no-repeat;
     background-size: 100% 100%;
     overflow: hidden;
+    animation: fade 100s infinite;
 }
 
 .searchb{
     display: flex;
     justify-content:space-around;
+}
+
+@keyframes fade {
+    0%{
+        background-image: linear-gradient(0deg, rgba(0,0,0,0.6),rgba(0,0,0,0.6)),url("../Assets/BackgroundImages/image1.png");
+    }
+    10%{
+        background-image: linear-gradient(0deg, rgba(0,0,0,0.6),rgba(0,0,0,0.6)), url("../Assets/BackgroundImages/image2.png");  
+    }
+    20%{
+        background-image: linear-gradient(0deg, rgba(0,0,0,0.6),rgba(0,0,0,0.6)),url("../Assets/BackgroundImages/image3.png");
+    }
+    30%{
+        background-image: linear-gradient(0deg, rgba(0,0,0,0.6),rgba(0,0,0,0.6)),url("../Assets/BackgroundImages/image4.png");
+    }
+    40%{
+        background-image: linear-gradient(0deg, rgba(0,0,0,0.6),rgba(0,0,0,0.6)),url("../Assets/BackgroundImages/image5.png");
+    }
+    50%{
+        background-image: linear-gradient(0deg, rgba(0,0,0,0.6),rgba(0,0,0,0.6)),url("../Assets/BackgroundImages/image6.png");
+    }
+    60%{
+        background-image: linear-gradient(0deg, rgba(0,0,0,0.6),rgba(0,0,0,0.6)),url("../Assets/BackgroundImages/image7.png");
+    }
+    70%{
+        background-image: linear-gradient(0deg, rgba(0,0,0,0.6),rgba(0,0,0,0.6)),url('../Assets/BackgroundImages/image8.png');
+    }
+    80%{
+        background-image: linear-gradient(0deg, rgba(0,0,0,0.6),rgba(0,0,0,0.6)),url('../Assets/BackgroundImages/image9.png');
+    }
+    90%{
+        background-image: linear-gradient(0deg, rgba(0,0,0,0.6),rgba(0,0,0,0.6)),url('../Assets/BackgroundImages/image10.png');
+    }
+    100%{
+        background-image: linear-gradient(0deg, rgba(0,0,0,0.6),rgba(0,0,0,0.6)),url('../Assets/BackgroundImages/image11.png');
+    }
+    
 }
 
 @media screen and (max-width: 600px) {

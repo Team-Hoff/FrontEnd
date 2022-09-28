@@ -1,17 +1,26 @@
 import React, {useState} from "react";
 import './Modal.css';
 import axios from "../Pages/utils/axios";
+import { useAuth } from "../Pages/hooks/useAuth";
 
 
 export default function Modal( ){
 const[modal, setModal]= useState(false);
+const {logout} = useAuth;
 
     const toggleModal = ()=>{
         setModal(!modal)
     }
 
     function deleteAccount(){
-        axios.delete("/deleteAccount")
+        axios.delete("/delete")
+        .then(async(res)=>{
+            await logout()
+            console.log(res)
+        })
+        .catch((err)=>{
+            console.log(err)
+        })
         return 
     }
 
@@ -38,7 +47,7 @@ const[modal, setModal]= useState(false);
     
                 <br/><br/>
                 <button className="close-modall" onClick={toggleModal}>No</button>
-                <button className="close-modalll" onClick={deleteAccount}>Yes</button>
+                <button className="close-modalll" onClick={()=>deleteAccount}>Yes</button>
             </div>
             </div>
         

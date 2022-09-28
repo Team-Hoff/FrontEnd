@@ -89,6 +89,7 @@ const Course = () => {
         async function fetchData(){
         await axios.get(`/course/${idm}`)
         .then(res => {
+          console.log(res)
           setcourse(res.data[0]);
           setBooks(res.data[1])
           setLoading(false);
@@ -171,12 +172,12 @@ const Course = () => {
             )}   
         </div>
             
-        <div className="ref_books">
-            <h1 className="ref_book_head">Reference Books</h1>
+        <div className="slides">
+            <h1 className="lect_head">Reference Books</h1>
             {book.map((pbook) => 
             <div className="ref_bookss">
                 <div className="ref_cov_page">
-                    <img src={pbook.image} alt="Reference Book" height="100px"></img>
+                    <img className='image' src={pbook.image} alt="Reference Book"></img>
                     <h3 className="book_label">{pbook.bookName}</h3>
                 </div>
             </div>

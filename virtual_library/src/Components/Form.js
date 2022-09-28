@@ -38,7 +38,7 @@ export const TextInput = ({ icon, ...props }) => {
             }
 
                 
-            {meta.touched && meta.error ? (
+            {meta.touched && meta.error   ? (
                 <Erromsg>{meta.error}</Erromsg>
             ): (
                 <Erromsg style={{visibility:"hidden"}}></Erromsg>

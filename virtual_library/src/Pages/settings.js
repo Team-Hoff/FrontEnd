@@ -113,9 +113,9 @@ export default function Settings(){
         },3000);
       }
 
-      const resetErrors = setErrors => {
-        setTimeout(()=>setErrors({}), 5000);
-      };
+    //   const resetErrors = setErrors => {
+    //     setTimeout(()=>setErrors({}), 5000);
+    //   };
 
      if(loading ){
         return (
@@ -156,6 +156,8 @@ export default function Settings(){
                                 .min(7, "Fullname is too short")
                                 .max(29, "Fullname is too long")
                                 .notOneOf([(fullname)],"Name is the same as old name")
+                                .matches(/^[A-Za-z0-9\s]+$/, "Only alphanumeric are allowed")
+                                .matches(/^(?![0-9]*$)/, "Only numbers are not allowed")
                             })
                         }
                         
@@ -174,7 +176,7 @@ export default function Settings(){
                     <div className="answer">
                     <SettingsInput name="fullnames" type="text" placeholder={fullname} maxLength="29"/>
                     
-                    {resetErrors(setErrors)}
+                    {/* {resetErrors(setErrors)} */}
                     {!isSubmitting && (
                     <button type="submit" className="btns">update</button>
                     )}
@@ -206,6 +208,8 @@ export default function Settings(){
                                 .min(2, "Username is too short")
                                 .max(29, "Username is too long")
                                 .notOneOf([(username)],"Username is the same as old username")
+                                .matches(/^[A-Za-z0-9\s]+$/, "Only alphanumeric are allowed")
+                                .matches(/^(?![0-9]*$)/, "Only numbers are not allowed")
                             })
                         }
                         
@@ -227,7 +231,7 @@ export default function Settings(){
                     <SettingsInput name="usernames" type="text" placeholder={username} maxLength="29"/>
                     <Erromsg style={{paddingLeft:'10px', textTransform:'capitalize'}}>{visibile && err1}</Erromsg>
 
-                    {resetErrors(setErrors)}
+                    {/* {resetErrors(setErrors)} */}
                     {!isSubmitting && (
                     <button type="submit" className="btns"  onClick={handleClick}>update</button>
                     )}
@@ -288,7 +292,7 @@ export default function Settings(){
                     }
                     </SettingsSelect>
 
-                    {resetErrors(setErrors)}
+                    {/* {resetErrors(setErrors)} */}
                     {!isSubmitting && (
                     <button type="submit" className="btns">update</button>
                     )}
@@ -347,7 +351,7 @@ export default function Settings(){
                     }
                     </SettingsSelect>
                      
-                    {resetErrors(setErrors)}
+                    {/* {resetErrors(setErrors)} */}
                     {!isSubmitting && (
                     <button type="submit" className="btns">update</button>
                     )}
@@ -429,11 +433,11 @@ export default function Settings(){
                                        
                     </div>  
                     
-                    {/* {resetErrors(setErrors)} */}
+                    
                     {!isSubmitting && (
                     <button type="submit" className="btns"  onClick={handleClick}>update</button>
                     )}
-                    {resetErrors(setErrors)}
+                    {/* {resetErrors(setErrors)} */}
                     {isSubmitting && (
                         <div style={{paddingLeft:'15px'}}>
                         <ThreeDots

@@ -48,11 +48,11 @@ const Signup = () => {
     seterr1("");
     seterr2("");
     seterr3("");
-    
+
     setTimeout(()=>{
       setvisibile(false);
-     
-    },5000);
+      
+    },3000);
   }
 
   if(loading ){

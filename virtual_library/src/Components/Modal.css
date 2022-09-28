@@ -1,4 +1,4 @@
-body.active-modal{
+body.active-modall{
     overflow-y:hidden ;
 }
 
@@ -10,7 +10,11 @@ body.active-modal{
     border-radius: 20px;
 }
 
-.modall, .overlay{
+.button-modal:hover{
+    background-color: rgb(248, 39, 39);
+}
+
+.modall,.overlay{
     width: 100vw;
     height: 100vh;
     top: 0;
@@ -19,6 +23,7 @@ body.active-modal{
     bottom: 0;
     position: fixed;
 }
+
 
 .overlay{
     background: rgb(49,49,49,0.8);
@@ -31,12 +36,12 @@ body.active-modal{
     transform: translate(-50%,-50%);
     line-height: 1.4;
     background: white;
-    padding: 14px 28px;
+    padding: 14px 15px;
     border-radius: 3px;
     max-width: 600px;
     min-width: 300px;
-    font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
-    font-size: small;
+    font-family:'Poppins';
+    /* font-size: small; */
 
 }
 
@@ -48,6 +53,7 @@ body.active-modal{
     width: 80px;
     border-radius: 20px;
     height: 40px;
+    font-family: Poppins;
 }
 
 .close-modalll:hover{
@@ -66,27 +72,32 @@ body.active-modal{
     box-shadow: 80%;
     border-radius: 20px;
     height: 40px;
+    font-family: 'Poppins';
 }
 .modall-content h3{
-    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
-    font-size: 70;
+    font-family: 'Poppins';
+    font-size: 50;
 }
 .modall-content h2{
-    /*margin-left: 100px;*/
     font-size: 50;
+    height: 15px;
     color: red;
+    font-family: 'Poppins';
 }
 
 .pict{
     background-image: url("../Assets/picture.jpg");
     background-size:contain ;
-    height: 70px;
-    width: 40px; 
-    /* margin-top: 0px; */
+    height: 30px;
+    width: 30px; 
+    margin-top: 5px;
     background-repeat: no-repeat;
 }
 
 .topic{
     display: flex;
     gap: 10px;
+    padding: 0;
+    margin: 0;
+    justify-content: center;
 }

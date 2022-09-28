@@ -47,7 +47,7 @@ const Login = () => {
         setTimeout(()=>{
           setvisibile(false);
           setError("");
-        },5000);
+        },3000);
       }
 
       

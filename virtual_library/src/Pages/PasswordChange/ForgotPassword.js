@@ -34,7 +34,7 @@ const ForgotPassword = () => {
     setTimeout(()=>{
       setvisibile(false);
       setError("");
-    },5000);
+    },3000);
   }
 
   return (

@@ -10,6 +10,8 @@ import { Form, Formik } from "formik";
 import * as Yup from 'yup';
 import { ThreeDots} from 'react-loader-spinner';
 import { SettingsInput, SettingsSelect } from "../Components/Form";
+import Modal from '../Components/Modal';
+import { Erromsg } from "../Components/Style";
 
 
 
@@ -17,7 +19,7 @@ export default function Settings(){
 
     const {user, login} = useAuth();
     const [loading, setLoading] = useState(false);
-    const {fullname, username, email, programme, year, password} = user;
+    const {fullname, username, email, programme, year} = user;
     const [color, setcolor] = useState("gray");
     const [colour, setcolour] = useState("gray");
     const Programmes = [{id: 1,name: "Agricultural Engineering"},
@@ -42,6 +44,10 @@ export default function Settings(){
                     {id: 4, level: "Level 400"}
                   ]
      const [changePassword, setChangePassword] = useState(false);
+     const [err1, seterr1] = useState("");
+     const [err2, seterr2] = useState("");
+     const [visibile, setvisibile] = useState(false);
+
 
      function newPassword(){
         setChangePassword(prevState => !prevState)
@@ -73,23 +79,39 @@ export default function Settings(){
     }
      
     const setNewUserDetails = async (field, new_value, old_value)=>{
-        await axios.post("/settings",
+       await axios.post("/settings",
        {
         field: field,
         new_value: new_value,
         old_value: old_value
        })
          .then(async(res)=>{
-            console.log(res)
             await login();
             window.location.href = window.location
             setLoading(false);
          })
          .catch((err)=>{
-            console.log(err)
+            const error = err.response.data.msg;
+            if(error === "password incorrect"){
+                seterr2(error)
+              }
+            else if (error === "username is already taken"){
+                seterr1(error)
+            }
             setLoading(false)
          })
      }
+
+     const handleClick = () =>{
+        setvisibile(true);
+        
+        
+        setTimeout(()=>{
+          setvisibile(false);
+          seterr1("");
+          seterr2("")
+        },3000);
+      }
 
      if(loading ){
         return (
@@ -117,7 +139,7 @@ export default function Settings(){
                     <h1 className="h11">MY PROFILE</h1>
 
                     <h2 className="h12">Email</h2>
-                    <p className="answer" style={{paddingLeft: "10px", color: "rgba(0, 0, 0, 0.5)"}}>{email}</p>
+                    <div className="answer" style={{paddingLeft: "10px", color: "rgba(0, 0, 0, 0.5)"}}>{email}</div>
                     
                     <Formik
                         initialValues={{
@@ -129,19 +151,23 @@ export default function Settings(){
                                 .required("Enter new name to update")
                                 .min(7, "Fullname is too short")
                                 .max(29, "Fullname is too long")
+                                .notOneOf([(fullname)],"Name is the same as old name")
                             })
                         }
                         
-                        onSubmit={(values)=>{setNewUserDetails(
+                        onSubmit={(values,actions)=>{setNewUserDetails(
                                 'fullname', values.fullnames
                             )
+                            setTimeout(() => {
+                                actions.setSubmitting(false);
+                              }, 2000);
                                             
                     }}
                     >
                     {({isSubmitting})=>(
                     <Form>
                     <h2 className="h12">Full Name</h2>
-                    <p className="answer">
+                    <div className="answer">
                     <SettingsInput name="fullnames" type="text" placeholder={fullname} maxLength="29"/>
 
                     {/* { (Value === fullname || Value === "") ?(  */}
@@ -164,7 +190,7 @@ export default function Settings(){
                     {/* <button onClick={()=>setNewUserDetails('fullname', Value)} className="btns">update</button> */}
                     {/* )} */}
 
-                    </p>
+                    </div>
                     </Form>
                     )}
                     </Formik>
@@ -179,23 +205,30 @@ export default function Settings(){
                                 .required("Enter new username to update")
                                 .min(2, "Username is too short")
                                 .max(29, "Username is too long")
+                                .notOneOf([(username)],"Username is the same as old username")
                             })
                         }
                         
-                        onSubmit={(values)=>{setNewUserDetails(
+                        onSubmit={(values,actions)=> {setNewUserDetails(
                                 'username', values.usernames
                             )
+                            
+                            setTimeout(() => {
+                                actions.setSubmitting(false);
+                              }, 2000);
+                            
                                             
                     }}
                     >
                     {({isSubmitting})=>(
                     <Form>
                     <h2 className="h12">Username</h2>
-                    <p className="answer">
+                    <div className="answer">
                     <SettingsInput name="usernames" type="text" placeholder={username} maxLength="29"/>
-                    
+                    <Erromsg style={{paddingLeft:'10px', textTransform:'capitalize'}}>{visibile && err1}</Erromsg>
+
                     {!isSubmitting && (
-                    <button type="submit" className="btns">update</button>
+                    <button type="submit" className="btns"  onClick={handleClick}>update</button>
                     )}
 
                     {isSubmitting && (
@@ -209,7 +242,7 @@ export default function Settings(){
                     )}
                    
                    
-                    </p>
+                    </div>
                     </Form>
                     )}
                     </Formik>
@@ -222,28 +255,32 @@ export default function Settings(){
                             Yup.object({
                                 programmeselect: Yup.string()
                                 .oneOf(["Agricultural Engineering", "Chemical Engineering", "Civil Engineering", "Geomatic Engineering", "Materials Engineering", "Mechanical Engineering", "Electrical Engineering", "Computer Engineering", "Aerospace Engineering", "Petroleum Engineering", "Telecom Engineering", "Geological Engineering", "Biomedical Engineering", "Petrochemical Engineering", "Metallurgical Engineering"], "Select new Programme")
-                                .required("Select new programme"),
+                                .required("Select new programme")
                             })
                         }
                         
-                        onSubmit={(values)=>{setNewUserDetails(
+                        onSubmit={(values,actions)=>{setNewUserDetails(
                                 'programme', values.programmeselect
                             )
+                            setTimeout(() => {
+                                actions.setSubmitting(false);
+                              }, 2000);
+                            
                                             
                     }}
                     >
                     {({isSubmitting})=>(
                     <Form onChange={setNewprog}>
                     <h2 className="h12">Programmme</h2>
-                    <p className="answer">
+                    <div className="answer">
                     <SettingsSelect name="programmeselect" className="sele" type="dropdown" style={{color:color}}>
-                    <option selected="selected" style={{color: "rgba(0, 0, 0, 0.5)"}}>{programme}</option>
+                    <option style={{color: "rgba(0, 0, 0, 0.5)"}}>{programme}</option>
                     {
                         
                         ModProg.map((prog)=>(
                             <>
                             
-                            <option style={{color:'black'}}>{prog.name}</option>
+                            <option key={prog.id} style={{color:'black'}}>{prog.name}</option>
                             </>
 
                         ))
@@ -264,7 +301,7 @@ export default function Settings(){
                         </div>
                     )}
                     
-                    </p>
+                    </div>
                     </Form>
                     )}
                     </Formik>
@@ -277,29 +314,32 @@ export default function Settings(){
                             Yup.object({
                                 yearselect: Yup.string()
                                 .oneOf(["Level 100", "Level 200", "Level 300", "Level 400"], "Select new Year")
-                                .required("Select new Year"),
+                                .required("Select new Year")
                             })
                         }
                         
-                        onSubmit={(values)=>{setNewUserDetails(
+                        onSubmit={(values,actions)=>{setNewUserDetails(
                                 'year', values.yearselect
                             )
+                            setTimeout(() => {
+                                actions.setSubmitting(false);
+                              }, 2000);
                                             
                     }}
                     >
                     {({isSubmitting})=>(
                     <Form onChange={setNewyear}>
                     <h2 className="h12">Year</h2>
-                    <p className="answer">
+                    <div className="answer">
                         
                     <SettingsSelect name="yearselect" className="sele" type="dropdown" style={{color:colour}}>
-                    <option selected="selected" style={{color: "rgba(0, 0, 0, 0.5)"}}>{year}</option>
+                    <option style={{color: "rgba(0, 0, 0, 0.5)"}}>{year}</option>
                         {
                         
                         ModLevel.map((level)=>(   
                             <>
                             
-                            <option style={{color:'black'}}>{level.level}</option>
+                            <option key={level.id} style={{color:'black'}}>{level.level}</option>
                             </>
                         ))
                     }
@@ -320,7 +360,7 @@ export default function Settings(){
                     )}
 
                    
-                    </p>
+                    </div>
 
                     </Form>
                     )}
@@ -342,16 +382,19 @@ export default function Settings(){
                                 .required("Please enter your new password")
                                 .min(5, "Password is too short")
                                 .max(24, "Password is too long")
-                                .notOneOf([Yup.ref(password)],"Password is the same as old password"),
+                                .notOneOf([Yup.ref("oldpassword")],"Password is the same as old password"),
                                 confirmpassword: Yup.string()
                                 .required("Confirm your new password")
                                 .oneOf([Yup.ref("newpassword")], "Password is not the same")
                             })
                         }
                         
-                        onSubmit={(values)=>{setNewUserDetails(
+                        onSubmit={(values,actions)=>{setNewUserDetails(
                                 'password', values.newpassword, values.oldpassword
                             )
+                            setTimeout(() => {
+                                actions.setSubmitting(false);
+                              }, 2000);
                                             
                     }}
                     >
@@ -359,32 +402,32 @@ export default function Settings(){
                     <Form>
 
                     <h2 className="h12">Password Change</h2>
-                    <p className="answer">
+                    <div className="answer">
                     <SettingsInput name="oldpassword" maxLength="24" type="password" placeholder="Enter your old password"/>
-        
+                    <Erromsg style={{paddingLeft:'10px', textTransform:'capitalize'}}>{visibile && err2}</Erromsg>
                     {
                         changePassword ? "" : <><button onClick={newPassword} className="btns">CLICK TO UPDATE PASSWORD</button> </>                
                      }
                     
-                    </p>
+                    </div>
 
                     {
                         changePassword? 
                         <div>
                             <h2 className="h12">New Password</h2>
-                              <p className="answer">
+                              <div className="answer">
                                 <SettingsInput name="newpassword" maxLength="24" type="password"  placeholder="Enter your new password"/>
                                
-                    </p>
+                    </div>
 
                     <h2 className="h12">Confirm New Password</h2>       
-                    <p className="answer">
+                    <div className="answer">
                         <SettingsInput name="confirmpassword" maxLength="24" type="password"  placeholder="Confirm your new password"/>
                                        
-                    </p>  
+                    </div>  
 
                     {!isSubmitting && (
-                    <button type="submit" className="btns">update</button>
+                    <button type="submit" className="btns"  onClick={handleClick}>update</button>
                     )}
 
                     {isSubmitting && (
@@ -404,6 +447,8 @@ export default function Settings(){
                     </Form>
                     )}
                     </Formik>
+
+                    <Modal/>
                 </div>
             </div>
          ): ""

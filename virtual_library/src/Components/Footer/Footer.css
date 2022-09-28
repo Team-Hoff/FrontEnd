@@ -1,20 +1,9 @@
 
 
 .fo {
-    position: relative;
     margin-top: -80px;
     clear: both;
-    /* padding-top: 100px; */
 }
-/*  
-@media (max-height:800px)s {
-    footer {
-        position: static;
-    }
-    header {
-        padding-top: 40px;
-    }
-} */
 
 .footer-display {
     background-color: #2d2a30;

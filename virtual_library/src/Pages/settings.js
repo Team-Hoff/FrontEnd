@@ -78,8 +78,7 @@ export default function Settings(){
         field: field,
         new_value: new_value,
         old_value: old_value
-       })
-         .then(async(res)=>{
+       }).then(async(res)=>{
             console.log(res)
             await login();
             window.location.href = window.location

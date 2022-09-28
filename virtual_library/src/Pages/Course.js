@@ -20,9 +20,10 @@ const Course = () => {
     <MeteorRainLoading color="white"/>,
     <LadderLoading color="white"/>,<RollBoxLoading color="white"/>]
     const isAvailable = "No Course Material is available for this course";
-    const  {pathname}  = useLocation();
+    const {pathname} = useLocation();
     const [loading, setLoading] = useState(true);
     const [course, setcourse] = useState([]);
+    const [book, setBooks] = useState([]);
     const idm = pathname.slice(6);
     const converter = require('number-to-words');
 
@@ -84,11 +85,12 @@ const Course = () => {
             }
     }
 
-    useEffect( ()=> {
+    useEffect(()=>{
         async function fetchData(){
         await axios.get(`/course/${idm}`)
         .then(res => {
-          setcourse(res.data);
+          setcourse(res.data[0]);
+          setBooks(res.data[1])
           setLoading(false);
         })
         .catch(err=>{
@@ -111,7 +113,7 @@ const Course = () => {
     }
     
   
-  return (course != "") ?  (
+  return (course != "")?(
     <div>
          {loading ? (
       <div className="loader-container">
@@ -120,8 +122,6 @@ const Course = () => {
     ) :( <></>)
       }
         <Navbar/>
-
-
         <div className="hero" style={{ 
             backgroundImage: `linear-gradient(0deg, rgba(0,0,0,0.6),rgba(0,0,0,0.6)), url(${course.length !== 0 ? course[0].img: ""})`, 
             backgroundRepeat: 'no-repeat',
@@ -151,9 +151,7 @@ const Course = () => {
     <div className="containers">
         <div className="slides">
             <h1 className="lect_head">Slides</h1>
-
             {course[0].slides.map((slide)=>
-            
             <div className="lect_slides">
                 <div className="left_lect_block_4">
                     <div className="doc_icon_50x50"><svg fill="#000000" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" width="30px" height="30px">    
@@ -170,47 +168,27 @@ const Course = () => {
                     
                </div>
             </div>
-            )}
-    
-            
+            )}   
         </div>
+            
+        <div className="ref_books">
+            <h1 className="ref_book_head">Reference Books</h1>
+            {book.map((pbook) => 
+            <div className="ref_bookss">
+                <div className="ref_cov_page">
+                    <img src={pbook.image} alt="Reference Book" height="100px"></img>
+                    <h3 className="book_label">{pbook.bookName}</h3>
+                </div>
+            </div>
+            )}
+    </div> 
     </div>
     </div>
     )}
-    
-   
-  
-
-    {/* <div className="ref_books">
-        <h1 className="ref_book_head">Reference Books</h1>
-        <div className="ref_bookss">
-            <div className="ref_cov_page">
-                <img src={book} alt="Reference Book Image" height="100px"></img>
-                <h3 className="book_label">Book One</h3>
-            </div>
-            <div className="ref_cov_page">
-                <img src={book} alt="Reference Book Image" height="100px"></img>
-                <h3 className="book_label">Book One</h3>
-            </div>
-            <div className="ref_cov_page">
-                <img src={book} alt="Reference Book Image" height="100px"></img>
-                <h3 className="book_label">Book One</h3>
-            </div>
-           
-        </div>
-
-    </div>  */}
-
-
     <Footer/>
-    
-    
-    </div>
-    )
-   :
-     (
+    </div>)
+   :(
      <Navigate replace to="/404"/>
-     )
-}
+     )}
 
 export default Course;

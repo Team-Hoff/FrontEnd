@@ -2,7 +2,6 @@
 /* eslint-disable eqeqeq */
 import React, { useState, useEffect } from 'react';
 import '../Components/course.css';
-// import book from "../Assets/Asset/book.jpg";
 import axios from "./utils/axios"
 import {HiDownload, HiEye} from 'react-icons/hi';
 import Footer from '../Components/Footer/Footer';
@@ -89,7 +88,6 @@ const Course = () => {
         async function fetchData(){
         await axios.get(`/course/${idm}`)
         .then(res => {
-          console.log(res)
           setcourse(res.data[0]);
           setBooks(res.data[1])
           setLoading(false);

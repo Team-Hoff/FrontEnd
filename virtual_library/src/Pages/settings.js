@@ -47,14 +47,13 @@ export default function Settings(){
      const [err1, seterr1] = useState("");
      const [err2, seterr2] = useState("");
      const [visibile, setvisibile] = useState(false);
+     const [currentprog, setcurrentprog] = useState(programme);
+     const [currentyear, setcurrentyear] = useState(year)
 
 
      function newPassword(){
         setChangePassword(prevState => !prevState)
     } 
-
-     const ModProg = Programmes.filter((value)=> value.name !== programme)
-     const ModLevel = Level.filter((value)=> value.level !== year)
 
     function setNewyear(event){
         const p = event.target.value
@@ -64,6 +63,7 @@ export default function Settings(){
         else{
             setcolour("black")
         }
+        setcurrentyear(event.target.value)
     }
 
     
@@ -75,7 +75,7 @@ export default function Settings(){
         else{
             setcolor("black")
         }
-        
+        setcurrentprog(event.target.value)
     }
      
     const setNewUserDetails = async (field, new_value, old_value)=>{
@@ -259,7 +259,8 @@ export default function Settings(){
                         validationSchema={
                             Yup.object({
                                 programmeselect: Yup.string()
-                                .oneOf(["Agricultural Engineering", "Chemical Engineering", "Civil Engineering", "Geomatic Engineering", "Materials Engineering", "Mechanical Engineering", "Electrical Engineering", "Computer Engineering", "Aerospace Engineering", "Petroleum Engineering", "Telecom Engineering", "Geological Engineering", "Biomedical Engineering", "Petrochemical Engineering", "Metallurgical Engineering"], "Select new Programme")
+                                .oneOf(["Agricultural Engineering", "Chemical Engineering", "Civil Engineering", "Geomatic Engineering", "Materials Engineering", "Mechanical Engineering", "Electrical Engineering", "Computer Engineering", "Aerospace Engineering", "Petroleum Engineering", "Telecom Engineering", "Geological Engineering", "Biomedical Engineering", "Petrochemical Engineering", "Metallurgical Engineering"], "Select new programme")
+                                .notOneOf([(programme)],"Select new programme")
                                 .required("Select new programme")
                             })
                         }
@@ -278,11 +279,10 @@ export default function Settings(){
                     <Form onChange={setNewprog}>
                     <h2 className="h12">Programmme</h2>
                     <div className="answer">
-                    <SettingsSelect name="programmeselect" className="sele" type="dropdown" style={{color:color}}>
-                    <option style={{color: "rgba(0, 0, 0, 0.5)"}}>{programme}</option>
+                    <SettingsSelect value={currentprog} name="programmeselect" className="sele" type="dropdown" style={{color:color}}>
                     {
                         
-                        ModProg.map((prog)=>(
+                        Programmes.map((prog,index)=>(
                             <>
                             
                             <option key={prog.id} style={{color:'black'}}>{prog.name}</option>
@@ -319,8 +319,9 @@ export default function Settings(){
                         validationSchema={
                             Yup.object({
                                 yearselect: Yup.string()
-                                .oneOf(["Level 100", "Level 200", "Level 300", "Level 400"], "Select new Year")
-                                .required("Select new Year")
+                                .oneOf(["Level 100", "Level 200", "Level 300", "Level 400"], "Select new year")
+                                .required("Select new year")
+                                .notOneOf([(year)],"Select new year")
                             })
                         }
                         
@@ -338,11 +339,10 @@ export default function Settings(){
                     <h2 className="h12">Year</h2>
                     <div className="answer">
                         
-                    <SettingsSelect name="yearselect" className="sele" type="dropdown" style={{color:colour}}>
-                    <option style={{color: "rgba(0, 0, 0, 0.5)"}}>{year}</option>
+                    <SettingsSelect value={currentyear} name="yearselect" className="sele" type="dropdown" style={{color:colour}}>
                         {
                         
-                        ModLevel.map((level)=>(   
+                        Level.map((level)=>(   
                             <>
                             
                             <option key={level.id} style={{color:'black'}}>{level.level}</option>

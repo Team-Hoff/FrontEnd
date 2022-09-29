@@ -51,7 +51,7 @@ const Login = () => {
       }
 
       const resetErrors = setErrors => {
-        setTimeout(()=>setErrors({}), 5000);
+        setInterval(()=>{setErrors({})}, 1000);
       };
     
     if(loading ){
@@ -134,7 +134,7 @@ const Login = () => {
 
               <ButtonGroup>
                 
-              {resetErrors(setErrors)}
+              {()=>resetErrors(setErrors)}
                 {!isSubmitting && (
                  <StyledFormButton type="submit" onClick={handleClick}>
                   Login

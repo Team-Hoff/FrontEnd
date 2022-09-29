@@ -10,8 +10,10 @@ import Navbar from '../Components/Navbar/Navbar';
 import { useEffect } from 'react';
 import GoBack from '../Components/GoBack/GoBack';
 import '../Components/loading.css'
+import { useAuth } from './hooks/useAuth';
 
 const Program = () => {
+  const {logout} = useAuth();
   const [courseQuery, setcourseQuery] = useState(Number(1));
   const [course, setcourse] = useState([]);
   const [apro, setapro] = useState([]);
@@ -36,8 +38,11 @@ const Program = () => {
       setLoading(false)
       
     })
-    .catch(err=>{
-      console.log(err)
+    .catch((err)=> {
+      const error = err.response.data.msg;
+      if(error === "User is not Logged In"){
+          logout()
+        }
     })
   // eslint-disable-next-line react-hooks/exhaustive-deps
   }, [])

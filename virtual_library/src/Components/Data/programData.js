@@ -37,6 +37,24 @@ export const ProgramData=[
         pic: `${comp}`
     },
     {
+        id: 'biomedical',
+        name: 'Biomedical Engineering',
+        img: `${BMES}`,
+        pic: `${biomed}`
+    },
+    {
+        id: 'electrical',
+        name: 'Electrical Engineering',
+        img: `${ELEESA}`,
+        pic: `${elec}`
+    },
+    {
+        id: 'telecom',
+        name: 'Telecom Engineering',
+        img: `${Telecom}`,
+        pic: `${telecom}`
+    },
+    {
         id: 'aerospace',
         name: 'Aerospace Engineering',
         img: `${Aerospace}`,
@@ -49,22 +67,10 @@ export const ProgramData=[
         pic: `${agric}`
     },
     {
-        id: 'biomedical',
-        name: 'Biomedical Engineering',
-        img: `${BMES}`,
-        pic: `${biomed}`
-    },
-    {
         id: 'chemical',
         name: 'Chemical Engineering',
         img: `${Chemical}`,
         pic: `${chem}`
-    },
-    {
-        id: 'electrical',
-        name: 'Electrical Engineering',
-        img: `${ELEESA}`,
-        pic: `${elec}`
     },
     {
         id: 'geological',
@@ -89,12 +95,6 @@ export const ProgramData=[
         name: 'Civil Engineering',
         img: `${Civil}`,
         pic: `${civil}`
-    },
-    {
-        id: 'telecom',
-        name: 'Telecom Engineering',
-        img: `${Telecom}`,
-        pic: `${telecom}`
     },
     {
         id: 'petroleum',

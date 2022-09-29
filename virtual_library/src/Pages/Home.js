@@ -5,10 +5,12 @@ import Searchbar from '../Components/Searchbar/Searchbar';
 import Navbar from '../Components/Navbar/Navbar';
 import Footer from '../Components/Footer/Footer';
 import ProgramCard from '../Components/ProgramCard/ProgramCard';
+import { useAuth } from './hooks/useAuth';
 
 const Home = () => {
   const [course, setcourse] = useState([])
-  
+  const {logout} = useAuth();
+
   useEffect( ()=> {
     function fetchData(){
       axios.get("/search")
@@ -16,8 +18,11 @@ const Home = () => {
       setcourse(res.data);
       // setLoading(false);
     })
-    .catch(err=>{
-      console.log(err)
+    .catch((err)=> {
+      const error = err.response.data.msg;
+      if(error === "User is not Logged In"){
+          logout()
+        }
     })
     }
     fetchData();

@@ -123,7 +123,7 @@ const ResetPassword = () => {
               </ButtonGroup>
               </Form>
             )}
-          </Formik>)
+          </Formik>
           </>)
           :(
             <>

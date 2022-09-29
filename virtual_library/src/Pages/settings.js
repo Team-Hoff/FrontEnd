@@ -17,7 +17,7 @@ import { Erromsg } from "../Components/Style";
 
 export default function Settings(){
 
-    const {user, login} = useAuth();
+    const {user, login, logout} = useAuth();
     const [loading, setLoading] = useState(false);
     const {fullname, username, email, programme, year} = user;
     const [color, setcolor] = useState("gray");
@@ -90,8 +90,11 @@ export default function Settings(){
             window.location.href = window.location
             setLoading(false);
          })
-         .catch((err)=>{
+         .catch((err)=> {
             const error = err.response.data.msg;
+            if(error === "User is not Logged In"){
+                logout()
+              }
             if(error === "password incorrect"){
                 seterr2(error)
               }

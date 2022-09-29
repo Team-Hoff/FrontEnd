@@ -11,7 +11,9 @@ export const AuthProvider = ({ children }) => {
 
   //set the login function call in the Auth component and render the component
   const login = async () => {
-      const response = await axios.get("/api/auth")
+      const response = await 
+      axios.get("/api/auth")
+      .catch(()=>{window.location='/'})
       const user_details = response.data
       setUser(user_details)
       return
@@ -32,7 +34,8 @@ export const AuthProvider = ({ children }) => {
     () => ({
       user,
       login,
-      logout
+      logout,
+      setUser
     }),
     // eslint-disable-next-line react-hooks/exhaustive-deps
     [user]

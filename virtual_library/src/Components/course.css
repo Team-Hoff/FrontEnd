@@ -26,9 +26,8 @@
 
 
 
-
 .containers{
-    min-height: 60vh;
+    min-height: 70vh;
     
    
 }
@@ -95,12 +94,16 @@
 }
 
 .ref_books{
-    min-width: 100vw;
+    /* min-width: 100vw; */
+    height: 100px;
+    width: 100px;
     margin:2em auto;
 }
 .ref_bookss{
+    /* width: 70vw; */
     display: flex;
-    gap:2em;
+    gap:1em;
+    flex-wrap: wrap
     /* justify-content: center; */
    
 }
@@ -125,7 +128,9 @@
 }
 
 .ref_cov_page{
-    width: 120px;
+    /* width: 120px; */
+    /* flex: 100%; */
+    /* padding: 5px; */
 }
 
 .book_label{
@@ -134,12 +139,12 @@
 }
 
 .image{
-    height:120px;
-    width: 120px;
+    height:300px;
+    width: 300px;
 }
 
 .Available{
-    font-size: 80px;
+    font-size: 50px;
     text-transform: uppercase;
     margin: 0 auto 2em ;
     padding: 100px;
@@ -185,7 +190,7 @@
 
 @media screen and (max-width: 400px) {
     .Available{
-        font-size: 40px;
+        font-size: 30px;
     }
    
 }

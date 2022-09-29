@@ -94,17 +94,15 @@
 }
 
 .ref_books{
-    /* min-width: 100vw; */
     height: 100px;
     width: 100px;
     margin:2em auto;
 }
 .ref_bookss{
-    /* width: 70vw; */
     display: flex;
     gap:1em;
     flex-wrap: wrap
-    /* justify-content: center; */
+    
    
 }
 
@@ -128,13 +126,13 @@
 }
 
 .ref_cov_page{
-    /* width: 120px; */
-    /* flex: 100%; */
-    /* padding: 5px; */
+    gap: 60px;
+    margin-left: 60px;
 }
 
 .book_label{
-    font-size: 20px;
+    font-size: 22px;
+    font-family: 'Poppins';
     word-break: break-all;
 }
 
@@ -185,6 +183,9 @@
     }
     .program_fonts{
         font-size: 40px;
+    }
+    .ref_cov_page{
+        margin: 0;
     }
 }
 

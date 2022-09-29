@@ -40,7 +40,7 @@ const {logout} = useAuth();
             <div className="modall-content" >
               <div className="topic">
                   <div className="pict"> </div>
-               <h2>Delete User</h2>
+               <h2>Delete Account</h2>
              </div>
             <hr/>
                <h3>  Are you sure you want to delete your account?</h3>

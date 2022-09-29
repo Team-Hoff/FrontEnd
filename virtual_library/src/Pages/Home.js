@@ -8,13 +8,12 @@ import ProgramCard from '../Components/ProgramCard/ProgramCard';
 
 const Home = () => {
   const [course, setcourse] = useState([])
-  
+
   useEffect( ()=> {
     function fetchData(){
       axios.get("/search")
     .then(res => {
       setcourse(res.data);
-      // setLoading(false);
     })
     .catch(err=>{
       console.log(err)
@@ -22,6 +21,14 @@ const Home = () => {
     }
     fetchData();
 }, [])
+
+  useEffect(() => {
+    
+    window.localStorage.setItem('Program', JSON.stringify(1))
+
+  // eslint-disable-next-line react-hooks/exhaustive-deps
+  }, [])
+
   
 
   return (

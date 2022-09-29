@@ -20,7 +20,7 @@ const Program = () => {
 
   const  {id } = useParams()
   const prog = ProgramData.filter((pro) => pro.id === id)
-
+  
   useEffect(() => {
     setapro(prog)
 
@@ -47,7 +47,7 @@ const Program = () => {
 
  
   useEffect(() => {
-    
+   
     if(data !== null){
       setcourseQuery(JSON.parse(data))
     }

@@ -101,9 +101,8 @@
 .ref_bookss{
     display: flex;
     gap:1em;
-    flex-wrap: wrap
-    
-   
+    flex-wrap: wrap;
+    justify-content: center;
 }
 
 .first_link{
@@ -120,7 +119,6 @@
     text-decoration: underline;
 }
 
-
 .right_lect_block_4 a{
     text-decoration: none;
 }
@@ -132,6 +130,7 @@
 
 .book_label{
     font-size: 22px;
+    width: 300px;
     font-family: 'Poppins';
     word-break: break-all;
 }

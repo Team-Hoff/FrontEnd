@@ -170,7 +170,7 @@ const Course = () => {
                             {loaders[pos]}
                         </div>
                         <div className="right_lect_block_4">
-                            <span key={course.slides} className='hov' onClick={() => { displayFile(course, `Lecture ${converter.toWords(slide).charAt(0).toUpperCase() + converter.toWords(slide).slice(1)}`) } }><HiEye /></span>
+                            <span key={course.slides} className='hov' onClick={() => { displayFile(course, `Lecture ${converter.toWords(slide).charAt(0).toUpperCase() + converter.toWords(slide).slice(1)}`) } }><HiEye style={{marginRight:'10px'}} /></span>
                             <span key={course.slides} className='hov' onClick={() => { getFiles(course, `Lecture ${converter.toWords(slide).charAt(0).toUpperCase() + converter.toWords(slide).slice(1)}`); } }><HiDownload /></span>
                         </div>
                     </div>)}   
@@ -188,7 +188,7 @@ const Course = () => {
                     <div className="ref_cov_page">
                         <h3 className="book_label">{pbook.bookName}</h3>
                         <img className='image' src={pbook.image} alt="Reference Book"></img>
-                        <div style={{textAlign:'center', fontSize:'20px', fontFamily:'Poppins'}}><a href={pbook.bookLink}>DOWNLOAD</a></div>
+                        <div style={{textAlign:'center', fontSize:'20px', fontFamily:'Poppins'}}><a href={pbook.bookLink} style={{textDecoration:'none'}}>DOWNLOAD</a></div>
                     </div>
                 )}
             </div>

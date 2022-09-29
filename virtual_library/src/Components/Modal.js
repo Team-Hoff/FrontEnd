@@ -5,6 +5,7 @@ import { useAuth } from "../Pages/hooks/useAuth";
 
 
 export default function Modal( ){
+const [deleted, setdeleted] = useState(false);
 const[modal, setModal]= useState(false);
 const {logout} = useAuth();
 
@@ -13,16 +14,36 @@ const {logout} = useAuth();
     }
 
     const deleteAccount=()=>{
+        setdeleted(true)
         logout()
+        document.body.classList.remove('active-modall')
         axios.delete("/delete")
-        .then(async(res)=>{
+        .then((res)=>{
             console.log("done")
+           
         })
         .catch((err)=>{
             console.log(err)
+         
+            
         })
-    
+        
+        
+        
     }
+
+    if(deleted){
+        return(
+            <div className="modall">
+            <div className="overlay"></div>
+            <div className="modall-content" style={{justifyContent:'center', textAlign:'center', fontFamily:'Poppins'}} >
+               <h3>YOUR ACCOUNT HAS BEEN DELETED</h3>
+               <h4>LOGGING OUT...</h4>
+            </div>
+            </div>
+        )
+    }
+
 
     if(modal){
         document.body.classList.add('active-modall')
@@ -33,8 +54,10 @@ const {logout} = useAuth();
 
     return(
         <>
-        <button onClick={()=>toggleModal()} className="button-modal">Delete Account</button>
+        <button onClick={toggleModal} className="button-modal">Delete Account</button>
+        
         {modal ? (
+            
         <div className="modall">
             <div onClick={toggleModal} className="overlay" ></div>
             <div className="modall-content" >

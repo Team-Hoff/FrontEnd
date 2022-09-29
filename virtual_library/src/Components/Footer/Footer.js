@@ -22,7 +22,7 @@ function Footer() {
 <div className="footer-center">
     <div style={{paddingBottom:'5px'}}>
         <FaMapMarked style={{backgroundColor:'white'}}/>
-        <p>KNUST, KUMASI</p>
+        <p>COE 3, KNUST</p>
     </div>
 
     <div style={{paddingBottom:'5px'}}>
@@ -31,18 +31,18 @@ function Footer() {
     </div>
     <div style={{paddingBottom:'5px'}}>
         <FaEnvelopeSquare style={{backgroundColor:'white'}}/>
-        <p><a href="#">teamHoff@gmail.com</a></p>
+        <p>hoffteam59@gmail.com</p>
     </div>
 </div>
 <div className="footer-right">
     <br/>
     <br/>
     <div className="footer-icons">
-        <a href="https://www.facebook.com/" target='_blank'><FaFacebookSquare/></a>
-        <a href="https://www.instagram.com/" target='_blank'><FaInstagramSquare/></a>
-        <a href="https://www.linkedin.com/" target='_blank'><FaLinkedin/></a>
-        <a href="https://twitter.com/" target='_blank'><FaTwitterSquare/></a>
-        <a href="https://www.youtube.com/" target='_blank'><FaYoutubeSquare/></a>
+        <a href="https://www.facebook.com/"><FaFacebookSquare/></a>
+        <a href="https://www.instagram.com/"><FaInstagramSquare/></a>
+        <a href="https://www.linkedin.com/"><FaLinkedin/></a>
+        <a href="https://twitter.com/"><FaTwitterSquare/></a>
+        <a href="https://www.youtube.com/"><FaYoutubeSquare/></a>
     </div>
     
 </div>

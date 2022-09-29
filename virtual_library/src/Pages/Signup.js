@@ -79,11 +79,11 @@ const Signup = () => {
           <div style={{ display: 'flex' }}>
             <Avatar image={Logo} />
             <StyledTitle color='Light black' size={40}>
-              <span style={{ font: "normal 36px 'Cookie' cursive", margin: 0 }}>Virtual</span><span style={{ color: '#e0ac1c', fontFamily: 'Poppins' }}>Library</span>
+              <span style={{ font: "normal 36px 'Poppins', cursive", margin: 0 }}>Virtual</span><span style={{ color: '#e0ac1c',font: "normal 36px 'Poppins', cursive" }}>Library</span>
             </StyledTitle></div>
 
           {!signedUp ? (<>
-            <StyledSubTitle color='Black' size={35} style={{ fontFamily: 'Poppins' }}>Signup</StyledSubTitle>
+            <StyledSubTitle color='Black' size={35} style={{ font: "normal 36px 'Poppins', cursive" }}>Signup</StyledSubTitle>
             <Formik
               initialValues={{
                 fullname: "",

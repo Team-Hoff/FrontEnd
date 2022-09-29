@@ -86,11 +86,17 @@ export default function Settings(){
         old_value: old_value
        })
          .then(async(res)=>{
+            console.log(res)
+            const response = res.data.msg;
+            if(response === "password changed"){
+                seterr2(response)
+            }
             await login();
             window.location.href = window.location
             setLoading(false);
          })
          .catch((err)=> {
+            console.log(err)
             const error = err.response.data.msg;
             if(error === "User is not Logged In"){
                 logout()

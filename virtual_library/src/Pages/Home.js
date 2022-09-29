@@ -50,7 +50,7 @@ const Home = () => {
                     <h1 style={{textAlign:'center', paddingTop:'30px'}}> <span className="text-warning">
                         WELCOME TO THE CoE VIRTUAL LIBRARY
                     </span></h1>
-                    <p style={{color:'white', textAlign:'center'}}>You don't need to go through  the stress of asking your colleagues for your course materials. Get all your engineering  course materials and tutorial video links right here !!</p>      
+                    <p style={{color:'white', textAlign:'center'}}>You don't need to go through  the stress of asking your colleagues for your course materials. Get all your engineering  course materials right here !!</p>      
                     <div className="searchb"><Searchbar placeholder="Search for course..." data={course}/></div>
                 </div>              
             </div>

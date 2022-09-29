@@ -36,10 +36,10 @@ const ResetPassword = () => {
         <div style={{display:'flex'}}>
         <Avatar image={Logo}/>
           <StyledTitle color='Light black' size={40}>
-            <span style={{font: "normal 36px 'Cookie' cursive", margin: 0}}>Virtual</span>
-            <span style={{color:'#e0ac1c',fontFamily: 'Poppins'}}>Library</span>
+            <span style={{font: "normal 36px 'Poppins', cursive", margin: 0}}>Virtual</span>
+            <span style={{color:'#e0ac1c',font: "normal 36px 'Poppins', cursive"}}>Library</span>
           </StyledTitle></div>
-          <StyledSubTitle color='Black' size={35} style={{fontFamily:'Poppins'}}>Reset Password</StyledSubTitle>
+          <StyledSubTitle color='Black' size={35} style={{font: "normal 36px 'Poppins', cursive"}}>Reset Password</StyledSubTitle>
           <span>INVALID TOKEN !!!</span>
           <ExtraText>
             Click <TextLink to="/forgotpassword">ForgotPassword</TextLink> to get a valid token
@@ -59,13 +59,13 @@ const ResetPassword = () => {
         <div style={{display:'flex'}}>
         <Avatar image={Logo}/>
           <StyledTitle color='Light black' size={40}>
-            <span style={{font: "normal 36px 'Cookie' cursive", margin: 0}}>Virtual</span><span style={{color:'#e0ac1c',fontFamily: 'Poppins'}}>Library</span>
+            <span style={{font: "normal 36px 'Poppins', cursive", margin: 0}}>Virtual</span><span style={{color:'#e0ac1c',font: "normal 36px 'Poppins', cursive"}}>Library</span>
           </StyledTitle></div>
           
           
           {!success?(
             <>
-            <StyledSubTitle color='Black' size={35} style={{fontFamily:'Poppins'}}>Reset Password</StyledSubTitle>
+            <StyledSubTitle color='Black' size={35} style={{font: "normal 36px 'Poppins', cursive"}}>Reset Password</StyledSubTitle>
           <Formik
             initialValues={{
              password : "",

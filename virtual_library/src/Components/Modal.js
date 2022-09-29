@@ -6,22 +6,22 @@ import { useAuth } from "../Pages/hooks/useAuth";
 
 export default function Modal( ){
 const[modal, setModal]= useState(false);
-const {logout} = useAuth;
+const {logout} = useAuth();
 
     const toggleModal = ()=>{
         setModal(!modal)
     }
 
-    function deleteAccount(){
+    const deleteAccount=()=>{
+        logout()
         axios.delete("/delete")
         .then(async(res)=>{
-            await logout()
-            console.log(res)
+            console.log("done")
         })
         .catch((err)=>{
             console.log(err)
         })
-        return 
+    
     }
 
     if(modal){
@@ -40,14 +40,14 @@ const {logout} = useAuth;
             <div className="modall-content" >
               <div className="topic">
                   <div className="pict"> </div>
-               <h2>Delete User</h2>
+               <h2>Delete Account</h2>
              </div>
             <hr/>
                <h3>  Are you sure you want to delete your account?</h3>
     
                 <br/><br/>
                 <button className="close-modall" onClick={toggleModal}>No</button>
-                <button className="close-modalll" onClick={()=>deleteAccount}>Yes</button>
+                <button className="close-modalll" onClick={deleteAccount}>Yes</button>
             </div>
             </div>
         

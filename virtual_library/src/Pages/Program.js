@@ -14,14 +14,15 @@ import { useAuth } from './hooks/useAuth';
 
 const Program = () => {
   const {logout} = useAuth();
-  const [courseQuery, setcourseQuery] = useState(Number(1));
+  const data = window.localStorage.getItem('Program');
+  const [courseQuery, setcourseQuery] = useState(Number(data));
   const [course, setcourse] = useState([]);
   const [apro, setapro] = useState([]);
   const [loading, setLoading] = useState(true);
 
   const  {id } = useParams()
   const prog = ProgramData.filter((pro) => pro.id === id)
-
+  
   useEffect(() => {
     setapro(prog)
 
@@ -49,6 +50,21 @@ const Program = () => {
   
   const cour = course.filter((cor) => cor.IDM === id)
 
+ 
+  useEffect(() => {
+   
+    if(data !== null){
+      setcourseQuery(JSON.parse(data))
+    }
+  // eslint-disable-next-line react-hooks/exhaustive-deps
+  }, [])
+  
+  useEffect(() => {
+    window.localStorage.setItem('Program', JSON.stringify(courseQuery))
+
+ 
+   }, [courseQuery])
+  
 
   if(loading ){
     return (
@@ -104,7 +120,8 @@ const Program = () => {
             }</h2> </div>
 
           <div>
-            <select className='sel' onChange={(event) => setcourseQuery(event.target.value)}>
+            <select className='sel' defaultValue={courseQuery} 
+            onChange={(event) => setcourseQuery(event.target.value)}>
               <option value={1}>
                 LEVEL 100
               </option>

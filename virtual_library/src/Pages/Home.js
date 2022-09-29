@@ -16,7 +16,6 @@ const Home = () => {
       axios.get("/search")
     .then(res => {
       setcourse(res.data);
-      // setLoading(false);
     })
     .catch((err)=> {
       const error = err.response.data.msg;
@@ -27,6 +26,14 @@ const Home = () => {
     }
     fetchData();
 }, [])
+
+  useEffect(() => {
+    
+    window.localStorage.setItem('Program', JSON.stringify(1))
+
+  // eslint-disable-next-line react-hooks/exhaustive-deps
+  }, [])
+
   
 
   return (

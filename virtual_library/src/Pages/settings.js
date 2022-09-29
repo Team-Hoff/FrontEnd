@@ -47,14 +47,13 @@ export default function Settings(){
      const [err1, seterr1] = useState("");
      const [err2, seterr2] = useState("");
      const [visibile, setvisibile] = useState(false);
+     const [currentprog, setcurrentprog] = useState(programme);
+     const [currentyear, setcurrentyear] = useState(year)
 
 
      function newPassword(){
         setChangePassword(prevState => !prevState)
     } 
-
-     const ModProg = Programmes.filter((value)=> value.name !== programme)
-     const ModLevel = Level.filter((value)=> value.level !== year)
 
     function setNewyear(event){
         const p = event.target.value
@@ -64,6 +63,7 @@ export default function Settings(){
         else{
             setcolour("black")
         }
+        setcurrentyear(event.target.value)
     }
 
     
@@ -75,7 +75,7 @@ export default function Settings(){
         else{
             setcolor("black")
         }
-        
+        setcurrentprog(event.target.value)
     }
      
     const setNewUserDetails = async (field, new_value, old_value)=>{
@@ -116,9 +116,9 @@ export default function Settings(){
         },3000);
       }
 
-      const resetErrors = setErrors => {
-        setTimeout(()=>setErrors({}), 5000);
-      };
+    //   const resetErrors = setErrors => {
+    //     setTimeout(()=>setErrors({}), 5000);
+    //   };
 
      if(loading ){
         return (
@@ -159,6 +159,8 @@ export default function Settings(){
                                 .min(7, "Fullname is too short")
                                 .max(29, "Fullname is too long")
                                 .notOneOf([(fullname)],"Name is the same as old name")
+                                .matches(/^[A-Za-z0-9\s]+$/, "Only alphanumeric are allowed")
+                                .matches(/^(?![0-9]*$)/, "Only numbers are not allowed")
                             })
                         }
                         
@@ -177,7 +179,7 @@ export default function Settings(){
                     <div className="answer">
                     <SettingsInput name="fullnames" type="text" placeholder={fullname} maxLength="29"/>
                     
-                    {resetErrors(setErrors)}
+                    {/* {resetErrors(setErrors)} */}
                     {!isSubmitting && (
                     <button type="submit" className="btns">update</button>
                     )}
@@ -209,6 +211,8 @@ export default function Settings(){
                                 .min(2, "Username is too short")
                                 .max(29, "Username is too long")
                                 .notOneOf([(username)],"Username is the same as old username")
+                                .matches(/^[A-Za-z0-9\s]+$/, "Only alphanumeric are allowed")
+                                .matches(/^(?![0-9]*$)/, "Only numbers are not allowed")
                             })
                         }
                         
@@ -230,7 +234,7 @@ export default function Settings(){
                     <SettingsInput name="usernames" type="text" placeholder={username} maxLength="29"/>
                     <Erromsg style={{paddingLeft:'10px', textTransform:'capitalize'}}>{visibile && err1}</Erromsg>
 
-                    {resetErrors(setErrors)}
+                    {/* {resetErrors(setErrors)} */}
                     {!isSubmitting && (
                     <button type="submit" className="btns"  onClick={handleClick}>update</button>
                     )}
@@ -258,7 +262,8 @@ export default function Settings(){
                         validationSchema={
                             Yup.object({
                                 programmeselect: Yup.string()
-                                .oneOf(["Agricultural Engineering", "Chemical Engineering", "Civil Engineering", "Geomatic Engineering", "Materials Engineering", "Mechanical Engineering", "Electrical Engineering", "Computer Engineering", "Aerospace Engineering", "Petroleum Engineering", "Telecom Engineering", "Geological Engineering", "Biomedical Engineering", "Petrochemical Engineering", "Metallurgical Engineering"], "Select new Programme")
+                                .oneOf(["Agricultural Engineering", "Chemical Engineering", "Civil Engineering", "Geomatic Engineering", "Materials Engineering", "Mechanical Engineering", "Electrical Engineering", "Computer Engineering", "Aerospace Engineering", "Petroleum Engineering", "Telecom Engineering", "Geological Engineering", "Biomedical Engineering", "Petrochemical Engineering", "Metallurgical Engineering"], "Select new programme")
+                                .notOneOf([(programme)],"Select new programme")
                                 .required("Select new programme")
                             })
                         }
@@ -277,11 +282,10 @@ export default function Settings(){
                     <Form onChange={setNewprog}>
                     <h2 className="h12">Programmme</h2>
                     <div className="answer">
-                    <SettingsSelect name="programmeselect" className="sele" type="dropdown" style={{color:color}}>
-                    <option style={{color: "rgba(0, 0, 0, 0.5)"}}>{programme}</option>
+                    <SettingsSelect value={currentprog} name="programmeselect" className="sele" type="dropdown" style={{color:color}}>
                     {
                         
-                        ModProg.map((prog)=>(
+                        Programmes.map((prog,index)=>(
                             <>
                             
                             <option key={prog.id} style={{color:'black'}}>{prog.name}</option>
@@ -291,7 +295,7 @@ export default function Settings(){
                     }
                     </SettingsSelect>
 
-                    {resetErrors(setErrors)}
+                    {/* {resetErrors(setErrors)} */}
                     {!isSubmitting && (
                     <button type="submit" className="btns">update</button>
                     )}
@@ -318,8 +322,9 @@ export default function Settings(){
                         validationSchema={
                             Yup.object({
                                 yearselect: Yup.string()
-                                .oneOf(["Level 100", "Level 200", "Level 300", "Level 400"], "Select new Year")
-                                .required("Select new Year")
+                                .oneOf(["Level 100", "Level 200", "Level 300", "Level 400"], "Select new year")
+                                .required("Select new year")
+                                .notOneOf([(year)],"Select new year")
                             })
                         }
                         
@@ -337,11 +342,10 @@ export default function Settings(){
                     <h2 className="h12">Year</h2>
                     <div className="answer">
                         
-                    <SettingsSelect name="yearselect" className="sele" type="dropdown" style={{color:colour}}>
-                    <option style={{color: "rgba(0, 0, 0, 0.5)"}}>{year}</option>
+                    <SettingsSelect value={currentyear} name="yearselect" className="sele" type="dropdown" style={{color:colour}}>
                         {
                         
-                        ModLevel.map((level)=>(   
+                        Level.map((level)=>(   
                             <>
                             
                             <option key={level.id} style={{color:'black'}}>{level.level}</option>
@@ -350,7 +354,7 @@ export default function Settings(){
                     }
                     </SettingsSelect>
                      
-                    {resetErrors(setErrors)}
+                    {/* {resetErrors(setErrors)} */}
                     {!isSubmitting && (
                     <button type="submit" className="btns">update</button>
                     )}
@@ -432,11 +436,11 @@ export default function Settings(){
                                        
                     </div>  
                     
-                    {/* {resetErrors(setErrors)} */}
+                    
                     {!isSubmitting && (
                     <button type="submit" className="btns"  onClick={handleClick}>update</button>
                     )}
-                    {resetErrors(setErrors)}
+                    {/* {resetErrors(setErrors)} */}
                     {isSubmitting && (
                         <div style={{paddingLeft:'15px'}}>
                         <ThreeDots

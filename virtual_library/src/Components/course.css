@@ -133,6 +133,7 @@
     width: 300px;
     font-family: 'Poppins';
     word-break: break-all;
+    text-align: center;
 }
 
 .image{

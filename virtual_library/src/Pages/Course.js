@@ -21,12 +21,14 @@ const Course = () => {
     <MeteorRainLoading color="white"/>,
     <LadderLoading color="white"/>,<RollBoxLoading color="white"/>]
     const isAvailable = "No Slides are available for this course";
+    const notAvailable = "No Course Materials are available for this course";
     const {pathname} = useLocation();
     const [loading, setLoading] = useState(true);
     const [course, setcourse] = useState([]);
     const [book, setBooks] = useState([]);
     const idm = pathname.slice(6);
     const converter = require('number-to-words');
+    const[modal, setModal]= useState(false);
 
     const getFiles = (path, lecture_name) => {
         setLoading(true);
@@ -83,12 +85,11 @@ const Course = () => {
                 logout()
               }
             setLoading(false)
-            alert(`${lecture_name} is not available`)
         })
     break;
     case "pptx":
     case "ppt":
-                    alert("Cannot View powerpoint in browser for now, please download")
+                    setModal(true)
                     setLoading(false)
                     break;
                 default:
@@ -101,8 +102,9 @@ const Course = () => {
         await axios.get(`/course/${idm}`)
         .then(res => {
           setcourse(res.data[0]);
-          setBooks(res.data[1])
+          setBooks(res.data[1]);
           setLoading(false);
+          
         })
         .catch(err=>{
           console.log(err)
@@ -111,7 +113,6 @@ const Course = () => {
         fetchData();
     // eslint-disable-next-line react-hooks/exhaustive-deps
     }, [])
-
 
     if(loading ){
         return (
@@ -122,7 +123,46 @@ const Course = () => {
         </div>
         )
     }
-    
+
+    if(course[0].slides == "" && book == ""){
+        return(
+            <><Navbar /><div className="hero" style={{
+                backgroundImage: `linear-gradient(0deg, rgba(0,0,0,0.6),rgba(0,0,0,0.6)), url(${course.length !== 0 ? course[0].img : ""})`,
+                backgroundRepeat: 'no-repeat',
+                backgroundSize: '100% 100%'
+            }}>
+
+                {course.length !== 0 ? <h1> <span className='program_fonts'>
+                    {course[0].name.toUpperCase()}
+                </span></h1> : ""}
+
+            </div><div className='Everything'>
+
+                    <div style={{ display: 'flex' }}>
+                        <div className="containers">
+                            <div style={{ marginTop: '25px' }}><GoBack /></div>
+                            <div className='Available'>{notAvailable}</div>
+                            {loaders[pos]}
+                        </div>
+                    </div>
+                </div>
+                <Footer/>
+                </>
+     
+        )
+    }
+
+    const toggleModal = ()=>{
+        setModal(!modal)
+    }
+
+    if(modal){
+        document.body.classList.add('active-modall')
+    }
+    else{
+        document.body.classList.remove('active-modall')
+    }
+
   
   return (course != "")?(
     <div>
@@ -147,7 +187,41 @@ const Course = () => {
 
          </div>
          <div className='Everything'>
-     {(course[0].slides == "") ? 
+    
+         
+    
+        <>
+
+
+        {modal ? (
+            
+        <div className="modall">
+            <div onClick={toggleModal} className="overlay" ></div>
+            <div className="modall-content" >
+              <div className="topic">
+             </div>
+            <hr/>
+               <h3>Cannot view powerpoint in browser for now, please download</h3>
+    
+                <br/><br/>
+                <button className="close-modall" onClick={toggleModal}>OK</button>
+            </div>
+            </div>
+        
+        ) :(
+            <></>
+        )
+
+        }
+            </>   
+    
+    
+    
+    
+
+     {
+     
+     (course[0].slides == "") ? 
         <div style={{display:'flex'}}> 
             <div className="containers"> 
                 <div style={{marginTop:'25px'}}><GoBack/></div>  

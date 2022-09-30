@@ -110,11 +110,13 @@ const Signup = () => {
                     .matches(/^(?![0-9]*$)/, "Only numbers are not allowed"),
                   email: Yup.string()
                     .required("Please enter an email")
-                    .email("Invalid email format"),
+                    .email("Invalid email format")
+                    .matches( /^((?![/*<>#$%^&]).)*$/, "Symbol not allowed for this field"),
                   password: Yup.string()
                     .required("Please enter a password")
                     .min(5, "Password is too short")
-                    .max(24, "Password is too long"),
+                    .max(24, "Password is too long")
+                    .matches( /^((?![@/*<>#$%^&]).)*$/, "Symbol not allowed for this field"),
                   repeatPassword: Yup.string()
                     .required("Confirm your password")
                     .oneOf([Yup.ref("password")], "Password is not the same"),

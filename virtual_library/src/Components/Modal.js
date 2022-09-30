@@ -16,7 +16,6 @@ const {logout} = useAuth();
     const deleteAccount=()=>{
         setdeleted(true)
         logout()
-        document.body.classList.remove('active-modall')
         axios.delete("/delete")
         .then((res)=>{
             console.log("done")
@@ -33,12 +32,19 @@ const {logout} = useAuth();
     }
 
     if(deleted){
+        setTimeout(() => {
+            document.body.classList.remove('active-modall')
+        }, 2000);
         return(
             <div className="modall">
             <div className="overlay"></div>
             <div className="modall-content" style={{justifyContent:'center', textAlign:'center', fontFamily:'Poppins'}} >
                <h3>YOUR ACCOUNT HAS BEEN DELETED</h3>
-               <h4>LOGGING OUT...</h4>
+               <h4 className="flexx">LOGGING OUT
+                    <div className="dot1">.</div>
+                    <div className="dot2">.</div>
+                    <div className="dot3">.</div>
+                </h4> 
             </div>
             </div>
         )
@@ -55,7 +61,7 @@ const {logout} = useAuth();
     return(
         <>
         <button onClick={toggleModal} className="button-modal">Delete Account</button>
-        
+
         {modal ? (
             
         <div className="modall">

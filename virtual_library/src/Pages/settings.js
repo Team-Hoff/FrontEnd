@@ -398,7 +398,8 @@ export default function Settings(){
                                 .required("Please enter your new password")
                                 .min(5, "Password is too short")
                                 .max(24, "Password is too long")
-                                .notOneOf([Yup.ref("oldpassword")],"Password is the same as old password"),
+                                .notOneOf([Yup.ref("oldpassword")],"Password is the same as old password")
+                                .matches( /^((?![@/*<>#$%^&]).)*$/, "Symbol not allowed for this field"),
                                 confirmpassword: Yup.string()
                                 .required("Confirm your new password")
                                 .oneOf([Yup.ref("newpassword")], "Password is not the same")

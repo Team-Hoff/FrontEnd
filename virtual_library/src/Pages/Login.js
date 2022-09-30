@@ -21,7 +21,10 @@ const Login = () => {
   const {search} = useLocation();
 
   const googleAuth = () =>{
-   window.location.href = "http://localhost:3500/api/auth/google"
+    window.open(
+			`http://localhost:3500/api/auth/google`,
+			"_self"
+		);
   }
   
   const handleSubmit = async(inputs) => {
@@ -43,7 +46,6 @@ const Login = () => {
 
       const handleClick = () =>{
         setvisibile(true);
-
         setTimeout(()=>{
           setvisibile(false);
           setError("");

@@ -55,7 +55,6 @@ const ForgotPassword = () => {
           <Formik
             initialValues={{
               email : "",
-              
             }}
             validationSchema={
               Yup.object({

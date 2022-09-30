@@ -18,8 +18,8 @@ const Home = () => {
       setcourse(res.data);
     })
     .catch((err)=> {
-      const error = err.response.data.msg;
-      if(error === "User is not Logged In"){
+      const error = err.response.status;
+      if(error === 401){
           logout()
         }
     })

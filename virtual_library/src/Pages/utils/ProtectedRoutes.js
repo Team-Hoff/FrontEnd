@@ -8,7 +8,6 @@ import Course from '../Course';
 import Logout from "./Logout";
 import Settings from "../settings";
 import PageNotFound from "../PageNotFound/PageNotFound";
-// import Display from "./Display";
 import ForgotPassword from "../PasswordChange/ForgotPassword";
 import ResetPassword from "../PasswordChange/ResetPassword";
 import AboutUs from "../AboutUs/Aboutus";
@@ -73,16 +72,7 @@ const ProtectedRoutes = () => {
         {
             path: "*",
             element: <Navigate replace to="/404"/>
-        },
-        // {
-        //     path: "/test",
-        //     element: <Display/>   
-        // },
-        
-        
-        
-
-    ])
+        },])
 
     return routes
 

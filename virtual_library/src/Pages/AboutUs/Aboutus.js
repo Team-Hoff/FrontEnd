@@ -15,22 +15,15 @@ function Aboutus(){
             <div className="About-us">
             <div style={{display:'flex'}}>
             <div style={{marginTop:'25px', width:'50px'}}><GoBack/></div> 
-
             <div className="AboutUs-image">
-
                 <div className="group-name"></div>
-
             </div>
             </div>
 
 
             <div className="team">
-
                 <h2 className="highlights">TEAM HOFF</h2>
-
-                <p>We are a team made up of 12 people who share the same interest and vision. </p>
-
-
+                    <p>We are a team made up of 12 people who share the same interest and vision. </p>
             </div>
 
             <div className="vision">

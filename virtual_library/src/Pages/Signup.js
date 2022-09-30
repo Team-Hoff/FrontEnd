@@ -50,7 +50,6 @@ const Signup = () => {
     seterr1("");
     seterr2("");
     seterr3("");
-
     setTimeout(() => {
       setvisibile(false);
 

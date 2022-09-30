@@ -107,6 +107,9 @@ export default function Settings(){
             else if (error === "username is already taken"){
                 seterr1(error)
             }
+            if(err.response.status === 401){
+                    logout()
+                  }
             setLoading(false)
          })
      }

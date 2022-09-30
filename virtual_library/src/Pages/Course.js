@@ -140,7 +140,7 @@ const Course = () => {
 
                     <div style={{ display: 'flex' }}>
                         <div className="containers">
-                            <div style={{ marginTop: '25px' }}><GoBack /></div>
+                            <div style={{ marginTop: '25px', width:'60px' }}><GoBack /></div>
                             <div className='Available'>{notAvailable}</div>
                             {loaders[pos]}
                         </div>
@@ -224,7 +224,7 @@ const Course = () => {
      (course[0].slides == "") ? 
         <div style={{display:'flex'}}> 
             <div className="containers"> 
-                <div style={{marginTop:'25px'}}><GoBack/></div>  
+                <div style={{marginTop:'25px', width:'60px'}}><GoBack/></div>  
                 <div className='Available'>{isAvailable}</div>
                     {loaders[pos]}
             </div> 
@@ -263,7 +263,7 @@ const Course = () => {
                     <div className="ref_cov_page">
                         <h3 className="book_label">{pbook.bookName}</h3>
                         <img className='image' src={pbook.image} alt="Reference Book"></img>
-                        <div style={{textAlign:'center', fontSize:'20px', fontFamily:'Poppins'}}><a href={pbook.bookLink} style={{textDecoration:'none'}}>DOWNLOAD</a></div>
+                        <div style={{textAlign:'center', fontSize:'20px', fontFamily:'Poppins', paddingBottom:'20px'}}><a href={pbook.bookLink} style={{textDecoration:'none'}}>DOWNLOAD</a></div>
                     </div>
                 )}
             </div>

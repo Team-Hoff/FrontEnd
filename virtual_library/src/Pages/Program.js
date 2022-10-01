@@ -44,6 +44,8 @@ const Program = () => {
       if(error === 401){
           logout()
         }
+      setLoading(false)
+      window.location.href='/home'
     })
   // eslint-disable-next-line react-hooks/exhaustive-deps
   }, [])

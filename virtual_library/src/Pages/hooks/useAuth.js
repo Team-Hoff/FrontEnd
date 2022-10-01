@@ -29,13 +29,17 @@ export const AuthProvider = ({ children }) => {
     // setUser(null)
     
   };
+  const delete_user = async() => {
+    await axios.delete("/delete")
+    .then(()=>setUser(null))
+  }
 
   const value = useMemo(
     () => ({
       user,
       login,
       logout,
-      setUser
+      delete_user
     }),
     // eslint-disable-next-line react-hooks/exhaustive-deps
     [user]

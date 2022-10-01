@@ -108,6 +108,8 @@ const Course = () => {
         })
         .catch(err=>{
           console.log(err)
+          setLoading(false)
+          window.location.href='/home'
         })
         }
         fetchData();

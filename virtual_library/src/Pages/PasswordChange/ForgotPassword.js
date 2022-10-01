@@ -102,7 +102,7 @@ const ForgotPassword = () => {
             <span>Email has been sent, Please check your mail</span>
           </>)}
           </StyledFormArea>
-          <CopyrightText>All rights reserved &copy;2022</CopyrightText>
+          <CopyrightText>Copyright © 2022 <strong>Team Hoff</strong> All rights reserved</CopyrightText>
         </div>
     </StyledContainer>
     

@@ -56,7 +56,7 @@ function Aboutus(){
             </div>
 
             <div className="contact">
-                <h2>CONTACTS</h2>
+                <h2 className="highlights">CONTACTS</h2>
 
                 <div className="contact-row">
                         <div className="contact-photo">
@@ -69,6 +69,7 @@ function Aboutus(){
                                     <div className="contact-detail"><span className="con">Email:</span> hoffteam59@gmail.com</div>
                                     <div className="contact-detail"><span className="con">Twitter:</span> TeamHoff</div>
                                     <div className="contact-detail"><span className="con">Instagram:</span> Team_Hoff</div>
+                                    <div className="contact-detail"><span className="con">LinkedIn:</span> Team_Hoff</div>
                         </div>
 
                         <div className="contact-photo2"></div>

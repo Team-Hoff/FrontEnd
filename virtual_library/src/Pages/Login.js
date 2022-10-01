@@ -51,10 +51,6 @@ const Login = () => {
           setError("");
         },3000);
       }
-
-      // const resetErrors = setErrors => {
-      //   setTimeout(()=>setErrors({}), 5000);
-      // };
     
     if(loading ){
         return (
@@ -106,7 +102,7 @@ const Login = () => {
           
           >
             
-            {({isSubmitting, setErrors })=>(
+            {({isSubmitting})=>(
                <Form> 
                 <TextInput
                  id="inp"
@@ -136,7 +132,6 @@ const Login = () => {
 
               <ButtonGroup>
                 
-              {/* {resetErrors(setErrors)} */}
                 {!isSubmitting && (
                  <StyledFormButton type="submit" onClick={handleClick}>
                   Login
@@ -165,7 +160,8 @@ const Login = () => {
           </ExtraText>
           
       </StyledFormArea>
-      <CopyrightText>All rights reserved &copy;2022</CopyrightText>
+      <CopyrightText>Copyright © 2022 <strong>Team Hoff</strong> All rights reserved</CopyrightText>
+      
     </div>
     </StyledContainer>
 

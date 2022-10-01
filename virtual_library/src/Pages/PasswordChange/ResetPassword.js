@@ -134,11 +134,8 @@ const ResetPassword = () => {
             </>
           ) 
         }
-          {/* <ExtraText>
-            Don't have an account? Click <TextLink to="/signup">Signup</TextLink> to register
-          </ExtraText> */}
           </StyledFormArea>
-          <CopyrightText>All rights reserved &copy;2022</CopyrightText>
+          <CopyrightText>Copyright © 2022 <strong>Team Hoff</strong> All rights reserved</CopyrightText>
         </div>
     </StyledContainer>
     

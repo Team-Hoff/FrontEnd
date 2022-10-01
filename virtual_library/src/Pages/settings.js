@@ -125,10 +125,6 @@ export default function Settings(){
         },3000);
       }
 
-    //   const resetErrors = setErrors => {
-    //     setTimeout(()=>setErrors({}), 5000);
-    //   };
-
      if(loading ){
         return (
         <div>
@@ -182,13 +178,12 @@ export default function Settings(){
                                             
                     }}
                     >
-                    {({isSubmitting, setErrors})=>(
+                    {({isSubmitting})=>(
                     <Form>
                     <h2 className="h12">Full Name</h2>
                     <div className="answer">
                     <SettingsInput name="fullnames" type="text" placeholder={fullname} maxLength="29"/>
                     
-                    {/* {resetErrors(setErrors)} */}
                     {!isSubmitting && (
                     <button type="submit" className="btns">update</button>
                     )}
@@ -236,14 +231,13 @@ export default function Settings(){
                                             
                     }}
                     >
-                    {({isSubmitting, setErrors})=>(
+                    {({isSubmitting})=>(
                     <Form>
                     <h2 className="h12">Username</h2>
                     <div className="answer">
                     <SettingsInput name="usernames" type="text" placeholder={username} maxLength="29"/>
                     <Erromsg style={{paddingLeft:'10px', textTransform:'capitalize'}}>{visibile && err1}</Erromsg>
 
-                    {/* {resetErrors(setErrors)} */}
                     {!isSubmitting && (
                     <button type="submit" className="btns"  onClick={handleClick}>update</button>
                     )}
@@ -287,7 +281,7 @@ export default function Settings(){
                                             
                     }}
                     >
-                    {({isSubmitting,setErrors})=>(
+                    {({isSubmitting})=>(
                     <Form onChange={setNewprog}>
                     <h2 className="h12">Programmme</h2>
                     <div className="answer">
@@ -304,7 +298,6 @@ export default function Settings(){
                     }
                     </SettingsSelect>
 
-                    {/* {resetErrors(setErrors)} */}
                     {!isSubmitting && (
                     <button type="submit" className="btns">update</button>
                     )}
@@ -346,7 +339,7 @@ export default function Settings(){
                                             
                     }}
                     >
-                    {({isSubmitting, setErrors})=>(
+                    {({isSubmitting})=>(
                     <Form onChange={setNewyear}>
                     <h2 className="h12">Year</h2>
                     <div className="answer">
@@ -363,7 +356,6 @@ export default function Settings(){
                     }
                     </SettingsSelect>
                      
-                    {/* {resetErrors(setErrors)} */}
                     {!isSubmitting && (
                     <button type="submit" className="btns">update</button>
                     )}
@@ -418,7 +410,7 @@ export default function Settings(){
                                             
                     }}
                     >
-                    {({isSubmitting, setErrors})=>(
+                    {({isSubmitting})=>(
                     <Form>
 
                     <h2 className="h12">Password Change</h2>
@@ -450,7 +442,7 @@ export default function Settings(){
                     {!isSubmitting && (
                     <button type="submit" className="btns"  onClick={handleClick}>update</button>
                     )}
-                    {/* {resetErrors(setErrors)} */}
+            
                     {isSubmitting && (
                         <div style={{paddingLeft:'15px'}}>
                         <ThreeDots

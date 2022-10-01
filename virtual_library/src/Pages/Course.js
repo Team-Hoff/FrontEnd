@@ -263,7 +263,7 @@ const Course = () => {
                     <div className="ref_cov_page">
                         <h3 className="book_label">{pbook.bookName}</h3>
                         <img className='image' src={pbook.image} alt="Reference Book"></img>
-                        <div style={{textAlign:'center', fontSize:'20px', fontFamily:'Poppins', paddingBottom:'20px'}}><a href={pbook.bookLink} style={{textDecoration:'none'}}>DOWNLOAD</a></div>
+                        <div style={{textAlign:'center', fontSize:'20px', fontFamily:'Poppins', paddingBottom:'20px'}}><a href={pbook.bookLink}  target="_blank" rel="noopener noreferrer" style={{textDecoration:'none'}}>GO TO SITE</a></div>
                     </div>
                 )}
             </div>

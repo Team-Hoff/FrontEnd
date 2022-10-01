@@ -170,7 +170,7 @@ export default function Settings(){
                         }
                         
                         onSubmit={(values,actions)=>{setNewUserDetails(
-                                'fullname', values.fullnames
+                                'fullname', values.fullnames.trim()
                             )
                             setTimeout(() => {
                                 actions.setSubmitting(false);
@@ -221,7 +221,7 @@ export default function Settings(){
                         }
                         
                         onSubmit={(values,actions)=> {setNewUserDetails(
-                                'username', values.usernames
+                                'username', values.usernames.trim()
                             )
                             
                             setTimeout(() => {
@@ -272,7 +272,7 @@ export default function Settings(){
                         }
                         
                         onSubmit={(values,actions)=>{setNewUserDetails(
-                                'programme', values.programmeselect
+                                'programme', values.programmeselect.trim()
                             )
                             setTimeout(() => {
                                 actions.setSubmitting(false);
@@ -331,7 +331,7 @@ export default function Settings(){
                         }
                         
                         onSubmit={(values,actions)=>{setNewUserDetails(
-                                'year', values.yearselect
+                                'year', values.yearselect.trim()
                             )
                             setTimeout(() => {
                                 actions.setSubmitting(false);
@@ -402,7 +402,7 @@ export default function Settings(){
                         }
                         
                         onSubmit={(values,actions)=>{setNewUserDetails(
-                                'password', values.newpassword, values.oldpassword
+                                'password', values.newpassword.trim(), values.oldpassword.trim()
                             )
                             setTimeout(() => {
                                 actions.setSubmitting(false);

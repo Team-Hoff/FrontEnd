@@ -1,5 +1,6 @@
 .settingss-body{
-    background:linear-gradient(to right, rgb(252, 244, 144),rgb(247, 248, 174));
+    /* background:linear-gradient(to right, rgb(252, 244, 144),rgb(247, 248, 174)); */
+    background-image: linear-gradient(0deg, rgba(0,0,0,0.05),rgba(0,0,0,0.05)), url("../Assets/paper.jpg");
     box-sizing: border-box;
     display: flex;
 }

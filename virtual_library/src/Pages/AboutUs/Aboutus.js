@@ -65,7 +65,7 @@ function Aboutus(){
 
                         <div className="contact-column">
                                     <h4 style={{fontSize:'18px', margin:'10px'}}>Contact us on</h4>
-                                    <div className="contact-detail"><span className="con">Telephone:</span> 026000000</div>
+                                    <div className="contact-detail"><span className="con">Telephone:</span>+233 592001472</div>
                                     <div className="contact-detail"><span className="con">Email:</span> hoffteam59@gmail.com</div>
                                     <div className="contact-detail"><span className="con">Twitter:</span> TeamHoff</div>
                                     <div className="contact-detail"><span className="con">Instagram:</span> Team_Hoff</div>

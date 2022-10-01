@@ -20,12 +20,12 @@ const Signup = () => {
   const handleSubmit = async (inputs) => {
     await axios.post('/signup',
       {
-        username: inputs.username,
-        email: inputs.email,
-        password: inputs.password,
-        programme: inputs.programmeselect,
-        fullname: inputs.fullname,
-        year: inputs.yearselect
+        username: inputs.username.trim(),
+        email: inputs.email.trim(),
+        password: inputs.password.trim(),
+        programme: inputs.programmeselect.trim(),
+        fullname: inputs.fullname.trim(),
+        year: inputs.yearselect.trim()
       })
       .then(() => {
         setSignedUp(true)

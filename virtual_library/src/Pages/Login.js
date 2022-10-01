@@ -22,15 +22,15 @@ const Login = () => {
 
   const googleAuth = () =>{
     window.open(
-			`http://localhost:3500/api/auth/google`,
+			`http://www.thvirtuallibrary.com:3500/api/auth/google`,
 			"_self"
 		);
   }
   
   const handleSubmit = async(inputs) => {
     await axios.post("/login",
-        { username: inputs.username,
-          password: inputs.password
+        { username: inputs.username.trim(),
+          password: inputs.password.trim()
         }
       ).then(()=> {
         setLoading(true)

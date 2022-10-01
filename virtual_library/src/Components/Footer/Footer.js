@@ -27,7 +27,7 @@ function Footer() {
 
     <div style={{paddingBottom:'5px'}}>
         <FaPhone style={{backgroundColor:'white'}}/>
-        <p>+233 552726588</p>
+        <p>+233 592001472</p>
     </div>
     <div style={{paddingBottom:'5px'}}>
         <FaEnvelopeSquare style={{backgroundColor:'white'}}/>

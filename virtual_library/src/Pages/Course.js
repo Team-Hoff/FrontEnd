@@ -258,6 +258,14 @@ const Course = () => {
     </div>
     )}
     
+    {(book == "") ?(
+        <div> 
+        <div className="containers"> 
+            <div className='Available'>No Reference Books Available for this course</div>
+                {loaders[pos]}
+        </div> 
+    </div>
+    ) :
     <div className="slides">
                 <h1 className="lect_head">Reference Books</h1>
                 <div className="ref_bookss">
@@ -269,7 +277,7 @@ const Course = () => {
                     </div>
                 )}
             </div>
-         </div> 
+         </div> }
          </div>
     <Footer/>
     </div>)

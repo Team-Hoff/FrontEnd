@@ -96,7 +96,6 @@ export default function Settings(){
             setLoading(false);
          })
          .catch((err)=> {
-            console.log(err)
             const error = err.response.data.msg;
             if(error === "User is not Logged In"){
                 logout()
@@ -104,7 +103,7 @@ export default function Settings(){
             if(error === "password incorrect"){
                 seterr2(error)
               }
-            else if (error === "username is already taken"){
+            if (error === "username is already taken"){
                 seterr1(error)
             }
             if(err.response.status === 401){
@@ -161,8 +160,8 @@ export default function Settings(){
                             Yup.object({
                                 fullnames: Yup.string()
                                 .required("Enter new name to update")
-                                .min(7, "Fullname is too short")
-                                .max(29, "Fullname is too long")
+                                .min(7, "Should be in between 7 and 29 characters")
+                                .max(29, "Should be in between 7 and 29 characters")
                                 .notOneOf([(fullname)],"Name is the same as old name")
                                 .matches(/^[A-Za-z0-9\s]+$/, "Only alphanumeric are allowed")
                                 .matches(/^(?![0-9]*$)/, "Only numbers are not allowed")
@@ -212,8 +211,8 @@ export default function Settings(){
                             Yup.object({
                                 usernames: Yup.string()
                                 .required("Enter new username to update")
-                                .min(2, "Username is too short")
-                                .max(29, "Username is too long")
+                                .min(2, "Should be in between 2 and 29 characters")
+                                .max(29, "Should be in between 2 and 29 characters")
                                 .notOneOf([(username)],"Username is the same as old username")
                                 .matches(/^[A-Za-z0-9\s]+$/, "Only alphanumeric are allowed")
                                 .matches(/^(?![0-9]*$)/, "Only numbers are not allowed")
@@ -391,8 +390,8 @@ export default function Settings(){
                                 .required("Please enter your old password"),
                                 newpassword: Yup.string()
                                 .required("Please enter your new password")
-                                .min(5, "Password is too short")
-                                .max(24, "Password is too long")
+                                .min(5, "Should be in between 5 and 24 characters")
+                                .max(24, "Should be in between 5 and 24 characters")
                                 .notOneOf([Yup.ref("oldpassword")],"Password is the same as old password")
                                 .matches( /^((?![@/*<>#$%^&]).)*$/, "Symbol not allowed for this field"),
                                 confirmpassword: Yup.string()

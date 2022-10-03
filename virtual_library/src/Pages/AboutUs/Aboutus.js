@@ -23,11 +23,11 @@ function Aboutus(){
 
             <div className="team">
                 <h2 className="highlights">TEAM HOFF</h2>
-                    <p>We are a team made up of 12 people who share the same interest and vision. </p>
+                    <p>We are a team of 12 engineers who share the same interest and vision. </p>
             </div>
 
             <div className="vision">
-                <h2 style={{textAlign:'center'}} className="highlights">VISION, MISSION AND VALUES </h2>
+                <h2 style={{textAlign:'center'}} className="highlights">VISION, SLOGAN AND VALUES </h2>
 
                 <div className="info">
                             <div className="box box1">
@@ -67,9 +67,8 @@ function Aboutus(){
                                     <h4 style={{fontSize:'18px', margin:'10px'}}>Contact us on</h4>
                                     <div className="contact-detail"><span className="con">Telephone:</span>+233 592001472</div>
                                     <div className="contact-detail"><span className="con">Email:</span> hoffteam59@gmail.com</div>
-                                    <div className="contact-detail"><span className="con">Twitter:</span> TeamHoff</div>
-                                    <div className="contact-detail"><span className="con">Instagram:</span> Team_Hoff</div>
-                                    <div className="contact-detail"><span className="con">LinkedIn:</span> Team_Hoff</div>
+                                    <div className="contact-detail"><span className="con">Twitter:</span> @HoffTeam</div>
+                                    <div className="contact-detail"><span className="con">LinkedIn:</span> Team-Hoff</div>
                         </div>
 
                         <div className="contact-photo2"></div>

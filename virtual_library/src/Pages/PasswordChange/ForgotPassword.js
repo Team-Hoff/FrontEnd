@@ -60,7 +60,8 @@ const ForgotPassword = () => {
               Yup.object({
                 email: Yup.string()
                 .required("Please enter your email address")
-                .email("Invalid email address"),
+                .email("Invalid email address")
+                .matches( /^((?![/*<>#$%^&]).)*$/, "Symbol not allowed for this field"),
               })
             }
             

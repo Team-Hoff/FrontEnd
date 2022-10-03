@@ -49,9 +49,17 @@ const Login = () => {
         setTimeout(()=>{
           setvisibile(false);
           setError("");
-        },3000);
+        },3000)
       }
-    
+
+      setTimeout(() => {
+      if(document.getElementById("goog")){
+        var msg = document.getElementById("goog");
+        msg.parentNode.removeChild(msg)
+      }
+      
+      }, 3000)
+      
     if(loading ){
         return (
         <div>
@@ -74,10 +82,13 @@ const Login = () => {
             <span style={{font: "normal 36px 'Poppins', cursive", margin: 0}}>Virtual</span><span style={{color:'#e0ac1c', font: "normal 36px 'Poppins', cursive"}}>Library</span>
           </StyledTitle></div>
           <StyledSubTitle color='Black' size={35} style={{font: "normal 36px 'Poppins', cursive"}}>Login</StyledSubTitle>
+          
           {
         (search ==='?authfailed')?(
-            <span style={{color:'red', fontSize:'17px',letterSpacing:'0px'}}>
+            
+            <span id="goog" style={{color:'red', fontSize:'13px',letterSpacing:'0px'}}>
               You do not have an account with this email, please Signup</span>
+              
         ):(
             <></>
         )

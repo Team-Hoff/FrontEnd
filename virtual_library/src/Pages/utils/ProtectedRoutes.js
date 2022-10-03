@@ -12,12 +12,8 @@ import ForgotPassword from "../PasswordChange/ForgotPassword";
 import ResetPassword from "../PasswordChange/ResetPassword";
 import AboutUs from "../AboutUs/Aboutus";
 
-
 import { Navigate } from 'react-router-dom';
 import { useRoutes } from "react-router-dom";
-import Display from "./Display";
-
-
 
 const ProtectedRoutes = () => {
     const {user} = useAuth();
@@ -74,11 +70,6 @@ const ProtectedRoutes = () => {
             path: "*",
             element: <Navigate replace to="/404"/>
         },
-        {
-            path: "/test",
-            element: <Display/>
-        },
-
     ])
 
     return routes

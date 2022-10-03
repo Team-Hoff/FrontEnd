@@ -76,8 +76,10 @@ const ResetPassword = () => {
               Yup.object({
                 password: Yup.string()
                 .required("Please enter a password")
-                .min(5, "Password is too short")
-                .required("Please enter a password"),
+                .min(5, "Should be in between 5 and 24 characters")
+                .max(24, "Should be in between 5 and 24 characters")
+                .required("Please enter a password")
+                .matches( /^((?![@/*<>#$%^&]).)*$/, "Symbol not allowed for this field"),
                 repeatPassword: Yup.string()
                 .required("Confirm Password")
                 .oneOf([Yup.ref("password")], "Password is not the same"),

@@ -1,6 +1,6 @@
 import React from 'react';
 import './Footer.css';
-import {FaEnvelopeSquare, FaFacebookSquare, FaInstagramSquare, FaLinkedin, FaMapMarked, FaPhone, FaTwitterSquare} from 'react-icons/fa';
+import {FaEnvelopeSquare, FaFacebookSquare, FaLinkedin, FaMapMarked, FaPhone, FaTwitterSquare} from 'react-icons/fa';
 
 
 function Footer() {
@@ -38,10 +38,9 @@ function Footer() {
     <br/>
     <br/>
     <div className="footer-icons">
-        <a href="https://www.facebook.com/" target="_blank" rel="noopener noreferrer"><FaFacebookSquare/></a>
-        <a href="https://www.instagram.com/" target="_blank" rel="noopener noreferrer"><FaInstagramSquare/></a>
-        <a href="https://www.linkedin.com/" target="_blank" rel="noopener noreferrer"><FaLinkedin/></a>
-        <a href="https://twitter.com/" target="_blank" rel="noopener noreferrer"><FaTwitterSquare/></a>
+        <a href="https://web.facebook.com/groups/508115227398958" target="_blank" rel="noopener noreferrer"><FaFacebookSquare/></a>
+        <a href="https://www.linkedin.com/company/team-hoff" target="_blank" rel="noopener noreferrer"><FaLinkedin/></a>
+        <a href="https://twitter.com/HoffTeam" target="_blank" rel="noopener noreferrer"><FaTwitterSquare/></a>
     </div>
     
 </div>

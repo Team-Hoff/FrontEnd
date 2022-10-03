@@ -93,14 +93,14 @@ const Signup = () => {
                 Yup.object({
                   fullname: Yup.string()
                     .required("Please enter your full name")
-                    .min(7, "Fullname is too short")
-                    .max(29, "Fullname is too long")
+                    .min(7, "Should be in between 7 and 29 characters")
+                    .max(29, "Should be in between 7 and 29 characters")
                     .matches(/^[A-Za-z0-9\s]+$/, "Only alphanumeric are allowed")
                     .matches(/^(?![0-9]*$)/, "Only numbers are not allowed"),
                   username: Yup.string()
                     .required("Please enter a username")
-                    .min(2, "Username is too short")
-                    .max(29, "Username is too long")
+                    .min(2, "Should be in between 2 and 29 characters")
+                    .max(29, "Should be in between 2 and 29 characters")
                     .matches(/^[A-Za-z0-9\s]+$/, "Only alphanumeric are allowed")
                     .matches(/^(?![0-9]*$)/, "Only numbers are not allowed"),
                   email: Yup.string()
@@ -109,8 +109,8 @@ const Signup = () => {
                     .matches( /^((?![/*<>#$%^&]).)*$/, "Symbol not allowed for this field"),
                   password: Yup.string()
                     .required("Please enter a password")
-                    .min(5, "Password is too short")
-                    .max(24, "Password is too long")
+                    .min(5, "Should be in between 5 and 24 characters")
+                    .max(24, "Should be in between 5 and 24 characters")
                     .matches( /^((?![@/*<>#$%^&]).)*$/, "Symbol not allowed for this field"),
                   repeatPassword: Yup.string()
                     .required("Confirm your password")

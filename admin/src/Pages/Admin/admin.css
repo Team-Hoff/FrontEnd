@@ -1,0 +1,114 @@
+*{
+    font-size: 17px;
+}
+
+.hody{
+    min-width: 100vw;
+    min-height: 100vh;
+    background-image: linear-gradient(0deg,rgba(0,0,0,0.7),rgba(10, 5, 5, 0.7)), url("./pexels-jess-bailey-designs-1007025.jpg"); 
+    background-size: cover; 
+    display: grid;
+    place-content: center;
+}
+.real-container{
+    width: 600px;
+    margin: 20px;
+}
+
+.input-text{
+    border-radius: 10px;
+    outline: none;
+    border:none;
+    width: 300px;
+    height: 28px;
+}
+
+.input-text1{
+    border-radius: 10px;
+    border: none;
+    outline: none;
+    width: 300px;
+    height: 28px;
+    
+}
+.input-text2{
+    border-radius: 10px;
+    border:none;
+    outline:none;
+    width: 300px;
+    height: 28px;
+}
+.input-text3{
+    border-radius: 10px;
+    width:300px;
+    outline:none;
+    height: 28px;
+    
+}
+.input-text4{
+    border-radius: 10px;
+    width: 300px;
+    outline: none;
+    height: 28px;
+}
+
+.mar-bot{
+    margin-bottom: 20px; 
+    margin-bottom: 30px;
+}
+.form{
+    padding:75px;
+    background-color: rgb(182, 138, 133);
+    }
+
+.actions{
+        display: flex;
+        gap :15em;
+    }
+
+.action{
+        border-radius: 5px;
+    }
+    
+.input-text5{
+    margin-left: 115px;
+    border-radius: 10px;
+    width: 195px;
+}    
+
+ .form-error{
+    color: rgb(92, 35, 35);
+    
+ }  
+ .form-error1{
+    margin-left: 56px;
+    color:rgb(92, 35, 35); 
+ } 
+ .form-error2{
+    margin-left: 35px;
+    color:rgb(92, 35, 35); ;
+ }
+ .form-error3{
+    margin-left: 8px;
+    color:rgb(92, 35, 35);
+ }
+    
+
+.input-field{
+    display: flex;
+    flex-direction: column;
+    width: 300px;
+    
+}
+.input-row{
+    display: flex;
+}
+
+.input-label{
+    display: flex;
+    width: 100px;
+}
+.input-dropdown{
+    display: flex;
+    flex-direction: column;
+}

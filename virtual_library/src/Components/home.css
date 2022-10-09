@@ -65,7 +65,7 @@
 }
 
 .Everything{
-    background-image: linear-gradient(0deg, rgba(0,0,0,0.05),rgba(0,0,0,0.05)), url("../Assets/paper.jpg");
+    /* background-image: linear-gradient(0deg, rgba(0,0,0,0.05),rgba(0,0,0,0.05)), url("../Assets/paper.jpg"); */
     background-repeat: no repeat;    
 }
 

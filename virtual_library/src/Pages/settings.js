@@ -230,7 +230,7 @@ export default function Settings(){
                                             
                     }}
                     >
-                    {({isSubmitting})=>(
+                    {({ isSubmitting})=>(
                     <Form>
                     <h2 className="h12">Username</h2>
                     <div className="answer">

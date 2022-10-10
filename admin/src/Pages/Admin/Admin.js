@@ -8,6 +8,7 @@ import { ThreeDots } from 'react-loader-spinner';
 
 const Admin = () => {
     const [course, setcourse] = useState([])
+    const [File, setFile] = useState("")
     
     useEffect( ()=> {
         function fetchData(){
@@ -72,20 +73,20 @@ const Admin = () => {
             filetoUpload: yup.mixed()
             .required("You need to provide a file")
             .test("fileFormat", "Unsupported Format", (value) => {
-                return value && (value.slice(-3) === "pdf" ||  value.slice(-3) === "ppt" || value.slice(-4) === "pptx")
+                return value && (value.name.slice(-3) === "pdf" ||  value.name.slice(-3) === "ppt" || value.name.slice(-4) === "pptx")
               })
             .test("fileFormat", "Invalid document name", (value) => {
-                return value && (slides.includes(value.slice(12,-4))  || slides.includes(value.slice(12,-5)))
+                return value && (slides.includes(value.name.slice(0,-4))  || slides.includes(value.name.slice(0,-5)))
               })
             
             })
         }
-      //  onSubmit={(values)=>uploadHandler(console.log(values))}
-      onSubmit={uploadHandler}
+      //  onSubmit={uploadHandler}
+      onSubmit={(value)=>console.log(value.filetoUpload)}
        
       >
       
-      {({isSubmitting, errors , touched})=>(
+      {({isSubmitting})=>(
         <Form className='form'>
 
         <div className="mar-bot">
@@ -167,7 +168,7 @@ const Admin = () => {
              <p className="input-label">File</p>
               <div className="input-dropdown">
                  
-                  <SettingsFile name="filetoUpload" type="file"/>
+                  <SettingsFile name="filetoUpload" type="file" />
                  
               </div>  
             </div>

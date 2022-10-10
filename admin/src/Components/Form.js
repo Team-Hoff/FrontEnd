@@ -2,6 +2,7 @@ import React, { useState } from "react";
 import { useField } from "formik";
 import { FiEye, FiEyeOff} from "react-icons/fi";
 import { StyledIcon, Erromsg } from "./Style";
+import { useFormikContext } from "formik";
 
 
 export const SettingsInput = ({ icon, ...props }) => {
@@ -70,7 +71,8 @@ export const SettingsSelect = ({icon, ...props}) => {
 }
 
 export const SettingsFile = ({ ...props }) => {
-    const [field, meta] = useField(props.name);
+    const [field, meta] = useField(props);
+    const { setFieldValue } = useFormikContext()
 
     return (
         <div style={{ position: "relative" }}>
@@ -79,7 +81,12 @@ export const SettingsFile = ({ ...props }) => {
             
             <input
                 {...field}
-                {...props}  
+                {...props} 
+                onChange={(event) => {
+                    setFieldValue(field.name, event.target.files[0])
+                }}
+                value={undefined}
+                
             />
             
 

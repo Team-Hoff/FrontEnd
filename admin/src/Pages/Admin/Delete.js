@@ -190,12 +190,13 @@ const Delete = () => {
                     )}
 
         {isSubmitting && (
+            <div style={{marginLeft:'130px'}}>
             <ThreeDots
                 color="blue"
-                height={30}
-                width={30}
-                style={{textAlign:'center'}}
+                height={60}
+                width={60}
             />
+            </div>
         )}
         
       

@@ -73,7 +73,6 @@ export const SettingsSelect = ({icon, ...props}) => {
 export const SettingsFile = ({ ...props }) => {
     const [field, meta] = useField(props);
     const { setFieldValue } = useFormikContext()
-
     return (
         <div style={{ position: "relative" }}>
 
@@ -83,10 +82,9 @@ export const SettingsFile = ({ ...props }) => {
                 {...field}
                 {...props} 
                 onChange={(event) => {
-                    setFieldValue(field.name, event.target.files[0])
+                     setFieldValue(field.name, event.target.files[0]) 
                 }}
-                value={undefined}
-                
+                value={undefined}                
             />
             
 

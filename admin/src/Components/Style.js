@@ -37,8 +37,6 @@ export const StyledTitle = styled.h2`
     color: ${(props)=>props.color?props.color:colors.primary};
     padding: 5px;
     margin-bottom: 20px;
-    position: relative;
-    top: 30px;
     
     
 `;
@@ -52,8 +50,8 @@ export const StyledSubTitle = styled.p`
 `;
 
 export const Avatar = styled.div`
-    width: 85px;
-    height: 85px;
+    width: 65px;
+    height: 65px;
     border-radius: 50px;
     background-image: url(${props => props.image});
     background-size: cover;
@@ -155,7 +153,7 @@ export const StyledFormButton = styled.button`
     width: 150px;
     background-color: transparent;
     font-size: 16px;
-    border: 2px solid blue;
+    border: 2px solid black;
     border-radius: 25px;
     color: ${colors.theme}
     transition: ease-in-out 0.3s;

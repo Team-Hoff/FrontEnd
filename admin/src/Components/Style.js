@@ -155,7 +155,7 @@ export const StyledFormButton = styled.button`
     font-size: 16px;
     border: 2px solid black;
     border-radius: 25px;
-    color: ${colors.theme}
+    color: ${colors.theme};
     transition: ease-in-out 0.3s;
     outline: 0; 
 
@@ -168,7 +168,7 @@ export const StyledFormButton = styled.button`
 `;
 
 export const Erromsg = styled.div`
-    font-size 11px;
+    font-size: 11px;
     color: ${colors.red};
     margin-top: -5px;
     margin-bottom: 10px;

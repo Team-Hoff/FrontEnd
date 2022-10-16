@@ -22,7 +22,8 @@ export const StyledContainer = styled.div`
     position: relative;
     justify-content: center;
     align-items: center;
-    background: linear-gradient(0deg, rgba(0,0,0,0.5), rgba(0,0,0,0.5)), url('https://th.bing.com/th/id/OIP.m_8yGJPbQ_G0r5X7Yx_JeQHaE8?pid=ImgDet&rs=1');
+    /* background: linear-gradient(0deg, rgba(0,0,0,0.5), rgba(0,0,0,0.5)), url('https://th.bing.com/th/id/OIP.m_8yGJPbQ_G0r5X7Yx_JeQHaE8?pid=ImgDet&rs=1'); */
+    background: linear-gradient(0deg, rgba(0,0,0,0.5), rgba(0,0,0,0.5)), url('https://i.pinimg.com/originals/29/46/4a/29464aa3c5800484f4577ca0c53f8953.jpg');
     background-size: 100% 100%;
     background-attachment: fixed; 
 
@@ -44,7 +45,7 @@ export const StyledTitle = styled.h2`
 export const StyledSubTitle = styled.p`
     font-size: ${(props) => props.size}px;
     text-align: center;
-    color: ${(props)=>props.color?props.color:colors.primary};
+    color: white;
     padding: 5px;
     margin-bottom: 25px;
 `;
@@ -137,9 +138,15 @@ export const StyledLabel = styled.p`
 `;
 
 export const StyledFormArea = styled.div`
-    background-color: ${props=>props.bg || colors.light1};
     text-align: center;
     padding: 45px 55px;
+    color: #fff;
+    border: 1px solid rgba(255, 255, 255, 0.2);
+    background: rgba(255, 255, 255, 0.2);
+    /* background:yellow; */
+    border-radius: 16px;
+    box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
+    backdrop-filter: blur(5px);
 `;
 
 export const StyledFormButton = styled.button`
@@ -147,16 +154,16 @@ export const StyledFormButton = styled.button`
     width: 150px;
     background-color: transparent;
     font-size: 16px;
-    border: 2px solid blue;
+    border: 2px solid white;
     border-radius: 25px;
-    color: ${colors.theme};
+    color: black;
     transition: ease-in-out 0.3s;
     outline: 0; 
 
 
     &:hover{
-        background-color: blue;
-        color: ${colors.primary};
+        background-color: white;
+        color: black;
         cursor: pointer;
     }
 `;
@@ -172,7 +179,7 @@ export const Erromsg = styled.div`
 export const ExtraText = styled.p`
     font-size: ${(props)=>props.size}px;
     text-align: center;
-    color: ${(props)=> (props.color)? props.color: colors.dark2};
+    color: black;
     padding: 2px;
     margin-top: 10px;
 
@@ -183,7 +190,7 @@ export const ExtraTexts = styled.p`
     gap: 10px;
     font-size: ${(props)=>props.size}px;
     text-align: center;
-    color: ${(props)=> (props.color)? props.color: colors.dark2};
+    color: black;
     padding: 2px;
     margin-top: 10px;
     text-decoration: none;
@@ -199,7 +206,8 @@ export const ExtraTexts = styled.p`
 
 export const TextLink = styled(Link)`
     text-decoration: none;
-    color: blue;
+    color: darkblue;
+    font-weight: bold;
     transition: ease-in-out 0.3s;
 
     &:hover{

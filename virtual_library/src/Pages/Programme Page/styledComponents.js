@@ -3,7 +3,7 @@ import styled from "styled-components";
 
 export const VideoContainer = styled.div`
     background: #010606;
-    height: 600px;
+    height: 400px;
     padding: 0 30px;
 
     display: flex;
@@ -58,8 +58,8 @@ export const VideoHeader = styled.h1`
     font-size: 48px;
     text-align: center;
      
-    @media (max-width: 1000px){
-        font-size: 20px;
+    @media (max-width: 600px){
+        font-size: 35px;
         display: flex;
     flex-direction: column;
     align-items: center;
@@ -74,12 +74,12 @@ export const InfoContainer = styled.div`
 export const InfoWrapper = styled.div`
      display: grid;
      z-index: 1;
-     height: 500px;
+     height: 400px;
      width: 100%;
      max-width: 1200px;
      margin: 0 auto;
      padding: 0 24px;
-     justify-content-center;   
+     justify-content:center;   
 
      @media (max-width: 1000px){
         height: auto;
@@ -95,10 +95,10 @@ export const Column1 = styled.div`
 
     @media (max-width: 1000px){
         width: 70vw;
-        padding: 20px
+        padding: 20px;
         margin: auto;
         display: flex;
-        justify-content-center; 
+        justify-content:center; 
         align-items: center;
     }
 
@@ -127,18 +127,22 @@ export const ImgWrapper = styled.div`
     height: 100%;
 `
 export const Img = styled.img`
-    width: 100%;
+    width: 70%;
     margin: 0 0 10px 0;
     padding-right: 0;
-` 
+
+    @media (max-width: 1000px){
+        width: 90%;
+    }
+`
 export const CourseCardContainer = styled.div`
     height: auto;
     display: flex;
     flex-direction: column;
     justify-content: center;
-    // align-items: center;
+    align-items: center;
     background: #fff;
-    margin: 20px 0;
+    margin-right: 50px
 `
 
 export const CourseCardHeader = styled.h1`
@@ -157,9 +161,15 @@ export const CourseCardWrapper = styled.div`
     grid-template-columns: 1fr 1fr 1fr ;
     align-items: center;
     grid-gap: 30px;
-    padding: 0 50px;
+    /* padding: 0 50px; */
 
-    @media (max-width: 1000px){
+    @media (max-width: 1200px){
+        max-width: 80vw;
+        grid-template-columns: 1fr 1fr ;
+
+    }
+
+    @media (max-width: 600px){
         max-width: 80vw;
         grid-template-columns: 1fr;
 
@@ -174,6 +184,7 @@ export const CourseCards = styled.div`
     justify-content: flex-start;
     border-radius: 10px;
     max-height: 340px;
+    width: 350px;
     padding: 30px;
     box-shadow: 0 1px 3px rgba(0,0,0,0.2);
     transition: all 0.2s ease-in-out;
@@ -186,6 +197,7 @@ export const CourseCards = styled.div`
 
     @media (max-width: 1000px){
         max-height: 200px;
+        width:250px;
     }
 `
 export const CourseCardIcon = styled.img`

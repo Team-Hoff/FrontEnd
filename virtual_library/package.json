@@ -23,7 +23,7 @@
     "react-doc-viewer": "^0.1.5",
     "react-dom": "^18.2.0",
     "react-dropdown": "^1.10.0",
-    "react-icons": "^4.4.0",
+    "react-icons": "^4.6.0",
     "react-loader-spinner": "^5.1.5",
     "react-loadingg": "^1.7.2",
     "react-pdf": "^5.7.2",
@@ -42,6 +42,7 @@
     "scripts": "^0.1.0",
     "slick-carousel": "^1.8.1",
     "styled-components": "^5.3.5",
+    "tailwind-scrollbar-hide": "^1.1.7",
     "web-vitals": "^2.1.4",
     "yup": "^0.32.11"
   },

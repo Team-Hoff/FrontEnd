@@ -90,9 +90,9 @@ function Programme() {
                 </VideoBg>
                 <VideoContent>
                     {
-                        apro.length !== 0 ? <h1> <VideoHeader>
+                        apro.length !== 0 ? <VideoHeader>
                             {apro[0].name.toUpperCase()}
-                        </VideoHeader></h1> : ""
+                        </VideoHeader> : ""
                     }
                 </VideoContent>
             </VideoContainer>
@@ -123,7 +123,7 @@ function Programme() {
             <div className='Everything' style={{ display: 'flex' }}>
                 <div style={{ marginTop: '25px', width: '60px' }}><GoBack /></div>
 
-                <div className="container">
+                <div className="container" style={{ overflowY: 'hidden' }}>
 
                     <div className="d-sm-flex align-items-center 
         justify-content-between " style={{ paddingTop: '30px' }}>
@@ -165,11 +165,11 @@ function Programme() {
                                     if (Number(course.year) === Number(courseQuery) && (Number(course.semester === 1))) return course
                                     return ''
                                 }).map((course) => (
-                                    <div style={{ marginBottom: '20px' }}>
+                                    <div key={course.id} style={{ marginBottom: '20px' }}>
                                         <Link to={`/home/${id}/${course.id}`} style={{ textDecoration: 'none' }}>
                                             <CourseCards>
                                                 <CourseCardIcon src={course.img} />
-                                                <CourseHeader>{course.name}</CourseHeader>
+                                                <CourseHeader  >{course.name}</CourseHeader>
                                             </CourseCards>
                                         </Link>
                                     </div>
@@ -193,11 +193,13 @@ function Programme() {
                                     if (Number(course.year) === Number(courseQuery) && (Number(course.semester === 2))) return course
                                     return ''
                                 }).map((course) => (
-                                    <div style={{ marginBottom: '20px' }}>
-                                        <CourseCards>
-                                            <CourseCardIcon src={course.img} />
-                                            <CourseHeader>{course.name}</CourseHeader>
-                                        </CourseCards>
+                                    <div key={course.id} style={{ marginBottom: '20px' }}>
+                                        <Link to={`/home/${id}/${course.id}`} style={{ textDecoration: 'none' }}>
+                                            <CourseCards>
+                                                <CourseCardIcon src={course.img} />
+                                                <CourseHeader >{course.name}</CourseHeader>
+                                            </CourseCards>
+                                        </Link>
                                     </div>
                                 )
                                 )
@@ -207,6 +209,7 @@ function Programme() {
                     </CourseCardContainer>
 
                 </div>
+
             </div>
 
             <Footer />

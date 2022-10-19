@@ -1,28 +1,32 @@
 import React from 'react';
-import { Container } from 'react-bootstrap'
-import '../Components/Video.css'
-import  Thumbnail from '../Components/Thumbnail/Thumbnail'
-
+import { Container } from 'react-bootstrap';
+import '../Components/Video.css';
+import Thumbnail from '../Components/Thumbnail/Thumbnail';
+import Navbar from '../Components/Navbar/Navbar';
+import Footer from '../Components/Footer/Footer';
 
 export default function Videos() {
-    return<div>
-        
-        {/* <Navbar/> */}
-        
-        <Container>
-            <div className='Contain'>
-            <div class="ratio ratio-16x9">
-                <iframe src="https://www.youtube.com/embed/zpOULjyy-n8?rel=0" title="YouTube video" allowfullscreen></iframe>
-            </div>
-            </div>
+    return (
+        <>
+            <Navbar />
 
-            <div>
-                <h1 className='names'><b>Recommended</b></h1>
-            </div>
+            <Container>
+                <div className='Contain'>
+                    <div className="ratio ratio-16x9">
+                        <iframe src="https://www.youtube.com/embed/zpOULjyy-n8?rel=0" title="YouTube video" allowFullScreen></iframe>
+                    </div>
+                </div>
 
-            <Thumbnail/>
+                <div>
+                    <h1 className='names'><b>Recommended</b></h1>
+                </div>
 
-        </Container>
+                <Thumbnail />
 
-    </div>
+            </Container>
+
+            <Footer />
+        </>
+
+    )
 }

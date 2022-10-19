@@ -5,7 +5,6 @@ export const VideoContainer = styled.div`
     background: #010606;
     height: 400px;
     padding: 0 30px;
-
     display: flex;
     justify-content: center;
     align-items: center;
@@ -14,6 +13,14 @@ export const VideoContainer = styled.div`
 
     @media (max-width: 1000px){
         height: 300px;
+    }
+
+    @media (max-width: 600px){
+        height: 230px;
+    }
+
+    @media (max-width: 440px){
+        height: 200px;
     }
 `
 
@@ -32,15 +39,16 @@ export const VideoBg = styled.div`
 
 export const Video1 = styled.video`
     width: 100%;
-    // height: 100%;
+    height: 100%;
     -o-object-fit: cover;
      object-fit: cover;
     background: #010606;
+    
 
     @media (max-width: 1000px){
         width: 100%;
         object-position: 50% 50%;
-        object-fit: contain;
+        object-fit: 100% 100%;
     }
 `
 
@@ -51,24 +59,26 @@ export const VideoContent = styled.div`
     display: flex;
     flex-direction: column;
     align-items: center;
+    justify-content: center;
 `
 
 export const VideoHeader = styled.h1`
     color: #FCA510;
     font-size: 48px;
     text-align: center;
+    
      
     @media (max-width: 600px){
         font-size: 35px;
         display: flex;
-    flex-direction: column;
-    align-items: center;
+        flex-direction: column;
+        align-items: center;
     }
 `
 
 export const InfoContainer = styled.div`
     color: black;
-    bacKground: #e7ac47;
+    background: #e7ac47;
 `
 
 export const InfoWrapper = styled.div`

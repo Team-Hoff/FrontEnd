@@ -27,6 +27,7 @@
 }
 
 .action .menu{
+    z-index: 5;
     position: absolute;
     top: 60px;
     right: -3px;

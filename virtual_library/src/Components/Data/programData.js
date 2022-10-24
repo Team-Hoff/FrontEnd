@@ -72,7 +72,7 @@ export const ProgramData = [
         img: `${Aerospace}`,
         pic: `${aero}`,
         vid: `${telev}`,
-        paragraph: ''
+        paragraph: 'Aerospace engineering is the primary field of engineering concerned with the development of aircraft and spacecraft. It has two major and overlapping branches: aeronautical engineering and astronautical engineering.'
 
     },
     {
@@ -81,7 +81,7 @@ export const ProgramData = [
         img: `${Agricultural}`,
         pic: `${agric}`,
         vid: `${telev}`,
-        paragraph: ''
+        paragraph: 'Agricultural engineering is the field of study and application of engineering science and designs principles for agriculture purposes, combining the various disciplines of mechanical, civil, electrical, food science, environmental, software, and chemical engineering to improve the efficiency of farms and agribusiness enterprisesnas well as to ensure sustainability of natural and renewable resources.'
 
     },
     {
@@ -90,7 +90,7 @@ export const ProgramData = [
         img: `${Chemical}`,
         pic: `${chem}`,
         vid: `${telev}`,
-        paragraph: ''
+        paragraph: 'Chemical engineering is an engineering field which deals with the study of operation and design of chemical plants as well as methods of improving production.'
 
     },
     {
@@ -99,7 +99,7 @@ export const ProgramData = [
         img: `${geological}`,
         pic: `${geol}`,
         vid: `${telev}`,
-        paragraph: ''
+        paragraph: 'Geological engineering (GEOE) is the development and conservation of natural resources in ways useful to humankind.'
 
     },
     {
@@ -108,7 +108,7 @@ export const ProgramData = [
         img: `${geomatic}`,
         pic: `${geom}`,
         vid: `${telev}`,
-        paragraph: ''
+        paragraph: 'Geomatics engineering is the surveying of the entire or a part of the earth with various techniques (satellites positioning, satellite images processing, etc.) and the resulting spatial data is evaluated and expressed in maps and plans in the computer environment'
 
     },
     {
@@ -117,7 +117,7 @@ export const ProgramData = [
         img: `${Materials}`,
         pic: `${mat}`,
         vid: `${telev}`,
-        paragraph: ''
+        paragraph: 'Material engineering focuses on creating new substances or changing the physical and chemical composition of existing materials to improve their properties. '
 
     },
     {
@@ -126,7 +126,7 @@ export const ProgramData = [
         img: `${Civil}`,
         pic: `${civil}`,
         vid: `${telev}`,
-        paragraph: ''
+        paragraph: 'Civil engineering is a professional engineering discipline that deals with the design, construction, and maintenance of the physical and naturally built environment, including public works such as roads, bridges, canals, dams, airports, sewage systems, pipelines, structural components of buildings, and railways.'
 
     },
     {
@@ -135,7 +135,7 @@ export const ProgramData = [
         img: `${Petroleum}`,
         pic: `${petroleum}`,
         vid: `${telev}`,
-        paragraph: ''
+        paragraph: 'Petroleum engineering is a field of engineering concerned with the activities related to the production of Hydrocarbons, which can be either crude oil or natural gas.'
 
     },
     {
@@ -144,7 +144,7 @@ export const ProgramData = [
         img: `${Petrochem}`,
         pic: `${petrochem}`,
         vid: `${telev}`,
-        paragraph: ''
+        paragraph: 'Petroleum engineering is a field of engineering concerned with the activities related to the production of Hydrocarbons, which can be either crude oil or natural gas.'
 
     },
     {
@@ -153,7 +153,7 @@ export const ProgramData = [
         img: `${Metallurgical}`,
         pic: `${metall}`,
         vid: `${telev}`,
-        paragraph: ''
+        paragraph: 'Metallurgical engineering is the study of metals and how metals can be safely transformed into products that benefit humanity such as surgical implants, computer chips, cars, materials for space exploration, and more.'
 
     },
     {
@@ -162,7 +162,7 @@ export const ProgramData = [
         img: `${Mechanical}`,
         pic: `${mech}`,
         vid: `${telev}`,
-        paragraph: ''
+        paragraph: 'mechanical engineering is the application of the principles and problem-solving techniques of engineering from design to manufacturing to the marketplace for any object. Mechanical engineers analyze their work using the principles of motion, energy, and force—ensuring that designs function safely, efficiently, and reliably, all at a competitive cost.'
 
     }
 

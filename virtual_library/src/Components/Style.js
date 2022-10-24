@@ -1,6 +1,6 @@
 import styled from 'styled-components';
 // import background from './../Assets/KNUST.jpeg';
-import {Link} from 'react-router-dom';
+import { Link } from 'react-router-dom';
 
 export const colors = {
     primary: "#fff",
@@ -36,7 +36,7 @@ export const StyledContainer = styled.div`
 export const StyledTitle = styled.h2`
     font-size: ${(props) => props.size}px;
     text-align: center;
-    color: ${(props)=>props.color?props.color:colors.primary};
+    color: ${(props) => props.color ? props.color : colors.primary};
     padding: 5px;
     margin-bottom: 20px;
     position: relative;
@@ -66,7 +66,7 @@ export const StyledButton = styled(Link)`
     font-size: 16px;
     border: 3px solid ${colors.primary};
     border-radius: 25px;
-    color: ${(props)=>props.color?props.color:colors.primary};
+    color: ${(props) => props.color ? props.color : colors.primary};
     text-decoration: none;
     text-align: center;
     transition: ease-in-out 0.3s;
@@ -87,7 +87,7 @@ export const ButtonGroup = styled.div`
     margin-top: 25px;
 `;
 
-export const StyledTextInput =  styled.input`
+export const StyledTextInput = styled.input`
     width: 330px;
     padding: 15px;
     padding-left: 50px;
@@ -101,7 +101,7 @@ export const StyledTextInput =  styled.input`
     margin: 5px auto 10px auto;
     transition: ease-in-out 0.3s;
     
-    ${(props)=>props.invalid && `background-color: ${colors.red}; color: ${colors.primary};`}
+    ${(props) => props.invalid && `background-color: ${colors.red}; color: ${colors.primary};`}
 
     &:focus{
         background-color: ${colors.dark2};
@@ -109,7 +109,7 @@ export const StyledTextInput =  styled.input`
     }
 `;
 
-export const StyledSelect =  styled.select`
+export const StyledSelect = styled.select`
     width: 330px;
     padding: 15px;
     padding-left: 50px;
@@ -123,7 +123,7 @@ export const StyledSelect =  styled.select`
     margin: 5px auto 10px auto;
     transition: ease-in-out 0.3s;
     
-    ${(props)=>props.invalid && `background-color: ${colors.red}; color: ${colors.primary};`}
+    ${(props) => props.invalid && `background-color: ${colors.red}; color: ${colors.primary};`}
 
     &:focus{
         background-color: ${colors.dark2};
@@ -177,7 +177,7 @@ export const Erromsg = styled.div`
 `;
 
 export const ExtraText = styled.p`
-    font-size: ${(props)=>props.size}px;
+    font-size: ${(props) => props.size}px;
     text-align: center;
     color: black;
     padding: 2px;
@@ -188,7 +188,7 @@ export const ExtraText = styled.p`
 export const ExtraTexts = styled.p`
     display: flex;
     gap: 10px;
-    font-size: ${(props)=>props.size}px;
+    font-size: ${(props) => props.size}px;
     text-align: center;
     color: black;
     padding: 2px;
@@ -223,8 +223,8 @@ export const StyledIcon = styled.p`
     position: absolute;
     font-size: 21px;
     top: 45px;
-    ${(props)=>props.right && `right: 15px; `}
-    ${(props)=>!props.right && `left: 15px;`}
+    ${(props) => props.right && `right: 15px; `}
+    ${(props) => !props.right && `left: 15px;`}
 
 `;
 

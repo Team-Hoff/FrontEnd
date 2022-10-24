@@ -1,6 +1,6 @@
 import React, { useState } from "react";
-import { useField} from "formik";
-import { FiEye, FiEyeOff} from "react-icons/fi";
+import { useField } from "formik";
+import { FiEye, FiEyeOff } from "react-icons/fi";
 import { StyledTextInput, StyledLabel, StyledIcon, Erromsg, StyledSelect } from "./Style";
 
 export const TextInput = ({ icon, ...props }) => {
@@ -12,10 +12,10 @@ export const TextInput = ({ icon, ...props }) => {
 
 
             {props.type !== "password" && (
-            <StyledTextInput
-                {...field}
-                {...props}
-            />
+                <StyledTextInput
+                    {...field}
+                    {...props}
+                />
             )}
 
             {props.type === "password" && (
@@ -37,28 +37,28 @@ export const TextInput = ({ icon, ...props }) => {
                 </StyledIcon>
             }
 
-                
-            {meta.touched && meta.error   ? (
-                <Erromsg>{meta.error}</Erromsg>
-            ): (
-                <Erromsg style={{visibility:"hidden"}}></Erromsg>
-            )}
-            
 
-            
+            {meta.touched && meta.error ? (
+                <Erromsg>{meta.error}</Erromsg>
+            ) : (
+                <Erromsg style={{ visibility: "hidden" }}></Erromsg>
+            )}
+
+
+
 
         </div>
     )
 }
 
 
-export const CustomSelect = ({icon, ...props}) => {
+export const CustomSelect = ({ icon, ...props }) => {
     const [field, meta] = useField(props);
-   
+
     return (
         <div>
-             <StyledLabel htmlFor={props.name}>{props.label}</StyledLabel>
-            
+            <StyledLabel htmlFor={props.name}>{props.label}</StyledLabel>
+
             <StyledSelect
                 {...field}
                 {...props}
@@ -69,10 +69,10 @@ export const CustomSelect = ({icon, ...props}) => {
 
             {meta.touched && meta.error ? (
                 <Erromsg>{meta.error}</Erromsg>
-            ): (
-                <Erromsg style={{visibility:"hidden"}}></Erromsg>
+            ) : (
+                <Erromsg style={{ visibility: "hidden" }}></Erromsg>
             )}
-            
+
         </div>
     )
 }
@@ -85,11 +85,11 @@ export const SettingsInput = ({ icon, ...props }) => {
 
 
             {props.type !== "password" && (
-            <input
-                {...field}
-                {...props}
-                onChange={field.onChange}
-            />
+                <input
+                    {...field}
+                    {...props}
+                    onChange={field.onChange}
+                />
             )}
 
             {props.type === "password" && (
@@ -103,31 +103,31 @@ export const SettingsInput = ({ icon, ...props }) => {
 
             {
                 props.type === "password" &&
-                <StyledIcon onClick={() => setShow(!show)} right style={{top:'0px'}}>
+                <StyledIcon onClick={() => setShow(!show)} right style={{ top: '0px' }}>
                     {show && <FiEye />}
                     {!show && <FiEyeOff />}
                 </StyledIcon>
             }
 
-                
+
             {meta.touched && meta.error ? (
-                <Erromsg style={{paddingLeft:'10px'}}>{meta.error}</Erromsg>
-            ): (
-                <Erromsg style={{visibility:"hidden",paddingLeft:'10px'}}></Erromsg>
+                <Erromsg style={{ paddingLeft: '10px' }}>{meta.error}</Erromsg>
+            ) : (
+                <Erromsg style={{ visibility: "hidden", paddingLeft: '10px' }}></Erromsg>
             )}
 
-            
+
 
         </div>
     )
 }
 
-export const SettingsSelect = ({icon, ...props}) => {
+export const SettingsSelect = ({ icon, ...props }) => {
     const [field, meta] = useField(props);
-   
+
     return (
         <div>
-            
+
             <select
                 {...field}
                 {...props}
@@ -135,11 +135,11 @@ export const SettingsSelect = ({icon, ...props}) => {
             />
 
             {meta.touched && meta.error ? (
-                <Erromsg style={{paddingLeft:'10px'}}>{meta.error}</Erromsg>
-            ): (
-                <Erromsg style={{visibility:"hidden", paddingLeft:'10px'}}></Erromsg>
+                <Erromsg style={{ paddingLeft: '10px' }}>{meta.error}</Erromsg>
+            ) : (
+                <Erromsg style={{ visibility: "hidden", paddingLeft: '10px' }}></Erromsg>
             )}
-            
+
         </div>
     )
 }

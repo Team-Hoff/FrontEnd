@@ -152,7 +152,8 @@ export const CourseCardContainer = styled.div`
     justify-content: center;
     align-items: center;
     background: #fff;
-    margin-right: 50px
+    margin-right: 50px;
+    /* overflow-x: hidden */
 `
 
 export const CourseCardHeader = styled.h1`
@@ -171,15 +172,14 @@ export const CourseCardWrapper = styled.div`
     grid-template-columns: 1fr 1fr 1fr ;
     align-items: center;
     grid-gap: 30px;
-    /* padding: 0 50px; */
 
     @media (max-width: 1200px){
         max-width: 80vw;
         grid-template-columns: 1fr 1fr ;
-
+        grid-gap: 20px;
     }
 
-    @media (max-width: 600px){
+    @media (max-width: 620px){
         max-width: 80vw;
         grid-template-columns: 1fr;
 
@@ -206,7 +206,7 @@ export const CourseCards = styled.div`
     }
 
     @media (max-width: 1000px){
-        max-height: 200px;
+        max-height: 250px;
         width:250px;
     }
 `

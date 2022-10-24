@@ -1,59 +1,59 @@
 import React, { useRef } from "react";
 import "./ImageUpload.css"
-import { Formik, Form  } from "formik";
+import { Formik, Form } from "formik";
 import ImagePreview from "./ImagePreview";
 import TypeWriter from "./typingEffect";
 
-function ImageUpload(props){
+function ImageUpload(props) {
 
-    const fileRef  = useRef(null);
+  const fileRef = useRef(null);
 
-    
 
-    return(
-        <div className="Upload-container">
-            <TypeWriter greet = {props.greet}/>
 
-                
-            <Formik
-                
-              initialValues={{
-                    file: null
-                }}
+  return (
+    <div className="Upload-container">
+      <TypeWriter greet={props.greet} />
 
-                onSubmit={(values) => {
-                console.log(values);
-                }}
-                >
 
-            {({ values, setFieldValue }) => (
-              <Form>  
+      <Formik
 
-                 
-                 
-                 <input
-                   hidden
-                   name="file"
-                   type="file"
-                   accept="image/*"
-                   onChange={(event) => {setFieldValue("file", event.target.files[0])}}
-                   ref={fileRef} 
-                 />
-                  <ImagePreview file={values.file}/>
-                  
-                 <button className="add-photo" onClick={()=> {fileRef.current.click()}}>Add photo</button>
+        initialValues={{
+          file: null
+        }}
 
-                 
+        onSubmit={(values) => {
+          console.log(values);
+        }}
+      >
 
-              </Form>     
+        {({ values, setFieldValue }) => (
+          <Form>
 
-            )
-            }
 
-            </Formik>
 
-        </div>
-    )
+            <input
+              hidden
+              name="file"
+              type="file"
+              accept="image/*"
+              onChange={(event) => { setFieldValue("file", event.target.files[0]) }}
+              ref={fileRef}
+            />
+            <ImagePreview file={values.file} />
+
+            <button className="add-photo" onClick={() => { fileRef.current.click() }}>Add Profile Picture</button>
+
+
+
+          </Form>
+
+        )
+        }
+
+      </Formik>
+
+    </div>
+  )
 }
 
 export default ImageUpload;

@@ -3,11 +3,13 @@ import Auth from "./Auth";
 import Login from '../Login';
 import Signup from '../Signup';
 import Home from '../Home';
-import Program from '../Program';
+// import Program from '../Program';
 import Programme from '../Programme Page/Programme';
 import Course from '../Course';
 import Logout from "./Logout";
-import Settings from "../settings";
+// import Settings from "../settings";
+import Profile from "../Profile/ProfileInputs";
+import Discussion from "../Discussion forum/Discussion";
 import PageNotFound from "../PageNotFound/PageNotFound";
 import ForgotPassword from "../PasswordChange/ForgotPassword";
 import ResetPassword from "../PasswordChange/ResetPassword";
@@ -62,11 +64,15 @@ const ProtectedRoutes = () => {
         },
         {
             path: "/profile",
-            element: user ? <Settings /> : <Navigate replace to="/" />
+            element: user ? <Profile /> : <Navigate replace to="/" />
         },
         {
             path: "/videos",
             element: <Videos />
+        },
+        {
+            path: "/discussion",
+            element: <Discussion />
         },
         {
             path: "/404",

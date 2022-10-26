@@ -9,11 +9,12 @@ body.active-modall {
   font-size: 18px;
   border-radius: 20px;
   border: 2px solid black;
+  transition: ease-in-out 0.2s;
 }
 
 .button-modal:hover {
   background-color: rgb(248, 39, 39);
-  padding: 1rem;
+  letter-spacing: 3px;
 }
 
 .modall,

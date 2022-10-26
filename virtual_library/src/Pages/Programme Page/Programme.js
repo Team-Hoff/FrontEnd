@@ -12,6 +12,7 @@ import { useAuth } from '../hooks/useAuth';
 import { VideoContainer, VideoBg, Video1, VideoContent, VideoHeader, InfoContainer, InfoWrapper, InfoRow, Column1, Column2, ImgWrapper, Img, ProgrammeInfo, CourseCardContainer, CourseCardWrapper, CourseCards, CourseCardIcon, CourseHeader } from "./styledComponents";
 import Classroom from "./Images/Classroom-rafiki.svg";
 
+
 function Programme() {
     const { logout } = useAuth();
     const data = window.localStorage.getItem('Program');

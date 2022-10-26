@@ -215,10 +215,6 @@ export const CourseCardIcon = styled.img`
     width: 100%;
     margin-bottom: 10px;
 
-    @media (max-width: 1000px){
-        
-    }
-
 `
 
 export const CourseHeader = styled.h2`

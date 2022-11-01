@@ -72,7 +72,7 @@ const ProtectedRoutes = () => {
         },
         {
             path: "/discussion",
-            element: <Discussion />
+            element: user ? <Discussion /> : <Navigate replace to="/" />
         },
         {
             path: "/404",

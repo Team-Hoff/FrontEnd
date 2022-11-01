@@ -91,6 +91,7 @@ export const StyledTextInput = styled.input`
     width: 330px;
     padding: 15px;
     padding-left: 50px;
+    padding-right: 50px;
     font-size: 17px;
     letter-spacing: 1px;
     color: ${colors.dark1};

@@ -57,6 +57,7 @@ input:focus {
 
 .dataResult {
   margin-top: 2px;
+  border-radius: 15px;
   width: 350px;
   height: 150px;
   background-color: white;

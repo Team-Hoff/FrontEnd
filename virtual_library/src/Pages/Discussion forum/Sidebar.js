@@ -25,7 +25,7 @@ const Sidebar = () => {
     })
 
     return (
-        <div className='w-full p-3 flex md:flex-col md:w-[20%] md:h-screen md:sticky md:top-0 md:gap-20 gap-4 h-full flex-none min-w-[280px] bg-gray-900' >
+        <div className='w-full p-3 flex md:flex-col md:w-[20%]   md:top-0 md:gap-20 gap-4 max-h-full flex-none min-w-[280px] bg-gray-900' >
             <div className='pt-1'><GiHamburgerMenu size={30} color='dodgerblue' className='md:hidden -top-5' onClick={() => setNav(true)} /></div>
 
             <div className='px-2 pt-1' >

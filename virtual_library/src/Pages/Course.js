@@ -131,7 +131,7 @@ const Course = () => {
             <><Navbar /><div className="hero" style={{
                 backgroundImage: `linear-gradient(0deg, rgba(0,0,0,0.6),rgba(0,0,0,0.6)), url(${course.length !== 0 ? course[0].img : ""})`,
                 backgroundRepeat: 'no-repeat',
-                backgroundSize: '100% 100%'
+                backgroundSize: 'cover'
             }}>
 
                 {course.length !== 0 ? <h1> <span className='program_fonts'>

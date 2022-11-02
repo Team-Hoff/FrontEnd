@@ -15,6 +15,7 @@ const Comments = ({ currentUserId, setNewTopic, newTopic, loading, setLoading })
     const rootComments = comments.filter(comment => comment.parentId === null);
     const url = 'https://api.npoint.io/898023a9b97e28317456';
 
+
     const getReplies = commendId => {
         return comments.filter(comment => comment.parentId === commendId).sort((a, b) => new Date(a.createdAt).getTime() - new Date(b.createdAt).getTime());
     }
@@ -125,16 +126,21 @@ const Comments = ({ currentUserId, setNewTopic, newTopic, loading, setLoading })
         // eslint-disable-next-line react-hooks/exhaustive-deps
     }, [])
 
+    Axios.get(url,
+        {
+            headers: {
+                "Content-Type": "application/json",
+            }
+        })
+        .then((res) => {
+            setcomments(res.data)
+            // setLoading(false);
 
-    if (loading) {
-        return (
-            <div>
-                <div className="loader-container">
-                    <div className="spinner"></div>
-                </div>
-            </div>
-        )
-    }
+        })
+        .catch((err) => {
+            console.log(err);
+        })
+
 
     if (newTopic) {
         return (

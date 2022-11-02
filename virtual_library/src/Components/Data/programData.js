@@ -162,7 +162,7 @@ export const ProgramData = [
         img: `${Mechanical}`,
         pic: `${mech}`,
         vid: `${telev}`,
-        paragraph: 'mechanical engineering is the application of the principles and problem-solving techniques of engineering from design to manufacturing to the marketplace for any object. Mechanical engineers analyze their work using the principles of motion, energy, and force—ensuring that designs function safely, efficiently, and reliably, all at a competitive cost.'
+        paragraph: 'Mechanical engineering is the application of the principles and problem-solving techniques of engineering from design to manufacturing to the marketplace for any object. Mechanical engineers analyze their work using the principles of motion, energy, and force—ensuring that designs function safely, efficiently, and reliably, all at a competitive cost.'
 
     }
 

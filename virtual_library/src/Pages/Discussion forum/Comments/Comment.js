@@ -29,8 +29,9 @@ const Comment = ({ comment, replies, currentUserId, deleteComment, activeComment
                 </div>
                 {!isEditing && <div className="comment-text">{comment.body}</div>}
                 {isEditing && (
-                    <CommentForm submitLabel='Update' hasCancelButton initialText={comment.body} handleSubmit={(text) => updateComment(text, comment.id)} handleCancel={() => setActiveComment(null)} />
+                    <CommentForm submitLabel='Update' initialText={comment.body} handleSubmit={(text) => updateComment(text, comment.id)} handleCancel={() => { setActiveComment(null) }} />
                 )}
+
                 <div className="comment-actions">
                     {canReply && <div className="comment-action" onClick={() => setActiveComment({ id: comment.id, type: 'replying' })}>Reply</div>}
                     {canEdit && <div className="comment-action" onClick={() => setActiveComment({ id: comment.id, type: 'editing' })}>Edit</div>}
@@ -38,7 +39,7 @@ const Comment = ({ comment, replies, currentUserId, deleteComment, activeComment
                 </div>
                 <hr />
                 {isReplying && (
-                    <CommentForm submitLabel="Reply" handleSubmit={(text) => addComment(text, replyId)} />
+                    <CommentForm submitLabel="Reply" handleSubmit={(text) => addComment(text, replyId)} handleCancel={() => { setActiveComment(null) }} />
                 )}
                 {replies.length > 0 && (
                     <div className="replies">

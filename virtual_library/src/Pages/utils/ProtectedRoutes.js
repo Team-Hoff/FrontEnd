@@ -18,6 +18,7 @@ import AboutUs from "../AboutUs/Aboutus";
 import { Navigate } from 'react-router-dom';
 import { useRoutes } from "react-router-dom";
 import Videos from "../Videos";
+import Display from "./Display";
 
 const ProtectedRoutes = () => {
     const { user } = useAuth();
@@ -73,6 +74,10 @@ const ProtectedRoutes = () => {
         {
             path: "/discussion",
             element: user ? <Discussion /> : <Navigate replace to="/" />
+        },
+        {
+            path: "/test",
+            element: <Display />
         },
         {
             path: "/404",

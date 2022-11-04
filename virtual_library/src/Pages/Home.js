@@ -6,6 +6,7 @@ import Navbar from '../Components/Navbar/Navbar';
 import Footer from '../Components/Footer/Footer';
 import ProgramCard from '../Components/ProgramCard/ProgramCard';
 import { useAuth } from './hooks/useAuth';
+import RecommendedBooks from '../Components/RecommendedBooks/RecommendedBooks';
 
 const Home = () => {
   const [course, setcourse] = useState([])
@@ -58,10 +59,14 @@ const Home = () => {
             </div>
           </div>
         </div>
-      </section>
+    </section>
+      <hr></hr>
       <div className='progcard'>
-        <ProgramCard />
+      <RecommendedBooks />
+      <ProgramCard/> 
+      
       </div>
+      
 
       <Footer />
 

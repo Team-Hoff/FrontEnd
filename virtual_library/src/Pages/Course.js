@@ -11,6 +11,7 @@ import { Navigate, useLocation } from 'react-router-dom';
 import { BoxLoading, RollBoxLoading, LadderLoading, MeteorRainLoading, WindMillLoading } from 'react-loadingg';
 import '../Components/loading.css'
 import { useAuth } from './hooks/useAuth';
+import { CButton, CCard, CCardBody, CCardImage, CCardTitle, CCol } from '@coreui/react';
 
 
 
@@ -270,11 +271,24 @@ const Course = () => {
                         <h1 className="lect_head">Reference Books</h1>
                         <div className="ref_bookss">
                             {book.map((pbook) =>
-                                <div className="ref_cov_page">
-                                    <h3 className="book_label">{pbook.bookName}</h3>
-                                    <img className='image' src={pbook.image} alt="Reference Book"></img>
-                                    <div style={{ textAlign: 'center', fontSize: '20px', fontFamily: 'Poppins', paddingBottom: '20px' }}><a href={pbook.bookLink} target="_blank" rel="noopener noreferrer" style={{ textDecoration: 'none' }}>GO TO SITE</a></div>
-                                </div>
+                                    <CCol className="w-[320px] inline-block p-2 cursor-pointer hover:scale-105 ease-in-out duration-300">
+                                        <CCard style={{ width: '18rem' }}>
+                                            <CCardImage orientation="top" src={pbook.image} height='150px' />
+                                            <CCardBody>
+                                                <CButton href="/computer/algebra">View</CButton>
+                                            </CCardBody>
+                                        </CCard>
+                                    </CCol>,
+                                    {/* <CCol xs={3}>
+                                    <CCard style={{ width: '20rem' }}>
+                                        <CCardImage orientation="top" src={pbook.image} />
+                                        <CCardBody>
+                                            <CCardTitle>{pbook.bookName}</CCardTitle>
+                                            <CButton href={pbook.bookLink}>Download</CButton>
+                                        </CCardBody>
+                                    </CCard>
+                                    </CCol> */}
+                                
                             )}
                         </div>
                     </div>}

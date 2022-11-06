@@ -196,7 +196,7 @@ export const CourseCards = styled.div`
     max-height: 340px;
     width: 350px;
     padding: 30px;
-    box-shadow: 0 1px 3px rgba(0,0,0,0.2);
+    box-shadow: 5px 10px 8px 10px rgba(0, 0, 0, 0.2);
     transition: all 0.2s ease-in-out;
 
     &:hover{
@@ -220,7 +220,7 @@ export const TopicCards = styled.div`
     width: 100%;
     padding: 30px;
     margin-bottom: 30px;
-    box-shadow: 5px 10px 18px #888888;
+    box-shadow: 5px 10px 8px 10px rgba(0, 0, 0, 0.2);
     transition: all 0.2s ease-in-out;
 
     &:hover{

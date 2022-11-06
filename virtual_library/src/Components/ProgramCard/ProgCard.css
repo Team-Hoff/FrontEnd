@@ -8,7 +8,7 @@
   align-content: left;
   background-color: transparent;
   border: none;
-  box-shadow: 5px 10px 8px 10px #888888;
+  box-shadow: 5px 10px 8px 10px rgba(0, 0, 0, 0.2);
   transition: all 0.2s ease-in-out;
 }
 

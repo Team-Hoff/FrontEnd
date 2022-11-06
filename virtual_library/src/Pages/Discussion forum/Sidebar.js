@@ -30,9 +30,9 @@ const Sidebar = () => {
         });
         localStorage.setItem('Topic', JSON.stringify(newFilter))
 
-        if (newFilter === "") {
-            localStorage.removeItem('Topic')
-        }
+        // if (newFilter === "") {
+        //     localStorage.removeItem('Topic')
+        // }
     }
 
     if (wordEntered === "") {
@@ -63,7 +63,7 @@ const Sidebar = () => {
 
     return (
         // <div className='w-full p-3 flex md:flex-col md:w-[20%]   md:top-0 md:gap-20 gap-4 max-h-full flex-none min-w-[280px] bg-gray-900' >
-        <div className='w-full h-[20%]  max-h-full p-3 flex flex-col top-0 bg-gray-900'>
+        <div className='w-full h-[20%]  max-h-full p-3 flex flex-col items-center top-0 bg-gray-900'>
             {/* <div className='pt-1'>
                 <GiHamburgerMenu size={30} color='dodgerblue' className='md:hidden -top-5' onClick={() => setNav(true)} />
             </div> */}
@@ -77,7 +77,7 @@ const Sidebar = () => {
 
                     </div>
 
-                    <input type="text" placeholder='Search for topic' value={wordEntered} onChange={handleFilter} className='w-[55vw] rounded px-4 py-2.5 text-sm font-light bg-gray-800 text-gray-400 outline-0 border-0 z-10 focus:outline-none focus:ring-1 focus:ring-gray-500' />
+                    <input type="text" placeholder='Search for topic' value={wordEntered} onChange={handleFilter} className='w-[350px] rounded px-4 py-2.5 text-sm font-light bg-gray-800 text-gray-400 outline-0 border-0 z-10 focus:outline-none focus:ring-1 focus:ring-gray-500' />
                     <div className='relative'>
                         <div className='absolute -left-6 top-1.5 z-50'>
                             {wordEntered === "" ? <ClosedIcon style={{ visibility: 'hidden' }} /> : <ClosedIcon id="clearBtn" onClick={clearInput} className='text-white' />}

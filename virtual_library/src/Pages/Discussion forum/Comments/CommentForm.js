@@ -1,12 +1,12 @@
 import React, { useState } from 'react'
 
-const CommentForm = ({ handleSubmit, submitLabel, initialText = '', handleCancel }) => {
+const CommentForm = ({ handleSubmit, submitLabel, initialText = '', handleCancel, isSending }) => {
     const [text, settext] = useState(initialText);
     const isTextareaDisable = text.length === 0;
     const onSubmit = (event) => {
         event.preventDefault();
         handleSubmit(text);
-        settext('')
+        // settext('')
     }
     return (
         <form onSubmit={onSubmit}>

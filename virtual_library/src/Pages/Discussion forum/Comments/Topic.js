@@ -6,6 +6,7 @@ import axios from '../../utils/axios';
 
 const Topic = ({ loading, setLoading, newTopic, setNewTopic }) => {
     const Data = JSON.parse(localStorage.getItem('Topic'));
+    const [isSending, setisSending] = useState(false)
     const [topic, settopic] = useState([])
     const [noTopic, setnoTopic] = useState(false)
     const [title, settitle] = useState('')
@@ -27,49 +28,58 @@ const Topic = ({ loading, setLoading, newTopic, setNewTopic }) => {
 
     };
 
-    const addComment = (text, title) => {
-        createComment(text, title)
-            .then((comment) => {
-                axios.post(`/forum/createTopic/${Math.random().toString(36).substr(2, 9)}/${username}/${new Date().toISOString()}/${id}`, {
-                    Topic: title,
-                    summary: text
-                })
-                    .then(res => {
+    const addComment = async (text, title) => {
 
+        setisSending(true)
+        await axios.post(`/forum/createTopic/${Math.random().toString(36).substr(2, 9)}/${username}/${new Date().toISOString()}/${id}`, {
+            Topic: title,
+            summary: text
+        })
+            .then(res => {
+                axios.get("/forum/TopicList")
+                    .then((res) => {
+                        settopic(res.data)
                     })
-                    .catch(err => {
+                    .catch((err) => {
                         console.log(err);
                     })
-                // settopic([...topic, comment])
-                setNewTopic(false)
             })
+
+        setNewTopic(false)
+        setisSending(false)
+        // })
 
 
     }
 
 
     useEffect(() => {
+        if (Data === null) {
+            setnoTopic(false)
+        }
+
+        else {
+            setnoTopic(false)
+        }
+        if (Data !== null) {
+            Data.length === 0 ? setnoTopic(true) : setnoTopic(false)
+        }
         axios.get("/forum/TopicList")
             .then((res) => {
-                if (Data === null) {
-                    settopic(res.data)
-                    setnoTopic(false)
-                }
-                else {
-                    setnoTopic(false)
-                    settopic(Data)
-                }
-                if (Data !== null) {
-                    Data.length === 0 ? setnoTopic(true) : setnoTopic(false)
-                }
+                settopic(res.data);
                 setLoading(false);
-
             })
             .catch((err) => {
                 console.log(err);
             })
+
+
+
+
         // eslint-disable-next-line react-hooks/exhaustive-deps
     })
+
+
 
 
     const onSubmit = (event) => {
@@ -106,16 +116,23 @@ const Topic = ({ loading, setLoading, newTopic, setNewTopic }) => {
 
             {
                 newTopic && (
-                    <div className='form-container'>
-                        <form ref={menuRef} style={{ border: '1px solid black', padding: '10px', marginBottom: '30px', borderRadius: '15px', backgroundColor: 'white' }} onSubmit={onSubmit}>
-                            <div>Title</div>
-                            <input style={{ border: '1px solid black', padding: '5px', borderRadius: '5px' }} type="text" value={title} onChange={(e) => { settitle(e.target.value) }} />
-                            <div>Summary</div>
-                            <textarea className='comment-form-textarea' value={text} onChange={(e) => settext(e.target.value)} />
-                            <button className='comment-form-button' disabled={isTextareaDisable}>Post</button>
-                            <button type='button' className='comment-form-button comment-form-cancel-button' onClick={() => setNewTopic(false)}>Cancel</button>
-                        </form>
-                    </div>
+                    !isSending ? (
+                        <div className='form-container'>
+                            <form ref={menuRef} style={{ border: '1px solid black', padding: '10px', marginBottom: '30px', borderRadius: '15px', backgroundColor: 'white' }} onSubmit={onSubmit}>
+                                <div>Title</div>
+                                <input style={{ border: '1px solid black', padding: '5px', borderRadius: '5px' }} type="text" value={title} onChange={(e) => { settitle(e.target.value) }} />
+                                <div>Summary</div>
+                                <textarea className='comment-form-textarea' value={text} onChange={(e) => settext(e.target.value)} />
+                                <button className='comment-form-button' disabled={isTextareaDisable}>Post</button>
+                                <button type='button' className='comment-form-button comment-form-cancel-button' onClick={() => setNewTopic(false)}>Cancel</button>
+                            </form>
+                        </div>
+                    ) : (
+                        <div className="form-container">
+                            <div className="spinner"></div>
+                        </div>
+                    )
+
                 )
 
             }
@@ -126,29 +143,53 @@ const Topic = ({ loading, setLoading, newTopic, setNewTopic }) => {
                         <h1 className='uppercase'>The discussion topic does not exist, please start a new topic</h1>
                     </div>
                 ) : (
+                    Data === null ? (
+                        topic.map((a) => {
 
-                    topic.map((a) => {
+                            return (
+                                <>
+                                    <TopicCards key={a.topicID}>
+                                        <h1 className='text-left'>{a.Topic}</h1>
 
-                        return (
-                            <>
-                                <TopicCards key={a.topicID}>
-                                    <h1 className='text-left'>{a.Topic}</h1>
+                                        <p>{a.summary}</p>
+                                        <div className='flex flex-row justify-between'>
+                                            <p>Posted by {a.author}</p>
+                                            <p>{new Date(a.createdAt).toLocaleDateString()} {new Date(a.createdAt).toLocaleTimeString()}</p>
+                                        </div>
+                                        <Link to={`/discussion/${a.topicID}`} className='no-underline w-32'>
+                                            View Replies
+                                        </Link>
+                                    </TopicCards>
+                                </>
+                            )
 
-                                    <p>{a.summary}</p>
-                                    <div className='flex flex-row justify-between'>
-                                        <p>Posted by {a.author}</p>
-                                        <p>{new Date(a.createdAt).toLocaleDateString()} {new Date(a.createdAt).toLocaleTimeString()}</p>
-                                    </div>
-                                    <Link to={`/discussion/${a.topicID}`} className='no-underline w-32'>
-                                        View Replies
-                                    </Link>
-                                </TopicCards>
-                            </>
-                        )
+                        })
 
-                    })
+                    ) : (
+                        Data.map((a) => {
 
+                            return (
+                                <>
+                                    <TopicCards key={a.topicID}>
+                                        <h1 className='text-left'>{a.Topic}</h1>
+
+                                        <p>{a.summary}</p>
+                                        <div className='flex flex-row justify-between'>
+                                            <p>Posted by {a.author}</p>
+                                            <p>{new Date(a.createdAt).toLocaleDateString()} {new Date(a.createdAt).toLocaleTimeString()}</p>
+                                        </div>
+                                        <Link to={`/discussion/${a.topicID}`} className='no-underline w-32'>
+                                            View Replies
+                                        </Link>
+                                    </TopicCards>
+                                </>
+                            )
+
+                        })
+
+                    )
                 )
+
             }
 
 

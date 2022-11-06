@@ -3,6 +3,7 @@ import { MdChevronLeft, MdChevronRight } from 'react-icons/md'
 import {
     CButton,
     CCol,
+    CPopover,
     CSpinner,
 } from '@coreui/react'
 import { Card, Button } from 'react-bootstrap';
@@ -14,7 +15,7 @@ import { useAuth } from '../../Pages/hooks/useAuth';
 export default function RecommendedBooks() {
     const [courses, setCourses] = useState([{ img: Loader }, { img: Loader }, { img: Loader }, { img: Loader }])
     const [loading, setLoading] = useState(true)
-    const {user} = useAuth()
+    const { user } = useAuth()
 
     useEffect(function () {
         axios.get('/recommend')
@@ -24,8 +25,8 @@ export default function RecommendedBooks() {
             }
             )
     }, [])
-    function lower(programme){
-        let p= programme.split(' ')
+    function lower(programme) {
+        let p = programme.split(' ')
         return p[0].toLowerCase()
     }
     const slideLeft = () => {
@@ -54,12 +55,22 @@ export default function RecommendedBooks() {
                                         {/* <CButton disabled >
                                             <CSpinner component="span" size="sm" aria-hidden="true" />
                                         </CButton> */}
+
                                         <CButton disabled color='dark'>
                                             <CSpinner component="span" size="sm" aria-hidden="true" />
                                             Loading...
                                         </CButton>
-                                    </> : <Button variant="primary" style={{ background: 'grey', borderColor: 'grey' }}
-                                        className="cardsbutton">{item.name}</Button>}
+                                    </> :
+                                        <CPopover
+                                            trigger='hover'
+                                            content='HHAHAHAHAHAH.................Aenean lacinia bibendum nulla sed consectetur. Praesent commodo cursus magna, vel
+                                            scelerisque nisl consectetur et. Donec sed odio dui. Donec ullamcorper nulla non metus
+                                            auctor fringilla.'
+                                            placement="auto"
+                                        >
+                                            <Button variant="primary" style={{ background: 'grey', borderColor: 'grey' }}
+                                                className="cardsbutton">{item.name}</Button>
+                                        </CPopover>}
                                 </Link>
                             </Card.Body>
                         </Card>

@@ -7,11 +7,12 @@ import { HiDownload, HiEye } from 'react-icons/hi';
 import Footer from '../Components/Footer/Footer';
 import Navbar from '../Components/Navbar/Navbar';
 import GoBack from '../Components/GoBack/GoBack';
-import { Navigate, useLocation } from 'react-router-dom';
+import { Link, Navigate, useLocation } from 'react-router-dom';
 import { BoxLoading, RollBoxLoading, LadderLoading, MeteorRainLoading, WindMillLoading } from 'react-loadingg';
 import '../Components/loading.css'
 import { useAuth } from './hooks/useAuth';
 import { CButton, CCard, CCardBody, CCardImage, CCardTitle, CCol } from '@coreui/react';
+import { Card } from 'react-bootstrap';
 
 
 
@@ -271,15 +272,19 @@ const Course = () => {
                         <h1 className="lect_head">Reference Books</h1>
                         <div className="ref_bookss">
                             {book.map((pbook) =>
-                                    <CCol className="w-[320px] inline-block p-2 cursor-pointer hover:scale-105 ease-in-out duration-300">
-                                        <CCard style={{ width: '18rem' }}>
-                                            <CCardImage orientation="top" src={pbook.image} height='150px' />
-                                            <CCardBody>
-                                                <CButton href="/computer/algebra">View</CButton>
-                                            </CCardBody>
-                                        </CCard>
-                                    </CCol>,
-                                    {/* <CCol xs={3}>
+                                <CCol className="w-[320px] inline-block p-2 cursor-pointer hover:scale-105 ease-in-out duration-300">
+                                    <Card className="progcards" key={pbook.id}>
+                                        <Card.Img className="progcardsimg" variant="top" src={pbook.image} />
+                                        <Card.Body className="cardbody">
+                                            <Card.Title className="cardTitle">{pbook.bookName}</Card.Title>
+                                            <Link to={`${pbook.link}`} style={{ color: 'white', textDecoration: 'none' }}>
+                                                <CButton color='secondary'>Download</CButton>
+                                            </Link>
+                                        </Card.Body>
+                                    </Card>
+                                </CCol>,
+
+                                {/* <CCol xs={3}>
                                     <CCard style={{ width: '20rem' }}>
                                         <CCardImage orientation="top" src={pbook.image} />
                                         <CCardBody>
@@ -288,7 +293,7 @@ const Course = () => {
                                         </CCardBody>
                                     </CCard>
                                     </CCol> */}
-                                
+
                             )}
                         </div>
                     </div>}

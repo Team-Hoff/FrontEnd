@@ -138,8 +138,8 @@ function Profile() {
       <ImageUpload greet={username} />
 
       <div style={{ marginTop: '25px', width: '50px' }}><GoBack /></div>
-      <div className="form-container ">
-        <div className="input-container new-container">
+      <div className="form-containerss ">
+        <div className="input-containerss new-container">
 
           <h2 className="personal">Personal Information</h2>
 

@@ -6,7 +6,7 @@ import Navbar from '../Components/Navbar/Navbar';
 import Footer from '../Components/Footer/Footer';
 import ProgramCard from '../Components/ProgramCard/ProgramCard';
 import { useAuth } from './hooks/useAuth';
-import RecommendedBooks from '../Components/RecommendedBooks/RecommendedBooks';
+import RecommendedBooks from '../Components/RecommendedCourses/RecommendedBooks';
 
 const Home = () => {
   const [course, setcourse] = useState([])

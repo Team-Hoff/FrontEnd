@@ -1,5 +1,5 @@
 import React from 'react';
-import RecommendedBooks from '../../Components/RecommendedBooks/RecommendedBooks';
+import RecommendedBooks from '../../Components/RecommendedCourses/RecommendedBooks';
 
 function Display() {
   

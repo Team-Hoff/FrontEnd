@@ -1,21 +1,28 @@
-.progcards{
-    width: 18rem;
-    float: left;
-    margin-left: 110px;
-    margin-top: 30px;
-    margin-bottom:30px;
-    text-align: center;
-    align-content: left;
-    background-color: transparent;
-    border: none;
+.progcards {
+  width: 18rem;
+  float: left;
+  margin-left: 110px;
+  margin-top: 30px;
+  margin-bottom: 30px;
+  text-align: center;
+  align-content: left;
+  background-color: transparent;
+  border: none;
+  box-shadow: 5px 10px 8px 10px #888888;
+  transition: all 0.2s ease-in-out;
 }
 
-.progcardsimg{
-    height: 180px; 
-    /* mix-blend-mode: ; */
-    background-color: transparent;
+.progcards:hover {
+  transform: scale(1.02);
+  transition: all 0.2s ease-in-out;
+  /* cursor: pointer; */
 }
 
+.progcardsimg {
+  height: 180px;
+  /* mix-blend-mode: ; */
+  background-color: transparent;
+}
 
 /* @media screen and (max-width: 600px) {
     .progcards{

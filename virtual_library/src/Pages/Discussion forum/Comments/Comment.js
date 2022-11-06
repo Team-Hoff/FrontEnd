@@ -3,8 +3,8 @@ import '../Styles.css';
 import CommentForm from './CommentForm';
 import ProfileIcon from './Profile-icon.png';
 
-const Comment = ({ comment, replies, currentUserId, deleteComment, activeComment, setActiveComment, updateComment, addComment, parentId = null }) => {
-    const fiveMinutes = 300000;
+const Comment = ({ comment, replies, currentUserId, deleteComment, activeComment, setActiveComment, updateComment, addComment, parentId = 0 }) => {
+    const fiveMinutes = 3000000;
     const timePassed = new Date() - new Date(comment.createdAt) > fiveMinutes
     const canReply = Boolean(currentUserId);
     const canEdit = currentUserId === comment.userId && !timePassed;

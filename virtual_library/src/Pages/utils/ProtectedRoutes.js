@@ -1,3 +1,4 @@
+import React from "react";
 import { useAuth } from "../hooks/useAuth";
 import Auth from "./Auth";
 import Login from '../Login';
@@ -10,11 +11,11 @@ import Logout from "./Logout";
 // import Settings from "../settings";
 import Profile from "../Profile/ProfileInputs";
 import Discussion from "../Discussion forum/Discussion";
+import Forum from "../Discussion forum/Forum";
 import PageNotFound from "../PageNotFound/PageNotFound";
 import ForgotPassword from "../PasswordChange/ForgotPassword";
 import ResetPassword from "../PasswordChange/ResetPassword";
 import AboutUs from "../AboutUs/Aboutus";
-
 import { Navigate } from 'react-router-dom';
 import { useRoutes } from "react-router-dom";
 import Videos from "../Videos";
@@ -78,6 +79,10 @@ const ProtectedRoutes = () => {
         {
             path: "/test",
             element: <Display />
+        },
+        {
+            path: "/discussion/:idm",
+            element: user ? <Forum /> : <Navigate replace to="/" />
         },
         {
             path: "/404",

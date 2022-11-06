@@ -1,122 +1,117 @@
 import React, { useState, useEffect } from 'react';
 import '../Styles.css';
 import Comment from './Comment';
-import CommentForm from './CommentForm';
 import Axios from 'axios';
+import axios from '../../utils/axios';
 import { useAuth } from "../../hooks/useAuth";
-// import { collection, getDocs } from 'firebase/firestore';
-// import { db } from './firebase';
+import { TopicCards } from '../../Programme Page/styledComponents';
+import CommentForm from './CommentForm';
+import { useParams } from 'react-router-dom';
 
-const Comments = ({ currentUserId, setNewTopic, newTopic, loading, setLoading }) => {
+
+const Comments = ({ currentUserId, loading, setLoading }) => {
     const { user } = useAuth();
     const { username, id } = user;
     const [comments, setcomments] = useState([]);
+    const [Title, setTitle] = useState([])
+    const [newTopic, setnewTopic] = useState(false)
     const [activeComments, setactiveComments] = useState(null);
-    const rootComments = comments.filter(comment => comment.parentId === null);
+    const rootComments = comments.filter(comment => comment.parentId === 0);
     const url = 'https://api.npoint.io/898023a9b97e28317456';
 
+    const { idm } = useParams()
 
     const getReplies = commendId => {
         return comments.filter(comment => comment.parentId === commendId).sort((a, b) => new Date(a.createdAt).getTime() - new Date(b.createdAt).getTime());
     }
 
-    const createComment = async (text, parentId = null) => {
-        return {
-            id: Math.random().toString(36).substr(2, 9),
-            body: text,
-            parentId,
-            userId: id,
-            username: username,
-            createdAt: new Date().toISOString(),
-        };
+    // const createComment = async (text, parentId = null) => {
+    //     return {
+    //         id: Math.random().toString(36).substr(2, 9),
+    //         body: text,
+    //         parentId,
+    //         userId: id,
+    //         username: username,
+    //         createdAt: new Date().toISOString(),
+    //     };
 
-    };
+    // };
 
-    const updateComment = async (text) => {
-        return { text };
-    };
+    // const updateComment = async (text) => {
+    //     return { text };
+    // };
 
-    const deleteComment = async () => {
-        return {};
-    };
+    // const deleteComment = async () => {
+    //     return {};
+    // };
 
-    const addComment = (text, parentId) => {
-        createComment(text, parentId)
-            .then(async (comment) => {
-                await Axios.post(url, [...comments, comment], {
-                    headers: {
-                        "Content-Type": "application/json"
-                    }
-                })
-                    .then(res => {
-                        Axios.get(url)
-                            .then((resp) => {
-                                setcomments(resp.data)
-                            })
-                            .catch((err) => {
-                                // console.log(err);
-                            })
+    const addComment = (text, parentId = null) => {
+        axios.post(`/forum/reply/${idm}/${username}/${new Date().toISOString()}/${parentId}/${id}`, {
+            comments: text
+        })
+            .then(res => {
+                axios.get(`/forum/TopicComments/${idm}`)
+                    .then((resp) => {
+                        setTitle(resp.data[0])
+                        setcomments(resp.data[1])
                     })
-                    .catch(err => {
-                        // console.log(err);
+                    .catch((err) => {
+                        console.log(err);
                     })
-                setactiveComments(null)
             })
-            .catch((err) => {
+            .catch(err => {
                 console.log(err);
             })
+        setactiveComments(null)
+        setnewTopic(false)
     }
 
     const deleteComments = (commentId) => {
         if (window.confirm('Are you sure that you want to remove comment?')) {
-            deleteComment(commentId)
+            axios.post(`/forum/delete/${commentId}`)
                 .then(() => {
-                    const updatedcomments = comments.filter(
-                        (comment) => comment.id !== commentId
-                    );
-                    Axios.post(url, updatedcomments)
-                        .then((res) => {
-                            // console.log(res);
+                    axios.get(`/forum/TopicComments/${idm}`)
+                        .then((resp) => {
+                            setTitle(resp.data[0])
+                            setcomments(resp.data[1])
                         })
                         .catch((err) => {
-                            // console.log(err);
+                            console.log(err);
                         })
-                    setcomments(updatedcomments)
+                })
+                .catch((err) => {
+                    console.log(err);
                 })
         }
     }
 
     const updatecomment = (text, commentId) => {
-        updateComment(text, commentId)
+        axios.post(`/forum/edit/${commentId}`, {
+            comments: text
+        })
             .then(() => {
-                const updatedcomments = comments.map(comment => {
-                    if (comment.id === commentId) {
-                        return { ...comment, body: text }
-                    }
-                    return comment
-                })
-                Axios.post(url, updatedcomments)
-                    .then((res) => {
-                        // console.log(res);
+                axios.get(`/forum/TopicComments/${idm}`)
+                    .then((resp) => {
+                        setTitle(resp.data[0])
+                        setcomments(resp.data[1])
                     })
                     .catch((err) => {
-                        // console.log(err);
+                        console.log(err);
                     })
-                setcomments(updatedcomments)
-                setactiveComments(null)
             })
+            .catch((err) => {
+                console.log(err);
+            })
+        setactiveComments(null)
+
     }
 
 
     useEffect(() => {
-        Axios.get(url,
-            {
-                headers: {
-                    "Content-Type": "application/json",
-                }
-            })
+        axios.get(`/forum/TopicComments/${idm}`)
             .then((res) => {
-                setcomments(res.data)
+                setTitle(res.data[0])
+                setcomments(res.data[1])
                 setLoading(false);
 
             })
@@ -124,45 +119,28 @@ const Comments = ({ currentUserId, setNewTopic, newTopic, loading, setLoading })
                 console.log(err);
             })
         // eslint-disable-next-line react-hooks/exhaustive-deps
-    }, [])
-
-    Axios.get(url,
-        {
-            headers: {
-                "Content-Type": "application/json",
-            }
-        })
-        .then((res) => {
-            setcomments(res.data)
-            // setLoading(false);
-
-        })
-        .catch((err) => {
-            console.log(err);
-        })
-
-
-    if (newTopic) {
-        return (
-            <>
-
-                <CommentForm submitLabel='Write' handleSubmit={addComment} />
-                {/* <div className="comments-container">
-                    {rootComments.map((rootComment) => (
-                        <Comment key={rootComment.id} comment={rootComment} replies={getReplies(rootComment.id)} currentUserId={currentUserId} deleteComment={deleteComments} activeComment={activeComments} setActiveComment={setactiveComments} addComment={addComment} updateComment={updatecomment} />
-                    ))}
-                </div> */}
-            </>
-        )
-    }
-
+    }, [comments])
 
     return (
-        <div className='comments'>
-            {comments.length !== 0 ?
-                <h3 className='comments-title'>{comments[0].title}</h3>
-                : ''
+        <TopicCards>
+            {
+                Title.map((title) => (
+                    <>
+                        <h1 className='text-left'>{title.Topic}</h1>
+                        <p>{title.summary}</p>
+                        <div className='flex flex-row justify-between'>
+                            <p>Posted by {title.author}</p>
+                            <p>{new Date(title.createdAt).toLocaleDateString()} {new Date(title.createdAt).toLocaleTimeString()}</p>
+                        </div>
+                        <p><button className="comment-action text-sm" onClick={() => setnewTopic(true)}>Reply</button></p>
+                        {
+                            newTopic && <CommentForm submitLabel='Write' handleSubmit={addComment} handleCancel={() => setnewTopic(false)} />
+                        }
+                    </>
+                ))
             }
+
+
             <hr />
 
             <div className="comments-container">
@@ -170,7 +148,7 @@ const Comments = ({ currentUserId, setNewTopic, newTopic, loading, setLoading })
                     <Comment key={rootComment.id} comment={rootComment} replies={getReplies(rootComment.id)} currentUserId={currentUserId} deleteComment={deleteComments} activeComment={activeComments} setActiveComment={setactiveComments} addComment={addComment} updateComment={updatecomment} />
                 ))}
             </div>
-        </div>
+        </TopicCards>
     )
 }
 

@@ -1,10 +1,18 @@
 .below_nav {
   height: 450px;
   width: 100vw;
+  /* background-position: center center; */
   background-repeat: no-repeat;
   background-size: cover;
   overflow: hidden;
-  animation: fade 100s infinite;
+  animation: fade 80s linear infinite 0s;
+  animation-timing-function: ease-in-out;
+  background-image: linear-gradient(
+      0deg,
+      rgba(0, 0, 0, 0.6),
+      rgba(0, 0, 0, 0.6)
+    ),
+    url("../Assets/BackgroundImages/0000\ E-library.jpg");
 }
 
 .searchb {
@@ -13,14 +21,14 @@
 }
 
 @keyframes fade {
-  0% {
+  /* 0% {
     background-image: linear-gradient(
         0deg,
         rgba(0, 0, 0, 0.6),
         rgba(0, 0, 0, 0.6)
       ),
-      url("../Assets/BackgroundImages/0000\ E-library.jpg");
-  }
+      url("../Assets/BackgroundImages/207175-women-Russian-books-library-book_store-748x499.jpg");
+  } */
   10% {
     background-image: linear-gradient(
         0deg,
@@ -111,9 +119,4 @@
     display: flex;
     flex-direction: row;
   }
-}
-
-.Everything {
-  /* background-image: linear-gradient(0deg, rgba(0,0,0,0.05),rgba(0,0,0,0.05)), url("../Assets/paper.jpg"); */
-  background-repeat: no repeat;
 }

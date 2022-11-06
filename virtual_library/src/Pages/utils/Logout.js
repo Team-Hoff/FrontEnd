@@ -1,14 +1,15 @@
+import React from "react";
 import { useAuth } from "../hooks/useAuth"
 
 const Logout = () => {
-    const {logout} = useAuth();
+    const { logout } = useAuth();
     logout();
-    return(
+    return (
         <div>
-        <div className="loader-container">
-            <div className="spinner"></div>
+            <div className="loader-container">
+                <div className="spinner"></div>
+            </div>
         </div>
-    </div>
     )
 }
 

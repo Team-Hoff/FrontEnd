@@ -210,6 +210,27 @@ export const CourseCards = styled.div`
         width:250px;
     }
 `
+
+export const TopicCards = styled.div`
+    background: #fff;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    border-radius: 10px;
+    width: 100%;
+    padding: 30px;
+    margin-bottom: 30px;
+    box-shadow: 5px 10px 18px #888888;
+    transition: all 0.2s ease-in-out;
+
+    &:hover{
+        transform: scale(1.02);
+        transition: all 0.2s ease-in-out;
+        /* cursor: pointer; */
+    }
+
+`
+
 export const CourseCardIcon = styled.img`
     height: 160px;
     width: 100%;

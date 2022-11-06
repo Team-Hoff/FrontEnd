@@ -19,7 +19,6 @@ function Searchbar({ placeholder, data }) {
         setwordEntered(searchWord);
         const newFilter = data.filter((value) => {
             return value.name.toLowerCase().includes(searchWord.toLowerCase())
-            // value.IDM.toLowerCase().includes(searchWord.toLowerCase())
         });
         if (searchWord === "") {
             setFilteredData([]);

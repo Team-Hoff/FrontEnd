@@ -1,6 +1,6 @@
 import { Erromsg, StyledContainer, StyledFormArea, StyledFormButton, Avatar, StyledTitle, StyledSubTitle, colors, ButtonGroup, ExtraText, TextLink, CopyrightText } from "../Components/Style";
 import Logo from './../Assets/Klogo.png';
-import { useState } from "react";
+import React, { useState } from "react";
 import axios from './utils/axios';
 import { Form, Formik } from "formik";
 import { TextInput, CustomSelect } from "../Components/Form";
@@ -74,7 +74,7 @@ const Signup = () => {
           <div style={{ display: 'flex' }}>
             <Avatar image={Logo} />
             <StyledTitle color='Light black' size={40}>
-              <span style={{ font: "normal 36px 'Poppins', cursive", margin: 0 }}>Virtual</span><span style={{ color: '#e0ac1c',font: "normal 36px 'Poppins', cursive" }}>Library</span>
+              <span style={{ font: "normal 36px 'Poppins', cursive", margin: 0 }}>Virtual</span><span style={{ color: '#e0ac1c', font: "normal 36px 'Poppins', cursive" }}>Library</span>
             </StyledTitle></div>
 
           {!signedUp ? (<>
@@ -106,12 +106,12 @@ const Signup = () => {
                   email: Yup.string()
                     .required("Please enter an email")
                     .email("Invalid email format")
-                    .matches( /^((?![/*<>#$%^&]).)*$/, "Symbol not allowed for this field"),
+                    .matches(/^((?![/*<>#$%^&]).)*$/, "Symbol not allowed for this field"),
                   password: Yup.string()
                     .required("Please enter a password")
                     .min(5, "Should be in between 5 and 24 characters")
                     .max(24, "Should be in between 5 and 24 characters")
-                    .matches( /^((?![@/*<>#$%^&]).)*$/, "Symbol not allowed for this field"),
+                    .matches(/^((?![@/*<>#$%^&]).)*$/, "Symbol not allowed for this field"),
                   repeatPassword: Yup.string()
                     .required("Confirm your password")
                     .oneOf([Yup.ref("password")], "Password is not the same"),
@@ -126,7 +126,7 @@ const Signup = () => {
               onSubmit={handleSubmit}
             >
 
-              {({ isSubmitting}) => (
+              {({ isSubmitting }) => (
                 <Form>
                   <TextInput
                     name="fullname"

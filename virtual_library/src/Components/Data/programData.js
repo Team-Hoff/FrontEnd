@@ -32,6 +32,9 @@ import compv from "../../Pages/Programme Page/Images/Videos/COEvideo.mp4";
 import biov from "../../Pages/Programme Page/Images/Videos/BiomedicalVideo.mp4";
 import elecv from "../../Pages/Programme Page/Images/Videos/ElectricalVideo.mp4";
 import telev from "../../Pages/Programme Page/Images/Videos/TelecomVideo.mp4";
+import aerov from "../../Pages/Programme Page/Images/Videos/pexels-yan-krukov-8198659.mp4";
+import agricv from "../../Pages/Programme Page/Images/Videos/video.mp4"
+
 
 export const ProgramData = [
     {
@@ -71,7 +74,7 @@ export const ProgramData = [
         name: 'Aerospace Engineering',
         img: `${Aerospace}`,
         pic: `${aero}`,
-        vid: `${telev}`,
+        vid: `${aerov}`,
         paragraph: 'Aerospace engineering is the primary field of engineering concerned with the development of aircraft and spacecraft. It has two major and overlapping branches: aeronautical engineering and astronautical engineering.'
 
     },
@@ -80,7 +83,7 @@ export const ProgramData = [
         name: 'Agricultural Engineering',
         img: `${Agricultural}`,
         pic: `${agric}`,
-        vid: `${telev}`,
+        vid: `${agricv}`,
         paragraph: 'Agricultural engineering is the field of study and application of engineering science and designs principles for agriculture purposes, combining the various disciplines of mechanical, civil, electrical, food science, environmental, software, and chemical engineering to improve the efficiency of farms and agribusiness enterprisesnas well as to ensure sustainability of natural and renewable resources.'
 
     },
@@ -89,7 +92,7 @@ export const ProgramData = [
         name: 'Chemical Engineering',
         img: `${Chemical}`,
         pic: `${chem}`,
-        vid: `${telev}`,
+        vid: `${compv}`,
         paragraph: 'Chemical engineering is an engineering field which deals with the study of operation and design of chemical plants as well as methods of improving production.'
 
     },
@@ -98,7 +101,7 @@ export const ProgramData = [
         name: 'Geological Engineering',
         img: `${geological}`,
         pic: `${geol}`,
-        vid: `${telev}`,
+        vid: `${biov}`,
         paragraph: 'Geological engineering (GEOE) is the development and conservation of natural resources in ways useful to humankind.'
 
     },
@@ -107,7 +110,7 @@ export const ProgramData = [
         name: 'Geomatic Engineering',
         img: `${geomatic}`,
         pic: `${geom}`,
-        vid: `${telev}`,
+        vid: `${elecv}`,
         paragraph: 'Geomatics engineering is the surveying of the entire or a part of the earth with various techniques (satellites positioning, satellite images processing, etc.) and the resulting spatial data is evaluated and expressed in maps and plans in the computer environment'
 
     },
@@ -116,7 +119,7 @@ export const ProgramData = [
         name: 'Materials Engineering',
         img: `${Materials}`,
         pic: `${mat}`,
-        vid: `${telev}`,
+        vid: `${aerov}`,
         paragraph: 'Material engineering focuses on creating new substances or changing the physical and chemical composition of existing materials to improve their properties. '
 
     },
@@ -134,7 +137,7 @@ export const ProgramData = [
         name: 'Petroleum Engineering',
         img: `${Petroleum}`,
         pic: `${petroleum}`,
-        vid: `${telev}`,
+        vid: `${agricv}`,
         paragraph: 'Petroleum engineering is a field of engineering concerned with the activities related to the production of Hydrocarbons, which can be either crude oil or natural gas.'
 
     },
@@ -143,7 +146,7 @@ export const ProgramData = [
         name: 'Petrochemical Engineering',
         img: `${Petrochem}`,
         pic: `${petrochem}`,
-        vid: `${telev}`,
+        vid: `${compv}`,
         paragraph: 'Petroleum engineering is a field of engineering concerned with the activities related to the production of Hydrocarbons, which can be either crude oil or natural gas.'
 
     },
@@ -152,7 +155,7 @@ export const ProgramData = [
         name: 'Metallurgical Engineering',
         img: `${Metallurgical}`,
         pic: `${metall}`,
-        vid: `${telev}`,
+        vid: `${biov}`,
         paragraph: 'Metallurgical engineering is the study of metals and how metals can be safely transformed into products that benefit humanity such as surgical implants, computer chips, cars, materials for space exploration, and more.'
 
     },
@@ -161,7 +164,7 @@ export const ProgramData = [
         name: 'Mechanical Engineering',
         img: `${Mechanical}`,
         pic: `${mech}`,
-        vid: `${telev}`,
+        vid: `${elecv}`,
         paragraph: 'Mechanical engineering is the application of the principles and problem-solving techniques of engineering from design to manufacturing to the marketplace for any object. Mechanical engineers analyze their work using the principles of motion, energy, and force—ensuring that designs function safely, efficiently, and reliably, all at a competitive cost.'
 
     }

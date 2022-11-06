@@ -1,5 +1,4 @@
 import React from 'react';
-import './Thumbnail.css'
 import { data } from './PicData'
 import { MdChevronLeft, MdChevronRight } from 'react-icons/md'
 import {

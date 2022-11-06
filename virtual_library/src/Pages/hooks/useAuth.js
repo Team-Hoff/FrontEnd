@@ -1,3 +1,4 @@
+import React from "react";
 import { createContext, useContext, useMemo } from "react";
 import axios from "../utils/axios";
 import { useLocalStorage } from "./useLocalStorage";
@@ -11,27 +12,27 @@ export const AuthProvider = ({ children }) => {
 
   //set the login function call in the Auth component and render the component
   const login = async () => {
-      const response = await 
+    const response = await
       axios.get("/auth")
-      .catch(()=>{window.location='/'})
-      const user_details = response.data
-      setUser(user_details)
-      return
-     
-    };
+        .catch(() => { window.location = '/' })
+    const user_details = response.data
+    setUser(user_details)
+    return
+
+  };
 
   // call this function to sign out logged in user
-  const logout = async() => {
+  const logout = async () => {
     //Send request to backend to clear the session
     await axios.get("/logout") //preferably axios.delete
-    .then(()=>setUser(null))
-    .catch(()=> setUser(null))
+      .then(() => setUser(null))
+      .catch(() => setUser(null))
     // setUser(null)
-    
+
   };
-  const delete_user = async() => {
+  const delete_user = async () => {
     await axios.delete("/delete")
-    .then(()=>setUser(null))
+      .then(() => setUser(null))
   }
 
   const value = useMemo(
@@ -45,7 +46,7 @@ export const AuthProvider = ({ children }) => {
     [user]
   );
 
-  return <AuthContext.Provider value={value}>{ children }</AuthContext.Provider>;
+  return <AuthContext.Provider value={value}>{children}</AuthContext.Provider>;
 };
 
 

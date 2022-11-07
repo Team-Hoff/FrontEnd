@@ -47,6 +47,7 @@ const Comments = ({ currentUserId, loading, setLoading }) => {
 
     const addComment = async (text, parentId = null) => {
         setnewCom(true)
+        setnewTopic(false)
         await axios.post(`/forum/reply/${idm}/${username}/${new Date().toISOString()}/${parentId}/${id}`, {
             comments: text
         })
@@ -68,7 +69,6 @@ const Comments = ({ currentUserId, loading, setLoading }) => {
                 console.log(err);
             })
         setnewCom(false)
-        setnewTopic(false)
         setactiveComments(null)
     }
 
@@ -163,8 +163,7 @@ const Comments = ({ currentUserId, loading, setLoading }) => {
                             <p><button className="comment-action text-sm" onClick={() => setnewTopic(true)}>Reply</button></p>
                             {
                                 newTopic && (
-                                    newCom ? <div className="spinner"></div> :
-                                        <CommentForm submitLabel='Write' handleSubmit={addComment} handleCancel={() => setnewTopic(false)} isSending={isSending} />
+                                    <CommentForm submitLabel='Write' handleSubmit={addComment} handleCancel={() => setnewTopic(false)} />
                                 )}
                         </>
                     ))
@@ -176,7 +175,10 @@ const Comments = ({ currentUserId, loading, setLoading }) => {
                     {
                         rootComments.map((rootComment) => (
                             <Comment key={rootComment.id} comment={rootComment} replies={getReplies(rootComment.id)} currentUserId={currentUserId} deleteComment={deleteComments} activeComment={activeComments} setActiveComment={setactiveComments} addComment={addComment} updateComment={updatecomment} />
-                        ))}
+                        ))
+                    }
+
+                    {newCom && <div className="spinner"></div>}
 
                 </div>
             </TopicCards>

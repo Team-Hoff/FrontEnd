@@ -1,7 +1,8 @@
-import React from 'react';
+import React, { useState, useEffect } from 'react';
 import '../Styles.css';
 import CommentForm from './CommentForm';
 import ProfileIcon from './Profile-icon.png';
+import { ThreeDots } from 'react-loader-spinner';
 
 const Comment = ({ comment, replies, currentUserId, deleteComment, activeComment, setActiveComment, updateComment, addComment, parentId = 0 }) => {
     const fiveMinutes = 3000000;
@@ -14,6 +15,16 @@ const Comment = ({ comment, replies, currentUserId, deleteComment, activeComment
     const isReplying = activeComment && activeComment.type === 'replying' && activeComment.id === comment.id;
     const isEditing = activeComment && activeComment.type === 'editing' && activeComment.id === comment.id;
     const replyId = parentId ? parentId : comment.id
+
+    const [isReply, setisReply] = useState(false);
+    const [isEdit, setisEdit] = useState(false);
+    const [isdelete, setisdelete] = useState(false);
+
+    useEffect(() => {
+        setisReply(false)
+        setisEdit(false)
+    }, [activeComment])
+
 
     return (
         <div className='comment'>
@@ -29,18 +40,22 @@ const Comment = ({ comment, replies, currentUserId, deleteComment, activeComment
                 </div>
                 {!isEditing && <div className="comment-text">{comment.body}</div>}
                 {isEditing && (
-                    <CommentForm submitLabel='Update' initialText={comment.body} handleSubmit={(text) => updateComment(text, comment.id)} handleCancel={() => { setActiveComment(null) }} />
+                    isEdit ? <div className="spinner"></div> :
+                        <CommentForm submitLabel='Update' initialText={comment.body} handleSubmit={(text) => { updateComment(text, comment.id); setisEdit(true) }} handleCancel={() => { setActiveComment(null) }} />
                 )}
 
                 <div className="comment-actions">
                     {canReply && <div className="comment-action" onClick={() => setActiveComment({ id: comment.id, type: 'replying' })}>Reply</div>}
                     {canEdit && <div className="comment-action" onClick={() => setActiveComment({ id: comment.id, type: 'editing' })}>Edit</div>}
-                    {canDelete && <div className="comment-action" onClick={() => deleteComment(comment.id)}>Delete</div>}
+                    {canDelete && <div className="comment-action" onClick={() => { deleteComment(comment.id) }}>Delete</div>}
                 </div>
                 <hr />
-                {isReplying && (
-                    <CommentForm submitLabel="Reply" handleSubmit={(text) => addComment(text, replyId)} handleCancel={() => { setActiveComment(null) }} />
-                )}
+                {
+                    isReplying && (
+                        isReply ? <div className="spinner"></div> :
+                            <CommentForm submitLabel="Reply" handleSubmit={(text) => { addComment(text, replyId); setisReply(true) }} handleCancel={() => { setActiveComment(null) }} />
+                    )}
+
                 {replies.length > 0 && (
                     <div className="replies">
                         {replies.map(reply => (

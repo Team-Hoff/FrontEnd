@@ -16,6 +16,7 @@ const Comments = ({ currentUserId, loading, setLoading }) => {
     const [Title, setTitle] = useState([]);
     const [newTopic, setnewTopic] = useState(false);
     const [isSending, setisSending] = useState(false);
+    const [newCom, setnewCom] = useState(false)
     const [activeComments, setactiveComments] = useState(null);
     const rootComments = comments.filter(comment => comment.parentId === 0);
     const { idm } = useParams()
@@ -45,7 +46,7 @@ const Comments = ({ currentUserId, loading, setLoading }) => {
     };
 
     const addComment = async (text, parentId = null) => {
-        setisSending(true)
+        setnewCom(true)
         await axios.post(`/forum/reply/${idm}/${username}/${new Date().toISOString()}/${parentId}/${id}`, {
             comments: text
         })
@@ -66,7 +67,7 @@ const Comments = ({ currentUserId, loading, setLoading }) => {
             .catch(err => {
                 console.log(err);
             })
-        setisSending(false)
+        setnewCom(false)
         setnewTopic(false)
         setactiveComments(null)
     }
@@ -92,7 +93,6 @@ const Comments = ({ currentUserId, loading, setLoading }) => {
     }
 
     const updatecomment = async (text, commentId) => {
-        setisSending(true)
         await axios.post(`/forum/edit/${commentId}`, {
             comments: text
         })
@@ -111,7 +111,6 @@ const Comments = ({ currentUserId, loading, setLoading }) => {
             .catch((err) => {
                 console.log(err);
             })
-        setisSending(false)
         setactiveComments(null)
 
     }
@@ -163,8 +162,10 @@ const Comments = ({ currentUserId, loading, setLoading }) => {
                             </div>
                             <p><button className="comment-action text-sm" onClick={() => setnewTopic(true)}>Reply</button></p>
                             {
-                                newTopic && <CommentForm submitLabel='Write' handleSubmit={addComment} handleCancel={() => setnewTopic(false)} isSending={isSending} />
-                            }
+                                newTopic && (
+                                    newCom ? <div className="spinner"></div> :
+                                        <CommentForm submitLabel='Write' handleSubmit={addComment} handleCancel={() => setnewTopic(false)} isSending={isSending} />
+                                )}
                         </>
                     ))
                 }

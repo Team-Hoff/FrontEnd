@@ -1,13 +1,11 @@
 import React, { useState, useEffect } from 'react';
 import '../Styles.css';
 import Comment from './Comment';
-import Axios from 'axios';
 import axios from '../../utils/axios';
 import { useAuth } from "../../hooks/useAuth";
 import { TopicCards } from '../../Programme Page/styledComponents';
 import CommentForm from './CommentForm';
 import { useParams } from 'react-router-dom';
-import { ThreeDots } from 'react-loader-spinner';
 
 const Comments = ({ currentUserId, loading, setLoading }) => {
     const { user } = useAuth();
@@ -73,23 +71,22 @@ const Comments = ({ currentUserId, loading, setLoading }) => {
     }
 
     const deleteComments = async (commentId) => {
-        if (window.confirm('Are you sure that you want to remove comment?')) {
-            setisSending(true)
-            await axios.post(`/forum/delete/${commentId}`)
-                .then(() => {
-                    deleteComment(commentId)
-                        .then(() => {
-                            const updatedcomments = comments.filter(
-                                (comment) => comment.id !== commentId
-                            );
-                            setcomments(updatedcomments)
-                        })
-                })
-                .catch((err) => {
-                    console.log(err);
-                })
-            setisSending(false)
-        }
+        // if (window.confirm('Are you sure that you want to remove comment?')) {
+        await axios.post(`/forum/delete/${commentId}`)
+            .then(() => {
+                deleteComment(commentId)
+                    .then(() => {
+                        const updatedcomments = comments.filter(
+                            (comment) => comment.id !== commentId
+                        );
+                        setcomments(updatedcomments)
+                    })
+            })
+            .catch((err) => {
+                console.log(err);
+            })
+        setactiveComments(null)
+        // }
     }
 
     const updatecomment = async (text, commentId) => {
@@ -157,8 +154,11 @@ const Comments = ({ currentUserId, loading, setLoading }) => {
                             <h1 className='text-left'>{title.Topic}</h1>
                             <p>{title.summary}</p>
                             <div className='flex flex-row justify-between'>
-                                <p>Posted by {title.author}</p>
-                                <p>{new Date(title.createdAt).toLocaleDateString()} {new Date(title.createdAt).toLocaleTimeString()}</p>
+                                <div>Posted by <span className='font-bold'>{title.author}</span></div>
+                                <div className='flex flex-col items-center'>
+                                    <span>{new Date(title.createdAt).toLocaleDateString()}</span>
+                                    <span>{new Date(title.createdAt).toLocaleTimeString()}</span>
+                                </div>
                             </div>
                             <p><button className="comment-action text-sm" onClick={() => setnewTopic(true)}>Reply</button></p>
                             {
@@ -178,8 +178,12 @@ const Comments = ({ currentUserId, loading, setLoading }) => {
                         ))
                     }
 
-                    {newCom && <div className="spinner"></div>}
-
+                    {
+                        (newCom && newTopic) &&
+                        <div className='flex flex-col items-center'>
+                            <div className="spinner"></div>
+                        </div>
+                    }
                 </div>
             </TopicCards>
         </>

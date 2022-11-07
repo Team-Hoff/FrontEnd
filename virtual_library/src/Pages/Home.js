@@ -39,7 +39,7 @@ const Home = () => {
 
 
   return (
-    <div className="Everything">
+    <div className="Everything" style={{ overflowX: 'hidden' }}>
 
       <Navbar />
 
@@ -52,21 +52,21 @@ const Home = () => {
                 WELCOME TO THE CoE VIRTUAL LIBRARY
               </span></h1>
               <p style={{ color: 'white', textAlign: 'center' }}>You don't need to go through  the stress of asking your colleagues for your course materials. Get all your engineering  course materials right here !!</p>
-              {/* <div className="searchb"><Searchbar placeholder="Search for course..." data={course}/></div> */}
+
               <div className="searchb">
                 <Searchbar placeholder="Search for course..." data={course} />
               </div>
             </div>
           </div>
         </div>
-    </section>
+      </section>
       <hr></hr>
-      <div className='progcard'>
+
       <RecommendedBooks />
-      <ProgramCard/> 
-      
-      </div>
-      
+      <ProgramCard />
+
+
+
 
       <Footer />
 

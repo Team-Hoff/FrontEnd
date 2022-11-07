@@ -13,7 +13,7 @@
 }
 
 .progcards:hover {
-  transform: scale(1.02);
+  transform: scale(1.05);
   transition: all 0.2s ease-in-out;
   /* cursor: pointer; */
 }
@@ -22,6 +22,12 @@
   height: 180px;
   /* mix-blend-mode: ; */
   background-color: transparent;
+}
+
+@media screen and (max-width: 600px) {
+  .progcards {
+    margin-left: 50px;
+  }
 }
 
 /* @media screen and (max-width: 600px) {

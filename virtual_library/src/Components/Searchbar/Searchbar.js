@@ -115,7 +115,7 @@ function Searchbar({ placeholder, data }) {
                             return <Link onMouseEnter={(e) => {
                                 setwordEntered(e.currentTarget.innerText)
                                 setword(e.currentTarget.innerText)
-                            }} key={[value.id, value.IDM]} className='dataItem' to={`/home/${value.IDM}/${value.id}`}><p>{value.name}, {value.IDM.toUpperCase()}</p></Link>
+                            }} key={[value.id, value.IDM]} className='dataItem hover:bg-[lightgray]' to={`/home/${value.IDM}/${value.id}`}><p>{value.name}, {value.IDM.toUpperCase()}</p></Link>
                         })}
                     </div>
                 )}

@@ -8,6 +8,9 @@ module.exports = {
       'sm': '390px',
       // => @media (min-width: 640px) { ... }
 
+      'nn': '460px',
+      // => @media (min-width: 460px) { ... }
+
       'mdd': '768px',
       // => @media (min-width: 768px) { ... }
 
@@ -25,5 +28,7 @@ module.exports = {
     },
     extend: {},
   },
-  plugins: [],
+  plugins: [
+    require('tailwind-scrollbar-hide')
+  ],
 }

@@ -200,7 +200,7 @@ export const CourseCards = styled.div`
     transition: all 0.2s ease-in-out;
 
     &:hover{
-        transform: scale(1.02);
+        transform: scale(1.03);
         transition: all 0.2s ease-in-out;
         cursor: pointer;
     }
@@ -220,11 +220,11 @@ export const TopicCards = styled.div`
     width: 100%;
     padding: 30px;
     margin-bottom: 30px;
-    box-shadow: 5px 10px 8px 10px rgba(0, 0, 0, 0.2);
+    box-shadow: 10px 15px 13px 15px rgba(0, 0, 0, 0.2);
     transition: all 0.2s ease-in-out;
 
     &:hover{
-        transform: scale(1.02);
+        transform: scale(1.03);
         transition: all 0.2s ease-in-out;
         /* cursor: pointer; */
     }
@@ -244,7 +244,8 @@ export const CourseHeader = styled.h2`
     margin-bottom: 64px;
 
     @media (max-width: 1000px){
-        font-size: 1rem;
+        font-size: 1.1rem;
+        font-weight:700;
     }
 
 `

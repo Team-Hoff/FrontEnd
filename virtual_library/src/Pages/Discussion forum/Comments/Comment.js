@@ -2,7 +2,6 @@ import React, { useState, useEffect } from 'react';
 import '../Styles.css';
 import CommentForm from './CommentForm';
 import ProfileIcon from './Profile-icon.png';
-import { ThreeDots } from 'react-loader-spinner';
 
 const Comment = ({ comment, replies, currentUserId, deleteComment, activeComment, setActiveComment, updateComment, addComment, parentId = 0 }) => {
     const fiveMinutes = 3000000;
@@ -14,11 +13,11 @@ const Comment = ({ comment, replies, currentUserId, deleteComment, activeComment
     const createdTime = new Date(comment.createdAt).toLocaleTimeString();
     const isReplying = activeComment && activeComment.type === 'replying' && activeComment.id === comment.id;
     const isEditing = activeComment && activeComment.type === 'editing' && activeComment.id === comment.id;
+    const isDeleting = activeComment && activeComment.type === 'deleting' && activeComment.id === comment.id;
     const replyId = parentId ? parentId : comment.id
 
     const [isReply, setisReply] = useState(false);
     const [isEdit, setisEdit] = useState(false);
-    const [isdelete, setisdelete] = useState(false);
 
     useEffect(() => {
         setisReply(false)
@@ -36,23 +35,42 @@ const Comment = ({ comment, replies, currentUserId, deleteComment, activeComment
                     <div className="comment-author">
                         {comment.username}
                     </div>
-                    <div>{createdAt} {createdTime}</div>
+                    <div className='flex flex-col items-center'>
+                        <span>{createdAt}</span>
+                        <span>{createdTime}</span>
+                    </div>
+                    {/* <div>{createdAt} {createdTime}</div> */}
                 </div>
-                {!isEditing && <div className="comment-text">{comment.body}</div>}
+                {
+                    !isEditing &&
+                    !isDeleting &&
+                    <div className="comment-text">{comment.body}</div>
+                }
+                {isDeleting && <div className='flex flex-col items-center'>
+                    <div className="spinner"></div>
+                </div>}
                 {isEditing && (
-                    isEdit ? <div className="spinner"></div> :
+                    isEdit ? (
+                        <div className='flex flex-col items-center'>
+                            <div className="spinner"></div>
+                        </div>
+                    ) :
                         <CommentForm submitLabel='Update' initialText={comment.body} handleSubmit={(text) => { updateComment(text, comment.id); setisEdit(true) }} handleCancel={() => { setActiveComment(null) }} />
                 )}
 
                 <div className="comment-actions">
                     {canReply && <div className="comment-action" onClick={() => setActiveComment({ id: comment.id, type: 'replying' })}>Reply</div>}
                     {canEdit && <div className="comment-action" onClick={() => setActiveComment({ id: comment.id, type: 'editing' })}>Edit</div>}
-                    {canDelete && <div className="comment-action" onClick={() => { deleteComment(comment.id) }}>Delete</div>}
+                    {canDelete && <div className="comment-action" onClick={() => { deleteComment(comment.id); setActiveComment({ id: comment.id, type: 'deleting' }) }}>Delete</div>}
                 </div>
                 <hr />
                 {
                     isReplying && (
-                        isReply ? <div className="spinner"></div> :
+                        isReply ? (
+                            <div className='flex flex-col items-center'>
+                                <div className="spinner"></div>
+                            </div>
+                        ) :
                             <CommentForm submitLabel="Reply" handleSubmit={(text) => { addComment(text, replyId); setisReply(true) }} handleCancel={() => { setActiveComment(null) }} />
                     )}
 

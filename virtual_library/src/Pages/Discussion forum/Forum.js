@@ -1,5 +1,4 @@
 import React, { useState } from 'react';
-import Sidebar from './Sidebar';
 import Comments from './Comments/Comments';
 import Footer from '../../Components/Footer/Footer';
 import Navbar from '../../Components/Navbar/Navbar';
@@ -24,18 +23,19 @@ const Forum = () => {
                 <Navbar />
 
 
-                <div className='w-full flex flex-col h-full min-h-screen bg-gray-200'>
-                    {/* <Sidebar /> */}
-                    <div style={{ marginTop: '25px', width: '60px' }}><GoBack /></div>
-                    <div className='w-full h-max flex flex-col gap-10 pt-10 px-5 pb-10 '>
+                <div className='w-full flex flex-col h-full min-h-screen'>
+                    <div className='flex flex-col nn:flex-row'>
+                        <div style={{ marginTop: '25px', width: '60px' }}><GoBack /></div>
+                        <div className='w-full h-max flex flex-col gap-10 pt-10 px-5 pb-10 '>
 
-                        <div className='h-full px-6 pt-4 bg-white w-full'>
+                            <div className='h-full pt-4 bg-white w-full'>
 
-                            <Comments currentUserId={id} setLoading={setLoading} loading={loading} />
+                                <Comments currentUserId={id} setLoading={setLoading} loading={loading} />
 
+
+                            </div>
 
                         </div>
-
                     </div>
 
                 </div>

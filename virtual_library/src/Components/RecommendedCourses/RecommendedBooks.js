@@ -40,16 +40,18 @@ export default function RecommendedBooks() {
     }
 
     return <>
-        <h1 className='display-6'>Most Visited Courses For {user.programme}</h1>
+        <div className='text-center'>
+            <h1 className='display-6'>Most Visited Courses For {user.programme}</h1>
+        </div>
         <div className='relative flex items-center'>
             <MdChevronLeft className='opacity-50 cursor-pointer hover:opacity-100' onClick={slideLeft} size={40} />
             <div id='slider' className='w-full h-full overflow-x-scroll scroll whitespace-nowrap scroll-smooth scrollbar-hide'>
                 {courses.map((item) => (
                     <CCol className="w-[320px] inline-block p-2 cursor-pointer hover:scale-105 ease-in-out duration-300">
-                        <Card className="progcards" key={item.id}>
+                        <Card className="progcards" key={item.id} style={{ marginLeft: 0 }}>
                             <Card.Img className="progcardsimg" variant="top" src={item.img} />
                             <Card.Body className="cardbody">
-                                <Card.Title className="cardTitle">{item.name}</Card.Title>
+                                {/* <Card.Title className="cardTitle">{item.name}</Card.Title> */}
                                 <Link to={`/home/${lower(user.programme)}/${item.id}`} style={{ color: 'white', textDecoration: 'none' }}>{
                                     loading ? <>
                                         {/* <CButton disabled >
@@ -81,6 +83,8 @@ export default function RecommendedBooks() {
             </div>
 
             <MdChevronRight className='opacity-50 cursor-pointer hover:opacity-100' onClick={slideRight} size={40} />
+
         </div>
+        <hr />
     </>
 }

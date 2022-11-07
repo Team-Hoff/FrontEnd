@@ -16,17 +16,17 @@ const Topic = ({ loading, setLoading, newTopic, setNewTopic }) => {
     const isTextareaDisable = text.length === 0 || title.length === 0;
 
 
-    const createComment = async (text, title) => {
-        return {
-            Topic: title,
-            author: username,
-            createdAt: new Date().toISOString(),
-            summary: text,
-            topicID: Math.random().toString(36).substr(2, 9),
-            userID: id,
-        };
+    // const createComment = async (text, title) => {
+    //     return {
+    //         Topic: title,
+    //         author: username,
+    //         createdAt: new Date().toISOString(),
+    //         summary: text,
+    //         topicID: Math.random().toString(36).substr(2, 9),
+    //         userID: id,
+    //     };
 
-    };
+    // };
 
     const addComment = async (text, title) => {
 
@@ -53,6 +53,7 @@ const Topic = ({ loading, setLoading, newTopic, setNewTopic }) => {
     }
 
 
+    // eslint-disable-next-line react-hooks/exhaustive-deps
     useEffect(() => {
         if (Data === null) {
             setnoTopic(false)
@@ -72,11 +73,6 @@ const Topic = ({ loading, setLoading, newTopic, setNewTopic }) => {
             .catch((err) => {
                 console.log(err);
             })
-
-
-
-
-        // eslint-disable-next-line react-hooks/exhaustive-deps
     })
 
 
@@ -153,12 +149,17 @@ const Topic = ({ loading, setLoading, newTopic, setNewTopic }) => {
 
                                         <p>{a.summary}</p>
                                         <div className='flex flex-row justify-between'>
-                                            <p>Posted by {a.author}</p>
-                                            <p>{new Date(a.createdAt).toLocaleDateString()} {new Date(a.createdAt).toLocaleTimeString()}</p>
+                                            <div>Posted by <span className='font-bold'>{a.author}</span></div>
+                                            <div className='flex flex-col items-center'>
+                                                <span>{new Date(a.createdAt).toLocaleDateString()}</span>
+                                                <span>{new Date(a.createdAt).toLocaleTimeString()}</span>
+                                            </div>
                                         </div>
-                                        <Link to={`/discussion/${a.topicID}`} className='no-underline w-32'>
-                                            View Replies
-                                        </Link>
+                                        <p>
+                                            <Link to={`/discussion/${a.topicID}`} className='no-underline hover:p-2 hover:tracking-[2px] transition-all ease-in-out duration-75 '>
+                                                GO TO DISCUSSION
+                                            </Link>
+                                        </p>
                                     </TopicCards>
                                 </>
                             )
@@ -174,12 +175,17 @@ const Topic = ({ loading, setLoading, newTopic, setNewTopic }) => {
                                         <h1 className='text-left'>{a.Topic}</h1>
 
                                         <p>{a.summary}</p>
+
                                         <div className='flex flex-row justify-between'>
-                                            <p>Posted by {a.author}</p>
-                                            <p>{new Date(a.createdAt).toLocaleDateString()} {new Date(a.createdAt).toLocaleTimeString()}</p>
+                                            <div>Posted by <span className='font-bold'>{a.author}</span></div>
+                                            <div className='flex flex-col'>
+                                                <span>{new Date(a.createdAt).toLocaleDateString()}</span>
+                                                <span>{new Date(a.createdAt).toLocaleTimeString()}</span>
+                                            </div>
                                         </div>
-                                        <Link to={`/discussion/${a.topicID}`} className='no-underline w-32'>
-                                            View Replies
+
+                                        <Link to={`/discussion/${a.topicID}`} className='no-underline hover:p-2 hover:tracking-[2px] transition-all ease-in-out duration-75 '>
+                                            GO TO DISCUSSION
                                         </Link>
                                     </TopicCards>
                                 </>

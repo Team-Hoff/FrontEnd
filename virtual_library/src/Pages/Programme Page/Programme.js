@@ -11,6 +11,7 @@ import '../../Components/loading.css'
 import { useAuth } from '../hooks/useAuth';
 import { VideoContainer, VideoBg, Video1, VideoContent, VideoHeader, InfoContainer, InfoWrapper, InfoRow, Column1, Column2, ImgWrapper, Img, ProgrammeInfo, CourseCardContainer, CourseCardWrapper, CourseCards, CourseCardIcon, CourseHeader } from "./styledComponents";
 import Classroom from "./Images/Classroom-rafiki.svg";
+import { Card, Button } from 'react-bootstrap';
 
 
 function Programme() {
@@ -165,14 +166,20 @@ function Programme() {
                                     if (Number(course.year) === Number(courseQuery) && (Number(course.semester === 1))) return course
                                     return ''
                                 }).map((course) => (
-                                    <div key={course.id} style={{ marginBottom: '20px' }}>
-                                        <Link to={`/home/${id}/${course.id}`} style={{ textDecoration: 'none' }}>
-                                            <CourseCards>
-                                                <CourseCardIcon src={course.img} />
-                                                <CourseHeader  >{course.name}</CourseHeader>
-                                            </CourseCards>
-                                        </Link>
-                                    </div>
+                                    // <div key={course.id} style={{ marginBottom: '20px' }}>
+                                    //     <Link to={`/home/${id}/${course.id}`} style={{ textDecoration: 'none' }}>
+                                    //         <CourseCards>
+                                    //             <CourseCardIcon src={course.img} />
+                                    //             <CourseHeader>{course.name}</CourseHeader>
+                                    //         </CourseCards>
+                                    //     </Link>
+                                    // </div>
+                                    <Card className="progcards" key={course.id} style={{ marginBottom: '20px', marginLeft: 0 }}>
+                                        <Card.Img className="progcardsimg" variant="top" src={course.img} />
+                                        <Card.Body className="cardbody">
+                                            <Link to={`/home/${id}/${course.id}`} style={{ color: 'white', textDecoration: 'none' }}><Button variant="primary" style={{ background: 'grey', borderColor: 'grey' }} className="cardsbutton">{course.name}</Button></Link>
+                                        </Card.Body>
+                                    </Card>
                                 )
                                 )
                             }
@@ -193,14 +200,20 @@ function Programme() {
                                     if (Number(course.year) === Number(courseQuery) && (Number(course.semester === 2))) return course
                                     return ''
                                 }).map((course) => (
-                                    <div key={course.id} style={{ marginBottom: '20px' }}>
-                                        <Link to={`/home/${id}/${course.id}`} style={{ textDecoration: 'none' }}>
-                                            <CourseCards>
-                                                <CourseCardIcon src={course.img} />
-                                                <CourseHeader >{course.name}</CourseHeader>
-                                            </CourseCards>
-                                        </Link>
-                                    </div>
+                                    // <div key={course.id} style={{ marginBottom: '20px' }}>
+                                    //     <Link to={`/home/${id}/${course.id}`} style={{ textDecoration: 'none' }}>
+                                    //         <CourseCards>
+                                    //             <CourseCardIcon src={course.img} />
+                                    //             <CourseHeader >{course.name}</CourseHeader>
+                                    //         </CourseCards>
+                                    //     </Link>
+                                    // </div>
+                                    <Card className="progcards" key={course.id} style={{ marginBottom: '20px', marginLeft: 0 }}>
+                                        <Card.Img className="progcardsimg" variant="top" src={course.img} />
+                                        <Card.Body className="cardbody">
+                                            <Link to={`/home/${id}/${course.id}`} style={{ color: 'white', textDecoration: 'none' }}><Button variant="primary" style={{ background: 'grey', borderColor: 'grey' }} className="cardsbutton">{course.name}</Button></Link>
+                                        </Card.Body>
+                                    </Card>
                                 )
                                 )
                             }

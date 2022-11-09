@@ -160,7 +160,10 @@ const Comments = ({ currentUserId, loading, setLoading }) => {
                                     <span>{new Date(title.createdAt).toLocaleTimeString()}</span>
                                 </div>
                             </div>
-                            <p><button className="comment-action text-sm" onClick={() => setnewTopic(true)}>Reply</button></p>
+                            {!newTopic && !newCom ?
+                                <p><button className="comment-action text-sm" onClick={() => setnewTopic(true)}>Reply</button></p>
+                                : ""
+                            }
                             {
                                 newTopic && (
                                     <CommentForm submitLabel='Write' handleSubmit={addComment} handleCancel={() => setnewTopic(false)} />
@@ -179,7 +182,7 @@ const Comments = ({ currentUserId, loading, setLoading }) => {
                     }
 
                     {
-                        (newCom && newTopic) &&
+                        newCom &&
                         <div className='flex flex-col items-center'>
                             <div className="spinner"></div>
                         </div>

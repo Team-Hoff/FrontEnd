@@ -59,9 +59,25 @@ const Comment = ({ comment, replies, currentUserId, deleteComment, activeComment
                 )}
 
                 <div className="comment-actions">
-                    {canReply && <div className="comment-action" onClick={() => setActiveComment({ id: comment.id, type: 'replying' })}>Reply</div>}
-                    {canEdit && <div className="comment-action" onClick={() => setActiveComment({ id: comment.id, type: 'editing' })}>Edit</div>}
-                    {canDelete && <div className="comment-action" onClick={() => { deleteComment(comment.id); setActiveComment({ id: comment.id, type: 'deleting' }) }}>Delete</div>}
+
+                    {
+                        canReply && (
+                            !isDeleting && !isEditing && !isReplying ?
+                                <div className="comment-action" onClick={() => setActiveComment({ id: comment.id, type: 'replying' })}>Reply</div>
+                                : "")
+                    }
+                    {
+                        canEdit && (
+                            !isDeleting && !isEditing && !isReplying ?
+                                <div className="comment-action" onClick={() => setActiveComment({ id: comment.id, type: 'editing' })}>Edit</div>
+                                : "")
+                    }
+                    {
+                        canDelete && (
+                            !isDeleting && !isEditing && !isReplying ?
+                                <div className="comment-action" onClick={() => { deleteComment(comment.id); setActiveComment({ id: comment.id, type: 'deleting' }) }}>Delete</div>
+                                : "")
+                    }
                 </div>
                 <hr />
                 {

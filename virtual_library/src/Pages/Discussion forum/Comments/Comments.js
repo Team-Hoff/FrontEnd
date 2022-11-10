@@ -44,8 +44,11 @@ const Comments = ({ currentUserId, loading, setLoading }) => {
     };
 
     const addComment = async (text, parentId = null) => {
-        setnewCom(true)
+        // setnewCom(true)
         setnewTopic(false)
+        if (newTopic) {
+            setnewCom(true)
+        }
         await axios.post(`/forum/reply/${idm}/${username}/${new Date().toISOString()}/${parentId}/${id}`, {
             comments: text
         })

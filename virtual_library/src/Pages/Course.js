@@ -277,9 +277,9 @@ const Course = () => {
                                         <Card.Img className="progcardsimg" variant="top" src={pbook.image} />
                                         <Card.Body className="cardbody">
                                             <Card.Title className="cardTitle">{pbook.bookName}</Card.Title>
-                                            <Link to={`${pbook.link}`} style={{ color: 'white', textDecoration: 'none' }}>
+                                            <a href={pbook.bookLink} target="_blank" rel="noopener noreferrer" style={{ color: 'white', textDecoration: 'none' }}>
                                                 <CButton color='secondary'>Download</CButton>
-                                            </Link>
+                                            </a>
                                         </Card.Body>
                                     </Card>
                                 </CCol>,

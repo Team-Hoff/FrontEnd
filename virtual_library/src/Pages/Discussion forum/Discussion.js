@@ -69,15 +69,15 @@ const Discussion = () => {
                         <div className='px-2 pt-1' >
                             <div className='flex'>
                                 <div className='relative'>
-                                    <div className='absolute top-3 left-0 flex items-center pl-1 z-5 w-[20px] z-50'>
+                                    <div className='absolute top-3 left-0 flex items-center pl-1 w-[20px] z-1'>
                                         <AiOutlineSearch className='text-white' />
                                     </div>
 
                                 </div>
 
-                                <input type="text" placeholder='Search for topic' value={wordEntered} onChange={handleFilter} className='w-[350px] rounded px-4 py-2.5 text-sm font-light bg-gray-800 text-gray-400 outline-0 border-0 z-10 focus:outline-none focus:ring-1 focus:ring-gray-500' />
+                                <input type="text" placeholder='Search for topic' value={wordEntered} onChange={handleFilter} className='w-[350px] rounded px-4 py-2.5 text-sm font-light bg-gray-800 text-gray-400 outline-0 border-0 focus:outline-none focus:ring-1 focus:ring-gray-500' />
                                 <div className='relative'>
-                                    <div className='absolute -left-6 top-1.5 z-50'>
+                                    <div className='absolute -left-6 top-1.5 z-1'>
                                         {wordEntered === "" ? <ClosedIcon style={{ visibility: 'hidden' }} /> : <ClosedIcon id="clearBtn" onClick={clearInput} className='text-white' />}
                                     </div>
 

@@ -23,7 +23,7 @@ const Login = () => {
   const googleAuth = () => {
     window.open(
       // `http://www.thvirtuallibrary.com:3500/api/auth/google`,
-      `http://localhost:3500/api/auth/google`,
+      `https://evening-springs-84078.herokuapp.com/api/auth/google`,
       "_self"
     );
   }

@@ -18,7 +18,9 @@ import ResetPassword from "../PasswordChange/ResetPassword";
 import AboutUs from "../AboutUs/Aboutus";
 import { Navigate } from 'react-router-dom';
 import { useRoutes } from "react-router-dom";
-import Videos from "../Videos";
+// import Videos from "../Videos";
+// import Tutor from "../TutorPage/TutorDisplay/Tutor"
+// import Form_info from "../TutorPage/FormComponents/Form/Form"
 import Display from "./Display";
 
 const ProtectedRoutes = () => {
@@ -67,10 +69,6 @@ const ProtectedRoutes = () => {
         {
             path: "/profile",
             element: user ? <Profile /> : <Navigate replace to="/" />
-        },
-        {
-            path: "/videos",
-            element: <Videos />
         },
         {
             path: "/discussion",

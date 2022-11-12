@@ -88,8 +88,8 @@ function Profile() {
           seterr2(response)
         }
         await login();
-        window.location.href = window.location
         setLoading(false);
+        return window.location.reload()
       })
       .catch((err) => {
         console.log(err.response)

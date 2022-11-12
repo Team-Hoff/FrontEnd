@@ -1,5 +1,6 @@
 import styled from "styled-components";
 import Female from "../Images/female.png"
+import ProfileIcon from "../../Discussion forum/Comments/Profile-icon.png";
 import Tutorimg from "../Images/Profiling.svg"
 
 
@@ -68,7 +69,7 @@ export const BodyContainer = styled.div`
 `
 export const BodyWrapper = styled.div`
     margin: 100px auto;
-    width: 1200px;
+    width: auto;
     height: auto;
     /* background-color: #dff1ed; */
     display: flex;
@@ -90,7 +91,7 @@ export const BodyCard = styled.div`
   background-color: #fef1dc;
   box-shadow: 3px 4px 8px black;
   position: relative;
-  display: grid;
+  display: flex;
   grid-template-columns: 1fr 1fr;
   border-radius: 20px;
   overflow: hidden;
@@ -118,9 +119,10 @@ export const CardLeft = styled.div`
 `
 export const Image = styled.div`
   width: 100%;
-  height: 300px;
-  display: grid;
-  background-image: url(${Female});
+  height: 250px;
+  display: flex;
+  margin-top: 20px;
+  background-image: url(${ProfileIcon});
   background-position: center;
   background-size: contain;
   background-repeat: no-repeat;

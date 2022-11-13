@@ -64,10 +64,6 @@ const Home = () => {
 
       <RecommendedBooks />
       <ProgramCard />
-
-
-
-
       <Footer />
 
     </div>

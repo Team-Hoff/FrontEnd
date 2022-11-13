@@ -5,16 +5,18 @@ import Tutorimg from "../Images/Profiling.svg"
 import Female from "../Images/female.png"
 import { Data } from "./Data";
 import { Link } from "react-router-dom";
-
+import Navbar from "../../../Components/Navbar/Navbar";
+import Footer from "../../../Components/Footer/Footer";
 
 function Tutor(){
 
     return(
         <>
+        <Navbar />
         <HeaderContainer>
             <HeaderLeft>
                 <h1>Hello there, you can sign up to be a tutor</h1>
-                <Link to="/">
+                <Link to="/tutorform">
                     <HeaderButton>
                         Sign Up
                     </HeaderButton>
@@ -67,29 +69,16 @@ function Tutor(){
                                             )
                                         })
                                     }
-                            
-                            
                             </h3>
-                            
-    
                         </CardRight>
-                        
-    
-    
-    
                     </BodyCard>
                         )
 
                     })
                 }
-
-              
             </BodyWrapper>
-
-
-
         </BodyContainer>
-
+        <Footer />
         </>
     )
 }

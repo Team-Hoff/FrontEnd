@@ -41,7 +41,7 @@ export default function RecommendedBooks() {
 
     return <>
         <div className='text-center'>
-            <h1 className='display-6'>Most Visited Courses For {user.programme}</h1>
+            <h1 className='display-6'>Recommended Courses For {user.programme}</h1>
         </div>
         <div className='relative flex items-center'>
             <MdChevronLeft className='opacity-50 cursor-pointer hover:opacity-100' onClick={slideLeft} size={40} />
@@ -63,16 +63,10 @@ export default function RecommendedBooks() {
                                             Loading...
                                         </CButton>
                                     </> :
-                                        <CPopover
-                                            trigger='hover'
-                                            content='HHAHAHAHAHAH.................Aenean lacinia bibendum nulla sed consectetur. Praesent commodo cursus magna, vel
-                                            scelerisque nisl consectetur et. Donec sed odio dui. Donec ullamcorper nulla non metus
-                                            auctor fringilla.'
-                                            placement="auto"
-                                        >
+                                        
                                             <Button variant="primary" style={{ background: 'grey', borderColor: 'grey' }}
                                                 className="cardsbutton">{item.name}</Button>
-                                        </CPopover>}
+                                        }
                                 </Link>
                             </Card.Body>
                         </Card>
@@ -80,6 +74,7 @@ export default function RecommendedBooks() {
 
 
                 ))}
+                {/* <h1 className='display-3'><a href='/tutors'>Will you like to tutor?</a></h1> */}
             </div>
 
             <MdChevronRight className='opacity-50 cursor-pointer hover:opacity-100' onClick={slideRight} size={40} />

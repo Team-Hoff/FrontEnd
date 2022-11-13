@@ -47,6 +47,7 @@ function Profiledp() {
                         <li><img src={user1} alt="" className="resize"></img><Link to="/profile">My Profile</Link></li>
                         <li><img src={aboutus} alt="" className="resize"></img><Link to="/aboutus">About us</Link></li>
                         <li><img src={forum} alt="" className="resize"></img><Link to="/discussion">Discussion <br />Forum</Link></li>
+                        <li><img src={forum} alt="" className="resize"></img><Link to="/tutors">Tutor </Link></li>
                         <li><img src={logouts} alt="" className="resize" style={{ marginBottom: '10px' }}></img><Link to="/logout" >Log out</Link></li>
                     </ul>
                 </div>

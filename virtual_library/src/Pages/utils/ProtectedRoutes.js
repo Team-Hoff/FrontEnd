@@ -9,6 +9,7 @@ import Programme from '../Programme Page/Programme';
 import Course from '../Course';
 import Logout from "./Logout";
 // import Settings from "../settings";
+
 import Profile from "../Profile/ProfileInputs";
 import Discussion from "../Discussion forum/Discussion";
 import Forum from "../Discussion forum/Forum";
@@ -22,6 +23,8 @@ import { useRoutes } from "react-router-dom";
 // import Tutor from "../TutorPage/TutorDisplay/Tutor"
 // import Form_info from "../TutorPage/FormComponents/Form/Form"
 import Display from "./Display";
+import Tutor from "../TutorPage/TutorDisplay/Tutor";
+import FormInfo from "../TutorPage/FormComponents/Form/Form";
 
 const ProtectedRoutes = () => {
     const { user } = useAuth();
@@ -75,8 +78,8 @@ const ProtectedRoutes = () => {
             element: user ? <Discussion /> : <Navigate replace to="/" />
         },
         {
-            path: "/test",
-            element: <Display />
+            path: "/tutorform",
+            element: <FormInfo />
         },
         {
             path: "/discussion/:idm",
@@ -85,6 +88,10 @@ const ProtectedRoutes = () => {
         {
             path: "/404",
             element: user ? <PageNotFound /> : <Navigate replace to="/" />
+        },
+        {
+            path: "/tutors",
+            element:  <Tutor />
         },
         {
             path: "*",

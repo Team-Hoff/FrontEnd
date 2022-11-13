@@ -11,8 +11,9 @@ import { Link, Navigate, useLocation } from 'react-router-dom';
 import { BoxLoading, RollBoxLoading, LadderLoading, MeteorRainLoading, WindMillLoading } from 'react-loadingg';
 import '../Components/loading.css'
 import { useAuth } from './hooks/useAuth';
-import { CButton, CCard, CCardBody, CCardImage, CCardTitle, CCol } from '@coreui/react';
-import { Card } from 'react-bootstrap';
+import { CAlert, CButton, CCard, CCardBody, CCardImage, CCardTitle, CCol, CPopover } from '@coreui/react';
+import { Button, Card } from 'react-bootstrap';
+import Unavailable from '../Assets/Asset/Unavailable.jfif'
 
 
 
@@ -31,6 +32,7 @@ const Course = () => {
     const idm = pathname.slice(6);
     const converter = require('number-to-words');
     const [modal, setModal] = useState(false);
+    const [visible, setVisible] = useState(false)
 
     const getFiles = (path, lecture_name) => {
         setLoading(true);
@@ -274,25 +276,16 @@ const Course = () => {
                             {book.map((pbook) =>
                                 <CCol className="w-[320px] inline-block p-2 cursor-pointer hover:scale-105 ease-in-out duration-300">
                                     <Card className="progcards" key={pbook.id}>
-                                        <Card.Img className="progcardsimg" variant="top" src={pbook.image} />
+                                        <Card.Img className="progcardsimg" variant="top" src={Unavailable} />
                                         <Card.Body className="cardbody">
                                             <Card.Title className="cardTitle">{pbook.bookName}</Card.Title>
-                                            <a href={pbook.bookLink} target="_blank" rel="noopener noreferrer" style={{ color: 'white', textDecoration: 'none' }}>
-                                                <CButton color='secondary'>Download</CButton>
-                                            </a>
+                                            
+                                                <CAlert color="danger" dismissible visible={visible} onClose={() => setVisible(false)}>Sorry, temporarily unavailable</CAlert>
+                                                <CButton color="dark" onClick={() => setVisible(true)}>Download</CButton>
+                                            
                                         </Card.Body>
                                     </Card>
                                 </CCol>,
-
-                                {/* <CCol xs={3}>
-                                    <CCard style={{ width: '20rem' }}>
-                                        <CCardImage orientation="top" src={pbook.image} />
-                                        <CCardBody>
-                                            <CCardTitle>{pbook.bookName}</CCardTitle>
-                                            <CButton href={pbook.bookLink}>Download</CButton>
-                                        </CCardBody>
-                                    </CCard>
-                                    </CCol> */}
 
                             )}
                         </div>

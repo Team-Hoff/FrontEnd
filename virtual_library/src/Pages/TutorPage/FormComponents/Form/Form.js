@@ -6,7 +6,9 @@ import PROGRESS_BOX from "../Progress-box/Progress-box";
 import * as yup from "yup"
 import Error from "./Error";
 import { Link } from "react-router-dom";
-import { SettingsInput, SettingsSelect } from "../../../../Components/Form";
+import { SettingsInput, SettingsSelect, TextInput } from "../../../../Components/Form";
+import { CButton } from "@coreui/react";
+import axios from "../../../utils/axios";
 
 const validationSchema = yup.object(
     {
@@ -27,8 +29,17 @@ const validationSchema = yup.object(
 function Form_info() {
 
     const [index, setIndex] = useState(1);
+    const [form_values, setForm_values] = useState()
 
-
+    const handleSubmit =  (input) => {
+         axios.post('/tutor',{
+            input
+         })
+            .then((result) => {
+                console.log(result.data);
+            }).catch((err) => {
+            })
+    }
 
     return (
 
@@ -65,13 +76,12 @@ function Form_info() {
                             city: "",
                             courses: [],
                         }}
-                        onSubmit={(values) => {
-                            console.log(values);
-                        }}
-                    >
-                        {({ values, errors, touched }) => (
-                            <Form>
 
+                    >
+                        {({ values, errors, touched, isSubmitting }) => (
+                            <Form >
+                                
+                                {/* {setForm_values(values)} */}
                                 <div onClick={() => setIndex(1)}>
                                     <h2 className="section">Personal Information</h2>
                                     <p>Enter your personal Information</p>
@@ -206,13 +216,8 @@ function Form_info() {
                                 </div>
 
 
-                                <div className="submit-button">
-                                    {/* <Link to='/Tutors'> */}
-                                    <button type="submit">Submit</button>
-                                    {/* </Link> */}
-
-
-                                </div>
+                            <CButton type="submit" onClick={()=>handleSubmit(values)}>submit</CButton>
+                                
 
 
                             </Form>

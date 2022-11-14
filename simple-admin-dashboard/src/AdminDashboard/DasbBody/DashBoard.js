@@ -7,7 +7,7 @@ import { Audio } from 'react-loader-spinner'
 // import * as FaIcons from 'react-icons/fa';
 import axios from "../../utils/axios";
 import { Container, NavBar, Wrapper, SectionInfo, BoxInfo, SectionInfo2, BoxInfo2 } from "./DashBoardStyled";
-
+import Charts from "../Charts/Charts"
 
 
 function DashBoard() {
@@ -83,6 +83,7 @@ function DashBoard() {
                         </BoxInfo>
 
                     </SectionInfo>
+                    <Charts/>
 
                     <SectionInfo2>
 
@@ -98,6 +99,8 @@ function DashBoard() {
 
 
                     </SectionInfo2>
+
+                    
 
                 </Wrapper>
 

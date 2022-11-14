@@ -98,7 +98,7 @@ export const BoxInfo = styled.div`
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    background-color: #a9fdf8;
+    background-color: #FF652F;
     border-radius: 20px;
 
     .icon{

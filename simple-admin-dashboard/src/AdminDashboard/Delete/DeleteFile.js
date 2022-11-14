@@ -231,7 +231,7 @@ const Delete = () => {
                                 <ButtonGroup>
                                     {!isSubmitting && (
                                         <div style={{ textAlign: 'center' }}>
-                                            <UploadButton type="submit" className="action">Upload </UploadButton>
+                                            <UploadButton type="submit" className="action">Delete</UploadButton>
                                         </div>
                                     )}
                                     {isSubmitting && (

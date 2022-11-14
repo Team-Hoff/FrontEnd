@@ -14,18 +14,23 @@ export const Container = styled.div`
 
   .overlay{
     display: flex;
-  flex-direction: row;
-        background:rgba(333, 444, 331, 0.8);
+    flex-direction: row;
+    background:rgba(333, 444, 331, 0.8);
+
+    @media screen and (max-width:500px){
+       flex-direction: column;
+        
+    }
   }
 `
 export const NavBar = styled.nav`
     position: absolute;
-    inset: 0 0 0 0;
+    /* inset: 0 0 0 0; */
    height: 100px;
    z-index: 1;
    display: grid;
    grid-template-columns: 1fr 1fr;
-    /*place-content: center; */
+    place-content: center;
 
    .hamburger{
      line-height: 100px;
@@ -52,8 +57,8 @@ export const NavBar = styled.nav`
 `
 export const Wrapper = styled.div`
    margin-top: 30px;
-   margin: 30px auto 30px auto;
-   width: 1200px;
+   margin: 20px auto 20px auto;
+   /* width: 1200px; */
    display: flex;
    flex-direction: column;
    display: grid;

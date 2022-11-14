@@ -4,17 +4,17 @@ import Admin from "../../Images/Admin-pana.svg"
 
 
 export const Container = styled.div`
-        width: 100vw;
+        /* width: 100vw; */
         height: 100vh;
         display: flex;
         justify-content: center;
         align-items: center;
-        
-          background-image: url(${Admin});
-            background-repeat: no-repeat;
-            background-attachment: fixed;
-            background-position: bottom right;
-            /* background-color: #fccab8; */
+        overflow-y: hidden;
+        background-image: url(${Admin});
+        background-repeat: no-repeat;
+        background-attachment: fixed;
+        background-position: bottom right;
+            
 
             .overlay{
     display: flex;
@@ -53,13 +53,15 @@ export const InputLabel = styled.label`
   color: #FF652F;
 `
 export const InputField = styled.input`
-  width: 500px;
+  width: 350px;
   border-radius: 10px;
   border: none;
   outline: none;
   height: 28px;
   border: 2px solid rgba(0,0,0,0.5);
-  text-align: center;
+  /* text-align: center; */
+  padding-left:20px;
+  padding-right:40px;
 
   @media (max-width: 700px){
     width: 250px;

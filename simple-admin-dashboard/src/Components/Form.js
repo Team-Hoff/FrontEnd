@@ -1,11 +1,13 @@
 import React, { useState } from "react";
 import { useField } from "formik";
-import { FiEye, FiEyeOff} from "react-icons/fi";
+import { FiEye, FiEyeOff } from "react-icons/fi";
 import { StyledIcon, Erromsg } from "./Style";
 import { useFormikContext } from "formik";
+import { InputSelect, InputField } from "../AdminDashboard/Upload/uploadStyled";
+import { InputField as InputFields } from "../AdminDashboard/LogIn/LoginStyled";
 
 
-export const SettingsInput = ({ icon, ...props }) => {
+export const TextInput = ({ icon, ...props }) => {
     const [field, meta] = useField(props);
     const [show, setShow] = useState(false);
     return (
@@ -13,14 +15,14 @@ export const SettingsInput = ({ icon, ...props }) => {
 
 
             {props.type !== "password" && (
-            <input
-                {...field}
-                {...props}
-            />
+                <InputFields
+                    {...field}
+                    {...props}
+                />
             )}
 
             {props.type === "password" && (
-                <input
+                <InputFields
                     {...field}
                     {...props}
                     type={show ? "text" : "password"}
@@ -30,42 +32,88 @@ export const SettingsInput = ({ icon, ...props }) => {
 
             {
                 props.type === "password" &&
-                <StyledIcon onClick={() => setShow(!show)} right style={{top:'0px'}}>
+                <StyledIcon onClick={() => setShow(!show)} right style={{ top: '3px' }}>
                     {show && <FiEye />}
                     {!show && <FiEyeOff />}
                 </StyledIcon>
             }
 
-                
-            {meta.touched && meta.error ? (
-                <Erromsg style={{paddingTop:'5px'}}>{meta.error}</Erromsg>
-            ): (
-                <Erromsg style={{visibility:"hidden",paddingTop:'5px'}}></Erromsg>
+
+            {
+                meta.touched && meta.error ? (
+                    <Erromsg style={{ paddingTop: '5px' }}>{meta.error}</Erromsg>
+                ) : (
+                    <Erromsg style={{ visibility: "hidden", paddingTop: '5px' }}></Erromsg>
+                )
+            }
+
+
+
+        </div >
+    )
+}
+
+export const SettingsInput = ({ icon, ...props }) => {
+    const [field, meta] = useField(props);
+    const [show, setShow] = useState(false);
+    return (
+        <div>
+
+
+            {props.type !== "password" && (
+                <InputField
+                    {...field}
+                    {...props}
+                />
             )}
 
-            
+            {props.type === "password" && (
+                <InputField
+                    {...field}
+                    {...props}
+                    type={show ? "text" : "password"}
+                />
+            )}
+
+
+            {
+                props.type === "password" &&
+                <StyledIcon onClick={() => setShow(!show)} right style={{ top: '0px' }}>
+                    {show && <FiEye />}
+                    {!show && <FiEyeOff />}
+                </StyledIcon>
+            }
+
+
+            {meta.touched && meta.error ? (
+                <Erromsg style={{ paddingTop: '5px' }}>{meta.error}</Erromsg>
+            ) : (
+                <Erromsg style={{ visibility: "hidden", paddingTop: '5px' }}></Erromsg>
+            )}
+
+
 
         </div>
     )
 }
 
-export const SettingsSelect = ({icon, ...props}) => {
+export const SettingsSelect = ({ icon, ...props }) => {
     const [field, meta] = useField(props);
-   
+
     return (
         <div>
-            
-            <select
+
+            <InputSelect
                 {...field}
                 {...props}
             />
 
             {meta.touched && meta.error ? (
-                <Erromsg style={{paddingTop:'5px'}}>{meta.error}</Erromsg>
-            ): (
-                <Erromsg style={{visibility:"hidden", paddingTop:'5px'}}></Erromsg>
+                <Erromsg style={{ paddingTop: '5px' }}>{meta.error}</Erromsg>
+            ) : (
+                <Erromsg style={{ visibility: "hidden", paddingTop: '5px' }}></Erromsg>
             )}
-            
+
         </div>
     )
 }
@@ -74,28 +122,28 @@ export const SettingsFile = ({ ...props }) => {
     const [field, meta] = useField(props);
     const { setFieldValue } = useFormikContext()
     return (
-        <div style={{ position: "relative" }}>
+        <div >
 
 
-            
+
             <input
                 {...field}
-                {...props} 
+                {...props}
                 onChange={(event) => {
-                     setFieldValue(field.name, event.target.files[0]) 
+                    setFieldValue(field.name, event.target.files[0])
                 }}
-                value={undefined}                
+                value={undefined}
             />
-            
 
-                
+
+
             {meta.touched && meta.error ? (
-                <Erromsg style={{paddingTop:'5px'}}>{meta.error}</Erromsg>
-            ): (
-                <Erromsg style={{visibility:"hidden",paddingTop:'5px'}}></Erromsg>
+                <Erromsg style={{ paddingTop: '5px' }}>{meta.error}</Erromsg>
+            ) : (
+                <Erromsg style={{ visibility: "hidden", paddingTop: '5px' }}></Erromsg>
             )}
 
-            
+
 
         </div>
     )
@@ -103,8 +151,9 @@ export const SettingsFile = ({ ...props }) => {
 
 
 
- 
-            
-            
 
-   
+
+
+
+
+

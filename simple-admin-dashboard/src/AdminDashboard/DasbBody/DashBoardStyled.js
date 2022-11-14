@@ -11,18 +11,25 @@ export const Container = styled.div`
 
   .overlay{
     display: flex;
-  flex-direction: row;
-        background:rgba(333, 444, 331, 0.8);
-  }
+    flex-direction: row;
+    background:rgba(333, 444, 331, 0.8);
+    gap: 15px;
+
+    @media screen and (max-width:500px){
+       flex-direction: column;
+        
+    }
+}
+
 `
 export const NavBar = styled.nav`
     position: absolute;
-    inset: 0 0 0 0;
+    /* inset: 0 0 0 0; */
    height: 100px;
    z-index: 1;
    display: grid;
    grid-template-columns: 1fr 1fr;
-    /*place-content: center; */
+    place-content: center;
 
    .hamburger{
      line-height: 100px;
@@ -54,7 +61,7 @@ export const NavBar = styled.nav`
 export const Wrapper = styled.div`
    margin-top: 30px;
    margin: 30px auto 30px auto;
-   width: 1200px;
+   /* width: 1200px; */
    display: flex;
    flex-direction: column;
    display: grid;
@@ -67,13 +74,18 @@ export const SectionInfo = styled.div`
  margin-bottom: 20px;
  height: auto;
  display: grid;
- grid-template-columns: 1fr 1fr  1fr;
+ /* margin-left: 80px; */
+ /* flex-direction: row; */
+ align-items: center;
+ grid-template-columns: 1fr 1fr;
  gap: 20px;
- margin-top: 100px;
+ margin-top: 50px;
 
  @media (max-width: 800px){
-    display: grid;
-    grid-template-columns: 1fr ;
+    display: flex;
+    /* grid-template-columns: 1fr ; */
+    flex-direction: column;
+    align-items: center;
     place-content: center;
 
     }
@@ -87,13 +99,14 @@ export const BoxInfo = styled.div`
     justify-content: center;
     align-items: center;
     background-color: #a9fdf8;
+    border-radius: 20px;
 
     .icon{
         color: #ff652f;
         font-size: 2rem;
     }
 
-    @media (max-width: 1000px){
+    @media (max-width: 800px){
         height: 120px;
         width: 80%;
     }
@@ -101,7 +114,8 @@ export const BoxInfo = styled.div`
 `
 export const SectionInfo2 = styled.div`
  height: auto;
- width: 60%;
+ padding-left: 50px;
+ width: 70%;
  display: grid;
  grid-template-columns: 1fr 1fr;
  margin: 10px auto;
@@ -117,6 +131,9 @@ height: 300px;
 display: flex;
 flex-direction: row;
 background-color: #1f2833;
+border-radius: 20px;
+
+
 
 img{
     width: 50%;

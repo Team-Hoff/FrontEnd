@@ -1,144 +1,177 @@
 import { Form, Formik } from 'formik';
-import {GiHamburgerMenu} from "react-icons/gi";
+import { GiHamburgerMenu } from "react-icons/gi";
 import * as yup from 'yup';
-import axios from '../axios';
-import React, {useState, useEffect} from 'react';
+import axios from '../../utils/axios';
+import React, { useState, useEffect } from 'react';
 import Sidebar1 from '../../AdminDashboard/Sidebar/Sidebar1';
-import Logo from './../../Assets/Klogo.png';
-import { Avatar, StyledTitle} from '../../Components/Style';
-import { Container, InputContainer, InputField, InputLabel, InputSelect, UploadButton, Wrapper, NavBar } from './uploadStyled';
+import { Container, InputContainer, InputLabel, UploadButton, Wrapper, NavBar } from './uploadStyled';
+import { SettingsFile, SettingsInput, SettingsSelect } from '../../Components/Form';
+import { ButtonGroup } from '../../Components/Style';
+import { ThreeDots } from 'react-loader-spinner';
 
 
 const Upload = () => {
 
     const [course, setcourse] = useState([])
     const [File, setFile] = useState({})
-
+    const [modal, setModal] = useState(false)
     const [isopen, setIsopen] = useState(false);
 
-    const showSidebar=()=>{
+    const showSidebar = () => {
         setIsopen(!isopen)
     }
 
-    useEffect( ()=> {
-        function fetchData(){
-          axios.get("/admin/course")
-        .then(res => {
-          setcourse(res.data.map(o=> o.name).flat());
-        })
-        .catch((err)=> {
-          console.log(err)
-        })
+    useEffect(() => {
+        function fetchData() {
+            axios.get("/admin/course")
+                .then(res => {
+                    setcourse(res.data.map(o => o.name).flat());
+                })
+                .catch((err) => {
+                    console.log(err)
+                })
         }
         fetchData();
-    // eslint-disable-next-line react-hooks/exhaustive-deps
+        // eslint-disable-next-line react-hooks/exhaustive-deps
     }, [])
 
 
-    const uploadHandler =  async (input) =>{
+    const uploadHandler = async (input) => {
         const formData = new FormData();
         formData.append('filetoUpload', File);
         formData.append('courseName', input.courseName)
         formData.append('programme', input.programmeName)
         formData.append('level', input.level)
         formData.append('semester', input.semester)
-  
-        await axios.post("/admin/upload", formData)          
-          .then((res)=>{
-            console.log(res)
-          })
-          .catch((err)=>{
-            console.log(err)
-          })
-        }
+
+        await axios.post("/admin/upload", formData)
+            .then((res) => {
+                console.log(res)
+                setModal(true)
+            })
+            .catch((err) => {
+                console.log(err)
+            })
+
+    }
 
     const slides = [
-        "Lecture One","Lecture Two","Lecture Three","Lecture Four","Lecture Five","Lecture Six","Lecture Seven","Lecture Eight","Lecture Nine","Lecture Ten","Lecture Eleven","Lecture Twelve","Lecture Thirteen","Lecture Fourteen","Lecture Fifteen","Lecture Sixteen","Lecture Seventeen","Lecture Eighteen","Lecture Nineteen","Lecture Twenty"
-        ]
+        "Lecture One", "Lecture Two", "Lecture Three", "Lecture Four", "Lecture Five", "Lecture Six", "Lecture Seven", "Lecture Eight", "Lecture Nine", "Lecture Ten", "Lecture Eleven", "Lecture Twelve", "Lecture Thirteen", "Lecture Fourteen", "Lecture Fifteen", "Lecture Sixteen", "Lecture Seventeen", "Lecture Eighteen", "Lecture Nineteen", "Lecture Twenty"
+    ]
 
 
-    return(
+    const toggleModal = () => {
+        setModal(!modal)
+    }
+
+    if (modal) {
+        document.body.classList.add('active-modall')
+    }
+    else {
+        document.body.classList.remove('active-modall')
+    }
+
+
+    return (
         <Container>
             <div className='overlay'>
 
-            <Sidebar1 isopen={isopen}/>
+                <Sidebar1 isopen={isopen} />
 
-            <NavBar>
-            <GiHamburgerMenu className="hamburger" onClick={showSidebar}  /> 
-                <h1>
-                Upload File
-                </h1>
-               
-            </NavBar>
+                {/* <NavBar>
+                    <GiHamburgerMenu className="hamburger" onClick={showSidebar} style={{ paddingLeft: '10px' }} />
+                   
+                </NavBar> */}
 
-            <Wrapper>
+                <Wrapper>
 
+                    <>
+                        {modal ? (
 
-                <Formik
-                      initialValues={{
-                        courseName:"",
-                        programmeName: "",
-                        level:"",
-                        semester:"",
-                        filetoUpload: ""
-                     }}
-                                validationSchema={
-                                yup.object().shape({
-                                    courseName: yup.string()
+                            <div className="modall">
+                                <div onClick={toggleModal} className="overlayss" ></div>
+                                <div className="modall-content" >
+                                    <div className="topic">
+                                    </div>
+                                    <hr />
+                                    <h3>File has been uploaded</h3>
+
+                                    <br /><br />
+                                    <button className="close-modall" onClick={toggleModal}>OK</button>
+                                </div>
+                            </div>
+
+                        ) : (
+                            <></>
+                        )
+
+                        }
+                    </>
+
+                    <h1 style={{ textAlign: 'center', fontSize: '4rem', color: '#FF652F' }}>
+                        Upload File
+                    </h1>
+
+                    <Formik
+                        initialValues={{
+                            courseName: "",
+                            programmeName: "",
+                            level: "",
+                            semester: "",
+                            filetoUpload: ""
+                        }}
+                        validationSchema={
+                            yup.object().shape({
+                                courseName: yup.string()
                                     .required("Enter the courseName")
                                     .oneOf(course, "Invalid course"),
-                                    programmeName: yup.string()
+                                programmeName: yup.string()
                                     .required("Select the Programme")
                                     .oneOf(["Agricultural Engineering", "Chemical Engineering", "Civil Engineering", "Geomatic Engineering", "Materials Engineering", "Mechanical Engineering", "Electrical Engineering", "Computer Engineering", "Aerospace Engineering", "Petroleum Engineering", "Telecom Engineering", "Geological Engineering", "Biomedical Engineering", "Petrochemical Engineering", "Metallurgical Engineering"], "Select the Programme"),
-                                    semester: yup.string()
+                                semester: yup.string()
                                     .required("Select the Semester")
-                                    .oneOf(["First Semester","Second Semester"],"Select the Semester"),
-                                    level : yup.string()
+                                    .oneOf(["First Semester", "Second Semester"], "Select the Semester"),
+                                level: yup.string()
                                     .required("Select the Year")
-                                    .oneOf(["First Year","Second Year","Third Year","Fourth Year"],"Select the Year"),
-                                    filetoUpload: yup.mixed()
+                                    .oneOf(["First Year", "Second Year", "Third Year", "Fourth Year"], "Select the Year"),
+                                filetoUpload: yup.mixed()
                                     .required("You need to provide a file")
                                     .test("fileFormat", "Unsupported Format", (value) => {
                                         setFile(value)
-                                        return value && (value.name.slice(-3) === "pdf" ||  value.name.slice(-3) === "ppt" || value.name.slice(-4) === "pptx")
+                                        return value && (value.name.slice(-3) === "pdf" || value.name.slice(-3) === "ppt" || value.name.slice(-4) === "pptx")
                                     })
                                     .test("fileFormat", "Invalid document name", (value) => {
                                         setFile(value)
-                                        return value && (slides.includes(value.name.slice(0,-4))  || slides.includes(value.name.slice(0,-5)))
+                                        return value && (slides.includes(value.name.slice(0, -4)) || slides.includes(value.name.slice(0, -5)))
                                     })
-                                    
-                                    })
-                                }
-                                onSubmit={uploadHandler}
-                         >
 
-                {({isSubmitting})=>(
-                    <Form>
+                            })
+                        }
+                        onSubmit={uploadHandler}
+                    >
 
-                       <div style={{display:'flex'}}>
-                        <Avatar image={Logo} />
-                        <StyledTitle color='Light black' size={40}>
-                            <span style={{font: "normal 36px 'Poppins', cursive", margin: 0}}>Virtual</span><span style={{color:'#e0ac1c', font: "normal 36px 'Poppins', cursive"}}>Library</span>
-                        </StyledTitle>
-                        </div>
+                        {({ isSubmitting }) => (
+                            <Form>
 
-                        <InputContainer>
-                                      <InputLabel>CourseName</InputLabel>
 
-                                     
-                                            <InputField  className="input-text"
-                                                name="courseName"
-                                                placeholder="Enter the Course Name"
-                                                type="text" 
-                                            />
-                                            
-                        </InputContainer>
+                                <InputContainer>
+                                    <InputLabel>CourseName</InputLabel>
 
-                        <InputContainer>
-        
-                                
-                                <InputLabel>Programme </InputLabel>
-                                    <InputSelect className="input-text2" name='programmeName'>
+
+                                    <SettingsInput
+                                        className="input-text"
+                                        name="courseName"
+                                        placeholder="Enter the Course Name"
+                                        type="text"
+                                    />
+
+                                </InputContainer>
+
+                                <InputContainer>
+
+
+                                    <InputLabel>Programme </InputLabel>
+                                    <SettingsSelect className="input-text2" name='programmeName'>
                                         <option>-- Select Programme --</option>
                                         <option>Agricultural Engineering</option>
                                         <option>Chemical Engineering</option>
@@ -155,63 +188,72 @@ const Upload = () => {
                                         <option>Biomedical Engineering</option>
                                         <option>Petrochemical Engineering</option>
                                         <option>Metallurgical Engineering</option>
-                                </InputSelect>
-                                
-                        </InputContainer>
+                                    </SettingsSelect>
 
-                        <InputContainer>
-                                
-                                <InputLabel>Level</InputLabel>
-                                
-                                            <InputSelect className="input-text4" name='level'>
-                                            <option>--Select Year--</option>
-                                            <option>First Year</option>
-                                            <option>Second Year</option>
-                                            <option>Third Year</option>
-                                            <option>Fourth Year</option>                    
-                                 </InputSelect>   
-                                            
-                        </InputContainer> 
+                                </InputContainer>
 
-                        <InputContainer>
-                            
-                            <InputLabel>Semester</InputLabel>
-                            
-                            <InputSelect className="input-text3" name='semester'>
-                                <option>--Select Semester--</option>
-                                <option>First Semester</option>
-                                <option>Second Semester</option>
-                            </InputSelect>
-                            
-                                
-                        </InputContainer> 
+                                <InputContainer>
+
+                                    <InputLabel>Level</InputLabel>
+
+                                    <SettingsSelect className="input-text4" name='level'>
+                                        <option>--Select Year--</option>
+                                        <option>First Year</option>
+                                        <option>Second Year</option>
+                                        <option>Third Year</option>
+                                        <option>Fourth Year</option>
+                                    </SettingsSelect>
+
+                                </InputContainer>
+
+                                <InputContainer>
+
+                                    <InputLabel>Semester</InputLabel>
+
+                                    <SettingsSelect className="input-text3" name='semester'>
+                                        <option>--Select Semester--</option>
+                                        <option>First Semester</option>
+                                        <option>Second Semester</option>
+                                    </SettingsSelect>
 
 
-                   <InputContainer>
-                        
-                        <InputLabel>File</InputLabel>
-                        <div className="input-dropdown">
-                            
-                            <input  id="filetoUpload" name="filetoUpload" type="file" />
-                            
-                        </div>  
-                        
-                  </InputContainer> 
-
-                  {!isSubmitting && (
-                    <div style={{textAlign:'center'}}>
-                        <UploadButton type="submit" className="action">Upload </UploadButton>
-                    </div>
-                  )}
+                                </InputContainer>
 
 
-                    </Form>
-                )}
+                                <InputContainer>
+
+                                    <InputLabel>File</InputLabel>
+                                    <div className="input-dropdown">
+
+                                        <SettingsFile id="filetoUpload" name="filetoUpload" type="file" />
+
+                                    </div>
+
+                                </InputContainer>
+                                <ButtonGroup>
+                                    {!isSubmitting && (
+                                        <div style={{ textAlign: 'center' }}>
+                                            <UploadButton type="submit" className="action">Upload </UploadButton>
+                                        </div>
+                                    )}
+
+                                    {isSubmitting && (
+                                        <ThreeDots
+                                            color='#FF652F'
+                                            height={49}
+                                            width={100}
+                                        />
+                                    )}
+                                </ButtonGroup>
+
+
+                            </Form>
+                        )}
 
 
 
-                </Formik>
-            </Wrapper>
+                    </Formik>
+                </Wrapper>
 
 
             </div>

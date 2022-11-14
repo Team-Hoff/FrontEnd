@@ -1,76 +1,109 @@
-import {GiHamburgerMenu} from "react-icons/gi";
+// import { GiHamburgerMenu } from "react-icons/gi";
 import Sidebar1 from "../Sidebar/Sidebar1";
 import UploadFile from "../../Images/upload1.svg";
 import Delete from "../../Images/delete.svg"
-import React, {useState} from "react";
-import * as FaIcons from 'react-icons/fa';
-import { Container, NavBar,Wrapper, SectionInfo, BoxInfo, SectionInfo2, BoxInfo2  } from "./DashBoardStyled";
+import React, { useState, useEffect } from "react";
+import { Audio } from 'react-loader-spinner'
+// import * as FaIcons from 'react-icons/fa';
+import axios from "../../utils/axios";
+import { Container, NavBar, Wrapper, SectionInfo, BoxInfo, SectionInfo2, BoxInfo2 } from "./DashBoardStyled";
 
 
 
-function DashBoard(){
-
+function DashBoard() {
+    const [allusers, setallusers] = useState("")
     const [isopen, setIsopen] = useState(false);
+    const [loading, setloading] = useState(true)
 
-    const showSidebar=()=>{
+    const showSidebar = () => {
         setIsopen(!isopen)
     }
 
-    return(
-      <Container>
-        <div className='overlay'>
+    useEffect(() => {
+        function fetchData() {
+            axios.get("/admin/course/users")
+                .then(res => {
+                    setallusers(res.data.length)
+                    setloading(false)
+                })
+                .catch((err) => {
+                    console.log(err)
+                })
+        }
+        fetchData();
+        // eslint-disable-next-line react-hooks/exhaustive-deps
+    }, [])
 
-        <Sidebar1 isopen={isopen}/>
+    return (
+        <Container>
+            <div className='overlay' >
+                <div style={{ flex: 1, backgroundColor: '#1f2833' }}>
+                    <Sidebar1 isopen={isopen} style={{ marginRight: '10px' }} />
+                </div>
+                {/* <NavBar>
+                    <GiHamburgerMenu className="hamburger" onClick={showSidebar} style={{ paddingLeft: '10px' }} />
 
-           <NavBar>
-               <GiHamburgerMenu className="hamburger" onClick={showSidebar}  /> 
-                <h1>
-                Dashboard
-                </h1>
-               
-            </NavBar>
+                </NavBar> */}
 
-            <Wrapper>
+                <Wrapper>
 
-            <SectionInfo>
+                    <h1 style={{ textAlign: 'center', fontSize: '4rem', color: '#FF652F' }}>
+                        Dashboard
+                    </h1>
 
-                    <BoxInfo>
-                        
-                        <p>Number of students signed up</p>
-                    </BoxInfo>
+                    <SectionInfo>
+
+                        <BoxInfo>
+
+                            <p>Number of students signed up</p>
+                            {loading ? <>
+                                <Audio
+                                    height="50"
+                                    width="50"
+                                    color="blue"
+                                    ariaLabel="audio-loading"
+                                    wrapperStyle={{}}
+                                    wrapperClass="wrapper-class"
+                                    visible={true}
+                                />
+                            </> :
+                                <p style={{ color: 'blue', fontSize: '2rem', paddingTop: '5px' }}>{allusers}</p>
+                            }
+                        </BoxInfo>
 
 
-                    <BoxInfo>
-                    <FaIcons.FaChalkboardTeacher className="icon"/>
-                        Number of tutors
-                    </BoxInfo>
+                        {/* <BoxInfo>
+                            <FaIcons.FaChalkboardTeacher className="icon" />
+                            Number of tutors
+                        </BoxInfo> */}
 
-                    <BoxInfo>
-                        Total number of programmes
-                    </BoxInfo>
+                        <BoxInfo>
+                            <p>Total number of programmes</p>
+                            <p style={{ color: 'blue', fontSize: '2rem', paddingTop: '5px' }}>15</p>
+                        </BoxInfo>
 
-            </SectionInfo>
+                    </SectionInfo>
 
-            <SectionInfo2>
+                    <SectionInfo2>
 
-                <BoxInfo2>
-                    <img src={UploadFile} alt="upload"/>
-                    <p>Upload lecture files and pdfs</p>
-                </BoxInfo2>
+                        <BoxInfo2>
+                            <img src={UploadFile} alt="upload" />
+                            <p>Upload lecture files and pdfs</p>
+                        </BoxInfo2>
 
-                <BoxInfo2>
-                    <img src={Delete} alt="upload"/>
-                    <p>Delete lecture files and pdfs</p>
-                </BoxInfo2>
-                
+                        <BoxInfo2>
+                            <img src={Delete} alt="upload" />
+                            <p>Delete lecture files and pdfs</p>
+                        </BoxInfo2>
 
-           </SectionInfo2>
 
-            </Wrapper>
+                    </SectionInfo2>
 
-        </div>
+                </Wrapper>
 
-      </Container>
+            </div>
+
+        </Container>
     )
 }
 export default DashBoard;

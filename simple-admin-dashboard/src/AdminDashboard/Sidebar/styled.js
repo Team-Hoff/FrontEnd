@@ -6,15 +6,27 @@ import { Link } from "react-router-dom";
 export const SidebarBox = styled.div`
    @import url('https://fonts.googleapis.com/css2?family=Nunito:wght@600&display=swap');
 
-    width: 300px;
+    width: 70px;
     background-color: #1f2833;
-    height: 100vh;
+    min-height: 100vh;
+    margin-right: 10px;
     font-family: 'Nunito', sans-serif;
     overflow: hidden;
     transition: all 0.5s;
+    /* position: fixed; */
 
-    @media (max-width: 1000px){
+    /* @media (max-width: 1000px){
         width: 70px !important;
+    } */
+
+    @media screen and (max-width:500px){
+        min-height:0;
+        width: 100%;
+        display:flex;
+        flex-direction: column;
+        align-items: center;
+        
+        
     }
 `
 export const NavBar = styled.nav`
@@ -52,9 +64,17 @@ export const SidebarProfileIcon = styled.div`
 export const SidebarMenu = styled.div`
     
     position: relative;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
 
+    @media screen and (max-width:500px){
+        flex-direction: row;
+        
+    }
     .icon{
-        width: 60px;
+        /* width: 60px; */
+        /* padding-right:10px; */
         
     }
 
@@ -71,11 +91,16 @@ export const NavLink = styled(Link)`
      color: #ff652f;
      margin-top: 30px;
     display: flex;
-    padding: 10px 15px;
-    gap: 15px;
+    padding: 5px 5px;
+    /* gap: 2px; */
     transition: all 0.5s;
     cursor: pointer;
     text-decoration: none;
+
+    @media screen and (max-width:500px){
+        padding-right: 50px;
+        
+    }
     
     &:hover{
       color: #ff652f;

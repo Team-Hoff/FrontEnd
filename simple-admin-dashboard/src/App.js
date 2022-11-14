@@ -1,37 +1,19 @@
-
 import {
   BrowserRouter as Router,
-  Routes,
-  Route,
 } from "react-router-dom";
-
-import Upload from "./AdminDashboard/Upload/Upload";
-import Delete from "./AdminDashboard/Delete/DeleteFile";
-import DashBoard from "./AdminDashboard/DasbBody/DashBoard";
-import Login from "./AdminDashboard/LogIn/Login";
-
+import { AuthProvider } from "./hooks/useAuth";
+import ProtectedRoutes from "./utils/ProtectedRoutes";
+import "react-loader-spinner/dist/loader/css/react-spinner-loader.css";
 
 function App() {
   return (
     <>
-      
-     <Router>
+      <AuthProvider>
+        <Router>
+          <ProtectedRoutes />
+        </Router>
+      </AuthProvider>
 
-      
-
-       <Routes>
-       
-            <Route path="/login" element={<DashBoard/>}/>
-            <Route path='/dashboard' element={<DashBoard/>}/>
-            <Route path='upload' element={<Upload/>}/>
-            <Route path='delete' element={<Delete/>}/>
-            <Route path="/logout" element={<Login/>}/>
-            
-
-       </Routes>
-
-    </Router> 
-     
     </>
   );
 }

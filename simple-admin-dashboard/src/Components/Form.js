@@ -32,7 +32,7 @@ export const TextInput = ({ icon, ...props }) => {
 
             {
                 props.type === "password" &&
-                <StyledIcon onClick={() => setShow(!show)} right style={{ top: '3px' }}>
+                <StyledIcon onClick={() => setShow(!show)} right style={{ top: '-3px' }}>
                     {show && <FiEye />}
                     {!show && <FiEyeOff />}
                 </StyledIcon>

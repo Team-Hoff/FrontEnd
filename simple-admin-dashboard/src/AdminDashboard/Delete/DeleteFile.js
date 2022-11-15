@@ -113,8 +113,8 @@ const Delete = () => {
                         }
                     </>
 
-                    <h1 style={{ textAlign: 'center', fontSize: '4rem', color: '#FF652F' }}>
-                        Delete File
+                    <h1 style={{ textAlign: 'center', fontSize: '3rem', color: '#FF652F' }}>
+                        DELETE FILE
                     </h1>
 
                     <Formik

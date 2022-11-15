@@ -115,9 +115,10 @@ export const BoxInfo = styled.div`
 export const SectionInfo2 = styled.div`
  height: auto;
  padding-left: 50px;
- width: 70%;
+ /* width: 100%; */
+ padding-right: 20px;
  display: grid;
- grid-template-columns: 1fr 1fr;
+ grid-template-columns: 1fr 1fr 1fr;
  margin: 10px auto;
  gap: 20px;
 

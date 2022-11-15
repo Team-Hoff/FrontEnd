@@ -24,7 +24,7 @@ const Course = () => {
 
 
                 <Wrapper>
-                    <h1 style={{ textAlign: 'center', fontSize: '4rem', color: '#FF652F' }}>
+                    <h1 style={{ textAlign: 'center', fontSize: '3rem', color: '#FF652F' }}>
                         ALL ENGINEERING COURSES
                     </h1>
                     <Table />

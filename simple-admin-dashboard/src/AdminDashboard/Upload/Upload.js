@@ -108,8 +108,8 @@ const Upload = () => {
                         }
                     </>
 
-                    <h1 style={{ textAlign: 'center', fontSize: '4rem', color: '#FF652F' }}>
-                        Upload File
+                    <h1 style={{ textAlign: 'center', fontSize: '3rem', color: '#FF652F' }}>
+                        UPLOAD FILE
                     </h1>
 
                     <Formik

@@ -4,7 +4,7 @@ import UploadFile from "../../Images/upload1.svg";
 import Delete from "../../Images/delete.svg"
 import React, { useState, useEffect } from "react";
 import { Audio } from 'react-loader-spinner'
-// import * as FaIcons from 'react-icons/fa';
+import Course from "../../Images/Admin-pana.svg";
 import axios from "../../utils/axios";
 import { Container, NavBar, Wrapper, SectionInfo, BoxInfo, SectionInfo2, BoxInfo2 } from "./DashBoardStyled";
 import Charts from "../Charts/Charts"
@@ -37,9 +37,9 @@ function DashBoard() {
     return (
         <Container>
             <div className='overlay' >
-                <div style={{ flex: 1, backgroundColor: '#1f2833' }}>
-                    <Sidebar1 isopen={isopen} style={{ marginRight: '10px' }} />
-                </div>
+                {/* <div style={{ flex: 1, backgroundColor: '#1f2833' }}> */}
+                <Sidebar1 style={{ marginRight: '10px' }} />
+                {/* </div> */}
                 {/* <NavBar>
                     <GiHamburgerMenu className="hamburger" onClick={showSidebar} style={{ paddingLeft: '10px' }} />
 
@@ -47,8 +47,8 @@ function DashBoard() {
 
                 <Wrapper>
 
-                    <h1 style={{ textAlign: 'center', fontSize: '4rem', color: '#FF652F' }}>
-                        Dashboard
+                    <h1 style={{ textAlign: 'center', fontSize: '3rem', color: '#FF652F' }}>
+                        DASHBOARD
                     </h1>
 
                     <SectionInfo>
@@ -83,9 +83,14 @@ function DashBoard() {
                         </BoxInfo>
 
                     </SectionInfo>
-                    <Charts/>
+                    <Charts />
 
                     <SectionInfo2>
+
+                        <BoxInfo2>
+                            <img src={Course} alt="upload" />
+                            <p>View all programmes and courses</p>
+                        </BoxInfo2>
 
                         <BoxInfo2>
                             <img src={UploadFile} alt="upload" />
@@ -100,7 +105,7 @@ function DashBoard() {
 
                     </SectionInfo2>
 
-                    
+
 
                 </Wrapper>
 

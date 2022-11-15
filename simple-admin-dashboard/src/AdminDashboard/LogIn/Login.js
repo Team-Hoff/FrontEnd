@@ -4,7 +4,7 @@ import { ButtonGroup, Erromsg } from "../../Components/Style";
 import { TextInput } from "../../Components/Form";
 import * as Yup from 'yup';
 import { Form, Formik } from 'formik';
-// import { Link } from "react-router-dom";
+import Image from '../../Assets/Klogo.png';
 import axios from "../../utils/axios";
 import { useAuth } from "../../hooks/useAuth";
 import { ThreeDots } from 'react-loader-spinner';
@@ -60,7 +60,7 @@ function Login() {
             <Container>
                 <div className='overlay'>
                     <Wrapper>
-
+                        <img src={Image} alt="VL" style={{ width: '80px', height: '80px' }} />
                         <h2>Welcome To The Admin Site</h2>
                         <Formik
                             initialValues={{

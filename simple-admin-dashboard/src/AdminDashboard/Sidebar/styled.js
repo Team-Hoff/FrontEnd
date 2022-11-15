@@ -6,7 +6,7 @@ import { Link } from "react-router-dom";
 export const SidebarBox = styled.div`
    @import url('https://fonts.googleapis.com/css2?family=Nunito:wght@600&display=swap');
 
-    width: 70px;
+    min-width: 80px;
     background-color: #1f2833;
     min-height: 100vh;
     margin-right: 10px;
@@ -20,7 +20,7 @@ export const SidebarBox = styled.div`
     } */
 
     @media screen and (max-width:500px){
-        min-height:0;
+        min-height: 80px;
         width: 100%;
         display:flex;
         flex-direction: column;
@@ -99,15 +99,17 @@ export const NavLink = styled(Link)`
 
     @media screen and (max-width:500px){
         padding-right: 50px;
+        margin-top: 20px;
         
     }
     
-    &:hover{
+    /* &:hover{
       color: #ff652f;
       background:white;
      transition: all 0.5s;
       
-    }
+    } */
+
     &:active{
         color: #ff652f;
         background-color: white;

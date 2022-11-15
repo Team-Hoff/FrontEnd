@@ -8,6 +8,7 @@ import Course from "../../Images/Admin-pana.svg";
 import axios from "../../utils/axios";
 import { Container, NavBar, Wrapper, SectionInfo, BoxInfo, SectionInfo2, BoxInfo2 } from "./DashBoardStyled";
 import Charts from "../Charts/Charts"
+import { Link } from "react-router-dom";
 
 
 function DashBoard() {
@@ -55,7 +56,7 @@ function DashBoard() {
 
                         <BoxInfo>
 
-                            <p>Number of students signed up</p>
+                            <p className="text-[#66fcf1]">Number of students signed up</p>
                             {loading ? <>
                                 <Audio
                                     height="50"
@@ -78,7 +79,7 @@ function DashBoard() {
                         </BoxInfo> */}
 
                         <BoxInfo>
-                            <p>Total number of programmes</p>
+                            <p className="text-[#66fcf1]">Total number of programmes</p>
                             <p style={{ color: 'blue', fontSize: '2rem', paddingTop: '5px' }}>15</p>
                         </BoxInfo>
 
@@ -87,20 +88,26 @@ function DashBoard() {
 
                     <SectionInfo2>
 
-                        <BoxInfo2>
-                            <img src={Course} alt="upload" />
-                            <p>View all programmes and courses</p>
-                        </BoxInfo2>
+                        <Link to="/dashboard/course" className="text-decoration-none">
+                            <BoxInfo2 className="hover:bg-gray-700">
+                                <img src={Course} alt="upload" />
+                                <p>View all programmes and courses</p>
+                            </BoxInfo2>
+                        </Link>
 
-                        <BoxInfo2>
-                            <img src={UploadFile} alt="upload" />
-                            <p>Upload lecture files and pdfs</p>
-                        </BoxInfo2>
+                        <Link to="/dashboard/upload" className="text-decoration-none">
+                            <BoxInfo2 className="hover:bg-gray-700">
+                                <img src={UploadFile} alt="upload" />
+                                <p>Upload lecture files and pdfs</p>
+                            </BoxInfo2>
+                        </Link>
 
-                        <BoxInfo2>
-                            <img src={Delete} alt="upload" />
-                            <p>Delete lecture files and pdfs</p>
-                        </BoxInfo2>
+                        <Link to="/dashboard/delete" className="text-decoration-none hover:bg-gray-50">
+                            <BoxInfo2 className="hover:bg-gray-700">
+                                <img src={Delete} alt="upload" />
+                                <p>Delete lecture files and pdfs</p>
+                            </BoxInfo2>
+                        </Link>
 
 
                     </SectionInfo2>

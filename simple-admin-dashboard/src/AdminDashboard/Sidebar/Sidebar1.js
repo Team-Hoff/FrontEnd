@@ -33,23 +33,19 @@ function Sidebar1(props) {
                     <span className="title" style={{ display: props.isopen ? "block" : "none" }} >DashBoard</span>
                 </NavLink>
 
-
+                <NavLink to="/dashboard/course" >
+                    <span className="icon" style={{ fontSize: props.isopen ? "20px" : "2rem" }}><AiIcons.AiFillBook /></span>
+                    <span className="title" style={{ display: props.isopen ? "block" : "none" }}>All Programmes</span>
+                </NavLink>
 
                 <NavLink to="/dashboard/upload">
                     <span className="icon" style={{ fontSize: props.isopen ? "20px" : "2rem" }}><FaIcons.FaFileUpload /></span>
                     <span className="title" style={{ display: props.isopen ? "block" : "none" }}>Upload File</span>
                 </NavLink>
 
-
-
                 <NavLink to="/dashboard/delete" >
                     <span className="icon" style={{ fontSize: props.isopen ? "20px" : "2rem" }}><AiIcons.AiFillDelete /></span>
                     <span className="title" style={{ display: props.isopen ? "block" : "none" }}>Delete File</span>
-                </NavLink>
-
-                <NavLink to="/dashboard/course" >
-                    <span className="icon" style={{ fontSize: props.isopen ? "20px" : "2rem" }}><AiIcons.AiFillBook /></span>
-                    <span className="title" style={{ display: props.isopen ? "block" : "none" }}>All Programmes</span>
                 </NavLink>
 
                 <NavLink to="/logout">

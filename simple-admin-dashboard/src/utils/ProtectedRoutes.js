@@ -8,6 +8,7 @@ import Login from "../AdminDashboard/LogIn/Login";
 import Upload from "../AdminDashboard/Upload/Upload";
 import Delete from "../AdminDashboard/Delete/DeleteFile";
 import DashBoard from "../AdminDashboard/DasbBody/DashBoard";
+import Course from "../AdminDashboard/Courses/Courses";
 
 
 const ProtectedRoutes = () => {
@@ -20,6 +21,10 @@ const ProtectedRoutes = () => {
         {
             path: "/dashboard",
             element: user ? <DashBoard /> : <Navigate replace to="/" />
+        },
+        {
+            path: "/dashboard/course",
+            element: user ? <Course /> : <Navigate replace to="/" />
         },
         {
             path: "/dashboard/upload",

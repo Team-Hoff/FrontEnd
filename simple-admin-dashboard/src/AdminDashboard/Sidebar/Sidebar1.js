@@ -47,7 +47,10 @@ function Sidebar1(props) {
                     <span className="title" style={{ display: props.isopen ? "block" : "none" }}>Delete File</span>
                 </NavLink>
 
-
+                <NavLink to="/dashboard/course" >
+                    <span className="icon" style={{ fontSize: props.isopen ? "20px" : "2rem" }}><AiIcons.AiFillDelete /></span>
+                    <span className="title" style={{ display: props.isopen ? "block" : "none" }}>All Programmes</span>
+                </NavLink>
 
                 <NavLink to="/logout">
                     <span className="icon" style={{ fontSize: props.isopen ? "20px" : "2rem" }}><AiIcons.AiOutlineLogout /></span>

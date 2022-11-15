@@ -4,6 +4,7 @@ import {
 import { AuthProvider } from "./hooks/useAuth";
 import ProtectedRoutes from "./utils/ProtectedRoutes";
 import "react-loader-spinner/dist/loader/css/react-spinner-loader.css";
+import './scss/style.scss'
 
 function App() {
   return (

@@ -275,14 +275,14 @@ const Course = () => {
                         <div className="ref_bookss">
                             {book.map((pbook) =>
                                 <CCol className="w-[320px] inline-block p-2 cursor-pointer hover:scale-105 ease-in-out duration-300">
-                                    <Card className="progcards" key={pbook.id}>
+                                    <Card className="progcards" key={pbook.id} style={{ marginLeft: 0 }}>
                                         <Card.Img className="progcardsimg" variant="top" src={Unavailable} />
                                         <Card.Body className="cardbody">
                                             <Card.Title className="cardTitle">{pbook.bookName}</Card.Title>
-                                            
-                                                <CAlert color="danger" dismissible visible={visible} onClose={() => setVisible(false)}>Sorry, temporarily unavailable</CAlert>
-                                                <CButton color="dark" onClick={() => setVisible(true)}>Download</CButton>
-                                            
+
+                                            <CAlert color="danger" dismissible visible={visible} onClose={() => setVisible(false)}>Sorry, temporarily unavailable</CAlert>
+                                            <CButton color="dark" onClick={() => setVisible(true)}>Download</CButton>
+
                                         </Card.Body>
                                     </Card>
                                 </CCol>,
